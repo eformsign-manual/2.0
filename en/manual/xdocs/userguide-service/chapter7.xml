@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Documents</title>
+
+  <section>
+    <title>Documents</title>
+
+    <para><indexterm class="singular">
+        <primary>Documents</primary>
+      </indexterm>Documents are stored in the following three menus according
+    to the document status:</para>
+
+    <itemizedlist>
+      <listitem>
+        <para><emphasis role="bold">In progress:</emphasis> <indexterm
+            class="singular">
+            <primary>Documents</primary>
+
+            <secondary>In progress</secondary>
+          </indexterm>View the list of documents you have created or
+        signed/approved that are incomplete.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Action required:</emphasis> <indexterm
+            class="singular">
+            <primary>Documents</primary>
+
+            <secondary>Action required</secondary>
+          </indexterm>View the list of documents you have saved as a draft,
+        requested by other members for you to sign or approve, or sent to
+        external recipients but have yet to be signed.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Completed:</emphasis> <indexterm
+            class="singular">
+            <primary>Documents</primary>
+
+            <secondary>Completed</secondary>
+          </indexterm>View the list of completed documents among the documents
+        created by you.</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>By using these menus, you can easily view the status and history of
+    each document, find the documents you want by filtering and searching,
+    resend documents, void/reject documents that have yet to be completed in
+    the workflow, and edit draft documents.</para>
+
+    <para>All documents and related activities are stored in the Documents
+    menus, and you can view detailed information about the document status and
+    history.</para>
+
+    <para>Aside from the three document menus, there is another menu for
+    managing documents.</para>
+
+    <itemizedlist>
+      <listitem>
+        <para><emphasis role="bold">Manage documents:</emphasis> <indexterm
+            class="singular">
+            <primary>Manage documents</primary>
+          </indexterm>View and manage all documents created from a template in
+        which you have been given access permission.</para>
+      </listitem>
+    </itemizedlist>
+
+    <note>
+      <para>The company administrator can view and manage all documents in the
+      company.</para>
+    </note>
+
+    <figure>
+      <title>Location of the Documents Menus and the Manage Documents
+      Menu</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/inbox_ex1.png" width="500"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>The three Documents menus and the Manage documents menu are laid out
+    almost the same.</para>
+
+    <para><note>
+        <para>The layout of the Documents menus are very similar to each
+        other, but the documents that are displayed differ according to the
+        document status or granted permission to users.</para>
+      </note></para>
+
+    <figure>
+      <title>Documents Menus Layout</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/inbox_layout.png" width="750"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Each documents menu consists of the following five sections:</para>
+
+    <orderedlist>
+      <listitem>
+        <para><emphasis role="bold">Menu and home icon, and document menu
+        name</emphasis></para>
+
+        <para>You can go to another menu by clicking the menu icon
+        (<inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="resources/menu_icon_2.png" width="25"/>
+            </imageobject>
+          </inlinemediaobject>) or go to the dashboard by clicking the home
+        icon (<inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="resources/home_icon_2.png" width="25"/>
+            </imageobject>
+          </inlinemediaobject>). You can also see the name of the documents
+        menu you are currently viewing.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold"><link linkend="category">Template category
+        combo box, document status filter combo box, and search
+        box</link></emphasis></para>
+
+        <para>You can view documents by the selected template category and
+        filter documents by document status.</para>
+
+        <para>In addition to performing searches using keywords, you can also
+        use advanced methods such as searching by name + contents, document
+        ID, date, and many more.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Document list</emphasis></para>
+
+        <para>Up to 20 documents are listed per page and you can view the
+        documents in other pages by clicking the page numbers at the
+        bottom.</para>
+
+        <para>The information of each document such as the document status,
+        name, step, creator, created date, processed date, and document number
+        is provided in columns in the document list. You can also change the
+        column information displayed. Click the column icon
+        (<inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="resources/column_icon.png" width="35"/>
+            </imageobject>
+          </inlinemediaobject>) displayed at the top right corner of the page,
+        and then check the columns you want to display in the <link
+        linkend="document_column">column check box</link>. </para>
+
+        <para>You can also perform actions on a document such as reviewing,
+        previewing, correcting, voiding, resending, and deleting a
+        document.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold"><link linkend="history">Document status
+        and history</link></emphasis></para>
+
+        <para>You can check the documents status and history.</para>
+
+        <para>In the <emphasis role="bold">Document status</emphasis> tab, you
+        can see what happens to a document in each step of the
+        workflow.</para>
+
+        <para>In the<emphasis role="bold"> History</emphasis> tab, you can see
+        the activities of the document creator and recipients from document
+        creation to completion.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold"><link linkend="document_column">The column
+        selection icon</link>, <link linkend="document_download">document
+        download</link> icon, and <link
+        linkend="document_delete">delete</link> icon </emphasis></para>
+
+        <para>Clicking the column selection icon (<inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="resources/column_icon.png" width="35"/>
+            </imageobject>
+          </inlinemediaobject>) displays the column types which you can check
+        to select which columns will be displayed in the document list.</para>
+
+        <para>Clicking the download icon (<inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="resources/download-icon.PNG" width="30"/>
+            </imageobject>
+          </inlinemediaobject>) allows to select the documents in the list you
+        want to download. You can select multiple documents to download at
+        once and choose the file type including the PDF of the completed
+        documents, audit certificate, and CSV of selected fields.</para>
+
+        <para>Note that the delete icon (<inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="resources/delete_icon1.png" width="30"/>
+            </imageobject>
+          </inlinemediaobject>) is disabled in the three document menus, but
+        is enabled in the<emphasis role="bold"> Manage documents</emphasis>
+        menu.</para>
+
+        <note>
+          <para>Documents can be deleted only in the <emphasis
+          role="bold">Manage documents</emphasis> menu and you can only delete
+          documents in which you have document management permission. The
+          company administrator or the template managers of a template can
+          grant you document management permission for all documents created
+          from a template in <emphasis role="bold">Manage templates &gt;
+          Template settings &gt; Set permissions &gt; Document management
+          </emphasis>and selecting the groups/members you want to grant
+          permission.<emphasis role="bold"> </emphasis>Document management
+          permission can be set for each template. Members with this
+          permission can open, delete, and download the documents (PDF, CSV)
+          created from this template in the <emphasis role="bold">Manage
+          documents</emphasis> menu.</para>
+        </note>
+      </listitem>
+    </orderedlist>
+
+    <section xml:id="category">
+      <title>Template Category Combo Box, Document Status Filter Combo Box,
+      and Search Box</title>
+
+      <para>The template category combo box, document status filter combo box,
+      and search box are located at the top left side of the<emphasis
+      role="bold"> Documents</emphasis> menus and the <emphasis
+      role="bold">Manage documents</emphasis> menu.</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">'In progress', 'Action required', and
+          'Completed' menus</emphasis></para>
+
+          <para>In these menus, the template category combo box, document
+          status filter combo box, and search box are also located at the top
+          left side of the screen.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">'Manage documents'</emphasis></para>
+
+          <para>In this menu, the template category combo box, document status
+          filter combo box, and search box are located at the top left side of
+          the screen. However, the document status filter combo box contains
+          one additional menu, 'Voided', compared to the three documents
+          menus.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para><emphasis role="bold">Template category combo box <indexterm
+          class="singular">
+          <primary>Documents</primary>
+
+          <secondary>Template category combo box</secondary>
+        </indexterm></emphasis></para>
+
+      <para>By using the template category combo box, you can display the list
+      of documents by template category by selecting the desired template
+      available in the <emphasis role="bold">Manage templates</emphasis>
+      menu.</para>
+
+      <para>Clicking the <emphasis role="bold">X</emphasis> icon of the
+      template category combo displays the templates according to categories
+      as shown below:</para>
+
+      <figure>
+        <title>Template category combo box</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/category_search.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">Document status filter combo box<indexterm
+          class="singular">
+          <primary>Documents</primary>
+
+          <secondary>Document status filter combo box</secondary>
+        </indexterm></emphasis></para>
+
+      <para>In addition to doing searches using keywords, you can also use
+      advanced methods such as searching by name + contents, document ID,
+      date, and filtering by document status.</para>
+
+      <para>You can also search for field values in documents in detail by
+      using a custom filter. As well, by using a custom filter, you can search
+      for documents according to the range of numbers and dates.</para>
+
+      <para>The following table describes the filters that can be used for
+      performing searches. However, custom filters can only be used in the
+      <emphasis role="bold">Manage documents</emphasis> and <emphasis
+      role="bold">Completed</emphasis> menus.</para>
+
+      <table>
+        <title>List of filter types</title>
+
+        <tgroup cols="4">
+          <thead>
+            <row>
+              <entry align="center">In progress</entry>
+
+              <entry align="center">Action required</entry>
+
+              <entry align="center">Completed</entry>
+
+              <entry align="center">Manage documents</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>Name + content</entry>
+
+              <entry>Name + content</entry>
+
+              <entry>Name + content</entry>
+
+              <entry>Name + content</entry>
+            </row>
+
+            <row>
+              <entry>Name</entry>
+
+              <entry>Name</entry>
+
+              <entry>Name</entry>
+
+              <entry>Name</entry>
+            </row>
+
+            <row>
+              <entry>Contents</entry>
+
+              <entry>Contents</entry>
+
+              <entry>Contents</entry>
+
+              <entry>Contents</entry>
+            </row>
+
+            <row>
+              <entry>Document ID</entry>
+
+              <entry>Document ID</entry>
+
+              <entry>Document number</entry>
+
+              <entry>Document number</entry>
+            </row>
+
+            <row>
+              <entry>Document number</entry>
+
+              <entry>Document number</entry>
+
+              <entry>Status</entry>
+
+              <entry>Step</entry>
+            </row>
+
+            <row>
+              <entry>Status</entry>
+
+              <entry>Status</entry>
+
+              <entry>Step</entry>
+
+              <entry>Created by</entry>
+            </row>
+
+            <row>
+              <entry>Template name</entry>
+
+              <entry>Template name</entry>
+
+              <entry>Created by</entry>
+
+              <entry>Created on</entry>
+            </row>
+
+            <row>
+              <entry>Step</entry>
+
+              <entry>Step</entry>
+
+              <entry>Created on</entry>
+
+              <entry>Processed by</entry>
+            </row>
+
+            <row>
+              <entry>Created by</entry>
+
+              <entry>Created by</entry>
+
+              <entry>Processed by</entry>
+
+              <entry>Processed on</entry>
+            </row>
+
+            <row>
+              <entry>Created on</entry>
+
+              <entry>Created on</entry>
+
+              <entry>Processed on</entry>
+
+              <entry>Custom filter</entry>
+            </row>
+
+            <row>
+              <entry>Processed by</entry>
+
+              <entry>Requested by</entry>
+
+              <entry>Step status</entry>
+
+              <entry/>
+            </row>
+
+            <row>
+              <entry>Processed on</entry>
+
+              <entry>Requested on</entry>
+
+              <entry>Custom filter</entry>
+
+              <entry/>
+            </row>
+
+            <row>
+              <entry>Step status</entry>
+
+              <entry>Step status</entry>
+
+              <entry/>
+
+              <entry/>
+            </row>
+
+            <row>
+              <entry/>
+
+              <entry>Days passed</entry>
+
+              <entry/>
+
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <para><emphasis role="bold">Using the custom filter<indexterm
+          class="singular">
+          <primary>Documents</primary>
+
+          <secondary>Using the custom filter</secondary>
+        </indexterm></emphasis></para>
+
+      <para>1. Select <emphasis role="bold">Custom Filter</emphasis> in the
+      <emphasis role="bold">Advanced</emphasis> search combo box.</para>
+
+      <figure>
+        <title>Custom filter</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/userdefined_search1.png" width="500"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>2. Select the field name, field type (keyword, range, or period),
+      and search value.</para>
+
+      <para>The default value of the field name is an empty value.</para>
+
+      <para>Make sure to manually enter the Display name of the field in the
+      document you want to search for. You can view the Display name for
+      fields in the <emphasis role="bold">Template settings &gt;
+      Field</emphasis> setting menu.</para>
+
+      <note>
+        <para>1. Documents may not be searched if you search for a document by
+        entering the display name of the field that does not exist.</para>
+
+        <para>2. You cannot enter special characters in the display name (",
+        ', ;, &lt;, &gt;, \).</para>
+
+        <para>3. Empty spaces before and after the display name are all
+        removed. E.g. “ Time off ”  “Time off”</para>
+
+        <para>4. When adding or editing a search value, if you enter a
+        duplicate value in the custom filter, then the previously entered
+        field type and field search value will be displayed. For example, when
+        adding a custom filter again while 'years worked: 5~10' was entered in
+        the custom filter, if you enter 'years worked' in the field name, then
+        the previous value such as Range for Type, 5 for Min value, and 10 for
+        Max value are displayed.</para>
+      </note>
+
+      <para>You can choose one of Keyword, Range, and Period for the field
+      type. Keyword is the default.</para>
+
+      <para>Note that the input boxes displayed differ according to the field
+      type selected.</para>
+
+      <informaltable>
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry align="center">Field type</entry>
+
+              <entry align="center">Input box 1</entry>
+
+              <entry align="center">Input box 2</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>Keyword</entry>
+
+              <entry>Text</entry>
+
+              <entry/>
+            </row>
+
+            <row>
+              <entry>Range</entry>
+
+              <entry>Min</entry>
+
+              <entry>Max</entry>
+            </row>
+
+            <row>
+              <entry>Period</entry>
+
+              <entry>Start date</entry>
+
+              <entry>End date</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">Keyword</emphasis></para>
+
+          <para>Used for searching multiple values by a comma (,) which is
+          used as the delimeter. The default value is empty.</para>
+
+          <para>When used, it searches for the text entered. In other words,
+          it searches for documents that contain at least one of the multiple
+          values entered. E.g. Field name: fruit / Field type: keyword /
+          Value1: strawberries, apple  searches for documents that contain at
+          least one of 'strawberries' and/or ' apple'.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Range</emphasis></para>
+
+          <para>Used for searching values of range such as numbers or dates.
+          E.g. number: 100 ~ 200, period: 01/01/2019 ~ 06/30/2019</para>
+
+          <para>When used, it searches for values between the min and max. If
+          you only enter the min, then only the values larger than the min
+          value are searched, while if you only enter the max then only the
+          values smaller than the max are searched. E.g. salary: 1000 ~ ,
+          salary: ~ 5000</para>
+        </listitem>
+      </itemizedlist>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">Period</emphasis></para>
+
+          <para>Selects the period in the calendar displayed. The default
+          value of the period length is set to one week.</para>
+
+          <para>Searches for the date between the start and end date
+          selected.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>3. Click the add search (<inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="resources/searchplus.png"/>
+          </imageobject>
+        </inlinemediaobject>) button to add the keyword entered and documents
+      are searched according to the conditions set.</para>
+
+      <note>
+        <para>1. You can add multiple custom filters, and can modify/delete
+        the custom filters you added.</para>
+
+        <para>2. You cannot add multiple custom filters with duplicate field
+        names.</para>
+
+        <para>3. If you modify a predefined custom filter, then the field type
+        and search values are updated with the most recently entered
+        values.</para>
+      </note>
+
+      <para><emphasis role="bold">Displaying search keywords and
+      modifying/deleting them</emphasis></para>
+
+      <para>1. The search keyword is added in the form of <emphasis
+      role="bold">field name: value</emphasis>.</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>Keyword: “employment type: permanent, contract”</para>
+        </listitem>
+
+        <listitem>
+          <para>Range: “years worked: 5~10”</para>
+        </listitem>
+
+        <listitem>
+          <para>Period “contractperiod_yymmdd: 2018-01-01~2018-12-31”</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>2. Modify the custom filter by selecting a search keyword added.
+      When modifying, the<emphasis role="bold"> Advanced</emphasis> filter
+      item is changed to <emphasis role="bold">Customer filter</emphasis>, and
+      the selected filter's field name, field type, and search value are
+      displayed.</para>
+
+      <para>3. Added keywords can be deleted by clicking the<emphasis
+      role="bold"> X </emphasis>icon on the right.</para>
+    </section>
+
+    <section xml:id="additional_work">
+      <title>Actions that Can Be Performed in the Document List by Documents
+      Menu</title>
+
+      <para>Actions on documents that can be performed in the document list
+      include preview, correct, void, resend, send final copy, and
+      download.</para>
+
+      <para><emphasis role="bold">In progress</emphasis></para>
+
+      <para>Can perform actions including preview, correct, void, send final
+      copy, and download.</para>
+
+      <para><emphasis role="bold">Action required</emphasis></para>
+
+      <para>Can perform actions including preview, correct, void, review,
+      resend, and download.</para>
+
+      <para><emphasis role="bold">Completed</emphasis></para>
+
+      <para>Can perform actions including preview, void, send final copy, and
+      download.</para>
+
+      <para><emphasis role="bold">Manage documents</emphasis></para>
+
+      <para>Can perform actions including preview, void, send final copy,
+      remove, download, and delete. Documents can only be deleted in
+      the<emphasis role="bold"> Manage documents</emphasis> menu.</para>
+    </section>
+
+    <section xml:id="history">
+      <title>Document Status and History</title>
+
+      <para>If you select a document in the document list, you can view the
+      status and history of that document on the right side of the
+      screen.</para>
+
+      <para>In the <emphasis role="bold">Document status</emphasis> tab, you
+      can see when and what happens to a document in each step of the
+      workflow. In the <emphasis role="bold">History</emphasis> tab, you can
+      see the activities of the document creator and recipients from document
+      creation to completion.</para>
+
+      <para><figure>
+          <title>Document status tab</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/document_status.png" width="400"/>
+            </imageobject>
+          </mediaobject>
+        </figure><figure>
+          <title>History tab</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/document_history.png" width="400"/>
+            </imageobject>
+          </mediaobject>
+        </figure></para>
+    </section>
+
+    <section xml:id="document_download">
+      <title>Document Download<indexterm class="singular">
+          <primary>Documents</primary>
+
+          <secondary>Document download</secondary>
+        </indexterm></title>
+
+      <para>Documents created in eformsign can be safely stored for long
+      periods of time.</para>
+
+      <para>All documents are stored in a file format for long-term storage
+      (PDF/A) and only members with document management permission can open
+      and delete them.</para>
+
+      <para>1. Click the download icon (<inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="resources/download_icon.png"/>
+          </imageobject>
+        </inlinemediaobject>) on the right side of the document list.</para>
+
+      <para>2. Select the document to be downloaded, and then click the
+      <emphasis role="bold">Download</emphasis> button.</para>
+
+      <figure>
+        <title>Document download pop-up</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/download_popup.png" width="400"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <note>
+        <para>CSV files can also be downloaded in the <emphasis
+        role="bold">Download</emphasis> pop-up where PDF files can be
+        downloaded. Select <emphasis role="bold">CSV download</emphasis> in
+        the pop-up and check the fields (columns) to be downloaded and then
+        click the <emphasis role="bold">Download</emphasis> button.</para>
+      </note>
+    </section>
+
+    <section xml:id="document_delete">
+      <title>Deleting Documents</title>
+
+      <para>In eformsign, only members with document management permission can
+      delete documents.</para>
+
+      <para>1. Click the delete icon (<inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="resources/delete_icon1.png"/>
+          </imageobject>
+        </inlinemediaobject>) on the right side of the document list.</para>
+
+      <para>2. Select the document and then click the <emphasis
+      role="bold">Delete </emphasis>button.</para>
+
+      <para>3. Click the <emphasis role="bold">Yes</emphasis> button in the
+      Delete pop-up window to delete the document.</para>
+    </section>
+
+    <section xml:id="document_column">
+      <title>Document Menu Column Selection</title>
+
+      <para>If you click the column (<inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="resources/column_icon.png" width="35"/>
+          </imageobject>
+        </inlinemediaobject>) icon on the right side of the document list, you
+      can select which column to be displayed on the list.</para>
+
+      <figure>
+        <title>Document column selection icon</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/column_type.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </section>
+  </section>
+
+  <section>
+    <title>Creating New Documents</title>
+
+    <para>You can create new documents by using uploaded templates.</para>
+
+    <note>
+      <para>Members and groups can only create documents from templates in
+      which they are given template usage permission.</para>
+    </note>
+
+    <para><emphasis role="bold">Creating a new document</emphasis></para>
+
+    <para>1. Go to the<emphasis role="bold"> New document
+    </emphasis>menu.</para>
+
+    <para>2. Click the create icon(<inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="27" fileref="resources/create-icon.PNG"/>
+        </imageobject>
+      </inlinemediaobject>) of the template you want to create a document
+    from.</para>
+
+    <figure>
+      <title>New document list</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/create_newdocument1.png" width="700"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>3. Create a document, and then click the <emphasis
+    role="bold">Complete</emphasis> or <emphasis
+    role="bold">Request</emphasis> button at the top right corner of the
+    screen.</para>
+
+    <note>
+      <para>Different buttons are displayed at the top right corner of the
+      screen according to the workflow set in the template.</para>
+    </note>
+  </section>
+
+  <section>
+    <title>Send in Bulk</title>
+
+    <para><indexterm class="singular">
+        <primary>Documents</primary>
+
+        <secondary>Send in bulk</secondary>
+      </indexterm>You can send multiple documents at once by using the
+    <emphasis role="bold">Send in bulk</emphasis> feature. Also, you can
+    preview the documents before sending them to recipients.</para>
+
+    <note>
+      <para>This action requires either one of document management or company
+      administrator permission.</para>
+    </note>
+
+    <para><emphasis role="bold">Send in bulk</emphasis></para>
+
+    <para>1. Go to the <emphasis role="bold">New document</emphasis>
+    menu.</para>
+
+    <para>2. Click the send in bulk icon of the template you want to create
+    documents from.</para>
+
+    <figure>
+      <title>Send in bulk icon</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/bulk-creation-icon.png" width="300"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>3. Enter the values in the columns displayed on the screen.</para>
+
+    <figure>
+      <title>Send in bulk screen</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/bulk_create.png" width="700"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <note>
+      <para>Each column of the table contains all the fields of a document.
+      The IDs of components (which are fields in a template) are shown as the
+      name of each column. The last row of the first column (No.) indicates
+      the number of documents to be created.</para>
+
+      <para>Tables are filled in a similar way as in Excel. You can
+      double-click on each cell to enter value and right-click on the mouse to
+      add or delete columns. The value entered in a cell can be copied and
+      pasted, and dragged to another cell.</para>
+    </note>
+
+    <para>4. Click the <emphasis role="bold">Preview</emphasis> button on the
+    top right corner of the screen to view the documents you created and then
+    click the <emphasis role="bold">Create</emphasis> button to send the
+    documents.</para>
+
+    <note>
+      <para>If there is an external process step in a template, then the left
+      area of the table is highlighted in blue. This area is for entering the
+      external recipients’ names, emails, etc. Depending on the external
+      process settings, there can be phone numbers, verification passwords,
+      etc.</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/bulk-creation-table-blue-section.png"
+                     width="700"/>
+        </imageobject>
+      </mediaobject>
+    </note>
+
+    <tip>
+      <para>If there is a component that is not shown in the <emphasis
+      role="bold">Send in bulk </emphasis>screen, then the following must be
+      checked.</para>
+
+      <para>1. The components that cannot be entered in <emphasis
+      role="bold">Send in bulk</emphasis>: camera, voice, and grouped radio
+      components cannot be used in Send in bulk.</para>
+
+      <para>2. Check whether the components are allowed access in Template
+      settings: Only the components that are checked to be allowed access in
+      the <emphasis role="bold">Manage items</emphasis> tab of <emphasis
+      role="bold">Template settings(⚙) &gt; Workflow</emphasis> are
+      shown.</para>
+    </tip>
+  </section>
+</chapter>

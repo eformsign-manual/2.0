@@ -1,0 +1,1554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Basic Info</title>
+
+  <section>
+    <title>Dashboard</title>
+
+    <section>
+      <title>Menu</title>
+
+      <para>After logging into the eformsign dashboard<indexterm
+          class="singular">
+          <primary>Dashboard</primary>
+        </indexterm>, click the menu icon (<inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="resources/menu_icon.png"/>
+          </imageobject>
+        </inlinemediaobject>) at the top left corner of the screen. The
+      sidebar menu will be displayed as shown below.</para>
+
+      <note>
+        <para>Each menu may appear differently depending on the permissions
+        you have. The company administrator can access all the menus and have
+        all the permissions.</para>
+      </note>
+
+      <figure>
+        <title>eformsign Menus</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/en-dashboard-side-menu.png"
+                       width="800"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>The description of each menu is as follows:</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">New document: </emphasis><indexterm
+              class="singular">
+              <primary>New document</primary>
+            </indexterm>Shows the list of templates users can choose to start
+          creating documents.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Documents: </emphasis><indexterm
+              class="singular">
+              <primary>Documents</primary>
+            </indexterm>This is is a cloud space for storing and viewing
+          documents. It consists of the following three spaces according to
+          the document status:</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">In progress: </emphasis><indexterm
+                  class="singular">
+                  <primary>In progress</primary>
+                </indexterm>Shows the list of documents you have created or
+              participated in but are incomplete.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Action required:
+              </emphasis><indexterm class="singular">
+                  <primary>Action required</primary>
+                </indexterm>Shows the list of documents you have temporarily
+              saved or other members have requested you to sign or
+              approve.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Completed: </emphasis><indexterm
+                  class="singular">
+                  <primary>Completed</primary>
+                </indexterm>Shows the list of all completed documents.</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Manage documents:</emphasis> <indexterm
+              class="singular">
+              <primary>Manage documents</primary>
+            </indexterm>Only document managers can access this menu. Document
+          managers can view all documents created from a template that they
+          have permission to access. The company administrator can view and
+          manage all documents.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">My signature: </emphasis><indexterm
+              class="singular">
+              <primary>My signature</primary>
+            </indexterm>You can create and register your signature to be used
+          when signing a document.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Manage templates: </emphasis><indexterm
+              class="singular">
+              <primary>Manage templates</primary>
+            </indexterm>Only template managers can access this menu. You can
+          view the template list and configure the template settings.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Manage company: </emphasis><indexterm
+              class="singular">
+              <primary>Manage company</primary>
+            </indexterm>Only company managers can access this menu. You can
+          view and edit company information.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">Company profile:
+              </emphasis><indexterm class="singular">
+                  <primary>Company profile</primary>
+                </indexterm>You can view and edit company information.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Manage groups: </emphasis><indexterm
+                  class="singular">
+                  <primary>Manage groups</primary>
+                </indexterm>You can create groups or edit group
+              information.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Manage members:
+              </emphasis><indexterm class="singular">
+                  <primary>Manage members</primary>
+                </indexterm>You can invite members or edit member
+              information.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Manage custom fields:</emphasis>
+              <indexterm class="singular">
+                  <primary>Manage custom fields</primary>
+                </indexterm>You can add and configure custom fields such as
+              company, group, and member information.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Notification template management:
+              </emphasis><indexterm class="singular">
+                  <primary>Notification template management</primary>
+                </indexterm>You can view and edit email and SMS notification
+              templates.</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Integration:</emphasis> <indexterm
+              class="singular">
+              <primary>Integration</primary>
+            </indexterm>Only the company administrator can access this menu.
+          You can connect eformsign with external services.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">Cloud storage: </emphasis><indexterm
+                  class="singular">
+                  <primary>Cloud storage</primary>
+                </indexterm>You can connect your Dropbox, Google Drive, or Box
+              accounts to store completed documents in external cloud
+              storages.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Analytics &amp; reporting:
+              </emphasis><indexterm class="singular">
+                  <primary>Analytics &amp; reporting</primary>
+                </indexterm>You can connect sheets in Google Sheets or
+              Microsoft Office 365's Excel with eformsign to store the data
+              entered in eformsign documents to the sheets.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">API / Webhook:</emphasis> <indexterm
+                  class="singular">
+                  <primary>API</primary>
+                </indexterm><indexterm class="singular">
+                  <primary>Webhook</primary>
+                </indexterm>You can create, edit, or delete API and webhook
+              keys to use the eformsign API.</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Billing:</emphasis> You can view your
+          plan and payment history, change your plan, or change the payment
+          method.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Usage status:</emphasis> You can monitor
+          weekly, monthly, and annual service usage status.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Download eformsign Form
+          Builder:</emphasis><indexterm class="singular">
+              <primary>Download Form Builder</primary>
+            </indexterm>You can download the Form Builder executable file. By
+          using the Form Builder add-in feature, you can create electronic
+          forms using Microsoft Office files.</para>
+        </listitem>
+      </itemizedlist>
+    </section>
+
+    <section>
+      <title>Dashboard</title>
+
+      <para><indexterm class="singular">
+          <primary>Dashboard</primary>
+        </indexterm>The dashboard is the main page displayed when logging into
+      eformsign. In the dashboard, you can view documents that are in
+      progress, require your action, etc., and use shortcuts to go to the main
+      menus including the <emphasis role="bold">New document</emphasis>
+      page.</para>
+
+      <figure>
+        <title>eformsign Dashboard Screen</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/en-dashboard-main.png" width="800"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <variablelist>
+        <varlistentry>
+          <term><emphasis role="bold">① Create new document</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary>New document</primary>
+              </indexterm>Provides a shortcut to the <emphasis role="bold">New
+            document</emphasis> page where you can create new documents from
+            existing templates.<emphasis role="bold"> </emphasis></para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">② In progress</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary>In progress</primary>
+              </indexterm>Provides a shortcut to the <emphasis role="bold">In
+            progress</emphasis> page where you can view the number of
+            documents that are in progress. Click the <emphasis role="bold">In
+            progress</emphasis> box to go to the <emphasis
+            role="bold">I</emphasis><emphasis role="bold">n
+            progress</emphasis> page.<emphasis role="bold"> </emphasis></para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">③ Action required</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary>Action required</primary>
+              </indexterm>Provides a shortcut to the <emphasis
+            role="bold">Action required</emphasis> page where you can view the
+            number of documents that require your action. Click the <emphasis
+            role="bold">Action required</emphasis> box to go to the <emphasis
+            role="bold">Action required</emphasis> page.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">④ Completed</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary>Completed</primary>
+              </indexterm>Provides a shortcut to the <emphasis
+            role="bold">Completed</emphasis> document page where you can view
+            all completed documents.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑤ In progress</emphasis></term>
+
+          <listitem>
+            <para>Displays the list of the three most recent documents in
+            progress and the number of documents in progress. You can click on
+            the name of a document in the list to open the document. Also, you
+            can click 'More' to go to the <emphasis role="bold">In
+            progress</emphasis> page. <emphasis role="bold">
+            </emphasis></para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑥ Action required</emphasis></term>
+
+          <listitem>
+            <para>Displays the list of the three most recent documents that
+            require your action and the number of documents requiring your
+            action. You can click on the name of a document in the list to
+            open the document. Also, you can click 'More' to go to the
+            <emphasis role="bold">Action required</emphasis> page. <emphasis
+            role="bold"> </emphasis></para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑦ Completed</emphasis></term>
+
+          <listitem>
+            <para>Displays the list of the three most recent completed
+            documents. You can click on the name of a document in the list to
+            open the document. Also, you can click 'More' to go to the
+            <emphasis role="bold">Completed</emphasis> document page.
+            <emphasis role="bold"> </emphasis></para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑧ Favorites</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary>Favorites</primary>
+              </indexterm>Displays the templates you added as your Favorites.
+            If you click a template in the Favorites list, you can go to the
+            page where you can create a new document using that template. You
+            can add a template to your Favorites by clicking the Add icon
+            (<inlinemediaobject>
+                <imageobject>
+                  <imagedata contentwidth="17"
+                             fileref="resources/favorites-add.PNG"/>
+                </imageobject>
+              </inlinemediaobject>). You can delete a template from the
+            Favorites list by clicking the Edit icon (<inlinemediaobject>
+                <imageobject>
+                  <imagedata contentwidth="18"
+                             fileref="resources/favorites-edit.PNG"/>
+                </imageobject>
+              </inlinemediaobject>).</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+
+      <tip>
+        <para><emphasis role="bold">Adding templates to
+        Favorites!</emphasis></para>
+
+        <para>You can add a template you use frequently to the Favorites list
+        to create documents easily using that template. You can add your
+        favorite ones on the dashboard.</para>
+
+        <orderedlist>
+          <listitem>
+            <para>Click the Add icon (<inlinemediaobject>
+                <imageobject>
+                  <imagedata contentwidth="17"
+                             fileref="resources/favorites-add.PNG"/>
+                </imageobject>
+              </inlinemediaobject>) in the Favorites list on the
+            dashboard.</para>
+          </listitem>
+
+          <listitem>
+            <para>The list of templates that are not added to your Favorites
+            will be displayed in the pop-up window.</para>
+
+            <para><inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="resources/en-dashboard-add-favorites.png"
+                             width="700"/>
+                </imageobject>
+              </inlinemediaobject></para>
+          </listitem>
+
+          <listitem>
+            <para>Tick the checkboxes of the templates you want to add to the
+            Favorites.</para>
+
+            <para><inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="resources/en-dashboard-add-favorites-select.png"
+                             width="700"/>
+                </imageobject>
+              </inlinemediaobject></para>
+          </listitem>
+
+          <listitem>
+            <para>Click the <emphasis role="bold">Select</emphasis> button to
+            save the templates as your Favorites.</para>
+          </listitem>
+        </orderedlist>
+      </tip>
+    </section>
+  </section>
+
+  <section>
+    <title>View and Change Basic Information</title>
+
+    <para><indexterm class="singular">
+        <primary>My profile</primary>
+      </indexterm>To view your personal information you entered when signing
+    up for the eformsign service and the company information, click the see
+    more icon (<inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="17"
+                     fileref="resources/menu-hamberger-icon.png"/>
+        </imageobject>
+      </inlinemediaobject>) at the top right corner of the sidebar
+    menu.</para>
+
+    <figure>
+      <title>Location of the Menu Icon for Accessing Personal and Company
+      Info</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/en-dashboard-side-menu-icon.png"
+                     width="700"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <figure>
+      <title>View and Edit My Profile</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/en-dashboard-side-menu-icon-drop-down.png"
+                     width="700"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <itemizedlist>
+      <listitem>
+        <para><emphasis role="bold">Change company: </emphasis><indexterm
+            class="singular">
+            <primary>Change company</primary>
+          </indexterm>If you are a member of multiple companies, click the
+        <emphasis role="bold">Change company</emphasis> menu to view the list
+        of your companies and select a company to switch to.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">My profile: </emphasis><indexterm
+            class="singular">
+            <primary>My profile</primary>
+          </indexterm>You can view and edit your personal information you
+        entered when signing up for the eformsign service. You can also view
+        the information of the company you are a member of.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Logout: </emphasis><indexterm
+            class="singular">
+            <primary>Logout</primary>
+          </indexterm>You can log out of the eformsign service.</para>
+      </listitem>
+    </itemizedlist>
+
+    <section>
+      <title>My Profile</title>
+
+      <para><emphasis role="bold">My profile &gt; Personal </emphasis></para>
+
+      <figure>
+        <title>My Profile &gt; Personal</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/en-myprofile-personal.png"
+                       width="730"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <variablelist>
+        <varlistentry>
+          <term><emphasis role="bold">Account information</emphasis></term>
+
+          <listitem>
+            <para>You can view and edit the name, email or ID, password, and
+            contact number of your eformsign account.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">Link social accounts</emphasis></term>
+
+          <listitem>
+            <para>You can link or unlink your Google and Facebook social
+            accounts.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">Notification</emphasis></term>
+
+          <listitem>
+            <para>You can view whether you agreed to receive marketing emails.
+            You can also change your selection.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">Delete the eformsign
+          account</emphasis></term>
+
+          <listitem>
+            <para>You can delete your eformsign account by clicking the
+            <emphasis role="bold">Delete the eformsign account</emphasis>
+            button.</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+
+      <para><emphasis role="bold">My profile &gt; Company </emphasis></para>
+
+      <figure>
+        <title>My Profile &gt; Company</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/en-myprofile-company.png"
+                       width="730"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <variablelist>
+        <varlistentry>
+          <term><emphasis role="bold">Basic information</emphasis></term>
+
+          <listitem>
+            <para>You can view basic information about your company including
+            the company name, country, language, and contact number.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">Detailed information</emphasis></term>
+
+          <listitem>
+            <para>You can view detailed information about your company
+            including the company address, company registration number,
+            homepage URL, and company administrator’s email.</para>
+
+            <note>
+              <para>You can only view company information in this page. If you
+              want to edit the information, go to the<emphasis role="bold">
+              Manage company &gt; Company profile </emphasis>menu. Only the
+              company administrator or company managers can edit company
+              information.</para>
+            </note>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">Withdraw from this
+          company</emphasis></term>
+
+          <listitem>
+            <para>If you want to withdraw from the company, click the
+            <emphasis role="bold">Withdraw from this company</emphasis>
+            button. Then, the list of companies that you are a member of will
+            be displayed and you can select a company that you want to
+            withdraw from.</para>
+
+            <important>
+              <para>Even if a member withdraws from a company, the member can
+              still use the eformsign account and join another company or
+              create a new company.</para>
+
+              <para>However, if the company administrator withdraws from the
+              company, the company will also be deleted. If the administrator
+              wants to withdraw from the company without deleting the company,
+              then the administrator needs to delegate permission to another
+              member, and then withdraw from the company.</para>
+            </important>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </section>
+
+    <section>
+      <title>Edit and Add Company Information</title>
+
+      <para>The company information displayed in the <emphasis role="bold">My
+      profile &gt; company</emphasis> menu can be edited in the <emphasis
+      role="bold">Manage company &gt; Company profile</emphasis>
+      menu.<indexterm class="singular">
+          <primary>Company profile</primary>
+        </indexterm></para>
+
+      <note>
+        <para>You need to have either the company administrator or company
+        manager permission to perform this action.</para>
+      </note>
+
+      <figure>
+        <title>Manage Company &gt; Company profile</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/en-manage-company-profile.png"
+                       width="700"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">Editing Company Profile</emphasis></para>
+
+      <orderedlist>
+        <listitem>
+          <para>Click the sidebar menu icon, and go to the <emphasis
+          role="bold">Manage company &gt; Company profile</emphasis>
+          menu.</para>
+        </listitem>
+
+        <listitem>
+          <para>Edit the information you want to change in the<emphasis
+          role="bold"> Company profile &gt; Basic information</emphasis>
+          tab.</para>
+        </listitem>
+
+        <listitem>
+          <para>Save the edited information by clicking the <emphasis
+          role="bold">Save</emphasis> button.</para>
+        </listitem>
+      </orderedlist>
+
+      <figure>
+        <title>Company Profile</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/en-manage-company-profile-edit.png"
+                       width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para/>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/en-manage-company-profile-edit2.png"
+                     width="700"/>
+        </imageobject>
+      </mediaobject>
+    </section>
+
+    <section>
+      <title>Company Brand</title>
+
+      <para><indexterm class="singular">
+          <primary>Company brand</primary>
+        </indexterm>You can replace the eformsign logo and symbol with your
+      company logo and symbol by registering them in the <emphasis
+      role="bold">Company profile &gt; Company brand</emphasis> tab.</para>
+
+      <note>
+        <para><emphasis role="bold">The difference between a logo and
+        symbol</emphasis></para>
+
+        <para>Both a logo and symbol are representative images of a company.
+        Usually, a logo has a long horizontal format that includes its brand
+        name and a symbol only has a square image.</para>
+
+        <para>On eformsign, a 512 pixel X 128 pixel horizontal image size is
+        recommended for logos, and a 120 pixel X 120 pixel square image size
+        is recommended for symbols.</para>
+      </note>
+
+      <para><emphasis role="bold">Registering the Company Logo and
+      Symbol</emphasis></para>
+
+      <figure>
+        <title>Company Profile &gt; Brand image</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/en-manage-company-brand.png"
+                       width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <orderedlist>
+        <listitem>
+          <para>Click the sidebar menu icon, and go to the <emphasis
+          role="bold">Manage company &gt; Company profile</emphasis>
+          menu.</para>
+        </listitem>
+
+        <listitem>
+          <para>Click the <emphasis role="bold">Company brand
+          </emphasis>tab.</para>
+        </listitem>
+
+        <listitem>
+          <para>Click the image in the<emphasis role="bold"> Brand image &gt;
+          Logo</emphasis> box.</para>
+        </listitem>
+
+        <listitem>
+          <para>Select and upload a logo image file from your PC.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>Image size: A 512 pixel x 128 pixel image size
+              recommended</para>
+            </listitem>
+
+            <listitem>
+              <para>File size: Up to a maximum 300 KB</para>
+            </listitem>
+          </itemizedlist>
+
+          <itemizedlist>
+            <listitem>
+              <para>File format: PNG, JPG, JPEG, and GIF</para>
+            </listitem>
+          </itemizedlist>
+
+          <figure>
+            <title>Pop-up Screen for Image Upload</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/en-manage-company-brand-logo-popup.png"
+                           width="650"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+
+        <listitem>
+          <para>Apply your changes by clicking the <emphasis
+          role="bold">Save</emphasis> button.</para>
+        </listitem>
+
+        <listitem>
+          <para>Check whether the new logo was applied to the
+          dashboard.</para>
+
+          <figure>
+            <title>Dashboard with the Logo Changed</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/en-manage-company-brand-logo-changed.png"
+                           width="750"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+      </orderedlist>
+    </section>
+  </section>
+
+  <section>
+    <title>Permissions</title>
+
+    <para>eformsign provides the following five types of roles that can be
+    granted to members based on the permissions they have.</para>
+
+    <itemizedlist>
+      <listitem>
+        <para><emphasis role="bold">Company administrator </emphasis></para>
+
+        <para><indexterm class="singular">
+            <primary>Company administrator</primary>
+          </indexterm>The company administrator is the representative of the
+        company and has all permissions for using the eformsign
+        service.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Company manager </emphasis></para>
+
+        <para><indexterm class="singular">
+            <primary>Company manager</primary>
+          </indexterm>Company managers have the permission to access the
+        <emphasis role="bold">Manage company</emphasis> menu. Company managers
+        can view and edit company, group, and member information<emphasis
+        role="bold"> </emphasis>and<emphasis role="bold"> </emphasis>grant
+        permissions<emphasis role="bold"> </emphasis>to members.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Template manager</emphasis></para>
+
+        <para><indexterm class="singular">
+            <primary>Template manager</primary>
+          </indexterm>Template managers have the permission to access the
+        <emphasis role="bold">Manage template</emphasis> menu. Template
+        managers can create new templates by using Form Builder or Web Form
+        Designer, and can also edit, deploy, and delete templates.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Document manager</emphasis></para>
+
+        <para>Document managers<emphasis role="bold"> </emphasis>have the
+        permission to access the <emphasis role="bold">Manage document
+        </emphasis>menu to view and download documents created from each
+        template.<indexterm class="singular">
+            <primary>Document manager</primary>
+          </indexterm> Document managers can be selected for each separate
+        template.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Document creation</emphasis></para>
+
+        <para><indexterm class="singular">
+            <primary>Template usage</primary>
+          </indexterm>Template usage (document creation) permission can be
+        granted to members for each template. Only members with the template
+        usage permission can create documents from that template.</para>
+      </listitem>
+    </itemizedlist>
+
+    <section>
+      <title>Company Administrator</title>
+
+      <para><indexterm class="singular">
+          <primary>Company administrator</primary>
+        </indexterm>The user who created a company is the company
+      administrator by default, and the company administrator is a super
+      administrator having all the permissions to use the eformsign
+      service.</para>
+
+      <para>The company administrator</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>Has access to all the menus.</para>
+        </listitem>
+
+        <listitem>
+          <para>Can create, edit, delete, and manage templates.</para>
+        </listitem>
+
+        <listitem>
+          <para>Can create, view, and manage all documents.</para>
+        </listitem>
+
+        <listitem>
+          <para>Can delegate its role to another member when the company
+          administrator needs to be changed.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>When the company administrator deletes her/his eformsign account,
+      the company will also be deleted. If the administrator wants to delete
+      only the account, then she/he can delegate the administrator permission
+      to another member, and then delete the account.<indexterm
+          class="singular">
+          <primary>Delegating the Company Administrator Permission</primary>
+        </indexterm></para>
+
+      <para><emphasis role="bold">Delegating the Company Administrator
+      Permission</emphasis></para>
+
+      <note>
+        <para>You need to have the company administrator permission to perform
+        this action.</para>
+      </note>
+
+      <orderedlist>
+        <listitem>
+          <para>Click the sidebar menu icon, and go to the<emphasis
+          role="bold"> Manage company &gt; Company profile</emphasis>
+          menu.</para>
+        </listitem>
+
+        <listitem>
+          <para>Click the <emphasis role="bold">Edit </emphasis>button in the
+          <emphasis role="bold">Detailed information </emphasis>section, and
+          then click the<emphasis role="bold"> Delegate role </emphasis>button
+          on the right side of the<emphasis role="bold">
+          Administrator</emphasis> item.</para>
+
+          <figure>
+            <title>Delegate Company Administrator Role</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/en-manage-company-delegate-admin-role.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+
+        <listitem>
+          <para>Select a member to delegate the company administrator role in
+          the <emphasis role="bold">Delegate role</emphasis> pop-up
+          window.</para>
+
+          <figure>
+            <title>Delegate Role Pop-up</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/en-manage-company-delegate-admin-role-popup.png"
+                           width="500"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+
+        <listitem>
+          <para>Enter the password of the company administrator.</para>
+        </listitem>
+
+        <listitem>
+          <para>Click the <emphasis role="bold">Save</emphasis> button to save
+          the changes.</para>
+        </listitem>
+      </orderedlist>
+    </section>
+
+    <section>
+      <title>Company Manager</title>
+
+      <para><indexterm class="singular">
+          <primary>Company manager</primary>
+        </indexterm>Company managers can access the <emphasis
+      role="bold">Manage company</emphasis> menu and can view, edit, and
+      delete information regarding the company and groups/members.</para>
+
+      <note>
+        <para>The company administrator or company managers can grant the
+        company manager permission to members.</para>
+      </note>
+
+      <para><emphasis role="bold">Granting the Company Manager
+      Permission</emphasis></para>
+
+      <note>
+        <para>You need to have either the company administrator or template
+        manager permission to perform this action.</para>
+      </note>
+
+      <orderedlist>
+        <listitem>
+          <para>Click the sidebar menu icon, and go to the <emphasis
+          role="bold">Manage company &gt; Manage members</emphasis>
+          menu.</para>
+        </listitem>
+
+        <listitem>
+          <para>Select the member in the member list you want to grant the
+          permission.</para>
+        </listitem>
+
+        <listitem>
+          <para>Tick the<emphasis role="bold"> Manage company
+          </emphasis>checkbox in the Permission item displayed at the bottom
+          of the Member info tab located to the right of the member
+          list.</para>
+
+          <figure>
+            <title>Company Manager</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/en-manage-company-member-permission.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+
+        <listitem>
+          <para>Click the <emphasis role="bold">Save</emphasis> button.</para>
+        </listitem>
+      </orderedlist>
+    </section>
+
+    <section>
+      <title>Template Manager Permission</title>
+
+      <para><indexterm class="singular">
+          <primary>Template manager permission</primary>
+        </indexterm>Template managers can access the <emphasis
+      role="bold">Manage template</emphasis> menu, and can create, edit,
+      deploy, and delete templates.</para>
+
+      <para>The template manager who created a template is the template owner
+      of that template by default.</para>
+
+      <para>However, if multiple template managers exist in a company, a
+      template manager may not necessarily be the template owner of a
+      template.</para>
+
+      <para>If the template manager is not the template owner, the template
+      manager can only view the template settings and duplicate the
+      template.</para>
+
+      <para><emphasis role="bold">Granting the Template Manager
+      Permission</emphasis></para>
+
+      <note>
+        <para>You need to have either the company administrator or template
+        manager permission to perform this action.</para>
+      </note>
+
+      <orderedlist>
+        <listitem>
+          <para>Click the sidebar menu icon, and go to the <emphasis
+          role="bold">Manage company &gt; Manage members</emphasis>
+          menu.</para>
+        </listitem>
+
+        <listitem>
+          <para>Select the member in the member list you want to grant the
+          permission.</para>
+        </listitem>
+
+        <listitem>
+          <para>Tick the<emphasis role="bold"> Manage company</emphasis>
+          checkbox in the Permission item displayed at the bottom of the
+          Member info tab to the right of the member list.</para>
+
+          <figure>
+            <title>Template Manager Permission</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/en-manage-company-member-permission-template.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+
+        <listitem>
+          <para>Click the<emphasis role="bold"> Save</emphasis> button.</para>
+        </listitem>
+      </orderedlist>
+    </section>
+
+    <section>
+      <title>Template Usage (Document Creation) and Document Management
+      Permissions</title>
+
+      <para><indexterm class="singular">
+          <primary>Template usage</primary>
+        </indexterm><indexterm class="singular">
+          <primary>Document management</primary>
+        </indexterm>The template usage permission allows users to create
+      documents from a template, and document management permission allows
+      users to manage documents created from a template and their data.</para>
+
+      <para>Members with the template usage permission for a template can
+      create documents using that template in the<emphasis role="bold"> New
+      document </emphasis>page.<emphasis role="bold"> </emphasis></para>
+
+      <para>Members with the document management permission for a template can
+      view, delete, and download documents created from that template in
+      the<emphasis role="bold"> Manage documents</emphasis> page.<emphasis
+      role="bold"> </emphasis></para>
+
+      <para><emphasis role="bold">Granting Template Usage and Document
+      Management Permissions</emphasis></para>
+
+      <note>
+        <para>You need to have either the company administrator or template
+        manager permission to perform this action.</para>
+      </note>
+
+      <orderedlist>
+        <listitem>
+          <para>Click the sidebar menu icon, and go to the<emphasis
+          role="bold"> Manage templates</emphasis> menu.</para>
+        </listitem>
+
+        <listitem>
+          <para>Click the<emphasis role="bold"> Template settings</emphasis>
+          (<inlinemediaobject>
+              <imageobject>
+                <imagedata contentwidth="25"
+                           fileref="resources/config-icon.PNG"/>
+              </imageobject>
+            </inlinemediaobject>) icon.</para>
+
+          <figure>
+            <title>Template Settings Icon</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/en-manage-template-settings-icon.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+
+        <listitem>
+          <para>Go to the <emphasis role="bold">Set permissions</emphasis>
+          tab.</para>
+
+          <figure>
+            <title>Template Settings &gt; Set Permissions</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/en-template-setting-set-permissions.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+
+        <listitem>
+          <para>Select the groups or members you want to grant permission for
+          template usage and document management.</para>
+        </listitem>
+
+        <listitem>
+          <para>Click the <emphasis role="bold">Save </emphasis>button.</para>
+        </listitem>
+      </orderedlist>
+    </section>
+  </section>
+
+  <section>
+    <title>Manage Groups and Members</title>
+
+    <para>You can invite, delete, and edit members and create, add, and delete
+    groups in the <emphasis role="bold">Manage company</emphasis> menu.
+    <indexterm class="singular">
+        <primary>Manage groups</primary>
+      </indexterm><indexterm class="singular">
+        <primary>Manage members</primary>
+      </indexterm></para>
+
+    <figure>
+      <title>Manage Company &gt; Manage Groups/Members</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/en-side-menu-manage-group-members.png"
+                     width="700"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <section>
+      <title>Manage Members</title>
+
+      <para>You can invite members to your company or manage invited members
+      in the <emphasis role="bold">Manage members</emphasis> menu. <indexterm
+          class="singular">
+          <primary>Manage members</primary>
+        </indexterm></para>
+
+      <figure>
+        <title>Manage Company &gt; Manage Members</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/en-manage-members-page.png"
+                       width="700"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><variablelist>
+          <varlistentry>
+            <term><emphasis role="bold">① Active</emphasis></term>
+
+            <listitem>
+              <para><indexterm class="singular">
+                  <primary>Active members</primary>
+                </indexterm>You can view the list of active members in the
+              company and their information.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term><emphasis role="bold">② Inactive</emphasis></term>
+
+            <listitem>
+              <para><indexterm class="singular">
+                  <primary>Inactive members</primary>
+                </indexterm>You can view the list of inactive members in the
+              company and their information.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term><emphasis role="bold">③ Invited</emphasis></term>
+
+            <listitem>
+              <para><indexterm class="singular">
+                  <primary>Invited members</primary>
+                </indexterm>You can view the list of members invited to the
+              company and their information.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term><emphasis role="bold">④ Member list</emphasis></term>
+
+            <listitem>
+              <para>You can view, edit, or delete the information of a member
+              by selecting a member in the member list and then going to the
+              Member info tab on the right.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term><emphasis role="bold">⑤ Member info</emphasis></term>
+
+            <listitem>
+              <para>You can view the member information, change the member
+              status, and grant permissions including Manage company and
+              Manage templates to members.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term><emphasis role="bold">⑥ Field value
+            settings</emphasis></term>
+
+            <listitem>
+              <para>You can set the field values that are related to
+              members.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term><emphasis role="bold">⑦ Transfer documents</emphasis></term>
+
+            <listitem>
+              <para><indexterm class="singular">
+                  <primary>Transfer documents</primary>
+                </indexterm>If a member no longer uses the eformsign service,
+              the documents of the member can be transferred to other
+              members.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term><emphasis role="bold">⑧ Bulk-invite</emphasis></term>
+
+            <listitem>
+              <para><indexterm class="singular">
+                  <primary>Bulk-invite</primary>
+                </indexterm>You can invite multiple members at once.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>⑨ Invite members</term>
+
+            <listitem>
+              <para><indexterm class="singular">
+                  <primary>Invite members</primary>
+                </indexterm>You can invite members via email or ID.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>⑩ Delete members</term>
+
+            <listitem>
+              <para>When you click the<emphasis role="bold"> Trash
+              </emphasis>icon, a checkbox will be activated next to each
+              member in the member list. Tick the members you want to delete
+              and click the <emphasis role="bold">Delete</emphasis>
+              button.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist></para>
+    </section>
+
+    <section>
+      <title>Manage Groups</title>
+
+      <para>You can create groups in the company and view, edit, or delete
+      each group's information.</para>
+
+      <figure>
+        <title>Manage Company &gt; Manage Groups</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/en-manag-groups-page.png"
+                       width="700"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <variablelist>
+        <varlistentry>
+          <term>① Group information</term>
+
+          <listitem>
+            <para>When you select a group in the list, you can view the name
+            and description of the group on the right side. You can also edit
+            the group information in the Group information tab.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>② Member list</term>
+
+          <listitem>
+            <para>You can view the list of the members in the group and can
+            add or remove members from the group.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>③ Field value settings</term>
+
+          <listitem>
+            <para>You can set the field values that are related to the
+            group.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>④ Create a group</term>
+
+          <listitem>
+            <para>When you click the <emphasis role="bold">Create a
+            group</emphasis> button, the Create a group pop-up window will be
+            displayed. Create a group by entering the group name and
+            description, and adding members by searching.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>⑤ Delete a group</term>
+
+          <listitem>
+            <para>When you click the <emphasis role="bold">Trash</emphasis>
+            icon, a checkbox will be activated next to each group in the group
+            list. Tick the groups you want to delete and click the <emphasis
+            role="bold">Delete</emphasis> button.</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </section>
+  </section>
+
+  <section>
+    <title>My Signature</title>
+
+    <para>If you register your signature, initial, and stamp in the <emphasis
+    role="bold">My signature</emphasis> menu, you can easily use them when
+    signing documents.<indexterm class="singular">
+        <primary>My signature</primary>
+      </indexterm></para>
+
+    <para><emphasis role="bold">Registering Your Signature and
+    Initial</emphasis></para>
+
+    <note>
+      <para>You can register your signature and initial in <emphasis
+      role="bold">browsers (PC and</emphasis> <emphasis
+      role="bold">mobile)</emphasis><emphasis role="bold"> and apps
+      (mobile).</emphasis></para>
+    </note>
+
+    <orderedlist>
+      <listitem>
+        <para>Click the sidebar menu icon, and go to the <emphasis
+        role="bold">My signature</emphasis> menu.<emphasis role="bold">
+        </emphasis></para>
+
+        <figure>
+          <title>My Signature Page</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/en-side-menu-my-signature.png"
+                         width="700"/>
+            </imageobject>
+          </mediaobject>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/en-my-signature-main.png"
+                         width="700"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </listitem>
+
+      <listitem>
+        <para>Click the <emphasis role="bold">OK</emphasis> button to add a
+        new signature, initial, or stamp.</para>
+
+        <figure>
+          <title>Register Signature</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/en-my-signature-register.png"
+                         width="500"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <itemizedlist>
+          <listitem>
+            <para><emphasis role="bold">Draw</emphasis></para>
+
+            <para>You can draw your signature on the screen.</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">Text</emphasis></para>
+
+            <para>Type your name, and then select a signature style.</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">QR code</emphasis></para>
+
+            <para><indexterm class="singular">
+                <primary>QR code</primary>
+              </indexterm>If you scan the QR code with your smartphone camera,
+            you can access the sign pad page. Draw your signature on the sign
+            pad.</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">Push notification</emphasis></para>
+
+            <para><indexterm class="singular">
+                <primary>Push notification</primary>
+              </indexterm>Select a mobile device you want to connect to and
+            click the <emphasis role="bold">Send </emphasis>button. You can
+            draw your signature using the eformsign app installed on the
+            connected device.</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para>Click the<emphasis role="bold"> OK</emphasis> button to save the
+        signature.</para>
+      </listitem>
+
+      <listitem>
+        <para>Click the<emphasis role="bold"> Edit </emphasis>or <emphasis
+        role="bold">Delete </emphasis>button to edit or delete the
+        signature.<emphasis role="bold"> </emphasis></para>
+      </listitem>
+    </orderedlist>
+
+    <para><emphasis role="bold">Registering Your Stamp</emphasis></para>
+
+    <para><indexterm class="singular">
+        <primary>Register stamp</primary>
+      </indexterm>Some documents may require a seal or stamp rather than a
+    signature or initial. You can apply a stamp/seal image to documents after
+    registering the image in the eformsign service.</para>
+
+    <note>
+      <para>A stamp/seal image needs to be prepared.</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>Image type: PNG, JPG</para>
+        </listitem>
+
+        <listitem>
+          <para>File size: Maximum of 300 KB</para>
+        </listitem>
+      </itemizedlist>
+    </note>
+
+    <orderedlist>
+      <listitem>
+        <para>Click the sidebar menu icon, and go to the <emphasis
+        role="bold">My signature</emphasis> menu.</para>
+      </listitem>
+
+      <listitem>
+        <para>Click the <emphasis role="bold">Register </emphasis>button in
+        the Stamp section to add a new stamp.</para>
+
+        <figure>
+          <title>Register Stamp</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/en-my-signature-register-stamp.png"
+                         width="700"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </listitem>
+
+      <listitem>
+        <para>Click the image area. A pop-up window will be displayed where
+        you can upload an image from your PC. Select the image that you want
+        to register.</para>
+
+        <figure>
+          <title>My signature &gt; Register Stamp Pop-up</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/en-my-signature-register-stamp-popup.png"
+                         width="700"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </listitem>
+
+      <listitem>
+        <para>Click the<emphasis role="bold"> OK</emphasis> button to save the
+        stamp.</para>
+      </listitem>
+
+      <listitem>
+        <para>Click the<emphasis role="bold"> Edit </emphasis>or<emphasis
+        role="bold"> Delete </emphasis>button to edit or delete the registered
+        stamp.</para>
+      </listitem>
+    </orderedlist>
+  </section>
+</chapter>

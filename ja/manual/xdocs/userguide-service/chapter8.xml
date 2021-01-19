@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>カスタマイズ</title>
+
+  <section>
+    <title>カスタムフィールド管理<indexterm class="singular">
+        <primary>カスタムフィールド管理</primary>
+      </indexterm></title>
+
+    <para><emphasis role="bold">会社管理 </emphasis><emphasis role="bold">&gt;
+    </emphasis><emphasis role="bold">カスタムフィールド管理</emphasis>
+    では、会社、グループ、およびメンバーのフィールドを追加および編集できます。</para>
+
+    <tip>
+      <para>文書で頻繁に使用する、会社、グループ、メンバーなどの情報（会社の代表電話番号、住所、代表者名など）をカスタムフィールドに追加した後、
+      <emphasis role="bold">テンプレートの設定 &gt; フィールドの設定
+      </emphasis>に移動し、必要な情報が自動的に入力されるように設定できます。</para>
+    </tip>
+
+    <figure>
+      <title>会社管理 &gt; カスタムフィールド管理</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/Customfield.PNG" width="700"/>
+        </imageobject>
+      </mediaobject>
+
+      <variablelist>
+        <varlistentry>
+          <term>① カスタムフィールド管理 &gt; 会社</term>
+
+          <listitem>
+            <para>会社の代表管理者、代表管理者の電話番号、法人の印鑑など、会社に関連するフィールドを追加し、値を設定できます。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>② カスタムフィールド管理 &gt; グループ</term>
+
+          <listitem>
+            <para>部署名や責任者など、グループに関連するフィールドを追加し、値を設定できます。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>③ カスタムフィールド管理 &gt; メンバー</term>
+
+          <listitem>
+            <para>役職、メールアドレス、電話番号など、メンバーに関連するフィールドを追加し、値を設定できます。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>④ フィールドの追加</term>
+
+          <listitem>
+            <para>新しいフィールドを追加します。フィールドの追加
+            ボタンをクリックすると、ポップアップウィンドウが表示され、カスタムフィールドを追加できます。<emphasis
+            role="bold">フィールド名 </emphasis>と <emphasis
+            role="bold">フィールドタイプ</emphasis>（テキスト/イメージ）、<emphasis
+            role="bold">フィールド値</emphasis> をクリックして、OK
+            ボタンをクリックすると、フィールドがリストに追加されます。</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata contentwidth="300"
+                     fileref="resources/customfield-addfield.PNG"/>
+        </imageobject>
+      </mediaobject>
+
+      <para/>
+
+      <variablelist>
+        <varlistentry>
+          <term>⑤ フィールドリスト</term>
+
+          <listitem>
+            <para>フィールドのリストにフィールド名とフィールド値を表示し、フィールド値を削除および編集できます。</para>
+
+            <para>フィールドを削除するには、フィールドリストの左側にあるアイコン (<inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="resources/customfield-list-delete.png"/>
+                </imageobject>
+              </inlinemediaobject>）をクリックします。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>⑥ フィールドの編集</term>
+
+          <listitem>
+            <para>変更したいフィールドを選択し、修正アイコンをクリックすると、カスタムフィールドの修正ポップアップウィンドウが表示され、フィールド名、タイプ、値などを変更できます。</para>
+
+            <para>フィールドの順序は、順序を変更したいフィールドを選択した後、矢印 (<inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="resources/customfield-list-order.PNG"/>
+                </imageobject>
+              </inlinemediaobject>) をクリックして順序を調整できます。</para>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata contentwidth="500"
+                           fileref="resources/customfield-edit.PNG"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>⑦ 保存</term>
+
+          <listitem>
+            <para>カスタムフィールドの編集が終了すれば、<emphasis role="bold"> 保存
+            </emphasis>ボタンをクリックして、変更内容を保存します。</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </figure>
+  </section>
+
+  <section>
+    <title>通知テンプレートの管理</title>
+
+    <para><indexterm class="singular">
+        <primary>通知テンプレートの管理</primary>
+      </indexterm>文書の依頼時に送信されるメールと SMS のテンプレートは、会社に合わせてカスタマイズできます。</para>
+
+    <para>通知テンプレートを変更するには、 <emphasis role="bold">会社管理 &gt; 通知テンプレート管理
+    </emphasis>で設定するか、または <emphasis role="bold">テンプレート管理 &gt; テンプレートの設定 &gt;
+    通知の設定</emphasis> で行えます。</para>
+
+    <figure>
+      <title>会社管理 &gt; 通知テンプレート管理</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/notification-template-manage.png"
+                     width="700"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para><emphasis role="bold">会社管理 &gt; 通知テンプレート管理</emphasis> には、基本的なメールとSMS
+    テンプレートがあり、基本的なテンプレートの内容などを変更したり、新しい通知テンプレートを追加したりできます。</para>
+
+    <para><emphasis role="bold">基本的なテンプレートの種類（メール/SMS）</emphasis></para>
+
+    <table>
+      <title>テンプレートのタイプと状態</title>
+
+      <tgroup cols="2">
+        <colspec align="center" colwidth="298*"/>
+
+        <colspec colwidth="702*"/>
+
+        <thead>
+          <row>
+            <entry align="center">タイプ</entry>
+
+            <entry align="center">状態</entry>
+          </row>
+        </thead>
+
+        <tbody>
+          <row>
+            <entry>文書の処理依頼</entry>
+
+            <entry>決裁の依頼、文書の検討および作成の依頼（内部/外部）、文書の返戻による修正の依頼/文書の無効化の依頼の受信/文書の無効化の依頼の拒否</entry>
+          </row>
+
+          <row>
+            <entry>文書の処理状態</entry>
+
+            <entry>文書の承認/文書の削除/文書の返戻/文書の検討および作成の完了、文書の最終完了（内部/外部）/文書の移管の完了/文書の修正/文書の最終完了（PDF
+            送信）、文書の無効化</entry>
+          </row>
+
+          <row>
+            <entry>メンバーの招待</entry>
+
+            <entry>メンバー招待/メンバー招待の承諾/メンバー招待の拒否/メンバー会社の脱退</entry>
+          </row>
+
+          <row>
+            <entry>ヘッダー/フッター</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <tip>
+      <para>デフォルトのヘッダーは eformsign のロゴです。<emphasis role="bold">会社管理 &gt; 会社情報
+      &gt; ブランド</emphasis> で会社のロゴを登録すれば、メールテンプレートに会社のロゴが適用されます。</para>
+    </tip>
+
+    <para><emphasis role="bold">新しい通知テンプレートを追加する方法</emphasis></para>
+
+    <para>既存の登録済みメール/SMS テンプレートに加えて、新しい通知テンプレートを追加できます。</para>
+
+    <orderedlist>
+      <listitem>
+        <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt; 通知テンプレート管理
+        </emphasis>をクリックします。</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">通知テンプレートの管理</emphasis> 画面の右上にある <emphasis
+        role="bold">通知テンプレートの追加</emphasis> ボタンをクリックします。</para>
+      </listitem>
+
+      <listitem>
+        <para>目的の <emphasis role="bold">タイプ</emphasis> を選択し、 <emphasis
+        role="bold">状態</emphasis> を選択します。<emphasis
+        role="bold">（テーブルテンプレートのタイプと状態を参照</emphasis>）</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/notification-template-new.PNG"
+                       width="700"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">チャンネル</emphasis>（メールまたはSMS）を選択し、 <emphasis
+        role="bold">通知テンプレートの名前</emphasis> を入力します。</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">ヘッター </emphasis>と <emphasis
+        role="bold">フッター</emphasis> を選択します。</para>
+      </listitem>
+
+      <listitem>
+        <para>内容を作成します。</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">保存</emphasis>
+        ボタンをクリックして、テンプレートとして追加します。</para>
+      </listitem>
+    </orderedlist>
+  </section>
+</chapter>

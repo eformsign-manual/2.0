@@ -1,0 +1,1996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter version="5.0" xml:id="formbuilder"
+         xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Introduction to Form Builder</title>
+
+  <section>
+    <title>Form Builder Overview</title>
+
+    <para><indexterm class="singular">
+        <primary>Form Builder</primary>
+      </indexterm>Also known as OZ in Office, Form builder is a form editor
+    which converts a document created using Microsoft Office into an
+    electronic document containing components (fields). By using OZ in Office,
+    you can easily convert existing Excel, Word, and PowerPoint forms such as
+    contracts, applications, and agreements into electronic documents.</para>
+
+    <para>Previously, converting Excel, Word, or PowerPoint documents into
+    electronic documents required the use of an IDE (Integrated Development
+    Environment) needing a high degree of programming knowledge for use. Now,
+    with OZ in Office, anyone with the ability to use Microsoft Office can
+    easily create electronic documents.</para>
+
+    <para>OZ in Office, provided as a Microsoft Office add-in, is easy to use
+    as it is displayed as a ribbon menu and contains various components
+    including signature, check box, text box, camera, and voice.</para>
+
+    <para>The process of creating electronic documents using OZ in Office's
+    components is as follows:</para>
+
+    <figure>
+      <title>OZ in Office Usage Flow</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/ozinoffice-flow_1.png" width="750"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <section>
+      <title>Download Form Builder</title>
+
+      <para><indexterm class="singular">
+          <primary>Download Form Builder</primary>
+        </indexterm>1. Login to eformsign and then click the menu icon
+      (<inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="resources/menu_icon.png"/>
+          </imageobject>
+        </inlinemediaobject>) on the top left corner of the dashboard screen
+      to open the sidebar menu. Then, click the <emphasis role="bold">Download
+      eformsign form builder</emphasis> button at the bottom.</para>
+
+      <figure>
+        <title>Location of the Download eformsign form builder button</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/formbuilder_download.png"
+                       width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>2. The<emphasis role="bold"> Download eformsign form builder
+      </emphasis>page will be displayed, as shown below. Click the<emphasis
+      role="bold"> Download form builder</emphasis> button at the bottom of
+      the page.</para>
+
+      <figure>
+        <title>eformsign Form Builder Download Page</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/formbuilder_download_2.png"
+                       width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>3. Select a location to save the Form builder executable file and
+      download it.</para>
+    </section>
+
+    <section>
+      <title>Install Form Builder</title>
+
+      <para>1. Click the Form builder executable file to run it.</para>
+
+      <para>2. When the Wizard screen shown below is displayed, select the
+      <emphasis role="bold">Complete </emphasis>option and then click
+      the<emphasis role="bold"> Next</emphasis> button.</para>
+
+      <figure>
+        <title>Form Builder Installation Screen (1)</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/formbuilder_wizard_1.png"
+                       width="500"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>3. When the installation proceeds, the following screen is
+      displayed.</para>
+
+      <figure>
+        <title>Form Builder Installation Screen (2)</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/formbuilder_wizard_2.png"
+                       width="500"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>4. When the installation is completed, the following screen is
+      displayed. Click the <emphasis role="bold">Finish</emphasis> button to
+      close the installation screen.</para>
+
+      <figure>
+        <title>Form Builder Installation Screen (3)</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/formbuilder_wizard_3.png"
+                       width="500"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>5. Check whether Form builder was installed properly by running MS
+      Office (Word, Excel, PowerPoint). If <emphasis role="bold">OZ in
+      Word/Excel/PowerPoint</emphasis> is displayed as below, then it was
+      installed properly.</para>
+
+      <figure>
+        <title>OZ in Word Ribbon Menu</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/formbuilder_word_4.png" width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </section>
+
+    <section>
+      <title>Form Builder Menu Layout</title>
+
+      <para>If you run Microsoft Office Excel, Word, or PowerPoint after
+      installing Form builder, you can see that the<emphasis role="bold"> OZ
+      in Excel, OZ in Word, or OZ in PowerPoint</emphasis> tab is added to the
+      OZ in Office ribbon menu.</para>
+
+      <figure>
+        <title>Microsoft Office OZ in Office Ribbon Menu</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/ozinoffice.png" width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <orderedlist>
+        <listitem>
+          <para><emphasis role="bold">File: </emphasis>Allows to execute
+          (preview) the document as an electronic form, upload the document to
+          eformsign as a template, or download an electronic form from
+          eformsign.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Property: </emphasis>Sets the component
+          properties including ID, and Items.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Input: </emphasis>Adds components used
+          in templates.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Info: </emphasis>Adds the necessary
+          components in order to have information such as user and date to be
+          automatically entered into templates.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Drawing: </emphasis>Draws components in
+          the location and size you want. <emphasis
+          role="bold">Drawing</emphasis> is supported only in Word and
+          PowerPoint.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Deletion: </emphasis>Deletes components
+          after selecting components and then clicking the <emphasis
+          role="bold">Delete </emphasis>button.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Window: </emphasis>Allows to open the
+          <emphasis role="bold">Properties </emphasis>tab of the selected
+          component or display selected components in the <emphasis
+          role="bold">Selection </emphasis>tab.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Help:</emphasis> Checks the version of
+          Form builder and performs updates.</para>
+        </listitem>
+      </orderedlist>
+    </section>
+  </section>
+
+  <section>
+    <title>Overview of Components</title>
+
+    <para><indexterm class="singular">
+        <primary>Components</primary>
+      </indexterm>Components are used to create fields in electronic documents
+    that users can enter information. Many different components including
+    signature, check, date, and text are provided in Form builder, and each
+    component can be configured in detail by using the <emphasis
+    role="bold">Component Properties</emphasis> tab.</para>
+
+    <section>
+      <title>Component Types</title>
+
+      <para>The components provided in eformsign are as follows:</para>
+
+      <figure>
+        <title>Component Types</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/components-in-word.png" width="730"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="check">Check</link>:</emphasis><indexterm class="singular">
+              <primary>Components</primary>
+
+              <secondary>Check</secondary>
+            </indexterm>Ticks a check box.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="select">Radio</link>:</emphasis><indexterm class="singular">
+              <primary>Components</primary>
+
+              <secondary>Radio</secondary>
+            </indexterm>Selects an item among multiple items (can also be set
+          to select multiple items).</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="text">Text</link>:</emphasis> <indexterm class="singular">
+              <primary>Components</primary>
+
+              <secondary>Text</secondary>
+            </indexterm>Enters short text (usually 1 to 2 words).</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="text">Multiline</link>:</emphasis><indexterm
+              class="singular">
+              <primary>Components</primary>
+
+              <secondary>Multiline</secondary>
+            </indexterm>Enters long text with multiple lines.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="combo">Combo</link>:</emphasis> <indexterm class="singular">
+              <primary>Components</primary>
+
+              <secondary>Combo</secondary>
+            </indexterm>Displays a drop-down menu that allows you to select an
+          item.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="date">Datetime</link>:</emphasis> <indexterm
+              class="singular">
+              <primary>Components</primary>
+
+              <secondary>Datetime</secondary>
+            </indexterm>Enters a specific date.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="numeric">Numeric</link>:</emphasis> <indexterm
+              class="singular">
+              <primary>Components</primary>
+
+              <secondary>Numeric</secondary>
+            </indexterm>Enters a number.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="toggle">Toggle</link>:</emphasis> <indexterm
+              class="singular">
+              <primary>Components</primary>
+
+              <secondary>Toggle</secondary>
+            </indexterm>Switches to another value if two or more values are
+          entered.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="signature">Signature</link>:</emphasis> <indexterm
+              class="singular">
+              <primary>Components</primary>
+
+              <secondary>Signature</secondary>
+            </indexterm>Enters a signature.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="camera">Camera</link>:</emphasis> <indexterm
+              class="singular">
+              <primary>Components</primary>
+
+              <secondary>Camera</secondary>
+            </indexterm>Takes a photo using a camera or selects a photo from
+          an album in devices with a built-in camera (e.g. smartphone, tablet,
+          etc.). Selects an image file in devices without a camera (e.g.
+          desktop PC).</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="record">Voice</link>:</emphasis> <indexterm
+              class="singular">
+              <primary>Components</primary>
+
+              <secondary>Voice</secondary>
+            </indexterm>Records audio in devices with a voice recording
+          function.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="attach">Attachment</link>:</emphasis> <indexterm
+              class="singular">
+              <primary>Components</primary>
+
+              <secondary>Attachment</secondary>
+            </indexterm>Attaches a file.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="user">User:</link></emphasis> <indexterm class="singular">
+              <primary>Components</primary>
+
+              <secondary>User</secondary>
+            </indexterm>Enters information of the document user.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="usedate">Date</link>:</emphasis> <indexterm
+              class="singular">
+              <primary>Components</primary>
+
+              <secondary>Date</secondary>
+            </indexterm>Enters the date in which the document is created or
+          modified.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="document">Document</link>:</emphasis> <indexterm
+              class="singular">
+              <primary>Components</primary>
+
+              <secondary>Document</secondary>
+            </indexterm>Enters the document number or ID in the document
+          itself.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="label">Label</link>:</emphasis> <indexterm class="singular">
+              <primary>Components</primary>
+
+              <secondary>Label</secondary>
+            </indexterm>Sets the form ID.</para>
+        </listitem>
+      </itemizedlist>
+    </section>
+
+    <section>
+      <title>Accessing Component Properties</title>
+
+      <para>Every component has its own detailed settings called <emphasis
+      role="bold">OZ Component Properties</emphasis>. The properties of each
+      component can be accessed by selecting a component and then clicking the
+      property icon or the <emphasis role="bold">Properties</emphasis>
+      menu.</para>
+
+      <figure>
+        <title>Accessing Component Properties</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/checking-components-properties.png"
+                       width="730"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <note>
+        <para>All components must have an ID. An ID is automatically generated
+        when you create a component, but it is recommended to rename it to
+        something you can easily recognize. For example, you can rename the ID
+        of a component for entering John Doe, Jane Doe, etc. as 'name'. By
+        doing so, it is easier to identify components when deciding whether to
+        display a field to a specific user when you are configuring the Field
+        settings of a template.</para>
+      </note>
+    </section>
+
+    <section>
+      <title>How to Add Components</title>
+
+      <para>There are two different ways of adding components: adding
+      components in Excel, and adding components in Word/PowerPoint. In Word
+      or PowerPoint, you can add components in two different ways.</para>
+
+      <section>
+        <title>Adding Components in Excel</title>
+
+        <para>1. Open Excel and go to the <emphasis role="bold">OZ in
+        Excel</emphasis> ribbon menu.</para>
+
+        <figure>
+          <title>Adding Components in Excel (1)</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/ozinexcel_1.png" width="730"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>2. Select the cell in which you want to add a component.</para>
+
+        <figure>
+          <title>Adding Components in Excel (2)</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/ozinexcel_2.png" width="730"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>3. Click the component you want.</para>
+
+        <figure>
+          <title>Adding Components in Excel (3)</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/ozinexcel_3.png" width="730"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>4. Check that the component has been added by viewing the
+        <emphasis role="bold">OZ Component Properties</emphasis> tab.</para>
+      </section>
+
+      <section>
+        <title>Adding Components in Word or PowerPoint</title>
+
+        <para><emphasis role="bold">Method 1: Adding Components by Clicking a
+        Component Type</emphasis></para>
+
+        <para>1. Open Word or PowerPoint and select the location in the
+        document where you want to add the component.</para>
+
+        <figure>
+          <title>Method 1: Adding Components by Clicking a Component Type in
+          Word or PowerPoint (1)</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/ozinword_1.png" width="700"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>2.Click the component type you want to add in the ribbon menu of
+        <emphasis role="bold">OZ in Word</emphasis> or <emphasis
+        role="bold">OZ in PowerPoint</emphasis>.</para>
+
+        <figure>
+          <title>Method 1: Adding Components by Clicking a Component Type in
+          Word or PowerPoint (2)</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/ozinword_2.png" width="700"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>3. Adjust the size of the component.</para>
+
+        <figure>
+          <title>Method 1: Adding Components by Clicking a Component Type in
+          Word or PowerPoint (2)</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/ozinword_3.png" width="700"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para><emphasis role="bold">Method 2: Adding Components by Drawing a
+        Component</emphasis></para>
+
+        <para>1. Open Word or PowerPoint and go to the <emphasis
+        role="bold">OZ in Word/Powerpoint</emphasis> ribbon menu.</para>
+
+        <para>2. Click the <emphasis role="bold">Drawing Component</emphasis>
+        icon and select the component type you want to add in the drop-down
+        menu displayed.</para>
+
+        <figure>
+          <title>Method 2: Adding Components by Drawing a Component in Word or
+          PowerPoint (1)</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/ozinword_2_1.png" width="700"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>3. Add the component in the position and size you want.</para>
+
+        <figure>
+          <title>Method 2: Adding Components by Drawing a Component in Word or
+          PowerPoint (2)</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/ozinword_2_2.png" width="700"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </section>
+    </section>
+
+    <section>
+      <title>How to Delete Components</title>
+
+      <para>Select the component you want to delete and then click the
+      <emphasis role="bold">Delete</emphasis> icon (<inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="resources/delete-icon.png"/>
+          </imageobject>
+        </inlinemediaobject>) in the<emphasis role="bold"> OZ in
+      Office</emphasis> menu. You can also select and delete multiple
+      components.</para>
+    </section>
+  </section>
+
+  <section>
+    <title>How to Use Each Component Type</title>
+
+    <para>eformsign provides various types of components such as check box,
+    combo box, text, and signature through Microsoft Office’s <emphasis
+    role="bold">OZ in Office</emphasis> ribbon menu.</para>
+
+    <para>All components of <emphasis role="bold">OZ in Office</emphasis> have
+    both common and unique properties. You can view both the common and unique
+    properties of components in the <emphasis role="bold">OZ Component
+    Properties</emphasis> tab. Common properties include ID and Tooltip Text,
+    and the meaning of each property is as follows:</para>
+
+    <itemizedlist>
+      <listitem>
+        <para><emphasis role="bold">ID: </emphasis><indexterm class="singular">
+            <primary>Components</primary>
+
+            <secondary>ID</secondary>
+          </indexterm>Unique key for using an entered value in
+        eformsign.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Tooltip Text: </emphasis><indexterm
+            class="singular">
+            <primary>Components</primary>
+
+            <secondary>Tooltip Text</secondary>
+          </indexterm>In Windows, the text in the Tooltip Text box of a
+        component is displayed in the form of a speech bubble when hovering
+        the mouse over the component. In mobile, the text is displayed on the
+        quick type bar when clicking on the component.</para>
+      </listitem>
+    </itemizedlist>
+
+    <note>
+      <para>To open the <emphasis role="bold">OZ Component
+      Properties</emphasis> window, click on a component and then click the
+      <emphasis role="bold">Properties</emphasis> icon (<inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="resources/property-icon.png"/>
+          </imageobject>
+        </inlinemediaobject> ) in the<emphasis role="bold">
+      </emphasis><emphasis role="bold">OZ in Office </emphasis>ribbon
+      menu.</para>
+    </note>
+
+    <note>
+      <para>The Tooltip Text feature is not provided for the Info group
+      including User, Date, Document, and Label component types.</para>
+    </note>
+
+    <para>The description of each component type provided in eformsign is as
+    follows.</para>
+
+    <section xml:id="check">
+      <title>Check</title>
+
+      <para><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>Check</secondary>
+        </indexterm>The<emphasis role="bold"> Check</emphasis> component is
+      used to check whether an item is checked or not. This component is
+      similar to the <emphasis role="bold">Radio</emphasis> component, but it
+      is used for checking the status of an item (whether it is checked or
+      not) while the <emphasis role="bold">Radio</emphasis> component is used
+      for checking which item among multiple items is checked.</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/form-builder-components_check.png"
+                     width="730"/>
+        </imageobject>
+      </mediaobject>
+
+      <para>When data is downloaded in the CSV format, the <emphasis
+      role="bold">Check </emphasis>component’s input value is displayed as
+      follows:</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>When the item is checked: true</para>
+        </listitem>
+
+        <listitem>
+          <para>When the item is not checked: false</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>In Word and PowerPoint, the <emphasis role="bold">Check</emphasis>
+      component is shown as a rectangular shape. Make sure to enter data
+      inside the rectangular shape.</para>
+
+      <para><emphasis role="bold">Component Properties</emphasis></para>
+
+      <para><figure>
+          <title>Setting Check Component Properties</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/check-component-properties-1.png"
+                         width="500"/>
+            </imageobject>
+          </mediaobject>
+        </figure></para>
+
+      <para><emphasis role="bold">① ID</emphasis></para>
+
+      <para>Each Check<emphasis role="bold"> </emphasis>component must be
+      given a different ID. If multiple check components are given the same
+      ID, then only the value of the last component is displayed.</para>
+
+      <para><emphasis role="bold">② Check Style</emphasis></para>
+
+      <para>You can specify the style of each component in <emphasis
+      role="bold">Component Properties</emphasis>. The check box is set as the
+      default style, and you can change it to another style (radio button or
+      red circle).</para>
+
+      <para>The below example shows how check boxes are displayed according to
+      the selected style.</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/check-component-style-settings.png"
+                     width="600"/>
+        </imageobject>
+      </mediaobject>
+    </section>
+
+    <section xml:id="select">
+      <title>Radio</title>
+
+      <para><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>Radio</secondary>
+        </indexterm>The Radio component is used for checking which radio
+      button is selected among multiple items. When data is downloaded in the
+      CSV format, the selected item will be displayed.</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/form-builder-components.png"
+                     width="730"/>
+        </imageobject>
+      </mediaobject>
+
+      <para>In Word and PowerPoint, the radio component is shown as a
+      rectangular shape. Make sure to enter data inside the rectangular
+      shape.</para>
+
+      <para><emphasis role="bold">Component Properties</emphasis></para>
+
+      <para><figure>
+          <title>Setting Radio Component Properties</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/Radio-component-properties.png"
+                         width="400"/>
+            </imageobject>
+          </mediaobject>
+        </figure></para>
+
+      <para><emphasis role="bold">① ID</emphasis></para>
+
+      <para>In <emphasis role="bold">Component Properties</emphasis>, make
+      sure that all the selected radio buttons are assigned the same
+      ID.</para>
+
+      <para>For example, if there are six choices available in a multiple
+      choice question, assign "question1" as the ID for all of them. In the
+      example shown below, the IDs of all the items are set to the same
+      "question 1".</para>
+
+      <figure>
+        <title>Example of Setting a Radio Component</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/radio-items-should-have-same-ID.png"
+                       width="700"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">② Check Style</emphasis></para>
+
+      <para>You can choose the style of the Radio component in <emphasis
+      role="bold">Component Properties</emphasis>. The default style is the
+      <emphasis role="bold">Circle</emphasis>, and you can change it to
+      another style (check box and radio button).</para>
+
+      <para><emphasis role="bold">③ Multiselectable</emphasis></para>
+
+      <para>Checking the <emphasis role="bold">Multi-selectable</emphasis>
+      option allows you to select multiple items.<emphasis role="bold">
+      </emphasis>If<emphasis role="bold"> </emphasis>you select more than one
+      item, then when data is saved, each item is separated with a comma
+      (,).</para>
+
+      <para><emphasis role="bold">④ Uncheckable</emphasis></para>
+
+      <para>Checking the <emphasis role="bold">Uncheckable</emphasis> option
+      allows you to deselect a selected item by clicking it again.</para>
+
+      <para><emphasis role="bold">⑤ Tooltip Text</emphasis></para>
+
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
+    </section>
+
+    <section xml:id="combo">
+      <title>Combo</title>
+
+      <para><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>Combo</secondary>
+        </indexterm>The Combo component is used when you need to select one of
+      multiple items.</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/form-builder-components_Combo.png"
+                     width="730"/>
+        </imageobject>
+      </mediaobject>
+
+      <para>If you click a combo component, a list of items is displayed as
+      follows:</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/combo-1.png" width="500"/>
+        </imageobject>
+      </mediaobject>
+
+      <para><emphasis role="bold">Component Properties</emphasis></para>
+
+      <figure>
+        <title>Setting Combo Component Properties</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/combo-component-properties.png"
+                       width="400"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">① ID</emphasis></para>
+
+      <para>Enters the ID of the Combo component. For example, the ID of the
+      component for selecting the favorite color can be
+      'favoriteColor’.</para>
+
+      <para><emphasis role="bold">② Items</emphasis></para>
+
+      <para>Enters the items you want. You can separate the items by pressing
+      Enter.</para>
+
+      <note>
+        <para>If you want to display a message such as ‘Please select a color’
+        in a combo box in a document for recipients to view, then enter the
+        message at the top of the list of items in the combo box and select it
+        before sending the document.</para>
+      </note>
+
+      <para><emphasis role="bold">③ Allow Empty Value</emphasis></para>
+
+      <para>Checking the <emphasis role="bold">Allow Empty Value</emphasis>
+      option allows you to deselect a selected item. Empty Value can be
+      allowed in the following ways:</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>PC: Right-click on the component and select the <emphasis
+          role="bold">Allow Empty Value</emphasis> option in the pop-up
+          menu.</para>
+        </listitem>
+
+        <listitem>
+          <para>Mobile: Click the Trash can icon.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para><emphasis role="bold">④ Tooltip Text</emphasis></para>
+
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
+    </section>
+
+    <section xml:id="text">
+      <title>Text and Multiline</title>
+
+      <para><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>Text</secondary>
+        </indexterm><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>Multiline</secondary>
+        </indexterm>Both Text and Multiline components are used to create text
+      fields. The Text component is suitable for short text with 1 to 2 words,
+      and the Multiline component is suitable for long text with more than 1
+      line.</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/text-and-muliline-components.png"
+                     width="730"/>
+        </imageobject>
+      </mediaobject>
+
+      <para><emphasis role="bold">Component Properties</emphasis></para>
+
+      <figure>
+        <title>Setting Text and Multiline Component Properties</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/text-component-properties.png"
+                       width="400"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">① ID</emphasis></para>
+
+      <para>Enters the ID of the text/multiline component. For example, the ID
+      of the component in which John Doe, Jane Doe, etc. are entered can be
+      named ‘personName’.</para>
+
+      <para><emphasis role="bold">② Max Length</emphasis></para>
+
+      <para>Sets the maximum length of characters (including space) that can
+      be entered. By default, it is set to ‘0’, and in this case, there is no
+      limit for the number of characters.</para>
+
+      <para><emphasis role="bold">③ Keyboard Type</emphasis></para>
+
+      <para>Selects the keyboard type to be used when entering text in the
+      component. Keyboard Type can only be used in mobile devices such as
+      smartphones and tablets.</para>
+
+      <para><emphasis role="bold">④ Show Password Characters</emphasis></para>
+
+      <para>This option can be set only in the text component. By checking
+      this option, the password is hidden with the password symbol (●) when
+      entering text. The password is also hidden with the password symbol in
+      PDFs, and can only be seen when downloaded in the CSV format.</para>
+
+      <para><emphasis role="bold">⑤ Tooltip Text</emphasis></para>
+
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
+    </section>
+
+    <section xml:id="date">
+      <title>Datetime</title>
+
+      <para><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>Datetime</secondary>
+        </indexterm>This component is used for entering a date. Clicking the
+      component displays a date selection window where you can select the date
+      you want.</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/form-builder-components_datetime.png"
+                     width="730"/>
+        </imageobject>
+      </mediaobject>
+
+      <para><emphasis role="bold">Component Properties</emphasis></para>
+
+      <figure>
+        <title>Setting Datetime Component Properties</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/datetime-component-properties_02.png"
+                       width="400"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">① ID</emphasis></para>
+
+      <para>Enters the ID of the Datetime component. For example, the ID of
+      the component for selecting the vacation start date can be named
+      ‘vacationStartDate’.</para>
+
+      <para><emphasis role="bold">② Format</emphasis></para>
+
+      <para>Sets the format in which date is displayed. The default setting is
+      date_yyyy-MM-dd.</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">yyyy: </emphasis>Displays the
+          year.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">MM:</emphasis> Displays the month. Must
+          be in uppercase.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">dd:</emphasis> Displays the days.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>For example, if you want to display the date in the format of
+      ‘15-02-2020’, then enter <emphasis role="bold">dd-MM-yyyy </emphasis>in
+      the Format field.</para>
+
+      <para><emphasis role="bold">③ Minimum Date/Maximum
+      Date</emphasis></para>
+
+      <para>Sets the range of dates that can be selected in the component by
+      specifying the minimum and maximum dates.</para>
+
+      <para><emphasis role="bold">④ Display Today for Empty
+      Value</emphasis></para>
+
+      <para>Checking this option automatically enters the date (the date in
+      which the document is opened) when the document is opened. This option
+      is checked by default when you add a <emphasis
+      role="bold">Datetime</emphasis> component. You can change the date by
+      clicking the component.</para>
+
+      <para><emphasis role="bold">⑤ Allow Empty Value</emphasis></para>
+
+      <para>Checking this option allows you to clear the number displayed on a
+      Numeric component. In a Datetime component, once you select a date, you
+      can change it to another date but cannot clear the date. However,
+      checking this option allows you to clear the date displayed on the
+      Datetime component. If no date is selected in the Datetime component but
+      the <emphasis role="bold">Display Today for Empty Value</emphasis>
+      option is checked, then the date component is automatically filled in
+      with the date in which the document is opened.</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>PC: Right-click on the component to display the pop-up menu
+          and then select the<emphasis role="bold"> Initialize Input
+          Data</emphasis> menu.</para>
+        </listitem>
+
+        <listitem>
+          <para>Mobile: Click the Trash icon.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para><emphasis role="bold">⑥ Tooltip Text</emphasis></para>
+
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
+    </section>
+
+    <section xml:id="numeric">
+      <title>Numeric</title>
+
+      <para><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>Numeric</secondary>
+        </indexterm>This component is used for entering a number. Clicking the
+      component displays two arrows on the right, and you can increase or
+      decrease the number by clicking them. In PCs, you can directly enter the
+      desired number into the component by using a keyboard. In smartphones
+      and tablets, you can scroll through the list of numbers and select the
+      one you want.</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/form-builder-components_numeric.png"
+                     width="730"/>
+        </imageobject>
+      </mediaobject>
+
+      <para><emphasis role="bold">Component Properties</emphasis></para>
+
+      <figure>
+        <title>Setting Numeric Component Properties</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/number-component-properties.png"
+                       width="400"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">① ID</emphasis></para>
+
+      <para>Enters the ID of the numeric component. For example, the ID of the
+      component for entering the number of people in a reservation can be
+      named ‘peopleCount’.</para>
+
+      <para><emphasis role="bold">② Unit of Change</emphasis></para>
+
+      <para>Enters the unit of number that will increase/decrease the number
+      whenever the up/down arrow icon is clicked. For example, if the ‘Unit of
+      Change’ is set to 100, then when you click the up arrow icon (▲), the
+      number is increased by 100 such as 200, 300, 400, and so on.</para>
+
+      <para><emphasis role="bold">③ Minimum/Maximum Value</emphasis></para>
+
+      <para>Sets the range of numbers that can be entered into the component
+      by specifying the minimum and maximum values. For example, for the date
+      of birth, setting the Minimum Value to 1900, Maximum Value to the
+      current year, and the Unit of Change to 1. Also, if you enter a value
+      that is lower/higher than the Minimum/Maximum Value, then the
+      Minimum/Maximum Value will be automatically entered. For example, if the
+      Maximum Value is set to 100 and you enter 101, then the number will
+      automatically change to 100.</para>
+
+      <para><emphasis role="bold">④ Allow Empty Value</emphasis></para>
+
+      <para>Checking the <emphasis role="bold">Allow Empty Value</emphasis>
+      option allows you to clear the number displayed on the numeric
+      component. After entering a number in a numeric component, you can
+      change the number again, but cannot clear the number. However, by
+      checking this option, you can clear the number displayed on the
+      component as described below.</para>
+
+      <para><itemizedlist>
+          <listitem>
+            <para>PC: Right-click on the component to display the pop-up menu
+            and then select the <emphasis role="bold">Initialize Input
+            Data</emphasis> menu.</para>
+          </listitem>
+
+          <listitem>
+            <para>Mobile: Click the Trash icon.</para>
+          </listitem>
+        </itemizedlist></para>
+
+      <para><emphasis role="bold">⑤ Tooltip Text</emphasis></para>
+
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
+    </section>
+
+    <section xml:id="toggle">
+      <title>Toggle</title>
+
+      <para><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>Toggle</secondary>
+        </indexterm>This component is used for indicating a specific status
+      such as ON/OFF. If you use this component, then the input value is
+      switched according to a defined order whenever the component is
+      clicked.</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/form-builder-components_toggle.png"
+                     width="730"/>
+        </imageobject>
+      </mediaobject>
+
+      <para>You can change the status to <emphasis role="bold">Good</emphasis>
+      or <emphasis role="bold">Bad</emphasis> by clicking the components as
+      follows:</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/toggle.png" width="400"/>
+        </imageobject>
+      </mediaobject>
+
+      <para><emphasis role="bold">Component Properties</emphasis></para>
+
+      <figure>
+        <title>Toggle Component Properties</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/toggle-component-properties.png"
+                       width="400"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">① ID</emphasis></para>
+
+      <para>Enters the ID of the toggle component. For example, the ID of the
+      component for the first inspection item can be named
+      ‘inspection1’.</para>
+
+      <para><emphasis role="bold">② Items</emphasis></para>
+
+      <para>Enters the list of items that will be toggled whenever the toggle
+      component is clicked. You can separate each item by pressing
+      Enter.</para>
+
+      <para><emphasis role="bold">③ Allow Empty Value</emphasis></para>
+
+      <para>Checking this option allows you to clear the item displayed on the
+      toggle component. When you select a toggle component, you can toggle to
+      another item but cannot clear the item displayed on the component.
+      However, by checking this option, you can clear the item displayed on
+      the component as described below:</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>PC: Right-click on the component to display the pop-up menu
+          and then select the <emphasis role="bold">Initialize Input
+          Data</emphasis> menu.</para>
+        </listitem>
+
+        <listitem>
+          <para>Mobile: Click the Trash icon.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para><emphasis role="bold">④ Tooltip Text</emphasis></para>
+
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
+    </section>
+
+    <section xml:id="signature">
+      <title>Signature</title>
+
+      <para><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>Signature</secondary>
+        </indexterm>This component is used for signing a signature on a
+      document.</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/form-builder-components_signature.png"
+                     width="730"/>
+        </imageobject>
+      </mediaobject>
+
+      <para>Clicking the signature area displays the <emphasis
+      role="bold">Signature</emphasis> pop-up which allows you to sign a
+      signature by drawing, entering text, or using a previously registered
+      signature.</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/signature.png" width="400"/>
+        </imageobject>
+      </mediaobject>
+
+      <para><emphasis role="bold">Component Properties</emphasis></para>
+
+      <figure>
+        <title>Setting Signature Component Properties</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/Signature-component-properties.png"
+                       width="400"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">① ID</emphasis></para>
+
+      <para>Enters the ID of the signature component. For example, the ID of
+      the component can be ‘signerSignature’ for contract signers.</para>
+
+      <para><emphasis role="bold">② Signature Type</emphasis></para>
+
+      <para>Selects the signature type to be used when signing.</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">Enter Directly:</emphasis> Clicking the
+          signature area displays the<emphasis role="bold"> Signature
+          </emphasis>pop-up which allows you to sign by selecting one of the
+          multiple signing methods which are <emphasis
+          role="bold">Draw</emphasis>, <emphasis role="bold">Text</emphasis>,
+          <emphasis role="bold">Mobile</emphasis>, <emphasis
+          role="bold">Stamp</emphasis>, and <emphasis role="bold">Registered
+          signature</emphasis>.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Registered Signature:</emphasis> If the
+          user has already registered a signature on eformsign, then clicking
+          the signature area inserts the registered signature into the
+          document.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Registered Initials:</emphasis> If the
+          user has already registered an initial on eformsign, then clicking
+          the signature area inserts the registered initial into the
+          document.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para><note>
+          <para>If there is a registered signature or initial, then it will be
+          automatically entered in the signature area when a signature area is
+          clicked. However, if there is no registered signature or initial,
+          then a regular <emphasis role="bold">Signature </emphasis>pop-up
+          will be displayed when a signature area is clicked.</para>
+        </note></para>
+
+      <note>
+        <para>In some cases, you may need to use a seal or stamp on a document
+        rather than your own signature. With eformsign, you can also use a
+        stamp image to stamp the signature on a document. To use a stamp image
+        when submitting a document, click the <emphasis
+        role="bold">Stamp</emphasis> tab in the <emphasis
+        role="bold">Signature</emphasis> pop-up, and then select a stamp image
+        and click <emphasis role="bold">OK</emphasis>.</para>
+      </note>
+
+      <para><emphasis role="bold">③ Signature Pen Thick</emphasis></para>
+
+      <para>Sets the signature pen thickness.</para>
+
+      <para><emphasis role="bold">④ Signature Pen Color</emphasis></para>
+
+      <para>Sets the signature pen color.</para>
+
+      <para><emphasis role="bold">⑤ Tooltip Text</emphasis></para>
+
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
+
+      <note>
+        <para>You can set the signature date to be automatically entered in
+        documents that require signature, such as electronic contracts and
+        electronic agreements.</para>
+
+        <para>1. Open the document file (Word, Excel, PowerPoint) to be
+        converted into an electronic form or create a new document.</para>
+
+        <para>2. Add a Signature component in the area of the document to be
+        signed.</para>
+
+        <para>3. Enter the ID of the Signature component in the <emphasis
+        role="bold">Component Properties</emphasis> tab. For example, the ID
+        can be named ‘signature1’.</para>
+
+        <para>4. Add the Date (not to be confused with Datetime) component
+        where the signature date will be entered.</para>
+
+        <para>5. Open the <emphasis role="bold">Component
+        Properties</emphasis> tab of the Date component.</para>
+
+        <para>6. Select the<emphasis role="bold"> Date Type</emphasis> as
+        <emphasis role="bold">Last modified date of the
+        content</emphasis>.</para>
+
+        <para>7. Enter the ID of the Signature component in the Input
+        Component ID field on the bottom. In this case, it would be
+        ‘signature1’.</para>
+
+        <para>※ You can select the Format of date to be displayed on the Date
+        component by selecting the desired date format in the<emphasis
+        role="bold"> Component Properties</emphasis> tab.</para>
+      </note>
+    </section>
+
+    <section xml:id="camera">
+      <title>Camera</title>
+
+      <para><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>Camera</secondary>
+        </indexterm>This component is for uploading photos (taken with a
+      device with a built-in camera such as smartphones and tablets) on a
+      document. In PCs without a camera, clicking the component displays a
+      window for selecting a desired image file.</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/form-builder-components_camera.png"
+                     width="730"/>
+        </imageobject>
+      </mediaobject>
+
+      <para>If the size of the selected image is larger than the size of the
+      text box, then it is resized to fit the component.</para>
+
+      <note>
+        <para>For the device with a built-in camera, camera feature will be
+        executed, and for the devices with no camera, a window for selecting
+        an image file will be displayed.</para>
+      </note>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/camera1.png" width="350"/>
+        </imageobject>
+      </mediaobject>
+
+      <para><emphasis role="bold">Component Properties</emphasis></para>
+
+      <figure>
+        <title>Setting Camera Component Properties</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/Camera-component-properties-.png"
+                       width="400"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">① ID</emphasis></para>
+
+      <para>Enters the ID of the Camera component. For example, the ID of the
+      component that takes the photo of a driver’s license can be
+      ‘driverLicense’.</para>
+
+      <para><emphasis role="bold">② Tooltip Text</emphasis></para>
+
+      <para>Displays the description in the Tooltip Text when you hover the
+      mouse over a component.</para>
+    </section>
+
+    <section xml:id="record">
+      <title>Voice</title>
+
+      <para><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>Voice</secondary>
+        </indexterm>This component is used for storing recorded voice. You can
+      set the maximum recording time and you can also configure the settings
+      to allow users to only listen to the voice recording.</para>
+
+      <para>When you add a Voice component in OZ in Office, you can record
+      voice or play a voice recording as follows:</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/record1.png" width="400"/>
+        </imageobject>
+      </mediaobject>
+
+      <note>
+        <para>If the recording time limit is set to 1 or higher, recording is
+        completed automatically at the time set (unit: seconds).</para>
+
+        <para>In the case of ActiveX viewer, the recording playback UI is
+        supported from Windows 8 and later.</para>
+
+        <para>In PCs, the Voice component works only when a voice recording
+        device is connected to a PC.</para>
+      </note>
+
+      <para><emphasis role="bold">Component Properties</emphasis></para>
+
+      <para><figure>
+          <title>Setting Voice Component Properties</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/record_component.png" width="400"
+                         wordsize=""/>
+            </imageobject>
+          </mediaobject>
+        </figure></para>
+
+      <para><emphasis role="bold">① ID</emphasis></para>
+
+      <para>Enter the ID of the Voice component. For example, the ID of the
+      component that plays voice recordings can be named 'Record1'.</para>
+
+      <para><emphasis role="bold">② Tooltip Text</emphasis></para>
+
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
+    </section>
+
+    <section xml:id="attach">
+      <title>Attachment</title>
+
+      <para><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>Attachment</secondary>
+        </indexterm>This component is used for attaching a file to a document.
+      When attaching a file to a document by using the Attachment component,
+      the file will be attached at the very end of the document as a new
+      page.</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/form-builder-components_attachment.png"
+                     width="730"/>
+        </imageobject>
+      </mediaobject>
+
+      <para>The types and sizes of files that can be attached are as
+      follows:</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>File type: PDF, JPG, PNG, and GIF</para>
+        </listitem>
+
+        <listitem>
+          <para>File size: Up to 5MB</para>
+        </listitem>
+      </itemizedlist>
+
+      <para><emphasis role="bold">Component Properties</emphasis></para>
+
+      <figure>
+        <title>Setting Attachment Component Properties</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/Attachment-component-properties.png"
+                       width="400"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">① ID</emphasis></para>
+
+      <para>Enters the ID of the Attachment component. For example, the ID of
+      the component for attaching a resume can be named ‘myResume’.</para>
+
+      <para><emphasis role="bold">② Tooltip Text</emphasis></para>
+
+      <para>Displays the description Tooltip Text when you hover the mouse
+      over a component.</para>
+    </section>
+
+    <section xml:id="user">
+      <title>User</title>
+
+      <para><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>User</secondary>
+        </indexterm>This component is used for entering the information of the
+      user who created or modified a document. The user’s basic information
+      such as name or contact information, or custom field information is
+      automatically entered into the user component based on the
+      settings.</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/form-builder-components_user.png"
+                     width="730"/>
+        </imageobject>
+      </mediaobject>
+
+      <para><emphasis role="bold">Component Properties</emphasis></para>
+
+      <figure>
+        <title>Setting User Component Properties</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/user-component-properties-.png"
+                       width="400"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">① ID</emphasis></para>
+
+      <para>Enters the ID of the user component. For example, the ID of the
+      component that displays the name of the document creator can be named
+      ‘documentCreator’.</para>
+
+      <para><emphasis role="bold">② User Type</emphasis></para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">Document Creator:</emphasis> Displays
+          the information of the user who created the document.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Current User:</emphasis> Displays the
+          information of the user who has most recently opened or modified the
+          document.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Last modified user of the
+          content:</emphasis> Displays the information of the user who entered
+          information in a specific component.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>If you select <emphasis role="bold">Last modified user of the
+      content</emphasis>, then the<emphasis role="bold"> Input Component
+      ID</emphasis> field will be displayed. In this field, enter the ID of
+      the component that will display the information when triggered.</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/user-input-certain-component.png"
+                     width="400"/>
+        </imageobject>
+      </mediaobject>
+
+      <note>
+        <para>You need to have company administrator or template manager
+        permission to perform this action.</para>
+      </note>
+
+      <note>
+        <para>To automatically fill in the signer’s name in the User
+        component, create a Signature component and then name the ID (for
+        example, signer1). Then, create the User component that will display
+        the signer’s name when triggered and name the ID (for example,
+        signer1name). Then, select <emphasis role="bold">Last modified user of
+        the content</emphasis> under User Type and enter the ID of the
+        Signature component (in this case, signer1) under<emphasis
+        role="bold"> Input Component ID</emphasis>.</para>
+      </note>
+
+      <para><emphasis role="bold">③ User Field Name</emphasis></para>
+
+      <para>This field allows to select the type of member information that
+      will be displayed. You can select basic information in the <emphasis
+      role="bold">Manage member &gt; Member info</emphasis> menu of the member
+      or information in a custom field.</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>Basic member information types: Name, ID, Department,
+          Position, Mobile, and Telephone</para>
+        </listitem>
+      </itemizedlist>
+
+      <note>
+        <para>You need to have company administrator permission to change
+        basic member information.</para>
+
+        <para>To modify a member's basic information, login to eformsign and
+        go to the <emphasis role="bold">Manage company &gt; Manage members
+        </emphasis>menu. Select a member in the member list and edit the
+        information in the <emphasis role="bold">Member info tab </emphasis>on
+        the right. Then, click the<emphasis role="bold"> Save</emphasis>
+        button.</para>
+      </note>
+    </section>
+
+    <section xml:id="document">
+      <title>Document</title>
+
+      <para><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>Document</secondary>
+        </indexterm>This component is used for entering document-related
+      information in the document itself. You can select either one of the
+      document ID or document number.</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/document-component-in-list.png"
+                     width="730"/>
+        </imageobject>
+      </mediaobject>
+
+      <para>The document ID is a unique document ID assigned in the system, so
+      it does not require separate settings. For settings related to document
+      number, upload a template and then go to <emphasis role="bold">Template
+      settings &gt; General</emphasis>.</para>
+
+      <para><emphasis role="bold">Component Properties</emphasis></para>
+
+      <figure>
+        <title>Setting Document Component Properties</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/document-domponent-properties.png"
+                       width="400"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">① ID</emphasis></para>
+
+      <para>Enters the ID of the document component. For example, the
+      component ID can be ‘docNum’ for document number.</para>
+
+      <para><emphasis role="bold">② Document info type</emphasis></para>
+
+      <para>Selects the type of information that will be used.</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">Document ID: </emphasis>A unique ID
+          containing 32 digits of alphanumeric characters assigned to all
+          documents in the system. E.g.
+          0077af27a98846c8872f5333920679b7.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Document no.:</emphasis><emphasis
+          role="bold"> </emphasis>The document number set in <emphasis
+          role="bold">Template settings &gt; General.</emphasis> For
+          information on how to set a document number, go to <xref
+          linkend="docnumber_wd"/>.</para>
+        </listitem>
+      </itemizedlist>
+    </section>
+
+    <section xml:id="usedate">
+      <title>Date</title>
+
+      <para><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>Date</secondary>
+        </indexterm>This component is used for automatically entering the date
+      in which a document is created, accessed, or modified into the document.
+      You can automatically enter one of the following dates according to the
+      date type selected: the date in which the document is created (Date
+      created), the date in which the document is last accessed (Date
+      accessed), or the date in which a specific component is filled in (Last
+      modified date of the content).</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/form-builder-components_date.png"
+                     width="730"/>
+        </imageobject>
+      </mediaobject>
+
+      <para><emphasis role="bold">Component Properties</emphasis></para>
+
+      <figure>
+        <title>Setting Date Component Properties</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/date-component-properties_.png"
+                       width="400"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">① ID</emphasis></para>
+
+      <para>Enters the ID of the Date component. For example, the ID of the
+      component that displays the date in which the document is signed can be
+      named ‘signed date’.</para>
+
+      <para><emphasis role="bold">② Format</emphasis></para>
+
+      <para>Sets the format in which date will be displayed.</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">yyyy:</emphasis> Displays the
+          year.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">MM:</emphasis> Displays the month. Must
+          be in uppercase.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">dd:</emphasis> Displays the day.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>For example, if you want to display the date in the format of
+      ‘15-20-2020’, then enter dd-MM-yyyy in the Format field.</para>
+
+      <para><emphasis role="bold">③ Date Type</emphasis></para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">Date created:</emphasis> Displays the
+          date in which the document is created.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Date accessed:</emphasis> Displays the
+          most recent date in which the document is modified or opened.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Last modified date of the content:
+          </emphasis>Displays the date in which the information of a specific
+          component is filled in.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>If <emphasis role="bold">Last modified date of the content
+      </emphasis>is selected, the<emphasis role="bold"> Input Component
+      ID</emphasis> field is displayed. In this field, enter the ID of the
+      component that will display the information when triggered.</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/date-component-connecting-other-component.png"
+                     width="400"/>
+        </imageobject>
+      </mediaobject>
+
+      <para><note>
+          <para>You need to have company administrator or template manager
+          permission to perform this action.</para>
+        </note><note>
+          <para>If you want the signature date of a signer to be displayed
+          automatically in a contract, first add a Signature component and
+          then name the ID (e.g. 'contractSign'). Then, add a Date component
+          which will display the signature date when the signature is signed
+          and name the ID (e.g. signDate). Then, select<emphasis role="bold">
+          Last modified date of the content</emphasis> under Date Type and
+          enter the ID of the signature component (in this case
+          ‘contractSign’) in the <emphasis role="bold">Input Component
+          ID</emphasis> field.</para>
+        </note></para>
+    </section>
+
+    <section xml:id="label">
+      <title>Label</title>
+
+      <para><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>Label</secondary>
+        </indexterm>This component is used for setting the form ID of a
+      document.</para>
+
+      <para><emphasis role="bold">Component Properties</emphasis></para>
+
+      <figure>
+        <title>Setting Label Component Properties</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/label_property.png" width="400"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">① ID</emphasis></para>
+
+      <para>The form ID of the document is automatically generated and
+      displayed. It can also be changed.</para>
+
+      <para>The form ID defined here can be applied when editing the
+      document.</para>
+    </section>
+  </section>
+
+  <section>
+    <title>Upload Form File</title>
+
+    <para>Form files created using OZ in Office are uploaded in the following
+    order:</para>
+
+    <para>1. Click the <emphasis role="bold">Execut</emphasis><emphasis
+    role="bold">e</emphasis> icon (<inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="resources/excute_button.png"/>
+        </imageobject>
+      </inlinemediaobject>) in the File group. The login page will be
+    displayed as a pop-up window.</para>
+
+    <figure>
+      <title>Login Page</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/form_upload_login.png" width="730"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>2. After you log in, the document converted to a form will be
+    displayed as a preview.</para>
+
+    <figure>
+      <title>Preview Form File</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/upload_preview.png" width="730"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>3. Click the <emphasis role="bold">Upload form file</emphasis>
+    button or click the <emphasis role="bold">Upload</emphasis>
+    (<inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="resources/upload_button.png"/>
+        </imageobject>
+      </inlinemediaobject>) icon in the ribbon menu. The <emphasis
+    role="bold">Template list</emphasis> page with the <emphasis
+    role="bold">Create template </emphasis>card will be displayed.</para>
+
+    <figure>
+      <title>Template List Screen</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/upload_list.png" width="730"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>4. Click the <emphasis role="bold">Create template</emphasis> card.
+    The screen for configuring the template settings will be displayed. To
+    create a template, click the <emphasis role="bold">Save </emphasis>button
+    on the top right corner.</para>
+
+    <figure>
+      <title>Create Template Screen</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/upload_save.png" width="730"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+  </section>
+
+  <section>
+    <title>Configuring Template Settings</title>
+
+    <para>After uploading a template, you can configure additional settings
+    for documents created from the template such as the template name,
+    document number, and workflow.</para>
+
+    <para>1. Login to eformsign.</para>
+
+    <para>2. Go to the <emphasis role="bold">Manage templates</emphasis>
+    menu.</para>
+
+    <para>3. Click the Template settings icon (<inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="33" fileref="resources/config-icon.PNG"/>
+        </imageobject>
+      </inlinemediaobject>) of the desired template.</para>
+
+    <itemizedlist>
+      <listitem>
+        <para><emphasis role="bold">General: </emphasis>Sets the template
+        name, abbreviation, document name, document number, etc.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Set permissions:</emphasis> Sets the
+        permissions for who can create documents created from the template and
+        who can open, void, or permanently remove documents created from the
+        template.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Workflow: </emphasis>Sets the steps of the
+        document workflow from <emphasis role="bold">Start</emphasis> to
+        <emphasis role="bold">Complete</emphasis>.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Field: </emphasis>Sets the field default
+        values, auto-filled values, etc.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Notification settings: </emphasis>Sets the
+        notification settings for documents created from the template.</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>4. After configuring all settings, click the<emphasis role="bold">
+    Save</emphasis> button to save the settings.</para>
+
+    <note>
+      <para>For a detailed explanation of templates, please refer to <xref
+      linkend="template_fb"/>.</para>
+    </note>
+  </section>
+</chapter>

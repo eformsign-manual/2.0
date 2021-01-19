@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info version="5.0" xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+  <copyright>
+    <year>2020</year>
+
+    <holder>FORCS Co., Ltd. All Rights Reserved.</holder>
+  </copyright>
+
+  <legalnotice>
+    <title>Restricted Rights Legend</title>
+
+    <para>All FORCS software (eformsign<superscript>®</superscript>) and
+    documents are protected by copyright laws and the Protection Act of
+    Computer Programs, and international convention. This document may not be
+    reproduced or transmitted in any form or by any means, electronic or
+    mechanical, for any purpose, without the prior written permission of FORCS
+    Co., Ltd. This document is provided for information purposes only, and the
+    contents hereof are subject to change without notice.</para>
+  </legalnotice>
+
+  <legalnotice>
+    <title>Trademarks</title>
+
+    <para>eformsign<superscript>® </superscript>and OZ are registered
+    trademarks of FORCS Co., Ltd. Other names may be trademarks of their
+    respective owners.</para>
+  </legalnotice>
+
+  <legalnotice>
+    <title>Open Source Software Disclaimer</title>
+
+    <para>This product includes various open source software developed and/or
+    licensed by "OpenSSL", "RSA Data Security, Inc.", "Apache Foundation", and
+    "JavaScript Object Notation (JSON)".</para>
+  </legalnotice>
+
+  <author>
+    <orgname>FORCS Co., Ltd.</orgname>
+  </author>
+
+  <pubdate>2020-10-31</pubdate>
+
+  <productnumber>eformsign service</productnumber>
+</info>

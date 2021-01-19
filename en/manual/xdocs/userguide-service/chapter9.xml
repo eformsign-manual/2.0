@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Connecting with External Services</title>
+
+  <section>
+    <title>How to Connect with External Cloud Storages</title>
+
+    <para><indexterm class="singular">
+        <primary>Cloud storage</primary>
+      </indexterm>eformsign can automatically save completed documents in
+    external cloud storage services. Currently, Dropbox, Google Drive,
+    OneDrive, and box are supported.</para>
+
+    <note>
+      <para>Only the company administrator can connect eformsign with external
+      cloud storages.</para>
+    </note>
+
+    <para>1. Go to the <emphasis role="bold">Integration &gt; Cloud
+    storage</emphasis> menu.<emphasis role="bold"> </emphasis></para>
+
+    <figure>
+      <title>Cloud Storage Screen</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/connect_1.png" width="750"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>2. Select the cloud storage where you want to save completed
+    documents, and then click the <emphasis role="bold">Connect</emphasis>
+    button to log in.<emphasis role="bold"> </emphasis></para>
+
+    <para>3. After logging in, the <emphasis role="bold">Disconnect</emphasis>
+    button and the <emphasis role="bold">Storage path settings</emphasis>
+    button will be displayed. If you need to save the storage path, click the
+    <emphasis role="bold">Storage path settings</emphasis> button.</para>
+
+    <para><figure>
+        <title>Connecting and Disconnecting File Storage Accounts</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/connect_2.png" width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure></para>
+
+    <note>
+      <para>The <emphasis role="bold">Storage path settings</emphasis> pop-up
+      window is displayed as follows:</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/connect_3.png" width="450"/>
+        </imageobject>
+      </mediaobject>
+
+      <para>The default path is the subfolder named after your company name,
+      which is located under the eformsign folder. You can also click the
+      <emphasis role="bold">New folder</emphasis> button to create a new
+      folder and change the storage path.</para>
+    </note>
+
+    <para>4. Go to the <emphasis role="bold">Manage templates</emphasis>
+    menu.</para>
+
+    <para>5. Click the template you want to save the documents (created from
+    the template) to the cloud storages, and then go to the <emphasis
+    role="bold">Template settings</emphasis> screen.</para>
+
+    <para>6. Go to the <emphasis role="bold">Workflow</emphasis> menu.</para>
+
+    <para><figure>
+        <title>Setting the Complete Step of the Workflow</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/connect_4.png" width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure></para>
+
+    <para>7. In the <emphasis role="bold">Properties</emphasis> tab of the
+    <emphasis role="bold">Complete</emphasis> step, tick the <emphasis
+    role="bold">Backup completed documents in external cloud
+    storages</emphasis> checkbox. You can check whether the cloud storages set
+    in the <emphasis role="bold">Cloud storage</emphasis> menu are connected.
+    When a document is completed, it will be automatically saved in the
+    connected cloud storage as well as in eformsign.</para>
+
+    <para><figure>
+        <title>The Backup Completed Documents in External Cloud Storages
+        Checkbox</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/connect_5.png" width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure></para>
+  </section>
+
+  <section>
+    <title>Analytics and Reporting</title>
+
+    <para><indexterm class="singular">
+        <primary>Analytics and reporting</primary>
+      </indexterm>If you find it cumbersome and repetitive to download a CSV
+    file every time a new document is added, using this feature is
+    recommended. You can set the entered data to be automatically saved in a
+    sheet in Google Sheets and Excel of Microsoft Office 365.</para>
+
+    <para><note>
+        <para><emphasis role="bold">Analytics and reporting</emphasis> can be
+        set only by the company administrator.<emphasis role="bold">
+        </emphasis></para>
+      </note></para>
+
+    <figure>
+      <title>Analytics and Reporting Menu Screen (1)</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/analytic_1.png" width="750"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>1. Go to the <emphasis role="bold">Integration &gt; Analytics and
+    reporting</emphasis> menu.</para>
+
+    <para>2. Select either Google Sheets or Microsoft Office 365, and then
+    click the <emphasis role="bold">Connect account</emphasis> button to log
+    in.</para>
+
+    <para><figure>
+        <title>Analytics and Reporting Menu Screen (2)</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/analytic_2.png" width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure></para>
+
+    <para>3. Click the <emphasis role="bold">Manage data
+    connections</emphasis> button.</para>
+
+    <para><figure>
+        <title>Manage Data Connections Screen (1)</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/analytic_3.png" width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure></para>
+
+    <para>4. Click the <emphasis role="bold">Add data connection</emphasis>
+    button<emphasis role="bold"> </emphasis>in the center of the screen or at
+    the top right corner of the screen.</para>
+
+    <figure>
+      <title>Manage Data Connections Screen (2)</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/analytic_4.png" width="750"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>5. Set items such as the Connection name, Data connection sheet,
+    When to send data, and Templates, and then click the <emphasis
+    role="bold">Save</emphasis> button.</para>
+
+    <para><figure>
+        <title>Manage data connections Screen (3)</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/analytic_5.png" width="600"/>
+          </imageobject>
+        </mediaobject>
+      </figure></para>
+
+    <para><figure>
+        <title>Manage Data Connections Screen (4)</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/analytic_6.png" width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure></para>
+
+    <note>
+      <para>A data connection sheet corresponds to the URL of a sheet in
+      Google Sheets.</para>
+    </note>
+
+    <para>6. Data connection sheets are displayed in the <emphasis
+    role="bold">Manage data connections</emphasis> screen.</para>
+
+    <para><figure>
+        <title>Manage Data Connections Screen (5)</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/analytic_7.png" width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure></para>
+
+    <para>7. If you select a connected sheet, you can see the columns in which
+    field data will be automatically imported from eformsign.</para>
+
+    <para><figure>
+        <title>Manage Data Connections Screen (6)</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/analytic_8.png" width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure></para>
+  </section>
+</chapter>

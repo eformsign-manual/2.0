@@ -1,0 +1,1373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>基本情報</title>
+
+  <section>
+    <title>ダッシュボード</title>
+
+    <section>
+      <title>メニューの構成</title>
+
+      <para>eformsign にログインした後、ダッシュボード<indexterm class="singular">
+          <primary>ダッシュボード</primary>
+        </indexterm> 画面の左上のメニュー (<inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="resources/menu_icon.png"/>
+          </imageobject>
+        </inlinemediaobject>)
+      をクリックすれば、次のようなサイドバーメニューが表示されます。各メニューは、ユーザーの権限によって異なって表示される場合があります。代表管理者には、すべてのメニューが表示され、代表管理者がすべての権限を持ちます。</para>
+
+      <figure>
+        <title>eformsignのメニューの構成</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/dashboard_menu_expand.png"
+                       width="730"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>各メニューは次のとおりです。</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">文書の新規作成：</emphasis><indexterm
+              class="singular">
+              <primary sortas="ぶんしょのしんきさくせい">文書の新規作成</primary>
+            </indexterm>文書を作成可能なテンプレートのリストが表示されます。リストからテンプレートを選択して文書を作成します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">文書トレイ：</emphasis><indexterm
+              class="singular">
+              <primary>文書トレイ</primary>
+            </indexterm>文書の状態によって文書のリストを表示します。</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">進行中の文書：</emphasis><indexterm
+                  class="singular">
+                  <primary sortas="しんこうちゅうのぶんしょ">進行中の文書</primary>
+                </indexterm>作成または処理済みで、完了はしていない文書のリストを表示します。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">要処理文書：</emphasis><indexterm
+                  class="singular">
+                  <primary sortas="ようしょりぶんしょ">要処理文書</primary>
+                </indexterm>下書きとして保存した文書や、他のメンバーが作成または決裁を依頼した文書のリストを表示します。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">完了文書：</emphasis><indexterm
+                  class="singular">
+                  <primary sortas="かんりょうぶんしょ">完了文書</primary>
+                </indexterm>自分が作成または処理済みの文書のうち、完了文書のリストを表示します。</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">文書管理：</emphasis> <indexterm
+              class="singular">
+              <primary sortas="ぶんしょかんり">文書管理</primary>
+            </indexterm>このメニューには、文書の管理権限がある場合にのみアクセスできます。文書の管理権限を持っている文書については、すべて表示します。ただし、代表管理者の場合は、すべての文書を確認および管理できます。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">マイ署名：</emphasis><indexterm
+              class="singular">
+              <primary>マイ署名</primary>
+            </indexterm>マイ署名を登録し、文書の作成時に便利に署名欄に適用することができます。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">テンプレート管理：</emphasis><indexterm
+              class="singular">
+              <primary>テンプレート管理</primary>
+            </indexterm>このメニューには、テンプレート管理の権限がある場合にのみアクセスできます。テンプレートのリストを確認でき、テンプレートを設定できます。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">会社管理：</emphasis><indexterm
+              class="singular">
+              <primary sortas="かいしゃかんり">会社管理</primary>
+            </indexterm>このメニューには、会社の代表管理者のみがアクセスできます。会社情報を照会し、情報を変更できます。</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">会社情報：</emphasis><indexterm
+                  class="singular">
+                  <primary sortas="かいしゃじょうほう">会社情報</primary>
+                </indexterm>会社情報を確認することができます。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">グループ管理：</emphasis><indexterm
+                  class="singular">
+                  <primary>グループ管理</primary>
+                </indexterm>メンバーのグループを作成でき、グループ情報を変更できます。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">メンバー管理：</emphasis><indexterm
+                  class="singular">
+                  <primary>メンバー管理</primary>
+                </indexterm>メンバーを追加し、メンバー情報を修正できます。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">カスタムフィールド管理：</emphasis> <indexterm
+                  class="singular">
+                  <primary>カスタムフィールド管理</primary>
+                </indexterm>会社、グループ、またはメンバーに関する追加情報を入力または変更できます。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">通知テンプレート管理：</emphasis><indexterm
+                  class="singular">
+                  <primary sortas="つうちてんぷれーとかんり">通知テンプレート管理</primary>
+                </indexterm>eformsign から送信されるメールおよび SMS
+              の通知テンプレートのリストを確認および変更できます。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">署名の設定：</emphasis><indexterm
+                  class="singular">
+                  <primary sortas="しょめいのせってい">署名の設定</primary>
+                </indexterm>文書の署名欄に直接署名するときに使用可能な署名方法が選択できます。</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">コネクト：</emphasis> <indexterm
+              class="singular">
+              <primary>コネクト</primary>
+            </indexterm>このメニューには、代表管理者のみがアクセスできます。外部サービスと連動して使用する機能を確認することができます。</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">クラウドストレージ：</emphasis><indexterm
+                  class="singular">
+                  <primary>クラウドストレージ</primary>
+                </indexterm>Dropbox、Google ドライブ、Box
+              のアカウントに接続して、完了文書を保存します。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">分析およびレポート：</emphasis><indexterm
+                  class="singular">
+                  <primary sortas="ぶんせきおよびれぽーと">分析およびレポート</primary>
+                </indexterm>文書に入力されたデータを Google スプレッドシートと Office 365 Excel
+              に自動保存するように設定することができます。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">API / Webhook:</emphasis> <indexterm
+                  class="singular">
+                  <primary>API</primary>
+                </indexterm><indexterm class="singular">
+                  <primary>Webhook</primary>
+                </indexterm>eformsign API を使用する際に必要な API と Webhook
+              キーを管理できます。</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">料金管理：</emphasis>
+          料金プランと決済履歴を照会し、料金プランや決済手段を変更できます。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">利用状況：</emphasis>
+          毎週、毎月、および年間の利用状況を表示します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">フォームビルダーをダウンロード：</emphasis><indexterm
+              class="singular">
+              <primary>フォームビルダーをダウンロード</primary>
+            </indexterm>Microsoft Office で電子フォーム (テンプレート)
+          を作成時に必要なフォームビルダーをダウンロードします。</para>
+        </listitem>
+      </itemizedlist>
+    </section>
+
+    <section>
+      <title>ダッシュボード画面の構成</title>
+
+      <para><indexterm class="singular">
+          <primary>ダッシュボード</primary>
+        </indexterm>eformsign
+      にログインすれば、ダッシュボード画面が表示されます。処理が必要な文書や進行中の文書などをリスト表示しており、<emphasis
+      role="bold">文書の新規作成</emphasis> などのメインメニューへのショートカットを提供します。</para>
+
+      <figure>
+        <title>ダッシュボード画面</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/dashboard_main.png" width="730"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <variablelist>
+        <varlistentry>
+          <term><emphasis role="bold">① 文書の新規作成</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary sortas="ぶんしょのしんきさくせい">文書の新規作成</primary>
+              </indexterm>保存したテンプレートを使用して、文書を新規作成できる<emphasis role="bold">
+            文書の新規作成</emphasis> 画面に移動します。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">② 進行中の文書</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary sortas="しんこうちゅうのぶんしょ">進行中の文書</primary>
+              </indexterm>現在進行中の文書の数が表示され、クリックすると、<emphasis role="bold">
+            </emphasis>進行中の文書のリストが確認できる <emphasis
+            role="bold">進行中の文書</emphasis> に移動します。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">③ 要処理文書</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary sortas="ようしょりぶんしょ">要処理文書</primary>
+              </indexterm>処理する必要のある文書の数を表示します。クリックすると <emphasis
+            role="bold">要処理文書 </emphasis>に移動します。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">④ 完了文書</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary sortas="かんりょうぶんしょ">完了文書</primary>
+              </indexterm>完了文書を確認できる <emphasis role="bold">完了文書</emphasis>
+            に移動します。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑤ 進行中の文書</emphasis></term>
+
+          <listitem>
+            <para>進行中の文書の数と、最新の3つの文書のリストを表示します。リスト内の文書名をクリックすると、その文書に直接移動します。そして、<emphasis
+            role="bold">More</emphasis> をクリックすると、<emphasis role="bold">
+            進行中の文書</emphasis> に移動します。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑥ 要処理文書</emphasis></term>
+
+          <listitem>
+            <para>処理する必要のある文書の数と、最新の3つの文書のリストを表示します。リスト内の文書名をクリックすると、その文書に直接移動します。そして、<emphasis
+            role="bold">More</emphasis> をクリックすると、<emphasis role="bold">
+            要処理文書</emphasis> に移動します。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑦ 完了文書</emphasis></term>
+
+          <listitem>
+            <para>完了文書の最新の3つの文書のリストを表示します。リスト内の文書名をクリックすると、その文書に直接移動します。そして、<emphasis
+            role="bold">More</emphasis> をクリックすると、<emphasis role="bold">
+            完了文書</emphasis> に移動します。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑧ お気に入り</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary>お気に入り</primary>
+              </indexterm>お気に入りに登録したテンプレートを表示します。テンプレートをクリックすると、「文書の新規作成」画面に直接移動し、そのテンプレートで文書を新規作成できます。テンプレートをお気に入りに追加するには、追加アイコン
+            (<inlinemediaobject>
+                <imageobject>
+                  <imagedata contentwidth="17"
+                             fileref="resources/favorites-add.PNG"/>
+                </imageobject>
+              </inlinemediaobject>)
+            をクリックして新規登録します。お気に入りに登録したテンプレートを削除するには、編集アイコン (<inlinemediaobject>
+                <imageobject>
+                  <imagedata contentwidth="18"
+                             fileref="resources/favorites-edit.PNG"/>
+                </imageobject>
+              </inlinemediaobject>) をクリックして削除します。</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+
+      <tip>
+        <para><emphasis
+        role="bold">使用頻度の高いテンプレートをお気に入りに登録する方法！</emphasis></para>
+
+        <para>頻繁に使用するテンプレートをお気に入りとして追加して文書を作成できます。テンプレートの <emphasis
+        role="bold">お気に入り</emphasis> への登録は、ダッシュボードで行います。</para>
+
+        <orderedlist>
+          <listitem>
+            <para>ダッシュボードの「お気に入り」ボックスで、追加アイコン ( <inlinemediaobject>
+                <imageobject>
+                  <imagedata contentwidth="17"
+                             fileref="resources/favorites-add.PNG"/>
+                </imageobject>
+              </inlinemediaobject>) をクリックします。</para>
+          </listitem>
+
+          <listitem>
+            <para>クリックすると、お気に入りにリスト化されていないテンプレートのリストがポップアップ表示されます。</para>
+
+            <para><inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="resources/favorites-add-popup.PNG"
+                             width="700"/>
+                </imageobject>
+              </inlinemediaobject></para>
+          </listitem>
+
+          <listitem>
+            <para>お気に入りに追加するテンプレートのチェックボックスをクリックします。</para>
+
+            <para><inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="resources/favorites-add-popup2.PNG"
+                             width="700"/>
+                </imageobject>
+              </inlinemediaobject></para>
+          </listitem>
+
+          <listitem>
+            <para>「選択」をクリックして、お気に入りに追加します。</para>
+          </listitem>
+        </orderedlist>
+      </tip>
+    </section>
+  </section>
+
+  <section>
+    <title>基本情報の表示と変更</title>
+
+    <para><indexterm class="singular">
+        <primary>マイ情報</primary>
+      </indexterm>eformsign
+    に会員登録する時に入力した個人情報や登録会社を確認するには、サイドバーメニューの右上のアイコン（<inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="17"
+                     fileref="resources/menu-hamberger-icon.png"/>
+        </imageobject>
+      </inlinemediaobject>) をクリックして確認します。</para>
+
+    <figure>
+      <title>マイ情報を含むメニューアイコン</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/menu-personalinfo.png" width="700"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>メニューツリーの右上のアイコン (<inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="17"
+                     fileref="resources/menu-hamberger-icon.png"/>
+        </imageobject>
+      </inlinemediaobject>) をクリックすると、サブメニューが次のように表示されます。</para>
+
+    <figure>
+      <title>マイ情報の表示および変更メニュー</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/menu-personalinfo1.png" width="700"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <itemizedlist>
+      <listitem>
+        <para><emphasis role="bold">会社の変更：</emphasis><indexterm
+            class="singular">
+            <primary sortas="かいしゃのへんこう">会社の変更</primary>
+          </indexterm>eformsign
+        に登録している複数の会社がある場合は、「会社の変更」をクリックして会社の一覧を表示し、変更したい会社をクリックして会社を変更できます。</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">マイ情報：</emphasis><indexterm
+            class="singular">
+            <primary>マイ情報</primary>
+          </indexterm>eformsign
+        に会員登録するときに入力した個人情報を確認および変更し、所属会社の情報を確認することができます。</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">ログアウト：</emphasis><indexterm
+            class="singular">
+            <primary>ログアウト</primary>
+          </indexterm>eformsign からログアウトできます。</para>
+      </listitem>
+    </itemizedlist>
+
+    <section>
+      <title>マイ情報</title>
+
+      <para><emphasis role="bold">マイ情報 &gt; 個人情報 </emphasis></para>
+
+      <figure>
+        <title>マイ情報 &gt; 個人情報画面</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/myinfor-personalinfo-main.png"
+                       width="730"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <variablelist>
+        <varlistentry>
+          <term><emphasis role="bold">個人情報</emphasis></term>
+
+          <listitem>
+            <para>会員登録時に入力した名前、メールまたはID、パスワード、連絡先の詳細を表示および編集できます。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">SNSアカウントで接続</emphasis></term>
+
+          <listitem>
+            <para>SNS アカウントは、Google や Facebook
+            のアカウントを使用して接続、追加、接続解除できます。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">お知らせ</emphasis></term>
+
+          <listitem>
+            <para>「マーケティング情報の受信」を確認し、「同意する」または「同意しない」を選択できます。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">eformsignから脱退</emphasis></term>
+
+          <listitem>
+            <para>eformsign から会員脱退をしようとする場合は、画面の下部の <emphasis
+            role="bold">eformsign から脱退＞</emphasis> をクリックして、会員を脱退できます。</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+
+      <para><emphasis role="bold">マイ情報 &gt; 会社情報 </emphasis></para>
+
+      <figure>
+        <title>マイ情報 &gt; 会社情報画面</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/myinfo-companyinfo.png" width="730"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <variablelist>
+        <varlistentry>
+          <term><emphasis role="bold">基本情報</emphasis></term>
+
+          <listitem>
+            <para>会社名、国、言語、連絡先などの基本情報を確認することができます。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">詳細情報</emphasis></term>
+
+          <listitem>
+            <para>会社の住所、事業者登録番号、ホームページのURL、代表管理者の名前とメールアドレスを確認することができます。</para>
+
+            <note>
+              <para>マイ情報では、会社情報を確認することのみ可能で、会社関連情報の修正については、 <emphasis
+              role="bold">会社管理 &gt; 会社情報</emphasis>
+              メニューで行います。会社情報の修正は、代表管理者または会社管理の権限を有するメンバーのみが実行できます。</para>
+            </note>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">この会社を脱退する</emphasis></term>
+
+          <listitem>
+            <para>会社を脱退したい場合は、画面下部の <emphasis
+            role="bold">この会社</emphasis><emphasis role="bold">脱退する</emphasis>
+            をクリックして脱退できます。<emphasis role="bold">この会社脱退する</emphasis>
+            をクリックすると、所属している会社のリストが表示され、そのリストから脱退したい会社を選択して撤退を行うことができます。</para>
+
+            <important>
+              <para>一般メンバーの場合、所属会社を退社する場合、個人のアカウントは保持され、別の会社に入会したり、新しい会社を作成したりすることができます。</para>
+
+              <para>代表管理者の場合は、脱退時に会社が削除されます。会社を削除せずに会社を脱退したい場合は、代理管理者を別の人に委任した後、会社を脱退する必要があります。</para>
+            </important>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </section>
+
+    <section>
+      <title>会社情報の修正および追加</title>
+
+      <para><emphasis role="bold">マイ情報</emphasis> で確認可能な会社情報については、 <emphasis
+      role="bold">会社管理 &gt; 会社情報 </emphasis>で修正できます。<indexterm
+          class="singular">
+          <primary>会社情報</primary>
+        </indexterm></para>
+
+      <note>
+        <para>この作業は <emphasis role="bold">代表管理者</emphasis> または <emphasis
+        role="bold">会社管理の権限</emphasis> が必要です。</para>
+      </note>
+
+      <figure>
+        <title>会社管理 &gt; 会社情報メニュー</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/managecompany-companyinfo-menu.png"
+                       width="730"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">登録会社の情報を修正する方法</emphasis></para>
+
+      <orderedlist>
+        <listitem>
+          <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt; 会社情報
+          </emphasis>に移動します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">会社情報 &gt; 基本情報</emphasis>
+          画面上で修正したい情報を変更します。</para>
+        </listitem>
+
+        <listitem>
+          <para>修正が完了したら、各領域の下部の <emphasis role="bold">保存</emphasis>
+          ボタンをクリックします。</para>
+        </listitem>
+      </orderedlist>
+
+      <figure>
+        <title>会社情報画面</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/managecompany-companyinfo-edit_1.png"
+                       width="730"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </section>
+
+    <section>
+      <title>ブランド</title>
+
+      <para><indexterm class="singular">
+          <primary>ブランド</primary>
+        </indexterm>会社のロゴやシンボルを登録して、eformsign
+      のダッシュボードやサイドバーメニューに表示することができ、文書を依頼するときなどに送信するメールのテンプレートに表示することもできます。</para>
+
+      <note>
+        <para><emphasis role="bold">ロゴとシンボルの違い</emphasis></para>
+
+        <para>ロゴもシンボルも会社を代表するイメージです。ロゴは通常、ブランド名を書いている縦長の形であり、シンボルは画像のみで表した正方形の形です。</para>
+
+        <para>eformsign は、ロゴには 512 x 128 の縦の画像を、シンボルには 120 x 120
+        の正方形の画像を使用することを推奨します。</para>
+      </note>
+
+      <para><emphasis role="bold">会社のロゴを登録する方法</emphasis></para>
+
+      <figure>
+        <title>会社情報 &gt; ブランドイメージの登録</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/managecompany-brand.png" width="730"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <orderedlist>
+        <listitem>
+          <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt; 会社情報
+          </emphasis>に移動します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">ブランド </emphasis>タブを選択します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">ブランドイメージ &gt; ロゴ</emphasis>
+          領域の画像をクリックします。</para>
+        </listitem>
+
+        <listitem>
+          <para>画像アップロードのポップアップが表示されたら、PC
+          に保存されているロゴの画像ファイルを選択してアップロードします。</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>画像サイズ：幅 512 px、縦 128 px を推奨</para>
+            </listitem>
+
+            <listitem>
+              <para>ファイルサイズ：最大 300 KB</para>
+            </listitem>
+          </itemizedlist>
+
+          <itemizedlist>
+            <listitem>
+              <para>ファイル形式：PNG、JPG、JPEG、GIF</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+
+        <listitem>
+          <para>画面右上の「保存」ボタンをクリックします。</para>
+        </listitem>
+
+        <listitem>
+          <para>ダッシュボードで変更されたロゴを確認します。</para>
+
+          <figure>
+            <title>ロゴが変更されたダッシュボード</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/logo-change.png" width="730"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+      </orderedlist>
+
+      <para/>
+    </section>
+  </section>
+
+  <section>
+    <title>権限の区分</title>
+
+    <para>eformsign
+    はメンバーに権限を付与することができ、合計5つのレベルで権限別の管理ができます。各ユーザーの権限は、次のように区分できます。</para>
+
+    <itemizedlist>
+      <listitem>
+        <para><emphasis role="bold">代表管理者</emphasis></para>
+
+        <para><indexterm class="singular">
+            <primary sortas="だいひょうかんりしゃのけんげｎ">代表者管理者の権限</primary>
+          </indexterm>会社の代表者は、eformsign の使用を完全に制御できる権限を持ちます。</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">会社管理</emphasis></para>
+
+        <para><emphasis role="bold">会社管理</emphasis> <indexterm
+            class="singular">
+            <primary sortas="かいしゃかんりのけんげん">会社管理の権限</primary>
+          </indexterm>メニューにアクセスできます。会社情報、メンバー、グループなどを管理でき、<emphasis
+        role="bold">メンバー管理 </emphasis>では権限を設定できます。</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">テンプレート管理</emphasis></para>
+
+        <para><emphasis role="bold">テンプレート管理</emphasis> <indexterm
+            class="singular">
+            <primary>テンプレート管理の権限</primary>
+          </indexterm>メニューにアクセスできます。フォームビルダーを使用して、フォームファイルを作成したり、Web
+        フォームデザイナーでファイルをアップロードして新しいテンプレートを登録したりすることができます。テンプレートを修正、配布、および削除できます。</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">文書の管理</emphasis></para>
+
+        <para><emphasis role="bold">文書の管理</emphasis> <indexterm
+            class="singular">
+            <primary sortas="ぶんしょのかんりけんげん">文書の管理権限</primary>
+          </indexterm>メニューにアクセスして、テンプレート別に作成された文書を表示およびダウンロードできます。</para>
+
+        <para><emphasis
+        role="bold">文書の管理権限</emphasis>は、テンプレート別に異なる方法で指定できます。</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">文書の作成</emphasis></para>
+
+        <para><indexterm class="singular">
+            <primary>テンプレートの使用権限</primary>
+          </indexterm><indexterm class="singular">
+            <primary>テンプレートの使用権限</primary>
+          </indexterm>テンプレート別に <emphasis
+        role="bold">テンプレートの使用権限（文書作成の権限）</emphasis>
+        が付与できます。権限を付与されたメンバーのみがそのテンプレートで文書を作成できます。</para>
+      </listitem>
+    </itemizedlist>
+
+    <section>
+      <title>代表管理者</title>
+
+      <para><indexterm class="singular">
+          <primary>代表管理者</primary>
+        </indexterm>会員登録時に会社を新規登録したユーザーが代表管理者となります。eformsign
+      の使用に関するすべての権限を持つ最上位レベルの管理者です。</para>
+
+      <para>代表管理者</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>すべてのメニューにアクセスできます。</para>
+        </listitem>
+
+        <listitem>
+          <para>テンプレートの作成、変更、削除、管理を行えます。</para>
+        </listitem>
+
+        <listitem>
+          <para>すべての文書を作成、表示、および管理できます。</para>
+        </listitem>
+
+        <listitem>
+          <para>代表管理者の変更が必要な場合は、他のメンバーに権限を委任できます。</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>代表管理者が脱退した場合、会社は削除されます。会社を削除せずに脱退するには、他のメンバーに代表管理者の権限を委任してから脱退する必要があります。<indexterm
+          class="singular">
+          <primary sortas="だいひょうかんりしゃのけんげんのいにん">代表管理者の権限の委任</primary>
+        </indexterm></para>
+
+      <para><emphasis role="bold">代表管理者の権限を委任する方法</emphasis></para>
+
+      <note>
+        <para>この作業は <emphasis role="bold">代表管理者</emphasis> の権限が必要です。</para>
+      </note>
+
+      <orderedlist>
+        <listitem>
+          <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt; 会社情報</emphasis>
+          に移動します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">詳細情報</emphasis> の<emphasis role="bold">
+          </emphasis><emphasis role="bold">修正 </emphasis>ボタンをクリックすると、
+          <emphasis role="bold">代表管理者</emphasis> の右側に<emphasis
+          role="bold">委任権限</emphasis> のリンクボタンが表示されます。その <emphasis
+          role="bold">委任権限</emphasis> のリンクボタンをクリックします。</para>
+
+          <figure>
+            <title>代表管理者の権限委任ボタンの位置</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/Admin-auth-change_1.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">権限委任</emphasis>
+          ポップアップウィンドウで、権限を委任したいメンバーを検索および選択します。</para>
+
+          <figure>
+            <title>権限委任のポップアップ画面</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/Admin-auth-change-popup_1.png"
+                           width="500"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+
+        <listitem>
+          <para>代表管理者アカウントのパスワードを入力します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">保存</emphasis>
+          ボタンをクリックして、変更内容を保存します。</para>
+        </listitem>
+      </orderedlist>
+    </section>
+
+    <section>
+      <title>会社の管理権限</title>
+
+      <para><indexterm class="singular">
+          <primary>会社の管理権限</primary>
+        </indexterm>会社管理者は <emphasis role="bold">会社管理
+      </emphasis>メニューへのアクセス権限を持ち、会社やメンバー/グループに関連する情報を表示、変更、削除することができます。会社管理者は、代表管理者または会社管理者がメンバーに権限を付与できます。</para>
+
+      <para><emphasis role="bold">会社管理の権限を付与する方法</emphasis></para>
+
+      <note>
+        <para>この作業は <emphasis role="bold">代表管理者 </emphasis>または <emphasis
+        role="bold">会社管理 </emphasis>の権限が必要です。</para>
+      </note>
+
+      <orderedlist>
+        <listitem>
+          <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt; メンバー管理</emphasis>
+          に移動します。</para>
+        </listitem>
+
+        <listitem>
+          <para>メンバーリストからテンプレート管理の権限を付与したいメンバーを選択します。</para>
+        </listitem>
+
+        <listitem>
+          <para>右側の <emphasis role="bold">メンバー情報</emphasis> の詳細
+          画面の下部の<emphasis role="bold">権限</emphasis> で <emphasis
+          role="bold">会社管理 </emphasis>にチェックを入れます。</para>
+
+          <figure>
+            <title>会社管理の権限</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/company-manage-auth.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">保存</emphasis> ボタンをクリックします。</para>
+        </listitem>
+      </orderedlist>
+    </section>
+
+    <section>
+      <title>テンプレート管理の権限</title>
+
+      <para><indexterm class="singular">
+          <primary>テンプレート管理の権限</primary>
+        </indexterm>テンプレート管理者は <emphasis role="bold">テンプレート管理</emphasis>
+      メニューへのアクセス権限を持ち、テンプレートの登録、修正、配布、削除ができます。</para>
+
+      <para>テンプレートを登録したテンプレート管理者が、そのテンプレートのテンプレートのオーナーになります。</para>
+
+      <para>会社に複数のテンプレート管理者が存在する場合、テンプレートオーナーとテンプレート管理者は異なる場合があります。</para>
+
+      <para>テンプレート管理者がテンプレートオーナーでない場合、テンプレート設定を表示して設定内容を確認することとテンプレートを複製することだけ可能です。</para>
+
+      <para><emphasis role="bold">テンプレート管理の権限を付与する方法</emphasis></para>
+
+      <note>
+        <para>この作業は <emphasis role="bold">代表管理者</emphasis> または <emphasis
+        role="bold">テンプレート管理</emphasis> の権限が必要です。</para>
+      </note>
+
+      <orderedlist>
+        <listitem>
+          <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt; メニュー管理
+          </emphasis>に移動します。</para>
+        </listitem>
+
+        <listitem>
+          <para>メンバーリストからテンプレート管理の権限を付与するメンバーを選択します。</para>
+        </listitem>
+
+        <listitem>
+          <para>右側の <emphasis role="bold">メンバー情報 </emphasis>詳細を表示<emphasis
+          role="bold"> </emphasis>画面下部の <emphasis
+          role="bold">権限</emphasis>で<emphasis role="bold">テンプレート管理</emphasis>
+          にチェックを入れます。</para>
+
+          <figure>
+            <title>テンプレート管理の権限の位置</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/template-manage-auth.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">保存</emphasis> ボタンをクリックします。</para>
+        </listitem>
+      </orderedlist>
+    </section>
+
+    <section>
+      <title>テンプレートの使用権限（=文書の作成）と文書の管理権限</title>
+
+      <para><indexterm class="singular">
+          <primary>テンプレートの使用権限</primary>
+        </indexterm><indexterm class="singular">
+          <primary sortas="ぶんしょのかんりけんげん">文書の管理権限</primary>
+        </indexterm>テンプレート別に文書を作成できる権限と作成された文書とその文書に入力されたデータを管理する権限を付与できます。</para>
+
+      <para><emphasis role="bold">テンプレートの使用権限 </emphasis>を付与されたメンバーは <emphasis
+      role="bold">文書の新規作成</emphasis> メニュー画面から、そのテンプレートで文書を作成できます。</para>
+
+      <para><emphasis role="bold">文書の管理権限</emphasis> を付与されたメンバーは <emphasis
+      role="bold">文書管理
+      </emphasis>メニュー画面からテンプレートで作成した文書を表示、削除、ダウンロードできます。</para>
+
+      <para><emphasis
+      role="bold">文書の作成およびテンプレートの使用権限、文書の管理権限を付与する方法</emphasis></para>
+
+      <note>
+        <para>この作業は <emphasis role="bold">代表管理者</emphasis> または <emphasis
+        role="bold">テンプレート管理 </emphasis>の権限が必要です。</para>
+      </note>
+
+      <orderedlist>
+        <listitem>
+          <para>サイドバーのメニューで<emphasis role="bold"> テンプレート管理
+          </emphasis>に移動します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">テンプレートの設定</emphasis> ボタン (
+          <inlinemediaobject>
+              <imageobject>
+                <imagedata contentwidth="25"
+                           fileref="resources/config-icon.PNG"/>
+              </imageobject>
+            </inlinemediaobject>) をクリックします。</para>
+
+          <figure>
+            <title>テンプレートの設定ボタンの位置</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/template-manage-setting.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">権限の設定</emphasis> タブを選択します。</para>
+
+          <figure>
+            <title>テンプレート設定 &gt; 権限の設定タブの位置</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/document-creator-auth_1.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+
+        <listitem>
+          <para>各権限を付与するグループまたはメンバーを選択します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">保存 </emphasis>ボタンをクリックします。</para>
+        </listitem>
+      </orderedlist>
+    </section>
+  </section>
+
+  <section>
+    <title>メンバーおよびグループの管理</title>
+
+    <para><emphasis role="bold">会社管理
+    </emphasis>メニューでは、メンバーの招待、削除、変更、およびグループの作成、追加、および削除を行うことができます。<indexterm
+        class="singular">
+        <primary>グループ管理</primary>
+      </indexterm><indexterm class="singular">
+        <primary>メンバー管理</primary>
+      </indexterm></para>
+
+    <figure>
+      <title>企業管理 &gt; グループ/メンバー管理</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/menu-group-member-manage.png"
+                     width="700"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <section>
+      <title>メンバー管理</title>
+
+      <para><emphasis role="bold">メンバー管理
+      </emphasis>メニューでは、メンバーを会社に招待したり、招待したメンバーを管理したりすることができます。<indexterm
+          class="singular">
+          <primary>メンバー管理</primary>
+        </indexterm></para>
+
+      <figure>
+        <title>会社管理 &gt; メニュー管理</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/manage-member.png" width="700"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><variablelist>
+          <varlistentry>
+            <term><emphasis role="bold">① 活性メンバー</emphasis></term>
+
+            <listitem>
+              <para><indexterm class="singular">
+                  <primary sortas="かっせいめんばー">活性メンバー</primary>
+                </indexterm>招待を承諾して活性化しているメンバーのリストと情報を確認できます。</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term><emphasis role="bold">② 非活性メンバー</emphasis></term>
+
+            <listitem>
+              <para><indexterm class="singular">
+                  <primary sortas="ひかっせいめんばー">非活性メンバー</primary>
+                </indexterm>非活性メンバーのリストと情報を確認できます。</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term><emphasis role="bold">③ 招待メンバー</emphasis></term>
+
+            <listitem>
+              <para><indexterm class="singular">
+                  <primary sortas="しょうたいめんばー">招待メンバー</primary>
+                </indexterm>招待したメンバーのリストと情報を確認できます。</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term><emphasis role="bold">④ メンバーリスト</emphasis></term>
+
+            <listitem>
+              <para>リスト内のメンバーをクリックすると、右側のメンバー情報タブで情報を確認、修正、または削除できます。</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term><emphasis role="bold">⑤ メンバー情報</emphasis></term>
+
+            <listitem>
+              <para>メンバー情報の表示や、メンバー状態の変更、会社管理とテンプレート管理の権限を付与できます。</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term><emphasis role="bold">⑥ フィールド値の設定</emphasis></term>
+
+            <listitem>
+              <para>メンバーに関連付けられたフィールドの値を設定できます。</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term><emphasis role="bold">⑦ 文書の移管</emphasis></term>
+
+            <listitem>
+              <para><indexterm class="singular">
+                  <primary sortas="ぶんしょのいかん">文書の移管</primary>
+                </indexterm>メンバーが eformsign
+              を使用しなくなった場合は、そのメンバーが処理または処理予定の文書を別のメンバーに移管できます。</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term><emphasis role="bold">⑧ メンバー招待</emphasis></term>
+
+            <listitem>
+              <para><indexterm class="singular">
+                  <primary>メンバー招待</primary>
+                </indexterm>メールまたは ID
+              でメンバーを招待できます。メンバーを招待するとき、一度に複数のメンバーを招待することもできます。</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>⑨ メンバーの削除</term>
+
+            <listitem>
+              <para><indexterm class="singular">
+                  <primary>メンバーの削除</primary>
+                </indexterm><emphasis role="bold">ごみ箱</emphasis>
+              アイコンをクリックすれば、メンバーリストの左側にあるチェックボックスが活性化します。削除したいメンバーを選択し、
+              <emphasis role="bold">削除
+              </emphasis>ボタンをクリックすれば、メンバーが削除されます。</para>
+            </listitem>
+          </varlistentry>
+        </variablelist></para>
+    </section>
+
+    <section>
+      <title>グループ管理</title>
+
+      <para>グループ管理 メニューでは、会社内のグループの作成、グループ情報の表示、変更、および削除を行うことができます。</para>
+
+      <figure>
+        <title>企業管理 &gt; グループ管理</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/manage-group.png" width="700"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <variablelist>
+        <varlistentry>
+          <term>① グループ情報</term>
+
+          <listitem>
+            <para>グループリストから情報を表示したいグループをクリックしたら、右側のグループ情報タブでグループ名とグループの詳細を変更できます。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>② メンバーリスト</term>
+
+          <listitem>
+            <para>グループに属するメンバーのリストが表示され、メンバーを追加または削除できます。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>③ フィールド値の設定</term>
+
+          <listitem>
+            <para>グループに関連付けられたフィールドの値を設定できます。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>④ グループの追加</term>
+
+          <listitem>
+            <para>グループの追加をクリックすると、<emphasis role="bold"> グループの追加</emphasis>
+            ポップアップウィンドウが表示されたら、グループ名とグループの詳細を入力し、メンバーを検索して追加すれば、グループが作成されます。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>⑤ グループの削除</term>
+
+          <listitem>
+            <para><emphasis role="bold">ごみ箱</emphasis>
+            アイコンをクリックすれば、グループリストの左側にあるチェックボックスが活性化します。削除したいグループを選択し、 <emphasis
+            role="bold">削除 </emphasis>ボタンをクリックすれば、グループが削除されます。</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </section>
+  </section>
+
+  <section>
+    <title>マイ署名の管理</title>
+
+    <para><emphasis role="bold">マイ署名</emphasis> メニューで <emphasis
+    role="bold">署名、イニシャル、印鑑・スタンプ</emphasis>
+    を登録しておくと、文書を処理する際に登録された署名で簡単に処理できます。<indexterm class="singular">
+        <primary>マイ署名</primary>
+      </indexterm></para>
+
+    <para><emphasis role="bold">署名/イニシャルを登録する方法</emphasis></para>
+
+    <note>
+      <para>作業は <emphasis role="bold">PC、モバイル、アプリケーション</emphasis>
+      から進めることができます。</para>
+    </note>
+
+    <para><figure>
+        <title>マイ署名の管理画面</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/menu-mysignature.png" width="700"/>
+          </imageobject>
+        </mediaobject>
+      </figure></para>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="resources/mysignature.PNG" width="700"/>
+      </imageobject>
+    </mediaobject>
+
+    <orderedlist>
+      <listitem>
+        <para>サイドバーのメニューで<emphasis role="bold"> マイ署名</emphasis> に移動します。</para>
+      </listitem>
+
+      <listitem>
+        <para>登録ボタンをクリックします。</para>
+
+        <figure>
+          <title>署名の登録画面</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/mysignature-register.png"
+                         width="700"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <itemizedlist>
+          <listitem>
+            <para><emphasis role="bold">手書き</emphasis></para>
+
+            <para>画面に署名を描画して入力します。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">キーボード</emphasis></para>
+
+            <para>名前を入力して、目的のスタイルのフォントが適用された署名を選択します。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">QRコード</emphasis></para>
+
+            <para><indexterm class="singular">
+                <primary>QRコード</primary>
+              </indexterm>スマートフォンのカメラでQRコードを認識すると、署名パッド画面に移動します。署名パッドに直接署名を描画して入力します。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">アプリプッシュ通知</emphasis></para>
+
+            <para><indexterm class="singular">
+                <primary>アプリプッシュ通知</primary>
+              </indexterm>接続したいモバイルデバイスを選択した後、 <emphasis
+            role="bold">送信（伝送）</emphasis>ボタンをクリックすると、そのデバイスの eformsign
+            アプリで署名を入力することができます。</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">OK</emphasis> ボタンをクリックして、署名を保存します。</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">編集、削除
+        </emphasis>ボタンをクリックして、署名を編集または削除します。</para>
+      </listitem>
+    </orderedlist>
+
+    <para><emphasis role="bold">印鑑・スタンプを登録する方法</emphasis></para>
+
+    <para><indexterm class="singular">
+        <primary sortas="いんかんすたんぷをとうろく">印鑑・スタンプを登録</primary>
+      </indexterm>文書に直接署名するのではなく、印鑑やスタンプを使用する必要がある場合があります。eformsign
+    では、印鑑やスタンプ画像を使用して文書の署名欄に印鑑やスタンプを押すことができます。</para>
+
+    <note>
+      <para>印鑑・スタンプの画像イメージを事前に準備する必要があります。</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>イメージ形式：PNG、JPG</para>
+        </listitem>
+
+        <listitem>
+          <para>ファイルサイズ：最大 300 KB</para>
+        </listitem>
+      </itemizedlist>
+    </note>
+
+    <orderedlist>
+      <listitem>
+        <para>サイドバーのメニューで <emphasis role="bold">マイ署名</emphasis> に移動します。</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">印鑑・スタンプを登録 </emphasis>ボタンをクリックします。</para>
+
+        <figure>
+          <title>印鑑・スタンプを登録ボタン</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/signature-stamp-register.png"
+                         width="700"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </listitem>
+
+      <listitem>
+        <para>印鑑・スタンプのイメージ領域をクリックすると、ローカル PC
+        に保存されている画像をアップロードできるポップアップウィンドウが表示されます。目的の印鑑・スタンプ画像を選択します。</para>
+
+        <figure>
+          <title>マイ署名 &gt; 印鑑・スタンプを登録</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/signature-stamp-image-upload1.png"
+                         width="700"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">OK</emphasis>
+        ボタンをクリックして、印鑑・スタンプを保存します。</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">編集、削除</emphasis>
+        ボタンをクリックして、登録した印鑑・スタンプを編集または削除します。</para>
+      </listitem>
+    </orderedlist>
+  </section>
+</chapter>

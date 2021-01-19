@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter version="5.0" xml:id="template_wd"
+         xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>テンプレート：Web フォームデザイナー</title>
+
+  <section>
+    <title>テンプレートの紹介</title>
+
+    <para><indexterm class="singular">
+        <primary>Web フォームデザイナー</primary>
+
+        <secondary>テンプレート</secondary>
+      </indexterm>eformsign で使用する <emphasis role="bold">電子文書の書式</emphasis>
+    です。契約書、申込書、同意書などのように従来は紙で書かれていたものを電子書式の形に変換したものをテンプレートと言います。テンプレートは、
+    eformsign サービスで直接テンプレートを作成可能な Web フォームデザイナーを使用するか、Microsoft Office に
+    Add-in
+    されるフォームビルダーを使用して作成およびアップロードすることができます。フォームビルダーを使用したテンプレートの設定および管理する方法については、
+    <xref linkend="template_fb"/>をご参照ください。</para>
+
+    <section>
+      <title>テンプレートの概要</title>
+
+      <para>eformsign
+      を使用して電子文書を作成して送信するには、まず電子文書を生成できるテンプレートを作成した後、配布する必要があります。</para>
+
+      <para><emphasis role="bold">Web
+      フォームデザイナーでテンプレートを作成する方法</emphasis></para>
+
+      <para>文書をオンラインで直接アップロードしてテンプレートを作成します。</para>
+
+      <note>
+        <para>テンプレートの詳細な説明については、 <xref linkend="webform"/>をご参照ください。</para>
+      </note>
+
+      <para>既存の文書を PDF ファイルに変換し、Web
+      フォームデザイナーにアップロードすることで、テンプレートを簡単に作成できます。</para>
+
+      <orderedlist>
+        <listitem>
+          <para>作成したい PDF ファイルをテンプレートとして直接ドラッグするか、<emphasis
+          role="bold">PCからファイルを選択</emphasis> をクリックしてファイルを選択し、アップロードします。</para>
+
+          <figure>
+            <title>[テンプレート管理] &gt; [ファイルのアップロード] (1)</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/template-manage-upload.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <figure>
+            <title>[テンプレート管理] &gt; [ファイルのアップロード] (2)</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/template-manage-upload-popup.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+
+        <listitem>
+          <para>コンポーネントのタイプを選択し、アップロードされたファイルにドラッグします。</para>
+
+          <figure>
+            <title>コンポーネントをドラッグする方法</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/web-form-designer1.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+
+        <listitem>
+          <para>コンポーネントのサイズと位置を調整します。</para>
+        </listitem>
+
+        <listitem>
+          <para>コンポーネントの「プロパティ」で詳細設定を行います。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">プレビュー</emphasis>
+          ボタンをクリックして、文書を表示します。</para>
+        </listitem>
+
+        <listitem>
+          <para>フォームのデザインを終えた後、 <emphasis role="bold">次へ</emphasis>
+          をクリックしてテンプレート設定に移動します。</para>
+        </listitem>
+      </orderedlist>
+
+      <para><emphasis role="bold"/></para>
+
+      <para><emphasis role="bold">テンプレートの設定</emphasis></para>
+
+      <para>作成するテンプレートの詳細設定を行うことができます。</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">全般</emphasis></para>
+
+          <para>テンプレート名、略称、文書タイトル、文書番号などを設定します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">権限の設定</emphasis></para>
+
+          <para>テンプレートを使って文書を作成できるテンプレートの使用権限、および作成された文書を管理するメンバーまたはグループを指定します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">ワークフローの設定</emphasis></para>
+
+          <para>文書の作成から完了までのステップをを設定します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">フィールドの設定</emphasis></para>
+
+          <para>フィールドの基本値、自動入力値などのデフォルト値を設定します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">通知の設定 </emphasis></para>
+
+          <para>テンプレートによって作成される文書を依頼する場合、または、状態の変更がある場合、どのチャンネルで、誰（受信者）に、どうした内容の通知メッセージを送信するかを設定します。</para>
+        </listitem>
+      </itemizedlist>
+    </section>
+
+    <section>
+      <title>ワークフローの概要</title>
+
+      <para><indexterm class="singular">
+          <primary>ワークフロー</primary>
+        </indexterm>ワークフローとは、文書の作成から完了までの依頼と処理のフローを言います。</para>
+
+      <para>ワークフローの設定は、テンプレート管理者がテンプレート別に <emphasis
+      role="bold">テンプレートの設定</emphasis> &gt; <emphasis
+      role="bold">ワークフローの設定</emphasis> で行えます。</para>
+
+      <para>ワークフローは <emphasis role="bold">開始 - 終了</emphasis>
+      がデフォルトのステップであり、次のように<emphasis role="bold"> 決裁者、</emphasis>、<emphasis
+      role="bold">内部受信者</emphasis>、<emphasis role="bold">外部受信者</emphasis>
+      の3つのタイプのいずれかを追加し、ワークフローを作成することができます。</para>
+
+      <figure>
+        <title>ワークフローのステップ</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata contentwidth="276"
+                       fileref="resources/workflow-step-basic.PNG"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">決裁者</emphasis></para>
+
+          <para>同じ会社のメンバーから文書の決裁を依頼するステップです。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">内部受信者</emphasis></para>
+
+          <para>メンバーに文書の処理を依頼するステップです。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">外部受信者</emphasis></para>
+
+          <para>会社のメンバーではない外部のユーザーに文書の処理を依頼するステップです。</para>
+
+          <important>
+            <para><emphasis role="bold">決裁者と内部受信者の違い！</emphasis></para>
+
+            <para>決裁者と内部受信者は両方とも、依頼された文書を承認または返戻できますが、内部受信者として文書処理の依頼を受けたメンバーの場合、文書を検討および作成した後、次のステップの受信者（処理の担当者）を指定することができます。</para>
+
+            <para>つまり、内部受信者ステップの後に、外部受信者、内部受信者、または決裁者を指定できます。</para>
+
+            <para>たとえば、他部署の決裁手順を指定せずに、その文書への協力を別の部署に依頼する場合は、その他部署の担当者を内部受信者ステップとして指定します。他部署の担当者は、その部署の決裁手順を別途設定して文書を処理できます。</para>
+          </important>
+        </listitem>
+      </itemizedlist>
+    </section>
+  </section>
+
+  <section>
+    <title>テンプレートの設定</title>
+
+    <para>アップロードされたファイルで作成するテンプレートの詳細を設定できます。</para>
+
+    <note>
+      <para>この作業を行うには、代表管理者の権限またはテンプレートの管理権限が必要です。</para>
+
+      <para>この作業は、PC、モバイル、およびアプリケーションで実行できます。</para>
+    </note>
+
+    <section>
+      <title>全般</title>
+
+      <figure>
+        <title>テンプレート設定 &gt; 全般</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/template-setting-general.png"
+                       width="700"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <variablelist>
+        <varlistentry>
+          <term>テンプレートの基本情報の設定</term>
+
+          <listitem>
+            <para>テンプレート名、カテゴリー、有効期限など、テンプレートに関する基本情報を設定します。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>① テンプレート名</term>
+
+          <listitem>
+            <para><emphasis role="bold">テンプレート管理</emphasis>,<emphasis
+            role="bold">文書の新規作成</emphasis> メニュー画面に表示されるテンプレートの名前です。</para>
+
+            <para><emphasis role="bold">テンプレート名</emphasis>
+            は、スペースを含めて約11文字を推奨しています。11文字を超える場合は、名前の上にマウスを置くと、テンプレートの完全な名前を確認することができます。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term/>
+
+          <listitem>
+            <figure>
+              <title>テンプレート名</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="resources/template-name.png" width="250"/>
+                </imageobject>
+              </mediaobject>
+            </figure>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>② テンプレートの略称</term>
+
+          <listitem>
+            <para>テンプレートを簡単に表示するための短い名前です。2~3 文字の簡単な単語で設定してください。</para>
+
+            <para><emphasis role="bold">テンプレートの略称</emphasis>
+            は、文書番号、文書タイトル、通知メールテンプレートなどで <emphasis role="bold">$$</emphasis>
+            を入力して使用することができます。</para>
+
+            <figure>
+              <title>テンプレートの略称</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="resources/template-short-name.png"/>
+                </imageobject>
+              </mediaobject>
+            </figure>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>③ カテゴリ</term>
+
+          <listitem>
+            <para>テンプレートをタイプごとに区分するために使用します。カテゴリー名で<emphasis
+            role="bold">テンプレート管理 </emphasis>画面のテンプレート、または <emphasis
+            role="bold">文書トレイ</emphasis>、<emphasis role="bold">文書管理</emphasis>
+            メニューで文書をフィルタリングできます。既存のカテゴリーから選択することも、新しい名前を入力して新しいカテゴリーを作成することもできます。</para>
+
+            <para>区切り文字（ <emphasis role="bold">/
+            </emphasis>）を使用すれば、サブカテゴリーを含むマルチレベルのカテゴリーを設定できます。たとえば、カテゴリーを
+            <emphasis role="bold">人事チーム/休暇</emphasis> で設定すれば、最上位レベルのカテゴリーである
+            <emphasis role="bold">人事チーム</emphasis> 内に第2レベルのサブカテゴリーである
+            <emphasis role="bold">休暇</emphasis> カテゴリーが生成されます。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>④ 説明</term>
+
+          <listitem>
+            <para>テンプレートに関する追加の説明を入力します。この説明は、テンプレートリストと文書の新規作成リストのテンプレート名の下部に表示されます。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>⑤ テンプレート有効期限</term>
+
+          <listitem>
+            <para>テンプレートで文書が作成できる期限を設定します。開始日はテンプレートがアップロードされた日付がデフォルトで設定されますが、変更も可能です。</para>
+
+            <para><emphasis role="bold">期間の制限無し
+            </emphasis>にチェックを入れると、有効期限無しで文書を作成できます。<emphasis
+            role="bold">期間の制限無し</emphasis>
+            のチェックを外した後、日付を設定すると、文書は設定した日付までしか作成できません。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>文書の設定</term>
+
+          <listitem>
+            <para>テンプレートで作成した文書に対して、文書タイトルの自動生成ルールなどの追加設定を行います。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>⑥ 文書タイトルの自動生成ルール</term>
+
+          <listitem>
+            <para>テンプレートで文書を作成するときの文書のタイトルを設定します。文書タイトルの生成ルールを設定しない場合、テンプレート名が文書タイトルになります。</para>
+
+            <para>文書タイトルには <emphasis role="bold">$$</emphasis> と <emphasis
+            role="bold">{{</emphasis> を使用して予約語を追加できます。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>⑦ 文書タイトルの変更を許可する</term>
+
+          <listitem>
+            <para><emphasis role="bold">文書のタイトルの変更を許可する</emphasis> にチェックを入れれば、
+            <emphasis role="bold">作成</emphasis>
+            ステップの文書の作成者が文書のタイトルを変更できます。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>⑧ 文書番号の自動付与</term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary>テンプレート</primary>
+
+                <secondary>文書番号の自動付与</secondary>
+              </indexterm>文書番号の自動付与にチェックを入れると、作成された文書に対して文書番号が自動で付与されます。文書番号の表現式のうち、必要な文書番号の表現式を選択し、文書番号を生成する時期と番号の採番時点を選択します。</para>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/template-setting-general-doc-numering.png"/>
+              </imageobject>
+            </mediaobject>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>⑨ 文書の送信時に表示されるポップアップ画面を省略する</term>
+
+          <listitem>
+            <para>文書の作成と送信を迅速に行うことの多いケースに使用します。この設定にチェックを入れないと、文書の送信時に<emphasis
+            role="bold"> 確認メッセージを入力する</emphasis> ポップアップウィンドウが表示されます。<emphasis
+            role="bold">文書の送信時に表示されるポップアップ画面を省略する</emphasis> にチェックを入れれば、
+            <emphasis role="bold">メッセージを入力する</emphasis>
+            ポップアップウィンドウが表示されずに、次のステップに進みます。</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </section>
+
+    <section>
+      <title>全般 &gt; 文書タイトルの自動生成ルールの作成</title>
+
+      <para><emphasis role="bold">テンプレートの設定</emphasis>
+      では、テンプレートで生成される文書のタイトルルールを設定できます。<indexterm class="singular">
+          <primary>テンプレート</primary>
+
+          <secondary>文書タイトルの自動生成ルール</secondary>
+        </indexterm></para>
+
+      <para>文書に関する情報を自動的に文書タイトルに自動で入力されるように設定することができます。文書タイトルの自動生成ルールを設定すると、文書の作成時の情報に基づいて文書タイトルが生成されます。この文書タイトルは、すべての文書トレイ（進行中、要処理、完了文書）と
+      文書管理メニューの文書リストで確認できます。</para>
+
+      <note>
+        <para>この作業は <emphasis role="bold">代表管理者</emphasis> または<emphasis
+        role="bold"> テンプレート管理</emphasis> の権限が必要です。</para>
+      </note>
+
+      <figure>
+        <title>文書管理 &gt; 文書リスト</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/document-list.png" width="700"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">文書タイトルの自動生成ルールを設定する方法</emphasis></para>
+
+      <figure>
+        <title>テンプレート設定 &gt; 文書タイトルの自動生成ルールの設定</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/template-setting-general-doc-numering_rule.png"
+                       width="600"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <orderedlist>
+        <listitem>
+          <para>サイドバーのメニューで<emphasis role="bold"> テンプレート管理</emphasis>
+          に移動します。</para>
+        </listitem>
+
+        <listitem>
+          <para>テンプレートの <emphasis role="bold">設定</emphasis> アイコン
+          (<inlinemediaobject>
+              <imageobject>
+                <imagedata contentwidth="33"
+                           fileref="resources/config-icon.PNG"/>
+              </imageobject>
+            </inlinemediaobject>) をクリックして <emphasis
+          role="bold">テンプレートの設定</emphasis> メニューに移動します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">全般 </emphasis>画面上の <emphasis
+          role="bold">文書タイトルの自動生成ルール</emphasis> の入力欄に、目的のタイトルルールを入力します。</para>
+        </listitem>
+
+        <listitem>
+          <para>右上の<emphasis role="bold"> 保存
+          </emphasis>ボタンをクリックして、変更内容を保存します。</para>
+        </listitem>
+      </orderedlist>
+
+      <para><emphasis role="bold">予約語を使用する方法<indexterm class="singular">
+          <primary>テンプレート</primary>
+
+          <secondary>予約語</secondary>
+        </indexterm></emphasis></para>
+
+      <figure>
+        <title>予約語を使用して文書タイトルの自動生成ルールの設定</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata contentwidth="500"
+                       fileref="resources/template-setting-general-doc-numering_rule_reserved.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <variablelist>
+        <varlistentry>
+          <term><emphasis role="bold">{{</emphasis></term>
+
+          <listitem>
+            <para>文書に入力した内容を文書タイトルに追加したい場合には、</para>
+
+            <para><emphasis role="bold">文書タイトルの自動生成ルール </emphasis>の入力欄に
+            <emphasis role="bold">{{</emphasis> を入力すると、テンプレートのコンポーネント ID
+            のリストが表示され、目的の ID を選択すると、そのコンポーネントに入力される内容が文書タイトルに追加されます。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">$$</emphasis></term>
+
+          <listitem>
+            <para>文書に関連する情報をタイトルに追加したい場合には、</para>
+
+            <para><emphasis role="bold">文書タイトルの自動生成ルール</emphasis> の入力欄に
+            <emphasis
+            role="bold">$$</emphasis>を入力すると、ドロップダウンメニューが表示され、以下の情報から目的の情報を選択できます。</para>
+
+            <informaltable>
+              <tgroup cols="2">
+                <colspec align="center" colwidth="323*"/>
+
+                <colspec colwidth="677*"/>
+
+                <thead>
+                  <row>
+                    <entry align="center">情報タイプ</entry>
+
+                    <entry align="center">説明</entry>
+                  </row>
+                </thead>
+
+                <tbody>
+                  <row>
+                    <entry>現在日付</entry>
+
+                    <entry>文書を作成した時点の日付（例：2020年02月20日)</entry>
+                  </row>
+
+                  <row>
+                    <entry>現在時刻</entry>
+
+                    <entry>文書を作成した時点の時刻（例：午後02:59)</entry>
+                  </row>
+
+                  <row>
+                    <entry>現在日付時刻</entry>
+
+                    <entry>文書を作成した時点の日付と時刻（例：2020年2月20日午後02：59）</entry>
+                  </row>
+
+                  <row>
+                    <entry>最初作成者ID</entry>
+
+                    <entry>文書を作成したメンバーの ID</entry>
+                  </row>
+
+                  <row>
+                    <entry>最初作成者名</entry>
+
+                    <entry>文書を作成したメンバーの名前</entry>
+                  </row>
+
+                  <row>
+                    <entry>最初作成者部門</entry>
+
+                    <entry>文書を作成したメンバーの部署</entry>
+                  </row>
+
+                  <row>
+                    <entry>最初作成者会社名</entry>
+
+                    <entry>文書を作成したメンバーの会社名</entry>
+                  </row>
+
+                  <row>
+                    <entry>テンプレート名</entry>
+
+                    <entry>テンプレートの設定 &gt; 全般 で入力したテンプレート名</entry>
+                  </row>
+
+                  <row>
+                    <entry>テンプレート略称</entry>
+
+                    <entry>テンプレートの設定 &gt; 全般 で入力したテンプレートの略称</entry>
+                  </row>
+
+                  <row>
+                    <entry>会社名</entry>
+
+                    <entry>会社管理 &gt; 会社情報に入力されている会社名</entry>
+                  </row>
+
+                  <row>
+                    <entry>会社住所</entry>
+
+                    <entry>会社管理 &gt; 会社情報に入力されている住所</entry>
+                  </row>
+
+                  <row>
+                    <entry>会社連絡先</entry>
+
+                    <entry>会社管理 &gt; 会社情報に入力されている連絡先</entry>
+                  </row>
+
+                  <row>
+                    <entry>会社事業者登録番号</entry>
+
+                    <entry>会社管理 &gt; 会社情報に入力されている事業者登録番号</entry>
+                  </row>
+
+                  <row>
+                    <entry>会社ホームページ</entry>
+
+                    <entry>会社管理 &gt; 会社情報に入力されているホームページのURL</entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </informaltable>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+
+      <tip>
+        <para><emphasis role="bold">文書のタイトルの変更を許可する</emphasis>
+        にチェックが入っているかどうかを確認してください！</para>
+
+        <para>文書タイトルの自動生成ルールを設定しておいても、 <emphasis role="bold">文書のタイトルの変更を許可する
+        </emphasis>にチェックが入っていると、文書の作成者は任意で文書のタイトルを変更できます。文書タイトルの変更を希望しない場合は、
+        <emphasis role="bold">文書のタイトルの変更を許可する</emphasis> でチェックを外してください。</para>
+      </tip>
+
+      <figure>
+        <title>文書タイトルの変更を許可するを確認</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata contentwidth="427"
+                       fileref="resources/template-setting-general-doc-numering_rule_allow_change.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </section>
+
+    <section xml:id="docnumber_wd">
+      <title>テンプレートの設定 &gt; 全般 &gt; 文書番号の自動付与</title>
+
+      <para>eformsign
+      で生成される文書に連続する文書番号を付与することができます。テンプレートごとに文書番号を自動的に生成するかどうかを設定できます。文書番号を自動的に生成するためには、4つの文書番号の形式のいずれかを選択する必要があります。文書番号は、文書コンポーネントを使用して文書内に入力できます。また、文書リストに別のカラムがあり、文書番号で文書を検索することもできます。</para>
+
+      <para><emphasis role="bold">文書番号を生成する方法<indexterm class="singular">
+          <primary>テンプレート</primary>
+
+          <secondary>文書番号の自動付与</secondary>
+        </indexterm></emphasis></para>
+
+      <note>
+        <para>この作業は <emphasis role="bold">代表管理者</emphasis> または <emphasis
+        role="bold">テンプレート管理</emphasis> の権限が必要です。</para>
+      </note>
+
+      <figure>
+        <title>文書番号の設定</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/template-setting-general-doc-numering1.png"
+                       width="600"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <orderedlist>
+        <listitem>
+          <para>サイドバーのメニューで <emphasis role="bold">テンプレート管理</emphasis>
+          に移動します。</para>
+        </listitem>
+
+        <listitem>
+          <para>テンプレートの <emphasis role="bold">設定
+          </emphasis>アイコン（<inlinemediaobject>
+              <imageobject>
+                <imagedata contentwidth="33"
+                           fileref="resources/config-icon.PNG"/>
+              </imageobject>
+            </inlinemediaobject>）をクリックして <emphasis
+          role="bold">テンプレートの設定</emphasis> メニューに移動します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">全般</emphasis> 画面上の <emphasis
+          role="bold">文書番号の自動付与</emphasis> にチェックを入れます。</para>
+
+          <para><itemizedlist>
+              <listitem>
+                <para><emphasis role="bold">文書番号の生成ルールの選択</emphasis></para>
+              </listitem>
+            </itemizedlist><figure>
+              <title>文書番号の生成ルールの選択</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata contentwidth="400"
+                             fileref="resources/template-setting-general-doc-numering1_1.png"/>
+                </imageobject>
+              </mediaobject>
+            </figure><variablelist>
+              <varlistentry>
+                <term><emphasis role="bold">▪ シリアル番号</emphasis></term>
+
+                <listitem>
+                  <para>文書の作成順に1番から生成します。</para>
+
+                  <para>例）1、2、3...</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><emphasis role="bold">▪ 年度_シリアル番号</emphasis></term>
+
+                <listitem>
+                  <para>文書が作成された年度+1番から生成します。</para>
+
+                  <para>例）2020_1、2020_2...</para>
+                </listitem>
+              </varlistentry>
+            </variablelist><variablelist>
+              <varlistentry>
+                <term><emphasis role="bold">▪ テンプレート略称シリアル番号</emphasis></term>
+
+                <listitem>
+                  <para>テンプレート略称 + 1番から生成します。</para>
+
+                  <para>例）申込書1、申込書2...</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><emphasis role="bold">▪
+                テンプレート略称年度_シリアル番号</emphasis></term>
+
+                <listitem>
+                  <para>テンプレートの略称+文書が作成された年度+1番から生成します。</para>
+
+                  <para>例）申込書2020_1、申込書2020_2...</para>
+                </listitem>
+              </varlistentry>
+            </variablelist><itemizedlist>
+              <listitem>
+                <para><emphasis role="bold">文書に番号を付与する時点の選択</emphasis></para>
+              </listitem>
+            </itemizedlist><variablelist>
+              <varlistentry>
+                <term>▪ <emphasis role="bold">開始</emphasis></term>
+
+                <listitem>
+                  <para>文書の作成を開始するときに、文書番号を生成します。</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term>▪ <emphasis role="bold">完了</emphasis></term>
+
+                <listitem>
+                  <para>文書がすべてのワークフローを経て完了すると、文書番号を生成します。</para>
+                </listitem>
+              </varlistentry>
+            </variablelist></para>
+        </listitem>
+
+        <listitem>
+          <para>右上の <emphasis role="bold">保存</emphasis>
+          ボタンをクリックして設定を保存します。</para>
+        </listitem>
+      </orderedlist>
+
+      <para><emphasis role="bold">文書番号を確認する方法</emphasis></para>
+
+      <para>生成された文書番号は、文書コンポーネントを使用して文書内に入力することができるほか、文書リストでも確認できます。</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">文書内に文書番号を表示する</emphasis></para>
+
+          <para>文書番号は、文書コンポーネントを使用して文書内に入力できます。</para>
+
+          <orderedlist>
+            <listitem>
+              <para>Web フォームデザイナーで PDF ファイルをアップロードします。</para>
+            </listitem>
+
+            <listitem>
+              <para>文書番号を入れたい箇所に文書コンポーネントを追加します。</para>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="resources/web-form-designer-document-component.png"
+                             width="730"/>
+                </imageobject>
+              </mediaobject>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">次へ </emphasis>ボタンをクリックして<emphasis
+              role="bold"> テンプレートの設定</emphasis> に移動します。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">テンプレート設定 &gt;
+              全般</emphasis>で<emphasis role="bold">文書番号の自動付与</emphasis>
+              にチェックを入れます。</para>
+            </listitem>
+
+            <listitem>
+              <para>文書番号の生成ルールを選択します。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">保存</emphasis>
+              ボタンをクリックして設定を保存します。</para>
+            </listitem>
+          </orderedlist>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">文書リストで文書番号を確認する</emphasis></para>
+
+          <figure>
+            <title>完了文書-文書リスト</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/doc-list-docnumber1.PNG"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <figure>
+            <title>完了文書-文書リスト-文書番号の確認</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/doc-list-docnumber2.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <para>文書番号は、文書リストを表示する文書トレイ（進行中文書、要処理文書、完了文書）と 文書管理
+          メニュー（文書の管理権限が必要）で確認できます。</para>
+
+          <orderedlist>
+            <listitem>
+              <para>サイドバーのメニューで <emphasis role="bold">文書トレイ</emphasis>
+              または<emphasis role="bold">文書管理</emphasis> メニューに移動します。</para>
+            </listitem>
+
+            <listitem>
+              <para>右上の <emphasis role="bold">カラム設定</emphasis>
+              アイコンをクリックします。</para>
+            </listitem>
+
+            <listitem>
+              <para>カラムリストの <emphasis role="bold">文書番号</emphasis>
+              にチェックを入れます。</para>
+
+              <para><inlinemediaobject>
+                  <imageobject>
+                    <imagedata contentwidth="147"
+                               fileref="resources/columnlist-docnum.png"/>
+                  </imageobject>
+                </inlinemediaobject></para>
+            </listitem>
+
+            <listitem>
+              <para>文書リストに <emphasis role="bold">文書番号</emphasis>
+              カラムが追加されていることが確認できます。</para>
+            </listitem>
+          </orderedlist>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">文書番号で文書を検索する</emphasis></para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="resources/doc-number-search.png"
+                           width="600"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <para>文書番号の検索は、詳細検索機能で確認できます。</para>
+
+          <orderedlist>
+            <listitem>
+              <para><emphasis role="bold">文書トレイ</emphasis> または <emphasis
+              role="bold">文書管理</emphasis> メニューに移動します。</para>
+            </listitem>
+
+            <listitem>
+              <para>文書リストの上部に <emphasis role="bold">詳細</emphasis>
+              ボタンをクリックします。</para>
+            </listitem>
+
+            <listitem>
+              <para>検索条件の中から <emphasis role="bold">文書番号
+              </emphasis>を選択します。</para>
+            </listitem>
+
+            <listitem>
+              <para>検索したい単語または数字を入力します。</para>
+            </listitem>
+
+            <listitem>
+              <para>検索結果を確認します。</para>
+            </listitem>
+          </orderedlist>
+        </listitem>
+      </itemizedlist>
+    </section>
+
+    <section>
+      <title>権限の設定</title>
+
+      <para>権限の設定 画面では、テンプレートの使用権限と文書の管理権限を設定できます。</para>
+
+      <figure>
+        <title>テンプレート設定 &gt; 権限の設定</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/template-setting-auth-new.PNG"
+                       width="700"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">テンプレートの使用権限</emphasis></para>
+
+      <para><indexterm class="singular">
+          <primary>テンプレートの使用権限</primary>
+        </indexterm>テンプレートを使用して文書を作成する権限を設定し、会社のすべてのメンバーが使用できるように <emphasis
+      role="bold">すべて</emphasis> を選択するか、または <emphasis
+      role="bold">グループまたはメンバー</emphasis> を検索して選択することができます。</para>
+
+      <para><emphasis role="bold">文書の管理権限</emphasis></para>
+
+      <para><indexterm class="singular">
+          <primary sortas="ぶんしょのかんりけんげん">文書の管理権限</primary>
+        </indexterm>グループまたはメンバーを選択して、テンプレートを使用して作成された文書を閲覧したり、完了文書の無効化の依頼を承認したりでき、文書を永久削除する権限をすべて、または各々を設定できます。</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">すべての文書を閲覧する (デフォルト権限)：</emphasis>
+          文書管理者の基本権限で、文書管理の権限のあるグループまたはメンバーには、選択に関係なく、すべての文書を閲覧する権限が付与されます。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">完了文書の無効化を承認する (選択時)：</emphasis>
+          文書作成者が完了文書の無効化を依頼した場合に、文書の管理権限で付与された権限があれば、文書の無効化を承認できます。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">文書を永久削除する (選択時)：</emphasis>
+          システムから文書を永久に削除する権限で、文書の管理権限で付与された権限があれば、永久に削除できます。</para>
+        </listitem>
+      </itemizedlist>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/template-setting-auth-doc-new.PNG"
+                     width="700"/>
+        </imageobject>
+      </mediaobject>
+    </section>
+
+    <section>
+      <title>ワークフローの設定</title>
+
+      <para><emphasis role="bold">テンプレートの設定</emphasis> 画面で <emphasis
+      role="bold">ワークフローの設定</emphasis>
+      タブをクリックして、そのテンプレートのワークフローを作成または変更できます。<indexterm class="singular">
+          <primary>ワークフロー</primary>
+        </indexterm></para>
+
+      <para/>
+
+      <figure>
+        <title>テンプレートの設定 &gt; ワークフローの設定</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/workflow-setting_new.PNG"
+                       width="500"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">ワークフローのステップを追加する方法</emphasis></para>
+
+      <orderedlist>
+        <listitem>
+          <para><emphasis role="bold">ワークフローの設定</emphasis>
+          タブをクリックして、そのタブに移動します。</para>
+        </listitem>
+
+        <listitem>
+          <para>開始と完了の間にあるステップの追加 (<inlinemediaobject>
+              <imageobject>
+                <imagedata contentwidth="30"
+                           fileref="resources/workflow-addstep-plus-button.png"/>
+              </imageobject>
+            </inlinemediaobject>）ボタンをクリックします。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">受信者タイプの選択</emphasis> で<emphasis
+          role="bold"> </emphasis>追加したい <emphasis
+          role="bold">受信者のタイプ</emphasis> を選択します。</para>
+
+          <para><mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/workflow-addstep-type2.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject></para>
+        </listitem>
+
+        <listitem>
+          <para>選択すると、ステップがワークフローに追加されます。</para>
+        </listitem>
+      </orderedlist>
+
+      <tip>
+        <para>ワークフローのステップは個数に関係なく、いくつでも追加できます。ワークフローのステップの横にある矢印をクリックすると、ステップの順序を変更できます。</para>
+
+        <para>ステップを削除するには、ステップの右側に位置する<emphasis role="bold"> X</emphasis>
+        をクリックすれば、削除されます。</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/workflow-step-added.png" width="700"/>
+          </imageobject>
+        </mediaobject>
+      </tip>
+
+      <para><emphasis role="bold">ワークフローのステップ別の詳細設定</emphasis></para>
+
+      <para>ステップをクリックすると、ワークフローのステップ別の属性、項目の管理、通知などの詳細を設定できます。</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">属性</emphasis>
+          では、ステップ名と状態の設定、およびステップ別の設定を細部設定できます。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">項目の管理</emphasis>
+          では、ワークフローの各ステップで受信者が編集できるように許可する <emphasis
+          role="bold">編集許可</emphasis> 項目と必須で入力が必要な <emphasis
+          role="bold">必須入力項目</emphasis> 項目を設定できます。</para>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/workflow-step-item-manage.png"
+                         width="700"/>
+            </imageobject>
+          </mediaobject>
+        </listitem>
+      </itemizedlist>
+
+      <variablelist>
+        <varlistentry>
+          <term><emphasis role="bold">開始：文書を作成するステップ<indexterm
+              class="singular">
+              <primary>ワークフロー</primary>
+
+              <secondary>開始</secondary>
+            </indexterm></emphasis></term>
+
+          <listitem>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/workflow-step-start-property.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+
+            <itemizedlist>
+              <listitem>
+                <para><emphasis
+                role="bold">ステップ名</emphasis>（共通）：デフォルトで設定されているステップ名は変更できます。</para>
+              </listitem>
+
+              <listitem>
+                <para><emphasis
+                role="bold">文書作成数の制限</emphasis>：チェックを入れて、そのテンプレートで生成される文書の最大数を設定します。</para>
+              </listitem>
+
+              <listitem>
+                <para><emphasis role="bold">URL
+                での文書作成を許可する</emphasis>：メンバーではない外部ユーザーに依頼する場合には、URL
+                でアクセスできるパブリックリンクを作成し、ログインせずに文書を処理します。</para>
+              </listitem>
+
+              <listitem>
+                <para><emphasis
+                role="bold">文書の重複送信を防止する</emphasis>：文書を重複して送信することを防止し、フィールドを選択し、そのフィールドに基づいて重複の有無をチェックします。</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+
+      <variablelist>
+        <varlistentry>
+          <term><emphasis role="bold">決裁者：社内の決裁者に文書の決裁を依頼するステップ<indexterm
+              class="singular">
+              <primary>ワークフロー</primary>
+
+              <secondary>決裁者</secondary>
+            </indexterm></emphasis></term>
+
+          <listitem>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/workflow-step-approval-property.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+
+            <itemizedlist>
+              <listitem>
+                <para><emphasis
+                role="bold">表示名</emphasis>：文書を作成した後、決裁をする際や外部受信者が処理する際に表示される名前を設定します。入力しない場合、デフォルトは以下のように表示されます。</para>
+
+                <mediaobject>
+                  <imageobject>
+                    <imagedata fileref="resources/template-approval-property-displayname.png"
+                               width="250"/>
+                  </imageobject>
+                </mediaobject>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">内部受信者
+          (メンバー)：会社の内部メンバーに文書処理を依頼するステップ<indexterm class="singular">
+              <primary>ワークフロー</primary>
+
+              <secondary>内部受信者 (メンバー)</secondary>
+            </indexterm></emphasis></term>
+
+          <listitem>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/workflow-step-internal-recipient-property.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+
+            <itemizedlist>
+              <listitem>
+                <para><emphasis
+                role="bold">受信者</emphasis>：内部受信者のステップを処理するメンバーを設定します。</para>
+
+                <itemizedlist>
+                  <listitem>
+                    <para><emphasis
+                    role="bold">前の作成者または内部受信者</emphasis>：開始ステップを含めて前のステップの内部受信者が文書を処理するように設定します。ステップを選択できます。</para>
+                  </listitem>
+
+                  <listitem>
+                    <para><emphasis
+                    role="bold">グループまたはメンバー</emphasis>：グループまたはメンバーのうち一人が文書を処理するように設定します。グループまたはメンバーには、マルチ選択が可能です。</para>
+                  </listitem>
+                </itemizedlist>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+
+      <variablelist>
+        <varlistentry>
+          <term><emphasis
+          role="bold">外部受信者：メンバーではない外部のユーザーに文書処理を依頼するステップ<indexterm
+              class="singular">
+              <primary>ワークフロー</primary>
+
+              <secondary>外部受信者</secondary>
+            </indexterm></emphasis></term>
+
+          <listitem>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/workflow-step-external-recipient-property.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+
+            <itemizedlist>
+              <listitem>
+                <para><emphasis role="bold">文書の送信期限</emphasis>：外部受信者に送信される URL
+                リンクが、一定期間後に期限切れになるように設定します。</para>
+              </listitem>
+
+              <listitem>
+                <para><emphasis
+                role="bold">受信者情報の自動設定</emphasis>：外部受信者に文書を依頼する場合、文書に入力された情報に基づいて、外部受信者の名前と連絡先を自動設定できます。</para>
+              </listitem>
+
+              <listitem>
+                <para><emphasis
+                role="bold">パスワードの設定</emphasis>：外部受信者が文書を検討するときに入力する必要のあるパスワード（受信者の名前、送信者が直接入力する、入力フィールドのうち1つを選択して使用するのうち、１つを選択）を設定できます。</para>
+              </listitem>
+
+              <listitem>
+                <para><emphasis
+                role="bold">パスワードのヒント</emphasis>：外部受信者が文書を閲覧する際、パスワードを入力する必要のある場合に表示されるヘルプメッセージを設定できます。</para>
+
+                <mediaobject>
+                  <imageobject>
+                    <imagedata fileref="resources/workflow-step-external-recipient-property-pw.png"
+                               width="400"/>
+                  </imageobject>
+                </mediaobject>
+              </listitem>
+
+              <listitem>
+                <para><emphasis
+                role="bold">文書の検討前に携帯番号で本人確認する：</emphasis>外部受信者が文書を閲覧する前に携帯電話で本人確認を行うように設定します。この機能には追加料金が発生します。</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+
+      <variablelist>
+        <varlistentry>
+          <term><emphasis
+          role="bold">完了：文書がワークフローのすべてのステップを経て最終的に完了するステップ<indexterm
+              class="singular">
+              <primary>ワークフロー</primary>
+
+              <secondary>完了</secondary>
+            </indexterm></emphasis></term>
+
+          <listitem>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/workflow-step-complete-property.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+
+            <itemizedlist>
+              <listitem>
+                <para><emphasis
+                role="bold">別のクラウドストレージに完了文書を保存する</emphasis>：外部クラウドストレージに文書を保存するように設定します。外部クラウドストレージは、代表管理者または会社管理の権限を持つメンバーが別途で設定します。</para>
+              </listitem>
+
+              <listitem>
+                <para><emphasis
+                role="bold">完了文書にタイムスタンプを付与する</emphasis>：完了した文書がそれ以降に変更されていないことを証明するタイムスタンプを設定します。この機能には追加料金が発生します。</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </section>
+
+    <section>
+      <title>フィールドの設定</title>
+
+      <para><emphasis role="bold"><indexterm class="singular">
+          <primary>テンプレート</primary>
+
+          <secondary>フィールドの設定</secondary>
+        </indexterm>フィールドの設定</emphasis>
+      では、テンプレート内のコンポーネントフィールドのデフォルト値または自動入力値を設定し、フィールドの順序を並べ替えることができます。</para>
+
+      <figure>
+        <title>テンプレートの設定 &gt; フィールドの設定</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/template-field-setting.png"
+                       width="700"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>カスタムフィールド管理に保存されている会社/グループ/メンバー情報を入力するフィールドのデフォルト値を設定したり、最近の入力値を選択したり、自分で入力したりすることができます。</para>
+
+      <para/>
+
+      <para><emphasis role="bold">自動入力の設定方法</emphasis></para>
+
+      <para>文書に頻繁に入力する情報を事前に保存し、自動的に入力されるように設定することができます。</para>
+
+      <para>たとえば、名前、連絡先などの作成者の情報、部署名、責任者、会社の代表番号などの会社またはグループに関する情報を事前に保存して自動で入力されるように設定することができます。関連フィールドのコンポーネントの追加しおよびデフォルト値の設定は
+      <emphasis role="bold">会社管理 &gt; カスタムフィールド管理</emphasis> で行えます。</para>
+
+      <orderedlist>
+        <listitem>
+          <para><emphasis role="bold">カスタムフィールド管理</emphasis>
+          画面でフィールドを追加します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">テンプレート管理</emphasis> メニューに移動します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">テンプレートの設定</emphasis>
+          アイコンをクリックします。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">フィールドの設定</emphasis> メニューに移動します。</para>
+        </listitem>
+
+        <listitem>
+          <para>自動で入力されるように設定するフィールドのデフォルト値を入力します。</para>
+        </listitem>
+
+        <listitem>
+          <para>すべての設定が完了したら、<emphasis role="bold">保存</emphasis>
+          ボタンをクリックします。</para>
+        </listitem>
+      </orderedlist>
+    </section>
+
+    <section>
+      <title>通知の設定</title>
+
+      <para><indexterm class="singular">
+          <primary>テンプレート</primary>
+
+          <secondary>通知の設定</secondary>
+        </indexterm>テンプレートで生成された文書の状態の通知や依頼を受信するチャンネルの選択、受信者への依頼メッセージの編集ができます。</para>
+
+      <para><emphasis role="bold">通知チャンネルの設定</emphasis></para>
+
+      <para>内部受信者および外部受信者に送信する通知チャンネルを設定します。<emphasis
+      role="bold">メール</emphasis> または <emphasis role="bold">SMS
+      </emphasis>のうち1つ、または両方を選択できます。</para>
+
+      <note>
+        <para><emphasis role="bold">SMS</emphasis>
+        は有料プランを購読中の会社のみ選択でき、選択すれば、追加料金が発生します。</para>
+      </note>
+
+      <para>SMS を選択すると、<emphasis role="bold">SMSで送信する </emphasis>と <emphasis
+      role="bold">カカオトークで送信し、失敗時にはSMSで再送信する</emphasis> が活性化します。</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">SMSで送信する</emphasis>：受信者に通知メッセージを SMS
+          で送信します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis
+          role="bold">カカオトークで送信し、失敗時にはSMSで再送信する</emphasis>：受信者にカカオトークで通知メッセージを送信し、カカオトークを使用していない受信者には
+          SMS で送信します。</para>
+        </listitem>
+      </itemizedlist>
+
+      <para/>
+
+      <figure>
+        <title>通知チャンネルの設定</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/template-setting-notification-channel.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">依頼メッセージの編集</emphasis></para>
+
+      <para>このテンプレートで生成された文書を受信者に依頼するときに、受信者に送信される通知メッセージを確認および編集できます。各通知テンプレートのメッセージは
+      <emphasis role="bold">会社管理 &gt; 通知テンプレート管理</emphasis>
+      ページで設定した内容がデフォルトで適用されています。<emphasis role="bold">編集
+      </emphasis>ボタンをクリックして、メッセージを直接編集できます。</para>
+
+      <note>
+        <para>SMS テンプレートは、有料プランを購読中の会社のみ編集できます。</para>
+      </note>
+
+      <para>各通知テンプレートのメッセージは <emphasis role="bold">会社管理 &gt;
+      通知テンプレート管理</emphasis> ページで設定した内容がデフォルトで適用されています。<emphasis
+      role="bold">編集</emphasis> ボタンをクリックして、メッセージを直接編集できます。</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/template-setting-notification-edit.png"/>
+        </imageobject>
+      </mediaobject>
+
+      <para/>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/template-setting-notification-edit-email.png"
+                     width="600"/>
+        </imageobject>
+      </mediaobject>
+
+      <para/>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">文書の検討および作成依頼 &gt;
+          内部</emphasis>：内部受信者に文書の検討および作成を依頼するときに、内部受信者に送信される依頼メッセージを編集できます。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">文書の検討および作成依頼 &gt;
+          外部</emphasis>：外部受信者に文書の検討および作成を依頼したときに、外部受信者に送信する依頼メッセージを編集できます。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis
+          role="bold">文書決裁の依頼</emphasis>：決裁者に文書の決裁を依頼するときに、決裁者に送信する依頼メッセージを編集できます。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis
+          role="bold">文書返戻による修正依頼</emphasis>：決裁者、内部受信者および外部受信者が文書を返戻する際に、文書の依頼者に送信する依頼通知メッセージを編集できます。</para>
+        </listitem>
+      </itemizedlist>
+
+      <para><emphasis role="bold">文書状態についての通知</emphasis></para>
+
+      <para>テンプレートで生成された文書の進行状態の通知を受信する受信者を設定し、通知メッセージのプレビュー（文書の承認、検討、作成/返戻/無効化/修正の通知）と編集（文書の最終完了の通知）ができます。</para>
+
+      <note>
+        <para>文書返戻の通知、文書の無効化の通知、文書の修正の通知は、メールテンプレートのみ提供され、SMS は送信されません。</para>
+
+        <para>文書の完了の通知（内部/外部）のSMS テンプレートは有料プランを購読中の会社のみが編集できます。</para>
+      </note>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/template-setting-notification-status.png"
+                     width="500"/>
+        </imageobject>
+      </mediaobject>
+
+      <para/>
+
+      <note>
+        <para><emphasis role="bold">文書の作成者 </emphasis>オプションにチェックを入れて、<emphasis
+        role="bold">各ステップの処理者
+        </emphasis>オプションはチェックを外すと、文書を作成した人に文書状態の通知が送信されます。</para>
+
+        <para><emphasis role="bold">文書の作成者</emphasis> オプションはチェックを外して、<emphasis
+        role="bold">各ステップの処理者
+        </emphasis>オプションにチェックを入れると、文書の作成者を除いて現在のステップの前に文書を処理した人々に、文書状態の通知が送信されます。</para>
+
+        <para><emphasis role="bold">文書の作成者</emphasis>、<emphasis
+        role="bold">各ステップの処理者</emphasis>
+        オプションに両方ともチェックを入れると、文書の作成者と、現在のステップの前に文書を処理した人々の両方に、文書状態の通知が送信されます。</para>
+
+        <para><emphasis role="bold">文書の作成者</emphasis>、<emphasis
+        role="bold">各ステップの処理者</emphasis>
+        オプションを両方ともチェックを外すと、そのステップの文書状態の通知は送信されません。</para>
+      </note>
+
+      <para/>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis
+          role="bold">文書の承認</emphasis>：決裁者が文書を承認すると、文書が承認されたことを知らせる通知が送信されます。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis
+          role="bold">文書の検討および作成</emphasis>：内部受信者または外部受信者が文書を処理すると、文書が検討および作成されたことを知らせる通知が送信されます。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis
+          role="bold">文書の返戻</emphasis>：決裁者、内部受信者、または外部受信者が文書を返戻すると、文書が返戻されたことを知らせる通知が送信されます。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis
+          role="bold">文書の無効化の通知</emphasis>：無効化の依頼のあった文書の無効化が承認された場合、文書が無効化されたことを知らせる通知が送信されます。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis
+          role="bold">文書の修正</emphasis>：文書の作成者が文書を修正した場合、文書が修正されたことを知らせる通知が送信されます。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">文書の完了 &gt;
+          内部</emphasis>：文書が完了すると、文書の作成者、決裁者、および文書の内部受信者に文書が完了したことを知らせる通知が送信されます。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">文書の完了 &gt;
+          外部</emphasis>：文書が完了すると、文書が完了したことを知らせる通知が外部受信者に送信されます。</para>
+
+          <note>
+            <para><emphasis role="bold">文書の完了 &gt; 外部</emphasis>の<emphasis
+            role="bold">文書の作成者</emphasis> オプションにチェックが入っていると、メンバーではない外部のユーザーが
+            URL
+            経由で文書を作成して送信するときに、文書完了の通知を受信するための受信先の情報を提供する必要があり、入力した受信先に状態の通知が送信されます。</para>
+          </note>
+        </listitem>
+      </itemizedlist>
+    </section>
+  </section>
+
+  <section>
+    <title>テンプレートの個別操作メニュー</title>
+
+    <para><emphasis role="bold">テンプレート管理</emphasis> 画面で、テンプレート名の右側にあるメニューアイコン
+    (<inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="14"
+                     fileref="resources/template-hamburgericon.png"/>
+        </imageobject>
+      </inlinemediaobject>) をクリックすると、テンプレート別に設定できるメニューが表示されます。</para>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="resources/template-manage-menu.png" width="700"/>
+      </imageobject>
+    </mediaobject>
+
+    <para/>
+
+    <itemizedlist>
+      <listitem>
+        <para><emphasis
+        role="bold">複製</emphasis>：テンプレートを複製します。テンプレートのフォームファイルとテンプレートの詳細設定が複製されます。複製した設定を変更して保存できます。</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis
+        role="bold">削除</emphasis>：テンプレートを削除します。テンプレートを削除すると、そのテンプレートでは文書を作成できなくなります。</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis
+        role="bold">ファイルをダウンロード</emphasis>：ファイルをダウンロードをクリックすると、アップロードしたファイルの形式でダウンロードされます。（例：Word、Excel
+        ファイルなど）</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis
+        role="bold">非活性化</emphasis>：テンプレートを非活性化すると、他のメンバーの<emphasis
+        role="bold"> 文書の新規作成 </emphasis>ページに表示されなくなります。</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis
+        role="bold">所有者を変更</emphasis>：テンプレートの所有者を変更できます。デフォルトでは、テンプレートの所有者としては、テンプレートを作成した人が自動的に指定されます。後でテンプレートの所有者を別のメンバーに変更できます。テンプレートの所有者は、テンプレートの管理権限を持つメンバーの中から選択できます。</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata contentwidth="300"
+                       fileref="resources/template-owner-change.PNG"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
+
+      <listitem>
+        <para><emphasis
+        role="bold">文書管理者の設定：</emphasis>テンプレートで作成した文書の管理者を設定できます。<emphasis
+        role="bold">テンプレートの設定 &gt; 権限の設定 </emphasis>と同じです。</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata contentwidth="400"
+                       fileref="resources/document-manager-setting.PNG"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
+    </itemizedlist>
+
+    <para/>
+  </section>
+
+  <section>
+    <title>テンプレートの検索</title>
+
+    <para><emphasis role="bold">テンプレート管理</emphasis>
+    画面では、テンプレートをカテゴリー別に照会、検索ができます。</para>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="resources/template-manage-search.png" width="700"/>
+      </imageobject>
+    </mediaobject>
+
+    <variablelist>
+      <varlistentry>
+        <term>① <emphasis role="bold">テンプレートの照会</emphasis></term>
+
+        <listitem>
+          <para>をクリックすると、テンプレートの状態やカテゴリー別にテンプレートを照会できます。<emphasis
+          role="bold">X</emphasis> をクリックして、カテゴリーリストに戻ります。</para>
+
+          <para>テンプレートは、Sample カテゴリーに基本テンプレートが保存されます。カテゴリーの作成は <emphasis
+          role="bold">テンプレート設定 &gt; 全般</emphasis> で行えます。</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term><emphasis role="bold">② テンプレートの検索</emphasis></term>
+
+        <listitem>
+          <para>検索したいテンプレートの検索キーワードを入力します。</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term>③ <emphasis role="bold">ソート</emphasis></term>
+
+        <listitem>
+          <para>テンプレートの並べ替え順序を、テンプレート名またはカテゴリー別に昇順および降順に設定します。</para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </section>
+</chapter>

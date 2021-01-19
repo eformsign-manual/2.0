@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Overview</title>
+
+  <section>
+    <title>Product Introduction</title>
+
+    <para>eformsign is an electronic document solution that allows anyone to
+    easily create electronic documents from paper documents and utilize
+    various data stored in electronic documents. You can easily create
+    electronic documents by uploading your PDF files onto eformsign and
+    converting the files to electronic forms via eformsign's Web Form Designer
+    feature. You can also create electronic forms by using eformsign's add-in
+    feature embedded in Microsoft Office (named <emphasis role="bold">Form
+    builder</emphasis> or <emphasis role="bold">OZ in Office</emphasis>). The
+    Form builder feature allows anyone who knows how to use the Microsoft
+    Office Suite to easily convert existing documents to electronic
+    forms.</para>
+
+    <para>eformsign allows you to create a workflow for each template
+    according to your company's business process. You can flexibly set a
+    document signing process for internal documents requiring approvals as
+    well as for external documents such as contracts, agreements, and
+    applications. Furthermore, detailed configurations such as notifications
+    and required input fields can be set for each workflow step or recipient,
+    and the progress status of documents is logged as history. Moreover, an
+    audit trail certificate is provided for the prevention of document forgery
+    and falsification.</para>
+
+    <para>eformsign also provides a bulk send feature, by which users can
+    create and send multiple documents at once and can minimize repetitive
+    input with auto-fill feature. Also, by adding and configuring custom
+    fields, fields in documents such as company information, group and member
+    information, recent input value, and date can be automatically filled in.
+    Furthermore, eformsign allows users to easily manage companies' members
+    and their permissions, configure detailed notifications settings for
+    documents, and manage and utilize data entered in documents by extracting
+    input data.</para>
+
+    <figure>
+      <title>Key Features</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/main_feature.png" width="800"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>The eformsign solution also provides a digital signature feature
+    which allows you to sign e-signatures on electronic documents.</para>
+
+    <para>A digital signature is a signature in electronic form that replaces
+    the traditional wet-ink signature. Just as when signing a signature on
+    paper, you need to prove that the signer is you and this is done by going
+    through an identity verification step. Personal information such as email,
+    social security number, password, phone number, certificate, etc. can be
+    used to verify identity.</para>
+
+    <para>Digital signatures have been legally binding in phases in the vast
+    majority of countries around the world.</para>
+
+    <para>eformsign’s e-signatures are legally binding for
+    individual-individual and corporation-individual matters. As well, it
+    provides various additional features for non-repudiation.</para>
+
+    <note>
+      <para>The following describes the legal effect of digital signatures of
+      some regions.</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>South Korea: Digital signatures based on PKI standards have a
+          strong legal status, and their legality is not discriminated against
+          the wet-ink signatures. According to Section 3.3 of the Digital
+          Signature Act, a digital signature other than a certified digital
+          signature shall have such an effect of a signature, signature and
+          seal, or name and seal, as is agreed between the parties
+          concerned.</para>
+        </listitem>
+      </itemizedlist>
+
+      <itemizedlist>
+        <listitem>
+          <para>USA: Under the "technologically neutral" principle, any
+          preference to more sophisticated or more secure technologies such as
+          PKI is not given. There are many cases of increasing the reliability
+          of digital signatures through identity verification or
+          authentication services.</para>
+        </listitem>
+
+        <listitem>
+          <para>EU: Digital signatures are categorized into Qualified
+          Electronic Signatures (QES), Advanced Electronic Signatures (AdES),
+          and general Electronic signatures, and their legal status is applied
+          accordingly, corresponding to the characteristics of each type of
+          document.</para>
+        </listitem>
+
+        <listitem>
+          <para>Japan: With the existence of a Specified Authentication
+          Services, a stronger legal effect is given to the digital signature
+          authorized by the secretary of the state.</para>
+        </listitem>
+      </itemizedlist>
+    </note>
+  </section>
+
+  <section>
+    <title>Basic Terms</title>
+
+    <para>The following are some basic terms you should be familiar with
+    before using eformsign.</para>
+
+    <itemizedlist>
+      <listitem>
+        <para><emphasis role="bold">Web Form Designer</emphasis></para>
+
+        <para>Web form designer<indexterm class="singular">
+            <primary>Web form designer</primary>
+          </indexterm> is a tool for quickly and easily creating electronic
+        forms by uploading existing document files onto eformsign. You can
+        create templates by adding components such as signature, text box, and
+        check box to documents such as agreements, applications, and contracts
+        in the PDF format. You can then create documents from templates and
+        send them to recipients to be reviewed and signed.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Form Builder</emphasis></para>
+
+        <para>Form builder<indexterm class="singular">
+            <primary>Form builder</primary>
+          </indexterm> is a tool used to create electronic forms by converting
+        Microsoft Office files such as applications, contracts, and agreements
+        into electronic forms that contain components such as signature and
+        text box. Form builder also uploads the converted electronic forms
+        onto eformsign. Form builder is an Microsoft Office add-in, and it is
+        shown as a ribbon menu which is called <emphasis role="bold">OZ in
+        Office</emphasis>.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Dashboard</emphasis></para>
+
+        <para><indexterm class="singular">
+            <primary>Dashboard</primary>
+          </indexterm>This is the main screen shown when logging into
+        eformsign. You can access the sidebar menu by clicking the menu
+        icon(<inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="resources/menu_icon.png"/>
+            </imageobject>
+          </inlinemediaobject>) on the left side of the screen. Each menu may
+        appear differently depending on the permissions you have. (The Company
+        administrator can access all the menus.)</para>
+
+        <figure>
+          <title>eformsign Dashboard Screen</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/dashboard.png" width="800"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Templates</emphasis></para>
+
+        <para><indexterm class="singular">
+            <primary>Templates</primary>
+          </indexterm>This is an electronic form that serves as a starting
+        point for a new document. With a template, you can create many
+        documents from it. You can create templates by converting existing
+        Microsoft Office files using Form builder or by uploading PDF files
+        directly onto eformsign.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">New document</emphasis></para>
+
+        <para><indexterm class="singular">
+            <primary>Documents</primary>
+          </indexterm>New documents can be created by using templates in the
+        <emphasis role="bold">New document</emphasis> menu. The number of
+        documents created in eformsign refers to the documents created
+        here.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Documents</emphasis></para>
+
+        <para><indexterm class="singular">
+            <primary>Documents</primary>
+          </indexterm>This is a cloud space for storing and viewing documents.
+        It consists of the following three spaces according to the document
+        status:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para><emphasis role="bold">In progress:</emphasis><indexterm
+                class="singular">
+                <primary>In progress</primary>
+              </indexterm> Shows the list of documents you have created or
+            processed but are incomplete.</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">Action required:</emphasis><indexterm
+                class="singular">
+                <primary>Action required</primary>
+              </indexterm> Shows the list of documents you have temporarily
+            saved or documents that other members have requested to you to
+            sign or approve.</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">Completed: </emphasis><indexterm
+                class="singular">
+                <primary>Completed</primary>
+              </indexterm> Shows the list of all the completed documents you
+            have created or participated in.</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+    </itemizedlist>
+
+    <itemizedlist>
+      <listitem>
+        <para><emphasis role="bold">Workflow</emphasis></para>
+
+        <para><indexterm class="singular">
+            <primary>Workflow</primary>
+          </indexterm>A workflow refers to the entire document process from
+        when a document is created to when it is completed. Template managers
+        can create the workflow steps for each template. All workflows have
+        two default steps, <emphasis role="bold">Start –
+        Complete</emphasis><indexterm class="singular">
+            <primary>Start</primary>
+          </indexterm><indexterm class="singular">
+            <primary>Complete</primary>
+          </indexterm>, and can add three more types of steps as shown
+        below:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para><emphasis role="bold">Approver: </emphasis><indexterm
+                class="singular">
+                <primary>Approver</primary>
+              </indexterm>Step in which an approver can approve the document
+            sent by the document creator.</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">Internal recipient:
+            </emphasis><indexterm class="singular">
+                <primary>Internal recipient</primary>
+              </indexterm>Step in which an internal recipient, a member of the
+            company, can review and sign the document sent by the document
+            creator.</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">External recipient:
+            </emphasis><indexterm class="singular">
+                <primary>External recipient</primary>
+              </indexterm>Step in which a user who is not a member of the
+            company can review and sign the document sent by the document
+            creator (or the internal recipient).</para>
+          </listitem>
+        </itemizedlist>
+
+        <figure>
+          <title>Workflow Steps</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/workflow_new.png" width="400"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Company Administrator</emphasis></para>
+
+        <para><indexterm class="singular">
+            <primary>Company Administrator</primary>
+          </indexterm>The representative of a company and has full permission
+        to use eformsign.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Template Management
+        Permission</emphasis></para>
+
+        <para>With this permission, a member can access the <emphasis
+        role="bold">Manage templates</emphasis> menu and can manage templates.
+        Managing templates includes creating, deploying, editing, and deleting
+        the eformsign templates.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Document Management
+        Permission</emphasis></para>
+
+        <para>With this permission, a member can access the <emphasis
+        role="bold">Manage documents</emphasis> menu to view the documents
+        created from each template, approve documents requested to be voided,
+        or permanently remove documents from the system. Note that the
+        document management permission can be set for each separate
+        template.</para>
+      </listitem>
+    </itemizedlist>
+  </section>
+
+  <section>
+    <title>eformsign Usage Flow</title>
+
+    <para>To use eformsign, you can either upload a PDF file onto eformsign
+    and create an electronic form online, or create a form using Microsoft
+    Word, Excel, or PowerPoint and then upload it to eformsign.</para>
+
+    <note>
+      <para>Currently, the method of upload files and creating forms online
+      only supports PDF files. Microsoft Office files, and image files such as
+      JPG and PNG are planned to be supported in the near future.</para>
+    </note>
+
+    <section>
+      <title>Using Web Form Designer</title>
+
+      <para><indexterm class="singular">
+          <primary>Web form designer</primary>
+        </indexterm>You can create a template by uploading a document file(in
+      the PDF format) on eformsign and then adding the components you want
+      such as text, signature, and date onto the document. After adding
+      components to the uploaded document, configure the template settings and
+      deploy the template. You can configure the detailed template settings by
+      going to the <emphasis role="bold">Manage templates</emphasis> menu &gt;
+      selecting the template you want &gt; setting the <emphasis
+      role="bold">General</emphasis>, <emphasis role="bold">Set
+      permissions</emphasis>, <emphasis role="bold">Workflow</emphasis>,
+      <emphasis role="bold">Field</emphasis>, and <emphasis
+      role="bold">Notification settings</emphasis> tabs &gt; deploying the
+      template. You can then go to the <emphasis role="bold">New
+      document</emphasis> menu to create a document from a template you
+      deployed and send it to recipients.</para>
+
+      <figure>
+        <title>Usage Flow of eformsign Using Web Form Designer</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/use_flow_web.png" width="800"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </section>
+
+    <section>
+      <title>Using Form Builder</title>
+
+      <para><indexterm class="singular">
+          <primary>Form builder</primary>
+        </indexterm>You can create a template by creating or opening a
+      document file in Microsoft Office (Word, Excel, and PowerPoint), and
+      then using the ribbon menu (named <emphasis role="bold">OZ in
+      Office</emphasis>) to add the components you want such as text,
+      signature, and date onto the document. Then, you can upload the template
+      you created onto eformsign by clicking the <emphasis
+      role="bold">Upload</emphasis> button in the ribbon menu. After uploading
+      the template, set the template settings and deploy the template. You can
+      set the template settings by logging into the eformsign website, going
+      to the <emphasis role="bold">Manage templates</emphasis> menu &gt;
+      selecting the template you want &gt; setting the <emphasis
+      role="bold">General</emphasis>, <emphasis role="bold">Set
+      permissions</emphasis>, <emphasis role="bold">Workflow</emphasis>,
+      <emphasis role="bold">Field</emphasis>, and <emphasis
+      role="bold">Notification settings</emphasis> tabs &gt; deploying the
+      template. You can then go to the <emphasis role="bold">New
+      document</emphasis> menu to create a document from a template deployed
+      and send it to recipients.</para>
+
+      <figure>
+        <title>Usage Flow of eformsign Using Form Builder</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/use_flow.png" width="800"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </section>
+
+    <section>
+      <title>Minimum System Requirements</title>
+
+      <para>The minimum system requirements for Form builder and eformsign are
+      as follows:</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">Form builder (OZ in
+          Office)</emphasis></para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">OS: </emphasis>Windows 7 and
+              later</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">MS Office: </emphasis>Microsoft
+              Office 2010 and later</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+      </itemizedlist>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">eformsign and Web form
+          designer</emphasis></para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">OS:</emphasis> Windows 7 and later,
+              OS X Mavericks and later</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Browser: </emphasis>Internet
+              Explorer 11 and later, Chrome 49 and later, Safari 9 and
+              later</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Mobile OS:</emphasis> iOS: 6.1.6 and
+              later, Android: 5.0 (Lollipop) and later</para>
+            </listitem>
+          </itemizedlist>
+
+          <note>
+            <para>Installing the mobile eformsign app is not a mandatory
+            requirement to use eformsign.</para>
+          </note>
+        </listitem>
+      </itemizedlist>
+    </section>
+  </section>
+
+  <section>
+    <title>Use Cases</title>
+
+    <para>eformsign can be used for many different cases, including creating
+    contract, agreement, and application forms. All documents are encrypted
+    (AES-256 method) and stored in the PDF/A format, which is the
+    international standard for long-term storage of documents.</para>
+
+    <section>
+      <title>Contract Forms</title>
+
+      <para>Electronic documents can be used to sign various types of
+      contracts including employment contracts, purchase/rental contracts,
+      maintenance contracts, and franchising contracts. By using eformsign,
+      you can record the history of contract processes, prevent the forgery of
+      documents through audit trail certificates, and sign hundreds of
+      contracts without meeting face-to-face with customers or contracting
+      parties.</para>
+
+      <para>The e-contract process using eformsign is as follows:</para>
+
+      <figure>
+        <title>E-Contract Process</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/contract_ex1.png" width="730"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </section>
+
+    <section>
+      <title>Agreement Forms</title>
+
+      <para>Electronic documents can be used to sign various types of
+      agreements including privacy policy and consent forms, medical informed
+      consent forms, parental consent forms, and sublease agreement forms. You
+      can use various types of devices including smartphones, tablets, and
+      computers to create and send thousands of agreement forms to recipients
+      at once.</para>
+
+      <para>The e-agreement process using eformsign is as follows:</para>
+
+      <para><figure>
+          <title>E-Agreement Process</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/usecase-process.PNG" width="800"/>
+            </imageobject>
+          </mediaobject>
+        </figure></para>
+    </section>
+
+    <section>
+      <title>Application Forms</title>
+
+      <para>Electronic documents can be used to sign various types of
+      applications including application forms for registrations, quotations,
+      medical treatments, and purchases. eformsign's workflow feature allows
+      you to easily send application forms even when an application needs
+      going through multiple departments in an organization as well as
+      forwarding the document to the correct department. You can also send the
+      copy of a completed document to the parties involved immediately after
+      the document is completed.</para>
+
+      <figure>
+        <title>Example Workflow of an Application Form</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/workflow_ex1.png" width="400"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>The e-application process using eformsign is as follows:</para>
+
+      <figure>
+        <title>E-Application Process</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/application_ex1.png" width="730"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </section>
+  </section>
+</chapter>

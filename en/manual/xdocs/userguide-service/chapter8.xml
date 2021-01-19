@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Customizing eformsign</title>
+
+  <section>
+    <title>Manage Custom Fields<indexterm class="singular">
+        <primary>Manage custom fields</primary>
+      </indexterm></title>
+
+    <para>You can add and edit fields for companies, groups, and members in
+    the <emphasis role="bold">Manage company &gt; Manage custom
+    fields</emphasis> menu.</para>
+
+    <tip>
+      <para>By using custom fields, you can set frequently used companies,
+      groups, and member information (e.g., company phone number, address,
+      company representative name, etc.) to be added automatically in
+      documents. After adding custom fields in the <emphasis
+      role="bold">Manage custom fields</emphasis> menu, go to the <emphasis
+      role="bold">Template settings &gt; Field settings</emphasis> menu to set
+      which information is to be entered automatically in the
+      documents.</para>
+    </tip>
+
+    <figure>
+      <title>Manage company &gt; Manage custom fields</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/Customfield.PNG" width="700"/>
+        </imageobject>
+      </mediaobject>
+
+      <variablelist>
+        <varlistentry>
+          <term>① Manage custom fields &gt; Company</term>
+
+          <listitem>
+            <para>You can add fields related to the company such as the
+            company representative name, company phone number, stamp and seal,
+            and then set the values.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>② Manage custom fields &gt; Group</term>
+
+          <listitem>
+            <para>You can add fields related to groups such as the department
+            name and manager, and then set the values.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>③ Manage custom fields &gt; Member</term>
+
+          <listitem>
+            <para>You can add fields related to members such as the job title,
+            email address and phone number, and then set the values.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>④ Add field</term>
+
+          <listitem>
+            <para>If you click the <emphasis role="bold">Add field</emphasis>
+            button, the <emphasis role="bold">Add custom field</emphasis>
+            pop-up window will be displayed where you can add a new field.
+            Enter the field name, field type (select from text or image), and
+            field value, and then click the <emphasis
+            role="bold">OK</emphasis> button to add the field to the custom
+            field list.<emphasis role="bold"> </emphasis></para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata contentwidth="300"
+                     fileref="resources/customfield-addfield.PNG"/>
+        </imageobject>
+      </mediaobject>
+
+      <variablelist>
+        <varlistentry>
+          <term>⑤ Field list</term>
+
+          <listitem>
+            <para>The custom field list shows the field names and the field
+            values that you added. You can also delete the fields and edit the
+            field values.</para>
+
+            <para>To delete a field, click the icon (<inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="resources/customfield-list-delete.png"/>
+                </imageobject>
+              </inlinemediaobject>) located to the left of the field
+            list.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>⑥ Edit field</term>
+
+          <listitem>
+            <para>If you select a field to edit and then click the edit icon,
+            the <emphasis role="bold">Edit custom field</emphasis> pop-up
+            window will be displayed where you can edit the field name, field
+            type, and field value.</para>
+
+            <para>You can also change the field order. Select a field in which
+            you want to change the order, and then click the arrow
+            (<inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="resources/customfield-list-order.PNG"/>
+                </imageobject>
+              </inlinemediaobject>) button.</para>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata contentwidth="500"
+                           fileref="resources/customfield-edit.PNG"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>⑦ Save</term>
+
+          <listitem>
+            <para>After editing the custom field, click the <emphasis
+            role="bold">Save</emphasis> button to save your changes.<emphasis
+            role="bold"> </emphasis></para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </figure>
+  </section>
+
+  <section>
+    <title>Notification Template Management</title>
+
+    <para><indexterm class="singular">
+        <primary>Notification template management</primary>
+      </indexterm>You can customize the email and SMS notification messages to
+    best suit the needs of your company.</para>
+
+    <para>Notification templates can be edited in the <emphasis
+    role="bold">Manage company &gt; Notification template
+    management</emphasis> menu or in the <emphasis role="bold">Manage
+    templates &gt; Template settings &gt; Notification settings</emphasis>
+    menu.</para>
+
+    <figure>
+      <title>Manage company &gt; Notification template management</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/notification-template-manage.png"
+                     width="700"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Default templates are shown in the<emphasis role="bold"> Manage
+    company &gt; Notification template management</emphasis> menu. You can
+    change the contents of the default templates and add new notification
+    templates.</para>
+
+    <para><emphasis role="bold">Basic template types (select from Mail or
+    SMS)</emphasis></para>
+
+    <table>
+      <title>Template Types and Status</title>
+
+      <tgroup cols="2">
+        <colspec align="center" colwidth="298*"/>
+
+        <colspec colwidth="702*"/>
+
+        <thead>
+          <row>
+            <entry align="center">Type</entry>
+
+            <entry align="center">Status</entry>
+          </row>
+        </thead>
+
+        <tbody>
+          <row>
+            <entry>Notification messages</entry>
+
+            <entry>Request approval, Acceptance request, External user
+            processing request, Reject approval, Document void requested, and
+            Document void request rejected</entry>
+          </row>
+
+          <row>
+            <entry>Document status notifications</entry>
+
+            <entry>Approval, Acceptance approval, Approve decline request,
+            External user complete document, Complete document, Correct
+            document, Void document, Deletion notification, Document transfer
+            completion, and Complete document (Send as PDF)</entry>
+          </row>
+
+          <row>
+            <entry>Member</entry>
+
+            <entry>Invite a member, Accept the member invitation, Refuse the
+            member invitation, and Withdraw from company</entry>
+          </row>
+
+          <row>
+            <entry>Header and footer</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <tip>
+      <para>The header is set with the eformsign logo by default.<emphasis
+      role="bold"> </emphasis>If you upload your company's logo in the
+      <emphasis role="bold">Manage company &gt; Company profile &gt; Company
+      brand</emphasis> tab menu, the logo is applied to the email
+      templates.</para>
+    </tip>
+
+    <para><emphasis role="bold">How to add a new notification
+    template</emphasis></para>
+
+    <para>In addition to the default templates, you can add a new notification
+    template.</para>
+
+    <orderedlist>
+      <listitem>
+        <para>In the sidebar menu, click the <emphasis role="bold">Manage
+        company &gt; Manage Notification Templates</emphasis> menu.</para>
+      </listitem>
+
+      <listitem>
+        <para>Click the <emphasis role="bold">Add notification
+        template</emphasis> button located at the top right corner of the
+        <emphasis role="bold">Notification template management</emphasis>
+        screen.<emphasis role="bold"> </emphasis></para>
+      </listitem>
+
+      <listitem>
+        <para>Select the appropriate <emphasis role="bold">Type</emphasis> and
+        <emphasis role="bold">Status</emphasis>.</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/notification-template-new.PNG"
+                       width="700"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
+
+      <listitem>
+        <para>Select the <emphasis role="bold">Channel</emphasis> (select
+        either Mail or SMS) and enter the <emphasis role="bold">Notification
+        template name</emphasis>.</para>
+      </listitem>
+
+      <listitem>
+        <para>Select the <emphasis role="bold">Header</emphasis> and <emphasis
+        role="bold">Footer</emphasis>.<emphasis role="bold">
+        </emphasis></para>
+      </listitem>
+
+      <listitem>
+        <para>Write a new notification message.</para>
+      </listitem>
+
+      <listitem>
+        <para>Click the <emphasis role="bold">Save</emphasis> button to add it
+        as a notification template.</para>
+      </listitem>
+    </orderedlist>
+  </section>
+</chapter>
