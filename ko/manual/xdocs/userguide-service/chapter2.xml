@@ -42,7 +42,26 @@
           <para><emphasis role="bold">새 문서 작성: </emphasis><indexterm
               class="singular">
               <primary>새 문서 작성</primary>
-            </indexterm>문서를 작성할 수 있는 템플릿 목록이 조회되고, 템플릿을 선택하여 문서를 작성합니다.</para>
+            </indexterm>내 PC에 저장된 문서 파일 또는 eformsign에 등록된 작성 가능한 템플릿 중 선택하여
+          문서를 작성합니다.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">내 파일로 문서 작성: </emphasis>PDF 형식의 문서
+              파일을 eformsign에 업로드한 후 필요한 컴포넌트를 문서 위에 배치하여 전자문서를 작성합니다. </para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">템플릿으로 문서 작성: </emphasis>문서를 작성할 수 있는
+              템플릿 목록이 조회되고, 템플릿을 선택하여 문서를 작성합니다. </para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">임시 보관함</emphasis>: <emphasis
+          role="bold">내 파일로 문서 작성</emphasis> 중 전송 전에 임시 저장한 문서 목록을 볼 수
+          있습니다.</para>
         </listitem>
 
         <listitem>
@@ -53,26 +72,25 @@
 
           <itemizedlist>
             <listitem>
+              <para><emphasis role="bold">처리할 문서함:</emphasis> <indexterm
+                  class="singular">
+                  <primary>처리할 문서함</primary>
+                </indexterm>내가 작성 또는 처리한 문서 중 결재, 작성, 요청 등 내가 처리할 사항이 있는 문서
+              목록을 볼 수 있습니다.</para>
+            </listitem>
+
+            <listitem>
               <para><emphasis role="bold">진행 중 문서함: </emphasis><indexterm
                   class="singular">
                   <primary>진행 중 문서함</primary>
-                </indexterm>내가 작성 또는 처리한 문서 중 완료되지 않은 문서 목록을 확인할 수
-              있습니다.</para>
+                </indexterm>내가 작성 또는 처리한 문서 중 완료되지 않은 문서 목록을 볼 수 있습니다.</para>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">처리할 문서함: </emphasis><indexterm
+              <para><emphasis role="bold">완료 문서함: </emphasis><indexterm
                   class="singular">
-                  <primary>처리할 문서함</primary>
-                </indexterm>임시 저장한 문서, 다른 멤버가 나에게 작성 또는 결재 요청한 문서 목록을 확인할 수
-              있습니다.</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis role="bold">전체 문서함: </emphasis><indexterm
-                  class="singular">
-                  <primary>전체 문서함</primary>
-                </indexterm>내가 작성 또는 처리한 모든 문서 목록을 확인할 수 있습니다.</para>
+                  <primary>완료 문서함</primary>
+                </indexterm>내가 작성 또는 처리한 문서 중 완료된 문서 목록을 볼 수 있습니다.</para>
             </listitem>
           </itemizedlist>
         </listitem>
@@ -142,6 +160,11 @@
                 </indexterm>eformsign에서 발송되는 이메일, SMS 알림 템플릿 목록을 확인하고 수정할 수
               있습니다.</para>
             </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">서명 설정:</emphasis> 그리기, 텍스트, 도장 중
+              서명하는 방식을 설정할 수 있습니다.</para>
+            </listitem>
           </itemizedlist>
         </listitem>
 
@@ -184,6 +207,23 @@
         <listitem>
           <para><emphasis role="bold">요금 관리:</emphasis> 요금제 및 결제 내역을 조회하고 요금제나
           결제 수단을 변경할 수 있습니다.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">요금제 변경: </emphasis>사용중인 요금제를 변경할 수
+              있습니다.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">실시간 요금: </emphasis>현재까지의 이용 내역 및 요금
+              현황을 실시간으로 조회할 수 있습니다.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">결제 수단 설정: </emphasis>요금 결제시 사용될 신용카드
+              정보를 등록할 수 있습니다.</para>
+            </listitem>
+          </itemizedlist>
         </listitem>
 
         <listitem>
@@ -208,8 +248,8 @@
       <para><indexterm class="singular">
           <primary>대시보드</primary>
         </indexterm>이폼사인 로그인 후 나타나는 대시보드 화면은 권한에 관계없이 모두 동일하게 나타납니다. 내가 처리해야 할
-      문서, 진행 중인 문서 등을 한눈에 확인할 수 있으며, <emphasis role="bold">새 문서 작성</emphasis>
-      등 주요 메뉴로 바로가기를 제공합니다.</para>
+      문서, 진행 중인 문서 등을 한눈에 확인할 수 있으며, <emphasis role="bold">새 문서
+      작성하기</emphasis> 등 주요 메뉴로 바로가기를 제공합니다.</para>
 
       <figure>
         <title>대시보드 화면</title>
@@ -223,82 +263,29 @@
 
       <variablelist>
         <varlistentry>
-          <term><emphasis role="bold">① 새 문서 작성</emphasis></term>
+          <term><emphasis role="bold">① 템플릿으로 문서 작성</emphasis></term>
 
           <listitem>
             <para><indexterm class="singular">
-                <primary>새 문서 작성</primary>
-              </indexterm>저장된 템플릿을 사용하여 새 문서를 작성할 수 있는<emphasis role="bold"> 새
-            문서 작성</emphasis> 화면으로 이동합니다.</para>
+                <primary>템플릿으로 문서 작성</primary>
+              </indexterm>저장된 템플릿을 사용하여 새 문서를 작성할 수 있는<emphasis role="bold">
+            템플릿으로 문서 작성</emphasis> 화면으로 이동합니다.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">② 진행 중 문서함</emphasis></term>
+          <term><emphasis role="bold">② 내 파일로 문서 작성 </emphasis></term>
 
           <listitem>
             <para><indexterm class="singular">
-                <primary>진행 중 문서함</primary>
-              </indexterm>현재 진행 중인 문서의 개수를 보여주며, 클릭시<emphasis role="bold">
-            </emphasis>진행 중인 문서의 목록을 확인할 수 있는 <emphasis role="bold">진행 중
-            문서함</emphasis>으로 이동합니다.</para>
+                <primary>내 파일로 문서 작성</primary>
+              </indexterm>내 파일을 직접 업로드하여 새 문서를 작성할 수 있는<emphasis role="bold">내
+            파일로 문서 작성</emphasis> 화면으로 이동합니다.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">③ 처리할 문서함</emphasis></term>
-
-          <listitem>
-            <para><indexterm class="singular">
-                <primary>처리할 문서함</primary>
-              </indexterm>내가 처리해야 하는 문서의 개수를 보여주며, 클릭시 <emphasis
-            role="bold">처리할 문서함</emphasis>으로 이동합니다.</para>
-          </listitem>
-        </varlistentry>
-
-        <varlistentry>
-          <term><emphasis role="bold">④ 전체 문서함</emphasis></term>
-
-          <listitem>
-            <para><indexterm class="singular">
-                <primary>전체 문서함</primary>
-              </indexterm>완료된 문서를 포함하여 모든 문서를 확인할 수 있는 <emphasis
-            role="bold">전체 문서함</emphasis>으로 이동합니다.</para>
-          </listitem>
-        </varlistentry>
-
-        <varlistentry>
-          <term><emphasis role="bold">⑤ 진행 중 문서</emphasis></term>
-
-          <listitem>
-            <para>진행 중인 문서의 개수와 최근 문서 3건을 목록으로 보여줍니다. 목록의 문서명을 클릭하면 해당 문서로 바로
-            이동하며, <emphasis role="bold">더보기</emphasis>를 클릭하면<emphasis
-            role="bold"> 진행 중 문서함</emphasis>으로 이동합니다.</para>
-          </listitem>
-        </varlistentry>
-
-        <varlistentry>
-          <term><emphasis role="bold">⑥ 처리할 문서</emphasis></term>
-
-          <listitem>
-            <para>내가 처리해야 하는 문서의 개수와 최근 문서 3건을 목록으로 보여줍니다. 목록의 문서명을 클릭하면 해당
-            문서로 바로 이동하며, <emphasis role="bold">더보기</emphasis>를 클릭하면<emphasis
-            role="bold"> 처리할 문서함</emphasis>으로 이동합니다.</para>
-          </listitem>
-        </varlistentry>
-
-        <varlistentry>
-          <term><emphasis role="bold">⑦ 전체 문서</emphasis></term>
-
-          <listitem>
-            <para>전체 문서함에 있는 최근 문서 3건을 목록으로 보여줍니다. 목록의 문서명을 클릭하면 해당 문서로 바로
-            이동하며, <emphasis role="bold">더보기</emphasis>를 클릭하면<emphasis
-            role="bold"> 전체 문서함</emphasis>으로 이동합니다.</para>
-          </listitem>
-        </varlistentry>
-
-        <varlistentry>
-          <term><emphasis role="bold">⑧ 즐겨찾기</emphasis></term>
+          <term><emphasis role="bold">③ 즐겨찾기</emphasis></term>
 
           <listitem>
             <para><indexterm class="singular">
@@ -317,53 +304,139 @@
                              fileref="resources/favorites-edit.PNG"/>
                 </imageobject>
               </inlinemediaobject>)을 클릭하여 삭제할 수 있습니다.</para>
+
+            <tip>
+              <para><emphasis role="bold">자주 사용하는 템플릿 즐겨찾기
+              방법!</emphasis></para>
+
+              <para>자주 사용하는 템플릿은 즐겨찾기에 등록하여 바로 문서를 작성할 수 있습니다. 템플릿 <emphasis
+              role="bold">즐겨찾기</emphasis>는 대시보드에서 할 수 있습니다.</para>
+
+              <orderedlist>
+                <listitem>
+                  <para>대시보드의 즐겨찾기 박스에서 추가 아이콘( <inlinemediaobject>
+                      <imageobject>
+                        <imagedata contentwidth="17"
+                                   fileref="resources/favorites-add.PNG"/>
+                      </imageobject>
+                    </inlinemediaobject>)을 클릭하세요.</para>
+                </listitem>
+
+                <listitem>
+                  <para>클릭시 즐겨찾기에 등록이 안된 템플릿의 목록이 팝업창으로 뜹니다.</para>
+
+                  <para><inlinemediaobject>
+                      <imageobject>
+                        <imagedata fileref="resources/favorites-add-popup.PNG"
+                                   width="700"/>
+                      </imageobject>
+                    </inlinemediaobject></para>
+                </listitem>
+
+                <listitem>
+                  <para>즐겨찾기에 추가하고자 하는 템플릿의 체크박스를 클릭합니다.</para>
+
+                  <para><inlinemediaobject>
+                      <imageobject>
+                        <imagedata fileref="resources/favorites-add-popup2.PNG"
+                                   width="700"/>
+                      </imageobject>
+                    </inlinemediaobject></para>
+                </listitem>
+
+                <listitem>
+                  <para>선택을 클릭하면 즐겨찾기에 등록됩니다.</para>
+                </listitem>
+              </orderedlist>
+            </tip>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">④ 처리할 문서함</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary>처리할 문서함</primary>
+              </indexterm>내가 처리해야 하는 문서의 개수를 보여주며, 클릭시 <emphasis
+            role="bold">처리할 문서함</emphasis>으로 이동합니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑤ 진행 중 문서함</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary>진행 중 문서함</primary>
+              </indexterm>현재 진행 중인 문서의 개수를 보여주며, 클릭시<emphasis role="bold">
+            </emphasis>진행 중인 문서의 목록을 확인할 수 있는 <emphasis role="bold">진행 중
+            문서함</emphasis>으로 이동합니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑥ 완료 문서함</emphasis></term>
+
+          <listitem>
+            <para>클릭시<emphasis role="bold"> 완료 문서함</emphasis>으로 이동합니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑦ 임시 보관함</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary>임시 보관함</primary>
+              </indexterm>내 파일로 작성되었으나 전송되지 않고 임시 저장된 문서의 개수를 보여주며, 클릭시
+            <emphasis role="bold">임시 보관함</emphasis>으로 이동합니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑧ 처리할 문서</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary>처리할 문서함</primary>
+              </indexterm>내가 처리해야 하는 문서의 개수와 최근 문서 3건을 목록으로 보여줍니다. 목록의 문서명을
+            클릭하면 해당 문서로 바로 이동하며, <emphasis role="bold">더보기</emphasis>를
+            클릭하면<emphasis role="bold"> </emphasis><emphasis role="bold">처리할
+            문서함</emphasis>으로 이동합니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑨ 임시 보관 문서</emphasis></term>
+
+          <listitem>
+            <para>임시 문서함에 저장된 문서의 개수와 최근 문서 3건을 목록으로 보여줍니다. 목록의 문서명을 클릭하면 해당
+            문서로 바로 이동하며, <emphasis role="bold">더보기</emphasis>를 클릭하면<emphasis
+            role="bold"> 임시 보관함</emphasis>으로 이동합니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑩ 진행 중 문서</emphasis></term>
+
+          <listitem>
+            <para>진행 중인 문서의 개수와 최근 문서 3건을 목록으로 보여줍니다. 목록의 문서명을 클릭하면 해당 문서로 바로
+            이동하며, <emphasis role="bold">더보기</emphasis>를 클릭하면<emphasis
+            role="bold"> 진행 중 문서함</emphasis>으로 이동합니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑪ 완료 문서</emphasis></term>
+
+          <listitem>
+            <para>최근 완료된 문서 3건을 목록으로 보여줍니다. 목록의 문서명을 클릭하면 해당 문서로 바로 이동하며,
+            <emphasis role="bold">더보기</emphasis>를 클릭하면<emphasis role="bold">
+            완료 문서함</emphasis>으로 이동합니다.</para>
           </listitem>
         </varlistentry>
       </variablelist>
-
-      <tip>
-        <para><emphasis role="bold">자주 사용하는 템플릿 즐겨찾기 방법!</emphasis></para>
-
-        <para>자주 사용하는 템플릿은 즐겨찾기에 등록하여 바로 문서를 작성할 수 있습니다. 템플릿 <emphasis
-        role="bold">즐겨찾기</emphasis>는 대시보드에서 할 수 있습니다.</para>
-
-        <orderedlist>
-          <listitem>
-            <para>대시보드의 즐겨찾기 박스에서 추가 아이콘( <inlinemediaobject>
-                <imageobject>
-                  <imagedata contentwidth="17"
-                             fileref="resources/favorites-add.PNG"/>
-                </imageobject>
-              </inlinemediaobject>)을 클릭하세요.</para>
-          </listitem>
-
-          <listitem>
-            <para>클릭시 즐겨찾기에 등록이 안된 템플릿의 목록이 팝업창으로 뜹니다.</para>
-
-            <para><inlinemediaobject>
-                <imageobject>
-                  <imagedata fileref="resources/favorites-add-popup.PNG"
-                             width="700"/>
-                </imageobject>
-              </inlinemediaobject></para>
-          </listitem>
-
-          <listitem>
-            <para>즐겨찾기에 추가하고자 하는 템플릿의 체크박스를 클릭합니다.</para>
-
-            <para><inlinemediaobject>
-                <imageobject>
-                  <imagedata fileref="resources/favorites-add-popup2.PNG"
-                             width="700"/>
-                </imageobject>
-              </inlinemediaobject></para>
-          </listitem>
-
-          <listitem>
-            <para>선택을 클릭하면 즐겨찾기에 등록됩니다.</para>
-          </listitem>
-        </orderedlist>
-      </tip>
     </section>
   </section>
 
@@ -1094,7 +1167,7 @@
 
             <listitem>
               <para><indexterm class="singular">
-                  <primary>빌활성 멤버</primary>
+                  <primary>비활성 멤버</primary>
                 </indexterm>비활성된 멤버 목록 및 정보를 확인할 수 있습니다.</para>
             </listitem>
           </varlistentry>
@@ -1165,9 +1238,19 @@
                 </indexterm>이메일 또는 ID를 사용하여 멤버를 초대할 수 있습니다.</para>
             </listitem>
           </varlistentry>
-        </variablelist></para>
 
-      <para/>
+          <varlistentry>
+            <term><emphasis role="bold">⑩ 삭제</emphasis></term>
+
+            <listitem>
+              <para><indexterm class="singular">
+                  <primary>멤버 삭제</primary>
+                </indexterm><emphasis role="bold">휴지통</emphasis> 아이콘을 클릭하면 멤버
+              목록 왼쪽에 체크박스가 활성화됩니다. 삭제할 멤버를 체크한 후 <emphasis
+              role="bold">삭제</emphasis> 버튼을 클릭하면 멤버가 삭제됩니다.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist></para>
     </section>
 
     <section>
@@ -1400,5 +1483,13 @@
         삭제합니다.</para>
       </listitem>
     </orderedlist>
+
+    <note>
+      <para>전자문서에 첨부될 서명 방식을 설정할 수 있습니다.</para>
+
+      <para><emphasis role="bold">회사 관리</emphasis> &gt; <emphasis
+      role="bold">서명 설정 </emphasis>에서<emphasis role="bold"> </emphasis>그리기,
+      텍스트, 도장 중 문서의 서명란에 표시될 서명 방식을 제한하거나 허용할 수 있습니다.</para>
+    </note>
   </section>
 </chapter>
