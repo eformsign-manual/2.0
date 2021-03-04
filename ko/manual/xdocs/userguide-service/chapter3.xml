@@ -43,7 +43,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="???"/>
+            <imagedata contentwidth="875"
+                       fileref="resources/myfile_create_document.png"/>
           </imageobject>
         </mediaobject>
       </listitem>
@@ -54,7 +55,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="???"/>
+            <imagedata contentwidth="875"
+                       fileref="resources/myfile_create_document2.png"/>
           </imageobject>
         </mediaobject>
       </listitem>
@@ -64,7 +66,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="???"/>
+            <imagedata contentwidth="864"
+                       fileref="resources/myfile_create_document3.png"/>
           </imageobject>
         </mediaobject>
       </listitem>
@@ -144,7 +147,8 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="???"/>
+              <imagedata contentwidth="754"
+                         fileref="resources/myfile_create_document4.png"/>
             </imageobject>
           </mediaobject>
         </figure>
