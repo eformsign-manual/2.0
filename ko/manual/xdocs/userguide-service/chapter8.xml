@@ -97,8 +97,12 @@
           <term>⑥ 필드 편집</term>
 
           <listitem>
-            <para>수정할 필드를 선택하여 수정 아이콘을 클릭하면 사용자 정의 필드 수정 팝업 창이 표시되어 필드 이름, 타입,
-            값 등을 수정할 수 있습니다.</para>
+            <para>수정할 필드를 선택하여 수정 아이콘(<inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="resources/customfield_icon.png"/>
+                </imageobject>
+              </inlinemediaobject>)을 클릭하면 사용자 정의 필드 수정 팝업 창이 표시되어 필드 이름, 타입, 값
+            등을 수정할 수 있습니다.</para>
 
             <para>필드의 순서는 해당 필드를 선택한 후 화살표(<inlinemediaobject>
                 <imageobject>
@@ -175,7 +179,7 @@
           <row>
             <entry>문서 처리 요청</entry>
 
-            <entry>결재 요청/문서 검토 및 작성 요청(내부/외부)/문서 반려로 인한 수정 요청/문처 취소 요청 수신/문서
+            <entry>결재 요청/문서 검토 및 작성 요청(내부/외부)/문서 반려로 인한 수정 요청/문서 취소 요청 수신/문서
             취소 요청 거절</entry>
           </row>
 
@@ -183,13 +187,13 @@
             <entry>문서 처리 상태</entry>
 
             <entry>문서 승인/문서 삭제/문서 반려/문서 검토 및 작성 완료/문서 최종 완료(내부/외부)/문서 이관 완료/문서
-            수정/문서 최종 완료(PDF 전송)/문서 취</entry>
+            수정/완료 문서 전송/문서 취소</entry>
           </row>
 
           <row>
             <entry>멤버 초대</entry>
 
-            <entry>멤버 초대/멤버 초대 수락/멤버 초대 거절/멤버 회사 탈퇴</entry>
+            <entry>멤버 초대/멤버 가입 완료/멤버 초대 거절/멤버 회사 탈퇴</entry>
           </row>
 
           <row>
