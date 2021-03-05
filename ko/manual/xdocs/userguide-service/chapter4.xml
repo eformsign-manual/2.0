@@ -10,7 +10,7 @@
   <title>폼 빌더 소개</title>
 
   <section>
-    <title>폼 빌더 개요</title>
+    <title>개요</title>
 
     <para><indexterm class="singular">
         <primary>폼 빌더</primary>
@@ -39,110 +39,90 @@
     </figure>
 
     <section>
-      <title>폼 빌더 다운로드</title>
-
-      <para><indexterm class="singular">
+      <title>폼 빌더 다운로드 및 설치<indexterm class="singular">
           <primary>폼 빌더 다운로드</primary>
-        </indexterm>1. 이폼사인 로그인 후 대시보드 화면 왼쪽 상단의 메뉴 아이콘(<inlinemediaobject>
-          <imageobject>
-            <imagedata fileref="resources/menu_icon.png"/>
-          </imageobject>
-        </inlinemediaobject>)을 클릭하면 나타나는 사이드바 메뉴 중 가장 하단의 <emphasis
-      role="bold">eformsign 폼 빌더 다운로드</emphasis> 버튼을 클릭합니다.</para>
+        </indexterm></title>
 
-      <figure>
-        <title>폼 빌더 다운로드 버튼 위치</title>
+      <orderedlist>
+        <listitem>
+          <para>이폼사인 로그인 후 대시보드 화면 왼쪽 상단의 메뉴 아이콘(<inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="resources/menu_icon.png"/>
+              </imageobject>
+            </inlinemediaobject>)을 클릭하면 나타나는 사이드바 메뉴 중 가장 하단의 <emphasis
+          role="bold">eformsign 폼 빌더 다운로드</emphasis> 버튼을 클릭합니다.</para>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/formbuilder_download.png"
-                       width="750"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
+          <para/>
 
-      <para>2. 다음과 같은 eformsign 폼 빌더 다운로드 페이지가 나타납니다. 페이지 하단의 <emphasis
-      role="bold">폼 빌더 다운로드</emphasis> 버튼을 클릭합니다.</para>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/formbuilder_download.png"
+                         width="700"/>
+            </imageobject>
+          </mediaobject>
+        </listitem>
 
-      <figure>
-        <title>폼 빌더 다운로드 페이지</title>
+        <listitem>
+          <para>다음과 같은 eformsign 폼 빌더 다운로드 페이지가 나타납니다. 페이지 하단의 <emphasis
+          role="bold">폼 빌더 다운로드</emphasis> 버튼을 클릭합니다.</para>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/formbuilder_download_2.png"
-                       width="750"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/formbuilder_download_2.png"
+                         width="700"/>
+            </imageobject>
+          </mediaobject>
+        </listitem>
 
-      <para>3. 폼 빌더 실행파일을 저장할 위치를 정하고 다운로드합니다.</para>
+        <listitem>
+          <para>다운로드된 폼 빌더 실행파일을 클릭하면 다음과 같은 설치 화면이 나타납니다. 옵션 중 <emphasis
+          role="bold">전체 설치</emphasis>(C)를 선택하고 <emphasis role="bold">다음(N)
+          &gt;</emphasis> 버튼을 클릭합니다</para>
 
-      <para/>
-    </section>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/formbuilder_wizard_1.png"
+                         width="400"/>
+            </imageobject>
+          </mediaobject>
+        </listitem>
 
-    <section>
-      <title>폼 빌더 설치</title>
+        <listitem>
+          <para>설치가 진행되면 다음과 같은 화면이 나타납니다.</para>
 
-      <para>1. 폼 빌더 실행파일을 클릭해 실행합니다.</para>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/formbuilder_wizard_2.png"
+                         width="400"/>
+            </imageobject>
+          </mediaobject>
+        </listitem>
 
-      <para>2. 다음과 같은 Wizard 화면이 나타나면 옵션 중 <emphasis role="bold">전체
-      설치</emphasis>(C)를 선택하고 <emphasis role="bold">다음(N) &gt;</emphasis> 버튼을
-      클릭합니다.</para>
+        <listitem>
+          <para>설치가 완료되면 <emphasis role="bold">완료</emphasis> 버튼을 클릭해 설치 화면을
+          닫습니다.</para>
 
-      <figure>
-        <title>폼 빌더 설치 화면 (1)</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/formbuilder_wizard_3.png"
+                         width="400"/>
+            </imageobject>
+          </mediaobject>
+        </listitem>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/formbuilder_wizard_1.png"
-                       width="500"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
+        <listitem>
+          <para>MS Office (Word, Excel, PowerPoint)를 실행해 폼 빌더가 제대로 설치되었는지를
+          확인합니다. 다음과 같이 <emphasis role="bold">OZ in
+          Word/Excel/PowerPoint</emphasis>가 나타나면 정상적으로 설치된 것입니다.</para>
 
-      <para>3. 설치가 진행되면 다음과 같은 화면이 나타납니다.</para>
-
-      <figure>
-        <title>폼 빌더 설치 화면 (2)</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/formbuilder_wizard_2.png"
-                       width="500"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para>4. 설치가 완료되었습니다. <emphasis role="bold">완료</emphasis> 버튼을 클릭해 설치 화면을
-      닫습니다.</para>
-
-      <figure>
-        <title>폼 빌더 설치 화면 (3)</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/formbuilder_wizard_3.png"
-                       width="500"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para>5. MS Office (Word, Excel, PowerPoint)를 실행해 폼 빌더가 제대로 설치되었는지를
-      확인합니다. 다음과 같이 <emphasis role="bold">OZ in
-      Word/Excel/PowerPoint</emphasis>가 나타나면 정상적으로 설치된 것입니다.</para>
-
-      <figure>
-        <title>OZ in Word 리본 메뉴</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/formbuilder-ozinword-menu1.png"
-                       width="750"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para/>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/formbuilder-ozinword-menu1.png"
+                         width="750"/>
+            </imageobject>
+          </mediaobject>
+        </listitem>
+      </orderedlist>
 
       <para/>
     </section>
@@ -166,6 +146,16 @@
       </figure>
 
       <para/>
+
+      <itemizedlist>
+        <listitem>
+          <para/>
+        </listitem>
+
+        <listitem>
+          <para/>
+        </listitem>
+      </itemizedlist>
 
       <orderedlist>
         <listitem>
@@ -391,15 +381,15 @@
     </section>
 
     <section>
-      <title>입력항목 속성 확인하는 방법</title>
+      <title>컴포넌트 속성 확인하는 방법</title>
 
-      <para>모든 입력항목은 각각의 세부 설정인 ‘속성’을 가지고 있습니다. 속성은 속성 표시 아이콘 또는 속성 메뉴를 클릭하여
-      확인할 수 있습니다.</para>
+      <para>모든 컴포넌트는 각각의 세부 설정인 <emphasis role="bold">속성</emphasis>을 가지고 있습니다.
+      속성은 속성 아이콘 또는 속성 메뉴를 클릭하여 설정 및 확인할 수 있습니다.</para>
 
       <para/>
 
       <figure>
-        <title>입력항목 속성 확인</title>
+        <title>컴포넌트 속성 확인</title>
 
         <mediaobject>
           <imageobject>
@@ -410,17 +400,17 @@
       </figure>
 
       <note>
-        <para>모든 입력항목은 ID를 가지고 있어야 합니다. ID는 입력항목을 추가하면 자동으로 생성되기는 하지만, 입력 항목에
+        <para>모든 컴포넌트는 ID를 가지고 있어야 합니다. ID는 컴포넌트를 추가하면 자동으로 생성되기는 하지만, 컴포넌트에
         무엇이 입력되는 지를 보여줄 수 있는 직관적인 단어로 변경하는 것이 좋습니다. 예를 들어, 홍길동, 이순신 등이 입력되는
-        입력항목의 ID는 ‘이름’으로 설정할 수 있습니다.</para>
+        컴포넌트의 ID는 ‘이름’으로 설정할 수 있습니다.</para>
       </note>
     </section>
 
     <section>
-      <title>입력항목을 추가하는 방법</title>
+      <title>컴포넌트 추가하는 방법</title>
 
-      <para>입력항목은 크게 엑셀에서 추가하는 방법과 워드 또는 파워포인트에서 추가하는 방법이 있습니다. 워드 또는 파워포인트에서는
-      다시 두 가지의 방법으로 입력항목을 추가할 수 있습니다.</para>
+      <para>컴포넌트는 크게 엑셀에서 추가하는 방법과 워드 또는 파워포인트에서 추가하는 방법이 있습니다. 워드 또는 파워포인트에서는
+      다시 두 가지의 방법으로 컴포넌트를 추가할 수 있습니다.</para>
 
       <para/>
 
@@ -431,7 +421,7 @@
         이동합니다.</para>
 
         <figure>
-          <title>엑셀에서 입력항목을 추가하는 방법(1)</title>
+          <title>엑셀에서 컴포넌트 추가하는 방법(1)</title>
 
           <mediaobject>
             <imageobject>
@@ -440,10 +430,10 @@
           </mediaobject>
         </figure>
 
-        <para>2. 입력항목을 추가할 셀을 선택합니다.</para>
+        <para>2. 컴포넌트를 추가할 셀을 선택합니다.</para>
 
         <figure>
-          <title>엑셀에서 입력항목을 추가하는 방법(2)</title>
+          <title>엑셀에서 컴포넌트 추가하는 방법(2)</title>
 
           <mediaobject>
             <imageobject>
@@ -452,10 +442,10 @@
           </mediaobject>
         </figure>
 
-        <para>3. 원하는 입력항목을 클릭합니다.</para>
+        <para>3. 원하는 컴포넌트를 클릭합니다.</para>
 
         <figure>
-          <title>엑셀에서 입력항목을 추가하는 방법(3)</title>
+          <title>엑셀에서 컴포넌트 추가하는 방법(3)</title>
 
           <mediaobject>
             <imageobject>
@@ -464,7 +454,7 @@
           </mediaobject>
         </figure>
 
-        <para>4. 입력항목 속성에서 입력항목이 추가된 것을 확인합니다.</para>
+        <para>4. 컴포넌트 속성에서 컴포넌트가 추가된 것을 확인합니다.</para>
 
         <para/>
       </section>
@@ -472,12 +462,12 @@
       <section>
         <title>워드 또는 파워포인트에서 추가하기</title>
 
-        <para><emphasis role="bold">방법 1: 입력항목을 클릭하여 추가하기</emphasis></para>
+        <para><emphasis role="bold">방법 1: 컴포넌트 클릭하여 추가하기</emphasis></para>
 
-        <para>1. 워드 또는 파워포인트를 열고 문서 중 입력항목을 추가할 위치를 선택합니다.</para>
+        <para>1. 워드 또는 파워포인트를 열고 문서 중 컴포넌트를 추가할 위치를 선택합니다.</para>
 
         <figure>
-          <title>방법 1: 워드 또는 파워포인트에서 입력항목을 클릭하여 추가하기(1)</title>
+          <title>방법 1: 워드 또는 파워포인트에서 컴포넌트를 클릭하여 추가하기(1)</title>
 
           <mediaobject>
             <imageobject>
@@ -487,11 +477,11 @@
         </figure>
 
         <para>2.<emphasis role="bold">OZ in Word</emphasis> 또는 <emphasis
-        role="bold">OZ in PowerPoint</emphasis> 리본 메뉴에서 추가하고자 하는 입력항목을
+        role="bold">OZ in PowerPoint</emphasis> 리본 메뉴에서 추가하고자 하는 컴포넌트를
         클릭합니다.</para>
 
         <figure>
-          <title>방법 1: 워드 또는 파워포인트에서 입력항목을 클릭하여 추가하기(2)</title>
+          <title>방법 1: 워드 또는 파워포인트에서 컴포넌트를 클릭하여 추가하기(2)</title>
 
           <mediaobject>
             <imageobject>
@@ -500,10 +490,10 @@
           </mediaobject>
         </figure>
 
-        <para>3. 추가된 입력항목의 크기를 조절합니다.</para>
+        <para>3. 추가된 컴포넌트의 크기를 조절합니다.</para>
 
         <figure>
-          <title>방법 1: 워드 또는 파워포인트에서 입력항목을 클릭하여 추가하기(3)</title>
+          <title>방법 1: 워드 또는 파워포인트에서 컴포넌트를 클릭하여 추가하기(3)</title>
 
           <mediaobject>
             <imageobject>
@@ -512,17 +502,17 @@
           </mediaobject>
         </figure>
 
-        <para><emphasis role="bold">방법 2: 입력항목을 그려서 추가하기</emphasis></para>
+        <para><emphasis role="bold">방법 2: 컴포넌트를 그려서 추가하기</emphasis></para>
 
         <para>1. 워드 또는 파워포인트를 열고 <emphasis role="bold">OZ in Word</emphasis>
         또는 <emphasis role="bold">OZ in PowerPoint</emphasis> 리본 메뉴로
         이동합니다.</para>
 
-        <para>2. 입력항목 <emphasis role="bold">그리기</emphasis> 아이콘을 클릭하여 나타나는 드롭다운
-        목록에서 추가할 입력항목을 선택합니다.</para>
+        <para>2. 컴포넌트 <emphasis role="bold">그리기</emphasis> 아이콘을 클릭하여 나타나는 드롭다운
+        목록에서 추가할 컴포넌트를 선택합니다.</para>
 
         <figure>
-          <title>방법 2: 워드 또는 파워포인트에서 입력항목을 그려서 추가하기(1)</title>
+          <title>방법 2: 워드 또는 파워포인트에서 컴포넌트를 그려서 추가하기(1)</title>
 
           <mediaobject>
             <imageobject>
@@ -531,10 +521,10 @@
           </mediaobject>
         </figure>
 
-        <para>3. 원하는 위치와 크기로 입력항목을 추가합니다.</para>
+        <para>3. 원하는 위치와 크기로 컴포넌트를 추가합니다.</para>
 
         <figure>
-          <title>방법 2: 워드 또는 파워포인트에서 입력항목을 그려서 추가하기(2)</title>
+          <title>방법 2: 워드 또는 파워포인트에서 컴포넌트를 그려서 추가하기(2)</title>
 
           <mediaobject>
             <imageobject>
@@ -546,33 +536,33 @@
     </section>
 
     <section>
-      <title>입력항목을 삭제하는 방법</title>
+      <title>컴포넌트 삭제하는 방법</title>
 
-      <para>삭제하고자 하는 입력항목을 선택하고 <emphasis role="bold">OZ in Office</emphasis>
+      <para>삭제하고자 하는 컴포넌트를 선택하고 <emphasis role="bold">OZ in Office</emphasis>
       메뉴의 <emphasis role="bold">삭제</emphasis>(<inlinemediaobject>
           <imageobject>
             <imagedata fileref="resources/delete-icon.png"/>
           </imageobject>
-        </inlinemediaobject>) 아이콘을 클릭합니다. 여러 개의 입력항목을 선택해서 한 번에 삭제하는 것도
+        </inlinemediaobject>) 아이콘을 클릭합니다. 여러 개의 컴포넌트를 선택해서 한 번에 삭제하는 것도
       가능합니다.</para>
     </section>
   </section>
 
   <section>
-    <title>입력항목별 사용 방법</title>
+    <title>컴포넌트별 사용 방법</title>
 
     <para>eformsign은 MS Office의 <emphasis role="bold">OZ in Office</emphasis>
-    리본 메뉴를 통해 체크박스, 콤보박스, 텍스트, 서명 등 다양한 입력항목을 지원하고 있습니다.</para>
+    리본 메뉴를 통해 체크박스, 콤보박스, 텍스트, 서명 등 다양한 컴포넌트를 지원하고 있습니다.</para>
 
-    <para><emphasis role="bold">OZ in Office</emphasis>의 모든 입력항목은 공통 속성과 고유
-    속성을 가지고 있으며, <emphasis role="bold">OZ 입력항목 속성 </emphasis>창에서 공통 속성과 각 입력
+    <para><emphasis role="bold">OZ in Office</emphasis>의 모든 컴포넌트는 공통 속성과 고유
+    속성을 가지고 있으며, <emphasis role="bold">OZ 컴포넌트 속성 </emphasis>창에서 공통 속성과 각 입력
     기능의 고유 속성을 확인할 수 있습니다. 공통 속성으로는 ID와 툴팁 텍스트가 있으며, 각 속성의 의미는 다음과
     같습니다.</para>
 
     <itemizedlist>
       <listitem>
         <para><emphasis role="bold">ID: </emphasis><indexterm class="singular">
-            <primary>입력항목</primary>
+            <primary>컴포넌트</primary>
 
             <secondary>ID</secondary>
           </indexterm>입력 기능의 값을 외부 프로그램에서 추출할 때 사용하는 고유한 키(Key)입니다</para>
@@ -581,17 +571,17 @@
       <listitem>
         <para><emphasis role="bold">툴팁 텍스트: </emphasis><indexterm
             class="singular">
-            <primary>입력항목</primary>
+            <primary>컴포넌트</primary>
 
             <secondary>툴립 텍스트</secondary>
-          </indexterm>수신자에게 문서가 표시될 때 Windows 환경에서는 입력항목에 마우스를 올려놓으면 툴팁 텍스트가
-        말풍선 형태로 표시되며, 모바일 환경에서는 입력항목이 다이얼로그로 실행될 때 툴팁 텍스트가 다이얼로그의 제목으로
+          </indexterm>수신자에게 문서가 표시될 때 Windows 환경에서는 컴포넌트에 마우스를 올려놓으면 툴팁 텍스트가
+        말풍선 형태로 표시되며, 모바일 환경에서는 컴포넌트가 다이얼로그로 실행될 때 툴팁 텍스트가 다이얼로그의 제목으로
         표시됩니다.</para>
       </listitem>
     </itemizedlist>
 
     <note>
-      <para>OZ 입력항목 속성 창은 입력 기능이 적용된 위치를 선택한 후 OZ in Office 메뉴의 <emphasis
+      <para>OZ 컴포넌트 속성 창은 입력 기능이 적용된 위치를 선택한 후 OZ in Office 메뉴의 <emphasis
       role="bold">속성</emphasis> 아이콘(<inlinemediaobject>
           <imageobject>
             <imagedata fileref="resources/property-icon.png"/>
@@ -603,7 +593,7 @@
       <para>정보 타입인 사용자, 사용일, 문서, 레이블에는 툴팁이 없습니다.</para>
     </note>
 
-    <para>eformsign이 제공 중인 각 입력항목에 대한 설명은 다음과 같습니다.</para>
+    <para>eformsign OZ in Office의 각 컴포넌트에 대한 설명은 다음과 같습니다.</para>
 
     <para/>
 
@@ -611,13 +601,13 @@
       <title>체크</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>컴포넌트</primary>
 
           <secondary>체크</secondary>
-        </indexterm><emphasis role="bold">체크</emphasis> 입력항목은 각 항목의 체크 여부를
-      확인하고자 할때 사용합니다. 비슷한 입력항목으로 <emphasis role="bold">선택</emphasis> 입력항목이
-      있으며, 체크 입력항목은 해당 항목의 체크 여부를 확인할 때 사용하고, 선택 입력항목은 선택한 항목이 무엇인지 알아야 할 때
-      사용한다는 차이가 있습니다.</para>
+        </indexterm><emphasis role="bold">체크</emphasis> 컴포넌트는 각 항목의 체크 여부를
+      확인하고자 할때 사용합니다. 비슷한 컴포넌트로 <emphasis role="bold">선택</emphasis> 컴포넌트가 있으며,
+      체크 컴포넌트는 해당 항목의 체크 여부를 확인할 때 사용하고, 선택 컴포넌트는 선택한 항목이 무엇인지 알아야 할 때 사용한다는
+      차이가 있습니다.</para>
 
       <para/>
 
@@ -627,7 +617,7 @@
         </imageobject>
       </mediaobject>
 
-      <para>체크 입력항목의 입력값은 데이터 다운로드 시 다음과 같이 나타납니다.</para>
+      <para>체크 컴포넌트의 입력값은 데이터 다운로드 시 다음과 같이 나타납니다.</para>
 
       <itemizedlist>
         <listitem>
@@ -639,7 +629,7 @@
         </listitem>
       </itemizedlist>
 
-      <para>워드, 파워포인트에서는 체크 입력항목이 직사각형 도형처럼 나타납니다. 항목의 내용은 입력항목 도형 안에 입력해야
+      <para>워드, 파워포인트에서는 체크 컴포넌트이 직사각형 도형처럼 나타납니다. 항목의 내용은 입력항목 도형 안에 입력해야
       합니다.</para>
 
       <para><emphasis role="bold">입력항목 속성</emphasis></para>
