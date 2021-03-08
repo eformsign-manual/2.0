@@ -17,7 +17,7 @@
     Dropbox, Google Drive, OneDrive, box를 지원하고 있습니다.</para>
 
     <note>
-      <para>외부 파일저장소 연동은 대표관리자만 설정할 수 있습니다.</para>
+      <para>외부 파일저장소 연동은 대표 관리자만 설정할 수 있습니다.</para>
     </note>
 
     <para>1. 메뉴의<emphasis role="bold"> 커넥트&gt; 파일 저장소</emphasis>로

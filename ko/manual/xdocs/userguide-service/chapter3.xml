@@ -6,7 +6,7 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>웹폼 디자이너 소개</title>
+  <title>웹폼 디자이너 소개<link linkend="webformdesigner"/></title>
 
   <section>
     <title>웹폼 디자이너 개요</title>
@@ -26,8 +26,8 @@
 
     <note>
       <para>MS Office에서 바로 전자문서를 생성할 수 있도록 하는 MS Office Add-in 기능(OZ in Office
-      폼 빌더)도 제공하고 있습니다. 폼 빌더를 사용하려면 <xref linkend="formbuilder"/>를 참고하여 폼 빌더를
-      MS Office에 설치하신 후 사용하시기 바랍니다.</para>
+      폼 빌더)도 제공하고 있습니다. 폼 빌더를 사용하려면 <olink targetdoc="formbuilder">폼 빌더
+      소개</olink>를 참고하여 폼 빌더를 MS Office에 설치하신 후 사용하시기 바랍니다.</para>
     </note>
 
     <para><emphasis role="bold">내 파일로 문서 작성</emphasis> 메뉴에서 PDF 파일 업로드</para>
@@ -130,7 +130,7 @@
       <para>웹폼 디자이너는 문서를 보여주는 화면과 상단 바 외에 왼쪽 및 오른쪽 화면으로 구성되어 있습니다.</para>
 
       <figure>
-        <title>웹폼 디자이너 메뉴 구성</title>
+        <title>웹폼 디자이너 메뉴 구성-템플릿으로 문서 작성</title>
 
         <mediaobject>
           <imageobject>
@@ -139,7 +139,7 @@
         </mediaobject>
 
         <figure>
-          <title>웹폼 디자이너 메뉴 구성</title>
+          <title>웹폼 디자이너 메뉴 구성-내 파일로 문서 작성</title>
 
           <mediaobject>
             <imageobject>
@@ -243,7 +243,7 @@
               <primary>컴포넌트</primary>
 
               <secondary>레이블</secondary>
-            </indexterm>폼 ID를 설정합니다.</para>
+            </indexterm>별도로 설정한 값을 문서에 표시하고자 할때 사용합니다..</para>
         </listitem>
 
         <listitem>
@@ -433,7 +433,7 @@
       <para>서명 컴포넌트의 ID를 입력합니다. 예를 들어, 계약자의 서명인 경우 컴포넌트 ID는 ‘계약자 서명’으로
       합니다.</para>
 
-      <para><emphasis role="bold">② 서명 유형</emphasis></para>
+      <para><emphasis role="bold">② 기본 서명 유형</emphasis></para>
 
       <para>서명 시 어떤 서명을 사용할 것인지 선택합니다.</para>
 
@@ -487,51 +487,54 @@
       <para>입력란에 마우스를 위치하면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단 중앙에
       표시됩니다.</para>
 
-      <para><emphasis role="bold">서명일 및 서명인</emphasis></para>
+      <tip>
+        <para>서명에 대한 서명일 및 서명인 자동 입력 설정하기</para>
 
-      <para>서명 컴포넌트를 클릭하여 나타나는 아이콘을 클릭하면 서명일 및 서명인을 추가할 수 있습니다.</para>
+        <para>서명 컴포넌트를 클릭하여 나타나는 아이콘을 클릭하면 서명일 및 서명인을 추가할 수 있습니다.</para>
 
-      <figure>
-        <title>서명일 및 서명인</title>
+        <figure>
+          <title>서명일 및 서명인</title>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="???"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/Signature-component-properties_web_icon.png"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
 
-      <para><emphasis role="bold">① 서명일: </emphasis>서명한 날짜가 자동으로 입력됩니다. 서명일
-      영역을 클릭하여 우측의 서명일 컴포넌트 속성에서 날짜 표시형식을 설정할 수 있습니다.</para>
+        <para><emphasis role="bold">① 서명일: </emphasis>서명한 날짜가 자동으로 입력됩니다. 서명일
+        영역을 클릭하여 우측의 서명일 컴포넌트 속성에서 날짜 표시형식을 설정할 수 있습니다.</para>
 
-      <figure>
-        <title>서명일</title>
+        <figure>
+          <title>서명일</title>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="???"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/Signature-component-properties_web_date.png"
+                         width="750"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
 
-      <para><emphasis role="bold">② 서명인: </emphasis>서명인 정보가 자동으로 입력됩니다. 서명
-      컴포넌트를 클릭하여 나타나는 사람 모양 아이콘을 클릭하면 ID, 이름, 부서, 직책, 휴대폰 번호, 전화번호 중 서명인 정보에
-      표시될 정보를 지정할 수 있습니다.</para>
+        <para><emphasis role="bold">② 서명인: </emphasis>서명인 정보가 자동으로 입력됩니다. 서명
+        컴포넌트를 클릭하여 나타나는 사람 모양 아이콘을 클릭하면 ID, 이름, 부서, 직책, 휴대폰 번호, 전화번호 중 서명인 정보에
+        표시될 정보를 지정할 수 있습니다.</para>
 
-      <figure>
-        <title>서명인</title>
+        <figure>
+          <title>서명인</title>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="???"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/Signature-component-properties_web_signer.png"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
 
-      <note>
-        <para>하나의 서명과 연결된 서명일 및 서명인 컴포넌트를 여러 개 추가할 수 있습니다. 계약서 등의 문서 내에 반복적으로
-        서명일을 입력하거나, 서명인 정보를 자세히 입력하고자 할 때 사용할 수 있습니다.</para>
-      </note>
+        <note>
+          <para>하나의 서명과 연결된 서명일 및 서명인 컴포넌트를 여러 개 추가할 수 있습니다. 계약서 등의 문서 내에
+          반복적으로 서명일을 입력하거나, 서명인 정보를 자세히 입력하고자 할 때 사용할 수 있습니다.</para>
+        </note>
+      </tip>
     </section>
 
     <section xml:id="text2">
@@ -606,7 +609,7 @@
           <primary>컴포넌트</primary>
 
           <secondary>레이블</secondary>
-        </indexterm>문서의 폼 ID를 설정할 수 있습니다.</para>
+        </indexterm>레이블 컴포넌트는 별도로 설정한 값을 문서에 표시하고자 할때 사용합니다.</para>
 
       <para><emphasis role="bold">컴포넌트 속성</emphasis></para>
 
@@ -622,9 +625,7 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>문서의 폼 ID가 자동으로 생성되어 나타나며 변경도 가능합니다.</para>
-
-      <para>여기에서 정의된 폼 ID를 문서 편집 시에 적용할 수 있습니다.</para>
+      <para>레이블 컴포넌트의 ID를 설정합니다.</para>
 
       <para><emphasis role="bold">②텍스트</emphasis></para>
 
@@ -705,6 +706,12 @@
         색상의 선이 나타납니다. 예를 들어, 체크박스의 경우 박스의 바탕색, 박스의 윤곽선, 체크 색상을 각각 지정할 수 있고,
         라디오 버튼의 경우 원 윤곽선과 중심원 색상을 각각 지정할 수 있고, 원 표시의 경우 원 색상을 지정할 수
         있습니다.</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/check-component-properties-web-style.png"/>
+          </imageobject>
+        </mediaobject>
       </tip>
 
       <para><emphasis role="bold">④ 비선택 스타일</emphasis></para>
@@ -772,12 +779,13 @@
       <tip>
         <para>오른쪽 위 아이콘을 클릭해 상세 스타일을 변경할 수도 있습니다. 활성화된 아이콘은 아이콘 하단에 현재 표시되는
         색상의 선이 나타나며, 윤곽선과 중심원의 색상을 별도로 설정할 수 있습니다.</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/Radio-component-properties_web-style.png"/>
+          </imageobject>
+        </mediaobject>
       </tip>
-
-      <para><emphasis role="bold">③ 선택 스타일</emphasis></para>
-
-      <para>선택 컴포넌트는 속성에서 스타일을 지정할 수 있습니다. 빨간 동그라미가 나타나는 ‘원’이 기본으로 설정되어 있으며
-      이외에 체크박스, 라디오 버튼 스타일을 선택할 수 있습니다.</para>
 
       <para><emphasis role="bold">④ 비선택 스타일</emphasis></para>
 
@@ -836,7 +844,7 @@
       <para>입력해야 할 내용에 대한 안내 문구로 값이 입력되지 않았을 때 표시됩니다.</para>
 
       <note>
-        <para>콤보 컴포넌트의 선택란에 ‘선택하세요’를 표시하려면, 플레이스홀더에 ‘선택하세요’를 입력하고 기본 선택 아이템으로
+        <para>콤보 컴포넌트의 선택란에 ‘선택하세요’를 표시하려면, 플레이스 홀더에 ‘선택하세요’를 입력하고 기본 선택 아이템으로
         ‘선택하세요’를 설정합니다.</para>
       </note>
 
@@ -883,8 +891,7 @@
 
       <para><emphasis role="bold">② 아이템 개수</emphasis></para>
 
-      <para>토글 컴포넌트를 클릭할 때마다 전환될 항목 리스트를 입력합니다. 엔터(Enter)로 여러 항목을
-      구분합니다.</para>
+      <para>토글 컴포넌트를 클릭할 때마다 전환될 항목 리스트를 입력합니다. 엔터(Enter)로 항목을 구분합니다.</para>
 
       <para><emphasis role="bold">③ 기본 선택 아이템</emphasis></para>
 
@@ -979,7 +986,7 @@
       <para><emphasis role="bold">컴포넌트 속성</emphasis></para>
 
       <figure>
-        <title>숫자 컴포넌트 속성 설정하기</title>
+        <title>증감 컴포넌트 속성 설정하기</title>
 
         <mediaobject>
           <imageobject>
@@ -1071,6 +1078,12 @@
 
       <tip>
         <para>카메라 아이콘 표시에 체크하면 카메라 영역에 카메라 아이콘이 표시됩니다.</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/Camera-component-properties_web_icon.png"/>
+          </imageobject>
+        </mediaobject>
       </tip>
     </section>
 
@@ -1122,6 +1135,12 @@
 
       <tip>
         <para>녹음 아이콘 표시에 체크하면 녹음 영역에 마이크 아이콘이 표시됩니다.</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/record_component_web_icon.png"/>
+          </imageobject>
+        </mediaobject>
       </tip>
     </section>
 
@@ -1175,6 +1194,12 @@
 
       <tip>
         <para>첨부 아이콘 표시에 체크하면 첨부 영역에 클립 아이콘이 표시됩니다.</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/Attachment-component-properties_web_icon.png"/>
+          </imageobject>
+        </mediaobject>
       </tip>
     </section>
 
@@ -1248,13 +1273,13 @@
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">워크플로우 설정: </emphasis>문서의 작성부터 완료까지 작성된 문서가
+        <para><emphasis role="bold">워크플로우 설정: </emphasis>문서의 시작부터 완료까지 작성된 문서가
         거쳐갈 단계를 설정합니다.</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">필드 설정: </emphasis>필드의 기본값, 자동 입력 값 등을
-        설정합니다.</para>
+        <para><emphasis role="bold">필드 설정: </emphasis>필드의 표시 여부, 순서, 기본값, 자동
+        입력 값 등을 설정합니다.</para>
       </listitem>
 
       <listitem>
@@ -1273,8 +1298,12 @@
         </mediaobject>
       </figure></para>
 
-    <para>4 모든 설정을 완료하면 <emphasis role="bold">저장</emphasis> 버튼을 눌러 설정을
-    저장합니다.</para>
+    <important>
+      <para>해당 템플릿으로 문서를 작성할 수 있도록 하기 위해서는 템플릿을 저장한 후 반드시 배포해야 합니다.</para>
+
+      <para>템플릿을 배포하지 않고 저장만 할 경우 템플릿 사용 권한이 있는 있는 멤버들의 <emphasis
+      role="bold">템플릿으로 문서 작성</emphasis> 화면에 나타나지 않습니다.</para>
+    </important>
 
     <note>
       <para>템플릿에 대한 상세한 설명은 <xref linkend="template_wd"/>를 참고하시기 바랍니다.</para>

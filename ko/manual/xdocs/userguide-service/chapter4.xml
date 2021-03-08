@@ -7,7 +7,7 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>폼 빌더 소개</title>
+  <title>폼 빌더 소개<link linkend="formbuilder"/></title>
 
   <section>
     <title>개요</title>
@@ -361,7 +361,7 @@
               <primary>컴포넌트</primary>
 
               <secondary>레이블</secondary>
-            </indexterm>폼 ID를 설정합니다.</para>
+            </indexterm>별도의 설정값을 문서에 입력할 때 사용합니다.</para>
         </listitem>
       </itemizedlist>
 
@@ -405,44 +405,42 @@
       <section>
         <title>엑셀에서 추가하기</title>
 
-        <para>1. 엑셀을 열고 <emphasis role="bold">OZ in Excel</emphasis> 리본 메뉴로
-        이동합니다.</para>
+        <orderedlist>
+          <listitem>
+            <para>엑셀 파일을 열고 <emphasis role="bold">OZ in Excel</emphasis> 리본
+            메뉴로 이동합니다.</para>
 
-        <figure>
-          <title>엑셀에서 컴포넌트 추가하는 방법(1)</title>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/ozinexcel_1.png"/>
+              </imageobject>
+            </mediaobject>
+          </listitem>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinexcel_1.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
+          <listitem>
+            <para>컴포넌트를 추가할 셀을 선택합니다.</para>
 
-        <para>2. 컴포넌트를 추가할 셀을 선택합니다.</para>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/ozinexcel_2.png"/>
+              </imageobject>
+            </mediaobject>
+          </listitem>
 
-        <figure>
-          <title>엑셀에서 컴포넌트 추가하는 방법(2)</title>
+          <listitem>
+            <para>원하는 컴포넌트를 클릭합니다.</para>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinexcel_2.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/ozinexcel_3.png"/>
+              </imageobject>
+            </mediaobject>
+          </listitem>
 
-        <para>3. 원하는 컴포넌트를 클릭합니다.</para>
-
-        <figure>
-          <title>엑셀에서 컴포넌트 추가하는 방법(3)</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinexcel_3.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <para>4. 컴포넌트 속성에서 컴포넌트가 추가된 것을 확인합니다.</para>
+          <listitem>
+            <para>컴포넌트 속성에서 세부 사항을 설정합니다.</para>
+          </listitem>
+        </orderedlist>
 
         <para/>
       </section>
@@ -454,41 +452,39 @@
 
         <para>1. 워드 또는 파워포인트를 열고 문서 중 컴포넌트를 추가할 위치를 선택합니다.</para>
 
-        <figure>
-          <title>방법 1: 워드 또는 파워포인트에서 컴포넌트를 클릭하여 추가하기(1)</title>
+        <orderedlist>
+          <listitem>
+            <para>워드 또는 파워포인트 파일을 열고 문서 내 컴포넌트를 추가할 위치를 선택합니다.</para>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinword_1.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/ozinword_1.png"/>
+              </imageobject>
+            </mediaobject>
+          </listitem>
 
-        <para>2.<emphasis role="bold">OZ in Word</emphasis> 또는 <emphasis
-        role="bold">OZ in PowerPoint</emphasis> 리본 메뉴에서 추가하고자 하는 컴포넌트를
-        클릭합니다.</para>
+          <listitem>
+            <para><emphasis role="bold">OZ in Word</emphasis> 또는 <emphasis
+            role="bold">OZ in PowerPoint</emphasis> 리본 메뉴에서 추가하고자 하는 컴포넌트를
+            클릭합니다.</para>
 
-        <figure>
-          <title>방법 1: 워드 또는 파워포인트에서 컴포넌트를 클릭하여 추가하기(2)</title>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/ozinword_2.png"/>
+              </imageobject>
+            </mediaobject>
+          </listitem>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinword_2.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
+          <listitem>
+            <para>추가된 컴포넌트의 크기를 조절합니다.</para>
 
-        <para>3. 추가된 컴포넌트의 크기를 조절합니다.</para>
-
-        <figure>
-          <title>방법 1: 워드 또는 파워포인트에서 컴포넌트를 클릭하여 추가하기(3)</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinword_3.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/ozinword_3.png"/>
+              </imageobject>
+            </mediaobject>
+          </listitem>
+        </orderedlist>
 
         <para><emphasis role="bold">방법 2: 컴포넌트를 그려서 추가하기</emphasis></para>
 
@@ -496,30 +492,34 @@
         또는 <emphasis role="bold">OZ in PowerPoint</emphasis> 리본 메뉴로
         이동합니다.</para>
 
-        <para>2. 컴포넌트 <emphasis role="bold">그리기</emphasis> 아이콘을 클릭하여 나타나는 드롭다운
-        목록에서 추가할 컴포넌트를 선택합니다.</para>
+        <orderedlist>
+          <listitem>
+            <para>워드 또는 파워포인트를 열고 <emphasis role="bold">OZ in Word</emphasis>
+            또는 <emphasis role="bold">OZ in PowerPoint</emphasis> 리본 메뉴로
+            이동합니다.</para>
+          </listitem>
 
-        <figure>
-          <title>방법 2: 워드 또는 파워포인트에서 컴포넌트를 그려서 추가하기(1)</title>
+          <listitem>
+            <para>컴포넌트 <emphasis role="bold">그리기</emphasis> 아이콘을 클릭하여 나타나는
+            드롭다운 목록에서 추가할 컴포넌트를 선택합니다.</para>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinword_2_1.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/ozinword_2_1.png"/>
+              </imageobject>
+            </mediaobject>
+          </listitem>
 
-        <para>3. 원하는 위치와 크기로 컴포넌트를 추가합니다.</para>
+          <listitem>
+            <para>원하는 위치와 크기로 컴포넌트를 추가합니다.</para>
 
-        <figure>
-          <title>방법 2: 워드 또는 파워포인트에서 컴포넌트를 그려서 추가하기(2)</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinword_2_2.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/ozinword_2_2.png"/>
+              </imageobject>
+            </mediaobject>
+          </listitem>
+        </orderedlist>
       </section>
     </section>
 
@@ -553,9 +553,9 @@
             <primary>컴포넌트</primary>
 
             <secondary>ID</secondary>
-          </indexterm>각각의 컴포넌트를 식별할 수 있는 고유한 ID 입니다. 설정 단계에서 필수 입력 또는 편집 제한 시
-        컴포넌트 ID로 확인하여 지정할 수 있으며, CSV로 입력 데이터를 추출하여 확인하고자 할때 컴포넌트 ID로 구분할 수
-        있습니다.</para>
+          </indexterm>각각의 컴포넌트를 식별할 수 있는 고유한 ID 입니다. 워크플로우 또는 필드 설정 단계에서 필수 입력
+        또는 편집 제한 시 컴포넌트 ID로 확인하여 지정할 수 있으며, CSV로 입력 데이터를 추출하여 확인하고자 할때 컴포넌트
+        ID로 구분할 수 있습니다.</para>
       </listitem>
 
       <listitem>
@@ -633,8 +633,6 @@
             </imageobject>
           </mediaobject>
         </figure></para>
-
-      <para/>
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
@@ -1431,68 +1429,12 @@
       </itemizedlist>
 
       <note>
-        <para>멤버 기본 정보를 수정하려면 회사 관리(대표 관리자) 권한이 필요합니다.</para>
+        <para>멤버 기본 정보를 수정하려면 회사 관리*(대표 관리자) 권한이 필요합니다.</para>
 
         <para>멤버 기본 정보를 수정하려면 eformsign에 로그인한 후 <emphasis role="bold">회사 관리
         &gt; 멤버 관리</emphasis> 메뉴로 이동합니다. 멤버 목록에서 멤버를 선택하고 화면 오른쪽에 나타나는 상세 보기
         영역의 정보를 수정한 후 <emphasis role="bold">저장</emphasis> 버튼을 클릭합니다.</para>
       </note>
-    </section>
-
-    <section xml:id="document">
-      <title>문서</title>
-
-      <para><indexterm class="singular">
-          <primary>컴포넌트</primary>
-
-          <secondary>문서</secondary>
-        </indexterm>문서 컴포넌트는 문서 내에 문서 관련 정보를 입력해야 할 때 사용합니다. 문서 ID와 문서 번호 중
-      원하는 정보를 선택해 입력할 수 있습니다.</para>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/document-component-in-list.png"/>
-        </imageobject>
-      </mediaobject>
-
-      <para>문서 ID는 시스템에서 부여하는 문서 고유의 ID이기 때문에 별도의 설정이 필요하지 않습니다. 문서 번호와 관련된
-      설정은 템플릿을 업로드한 뒤, <emphasis role="bold">템플릿 설정 &gt; 일반 설정</emphasis>에서 할
-      수 있습니다.</para>
-
-      <para><emphasis role="bold">컴포넌트 속성</emphasis></para>
-
-      <figure>
-        <title>문서 컴포넌트 속성 설정하기</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/document-domponent-properties.png"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para><emphasis role="bold">① ID</emphasis></para>
-
-      <para>문서 컴포넌트의 ID를 입력합니다. 예를 들어, 문서 번호를 입력하는 경우 컴포넌트 ID는 ‘문서 번호’로
-      합니다.</para>
-
-      <para><emphasis role="bold">② 문서 정보 유형</emphasis></para>
-
-      <para>어떤 문서 정보를 사용할 것인지 선택합니다.</para>
-
-      <itemizedlist>
-        <listitem>
-          <para><emphasis role="bold">문서 ID: </emphasis>시스템에서 모든 문서에 부여하는 문서의
-          고유한 ID로, 32자리의 알파벳과 숫자의 조합으로 나타납니다. 예)
-          0077af27a98846c8872f5333920679b7</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">문서 번호:</emphasis> <emphasis
-          role="bold">템플릿 설정 &gt; 일반 설정</emphasis>에서 설정된 문서 번호입니다. 문서 번호를 설정하는
-          방법은 <xref linkend="docnumber_wd"/>를 참고하세요.</para>
-        </listitem>
-      </itemizedlist>
     </section>
 
     <section xml:id="usedate">
@@ -1589,6 +1531,62 @@
         </note></para>
     </section>
 
+    <section xml:id="document">
+      <title>문서</title>
+
+      <para><indexterm class="singular">
+          <primary>컴포넌트</primary>
+
+          <secondary>문서</secondary>
+        </indexterm>문서 컴포넌트는 문서 내에 문서 관련 정보를 입력해야 할 때 사용합니다. 문서 ID와 문서 번호 중
+      원하는 정보를 선택해 입력할 수 있습니다.</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/document-component-in-list.png"/>
+        </imageobject>
+      </mediaobject>
+
+      <para>문서 ID는 시스템에서 부여하는 문서 고유의 ID이기 때문에 별도의 설정이 필요하지 않습니다. 문서 번호와 관련된
+      설정은 템플릿을 업로드한 뒤, <emphasis role="bold">템플릿 설정 &gt; 일반 설정</emphasis>에서 할
+      수 있습니다.</para>
+
+      <para><emphasis role="bold">컴포넌트 속성</emphasis></para>
+
+      <figure>
+        <title>문서 컴포넌트 속성 설정하기</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/document-domponent-properties.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">① ID</emphasis></para>
+
+      <para>문서 컴포넌트의 ID를 입력합니다. 예를 들어, 문서 번호를 입력하는 경우 컴포넌트 ID는 ‘문서 번호’로
+      합니다.</para>
+
+      <para><emphasis role="bold">② 문서 정보 유형</emphasis></para>
+
+      <para>어떤 문서 정보를 사용할 것인지 선택합니다.</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">문서 ID: </emphasis>시스템에서 모든 문서에 부여하는 문서의
+          고유한 ID로, 32자리의 알파벳과 숫자의 조합으로 나타납니다. 예)
+          0077af27a98846c8872f5333920679b7</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">문서 번호:</emphasis> <emphasis
+          role="bold">템플릿 설정 &gt; 일반 설정</emphasis>에서 설정된 문서 번호입니다. 문서 번호를 설정하는
+          방법은 <xref linkend="docnumber_wd"/>를 참고하세요.</para>
+        </listitem>
+      </itemizedlist>
+    </section>
+
     <section xml:id="label">
       <title>레이블</title>
 
@@ -1596,7 +1594,7 @@
           <primary>컴포넌트</primary>
 
           <secondary>레이블</secondary>
-        </indexterm>문서의 폼 ID를 설정할 수 있습니다.</para>
+        </indexterm>레이블 컴포넌트는 별도로 설정한 값을 문서에 표시하고자 할때 사용합니다.</para>
 
       <para><emphasis role="bold">컴포넌트 속성</emphasis></para>
 
@@ -1612,9 +1610,7 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>문서의 폼 ID가 자동으로 생성되어 나타나며 변경도 가능합니다.</para>
-
-      <para>여기에서 정의된 폼 ID를 문서 편집 시에 적용할 수 있습니다.</para>
+      <para>레이블 컴포넌트의 ID를 설정합니다.</para>
     </section>
   </section>
 
@@ -1623,71 +1619,60 @@
 
     <para>OZ in Office를 통해 문서에 컴포넌트를 올려 편집이 완료된 파일은 다음의 순서로 업로드합니다.</para>
 
-    <para>1. 파일 그룹에 있는 <emphasis role="bold">실행</emphasis>(<inlinemediaobject>
-        <imageobject>
-          <imagedata fileref="resources/excute_button.png"/>
-        </imageobject>
-      </inlinemediaobject>) 아이콘을 클릭하면 다음의 로그인 페이지가 팝업 창으로 표시됩니다.</para>
+    <orderedlist>
+      <listitem>
+        <para>리본 메뉴의 파일 그룹에 있는 <emphasis
+        role="bold">실행</emphasis>(<inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="resources/excute_button.png"/>
+            </imageobject>
+          </inlinemediaobject>) 아이콘을 클릭하면 다음의 로그인 페이지가 팝업 창으로 표시됩니다.</para>
 
-    <para/>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/form_upload_login.png" width="750"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
 
-    <figure>
-      <title>로그인 페이지</title>
+      <listitem>
+        <para>로그인하면 전자문서 서식인 폼으로 변환된 문서가 미리보기 형태로 표시됩니다.</para>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/form_upload_login.png" width="750"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/upload_preview.png" width="750"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
 
-    <para>2. 로그인하면 폼으로 변환된 문서가 미리보기 형태로 표시됩니다.</para>
+      <listitem>
+        <para>업로드 미리보기 화면에서 <emphasis role="bold">폼 파일 업로드</emphasis>를 클릭하거나
+        리본 메뉴의 <emphasis role="bold">업로드</emphasis>(<inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="resources/upload_button.png"/>
+            </imageobject>
+          </inlinemediaobject>) 아이콘을 클릭하면 템플릿 목록과 함께 <emphasis role="bold">새
+        템플릿</emphasis> 추가할 수 있는 화면이 나타납니다.</para>
 
-    <figure>
-      <title>폼 파일 미리보기</title>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/upload_list.png" width="750"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/upload_preview.png" width="750"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
+      <listitem>
+        <para><emphasis role="bold">새 템플릿</emphasis> 추가를 클릭하면 작성한 폼이 업로드된 상태에서
+        템플릿을 설정하는 화면이 나타납니다. 좌측 설정 탭을 클릭해 해당 템플릿에 대한 추가 설정을 완료한 후 우측 상단의
+        <emphasis role="bold">저장</emphasis> 버튼을 클릭해 템플릿을 저장 및 생성합니다.</para>
 
-    <para>3. 업로드 미리보기 화면에서 <emphasis role="bold">폼파일 업로드</emphasis>를 클릭하거나 리본
-    메뉴의 <emphasis role="bold">업로드</emphasis>(<inlinemediaobject>
-        <imageobject>
-          <imagedata fileref="resources/upload_button.png"/>
-        </imageobject>
-      </inlinemediaobject>) 아이콘을 클릭하면 템플릿 목록과 함께 <emphasis role="bold">새
-    템플릿</emphasis> 추가 카드가 나타납니다.</para>
-
-    <figure>
-      <title>새 템플릿 추가 리스트 화면</title>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/upload_list.png" width="750"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
-
-    <para/>
-
-    <para>4.<emphasis role="bold"> 새 템플릿</emphasis> 카드를 클릭하면 작성한 폼이 업로드된 상태에서
-    템플릿을 설정하는 화면이 나타납니다. 우측 상단의 <emphasis role="bold">저장</emphasis> 버튼을 클릭해
-    템플릿을 생성합니다.</para>
-
-    <figure>
-      <title>새 템플릿 저장 화면</title>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/upload_save.png" width="750"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
-
-    <para/>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/upload_save.png" width="750"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
+    </orderedlist>
   </section>
 
   <section>
@@ -1696,36 +1681,58 @@
     <para>템플릿을 업로드하고 나면, 템플릿 제목, 문서 번호, 워크플로우 등 템플릿으로 생성되는 문서에 대한 추가 설정을 할 수
     있습니다.</para>
 
-    <para>1. 이폼사인에 로그인합니다.</para>
-
-    <para>2. 템플릿 관리 메뉴로 이동합니다.</para>
-
-    <para>3. 템플릿 설정 아이콘을 클릭합니다.</para>
-
-    <itemizedlist>
+    <orderedlist>
       <listitem>
-        <para><emphasis role="bold">일반 설정: </emphasis>템플릿 이름, 약칭, 문서 제목, 문서 번호
-        등을 설정합니다.</para>
+        <para>이폼사인에 로그인합니다.</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">워크플로우 설정: </emphasis>문서의 작성부터 완료까지 작성된 문서가
-        거쳐갈 단계를 설정합니다.</para>
+        <para>템플릿 관리 메뉴로 이동합니다.</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">필드 설정: </emphasis>필드의 기본값, 자동 입력 값 등을
-        설정합니다.</para>
+        <para>템플릿 설정 아이콘을 클릭합니다.</para>
+
+        <itemizedlist>
+          <listitem>
+            <para><emphasis role="bold">일반 설정: </emphasis>템플릿 이름, 약칭, 문서 제목,
+            문서 번호 등을 설정합니다.</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">권한 설정:</emphasis>해당 템플릿으로 문서를 생성할 멤버나
+            그룹, 및 생성된 문서를 관리할 멤버나 그룹을 지정합니다.</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">워크플로우 설정: </emphasis>문서의 시작부터 완료까지 작성된
+            문서가 거쳐갈 단계를 설정합니다.</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">필드 설정: </emphasis>필드의 표시 여부, 순서, 기본값,
+            자동 입력 값 등을 설정합니다.</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">알림 설정:</emphasis>템플릿으로 생성된 문서에 대한 요청과
+            알림을 보낼 메시지를 설정합니다.</para>
+          </listitem>
+        </itemizedlist>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">문서 관리자 설정: </emphasis>해당 템플릿으로 생성된 문서를 관리할
-        멤버나 그룹을 지정합니다.</para>
+        <para>모든 설정을 완료한 후 <emphasis role="bold">저장</emphasis> 버튼을 클릭하고 템플릿을
+        배포합니다.</para>
       </listitem>
-    </itemizedlist>
+    </orderedlist>
 
-    <para>4. 모든 설정을 완료한 후 <emphasis role="bold">저장</emphasis> 버튼을 클릭해 설정을
-    저장합니다.</para>
+    <important>
+      <para>해당 템플릿으로 문서를 작성할 수 있도록 하기 위해서는 템플릿을 저장한 후 반드시 배포해야 합니다.</para>
+
+      <para>템플릿을 배포하지 않고 저장만 할 경우 템플릿 사용 권한이 있는 있는 멤버들의 <emphasis
+      role="bold">템플릿으로 문서 작성 &gt; 템플릿 목록</emphasis>에 나타나지 않습니다.</para>
+    </important>
 
     <note>
       <para>템플릿에 대한 상세한 설명은 <xref linkend="template_fb"/>를 참고하시기 바랍니다.</para>
