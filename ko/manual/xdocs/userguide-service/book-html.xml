@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<book label="" version="5.0" xml:id="book" xml:lang="en"
+<book label="" version="5.0" xml:id="book" xml:lang="ko-KR"
       xmlns="http://docbook.org/ns/docbook"
       xmlns:xlink="http://www.w3.org/1999/xlink"
       xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -9,7 +9,7 @@
       xmlns:db="http://docbook.org/ns/docbook">
   <title>eformsign 사용자 안내서</title>
 
-  <subtitle/>
+  <subtitle/></subtitle>
 
   <titleabbrev>eformsign Service</titleabbrev>
 
