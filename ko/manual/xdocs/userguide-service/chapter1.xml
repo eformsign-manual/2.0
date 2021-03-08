@@ -9,26 +9,27 @@
   <title>개요</title>
 
   <section>
-    <title>제품 소개</title>
+    <title>eformsign 소개</title>
 
-    <para>eformsign은 기업에서 발생하는 모든 종이 문서를 누구나 손쉽게 전자문서로 만들고 언제 어디서나 업무 시 바로 사용할
-    수 있으며 저장된 정보를 다양하게 활용할 수 있는 전자문서 서비스입니다.</para>
+    <para>eformsign은 기업에서 발생하는 모든 종이 문서를 누구나 손쉽게 전자문서로 만들고 언제 어디서나 바로 사용할 수
+    있으며 저장된 정보를 다양하게 활용할 수 있는 전자문서 서비스입니다.</para>
 
-    <para>eformsign 서비스에서 제공하는 웹 편집기인 웹폼 디자이너(Web form designer)를 통해 사용하던
-    문서(PDF)를 바로 업로드해 쉽게 전자 서식으로 만들어 사용할 수 있는 것은 물론, MS Office Add-in 방식의 폼 빌더를
-    제공해 오피스 문서를 다룰 줄 아는 사람이라면 누구나 오피스에서 작성한 기존 문서를 그대로 사용해 전자 서식을 만들 수
-    있습니다.</para>
+    <para>eformsign 서비스에서 제공하는 웹 전자문서 편집기인 웹폼 디자이너(Web form designer)를 통해 사용하던
+    문서(PDF)를 바로 업로드해 쉽게 전자서식으로 만들어 사용할 수 있는 것은 물론, MS Office Add-in 방식의
+    <emphasis role="bold">폼 빌더</emphasis>를 제공해 MS 오피스 프로그램 파일로 작성된 기존의 문서를 그대로
+    사용해 누구나 전자서식을 만들 수 있습니다.</para>
 
     <para>또한 기업의 업무 흐름에 맞게 워크플로우를 설정할 수 있습니다. 계약서, 동의서, 신청서 등 외부 문서뿐 아니라 결재 등
     내부 문서를 포함하여 문서의 처리 과정을 자유롭게 설정할 수 있고 다양한 업무에 적용할 수 있습니다. 또한 워크플로우 단계 또는
     수신자 별로 알림, 필수 입력 항목 등의 세부 설정이 가능하며 문서의 진행 및 처리 상태도 실시간으로 확인할 수
     있습니다.</para>
 
-    <para>문서의 위/변조 방지를 위해 문서에 대한 모든 로그가 포함된 감사추적증명서를 제공합니다.</para>
+    <para>문서의 위/변조 방지를 위해 문서의 기본정보, 이력, 서명 정보 등 문서의 모든 기록이 포함된 감사추적증명서를
+    제공합니다.</para>
 
     <para>이 외에도 작성자 정보, 그룹 관련 정보, 최근 입력값이나 날짜 정보 등에 대한 자동 입력을 지원해 반복적인 입력을
     최소화하며 한꺼번에 여러 개의 문서를 작성할 수 있는 일괄 작성 기능도 지원합니다. 회사의 멤버 및 권한을 관리할 수 있고 문서에
-    대한 알림을 상세하게 설정할 수 있으며, 수집된 데이터를 추출해 별도로 관리하고 활용할 수 있도록 지원합니다.</para>
+    대한 알림을 상세하게 설정할 수 있으며, 문서에 입력된 데이터를 추출해 별도로 관리하고 활용할 수 있도록 지원합니다.</para>
 
     <para/>
 
@@ -42,11 +43,11 @@
       </mediaobject>
     </figure>
 
-    <para>eformsign서비스는 전자문서에 서명할 수 있는 전자서명 기능도 제공합니다.</para>
+    <para>eformsign 서비스의 또 다른 핵심 기능 중 하나는 전자서명입니다.</para>
 
     <para>전자서명이란 종이에 하는 서명과 같은 역할을 하는 전자적 형태의 서명입니다. 종이에 서명을 할 때 본인이 직접 서명해야
-    하는 것처럼 전자 서명 또한 서명자가 본인임을 증명하는 인증 단계를 거쳐야 합니다. 본인 인증의 경우, 이메일, 주민등록번호,
-    비밀번호, 전화번호, 인증서 등이 본인 인증 수단으로 사용됩니다.</para>
+    하는 것처럼 전자서명 또한 서명자가 본인임을 증명하는 인증 단계를 거쳐야 합니다. 본인 인증의 경우, 이메일, 주민등록번호,
+    비밀번호, 전화번호 등이 본인 인증 수단으로 사용됩니다.</para>
 
     <para>전자서명은 대부분의 국가에서 단계적으로 법적 효력을 구분하여 적용하고 있습니다. eformsign의 전자서명은 개인과
     개인, 법인과 개인 간의 법적 효력을 가지고 있으며, 부인방지를 위한 다양한 부가 기능을 제공하고 있습니다.</para>
@@ -93,8 +94,8 @@
 
         <para>웹폼 디자이너<indexterm class="singular">
             <primary>웹폼 디자이너</primary>
-          </indexterm>는 eformsign 서비스에 기존 문서 파일을 업로드하여 바로 간단하게 전자 서식으로 만들 수 있는
-        도구입니다. 신청서, 계약서, 동의서 등 PDF 형식의 파일의 문서에 서명, 텍스트 박스, 체크박스 등 입력할 수 있는 칸을
+          </indexterm>는 eformsign 서비스에 기존 문서 파일을 업로드하여 바로 간단하게 전자서식으로 만들 수 있는
+        도구입니다. 신청서, 계약서, 동의서 등 PDF 형식의 문서에 서명, 텍스트 박스, 체크박스 등 입력할 수 있는 컴포넌트를
         올려서 바로 템플릿으로 저장하거나 이렇게 만들어진 전자문서를 다른 수신인에게 전송하여 문서 작성 또는 서명 요청할 수
         있습니다.</para>
       </listitem>
@@ -104,7 +105,7 @@
 
         <para>폼 빌더<indexterm class="singular">
             <primary>폼 빌더</primary>
-          </indexterm>는 eformsign에서 사용하는 전자 서식을 만드는 도구입니다. 신청서, 계약서, 동의서 등의 기존
+          </indexterm>는 eformsign에서 사용하는 전자서식을 만드는 도구입니다. 신청서, 계약서, 동의서 등의 기존
         종이 서식(MS Office로 만들어 사용하는 문서 서식)을 서명이나 텍스트 박스 등을 포함하는 전자문서로 변경하여
         eformsign에 업로드할 때 사용합니다. MS Office에 리본메뉴의 형태로 추가(Add-in)되며 <emphasis
         role="bold">OZ in office</emphasis>라고도 합니다.</para>
@@ -115,13 +116,13 @@
 
         <para><indexterm class="singular">
             <primary>대시보드</primary>
-          </indexterm>eformsign에 로그인하고 나면 처음에 나타나는 서비스의 메인 화면입니다. 대시보드 좌측의 메뉴
-        아이콘(<inlinemediaobject>
+          </indexterm>eformsign에 로그인하고 나면 처음에 나타나는 서비스의 메인 화면입니다. 대시보드 좌측 상단의
+        메뉴 아이콘(<inlinemediaobject>
             <imageobject>
               <imagedata fileref="resources/menu_icon.png"/>
             </imageobject>
-          </inlinemediaobject>)을 클릭하면 메뉴에 접근할 수 있습니다. 대시보드 메뉴는 사용자의 권한에 따라 다르게
-        나타납니다</para>
+          </inlinemediaobject>)을 클릭하면 사이드 바 메뉴에 접근할 수 있습니다. 사이드 바 메뉴는 사용자의 권한에
+        따라 다르게 나타납니다.</para>
 
         <figure>
           <title>eformsign 대시보드 화면</title>
@@ -150,10 +151,11 @@
 
         <para><indexterm class="singular">
             <primary>문서</primary>
-          </indexterm><emphasis role="bold">내 파일로 문서 작성</emphasis> 또는
+          </indexterm>템플릿을 사용해 작성/전송하는 전자문서 또는 내가 가지고 있는 파일을 바로 업로드해 작성/전송하는
+        전자문서를 말합니다.문서는<emphasis role="bold"> 내 파일로 문서 작성</emphasis> 또는
         <emphasis role="bold">템플릿으로 </emphasis><emphasis role="bold">문서
-        작성</emphasis> 메뉴를 통해 여러 개의 문서를 생성할 수 있습니다. eformsign에서 문서 작성 개수를 집계하는
-        기준이 바로 이렇게 생성되는 문서입니다.</para>
+        작성</emphasis> 메뉴를 통해 작성 및 전송할 수 있습니다. eformsign에서 문서 수를 집계하는 기준이 문서가
+        작성 바로 이렇게 생성되는 문서입니다.</para>
       </listitem>
 
       <listitem>
@@ -181,18 +183,20 @@
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">완료 문서함: </emphasis><indexterm
+            <para><emphasis role="bold">완료 문서함:</emphasis><indexterm
                 class="singular">
                 <primary>완료 문서함</primary>
               </indexterm>내가 작성 또는 처리한 문서 중 완료된 문서 목록을 볼 수 있습니다.</para>
-
-            <note>
-              <para><emphasis role="bold">임시 보관함</emphasis>: <emphasis
-              role="bold">내 파일로 문서 작성</emphasis> 중 전송 전에 임시 저장한 문서 목록을 볼 수
-              있습니다.</para>
-            </note>
           </listitem>
         </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">임시 보관함</emphasis></para>
+
+        <para><emphasis role="bold"><emphasis role="bold">내 파일로 문서
+        작성</emphasis> </emphasis>중 <emphasis role="bold">문서 시작하기</emphasis>
+        이전에 임시 저장한 문서 목록을 볼 수 있습니다<emphasis role="bold">.</emphasis></para>
       </listitem>
     </itemizedlist>
 
@@ -208,7 +212,7 @@
             <primary>시작</primary>
           </indexterm><indexterm class="singular">
             <primary>완료</primary>
-          </indexterm>가 기본 단계이며 아래와 같은 3가지 단계를 추가할 수 있습니다.</para>
+          </indexterm>가 기본 단계이며 다음의 3가지 단계를 추가할 수 있습니다.</para>
 
         <itemizedlist>
           <listitem>
@@ -222,7 +226,7 @@
             <para><emphasis role="bold">내부 수신자: </emphasis><indexterm
                 class="singular">
                 <primary>내부 수신자</primary>
-              </indexterm>회사의 다른 멤버가 문서를 작성하거나 검토하는 단계입니다.</para>
+              </indexterm>회사 멤버가 문서를 작성하거나 검토하는 단계입니다.</para>
           </listitem>
 
           <listitem>
@@ -253,7 +257,16 @@
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">템플릿 관리 권한</emphasis></para>
+        <para><emphasis role="bold">회사 관리 권한</emphasis></para>
+
+        <para><indexterm class="singular">
+            <primary>대표 관리자</primary>
+          </indexterm>회사 관리 권한이 있으면 회사 관리 메뉴에 접근할 수 있으며, 회사, 그룹, 멤버 등을 관리할 수
+        있습니다.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">템플릿 관리 권한 </emphasis></para>
 
         <para>템플릿 관리 권한이 있으면 템플릿 관리 메뉴에 접근할 수 있으며, 템플릿을 생성, 수정, 배포 및 삭제할 수
         있습니다.</para>
@@ -262,8 +275,9 @@
       <listitem>
         <para><emphasis role="bold">문서 관리 권한</emphasis></para>
 
-        <para>문서 관리 권한이 있으면 문서 관리 메뉴에 접근하여 템플릿별로 생성된 문서를 열람하고 완료 문서에 대한 취소 요청을
-        승인하거나 문서를 시스템에서 영구 제거할 수 있습니다. 문서 관리 권한은 템플릿별로 다르게 지정할 수 있습니다.</para>
+        <para>문서 관리 권한이 있으면 문서 관리 메뉴에 접근하여 권한을 부여받은 템플릿으로 생성된 문서를 열람하고 완료 문서에
+        대한 취소 요청을 승인하거나 문서를 시스템에서 영구 제거할 수 있습니다. 문서 관리 권한은 템플릿별로 다르게 지정할 수
+        있습니다.</para>
       </listitem>
     </itemizedlist>
 
@@ -273,8 +287,8 @@
   <section>
     <title>사용 흐름</title>
 
-    <para>eformsign을 사용하는 방법으로, 내 PC에 있는 문서 파일을 그대로 eformsign 서비스에 업로드하여 템플릿
-    등록 없이 바로 전송하는 방법과, 미리 eformsign에 업로드한 템플릿을 활용하여 해당 템플릿을 전송하는 방법이
+    <para>eformsign을 사용하는 방법으로 내 PC에 있는 문서 파일을 그대로 eformsign 서비스에 업로드하여 템플릿
+    등록없이 바로 전자문서로 만들어 전송하는 방법과 미리 생성 및 저장한 템플릿을 활용하여 해당 템플릿을 전송하는 방법이
     있습니다.</para>
 
     <note>
@@ -299,7 +313,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/use_flow_web.png" width="700"/>
+            <imagedata fileref="resources/use_flow_myfile.png" width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -308,9 +322,12 @@
     <section>
       <title>템플릿으로 문서 작성</title>
 
+      <para>템플릿을 사용해 문서를 작성할 경우, eformsign에 파일을 업로드해 템플릿을 만들 수 있는 웹폼 디자이너를 통한
+      방법과 MS 오피스 파일에서 템플릿을 만들어 업로드 할 수 있는 폼 빌더를 활용한 방법 두 가지가 있습니다. </para>
+
       <orderedlist>
         <listitem>
-          <para>웹폼 디자이너를 통한 사용 방법</para>
+          <para><emphasis role="bold">웹폼 디자이너를 통한 사용 방법</emphasis></para>
 
           <para><indexterm class="singular">
               <primary>웹폼 디자이너</primary>
@@ -335,7 +352,7 @@
         </listitem>
 
         <listitem>
-          <para>폼 빌더를 통한 사용 방법</para>
+          <para><emphasis role="bold">폼 빌더를 통한 사용 방법</emphasis></para>
 
           <para><indexterm class="singular">
               <primary>폼 빌더</primary>
@@ -386,7 +403,7 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">eformsign 및 웹폼 디자이너</emphasis></para>
+          <para><emphasis role="bold">eformsign</emphasis></para>
 
           <itemizedlist>
             <listitem>
@@ -422,9 +439,9 @@
     <section>
       <title>계약서</title>
 
-      <para>전자 문서를 사용해 근로 계약, 구매/렌탈 계약, 가맹점 계약, 유지보수 계약 등 다양한 계약을 맺을 수 있습니다.
-      계약 과정이 기록되고 감사추적증명서 등을 통해 문서의 위변조를 방지할 수 있고, 고객이나 계약 당사자와의 대면 없이도 수백 건의
-      계약을 간단하게 진행할 수 있습니다.</para>
+      <para>전자문서를 사용해 근로 계약, 구매/렌탈 계약, 가맹점 계약, 유지보수 계약 등 다양한 계약을 맺을 수 있습니다. 계약
+      과정이 기록되고 감사추적증명서 등을 통해 문서의 위변조를 방지할 수 있고, 고객이나 계약 당사자와 비대면으로 수백 건의 계약을
+      간단하게 진행할 수 있습니다.</para>
 
       <para>계약 프로세스는 다음과 같습니다.</para>
 
@@ -442,8 +459,8 @@
     <section>
       <title>동의서</title>
 
-      <para>전자 문서를 사용해 개인정보 동의서, 병/의원의 치료 동의서, 학부모 동의서, 전대차 동의서 등을 작성할 수 있습니다.
-      스마트폰, 태블릿, PC 등 다양한 기기로 작성이 가능하며 일괄 작성 기능을 통해 한 번에 수백, 수천 명의 동의를 받을 수
+      <para>전자문서를 사용해 개인정보 동의서, 병/의원의 치료 동의서, 학부모 동의서, 전대차 동의서 등을 작성할 수 있습니다.
+      스마트폰, 태블릿, PC 등 다양한 기기로 작성이 가능하며 일괄 작성 기능으로 한 번에 수백, 수천 명의 동의를 받을 수
       있습니다.</para>
 
       <para>전자동의 프로세스는 다음과 같습니다.</para>
@@ -462,9 +479,10 @@
     <section>
       <title>신청서</title>
 
-      <para>전자 문서를 사용해 가입/참가 신청서, 견적 신청서, 진료 신청서, 구매 신청서 등을 작성할 수 있습니다. 사내의 여러
-      부서를 통해야 하는 문서가 있더라도 워크플로우 설정을 통해 유연하게 처리할 수 있으며, 고객이 작성한 신청서가 담당 부서에 바로
-      전달될 수 있도록 할 수 있습니다. 또한, 신청서가 처리되는 즉시 신청자에게 신청 결과를 전송할 수 있습니다.</para>
+      <para>전자문서를 사용해 가입/참가 신청서, 견적 신청서, 진료 신청서, 구매 신청서 등을 작성할 수 있습니다. 사내의 여러
+      부서의 결재, 협조, 검토가 필요한 문서도 워크플로우 설정을 통해 유연하게 처리할 수 있으며, 고객이 작성한 신청서가 담당 부서에
+      바로 전달될 수 있도록 설정할 수 있습니다. 또한, 신청서가 처리되는 즉시 신청자에게 신청 결과를 전송할 수
+      있습니다.</para>
 
       <para/>
 

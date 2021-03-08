@@ -7,7 +7,7 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>템플릿-폼 빌더</title>
+  <title>폼 빌더로 템플릿 만들기</title>
 
   <section>
     <title>템플릿 소개</title>
@@ -918,15 +918,15 @@
 
       <para><indexterm class="singular">
           <primary>템플릿 사용 권한</primary>
-        </indexterm>템플릿을 사용해서 문서를 생성할 수 있는 권한을 설정하며, 회사에 속한 모든 멤버가 사용할 수 있도록
-      <emphasis role="bold">전체</emphasis> 설정을 하거나 <emphasis role="bold">그룹 또는
-      멤버</emphasis>를 검색하여 선택할 수 있습니다.</para>
+        </indexterm>템플릿을 사용해서 문서를 만들 수 있는 권한을 설정하며, 회사에 속한 모든 멤버가 사용할 수 있도록
+      <emphasis role="bold">전체</emphasis> 설정을 하거나 특정 <emphasis role="bold">그룹
+      또는 멤버</emphasis>를 검색하여 선택할 수 있습니다.</para>
 
       <para><emphasis role="bold">문서 관리 권한</emphasis></para>
 
       <para><indexterm class="singular">
           <primary>문서 관리 권한</primary>
-        </indexterm>그룹 또는 멤버를 선택하여 템플릿을 사용해서 생성된 문서를 열람하거나 완료 문서에 대한 취소 요청을
+        </indexterm>그룹 또는 멤버를 선택하여 템플릿을 사용해서 만들어진 문서를 열람하거나 완료 문서에 대한 취소 요청을
       승인하거나, 문서를 영구적으로 제거할 수 있는 권한을 모두 또는 각각 설정할 수 있습니다.</para>
 
       <itemizedlist>
@@ -936,8 +936,8 @@
         </listitem>
 
         <listitem>
-          <para>완료 문서 취소 승인(선택시): 완료된 문서에 대해 문서 작성자가 취소를 요청할 경우 문서 관리
-          권한</para>
+          <para>완료 문서 취소 승인(선택시): 완료된 문서에 대해 문서 작성자가 취소를 요청할 경우 취소를 승인하여 해당
+          문서를 취소할 수 있는 권한</para>
         </listitem>
 
         <listitem>
@@ -1164,7 +1164,7 @@
 
       <variablelist>
         <varlistentry>
-          <term><emphasis role="bold">외부자 수신자: 멤버가 아닌 외부 사용자에게 문서 처리를 요청하는
+          <term><emphasis role="bold">외부 수신자: 멤버가 아닌 외부 사용자에게 문서 처리를 요청하는
           단계입니다.<indexterm class="singular">
               <primary>워크플로우</primary>
 
@@ -1213,7 +1213,28 @@
                 <para><emphasis role="bold">문서 검토 전 휴대폰 본인확인: </emphasis>외부
                 수신자가 문서 열람을 위해 휴대폰 본인확인을 받도록 설정합니다. 본 기능은 추가 요금이 발생합니다.</para>
               </listitem>
+
+              <listitem>
+                <para><emphasis role="bold">문서 일부 숨김 설정:</emphasis> 2개 이상의 시트로
+                만들어진 엑셀 문서 또는 2개 이상의 구역으로 나누어진 워드 파일일 경우 설정할 수 있습니다.</para>
+              </listitem>
             </itemizedlist>
+
+            <tip>
+              <para>문서가 여러 개의 시트 또는 구역으로 구성된 파일일 경우 외부 수신자에게 보여지는 문서의 일부 숨기기
+              가능</para>
+
+              <para>업로드한 문서에 여러 개의 시트 또는 구역이 포함된 경우, 워크플로우의 외부 수신자 단계 속성 설정에서
+              문서 일부 숨김 설정이 나타납니다. 문서에 포함된 시트 또는 구역의 이름이 목록으로 표시되어 각 시트 또는 구역
+              별로 보이기, 숨기기 또는 이전 단계 요청자가 선택할 수 있도록 설정할 수 있습니다. </para>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="resources/template-fb-setting-workflow-outsider-1.png"
+                             width="700"/>
+                </imageobject>
+              </mediaobject>
+            </tip>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -1260,8 +1281,9 @@
           <primary>템플릿</primary>
 
           <secondary>필드 설정</secondary>
-        </indexterm>필드 설정</emphasis>에서는 템플릿에 들어가는 필드의 기본값 또는 자동입력 값을 설정하고 필드의
-      순서를 조정할 수 있습니다.</para>
+        </indexterm></emphasis><emphasis role="bold">필드 설정</emphasis>에서는 문서
+      목록과 CSV로 데이터 다운로드 시 표시되는 컴포넌트의 컬럼의 표시 여부 및 순서를 설정할 수 있습니다. 또한, 템플릿에 들어가는
+      필드의 기본값 또는 자동입력 값을 설정할 수 있습니다.</para>
 
       <figure>
         <title>템플릿 설정 &gt; 필드 설정</title>
@@ -1279,41 +1301,43 @@
 
       <para/>
 
-      <para><emphasis role="bold">자동 입력 설정하는 방법</emphasis></para>
+      <tip>
+        <para><emphasis role="bold">자동 입력 설정하는 방법</emphasis></para>
 
-      <para>문서에 자주 입력하는 정보를 미리 저장하고 자동으로 입력되도록 설정할 수 있습니다.</para>
+        <para>문서에 자주 입력하는 정보를 미리 저장하고 자동으로 입력되도록 설정할 수 있습니다.</para>
 
-      <para>예를 들어 작성자의 이름, 연락처 등 작성자 정보, 부서명, 책임자, 회사 대표 번호 등 회사 또는 그룹에 대한 정보를
-      미리 저장하여 자동으로 입력되도록 설정할 수 있습니다. 관련 필드의 항목 추가 및 기본 값 설정은 <emphasis
-      role="bold">회사 관리 &gt; 사용자 정의 필드 관리</emphasis>에서 할 수 있습니다.</para>
+        <para>예를 들어 작성자의 이름, 연락처 등 작성자 정보, 부서명, 책임자, 회사 대표 번호 등 회사 또는 그룹에 대한
+        정보를 미리 저장하여 자동으로 입력되도록 설정할 수 있습니다. 관련 필드의 항목 추가 및 기본 값 설정은 <emphasis
+        role="bold">회사 관리 &gt; 사용자 정의 필드 관리</emphasis>에서 할 수 있습니다.</para>
 
-      <orderedlist>
-        <listitem>
-          <para><emphasis role="bold">사용자 정의 필드 관리</emphasis> 화면에서 필드를
-          추가합니다.</para>
-        </listitem>
+        <orderedlist>
+          <listitem>
+            <para><emphasis role="bold">사용자 정의 필드 관리</emphasis> 화면에서 필드를
+            추가합니다.</para>
+          </listitem>
 
-        <listitem>
-          <para><emphasis role="bold">템플릿 관리</emphasis> 메뉴로 이동합니다.</para>
-        </listitem>
+          <listitem>
+            <para><emphasis role="bold">템플릿 관리</emphasis> 메뉴로 이동합니다.</para>
+          </listitem>
 
-        <listitem>
-          <para><emphasis role="bold">템플릿 설정</emphasis> 아이콘을 클릭합니다.</para>
-        </listitem>
+          <listitem>
+            <para><emphasis role="bold">템플릿 설정</emphasis> 아이콘을 클릭합니다.</para>
+          </listitem>
 
-        <listitem>
-          <para><emphasis role="bold">필드 설정</emphasis> 메뉴로 이동합니다.</para>
-        </listitem>
+          <listitem>
+            <para><emphasis role="bold">필드 설정</emphasis> 메뉴로 이동합니다.</para>
+          </listitem>
 
-        <listitem>
-          <para>자동 입력이 되도록 설정할 필드의 기본값을 입력합니다.</para>
-        </listitem>
+          <listitem>
+            <para>자동 입력이 되도록 설정할 필드의 기본값을 입력합니다.</para>
+          </listitem>
 
-        <listitem>
-          <para>모든 설정을 완료한 후 <emphasis role="bold">저장</emphasis> 버튼을
-          클릭합니다</para>
-        </listitem>
-      </orderedlist>
+          <listitem>
+            <para>모든 설정을 완료한 후 <emphasis role="bold">저장</emphasis> 버튼을
+            클릭합니다</para>
+          </listitem>
+        </orderedlist>
+      </tip>
     </section>
 
     <section>
@@ -1364,20 +1388,16 @@
 
       <para><emphasis role="bold">요청 알림 설정</emphasis></para>
 
-      <para>해당 템플릿으로 생성된 문서를 수신자에게 요청시 발송되는 알림 메시지를 확인하고 편집할 수 있습니다. 각 알림 템플릿
-      메시지는 <emphasis role="bold">회사 관리 &gt; 알림 템플릿 관리</emphasis> 페이지에 설정된 내용에
-      따라 기본적으로 반영되어 있으며, <emphasis role="bold">편집 </emphasis>버튼을 클릭해 직접 메시지를
-      편집할 수 있습니다.</para>
-
-      <para/>
+      <para>해당 템플릿으로 생성된 문서를 수신자에게 요청시 발송되는 알림 메시지를 확인하고 편집할 수 있습니다.</para>
 
       <note>
         <para>SMS 템플릿은 유료 요금제 구독 회사만 편집할 수 있습니다.</para>
       </note>
 
       <para>각 알림 템플릿 메시지는 <emphasis role="bold">회사 관리 &gt; 알림 템플릿
-      관리</emphasis> 페이지에 설정된 내용에 따라 기본적으로 반영되어 있으며, <emphasis
-      role="bold">편집</emphasis>버튼을 클릭해 직접 메시지를 편집할 수 있습니다.</para>
+      관리</emphasis> 페이지에 설정된 내용에 따라 기본적으로 반영되어 있습니다. <emphasis role="bold">편집
+      </emphasis>버튼을 클릭해 직접 메시지를 편집할 수 있으며, 해당 요청의 수신자에게 알림 발송 여부를 설정할 수 있습니다.
+      </para>
 
       <mediaobject>
         <imageobject>

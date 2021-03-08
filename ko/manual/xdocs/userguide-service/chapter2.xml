@@ -20,9 +20,8 @@
           <imageobject>
             <imagedata fileref="resources/menu_icon.png"/>
           </imageobject>
-        </inlinemediaobject>)를 클릭하면, 아래와 같은 사이드바 메뉴를 볼 수 있습니다. 각각의 메뉴는 사용자가
-      가지고 있는 권한에 따라 다르게 나타날 수 있습니다. 대표 관리자는 모든 메뉴를 볼 수 있으며, 모든 권한이
-      있습니다.</para>
+        </inlinemediaobject>)를 클릭하면, 아래와 같은 사이드바 메뉴가 나타납니다. 메뉴는 사용자의 권한에 따라
+      다르게 나타날 수 있습니다. 대표 관리자는 모든 메뉴를 볼 수 있으며, 모든 권한이 있습니다.</para>
 
       <figure>
         <title>이폼사인 메뉴 구성</title>
@@ -30,7 +29,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/dashboard_menu_expand.png"
-                       width="800"/>
+                       width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -47,21 +46,22 @@
 
           <itemizedlist>
             <listitem>
-              <para><emphasis role="bold">내 파일로 문서 작성: </emphasis>PDF 형식의 문서
-              파일을 eformsign에 업로드한 후 필요한 컴포넌트를 문서 위에 배치하여 전자문서를 작성합니다. </para>
+              <para><emphasis role="bold">내 파일로 문서 작성: </emphasis>미리 저장된 템플릿이
+              없더라도 내 PC의 파일(PDF)을 eformsign에 바로 업로드한 후 필요한 컴포넌트를 문서 위에 배치하여
+              수신자에게 전송합니다.</para>
             </listitem>
 
             <listitem>
               <para><emphasis role="bold">템플릿으로 문서 작성: </emphasis>문서를 작성할 수 있는
-              템플릿 목록이 조회되고, 템플릿을 선택하여 문서를 작성합니다. </para>
+              템플릿 목록이 조회되고, 템플릿을 선택하여 문서를 작성합니다.</para>
             </listitem>
           </itemizedlist>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">임시 보관함</emphasis>: <emphasis
-          role="bold">내 파일로 문서 작성</emphasis> 중 전송 전에 임시 저장한 문서 목록을 볼 수
-          있습니다.</para>
+          role="bold">내 파일로 문서 작성</emphasis> 중<emphasis role="bold"> 문서
+          시작하기</emphasis> 전 단계에서 임시 저장한 문서 목록을 볼 수 있습니다.</para>
         </listitem>
 
         <listitem>
@@ -100,7 +100,7 @@
               class="singular">
               <primary>문서 관리</primary>
             </indexterm>문서 관리 권한이 있어야만 접근 가능한 메뉴입니다. 문서 관리 권한이 있는 템플릿으로 만들어진
-          모든 문서를 조회할 수 있습니다. 단, 대표관리자의 경우, 모든 문서를 조회하고 관리할 수 있습니다.</para>
+          모든 문서를 조회할 수 있습니다. 단, 대표관리자의 경우, 모든 문서를 조회 및 관리할 수 있습니다.</para>
         </listitem>
 
         <listitem>
@@ -114,22 +114,24 @@
           <para><emphasis role="bold">템플릿 관리: </emphasis><indexterm
               class="singular">
               <primary>템플릿 관리</primary>
-            </indexterm>템플릿 관리 권한이 있어야만 접근 가능한 메뉴입니다. 템플릿 목록을 확인하고 템플릿 설정을 할 수
-          있습니다.</para>
+            </indexterm>템플릿 관리 권한이 있어야만 접근 가능한 메뉴입니다. 템플릿 목록을 확인하고 템플릿을 생성 및
+          설정할 수 있습니다.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">회사 관리: </emphasis><indexterm
               class="singular">
               <primary>회사 관리</primary>
-            </indexterm>회사 대표관리자만 접근 가능한 메뉴입니다. 회사 정보를 조회하고 수정할 수 있습니다.</para>
+            </indexterm>대표관리자와 회사 관리 권한이 부여된 멤버만 접근 가능한 메뉴입니다. 회사 정보를 조회하고 수정할
+          수 있습니다.</para>
 
           <itemizedlist>
             <listitem>
               <para><emphasis role="bold">회사 정보: </emphasis><indexterm
                   class="singular">
                   <primary>회사 정보</primary>
-                </indexterm>회사 정보를 확인할 수 있습니다.</para>
+                </indexterm>회사 정보를 확인 및 수정하고 대시보드, 이메일 등에 적용되는 브랜드 이미지를 설정할 수
+              있습니다. </para>
             </listitem>
 
             <listitem>
@@ -143,7 +145,7 @@
               <para><emphasis role="bold">멤버 관리: </emphasis><indexterm
                   class="singular">
                   <primary>멤버 관리</primary>
-                </indexterm>멤버를 추가하거나 멤버 정보를 수정할 수 있습니다.</para>
+                </indexterm>멤버를 초대하거나 멤버 정보를 수정할 수 있습니다.</para>
             </listitem>
 
             <listitem>
@@ -180,16 +182,16 @@
               <para><emphasis role="bold">파일 저장소: </emphasis><indexterm
                   class="singular">
                   <primary>파일 저장소</primary>
-                </indexterm>드롭박스, 구글 드라이브, 박스 계정을 연동하여 최종 완료된 문서를
-              저장합니다.</para>
+                </indexterm>드롭박스, 구글 드라이브, 박스, 원드라이브 계정을 연동하여 최종 완료된 문서가 자동
+              저장되도록 설정합니다.</para>
             </listitem>
 
             <listitem>
               <para><emphasis role="bold">분석 및 리포팅: </emphasis><indexterm
                   class="singular">
                   <primary>분석 및 리포팅</primary>
-                </indexterm>구글 스프레드시트, 오피스365 엑셀로 문서에 입력된 데이터를 자동으로 저장하도록 설정할
-              수 있습니다.</para>
+                </indexterm>구글 스프레드시트, 오피스365 엑셀로 문서에 입력된 데이터가 자동 저장되도록
+              설정합니다.</para>
             </listitem>
 
             <listitem>
@@ -198,8 +200,7 @@
                   <primary>API</primary>
                 </indexterm><indexterm class="singular">
                   <primary>Webhook</primary>
-                </indexterm>이폼사인 API를 사용할 때 필요한 API 및 웹훅 키 관리를 할 수
-              있습니다.</para>
+                </indexterm>이폼사인 API를 사용할 때 필요한 API 및 웹훅 키를 관리할 수 있습니다.</para>
             </listitem>
           </itemizedlist>
         </listitem>
@@ -235,7 +236,7 @@
           <para><emphasis role="bold">eformsign 폼 빌더 다운로드:
           </emphasis><indexterm class="singular">
               <primary>폼 빌더 다운로드</primary>
-            </indexterm>전자 서식(템플릿)을 생성하기 위한 폼 빌더를 다운로드합니다.</para>
+            </indexterm>MS 오피스 프로그램에서 전자서식(템플릿)을 생성하기 위한 폼 빌더를 다운로드합니다.</para>
         </listitem>
       </itemizedlist>
 
@@ -256,7 +257,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/dashboard_main.png" width="800"/>
+            <imagedata fileref="resources/dashboard_main.png" width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -290,9 +291,8 @@
           <listitem>
             <para><indexterm class="singular">
                 <primary>즐겨찾기</primary>
-              </indexterm>내가 즐겨찾기로 등록한 템플릿을 보여줍니다. 해당 템플릿을 클릭하면 템플릿을 사용하여 새
-            문서를 작성할 수 있는 화면으로 바로 이동합니다. 즐겨찾기에 템플릿을 추가하려면 추가
-            아이콘(<inlinemediaobject>
+              </indexterm>내가 즐겨찾기로 등록한 템플릿을 보여줍니다. 해당 템플릿을 클릭하면 템플릿을 사용하여 문서를
+            작성할 수 있는 화면으로 바로 이동합니다. 즐겨찾기에 템플릿을 추가하려면 추가 아이콘(<inlinemediaobject>
                 <imageobject>
                   <imagedata contentwidth="17"
                              fileref="resources/favorites-add.PNG"/>
@@ -314,7 +314,7 @@
 
               <orderedlist>
                 <listitem>
-                  <para>대시보드의 즐겨찾기 박스에서 추가 아이콘( <inlinemediaobject>
+                  <para>대시보드의 즐겨찾기 추가 아이콘( <inlinemediaobject>
                       <imageobject>
                         <imagedata contentwidth="17"
                                    fileref="resources/favorites-add.PNG"/>
@@ -324,13 +324,6 @@
 
                 <listitem>
                   <para>클릭시 즐겨찾기에 등록이 안된 템플릿의 목록이 팝업창으로 뜹니다.</para>
-
-                  <para><inlinemediaobject>
-                      <imageobject>
-                        <imagedata fileref="resources/favorites-add-popup.PNG"
-                                   width="700"/>
-                      </imageobject>
-                    </inlinemediaobject></para>
                 </listitem>
 
                 <listitem>
@@ -339,7 +332,7 @@
                   <para><inlinemediaobject>
                       <imageobject>
                         <imagedata fileref="resources/favorites-add-popup2.PNG"
-                                   width="700"/>
+                                   width="400"/>
                       </imageobject>
                     </inlinemediaobject></para>
                 </listitem>
@@ -389,8 +382,10 @@
           <listitem>
             <para><indexterm class="singular">
                 <primary>임시 보관함</primary>
-              </indexterm>내 파일로 작성되었으나 전송되지 않고 임시 저장된 문서의 개수를 보여주며, 클릭시
-            <emphasis role="bold">임시 보관함</emphasis>으로 이동합니다.</para>
+              </indexterm><emphasis role="bold">내 파일로 문서 작성</emphasis>을 통해 문서
+            작성 진행 중 <emphasis role="bold">문서 시작하기</emphasis> 이전에 임시 저장된 문서의
+            개수를 보여주며, 클릭시 <emphasis role="bold">임시 보관함</emphasis>으로
+            이동합니다.</para>
           </listitem>
         </varlistentry>
 
@@ -411,7 +406,7 @@
           <term><emphasis role="bold">⑨ 임시 보관 문서</emphasis></term>
 
           <listitem>
-            <para>임시 문서함에 저장된 문서의 개수와 최근 문서 3건을 목록으로 보여줍니다. 목록의 문서명을 클릭하면 해당
+            <para>임시 보관함에 저장된 문서의 개수와 최근 문서 3건을 목록으로 보여줍니다. 목록의 문서명을 클릭하면 해당
             문서로 바로 이동하며, <emphasis role="bold">더보기</emphasis>를 클릭하면<emphasis
             role="bold"> 임시 보관함</emphasis>으로 이동합니다.</para>
           </listitem>
@@ -604,11 +599,13 @@
             표시되고, 목록 중 선택하여 해당 회사의 탈퇴를 진행할 수 있습니다.</para>
 
             <important>
-              <para>일반 회원의 경우 소속 회사에서 탈퇴할 경우 개인의 계정은 유지되며 다른 회사에 가입하거나 신규로 회사를
+              <para>일반 멤버의 경우 소속 회사에서 탈퇴할 경우 개인의 계정은 유지되며 다른 회사에 가입하거나 신규로 회사를
               생성할 수 있습니다.</para>
 
               <para>대표 관리자의 경우 회사 탈퇴시 회사가 삭제됩니다. 회사 삭제를 하지 않고 회사를 탈퇴하려면 대표 관리자
-              권한을 다른 사람에게 위임한 후 회사를 탈퇴해야 합니다.</para>
+              권한을 다른 멤버에게 위임한 후 회사를 탈퇴해야 합니다. 대표 관리자 권한 위임은 <emphasis
+              role="bold">회사 관리 &gt; 회사 정보 &gt; 기본 정보</emphasis>에서 할 수
+              있습니다.</para>
             </important>
           </listitem>
         </varlistentry>
@@ -646,29 +643,32 @@
         <listitem>
           <para>사이드바 메뉴에서 <emphasis role="bold">회사 관리 &gt; 회사 정보</emphasis>로
           이동합니다.</para>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/managecompany-companyinfo.png"
+                         width="700"/>
+            </imageobject>
+          </mediaobject>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">회사 정보 &gt; 기본 정보</emphasis> 화면에서 수정하고자
-          하는 정보를 수정합니다.</para>
+          하는 정보의 <emphasis role="bold">수정</emphasis>을 클릭합니다.</para>
         </listitem>
 
         <listitem>
-          <para>수정이 끝났으면 각 영역 하단의 <emphasis role="bold">저장</emphasis> 버튼을
+          <para>내용을 수정하고 수정 완료 후 <emphasis role="bold">저장</emphasis> 버튼을
           클릭합니다.</para>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/managecompany-companyinfo-edit_1.png"
+                         width="700"/>
+            </imageobject>
+          </mediaobject>
         </listitem>
       </orderedlist>
-
-      <figure>
-        <title>회사 정보 화면</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/managecompany-companyinfo-edit_1.png"
-                       width="750"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
 
       <para/>
     </section>
@@ -736,8 +736,6 @@
               <para>파일 형식: PNG, JPG, JPEG, GIF</para>
             </listitem>
           </itemizedlist>
-
-          <para/>
 
           <figure>
             <title>이미지 업로드 팝업 화면</title>
@@ -810,6 +808,19 @@
       </listitem>
 
       <listitem>
+        <para><emphasis role="bold">템플릿 사용 권한</emphasis></para>
+
+        <para><indexterm class="singular">
+            <primary>문서 작성 권한</primary>
+          </indexterm><indexterm class="singular">
+            <primary>템플릿 사용 권한</primary>
+          </indexterm>템플릿 사용 권한은 템플릿으로 문서를 작성할 수 있는 권한을 말합니다. 템플릿 별로 <emphasis
+        role="bold">템플릿 사용 권한(문서 작성 권한)</emphasis>을 부여할 수 있습니다. 권한을 부여 받은 멤버의
+        <emphasis role="bold">템플릿으로 문서 작성</emphasis> 화면에 해당 템플릿이 나타나며 문서를 작성할
+        수 있습니다.</para>
+      </listitem>
+
+      <listitem>
         <para><emphasis role="bold">문서 관리</emphasis></para>
 
         <para><emphasis role="bold">문서 관리</emphasis> <indexterm
@@ -818,18 +829,6 @@
           </indexterm>메뉴에 접근하여 템플릿 별로 생성된 문서를 열람하고 다운로드 받을 수 있습니다.</para>
 
         <para><emphasis role="bold">문서 관리 권한</emphasis>은 템플릿 별로 다르게 지정할 수
-        있습니다.</para>
-      </listitem>
-
-      <listitem>
-        <para><emphasis role="bold">문서 작성</emphasis></para>
-
-        <para><indexterm class="singular">
-            <primary>문서 작성 권한</primary>
-          </indexterm><indexterm class="singular">
-            <primary>템플릿 사용 권한</primary>
-          </indexterm>템플릿 별로 <emphasis role="bold">템플릿 사용 권한(문서 작성
-        권한)</emphasis>을 부여할 수 있습니다. 권한을 부여 받은 멤버만 해당 템플릿으로 문서를 작성할 수
         있습니다.</para>
       </listitem>
     </itemizedlist>
@@ -916,7 +915,7 @@
         </listitem>
 
         <listitem>
-          <para>대표관리자 계정의 비밀번호를 입력합니다.</para>
+          <para>대표 관리자 계정의 비밀번호를 입력합니다.</para>
         </listitem>
 
         <listitem>
@@ -987,9 +986,8 @@
         </indexterm>템플릿 관리자는 <emphasis role="bold">템플릿 관리</emphasis> 메뉴에 접근
       권한을 가지며, 템플릿을 등록, 수정, 배포, 삭제할 수 있습니다.</para>
 
-      <para>템플릿을 등록한 템플릿 관리자는 해당 템플릿의 템플릿 소유자가 됩니다.</para>
-
-      <para>한 회사에 여러 명의 템플릿 관리자가 있는 경우 템플릿 소유자와 템플릿 관리자가 다를 수 있습니다.</para>
+      <para>템플릿을 등록한 템플릿 관리자는 해당 템플릿의 템플릿 소유자가 됩니다. 한 회사에 여러 명의 템플릿 관리자가 있는 경우
+      템플릿 소유자와 템플릿 관리자가 다를 수 있습니다.</para>
 
       <para>템플릿 관리자가 템플릿 소유자가 아닌 경우 해당 템플릿의 설정 보기와 템플릿 복제만 할 수 있습니다.</para>
 
@@ -1225,7 +1223,7 @@
             <listitem>
               <para><indexterm class="singular">
                   <primary>멤버 일괄 초대</primary>
-                </indexterm>멤버 초대시 여러명의 멤버를 한꺼번에 초대할 수 있습니다.</para>
+                </indexterm>멤버 초대시 여러명의 멤버를 한번에 초대할 수 있습니다.</para>
             </listitem>
           </varlistentry>
 
@@ -1357,8 +1355,6 @@
       <listitem>
         <para>서명 등록 버튼을 클릭합니다.</para>
 
-        <para/>
-
         <figure>
           <title>서명 등록 화면</title>
 
@@ -1442,8 +1438,6 @@
       <listitem>
         <para><emphasis role="bold">도장 등록 </emphasis>버튼을 클릭합니다</para>
 
-        <para/>
-
         <figure>
           <title>도장 등록 버튼</title>
 
@@ -1459,8 +1453,6 @@
       <listitem>
         <para>이미지 영역을 클릭하면 내 PC에 저장된 이미지를 업로드 할 수 있는 팝업창이 뜹니다. 원하는 도장 이미지를
         선택합니다.</para>
-
-        <para/>
 
         <figure>
           <title>내 서명 &gt; 도장 등록</title>

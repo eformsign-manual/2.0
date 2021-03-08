@@ -13,10 +13,11 @@
 
     <para><indexterm class="singular">
         <primary>웹폼 디자이너</primary>
-      </indexterm>eformsign <emphasis role="bold">내 파일로 문서 작성</emphasis> 메뉴 또는
-    <emphasis role="bold">템플릿 관리</emphasis> 메뉴에서 전자문서의 배경서식이 되는 PDF 파일을 업로드하면
-    웹폼 디자이너가 나타납니다. 왼쪽 트리의 다양한 입력항목 중 원하는 입력항목을 클릭해서 웹폼 디자이너에서 나타나는 배경 파일에
-    위치하고 난 후, 각 입력항목에 대한 속성을 설정하면 템플릿을 손쉽게 생성할 수 있습니다.</para>
+      </indexterm>웹폼 디자이너는 eformsign 서비스에 기존의 문서 파일을 업로드하여 컴포넌트를 올려 전자서식으로 만들
+    수 있는 웹폼 에디터입니다. <emphasis role="bold">내 파일로 문서 작성</emphasis> 메뉴 또는
+    <emphasis role="bold">템플릿 관리</emphasis> 메뉴에서 전자문서의 기본 파일이 되는 PDF 파일을 업로드하면
+    웹폼 디자이너 화면이 나타납니다. 이폼사인에서 제공하는 다양한 컴포넌트 중 원하는 컴포넌트를 클릭해서 문서의 원하는 위치에 배치하고
+    난 후, 각 컴포넌트에 대한 속성을 설정하면 전자서식을 손쉽게 만들 수 있습니다.</para>
 
     <note>
       <para>현재는 PDF 파일만 지원하나, 추후 MS Office, 한글, JPG, PNG 등의 이미지 파일 등 다양한 파일
@@ -29,12 +30,7 @@
       MS Office에 설치하신 후 사용하시기 바랍니다.</para>
     </note>
 
-    <itemizedlist>
-      <listitem>
-        <para><emphasis role="bold">내 파일로 문서 작성</emphasis> 메뉴에서 PDF 파일
-        업로드</para>
-      </listitem>
-    </itemizedlist>
+    <para><emphasis role="bold">내 파일로 문서 작성</emphasis> 메뉴에서 PDF 파일 업로드</para>
 
     <orderedlist>
       <listitem>
@@ -43,7 +39,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata contentwidth="875"
+            <imagedata contentwidth="700"
                        fileref="resources/myfile_create_document.png"/>
           </imageobject>
         </mediaobject>
@@ -51,18 +47,19 @@
 
       <listitem>
         <para>화면에 바로 파일을 드래그하거나 <emphasis role="bold">내 컴퓨터에서 파일
-        선택</emphasis>을 눌러 자신의 컴퓨터에서 업로드하고자 하는 파일을 선택합니다.</para>
+        선택</emphasis>을 클릭해서 자신의 컴퓨터에서 업로드하고자 하는 파일을 선택합니다.</para>
 
         <mediaobject>
           <imageobject>
-            <imagedata contentwidth="875"
-                       fileref="resources/myfile_create_document2.png"/>
+            <imagedata contentwidth="500"
+                       fileref="resources/myfile_create_document2.png"
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </listitem>
 
       <listitem>
-        <para>파일이 업로드되면 다음과 같이 문서 화면이 나타납니다.</para>
+        <para>파일이 업로드되면 다음과 같이 문서에 컴포넌트를 올릴 수 있는 웹폼 디자이너 화면이 나타납니다.</para>
 
         <mediaobject>
           <imageobject>
@@ -79,8 +76,7 @@
 
         <orderedlist>
           <listitem>
-            <para>메뉴 중 <emphasis role="bold">템플릿 관리</emphasis> 화면으로 들어가면 다음과
-            같은 화면이 나타납니다.</para>
+            <para><emphasis role="bold">템플릿 관리</emphasis> 메뉴로 이동합니다.</para>
 
             <figure>
               <title>웹폼 디자이너 화면</title>
@@ -96,7 +92,7 @@
 
           <listitem>
             <para>템플릿 관리 화면에 바로 파일을 드래그하거나 <emphasis role="bold">내 컴퓨터에서 파일
-            선택</emphasis>을 눌러 자신의 컴퓨터에서 업로드하고자 하는 파일을 선택합니다.</para>
+            선택</emphasis>을 클릭해 자신의 컴퓨터에서 업로드하고자 하는 파일을 선택합니다.</para>
 
             <figure>
               <title>웹폼 디자이너 화면</title>
@@ -131,9 +127,7 @@
     <section>
       <title>웹폼 디자이너 메뉴 구성</title>
 
-      <para>웹폼 디자이너는 크게 문서를 보여주는 화면과, 상단 바 외에 왼쪽 및 오른쪽 화면으로 구성되어 있습니다.</para>
-
-      <para/>
+      <para>웹폼 디자이너는 문서를 보여주는 화면과 상단 바 외에 왼쪽 및 오른쪽 화면으로 구성되어 있습니다.</para>
 
       <figure>
         <title>웹폼 디자이너 메뉴 구성</title>
@@ -158,8 +152,8 @@
 
       <orderedlist>
         <listitem>
-          <para><emphasis role="bold">문서 표시 창: </emphasis>업로드한 배경서식 문서가
-          나타납니다.</para>
+          <para><emphasis role="bold">문서 표시 창: </emphasis>업로드한 문서 파일이
+          표시됩니다.</para>
         </listitem>
 
         <listitem>
@@ -167,7 +161,7 @@
           role="bold">템플릿 설정</emphasis>의 경우 폼 디자인하기, 설정하기의 2단계가 표시되며, 템플릿 관리
           리스트 화면으로 돌아가거나 컴포넌트가 추가된 템플릿의 표시 형태를 미리보기할 수 있습니다. <emphasis
           role="bold">내 파일로 문서 작성</emphasis>의 경우 폼 디자인하기, 수신자 지정하기, 옵션의 3단계가
-          표시되며, 디자인을 완료하고 전자문서 작성을 시작하거나 임시 보관함에 저장하고 나갈 수 있습니다.</para>
+          표시되며, 디자인을 완료하고 문서 작성을 시작하거나 임시 보관함에 저장하고 나갈 수 있습니다.</para>
 
           <note>
             <para>상단 바에 표시되는 각 단계를 클릭하면 해당 단계의 화면이 표시됩니다. 워크플로우, 권한 등을 설정할 수
@@ -194,7 +188,7 @@
 
     <para><indexterm class="singular">
         <primary>컴포넌트</primary>
-      </indexterm>컴포넌트는 전자 문서에서 사용자가 내용을 입력할 수 있는 입력란을 만들어주는 역할을 합니다. 서명, 체크,
+      </indexterm>컴포넌트는 전자문서에서 사용자가 내용을 입력할 수 있는 입력란을 만들어주는 역할을 합니다. 서명, 체크,
     날짜, 텍스트 등의 다양한 형식의 컴포넌트가 있으며 각각의 컴포넌트는 속성창을 통해 세부 사항을 설정할 수 있습니다.</para>
 
     <para><figure>
@@ -212,165 +206,151 @@
 
       <para>eformsign은 다음의 컴포넌트를 지원합니다.</para>
 
-      <orderedlist>
+      <para><emphasis role="bold">기본 컴포넌트</emphasis></para>
+
+      <itemizedlist>
         <listitem>
-          <para>기본 컴포넌트</para>
+          <para><emphasis role="bold"><emphasis role="bold"><link
+          linkend="signature2">서명</link>:</emphasis></emphasis> <indexterm
+              class="singular">
+              <primary>컴포넌트</primary>
 
-          <itemizedlist>
-            <listitem>
-              <para><emphasis role="bold"><emphasis role="bold"><link
-              linkend="signature2">서명</link>:</emphasis></emphasis> <indexterm
-                  class="singular">
-                  <primary>컴포넌트</primary>
-
-                  <secondary>서명</secondary>
-                </indexterm>서명을 입력합니다.</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis role="bold"><link
-              linkend="text2">텍스트</link>:</emphasis> <indexterm
-                  class="singular">
-                  <primary>컴포넌트</primary>
-
-                  <secondary>텍스트</secondary>
-                </indexterm>1~2단어의 짧은 텍스트를 입력합니다.</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis role="bold"><link linkend="text2">멀티라인</link>:
-              </emphasis><indexterm class="singular">
-                  <primary>컴포넌트</primary>
-
-                  <secondary>멀티라인</secondary>
-                </indexterm>여러 줄의 긴 텍스트를 입력합니다.</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis role="bold"><link
-              linkend="label2">레이블</link>:</emphasis> <indexterm
-                  class="singular">
-                  <primary>컴포넌트</primary>
-
-                  <secondary>레이블</secondary>
-                </indexterm>폼 ID를 설정합니다.</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis role="bold"><link linkend="check2">체크</link>:
-              </emphasis><indexterm class="singular">
-                  <primary>컴포넌트</primary>
-
-                  <secondary>체크</secondary>
-                </indexterm>체크할 항목이 있을 때 사용합니다. 다중 선택도 설정 가능합니다.</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis role="bold"><link linkend="select2">라디오</link>:
-              </emphasis><indexterm class="singular">
-                  <primary>컴포넌트</primary>
-
-                  <secondary>라디오</secondary>
-                </indexterm>여러가지 항목 중 한가지를 선택합니다.</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis role="bold"><link
-              linkend="combo2">콤보</link>:</emphasis> <indexterm
-                  class="singular">
-                  <primary>컴포넌트</primary>
-
-                  <secondary>콤보</secondary>
-                </indexterm>클릭하면 드롭다운 메뉴가 나타나며 여러 항목 중 하나를 선택합니다.</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis role="bold"><emphasis role="bold"><link
-              linkend="toggle2">토글</link>:</emphasis></emphasis> <indexterm
-                  class="singular">
-                  <primary>컴포넌트</primary>
-
-                  <secondary>토글</secondary>
-                </indexterm>2개 이상의 값을 입력하면 버튼을 클릭할 때마다 다른 값으로 전환됩니다.</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis role="bold"><link
-              linkend="date2">날짜</link>:</emphasis> <indexterm
-                  class="singular">
-                  <primary>컴포넌트</primary>
-
-                  <secondary>날짜</secondary>
-                </indexterm>특정 날짜를 입력합니다.</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis role="bold"><link
-              linkend="numeric2">증감</link>:</emphasis> <indexterm
-                  class="singular">
-                  <primary>컴포넌트</primary>
-
-                  <secondary>증감</secondary>
-                </indexterm>숫자를 입력합니다.</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis role="bold"><link
-              linkend="camera2">카메라</link>:</emphasis> <indexterm
-                  class="singular">
-                  <primary>컴포넌트</primary>
-
-                  <secondary>카메라</secondary>
-                </indexterm>카메라가 연결된 기기(스마트폰, 태블릿 등)에서는 카메라로 사진을 찍거나 사진첩에서 사진을
-              선택합니다. 카메라가 없는 기기(일반 PC)에서는 이미지 파일을 선택합니다.</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis role="bold"><link
-              linkend="record2">녹음</link>:</emphasis> <indexterm
-                  class="singular">
-                  <primary>컴포넌트</primary>
-
-                  <secondary>녹음</secondary>
-                </indexterm>녹음 기능이 있는 기기에서 버튼을 클릭해 녹음을 진행합니다.</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis role="bold"><link
-              linkend="attach2">첨부</link>:</emphasis> <indexterm
-                  class="singular">
-                  <primary>컴포넌트</primary>
-
-                  <secondary>첨부</secondary>
-                </indexterm>파일 첨부 기능을 추가합니다.</para>
-            </listitem>
-          </itemizedlist>
+              <secondary>서명</secondary>
+            </indexterm>서명을 입력합니다.</para>
         </listitem>
 
         <listitem>
-          <para>정보 컴포넌트</para>
+          <para><emphasis role="bold"><link
+          linkend="text2">텍스트</link>:</emphasis> <indexterm class="singular">
+              <primary>컴포넌트</primary>
 
-          <itemizedlist>
-            <listitem>
-              <para><emphasis role="bold"><link linkend="document2">문서
-              ID</link>:</emphasis> <indexterm class="singular">
-                  <primary>컴포넌트</primary>
-
-                  <secondary>문서 ID</secondary>
-                </indexterm>문서 내에 문서 ID를 입력합니다.</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis role="bold"><link linkend="document2">문서
-              번호</link>:</emphasis> <indexterm class="singular">
-                  <primary>컴포넌트</primary>
-
-                  <secondary>문서 번호</secondary>
-                </indexterm>문서 내에 문서 번호를 입력합니다.</para>
-            </listitem>
-          </itemizedlist>
+              <secondary>텍스트</secondary>
+            </indexterm>1~2단어의 짧은 텍스트를 입력합니다.</para>
         </listitem>
-      </orderedlist>
+
+        <listitem>
+          <para><emphasis role="bold"><link linkend="text2">멀티라인</link>:
+          </emphasis><indexterm class="singular">
+              <primary>컴포넌트</primary>
+
+              <secondary>멀티라인</secondary>
+            </indexterm>여러 줄의 긴 텍스트를 입력합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="label2">레이블</link>:</emphasis> <indexterm class="singular">
+              <primary>컴포넌트</primary>
+
+              <secondary>레이블</secondary>
+            </indexterm>폼 ID를 설정합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link linkend="check2">체크</link>:
+          </emphasis><indexterm class="singular">
+              <primary>컴포넌트</primary>
+
+              <secondary>체크</secondary>
+            </indexterm>체크할 항목이 있을 때 사용합니다. 다중 선택도 설정 가능합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link linkend="select2">라디오</link>:
+          </emphasis><indexterm class="singular">
+              <primary>컴포넌트</primary>
+
+              <secondary>라디오</secondary>
+            </indexterm>여러가지 항목 중 한가지를 선택합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="combo2">콤보</link>:</emphasis> <indexterm class="singular">
+              <primary>컴포넌트</primary>
+
+              <secondary>콤보</secondary>
+            </indexterm>클릭하면 드롭다운 메뉴가 나타나며 여러 항목 중 하나를 선택합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><emphasis role="bold"><link
+          linkend="toggle2">토글</link>:</emphasis></emphasis> <indexterm
+              class="singular">
+              <primary>컴포넌트</primary>
+
+              <secondary>토글</secondary>
+            </indexterm>2개 이상의 값을 입력하면 버튼을 클릭할 때마다 다른 값으로 전환됩니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="date2">날짜</link>:</emphasis> <indexterm class="singular">
+              <primary>컴포넌트</primary>
+
+              <secondary>날짜</secondary>
+            </indexterm>특정 날짜를 입력합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="numeric2">증감</link>:</emphasis> <indexterm class="singular">
+              <primary>컴포넌트</primary>
+
+              <secondary>증감</secondary>
+            </indexterm>숫자를 입력합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="camera2">카메라</link>:</emphasis> <indexterm class="singular">
+              <primary>컴포넌트</primary>
+
+              <secondary>카메라</secondary>
+            </indexterm>카메라가 연결된 기기(스마트폰, 태블릿 등)에서는 카메라로 사진을 찍거나 사진첩에서 사진을
+          선택합니다. 카메라가 없는 기기(일반 PC)에서는 이미지 파일을 선택합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="record2">녹음</link>:</emphasis> <indexterm class="singular">
+              <primary>컴포넌트</primary>
+
+              <secondary>녹음</secondary>
+            </indexterm>녹음 기능이 있는 기기에서 버튼을 클릭해 녹음을 진행합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="attach2">첨부</link>:</emphasis> <indexterm class="singular">
+              <primary>컴포넌트</primary>
+
+              <secondary>첨부</secondary>
+            </indexterm>파일 첨부 기능을 추가합니다.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para><emphasis role="bold">정보 컴포넌트</emphasis></para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold"><link linkend="document2">문서
+          ID</link>:</emphasis> <indexterm class="singular">
+              <primary>컴포넌트</primary>
+
+              <secondary>문서 ID</secondary>
+            </indexterm>문서 내에 문서 ID를 입력합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link linkend="document2">문서
+          번호</link>:</emphasis> <indexterm class="singular">
+              <primary>컴포넌트</primary>
+
+              <secondary>문서 번호</secondary>
+            </indexterm>문서 내에 문서 번호를 입력합니다.</para>
+        </listitem>
+      </itemizedlist>
     </section>
   </section>
 
@@ -386,7 +366,9 @@
             <primary>컴포넌트</primary>
 
             <secondary>ID</secondary>
-          </indexterm>입력 기능의 값을 외부 프로그램에서 추출할 때 사용하는 고유한 키(Key)입니다</para>
+          </indexterm>각각의 컴포넌트를 식별할 수 있는 고유한 ID 입니다. 설정 단계에서 필수 입력 또는 편집 제한 시
+        컴포넌트 ID로 확인하여 지정할 수 있으며, CSV로 입력 데이터를 추출하여 확인하고자 할때 컴포넌트 ID로 구분할 수
+        있습니다.</para>
       </listitem>
 
       <listitem>
@@ -395,7 +377,7 @@
             <primary>컴포넌트</primary>
 
             <secondary>플레이스홀더</secondary>
-          </indexterm>수신자에게 문서가 표시될 때 입력 안내 문구로 표시되는 텍스트입니다.</para>
+          </indexterm>입력란에 입력하기 전 안내 문구로 표시되는 텍스트입니다.</para>
       </listitem>
 
       <listitem>
@@ -404,8 +386,8 @@
             <primary>컴포넌트</primary>
 
             <secondary>툴팁 텍스트</secondary>
-          </indexterm>수신자에게 문서가 표시될 때 Windows 환경에서는 컴포넌트에 마우스를 올려놓으면 툴팁 텍스트가
-        말풍선 형태로 표시되며, 모바일 환경에서는 컴포넌트가 다이얼로그로 실행될 때 툴팁 텍스트가 다이얼로그의 제목으로
+          </indexterm>수신자가 문서를 열람 시 Windows 환경에서는 컴포넌트에 마우스를 위치하면 툴팁 텍스트가 말풍선
+        형태로 표시되며, 모바일 환경에서는 컴포넌트가 다이얼로그로 실행될 때 툴팁 텍스트가 다이얼로그의 제목으로
         표시됩니다.</para>
       </listitem>
     </itemizedlist>
@@ -498,11 +480,11 @@
 
       <para><emphasis role="bold">⑤ 플레이스홀더</emphasis></para>
 
-      <para>서명 전 표시되는 문구로, 텍스트를 설정할 수 있습니다.</para>
+      <para>서명 전 표시되는 안내 문구로, 텍스트를 설정할 수 있습니다.</para>
 
       <para><emphasis role="bold">⑥ 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단 중앙에
+      <para>입력란에 마우스를 위치하면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단 중앙에
       표시됩니다.</para>
 
       <para><emphasis role="bold">서명일 및 서명인</emphasis></para>
@@ -519,9 +501,8 @@
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">① 서명일: </emphasis>서명한 날짜가 자동으로 입력됩니다. 드래그 앤드
-      드롭으로 표시 위치를 지정할 수 있으며, 서명일 영역을 클릭하여 나타나는 컴포넌트 속성에서 날짜 표시형식을 변경할 수
-      있습니다.</para>
+      <para><emphasis role="bold">① 서명일: </emphasis>서명한 날짜가 자동으로 입력됩니다. 서명일
+      영역을 클릭하여 우측의 서명일 컴포넌트 속성에서 날짜 표시형식을 설정할 수 있습니다.</para>
 
       <figure>
         <title>서명일</title>
@@ -533,10 +514,9 @@
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">② 서명인: </emphasis>서명인 정보가 자동으로 입력됩니다. 드래그 앤드
-      드롭으로 표시 위치를 지정할 수 있으며, 서명 컴포넌트를 클릭하여 나타나는 사람 모양 아이콘을 클릭하거나, 서명인 영역을 클릭하여
-      나타나는 컴포넌트 속성에서 ID, 이름, 부서, 직책, 휴대폰 번호, 전화번호 중 서명인 정보에 표시될 정보를 지정할 수
-      있습니다.</para>
+      <para><emphasis role="bold">② 서명인: </emphasis>서명인 정보가 자동으로 입력됩니다. 서명
+      컴포넌트를 클릭하여 나타나는 사람 모양 아이콘을 클릭하면 ID, 이름, 부서, 직책, 휴대폰 번호, 전화번호 중 서명인 정보에
+      표시될 정보를 지정할 수 있습니다.</para>
 
       <figure>
         <title>서명인</title>
@@ -602,8 +582,8 @@
 
       <para><emphasis role="bold">③ 입력 가능 최대 글자 수</emphasis></para>
 
-      <para>입력 가능한 최대 글자 수(공백 포함)를 설정할 수 있습니다. 텍스트의 경우 기본으로 ‘100’이, 멀티라인의 경우
-      기본으로 400이 설정되어 있습니다.</para>
+      <para>입력 가능한 최대 글자 수(공백 포함)를 설정할 수 있습니다. 텍스트의 경우 100자, 멀티라인의 경우 400자가
+      기본으로 설정되어 있습니다.</para>
 
       <para><emphasis role="bold">④ 모바일 입력 시 키패드 타입</emphasis></para>
 
@@ -734,8 +714,8 @@
 
       <para><emphasis role="bold">⑤ 툴팁 텍스트</emphasis></para>
 
-      <para>해당 입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단
-      중앙에 표시됩니다.</para>
+      <para>해당 입력란에 마우스를 위치하면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단 중앙에
+      표시됩니다.</para>
     </section>
 
     <section xml:id="select2">
@@ -747,9 +727,6 @@
           <secondary>라디오</secondary>
         </indexterm>라디오 컴포넌트는 여러 항목 중 어떤 항목을 선택했는지 확인해야 할 때 사용합니다. 선택 컴포넌트의
       선택값은 데이터 다운로드 시 여러 항목 중 선택한 항목명이 나타납니다.</para>
-
-      <para>워드, 파워포인트에서는 선택 컴포넌트가 직사각형 도형처럼 나타납니다. 항목의 내용은 컴포넌트 도형 안에 입력해야
-      합니다.</para>
 
       <para><emphasis role="bold">컴포넌트 속성</emphasis></para>
 
@@ -793,14 +770,14 @@
       메뉴에서 스타일을 변경할 수 있습니다.</para>
 
       <tip>
-        <para>오른쪽 위 아이콘을 눌러 상세 스타일을 변경할 수도 있습니다. 활성화된 아이콘은 아이콘 하단에 현재 표시되는 색상의
-        선이 나타나며, 윤곽선과 중심원의 색상을 별도로 설정할 수 있습니다.</para>
+        <para>오른쪽 위 아이콘을 클릭해 상세 스타일을 변경할 수도 있습니다. 활성화된 아이콘은 아이콘 하단에 현재 표시되는
+        색상의 선이 나타나며, 윤곽선과 중심원의 색상을 별도로 설정할 수 있습니다.</para>
       </tip>
 
       <para><emphasis role="bold">③ 선택 스타일</emphasis></para>
 
       <para>선택 컴포넌트는 속성에서 스타일을 지정할 수 있습니다. 빨간 동그라미가 나타나는 ‘원’이 기본으로 설정되어 있으며
-      이외에 체크박스, 라디오 버튼 표시를 선택할 수 있습니다.</para>
+      이외에 체크박스, 라디오 버튼 스타일을 선택할 수 있습니다.</para>
 
       <para><emphasis role="bold">④ 비선택 스타일</emphasis></para>
 
@@ -808,8 +785,8 @@
 
       <para><emphasis role="bold">⑤ 툴팁 텍스트</emphasis></para>
 
-      <para>해당 입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단
-      중앙에 표시됩니다.</para>
+      <para>해당 입력란에 마우스를 위치하면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단 중앙에
+      표시됩니다.</para>
     </section>
 
     <section xml:id="combo2">
@@ -865,7 +842,7 @@
 
       <para><emphasis role="bold">⑤ 툴팁 텍스트</emphasis></para>
 
-      <para>선택란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단 중앙에
+      <para>선택란에 마우스를 위치하면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단 중앙에
       표시됩니다.</para>
     </section>
 
@@ -915,7 +892,7 @@
 
       <para><emphasis role="bold">④ 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단 중앙에
+      <para>입력란에 마우스를 위치하면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단 중앙에
       표시됩니다.</para>
     </section>
 
@@ -949,7 +926,7 @@
       <para><emphasis role="bold">② 기본 값</emphasis></para>
 
       <para>기본으로 표시할 날짜를 설정합니다. <emphasis role="bold">오늘 날짜로 설정</emphasis>에
-      체크하면 문서를 열었을 때 자동으로 오늘 날짜가 입력되도록 설정합니다.</para>
+      체크하면 문서를 열었을 때 자동으로 오늘 날짜가 입력됩니다.</para>
 
       <para><emphasis role="bold">③ 표시형식</emphasis></para>
 
@@ -957,17 +934,17 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">yyyy:</emphasis> 연도’를 표시합니다. (yyyy년 =
+          <para><emphasis role="bold">yyyy:</emphasis> 연도를 표시합니다. (yyyy년 =
           2020년)</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">MM:</emphasis> ‘월’을 표시합니다. 반드시 대문자로 표기해야
+          <para><emphasis role="bold">MM:</emphasis> 월을 표시합니다. 반드시 대문자로 표기해야
           합니다. (MM월 = 8월)</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">dd:</emphasis> ‘일’을 표시합니다. (dd일 =
+          <para><emphasis role="bold">dd:</emphasis> 일을 표시합니다. (dd일 =
           10일)</para>
         </listitem>
       </itemizedlist>
@@ -984,7 +961,7 @@
 
       <para><emphasis role="bold">⑥ 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단 중앙에
+      <para>입력란에 마우스를 위치하면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단 중앙에
       표시됩니다.</para>
     </section>
 
@@ -1039,7 +1016,7 @@
 
       <para><emphasis role="bold">⑥ 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단 중앙에
+      <para>입력란에 마우스를 위치하면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단 중앙에
       표시됩니다.</para>
     </section>
 
@@ -1050,8 +1027,8 @@
           <primary>컴포넌트</primary>
 
           <secondary>카메라</secondary>
-        </indexterm>스마트폰, 태블릿 등 카메라가 있는 기기로 사진을 찍어 문서에 올릴 때에 사용합니다. 카메라가 없는 PC
-      환경에서는 컴포넌트를 클릭하면 이미지 파일을 선택할 수 있는 선택창이 나타납니다.</para>
+        </indexterm>스마트폰, 태블릿 등 카메라가 있는 기기로 사진을 찍어 문서에 삽입하고자 할 경우 사용합니다. 카메라가
+      없는 PC 환경에서는 컴포넌트를 클릭하면 이미지 파일을 선택할 수 있는 선택창이 나타납니다.</para>
 
       <para>선택한 이미지의 크기가 입력란의 크기보다 클 경우 입력란 안에 들어갈 수 있도록 축소되어 올라갑니다.</para>
 
@@ -1089,7 +1066,7 @@
 
       <para><emphasis role="bold">③ 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단 중앙에
+      <para>입력란에 마우스를 위치하면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단 중앙에
       표시됩니다.</para>
 
       <tip>
@@ -1140,7 +1117,7 @@
 
       <para><emphasis role="bold">③ 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단 중앙에
+      <para>입력란에 마우스를 위치하면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단 중앙에
       표시됩니다.</para>
 
       <tip>
@@ -1155,8 +1132,8 @@
           <primary>컴포넌트</primary>
 
           <secondary>첨부</secondary>
-        </indexterm>문서에 별도로 첨부하는 문서가 있을 때 사용합니다. 첨부 컴포넌트를 통해 문서를 첨부할 경우 문서의 맨
-      끝에 첨부한 문서가 새로운 페이지로 추가됩니다.</para>
+        </indexterm>문서에 별도로 첨부 파일을 추가할 수 있도록 할 경우 사용합니다. 첨부 컴포넌트를 통해 문서를 첨부할
+      경우 문서의 맨 끝에 첨부한 문서가 새로운 페이지로 추가됩니다.</para>
 
       <para>첨부 가능한 파일의 종류와 크기는 다음과 같습니다.</para>
 
@@ -1193,7 +1170,7 @@
 
       <para><emphasis role="bold">③ 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단 중앙에
+      <para>입력란에 마우스를 위치하면 툴팁 텍스트에 입력한 설명이 나타납니다. eformsign 앱에서는 키패드 상단 중앙에
       표시됩니다.</para>
 
       <tip>
@@ -1253,8 +1230,8 @@
   <section>
     <title>템플릿에 대한 추가 설정하기</title>
 
-    <para>배경서식 위에 컴포넌트를 배치하고 나면, 템플릿 제목, 문서 번호, 워크플로우 등 템플릿으로 생성되는 문서에 대한 추가
-    설정을 할 수 있습니다.</para>
+    <para>문서에 컴포넌트를 배치하고 나면 템플릿 제목, 문서 번호, 워크플로우 등 템플릿으로 생성되는 문서에 대한 추가 설정을 할
+    수 있습니다.</para>
 
     <para>폼 디자인하기 화면에서 <emphasis role="bold">설정하기</emphasis> 버튼을 눌러 설정하기 화면으로
     이동합니다. 설정하기 화면에서는 다음의 5가지 설정을 하여 템플릿을 설정할 수 있습니다.</para>
