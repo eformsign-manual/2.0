@@ -9,33 +9,35 @@
       xmlns:db="http://docbook.org/ns/docbook">
   <title>eformsign 사용자 안내서</title>
 
-  <subtitle/></subtitle>
+  <subtitle></subtitle>
 
   <titleabbrev>eformsign Service</titleabbrev>
 
-  <xi:include href="../common/bookinfo.xml"/>
+  <xi:include href="../common/bookinfo.xml"></xi:include>
 
-  <xi:include href="about-this-document.xml"/>
+  <xi:include href="about-this-document.xml"></xi:include>
 
-  <xi:include href="chapter1.xml"/>
+  <xi:include href="chapter1.xml"></xi:include>
 
-  <xi:include href="chapter2.xml"/>
+  <xi:include href="chapter2.xml"></xi:include>
 
-  <xi:include href="chapter_new.xml"/>
+  <xi:include href="chapter_new.xml"></xi:include>
 
-  <xi:include href="chapter3.xml"/>
+  <xi:include href="chapter3.xml"></xi:include>
 
-  <xi:include href="Chapter4.xml"/>
+  <xi:include href="Chapter4.xml"></xi:include>
 
-  <xi:include href="Chapter5.xml"/>
+  <xi:include href="Chapter5.xml"></xi:include>
 
-  <xi:include href="chapter6.xml"/>
+  <xi:include href="chapter6.xml"></xi:include>
 
-  <xi:include href="chapter7.xml"/>
+  <xi:include href="chapter7.xml"></xi:include>
 
-  <xi:include href="chapter8.xml"/>
+  <xi:include href="chapter8.xml"></xi:include>
 
-  <xi:include href="chapter9.xml"/>
+  <xi:include href="chapter9.xml"></xi:include>
 
-  <index xml:id="idx"/>
+  <index xml:id="idx"></index>
 </book>
+
+

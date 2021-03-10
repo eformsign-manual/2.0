@@ -56,9 +56,9 @@
     </listitem>
 
     <listitem>
-      <para>제3장: 문서 작성하기 </para>
+      <para>제3장: 문서 작성하기</para>
 
-      <para>eformsign에서 문서를 작성하는 방법에 대해서 설명합니다. </para>
+      <para>eformsign에서 문서를 작성하는 방법에 대해서 설명합니다.</para>
     </listitem>
 
     <listitem>
@@ -215,36 +215,6 @@
     </informaltable></para>
 
   <?dbfo-need height="10in" ?>
-
-  <para><bridgehead>관련 안내서</bridgehead></para>
-
-  <informaltable colsep="1" frame="topbot" rowsep="1">
-    <tgroup cols="2">
-      <colspec align="left" colwidth="150"/>
-
-      <thead>
-        <row>
-          <entry>안내서</entry>
-
-          <entry>설명</entry>
-        </row>
-      </thead>
-
-      <tbody>
-        <row>
-          <entry><para><olink targetdoc="installation"
-          targetptr="book">eformsign 설치 안내서</olink></para></entry>
-
-          <entry>설치형 패키지 제품인 eformsign on-premise 제품을 설치하는 방법에 대해 기술한
-          안내서입니다.</entry>
-        </row>
-      </tbody>
-    </tgroup>
-  </informaltable>
-
-  <para/>
-
-  <para/>
 
   <para/>
 
