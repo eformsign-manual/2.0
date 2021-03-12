@@ -6,7 +6,7 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>웹폼 디자이너 소개<link linkend="webformdesigner"/></title>
+  <title>웹폼 디자이너 소개</title>
 
   <section>
     <title>웹폼 디자이너 개요</title>
@@ -26,11 +26,16 @@
 
     <note>
       <para>MS Office에서 바로 전자문서를 생성할 수 있도록 하는 MS Office Add-in 기능(OZ in Office
-      폼 빌더)도 제공하고 있습니다. 폼 빌더를 사용하려면 <olink targetdoc="formbuilder">폼 빌더
-      소개</olink>를 참고하여 폼 빌더를 MS Office에 설치하신 후 사용하시기 바랍니다.</para>
+      폼 빌더)도 제공하고 있습니다. 폼 빌더를 사용하려면 <xref linkend="formbuilder"/>를 참고하여 폼 빌더를
+      MS Office에 설치하신 후 사용하시기 바랍니다.</para>
     </note>
 
-    <para><emphasis role="bold">내 파일로 문서 작성</emphasis> 메뉴에서 PDF 파일 업로드</para>
+    <itemizedlist>
+      <listitem>
+        <para><emphasis role="bold">내 파일로 문서 작성</emphasis> 메뉴에서 PDF 파일
+        업로드</para>
+      </listitem>
+    </itemizedlist>
 
     <orderedlist>
       <listitem>

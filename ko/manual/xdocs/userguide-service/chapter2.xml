@@ -131,7 +131,7 @@
                   class="singular">
                   <primary>회사 정보</primary>
                 </indexterm>회사 정보를 확인 및 수정하고 대시보드, 이메일 등에 적용되는 브랜드 이미지를 설정할 수
-              있습니다. </para>
+              있습니다.</para>
             </listitem>
 
             <listitem>
@@ -673,7 +673,7 @@
       <para/>
     </section>
 
-    <section>
+    <section xml:id="brand">
       <title>브랜드</title>
 
       <para><indexterm class="singular">
@@ -687,8 +687,8 @@
         <para>로고와 심볼 모두 회사를 대표하는 이미지입니다. 로고는 대체로 브랜드명을 기재하는 가로로 긴 형식, 심볼은
         이미지만으로 표현한 정사각형 형식입니다.</para>
 
-        <para>이폼사인에서도 로고는 512 x 128의 가로이미지, 심볼은 120 x 120의 정사각형 이미지를 권장하고
-        있습니다.</para>
+        <para>이폼사인에서도 로고는 512 x 128의 가로 투명 이미지, 심볼은 120 x 120의 정사각형 투명 이미지를
+        권장하고 있습니다.</para>
       </note>
 
       <para><emphasis role="bold">회사 로고 등록하는 방법</emphasis></para>

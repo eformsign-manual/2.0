@@ -70,15 +70,11 @@
 
     <para/>
 
-    <figure>
-      <title/>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/inbox_ex1.png" width="700"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="resources/inbox_ex1.png" width="700"/>
+      </imageobject>
+    </mediaobject>
 
     <para><note>
         <para>각각의 문서함과 문서 관리 화면 구성은 거의 동일하지만, 상태 또는 권한에 따라 표시되는 문서에 차이가
@@ -129,7 +125,7 @@
       </varlistentry>
 
       <varlistentry>
-        <term>③ 문서 리스트 및 <link linkend="additional_work">작업 항목</link> </term>
+        <term>③ 문서 리스트 및 <link linkend="additional_work">작업 항목</link></term>
 
         <listitem>
           <para>문서는 페이지마다 최대 20개의 리스트를 표시하며 20개를 넘는 문서는 페이지 구분을 통해
@@ -476,8 +472,6 @@
           <para>상세 콤보박스에서 <emphasis role="bold">사용자 지정 필터</emphasis>를
           선택합니다.</para>
 
-          <para/>
-
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/userdefined_search1.png"/>
@@ -803,8 +797,8 @@
     </section>
   </section>
 
-  <section>
-    <title>임시 보관함<xref linkend="Drafts"/></title>
+  <section xml:id="drafts">
+    <title>임시 보관함</title>
 
     <para><emphasis role="bold">임시 보관함</emphasis>에는 <emphasis role="bold">내
     파일로 문서 작성</emphasis> 과정에서 <emphasis role="bold">문서를 전송하기 </emphasis>이전에 임시

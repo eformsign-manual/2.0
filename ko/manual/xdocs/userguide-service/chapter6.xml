@@ -79,32 +79,37 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">일반 설정</emphasis></para>
+          <para><emphasis role="bold"><link linkend="general_fb">일반
+          설정</link></emphasis></para>
 
           <para>템플릿 이름, 약칭, 문서 제목, 문서 번호 등을 설정합니다.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">권한 설정</emphasis></para>
+          <para><emphasis role="bold"><link linkend="auth_fb">권한
+          설정</link></emphasis></para>
 
           <para>해당 템플릿을 사용해 문서를 생성할 수 있는 템플릿 사용 권한과 생성된 문서를 관리할 멤버 또는 그룹을
           지정합니다.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">워크플로우 설정</emphasis></para>
+          <para><emphasis role="bold"><link linkend="workflow_fb">워크플로우
+          설정</link></emphasis></para>
 
           <para>문서의 작성부터 완료까지 작성된 문서가 처리될 단계를 설정합니다.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">필드 설정</emphasis></para>
+          <para><emphasis role="bold"><link linkend="field_fb">필드
+          설정</link></emphasis></para>
 
           <para>필드의 기본값, 자동 입력 값 등을 설정합니다.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">알림 설정 </emphasis></para>
+          <para><emphasis role="bold"><link linkend="noti_fb">알림 설정</link>
+          </emphasis></para>
 
           <para>해당 템플릿을 통해 생성되는 문서의 요청 또는 상태 변경시 알림을 수신할 채널, 수신자, 또는 알림 메시지 내용
           등을 설정합니다</para>
@@ -206,7 +211,7 @@
       </listitem>
     </orderedlist>
 
-    <section>
+    <section xml:id="general_fb">
       <title>일반 설정</title>
 
       <figure>
@@ -804,7 +809,7 @@
           <para><emphasis role="bold">문서 목록에서 문서번호 확인하기</emphasis></para>
 
           <figure>
-            <title>전체 문서함 - 문서 목록</title>
+            <title>문서함 - 문서 목록</title>
 
             <mediaobject>
               <imageobject>
@@ -815,7 +820,7 @@
           </figure>
 
           <figure>
-            <title>전체 문서함 - 문서 목록 - 문서번호 확인</title>
+            <title>문서함 - 문서 목록 - 문서번호 확인</title>
 
             <mediaobject>
               <imageobject>
@@ -825,7 +830,7 @@
             </mediaobject>
           </figure>
 
-          <para>문서번호는 문서 목록을 볼 수 있는 문서함(진행 중 문서함, 처리할 문서함, 전체 문서함) 및 문서 관리
+          <para>문서번호는 문서 목록을 볼 수 있는 문서함(진행 중 문서함, 처리할 문서함, 완료 문서함) 및 문서 관리
           메뉴(문서 관리 권한 필요)에서 확인할 수 있습니다.</para>
 
           <orderedlist>
@@ -898,7 +903,7 @@
       </itemizedlist>
     </section>
 
-    <section>
+    <section xml:id="auth_fb">
       <title>권한 설정</title>
 
       <para>권한 설정 화면에서는 템플릿 사용 권한과 문서 관리 권한을 설정할 수 있습니다.</para>
@@ -953,7 +958,7 @@
       </mediaobject>
     </section>
 
-    <section>
+    <section xml:id="workflow_fb">
       <title>워크플로우 설정</title>
 
       <para><emphasis role="bold">템플릿 설정</emphasis> 화면에서 <emphasis
@@ -1226,7 +1231,7 @@
 
               <para>업로드한 문서에 여러 개의 시트 또는 구역이 포함된 경우, 워크플로우의 외부 수신자 단계 속성 설정에서
               문서 일부 숨김 설정이 나타납니다. 문서에 포함된 시트 또는 구역의 이름이 목록으로 표시되어 각 시트 또는 구역
-              별로 보이기, 숨기기 또는 이전 단계 요청자가 선택할 수 있도록 설정할 수 있습니다. </para>
+              별로 보이기, 숨기기 또는 이전 단계 요청자가 선택할 수 있도록 설정할 수 있습니다.</para>
 
               <mediaobject>
                 <imageobject>
@@ -1274,7 +1279,7 @@
       </variablelist>
     </section>
 
-    <section>
+    <section xml:id="field_fb">
       <title>필드 설정</title>
 
       <para><emphasis role="bold"><indexterm class="singular">
@@ -1340,7 +1345,7 @@
       </tip>
     </section>
 
-    <section>
+    <section xml:id="noti_fb">
       <title>알림 설정</title>
 
       <para><indexterm class="singular">
@@ -1396,8 +1401,8 @@
 
       <para>각 알림 템플릿 메시지는 <emphasis role="bold">회사 관리 &gt; 알림 템플릿
       관리</emphasis> 페이지에 설정된 내용에 따라 기본적으로 반영되어 있습니다. <emphasis role="bold">편집
-      </emphasis>버튼을 클릭해 직접 메시지를 편집할 수 있으며, 해당 요청의 수신자에게 알림 발송 여부를 설정할 수 있습니다.
-      </para>
+      </emphasis>버튼을 클릭해 직접 메시지를 편집할 수 있으며, 해당 요청의 수신자에게 알림 발송 여부를 설정할 수
+      있습니다.</para>
 
       <mediaobject>
         <imageobject>
