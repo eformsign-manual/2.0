@@ -235,7 +235,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>① 폼 파일</term>
+          <term><emphasis role="bold">① 폼 파일</emphasis></term>
 
           <listitem>
             <para><emphasis role="bold">폼빌더</emphasis>를 통해 워드, 파워포인트, 엑셀에서
@@ -245,7 +245,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>② 템플릿 이름</term>
+          <term><emphasis role="bold">② 템플릿 이름</emphasis></term>
 
           <listitem>
             <para><emphasis role="bold">템플릿 관리</emphasis>, <emphasis
@@ -274,7 +274,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>③ 템플릿 약칭</term>
+          <term><emphasis role="bold">③ 템플릿 약칭</emphasis></term>
 
           <listitem>
             <para>템플릿을 간단히 표시하는 짧은 이름입니다. 2~3글자 정도의 짧은 단어를 권장합니다.</para>
@@ -295,7 +295,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>④ 카테고리</term>
+          <term><emphasis role="bold">④ 카테고리</emphasis></term>
 
           <listitem>
             <para>템플릿을 종류별로 구분할 때 사용합니다. 카테고리 이름으로 <emphasis role="bold">템플릿
@@ -312,7 +312,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>⑤ 설명</term>
+          <term><emphasis role="bold">⑤ 설명</emphasis></term>
 
           <listitem>
             <para>템플릿에 대한 추가적인 설명을 입력합니다. 이 설명 내용은 목록 및 새 문서 작성의 템플릿 이름 하단에
@@ -321,7 +321,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>⑥ 문서작성 유효기간</term>
+          <term><emphasis role="bold">⑥ 문서작성 유효기간</emphasis></term>
 
           <listitem>
             <para>템플릿으로 문서를 생성할 수 있는 기한을 설정합니다. 시작일은 템플릿을 업로드한 날로 기본 설정되며 날짜를
@@ -334,7 +334,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>문서 설정</term>
+          <term><emphasis role="bold">문서 설정</emphasis></term>
 
           <listitem>
             <para>템플릿으로 생성한 문서에 대한 제목 설정 규칙 등 추가 설정을 합니다.</para>
@@ -342,7 +342,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>⑦ 문서 제목 자동 설정 규칙</term>
+          <term><emphasis role="bold">⑦ 문서 제목 자동 설정 규칙</emphasis></term>
 
           <listitem>
             <para>템플릿으로 문서를 작성할 때 입력된 문서의 제목을 설정합니다. 문서 제목 규칙을 설정하지 않을 경우 템플릿
@@ -354,7 +354,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>⑧ 문서 제목 변경 허용</term>
+          <term><emphasis role="bold">⑧ 문서 제목 변경 허용</emphasis></term>
 
           <listitem>
             <para><emphasis role="bold">문서 제목 변경 허용</emphasis>을 체크하면 <emphasis
@@ -363,7 +363,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>⑨ 문서 번호 자동 부여</term>
+          <term><emphasis role="bold">⑨ 문서 번호 자동 부여</emphasis></term>
 
           <listitem>
             <para><indexterm class="singular">
@@ -375,14 +375,15 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/template-setting-general-doc-numering.png"/>
+                <imagedata fileref="resources/template-setting-general-doc-numering.png"
+                           width="500"/>
               </imageobject>
             </mediaobject>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>⑩ 문서 전송 시 시 팝업 생략</term>
+          <term><emphasis role="bold">⑩ 문서 전송 시 시 팝업 생략</emphasis></term>
 
           <listitem>
             <para>문서를 빨리 작성하고 제출하는 일이 많을 때 사용합니다. 이 설정을 체크하지 않으면 문서 전송
@@ -406,7 +407,7 @@
 
       <para>문서에 입력된 내용, 또는 문서 작성 관련 정보가 문서 제목에 자동으로 입력되도록 설정할 수 있습니다. 문서 제목
       규칙을 설정하면 문서 작성 시점의 정보를 바탕으로 문서 제목이 생성되며 이 제목은 모든 문서함(진행중 문서함, 처리할 문서함,
-      전체 문서함)과 문서 관리 메뉴의 문서 목록에서 확인할 수 있습니다</para>
+      완료 문서함)과 문서 관리 메뉴의 문서 목록에서 확인할 수 있습니다</para>
 
       <note>
         <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는<emphasis
@@ -1406,7 +1407,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/template-setting-notification-edit.png"/>
+          <imagedata fileref="resources/template-setting-notification-edit.png"
+                     width="400"/>
         </imageobject>
       </mediaobject>
 

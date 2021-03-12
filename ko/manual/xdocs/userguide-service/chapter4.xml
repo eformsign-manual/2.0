@@ -629,7 +629,8 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/check-component-properties-1.png"/>
+              <imagedata fileref="resources/check-component-properties-1.png"
+                         width="300"/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -681,7 +682,8 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/Radio-component-properties.png"/>
+              <imagedata fileref="resources/Radio-component-properties.png"
+                         width="300"/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -699,7 +701,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/radio-items-should-have-same-ID.png"/>
+            <imagedata fileref="resources/radio-items-should-have-same-ID.png"
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -754,7 +757,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/combo-component-properties.png"/>
+            <imagedata fileref="resources/combo-component-properties.png"
+                       width="300"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -821,7 +825,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/text-component-properties.png"/>
+            <imagedata fileref="resources/text-component-properties.png"
+                       width="300"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -875,7 +880,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/datetime-component-properties_02.png"/>
+            <imagedata fileref="resources/datetime-component-properties_02.png"
+                       width="300"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -965,7 +971,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/number-component-properties.png"/>
+            <imagedata fileref="resources/number-component-properties.png"
+                       width="300"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1042,7 +1049,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/toggle-component-properties.png"/>
+            <imagedata fileref="resources/toggle-component-properties.png"
+                       width="300"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1111,7 +1119,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/Signature-component-properties.png"/>
+            <imagedata fileref="resources/Signature-component-properties.png"
+                       valign="middle" width="300"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1231,7 +1240,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/Camera-component-properties-.png"/>
+            <imagedata fileref="resources/Camera-component-properties-.png"
+                       width="300"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1281,7 +1291,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/record_component.png"/>
+              <imagedata fileref="resources/record_component.png" width="300"/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -1330,7 +1340,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/Attachment-component-properties.png"/>
+            <imagedata fileref="resources/Attachment-component-properties.png"
+                       width="300"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1368,7 +1379,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/user-component-properties-.png"/>
+            <imagedata fileref="resources/user-component-properties-.png"
+                       width="300"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1402,7 +1414,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/user-input-certain-component.png"/>
+          <imagedata fileref="resources/user-input-certain-component.png"
+                     width="300"/>
         </imageobject>
       </mediaobject>
 
@@ -1460,7 +1473,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/date-component-properties_.png"/>
+            <imagedata fileref="resources/date-component-properties_.png"
+                       width="300"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1518,7 +1532,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/date-component-connecting-other-component.png"/>
+          <imagedata fileref="resources/date-component-connecting-other-component.png"
+                     width="300"/>
         </imageobject>
       </mediaobject>
 
@@ -1558,7 +1573,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/document-domponent-properties.png"/>
+            <imagedata fileref="resources/document-domponent-properties.png"
+                       width="300"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1630,7 +1646,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/form_upload_login.png" width="750"/>
+            <imagedata fileref="resources/form_upload_login.png" width="700"/>
           </imageobject>
         </mediaobject>
       </listitem>
@@ -1640,7 +1656,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/upload_preview.png" width="750"/>
+            <imagedata fileref="resources/upload_preview.png" width="700"/>
           </imageobject>
         </mediaobject>
       </listitem>
@@ -1656,7 +1672,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/upload_list.png" width="750"/>
+            <imagedata fileref="resources/upload_list.png" width="700"/>
           </imageobject>
         </mediaobject>
       </listitem>
@@ -1668,7 +1684,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/upload_save.png" width="750"/>
+            <imagedata fileref="resources/upload_save.png" width="700"/>
           </imageobject>
         </mediaobject>
       </listitem>

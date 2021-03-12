@@ -86,7 +86,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/inbox_layout.png" width="750"/>
+          <imagedata fileref="resources/inbox_layout.png" width="700"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -216,15 +216,15 @@
       <para>카테고리 검색 콤보박스를 활용하면 템플릿 관리 메뉴에서 설정한 카테고리별로 문서를 표시하고 이 중 원하는 카테고리나
       문서를 확인할 수 있습니다.</para>
 
-      <para>카테고리 검색 콤보박스의 X 아이콘를 누르면 아래와 같이 템플릿에서 설정한 카테고리에 맞춰서 생성된 매뉴얼이 분류되어
-      나타납니다.</para>
+      <para>카테고리 검색 콤보박스의 <emphasis role="bold">X </emphasis>아이콘를 누르면 아래와 같이
+      템플릿에서 설정한 카테고리에 맞춰서 생성된 매뉴얼이 분류되어 나타납니다.</para>
 
       <figure>
         <title>카테고리 검색 콤보박스</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/category_search.png"/>
+            <imagedata fileref="resources/category_search.png" width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -274,7 +274,7 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">서 관리</emphasis></para>
+          <para><emphasis role="bold">문서 관리</emphasis></para>
 
           <mediaobject>
             <imageobject>
@@ -630,7 +630,7 @@
         </listitem>
 
         <listitem>
-          <para>추가한 검색 키워드는 오른쪽의<emphasis role="bold">X</emphasis>아이콘을 클릭해
+          <para>추가한 검색 키워드는 오른쪽의 <emphasis role="bold">X</emphasis>아이콘을 클릭해
           삭제합니다.</para>
         </listitem>
       </orderedlist>
@@ -668,10 +668,6 @@
           role="bold">문서 관리</emphasis>에서만 삭제할 수 있습니다.</para>
         </listitem>
       </itemizedlist>
-
-      <para/>
-
-      <para/>
     </section>
 
     <section xml:id="history">
@@ -690,7 +686,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/document_status.png"/>
+              <imagedata fileref="resources/document_status.png" width="300"/>
             </imageobject>
           </mediaobject>
         </figure><figure>
@@ -698,7 +694,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/document_history.png"/>
+              <imagedata fileref="resources/document_history.png" width="300"/>
             </imageobject>
           </mediaobject>
         </figure></para>

@@ -409,7 +409,7 @@
 
       <para>문서에 입력된 내용, 또는 문서 작성 관련 정보가 문서 제목에 자동으로 입력되도록 설정할 수 있습니다. 문서 제목
       규칙을 설정하면 문서 작성 시점의 정보를 바탕으로 문서 제목이 생성되며 이 제목은 모든 문서함(진행중 문서함, 처리할 문서함,
-      전체 문서함)과 문서 관리 메뉴의 문서 목록에서 확인할 수 있습니다</para>
+      완료 문서함)과 문서 관리 메뉴의 문서 목록에서 확인할 수 있습니다</para>
 
       <note>
         <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는<emphasis
@@ -786,7 +786,7 @@
               <mediaobject>
                 <imageobject>
                   <imagedata fileref="resources/web-form-designer-document-component.png"
-                             width="750"/>
+                             width="700"/>
                 </imageobject>
               </mediaobject>
             </listitem>
@@ -983,7 +983,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/workflow-setting_new.PNG"
-                       width="700"/>
+                       width="600"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1392,7 +1392,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/template-setting-notification-edit.png"/>
+          <imagedata fileref="resources/template-setting-notification-edit.png"
+                     width="450"/>
         </imageobject>
       </mediaobject>
 

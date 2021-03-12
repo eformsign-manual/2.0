@@ -228,12 +228,10 @@ Republic of Korea 06106</otheraddr>
 Tel: +82 2 6188 8200
 Email: <email>eformsign@forcs.com</email>
 Web (Korean): <link xlink:href="https://www.eformsign.com/kr/index.html">https://www.eformsign.com/kr/index.html</link> 
-
 </address></para>
 
   <para><bridgehead>Singapore</bridgehead><address><otheraddr>FORCS Singapore Pte Ltd</otheraddr>
-8 Shenton Way,
-#04-01 AXA Tower,
+8 Shenton Way, #04-01 AXA Tower,
 Singapore 068811
 Tel: +65 6100 2007 
 Email:<email>singapore@forcs.com</email>
@@ -241,20 +239,18 @@ Web (Korean):<link xlink:href="https://www.eformsign.com/global/index.html"> htt
 </address></para>
 
   <para><bridgehead>Japan</bridgehead><address>FORCS Japan
-Tokyo-to, Shibuya-ku,
-Sendagaya, 4 Chome-11-9,
+Tokyo-to, Shibuya-ku, Sendagaya, 4 Chome-11-9,
 #402, 151-0051, Japan
 Email: <email>eformsign@forcs.com</email>
 Web (Korean): <otheraddr><link
           xlink:href="https://www.eformsign.com/jp/index.html">https://www.eformsign.com/jp/index.html
 </link></otheraddr></address></para>
 
-  <?dbfo-need height="10in" ?>
-
   <para><bridgehead>Europe</bridgehead><address>FORCS Europe<otheraddr>
-</otheraddr>Cours Saint-Michel 30B,
-Sint-Michielswarande,
+</otheraddr>Cours Saint-Michel 30B, Sint-Michielswarande,
 1040 Etterbeek, Belgium
 Email: <email>singapore@forcs.com</email>
 Web (Korean): <link xlink:href="https://www.eformsign.com/global/index.html">https://www.eformsign.com/global/index.html</link></address></para>
+
+  <?dbfo-need height="10in" ?>
 </preface>
