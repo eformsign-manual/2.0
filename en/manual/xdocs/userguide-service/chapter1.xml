@@ -182,41 +182,41 @@
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">New document</emphasis></para>
+        <para><emphasis role="bold">Document</emphasis></para>
 
         <para><indexterm class="singular">
-            <primary>Documents</primary>
-          </indexterm>New documents can be created by using templates in the
-        <emphasis role="bold">New document</emphasis> menu. The number of
-        documents created in eformsign refers to the documents created
-        here.</para>
+            <primary>Document</primary>
+          </indexterm>A document can be an electronic document you create and
+        send for signature by using a template or an electronic document you
+        create and end by upload your file. A document can be create and sent
+        for signature by using either one of the <emphasis role="bold">New
+        from my file</emphasis> menu or the <emphasis role="bold">New from
+        template</emphasis> menu. Any document created like this counts as a
+        document created in eformsign.</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">Documents</emphasis></para>
-
         <para><indexterm class="singular">
-            <primary>Documents</primary>
+            <primary>Documents menus</primary>
           </indexterm>This is a cloud space for storing and viewing documents.
-        It consists of the following three spaces according to the document
+        It consists of the following three menus according to the document
         status:</para>
 
         <itemizedlist>
+          <listitem>
+            <para><emphasis role="bold">Action required:</emphasis><indexterm
+                class="singular">
+                <primary>Action required</primary>
+              </indexterm> Shows the list of documents that you need to sign,
+            approve, or send.</para>
+          </listitem>
+
           <listitem>
             <para><emphasis role="bold">In progress:</emphasis><indexterm
                 class="singular">
                 <primary>In progress</primary>
               </indexterm> Shows the list of documents you have created or
             processed but are incomplete.</para>
-          </listitem>
-
-          <listitem>
-            <para><emphasis role="bold">Action required:</emphasis><indexterm
-                class="singular">
-                <primary>Action required</primary>
-              </indexterm> Shows the list of documents you have temporarily
-            saved or documents that other members have requested to you to
-            sign or approve.</para>
           </listitem>
 
           <listitem>
@@ -227,6 +227,16 @@
             have created or participated in.</para>
           </listitem>
         </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Drafts</emphasis></para>
+
+        <para><indexterm class="singular">
+            <primary>Drafts</primary>
+          </indexterm>Shows the list of documents saved as draft when creating
+        a document by accessing the<emphasis role="bold"> New from my
+        file</emphasis> menu.</para>
       </listitem>
     </itemizedlist>
 
@@ -333,27 +343,23 @@
     </note>
 
     <section>
-      <title>Using Web Form Designer</title>
+      <title>New from my file</title>
 
       <para><indexterm class="singular">
-          <primary>Web form designer</primary>
-        </indexterm>You can create a template by uploading a document file(in
-      the PDF format) on eformsign and then adding the components you want
-      such as text, signature, and date onto the document. After adding
-      components to the uploaded document, configure the template settings and
-      deploy the template. You can configure the detailed template settings by
-      going to the <emphasis role="bold">Manage templates</emphasis> menu &gt;
-      selecting the template you want &gt; setting the <emphasis
-      role="bold">General</emphasis>, <emphasis role="bold">Set
-      permissions</emphasis>, <emphasis role="bold">Workflow</emphasis>,
-      <emphasis role="bold">Field</emphasis>, and <emphasis
-      role="bold">Notification settings</emphasis> tabs &gt; deploying the
-      template. You can then go to the <emphasis role="bold">New
-      document</emphasis> menu to create a document from a template you
-      deployed and send it to recipients.</para>
+          <primary>New from my file</primary>
+        </indexterm>You can upload a PDF file onto eformsign and then create
+      and send a document by adding components such as text, signature, and
+      date. You can easily and freely send a document by uploading a file,
+      without the need to create a template. Just simply add components to the
+      uploaded document, set the workflow in the <emphasis role="bold">Add
+      recipients</emphasis> step, and then press the S<emphasis
+      role="bold">tart Now button</emphasis> to send.</para>
+
+      <para>Also, before sending a document to recipients, you can temporarily
+      save it as a draft and then send it later.</para>
 
       <figure>
-        <title>Usage Flow of eformsign Using Web Form Designer</title>
+        <title>Usage Flow of eformsign using New from my file</title>
 
         <mediaobject>
           <imageobject>
@@ -364,35 +370,73 @@
     </section>
 
     <section>
-      <title>Using Form Builder</title>
+      <title>Create from template</title>
 
-      <para><indexterm class="singular">
-          <primary>Form builder</primary>
-        </indexterm>You can create a template by creating or opening a
-      document file in Microsoft Office (Word, Excel, and PowerPoint), and
-      then using the ribbon menu (named <emphasis role="bold">OZ in
-      Office</emphasis>) to add the components you want such as text,
-      signature, and date onto the document. Then, you can upload the template
-      you created onto eformsign by clicking the <emphasis
-      role="bold">Upload</emphasis> button in the ribbon menu. After uploading
-      the template, set the template settings and deploy the template. You can
-      set the template settings by logging into the eformsign website, going
-      to the <emphasis role="bold">Manage templates</emphasis> menu &gt;
-      selecting the template you want &gt; setting the <emphasis
-      role="bold">General</emphasis>, <emphasis role="bold">Set
-      permissions</emphasis>, <emphasis role="bold">Workflow</emphasis>,
-      <emphasis role="bold">Field</emphasis>, and <emphasis
-      role="bold">Notification settings</emphasis> tabs &gt; deploying the
-      template. You can then go to the <emphasis role="bold">New
-      document</emphasis> menu to create a document from a template deployed
-      and send it to recipients.</para>
+      <para>There are two ways to create a document from a template: uploading
+      a file on eformsign and creating a template using Web Form Designer, and
+      creating a tempalte using Microsoft Office using Form Builder and
+      uploading it on eformsign.</para>
+
+      <orderedlist>
+        <listitem>
+          <para><emphasis role="bold">Using Web Form
+          Designer</emphasis></para>
+
+          <para><indexterm class="singular">
+              <primary>Web Form Designer</primary>
+            </indexterm>You can create a template by uploading a document file
+          (in the PDF format) on eformsign and then adding the components you
+          want such as text, signature, and date onto the document. After
+          adding components in the uploaded document, configure the template
+          settings and deploy the template.You can configure the detailed
+          template settings by going to the Manage templates menu &gt;
+          selecting the template you want &gt; setting the General, Set
+          permissions, Workflow, Field, and Notification settings tabs &gt;
+          deploying the template.You can then go to the New document menu to
+          create a document from a template you deployed and send it to
+          recipients</para>
+
+          <para>.</para>
+
+          <figure>
+            <title>[Figure 1.5] Usage Flow of eformsign Using Web Form
+            Designer</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata contentwidth="699" fileref="resources/use_flow.png"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Using Form Builder</emphasis></para>
+
+          <para><indexterm class="singular">
+              <primary>Form Builder</primary>
+            </indexterm>You can create a template by creating or opening a
+          document file in Microsoft Office (Word, Excel, and PowerPoint), and
+          then using the ribbon menu (named OZ in Office) to add the
+          components you want such as text, signature, and date onto the
+          document.Then, you can upload the template you created onto
+          eformsign by clicking the Upload button in the ribbon menu. After
+          uploading the template, set the template settings and deploy the
+          template.You can set the template settings by logging into the
+          eformsign website, going to the Manage templates menu &gt; selecting
+          the template you want &gt; setting the General, Set permissions,
+          Workflow, Field, and Notification settings tabs &gt; deploying the
+          template.You can then go to the New document menu to create a
+          document from a deployed template and send it to recipients</para>
+        </listitem>
+      </orderedlist>
 
       <figure>
-        <title>Usage Flow of eformsign Using Form Builder</title>
+        <title>[Figure 1.6] Usage Flow of eformsign Using Form Builder</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/use_flow.png" width="800"/>
+            <imagedata fileref="resources/use_flow2.png" width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
