@@ -21,7 +21,7 @@
             <imagedata fileref="resources/menu_icon.png"/>
           </imageobject>
         </inlinemediaobject>)
-      をクリックすれば、次のようなサイドバーメニューが表示されます。各メニューは、ユーザーの権限によって異なって表示される場合があります。代表管理者には、すべてのメニューが表示され、代表管理者がすべての権限を持ちます。</para>
+      をクリックすれば、次のようなサイドバーメニューが表示されます。各メニューは、ユーザーの権限によって異なって表示される場合があります。代表管理者はすべての権限を持ち、すべてのメニューが表示されます。</para>
 
       <figure>
         <title>eformsignのメニューの構成</title>
@@ -41,7 +41,28 @@
           <para><emphasis role="bold">文書の新規作成：</emphasis><indexterm
               class="singular">
               <primary sortas="ぶんしょのしんきさくせい">文書の新規作成</primary>
-            </indexterm>文書を作成可能なテンプレートのリストが表示されます。リストからテンプレートを選択して文書を作成します。</para>
+            </indexterm>お手持ちのPDFファイル、または登録された作成可能なテンプレートのリストから選択して文書を作成します。</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis
+              role="bold">マイファイルで作成する:</emphasis>登録済みのテンプレートがない場合にも、PDFファイルをeformsignに直接アプロードして必要なコンポーネントを追加し、受信者に送信します。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis
+              role="bold">テンプレートで作成する:</emphasis>作成可能なテンプレートのリストを表示し、テンプレートを選択して文書を作成します。</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">下書きとして保存：</emphasis> <indexterm
+              class="singular">
+              <primary sortas="ぶんしょかんり">下書きとして保存</primary>
+            </indexterm><emphasis role="bold"><emphasis
+          role="bold">マイファイルで作成する</emphasis></emphasis>メニューで<emphasis
+          role="bold">文書作成をスタート</emphasis>をクリックする前に下書き保存した文書のリストを表示します。</para>
         </listitem>
 
         <listitem>
@@ -52,17 +73,17 @@
 
           <itemizedlist>
             <listitem>
-              <para><emphasis role="bold">進行中の文書：</emphasis><indexterm
-                  class="singular">
-                  <primary sortas="しんこうちゅうのぶんしょ">進行中の文書</primary>
-                </indexterm>作成または処理済みで、完了はしていない文書のリストを表示します。</para>
-            </listitem>
-
-            <listitem>
               <para><emphasis role="bold">要処理文書：</emphasis><indexterm
                   class="singular">
                   <primary sortas="ようしょりぶんしょ">要処理文書</primary>
-                </indexterm>下書きとして保存した文書や、他のメンバーが作成または決裁を依頼した文書のリストを表示します。</para>
+                </indexterm>決裁依頼や作成依頼など、自分が処理する必要のある文書のリストを表示します。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">進行中の文書：</emphasis><indexterm
+                  class="singular">
+                  <primary sortas="しんこうちゅうのぶんしょ">進行中の文書</primary>
+                </indexterm>自分が作成または処理済みの文書で、完了はしていない文書のリストを表示します。</para>
             </listitem>
 
             <listitem>
@@ -85,14 +106,18 @@
           <para><emphasis role="bold">マイ署名：</emphasis><indexterm
               class="singular">
               <primary>マイ署名</primary>
-            </indexterm>マイ署名を登録し、文書の作成時に便利に署名欄に適用することができます。</para>
+            </indexterm>署名を登録し、文書の作成時に便利に署名欄に適用することができます。</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">テンプレート管理：</emphasis><indexterm
               class="singular">
               <primary>テンプレート管理</primary>
-            </indexterm>このメニューには、テンプレート管理の権限がある場合にのみアクセスできます。テンプレートのリストを確認でき、テンプレートを設定できます。</para>
+            </indexterm>このメニューには、テンプレート管理の権限がある場合にのみアクセスできます。テンプレートのリストを確認でき、テンプレートの作成や設定が</para>
+        </listitem>
+
+        <listitem>
+          <para>できます。</para>
         </listitem>
 
         <listitem>
@@ -106,7 +131,7 @@
               <para><emphasis role="bold">会社情報：</emphasis><indexterm
                   class="singular">
                   <primary sortas="かいしゃじょうほう">会社情報</primary>
-                </indexterm>会社情報を確認することができます。</para>
+                </indexterm>会社情報を確認・修正し、ダッシュボードやメールなどに適用されるブランドイメージ画像を設定できます</para>
             </listitem>
 
             <listitem>
@@ -142,7 +167,7 @@
               <para><emphasis role="bold">署名の設定：</emphasis><indexterm
                   class="singular">
                   <primary sortas="しょめいのせってい">署名の設定</primary>
-                </indexterm>文書の署名欄に直接署名するときに使用可能な署名方法が選択できます。</para>
+                </indexterm>サイン、イニシャル、印鑑の署名方法を選択できます。</para>
             </listitem>
           </itemizedlist>
         </listitem>
@@ -151,7 +176,7 @@
           <para><emphasis role="bold">コネクト：</emphasis> <indexterm
               class="singular">
               <primary>コネクト</primary>
-            </indexterm>このメニューには、代表管理者のみがアクセスできます。外部サービスと連動して使用する機能を確認することができます。</para>
+            </indexterm>このメニューには、代表管理者のみアクセスできます。外部サービスと連動して使用する機能を確認することができます。</para>
 
           <itemizedlist>
             <listitem>
@@ -185,6 +210,23 @@
         <listitem>
           <para><emphasis role="bold">料金管理：</emphasis>
           料金プランと決済履歴を照会し、料金プランや決済手段を変更できます。</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">요금제
+              변경:</emphasis>使用中の料金プランを変更できます。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">실시간
+              요금:</emphasis>現在までの利用状況や料金状況をリアルタイムで照会できます。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">결제 수단
+              설정:</emphasis>決済時に使用されるクレジットカードの情報を登録できます。</para>
+            </listitem>
+          </itemizedlist>
         </listitem>
 
         <listitem>
@@ -223,18 +265,107 @@
 
       <variablelist>
         <varlistentry>
-          <term><emphasis role="bold">① 文書の新規作成</emphasis></term>
+          <term><emphasis role="bold">① テンプレートで作成する</emphasis></term>
 
           <listitem>
             <para><indexterm class="singular">
-                <primary sortas="ぶんしょのしんきさくせい">文書の新規作成</primary>
+                <primary sortas="ぶんしょのしんきさくせい">テンプレートで作成する</primary>
               </indexterm>保存したテンプレートを使用して、文書を新規作成できる<emphasis role="bold">
-            文書の新規作成</emphasis> 画面に移動します。</para>
+            </emphasis><emphasis
+            role="bold">テンプレートで作成する</emphasis>画面に移動します。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">② 進行中の文書</emphasis></term>
+          <term><emphasis role="bold">② マイファイルで作成する</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary sortas="しんこうちゅうのぶんしょ">マイファイルで作成する</primary>
+              </indexterm>PDFファイルを直接アップロードして文書を新規作成できる<emphasis
+            role="bold">マイファイルで作成する</emphasis>画面に移動します。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">③ お気に入り</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary>お気に入り</primary>
+              </indexterm><emphasis
+            role="bold">お気に入り</emphasis>に登録したテンプレートを表示します。テンプレートをクリックすると、文書を作成できる画面に移動し、そのテンプレートで文書を新規作成できます。テンプレートをお気に入りに追加するには、<emphasis
+            role="bold">追加</emphasis>アイコン (<inlinemediaobject>
+                <imageobject>
+                  <imagedata contentwidth="17"
+                             fileref="resources/favorites-add.PNG"/>
+                </imageobject>
+              </inlinemediaobject>)
+            をクリックして新規登録します。お気に入りに登録したテンプレートを削除するには、<emphasis
+            role="bold">編集</emphasis>アイコン (<inlinemediaobject>
+                <imageobject>
+                  <imagedata contentwidth="18"
+                             fileref="resources/favorites-edit.PNG"/>
+                </imageobject>
+              </inlinemediaobject>) をクリックして削除します。</para>
+
+            <tip>
+              <para><emphasis
+              role="bold">使用頻度の高いテンプレートをお気に入りに登録する方法！</emphasis></para>
+
+              <para>頻繁に使用するテンプレートをお気に入りとして追加して文書を作成できます。テンプレートの お気に入り
+              への登録は、ダッシュボードで行います。</para>
+
+              <orderedlist>
+                <listitem>
+                  <para>ダッシュボードの<emphasis
+                  role="bold">お気に入り</emphasis>ボックスで、<emphasis
+                  role="bold">追加</emphasis>アイコン ( <inlinemediaobject>
+                      <imageobject>
+                        <imagedata contentwidth="17"
+                                   fileref="resources/favorites-add.PNG"/>
+                      </imageobject>
+                    </inlinemediaobject>) をクリックします。</para>
+                </listitem>
+
+                <listitem>
+                  <para>クリックすると、お気に入りにリスト化されていないテンプレートのリストがポップアップ表示されます。</para>
+                </listitem>
+
+                <listitem>
+                  <para><emphasis
+                  role="bold">お気に入り</emphasis>に追加するテンプレートのチェックボックスをクリックします。</para>
+
+                  <para><inlinemediaobject>
+                      <imageobject>
+                        <imagedata fileref="resources/favorites-add-popup2.PNG"
+                                   width="700"/>
+                      </imageobject>
+                    </inlinemediaobject></para>
+                </listitem>
+
+                <listitem>
+                  <para><emphasis
+                  role="bold">選択</emphasis>をクリックして、お気に入りに追加します。</para>
+                </listitem>
+              </orderedlist>
+            </tip>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">④ 要処理文書</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary sortas="ようしょりぶんしょ">要処理文書</primary>
+              </indexterm>処理する必要のある文書の数を表示します。クリックすると <emphasis
+            role="bold">要処理文書 </emphasis>に移動します。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑤ 進行中の文書</emphasis></term>
 
           <listitem>
             <para><indexterm class="singular">
@@ -246,18 +377,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">③ 要処理文書</emphasis></term>
-
-          <listitem>
-            <para><indexterm class="singular">
-                <primary sortas="ようしょりぶんしょ">要処理文書</primary>
-              </indexterm>処理する必要のある文書の数を表示します。クリックすると <emphasis
-            role="bold">要処理文書 </emphasis>に移動します。</para>
-          </listitem>
-        </varlistentry>
-
-        <varlistentry>
-          <term><emphasis role="bold">④ 完了文書</emphasis></term>
+          <term><emphasis role="bold">⑥ 完了文書</emphasis></term>
 
           <listitem>
             <para><indexterm class="singular">
@@ -268,17 +388,20 @@
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">⑤ 進行中の文書</emphasis></term>
+          <term><emphasis role="bold">⑦下書きとして保存</emphasis></term>
 
           <listitem>
-            <para>進行中の文書の数と、最新の3つの文書のリストを表示します。リスト内の文書名をクリックすると、その文書に直接移動します。そして、<emphasis
-            role="bold">More</emphasis> をクリックすると、<emphasis role="bold">
-            進行中の文書</emphasis> に移動します。</para>
+            <para> <indexterm class="singular">
+                <primary sortas="ぶんしょかんり">下書きとして保存</primary>
+              </indexterm><emphasis role="bold"><emphasis
+            role="bold">マイファイルで作成する</emphasis></emphasis>メニューで<emphasis
+            role="bold">文書作成をスタート</emphasis>をクリックする前に下書き保存した文書の数が表示され、クリックすると、<emphasis
+            role="bold">下書きとして保存</emphasis> に移動します。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">⑥ 要処理文書</emphasis></term>
+          <term><emphasis role="bold">⑧ 要処理文書</emphasis></term>
 
           <listitem>
             <para>処理する必要のある文書の数と、最新の3つの文書のリストを表示します。リスト内の文書名をクリックすると、その文書に直接移動します。そして、<emphasis
@@ -288,7 +411,30 @@
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">⑦ 完了文書</emphasis></term>
+          <term><emphasis role="bold">⑨下書きとして保存</emphasis></term>
+
+          <listitem>
+            <para>下書きとして保存トレイに保存された文書の数と、最新の3つの文書のリストを表示します。リスト内の文書名をクリックすると、その文書に直接移動します。そして、<emphasis
+            role="bold">More</emphasis> をクリックすると、<emphasis role="bold">
+            </emphasis><emphasis role="bold">下書きとして保存</emphasis>
+            に移動します。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑩ 進行中の文書</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary sortas="しんこうちゅうのぶんしょ">進行中の文書</primary>
+              </indexterm>現在進行中の文書の数が表示され、クリックすると、<emphasis role="bold">
+            </emphasis>進行中の文書のリストが確認できる <emphasis
+            role="bold">進行中の文書</emphasis> に移動します。</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑪ 完了文書</emphasis></term>
 
           <listitem>
             <para>完了文書の最新の3つの文書のリストを表示します。リスト内の文書名をクリックすると、その文書に直接移動します。そして、<emphasis
@@ -296,74 +442,7 @@
             完了文書</emphasis> に移動します。</para>
           </listitem>
         </varlistentry>
-
-        <varlistentry>
-          <term><emphasis role="bold">⑧ お気に入り</emphasis></term>
-
-          <listitem>
-            <para><indexterm class="singular">
-                <primary>お気に入り</primary>
-              </indexterm>お気に入りに登録したテンプレートを表示します。テンプレートをクリックすると、「文書の新規作成」画面に直接移動し、そのテンプレートで文書を新規作成できます。テンプレートをお気に入りに追加するには、追加アイコン
-            (<inlinemediaobject>
-                <imageobject>
-                  <imagedata contentwidth="17"
-                             fileref="resources/favorites-add.PNG"/>
-                </imageobject>
-              </inlinemediaobject>)
-            をクリックして新規登録します。お気に入りに登録したテンプレートを削除するには、編集アイコン (<inlinemediaobject>
-                <imageobject>
-                  <imagedata contentwidth="18"
-                             fileref="resources/favorites-edit.PNG"/>
-                </imageobject>
-              </inlinemediaobject>) をクリックして削除します。</para>
-          </listitem>
-        </varlistentry>
       </variablelist>
-
-      <tip>
-        <para><emphasis
-        role="bold">使用頻度の高いテンプレートをお気に入りに登録する方法！</emphasis></para>
-
-        <para>頻繁に使用するテンプレートをお気に入りとして追加して文書を作成できます。テンプレートの <emphasis
-        role="bold">お気に入り</emphasis> への登録は、ダッシュボードで行います。</para>
-
-        <orderedlist>
-          <listitem>
-            <para>ダッシュボードの「お気に入り」ボックスで、追加アイコン ( <inlinemediaobject>
-                <imageobject>
-                  <imagedata contentwidth="17"
-                             fileref="resources/favorites-add.PNG"/>
-                </imageobject>
-              </inlinemediaobject>) をクリックします。</para>
-          </listitem>
-
-          <listitem>
-            <para>クリックすると、お気に入りにリスト化されていないテンプレートのリストがポップアップ表示されます。</para>
-
-            <para><inlinemediaobject>
-                <imageobject>
-                  <imagedata fileref="resources/favorites-add-popup.PNG"
-                             width="700"/>
-                </imageobject>
-              </inlinemediaobject></para>
-          </listitem>
-
-          <listitem>
-            <para>お気に入りに追加するテンプレートのチェックボックスをクリックします。</para>
-
-            <para><inlinemediaobject>
-                <imageobject>
-                  <imagedata fileref="resources/favorites-add-popup2.PNG"
-                             width="700"/>
-                </imageobject>
-              </inlinemediaobject></para>
-          </listitem>
-
-          <listitem>
-            <para>「選択」をクリックして、お気に入りに追加します。</para>
-          </listitem>
-        </orderedlist>
-      </tip>
     </section>
   </section>
 
