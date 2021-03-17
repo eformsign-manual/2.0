@@ -41,7 +41,7 @@
           <para><emphasis role="bold">文書の新規作成：</emphasis><indexterm
               class="singular">
               <primary sortas="ぶんしょのしんきさくせい">文書の新規作成</primary>
-            </indexterm>お手持ちのPDFファイル、または登録された作成可能なテンプレートのリストから選択して文書を作成します。</para>
+            </indexterm>PDFファイル、または登録された作成可能なテンプレートのリストから選択して文書を作成します。</para>
 
           <itemizedlist>
             <listitem>
@@ -1419,7 +1419,8 @@
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">印鑑・スタンプを登録 </emphasis>ボタンをクリックします。</para>
+        <para><emphasis role="bold">印鑑・スタンプ</emphasis> の下部にある<emphasis
+        role="bold"> 登録 </emphasis>ボタンをクリックします。</para>
 
         <figure>
           <title>印鑑・スタンプを登録ボタン</title>
