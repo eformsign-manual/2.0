@@ -449,7 +449,7 @@
       </inlinemediaobject>)을 클릭하여 확인할 수 있습니다.</para>
 
     <figure>
-      <title>내 정보 확인 아이콘 위</title>
+      <title>내 정보 확인 아이콘</title>
 
       <mediaobject>
         <imageobject>
@@ -793,8 +793,9 @@
         <para><emphasis role="bold">회사 관리</emphasis> <indexterm
             class="singular">
             <primary>회사 관리 권한</primary>
-          </indexterm>메뉴에 접근할 수 있습니다. 회사 정보, 멤버, 그룹 등을 관리할 수 있으며, <emphasis
-        role="bold">멤버 관리</emphasis>에서 권한을 설정할 수 있습니다.</para>
+          </indexterm>메뉴에 접근할 수 있습니다. 회사 정보, 멤버, 그룹 등을 관리할 수 있으며 <emphasis
+        role="bold">멤버 초대 </emphasis>및 <emphasis role="bold">문서 이관
+        </emphasis>등을 할 수 있습니다.</para>
       </listitem>
 
       <listitem>
@@ -881,7 +882,7 @@
         <listitem>
           <para><emphasis role="bold">상세 정보</emphasis>의<emphasis role="bold">
           </emphasis><emphasis role="bold">수정 </emphasis>버튼을 클릭하면 <emphasis
-          role="bold">대표관리자</emphasis> 항목의 오른쪽에 나타나는 <emphasis role="bold">권한
+          role="bold">대표 관리자</emphasis> 항목의 오른쪽에 나타나는 <emphasis role="bold">권한
           위임</emphasis> 링크를 클릭합니다.</para>
 
           <figure>
@@ -931,14 +932,13 @@
       <para><indexterm class="singular">
           <primary>회사 관리 권한</primary>
         </indexterm>회사 관리자는 <emphasis role="bold">회사 관리 </emphasis>메뉴에 접근 권한을
-      가지며, 회사와 관련된 정보 및 멤버/그룹 등의 정보를 열람, 수정, 삭제 등을 할 수 있습니다. 회사 관리자는 대표 관리자 또는
-      회사 관리자가 멤버에게 권한을 부여할 수 있습니다.</para>
+      가지며, 회사와 관련된 정보 및 멤버/그룹 등의 정보를 열람, 수정, 삭제 등을 할 수 있습니다. 회사 관리 권한은 대표 관리자가
+      멤버에게 권한을 부여할 수 있습니다.</para>
 
       <para><emphasis role="bold">회사 관리 권한 부여하는 방법</emphasis></para>
 
       <note>
-        <para>이 작업은 <emphasis role="bold">대표 관리자 </emphasis>또는 <emphasis
-        role="bold">회사 관리 </emphasis>권한이 필요합니다.</para>
+        <para>이 작업은 <emphasis role="bold">대표 관리자 </emphasis>권한이 필요합니다.</para>
       </note>
 
       <orderedlist>
@@ -948,7 +948,8 @@
         </listitem>
 
         <listitem>
-          <para>멤버 목록에서 템플릿 관리 권한을 부여할 멤버를 선택합니다.</para>
+          <para>멤버 목록에서<emphasis role="bold"> 회사 관리</emphasis> 권한을 부여할 멤버를
+          선택합니다.</para>
         </listitem>
 
         <listitem>
@@ -1254,8 +1255,8 @@
     <section>
       <title>그룹 관리</title>
 
-      <para>그룹 관리 메뉴에서는 회사내 그룹을 생성할 수 있으며, 그룹 정보 확인, 수정 및 삭제 등을 할 수
-      있습니다.</para>
+      <para><emphasis role="bold">그룹 관리</emphasis> 메뉴에서는 회사내 그룹을 생성할 수 있으며, 그룹
+      정보 확인, 수정 및 삭제 등을 할 수 있습니다.</para>
 
       <figure>
         <title>회사관리 &gt; 그룹 관리</title>
@@ -1272,8 +1273,8 @@
           <term>① 그룹 정보</term>
 
           <listitem>
-            <para>그룹 목록에서 정보를 확인하고자 하는 그룹을 클릭하면 오른쪽 그룹 정보 탭에서 그룹 이름 및 설명을 확인 및
-            수정할 수 있습니다.</para>
+            <para>그룹 목록에서 정보를 확인하고자 하는 그룹을 클릭하면 오른쪽 <emphasis role="bold">그룹
+            정보</emphasis> 탭에서 그룹 이름 및 설명을 확인 및 수정할 수 있습니다.</para>
           </listitem>
         </varlistentry>
 
@@ -1297,8 +1298,9 @@
           <term>④ 그룹 추가</term>
 
           <listitem>
-            <para>그룹 추가를 클릭하면<emphasis role="bold"> 그룹 추가</emphasis> 팝업창이 뜨고
-            그룹 이름 및 설명을 입력, 멤버를 검색하여 추가하면 그룹이 생성됩니다.</para>
+            <para><emphasis role="bold">그룹 추가</emphasis>를 클릭하면<emphasis
+            role="bold"> 그룹 추가</emphasis> 팝업창이 뜨고 그룹 이름 및 설명을 입력, 멤버를 검색하여
+            추가하면 그룹이 생성됩니다.</para>
           </listitem>
         </varlistentry>
 
@@ -1353,7 +1355,7 @@
       </listitem>
 
       <listitem>
-        <para>서명 등록 버튼을 클릭합니다.</para>
+        <para><emphasis role="bold">서명 등록</emphasis> 버튼을 클릭합니다.</para>
 
         <figure>
           <title>서명 등록 화면</title>
