@@ -213,18 +213,18 @@
 
           <itemizedlist>
             <listitem>
-              <para><emphasis role="bold">요금제
-              변경:</emphasis>使用中の料金プランを変更できます。</para>
+              <para><emphasis
+              role="bold">料金プランの変更</emphasis>：使用中の料金プランを変更できます。</para>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">실시간
-              요금:</emphasis>現在までの利用状況や料金状況をリアルタイムで照会できます。</para>
+              <para><emphasis
+              role="bold">リアルタイム料金</emphasis>：現在までの利用状況や料金状況をリアルタイムで照会できます。</para>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">결제 수단
-              설정:</emphasis>決済時に使用されるクレジットカードの情報を登録できます。</para>
+              <para><emphasis
+              role="bold">決済手段の設定</emphasis>：決済時に使用されるクレジットカードの情報を登録できます。</para>
             </listitem>
           </itemizedlist>
         </listitem>
