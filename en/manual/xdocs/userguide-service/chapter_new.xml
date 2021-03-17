@@ -136,7 +136,8 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/newfrommyfile-recipients-type.png"/>
+              <imagedata fileref="resources/newfrommyfile-recipients-type.png"
+                         width="500"/>
             </imageobject>
           </mediaobject>
         </tip>
@@ -160,14 +161,15 @@
           저장된 파일을 다시 열어 이후의 단계를 진행할 수 있습니다. 문서의 임시 저장은 오른쪽 상단의
           (<inlinemediaobject>
               <imageobject>
-                <imagedata fileref="resources/menu_icon_3.png"/>
+                <imagedata fileref="resources/menu_icon_3.png" width="30"/>
               </imageobject>
             </inlinemediaobject>) 메뉴 아이콘을 클릭하여 <emphasis role="bold">임시 보관함에
           저장</emphasis>을 클릭합니다.</para>
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/newfrommyfile-saveasdrafts.png"/>
+              <imagedata fileref="resources/newfrommyfile-saveasdrafts.png"
+                         width="300"/>
             </imageobject>
           </mediaobject>
         </note>
@@ -220,7 +222,7 @@
       <listitem>
         <para><emphasis role="bold">수신자가 멤버일 경우</emphasis></para>
 
-        <para>기본으로 저장된 이메일 주소와 휴대폰 번호가 자동으로 뜨며 문서가 발송될 수단을 선택할 수 있습니다. </para>
+        <para>기본으로 저장된 이메일 주소와 휴대폰 번호가 자동으로 뜨며 문서가 발송될 수단을 선택할 수 있습니다.</para>
 
         <caution>
           <para>휴대폰을 선택할 경우, SMS 또는 카카오 알림톡으로 발송되며 건당 추가요금이 발생됩니다.</para>
@@ -238,12 +240,12 @@
         <para><emphasis role="bold">멤버가 아닌 외부 수신자일 경우</emphasis></para>
 
         <para>입력한 정보가 멤버의 정보와 일치하지 않을 경우 외부 수신자로 인식되어 다음의 항목에 대해 상세 옵션을 설정해야
-        합니다. </para>
+        합니다.</para>
 
         <itemizedlist>
           <listitem>
             <para><emphasis role="bold">문서 발송 수단 선택:</emphasis> 이메일과 휴대폰 중 둘중
-            하나 또는 모두를 선택할 수 있으며, 휴대폰을 선택하면 발송할 휴대폰 번호를 입력해야 합니다. </para>
+            하나 또는 모두를 선택할 수 있으며, 휴대폰을 선택하면 발송할 휴대폰 번호를 입력해야 합니다.</para>
 
             <caution>
               <para>휴대폰을 선택할 경우, SMS 또는 카카오 알림톡으로 발송되며 건당 추가 요금이 발생합니다.</para>
@@ -258,7 +260,7 @@
           <listitem>
             <para><emphasis role="bold">문서 열람 전 비밀번호 설정: </emphasis>해당 항목에
             체크하면 외부 수신자가 문서를 열람하기 위해서는 설정한 비밀번호를 입력해야 합니다. 비밀번호 힌트는 설정한 비밀번호에
-            대하여 수신자가 알아볼 수 있는 힌트를 설정하여 제공할 수 있습니다. </para>
+            대하여 수신자가 알아볼 수 있는 힌트를 설정하여 제공할 수 있습니다.</para>
           </listitem>
 
           <listitem>
@@ -375,7 +377,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/bulk-creation-icon.png"/>
+            <imagedata fileref="resources/bulk-creation-icon.png" width="300"/>
           </imageobject>
         </mediaobject>
       </figure>
