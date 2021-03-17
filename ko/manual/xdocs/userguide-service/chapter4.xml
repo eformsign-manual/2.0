@@ -450,8 +450,6 @@
 
         <para><emphasis role="bold">방법 1: 컴포넌트 클릭하여 추가하기</emphasis></para>
 
-        <para>1. 워드 또는 파워포인트를 열고 문서 중 컴포넌트를 추가할 위치를 선택합니다.</para>
-
         <orderedlist>
           <listitem>
             <para>워드 또는 파워포인트 파일을 열고 문서 내 컴포넌트를 추가할 위치를 선택합니다.</para>
@@ -487,10 +485,6 @@
         </orderedlist>
 
         <para><emphasis role="bold">방법 2: 컴포넌트를 그려서 추가하기</emphasis></para>
-
-        <para>1. 워드 또는 파워포인트를 열고 <emphasis role="bold">OZ in Word</emphasis>
-        또는 <emphasis role="bold">OZ in PowerPoint</emphasis> 리본 메뉴로
-        이동합니다.</para>
 
         <orderedlist>
           <listitem>
@@ -619,7 +613,7 @@
         </listitem>
       </itemizedlist>
 
-      <para>워드, 파워포인트에서는 체크 컴포넌트이 직사각형 도형처럼 나타납니다. 항목의 내용은 컴포넌트 도형 안에 입력해야
+      <para>워드, 파워포인트에서는 체크 컴포넌트가 직사각형 도형처럼 나타납니다. 항목의 내용은 컴포넌트 도형 안에 입력해야
       합니다.</para>
 
       <para><emphasis role="bold">컴포넌트 속성</emphasis></para>
@@ -809,7 +803,7 @@
           <primary>컴포넌트</primary>
 
           <secondary>멀티라인</secondary>
-        </indexterm>텍스트 컴포넌트와 멀티라인 컴포넌트 모두 텍스트 입력란을 만들 때에 사용합니다. 텍스트 컴포넌트은 1~2
+        </indexterm>텍스트 컴포넌트와 멀티라인 컴포넌트 모두 텍스트 입력란을 만들 때에 사용합니다. 텍스트 컴포넌트는 1~2
       단어의 짧은 텍스트, 멀티라인은 1줄 이상의 긴 텍스트에 적합합니다.</para>
 
       <mediaobject>
