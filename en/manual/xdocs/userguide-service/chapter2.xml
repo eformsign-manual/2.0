@@ -48,41 +48,62 @@
           <para><emphasis role="bold">New document: </emphasis><indexterm
               class="singular">
               <primary>New document</primary>
-            </indexterm>Shows the list of templates users can choose to start
-          creating documents.</para>
+            </indexterm> Shows the menus in which you can create a document by
+          uploading a file from your computer or selecting a template uploaded
+          to eformsign.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">New from my file: </emphasis>You
+              create a document even when there is no template. Simply upload
+              a file (PDF) from your computer and then upload it to eformsign.
+              Then, add components onto the document and send it to recipients
+              for signature.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">New from template: </emphasis>Views
+              the list of templates in which you can create documents from.
+              You can select a template and then create a document.</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Drafts</emphasis>: Shows the list of
+          documents saved as draft when creating a document by accessing
+          the<emphasis role="bold"> New from my file</emphasis> menu.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">Documents: </emphasis><indexterm
               class="singular">
               <primary>Documents</primary>
-            </indexterm>This is is a cloud space for storing and viewing
-          documents. It consists of the following three spaces according to
-          the document status:</para>
+            </indexterm> Shows the menus in which documents are stored.</para>
 
           <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">Action required:</emphasis>
+              <indexterm class="singular">
+                  <primary>Action required</primary>
+                </indexterm>Shows the list of documents that you need to sign,
+              approve, or send.</para>
+            </listitem>
+
             <listitem>
               <para><emphasis role="bold">In progress: </emphasis><indexterm
                   class="singular">
                   <primary>In progress</primary>
-                </indexterm>Shows the list of documents you have created or
-              participated in but are incomplete.</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis role="bold">Action required:
-              </emphasis><indexterm class="singular">
-                  <primary>Action required</primary>
-                </indexterm>Shows the list of documents you have temporarily
-              saved or other members have requested you to sign or
-              approve.</para>
+                </indexterm> Shows the list of documents you have created or
+              processed but are incomplete.</para>
             </listitem>
 
             <listitem>
               <para><emphasis role="bold">Completed: </emphasis><indexterm
                   class="singular">
                   <primary>Completed</primary>
-                </indexterm>Shows the list of all completed documents.</para>
+                </indexterm> Shows the list of all the completed documents you
+              have created or participated in.</para>
             </listitem>
           </itemizedlist>
         </listitem>
@@ -93,7 +114,7 @@
               <primary>Manage documents</primary>
             </indexterm>Only document managers can access this menu. Document
           managers can view all documents created from a template that they
-          have permission to access. The company administrator can view and
+          have permission to access.The company administrator can view and
           manage all documents.</para>
         </listitem>
 
@@ -109,7 +130,7 @@
           <para><emphasis role="bold">Manage templates: </emphasis><indexterm
               class="singular">
               <primary>Manage templates</primary>
-            </indexterm>Only template managers can access this menu. You can
+            </indexterm> Only template managers can access this menu.You can
           view the template list and configure the template settings.</para>
         </listitem>
 
@@ -117,7 +138,7 @@
           <para><emphasis role="bold">Manage company: </emphasis><indexterm
               class="singular">
               <primary>Manage company</primary>
-            </indexterm>Only company managers can access this menu. You can
+            </indexterm>Only company managers can access this menu.You can
           view and edit company information.</para>
 
           <itemizedlist>
@@ -125,7 +146,7 @@
               <para><emphasis role="bold">Company profile:
               </emphasis><indexterm class="singular">
                   <primary>Company profile</primary>
-                </indexterm>You can view and edit company information.</para>
+                </indexterm>You can view and edit company information</para>
             </listitem>
 
             <listitem>
@@ -159,6 +180,12 @@
                 </indexterm>You can view and edit email and SMS notification
               templates.</para>
             </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Signature settings:</emphasis>
+              Select the signature types that can be used when signing
+              directly on documents.</para>
+            </listitem>
           </itemizedlist>
         </listitem>
 
@@ -166,8 +193,8 @@
           <para><emphasis role="bold">Integration:</emphasis> <indexterm
               class="singular">
               <primary>Integration</primary>
-            </indexterm>Only the company administrator can access this menu.
-          You can connect eformsign with external services.</para>
+            </indexterm>Only the company administrator can access this
+          menu.You can connect eformsign with external services.</para>
 
           <itemizedlist>
             <listitem>
@@ -181,11 +208,10 @@
 
             <listitem>
               <para><emphasis role="bold">Analytics &amp; reporting:
-              </emphasis><indexterm class="singular">
-                  <primary>Analytics &amp; reporting</primary>
-                </indexterm>You can connect sheets in Google Sheets or
-              Microsoft Office 365's Excel with eformsign to store the data
-              entered in eformsign documents to the sheets.</para>
+              </emphasis>Analytics &amp; reporting: You can connect sheets in
+              Google Sheets or Microsoft Office 365's Excel with eformsign to
+              store the data entered in eformsign documents to the
+              sheets.</para>
             </listitem>
 
             <listitem>
@@ -204,6 +230,24 @@
           <para><emphasis role="bold">Billing:</emphasis> You can view your
           plan and payment history, change your plan, or change the payment
           method.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">Change plan: </emphasis>You can
+              change the plan you are using.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Real-time billing: </emphasis>You
+              can view your usage and billing status in real-time.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Payment method settings:
+              </emphasis>You can add the credit card information for
+              payment.</para>
+            </listitem>
+          </itemizedlist>
         </listitem>
 
         <listitem>
@@ -212,8 +256,8 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Download eformsign Form
-          Builder:</emphasis><indexterm class="singular">
+          <para><emphasis role="bold">Download eformsign Form Builder:
+          </emphasis><indexterm class="singular">
               <primary>Download Form Builder</primary>
             </indexterm>You can download the Form Builder executable file. By
           using the Form Builder add-in feature, you can create electronic
@@ -230,8 +274,7 @@
         </indexterm>The dashboard is the main page displayed when logging into
       eformsign. In the dashboard, you can view documents that are in
       progress, require your action, etc., and use shortcuts to go to the main
-      menus including the <emphasis role="bold">New document</emphasis>
-      page.</para>
+      menus including <emphasis role="bold">New document</emphasis>.</para>
 
       <figure>
         <title>eformsign Dashboard Screen</title>
@@ -245,93 +288,26 @@
 
       <variablelist>
         <varlistentry>
-          <term><emphasis role="bold">① Create new document</emphasis></term>
+          <term><emphasis role="bold">① New from template</emphasis></term>
 
           <listitem>
             <para><indexterm class="singular">
-                <primary>New document</primary>
-              </indexterm>Provides a shortcut to the <emphasis role="bold">New
-            document</emphasis> page where you can create new documents from
-            existing templates.<emphasis role="bold"> </emphasis></para>
+                <primary>New from template</primary>
+              </indexterm>Displays the <emphasis role="bold">New from
+            template</emphasis> page where you can create new documents from
+            saved templates.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">② In progress</emphasis></term>
+          <term><emphasis role="bold">② New from my file</emphasis></term>
 
           <listitem>
             <para><indexterm class="singular">
-                <primary>In progress</primary>
-              </indexterm>Provides a shortcut to the <emphasis role="bold">In
-            progress</emphasis> page where you can view the number of
-            documents that are in progress. Click the <emphasis role="bold">In
-            progress</emphasis> box to go to the <emphasis
-            role="bold">I</emphasis><emphasis role="bold">n
-            progress</emphasis> page.<emphasis role="bold"> </emphasis></para>
-          </listitem>
-        </varlistentry>
-
-        <varlistentry>
-          <term><emphasis role="bold">③ Action required</emphasis></term>
-
-          <listitem>
-            <para><indexterm class="singular">
-                <primary>Action required</primary>
-              </indexterm>Provides a shortcut to the <emphasis
-            role="bold">Action required</emphasis> page where you can view the
-            number of documents that require your action. Click the <emphasis
-            role="bold">Action required</emphasis> box to go to the <emphasis
-            role="bold">Action required</emphasis> page.</para>
-          </listitem>
-        </varlistentry>
-
-        <varlistentry>
-          <term><emphasis role="bold">④ Completed</emphasis></term>
-
-          <listitem>
-            <para><indexterm class="singular">
-                <primary>Completed</primary>
-              </indexterm>Provides a shortcut to the <emphasis
-            role="bold">Completed</emphasis> document page where you can view
-            all completed documents.</para>
-          </listitem>
-        </varlistentry>
-
-        <varlistentry>
-          <term><emphasis role="bold">⑤ In progress</emphasis></term>
-
-          <listitem>
-            <para>Displays the list of the three most recent documents in
-            progress and the number of documents in progress. You can click on
-            the name of a document in the list to open the document. Also, you
-            can click 'More' to go to the <emphasis role="bold">In
-            progress</emphasis> page. <emphasis role="bold">
-            </emphasis></para>
-          </listitem>
-        </varlistentry>
-
-        <varlistentry>
-          <term><emphasis role="bold">⑥ Action required</emphasis></term>
-
-          <listitem>
-            <para>Displays the list of the three most recent documents that
-            require your action and the number of documents requiring your
-            action. You can click on the name of a document in the list to
-            open the document. Also, you can click 'More' to go to the
-            <emphasis role="bold">Action required</emphasis> page. <emphasis
-            role="bold"> </emphasis></para>
-          </listitem>
-        </varlistentry>
-
-        <varlistentry>
-          <term><emphasis role="bold">⑦ Completed</emphasis></term>
-
-          <listitem>
-            <para>Displays the list of the three most recent completed
-            documents. You can click on the name of a document in the list to
-            open the document. Also, you can click 'More' to go to the
-            <emphasis role="bold">Completed</emphasis> document page.
-            <emphasis role="bold"> </emphasis></para>
+                <primary>New from my file</primary>
+              </indexterm>Displays the<emphasis role="bold"> New from my
+            file</emphasis> page where you can create new documents by upload
+            your files from your computer.</para>
           </listitem>
         </varlistentry>
 
@@ -383,6 +359,11 @@
           <listitem>
             <para>The list of templates that are not added to your Favorites
             will be displayed in the pop-up window.</para>
+          </listitem>
+
+          <listitem>
+            <para>Tick the checkboxes of the templates you want to add to the
+            Favorites.</para>
 
             <para><inlinemediaobject>
                 <imageobject>
@@ -394,22 +375,112 @@
 
           <listitem>
             <para>Tick the checkboxes of the templates you want to add to the
-            Favorites.</para>
-
-            <para><inlinemediaobject>
-                <imageobject>
-                  <imagedata fileref="resources/en-dashboard-add-favorites-select.png"
-                             width="700"/>
-                </imageobject>
-              </inlinemediaobject></para>
-          </listitem>
-
-          <listitem>
-            <para>Click the <emphasis role="bold">Select</emphasis> button to
-            save the templates as your Favorites.</para>
+            Favorites</para>
           </listitem>
         </orderedlist>
       </tip>
+
+      <variablelist>
+        <varlistentry>
+          <term><emphasis role="bold">④ Action required</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary>Action required</primary>
+              </indexterm>Shows the number of documents that require action
+            and goes to the <emphasis role="bold">Action required</emphasis>
+            page when clicked.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑤ In progress</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary>In progress</primary>
+              </indexterm>Shows the number of documents that are in progress,
+            and goes to the <emphasis role="bold">In progress</emphasis> page
+            when clicked.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑥ Completed</emphasis></term>
+
+          <listitem>
+            <para>Goes to the <emphasis role="bold">Completed</emphasis> page
+            when clicked.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑦ Drafts</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary>Drafts</primary>
+              </indexterm>Displays the number of documents saved temporarily
+            before clicking the <emphasis role="bold">Start now</emphasis>
+            button when creating a document from <emphasis role="bold">New
+            from my file</emphasis>. When clicked, the<emphasis role="bold">
+            Drafts</emphasis> page is displayed.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑧ Action required</emphasis></term>
+
+          <listitem>
+            <para><indexterm class="singular">
+                <primary>Action required</primary>
+              </indexterm>Displays the list of the three most recent documents
+            that require your action and the number of documents requiring
+            your action.You can click on the name of a document in the list to
+            open the document. Also, you can click the more <emphasis
+            role="bold">(+)</emphasis> button<emphasis role="bold">
+            </emphasis>to go to the <emphasis role="bold">Action
+            required</emphasis> page.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑨ Saved draft</emphasis></term>
+
+          <listitem>
+            <para>Shows the number of documents saved in <emphasis
+            role="bold">Drafts</emphasis> and the three most recent ones. You
+            can click on a document name in the list to go to the document and
+            can click the more <emphasis role="bold">(+)</emphasis> button to
+            go to the <emphasis role="bold">Drafts</emphasis> page.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑩ In progress</emphasis></term>
+
+          <listitem>
+            <para>Displays the list of the three most recent documents in
+            progress and the number of documents in progress.You can click on
+            the name of a document in the list to open the document. Also, you
+            can click the more<emphasis role="bold"> <emphasis
+            role="bold">(+)</emphasis> </emphasis>button to go to the
+            <emphasis role="bold">In progress</emphasis> page.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><emphasis role="bold">⑪ Completed</emphasis></term>
+
+          <listitem>
+            <para>Displays the list of the three most recently completed
+            documents. You can click on a document name to open the document.
+            Also, you can click the more <emphasis role="bold">(+)</emphasis>
+            button to go to the <emphasis role="bold">Completed</emphasis>
+            page.</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
     </section>
   </section>
 
@@ -595,7 +666,10 @@
               company, the company will also be deleted. If the administrator
               wants to withdraw from the company without deleting the company,
               then the administrator needs to delegate permission to another
-              member, and then withdraw from the company.</para>
+              member, and then withdraw from the company. You can delegate the
+              company administrator permission in <emphasis role="bold">Manage
+              company &gt; Company profile &gt; Basic
+              information</emphasis>.</para>
             </important>
           </listitem>
         </varlistentry>
@@ -635,6 +709,17 @@
           <para>Click the sidebar menu icon, and go to the <emphasis
           role="bold">Manage company &gt; Company profile</emphasis>
           menu.</para>
+
+          <figure>
+            <title>Company Profile</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/en-manage-company-profile-edit.png"
+                           width="750"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
         </listitem>
 
         <listitem>
@@ -648,17 +733,6 @@
           role="bold">Save</emphasis> button.</para>
         </listitem>
       </orderedlist>
-
-      <figure>
-        <title>Company Profile</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/en-manage-company-profile-edit.png"
-                       width="750"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
 
       <para/>
 
@@ -817,6 +891,19 @@
         <emphasis role="bold">Manage template</emphasis> menu. Template
         managers can create new templates by using Form Builder or Web Form
         Designer, and can also edit, deploy, and delete templates.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Template usage</emphasis></para>
+
+        <para><indexterm class="singular">
+            <primary>Template usage</primary>
+          </indexterm>Template usage permission allows to create documents
+        from a template. You can grant <emphasis role="bold">template usage
+        permission (document creation permission)</emphasis> for each
+        template. When the permission for a template is granted to a member,
+        the member can create documents in the <emphasis role="bold">New from
+        template</emphasis> page.</para>
       </listitem>
 
       <listitem>
@@ -1550,5 +1637,15 @@
         stamp.</para>
       </listitem>
     </orderedlist>
+
+    <note>
+      <para>You can select the signature type that can be attached on an
+      electronic document.</para>
+
+      <para><emphasis role="bold">Go to Manage company</emphasis> <emphasis
+      role="bold">&gt; Signature settings</emphasis><emphasis role="bold">
+      </emphasis>to allow or limit the signature types (draw, text, and stamp)
+      to be displayed on documents' signature fields.</para>
+    </note>
   </section>
 </chapter>
