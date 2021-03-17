@@ -13,12 +13,15 @@
 
     <para><indexterm class="singular">
         <primary>Webフォームデザイナー</primary>
-      </indexterm>eformsign のテンプレート管理メニューで、電子文書の背景書式になる PDF ファイルをアップロードすると、Web
-    フォームデザイナーが表示されます。左側のツリーの様々なコンポーネントから目的のコンポーネントを選択して、Web
-    フォームデザイナーに表示される背景ファイルの上にドラッグアンドドロップし、各コンポーネントのプロパティを詳細設定することで、テンプレートを簡単に作成できます。</para>
+      </indexterm> <emphasis role="bold">Web フォームデザイナー</emphasis> は、既存の文書ファイルを
+    eformsign サービスにアップロードし、コンポーネントを追加することで簡単に電子形式で作成できるツールです。<emphasis
+    role="bold">マイファイルで作成する</emphasis> または <emphasis
+    role="bold">テンプレート管理</emphasis> メニューで、電子文書の背景書式になる PDF ファイルをアップロードすると、Web
+    フォームデザイナーが表示されます。eformsign
+    が提供する様々なコンポーネントから目的のコンポーネントを選択して、文書の上にドラッグアンドドロップし、各コンポーネントのプロパティを詳細設定することで、テンプレートを簡単に作成できます。</para>
 
     <note>
-      <para>現在は PDF ファイルのみをサポートしていますが、今後 Microsoft Office、JPG、PNG
+      <para>現在は PDF ファイルのみをサポートしていますが、今後 Microsoft OfficeやJPG、PNG
       などの画像ファイルを含め、様々なファイル形式にも対応していく予定です。</para>
     </note>
 
@@ -29,59 +32,134 @@
       を参考に、Microsoft Office にフォームビルダーをインストールしてから使用してください。</para>
     </note>
 
-    <para>1.メニューのうち、<emphasis role="bold">テンプレート管理</emphasis>
-    画面に移動すれば、次のような画面が表示されます。</para>
+    <itemizedlist>
+      <listitem>
+        <para><emphasis role="bold">マイファイルで作成する</emphasis> メニューで PDF
+        ファイルをアップロードする</para>
+      </listitem>
+    </itemizedlist>
 
-    <figure>
-      <title>Web フォームデザイナーの画面</title>
+    <orderedlist>
+      <listitem>
+        <para>メニューのうち、 <emphasis role="bold">マイファイルで作成する</emphasis>
+        メニューをクリックします。</para>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/web-form_1.png" width="750"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
+        <mediaobject>
+          <imageobject>
+            <imagedata contentwidth="700"
+                       fileref="resources/myfile_create_document.png"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
 
-    <para>2.テンプレート管理 画面に直接ファイルをドラッグするか、<emphasis
-    role="bold">PCからファイルを選択</emphasis>
-    をクリックして、ローカルコンピューターからアップロードしたいファイルを選択します。</para>
+      <listitem>
+        <para>画面に直接ファイルをドラッグするか、<emphasis role="bold">PCからファイルを選択</emphasis>
+        をクリックして、ローカル PC
+        からアップロードしたいファイルを選択します。ファイルがアップロードされれば、次のような画面が表示されます。</para>
 
-    <figure>
-      <title>Web フォームデザイナーの画面</title>
+        <mediaobject>
+          <imageobject>
+            <imagedata contentwidth="500"
+                       fileref="resources/myfile_create_document2.png"
+                       width="500"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/web-form_2.png" width="750"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
+      <listitem>
+        <para>ファイルがアップロードされれば、次のように文書にコンポーネントを追加できる Web
+        フォームデザイナー画面が表示されます。</para>
 
-    <para>3.ファイルがアップロードされれば、次のような画面が表示されます。</para>
+        <mediaobject>
+          <imageobject>
+            <imagedata contentwidth="864"
+                       fileref="resources/myfile_create_document3.png"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
+    </orderedlist>
 
-    <figure>
-      <title>Web フォームデザイナーの画面</title>
+    <itemizedlist>
+      <listitem>
+        <para><emphasis role="bold">テンプレート管理</emphasis> メニューで PDF
+        ファイルをアップロードする</para>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/web-form_3.png" width="750"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
+        <orderedlist>
+          <listitem>
+            <para><emphasis role="bold">テンプレート管理</emphasis> メニューに移動します。</para>
+
+            <figure>
+              <title>Web フォームデザイナーの画面</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata contentwidth="854"
+                             fileref="resources/web-form_1.png"/>
+                </imageobject>
+              </mediaobject>
+            </figure>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">テンプレート管理</emphasis>
+            画面に直接ファイルをドラッグするか、<emphasis role="bold">PCからファイルを選択</emphasis>
+            をクリックして、ローカルコンピューターからアップロードしたいファイルを選択します。</para>
+
+            <figure>
+              <title>Web フォームデザイナーの画面</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata contentwidth="833"
+                             fileref="resources/web-form_2.png"/>
+                </imageobject>
+              </mediaobject>
+            </figure>
+          </listitem>
+
+          <listitem>
+            <para>ファイルがアップロードされれば、次のような画面が表示されます。</para>
+
+            <figure>
+              <title>Web フォームデザイナーの画面</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata contentwidth="839"
+                             fileref="resources/web-form_3.png"/>
+                </imageobject>
+              </mediaobject>
+            </figure>
+          </listitem>
+        </orderedlist>
+      </listitem>
+    </itemizedlist>
 
     <section>
       <title>Web フォームデザイナーのメニューの構成</title>
 
-      <para>Web
-      フォームデザイナーは、大きく、文書を全面表示する文書表示ペイン、トップバー、そして左側と右側のペインの４つの領域で構成されています。</para>
+      <para><emphasis role="bold">Web フォームデザイナー
+      </emphasis>は、大きく、文書を全面表示する文書表示ペイン、トップバー、そして左側と右側のペインの４つの領域で構成されています。</para>
 
       <figure>
-        <title>Web フォームデザイナーのメニューの構成</title>
+        <title>Web フォームデザイナーのメニューの構成：テンプレートの作成</title>
 
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/web-form_4.png" width="750"/>
           </imageobject>
         </mediaobject>
+
+        <figure>
+          <title>Web フォームデザイナーのメニューの構成：マイファイルで作成する</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="754"
+                         fileref="resources/myfile_create_document4.png"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
       </figure>
 
       <orderedlist>
@@ -91,20 +169,40 @@
         </listitem>
 
         <listitem>
-          <para><emphasis
-          role="bold">トップバー：</emphasis>「デザインする」と「設定する」の手順が表示され、テンプレート管理のリスト画面に戻ったり、コンポーネントを追加したテンプレートをプレビューしたりすることができます。</para>
+          <para><emphasis role="bold"><emphasis
+          role="bold">トップバー：</emphasis><emphasis role="bold">テンプレートの作成
+          </emphasis></emphasis>の場合、<emphasis role="bold"><emphasis
+          role="bold">デザインする</emphasis> </emphasis>と<emphasis role="bold">
+          <emphasis role="bold">設定する</emphasis>
+          </emphasis>の2ステップが表示され、テンプレート管理のリスト画面に戻ったり、コンポーネントを追加したテンプレートをプレビューしたりすることができます。
+          <emphasis role="bold">マイファイルで作成する</emphasis> の場合、 <emphasis
+          role="bold"><emphasis role="bold">デザインする</emphasis></emphasis>
+          、<emphasis role="bold"><emphasis role="bold">
+          受信先を指定する</emphasis></emphasis> 、<emphasis role="bold"><emphasis
+          role="bold"> オプション
+          </emphasis></emphasis>の3ステップが表示され、デザインを完了して<emphasis role="bold">
+          文書作成をスタート </emphasis>したり、 <emphasis role="bold">下書き保存</emphasis>
+          して作成を終了することができます。</para>
+
+          <note>
+            <para>トップバーに表示される各ステップをクリックすると、そのステップの画面が表示されます。各画面でワークフローや権限などを設定できます。<emphasis
+            role="bold">テンプレートの作成 </emphasis>または <emphasis
+            role="bold">マイファイルで作成する </emphasis>を終了する前に設定を行う必要があります。</para>
+          </note>
         </listitem>
 
         <listitem>
-          <para><emphasis
-          role="bold">コンポーネントのリスト：</emphasis>現在の時点では、1行テキスト、複数行テキスト、署名、チェック、選択を含む
-          14
-          のコンポーネントをサポートしていますが、今後、カスタムアイテムや図形などの新しいコンポーネントを継続して追加する予定です。</para>
+          <para><emphasis role="bold"><emphasis
+          role="bold">コンポーネントのリスト：</emphasis></emphasis>現在の時点では、 <emphasis
+          role="bold">1行テキスト 、 複数行テキスト 、 署名 、 チェック 、 選択 </emphasis>を含む 13
+          の基本コンポーネントと、<emphasis role="bold"> 文書ID 、 文書番号</emphasis>
+          の2つの情報コンポーネントをサポートしていますが、今後、カスタムアイテムや図形などの新しいコンポーネントを継続して追加する予定です。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis
-          role="bold">プロパティ：</emphasis>署名、テキスト、チェックなどのコンポーネントを背景書式にドラッグして、各コンポーネントのプロパティを設定します。</para>
+          <para><emphasis role="bold"><emphasis
+          role="bold">プロパティ：</emphasis>署名 、 テキスト 、 チェック
+          </emphasis>などのコンポーネントを背景書式にドラッグして、各コンポーネントのプロパティを設定します。</para>
         </listitem>
       </orderedlist>
     </section>
@@ -132,137 +230,159 @@
 
       <para>eformsign は次ようなのコンポーネントをサポートしています。</para>
 
+      <para><emphasis role="bold">基本コンポーネント</emphasis><itemizedlist>
+          <listitem>
+            <para><emphasis role="bold"><link
+            linkend="signature2">署名</link>：</emphasis> <indexterm
+                class="singular">
+                <primary>コンポーネント</primary>
+
+                <secondary>署名</secondary>
+              </indexterm>署名を入力します。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold"><link
+            linkend="text2">1行テキスト</link>：</emphasis> <indexterm
+                class="singular">
+                <primary>コンポーネント</primary>
+
+                <secondary>1行テキスト</secondary>
+              </indexterm>1つまたは2つの短い単語を入力します。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold"><link
+            linkend="text2">複数行テキスト</link>：</emphasis><indexterm
+                class="singular">
+                <primary>コンポーネント</primary>
+
+                <secondary>複数行テキスト</secondary>
+              </indexterm>複数行の長いテキストを入力します。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold"><link
+            linkend="label2">ラベル</link>：</emphasis> <indexterm
+                class="singular">
+                <primary>コンポーネント</primary>
+
+                <secondary>ラベル</secondary>
+              </indexterm>別途設定した値を文書に表示する場合に使用します。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold"><link
+            linkend="check2">チェック</link>：</emphasis><indexterm
+                class="singular">
+                <primary>コンポーネント</primary>
+
+                <secondary>チェック</secondary>
+              </indexterm>チェックする項目がある場合に使用します。複数選択も設定できます。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold"><link
+            linkend="select2">ラジオ</link>：</emphasis><indexterm
+                class="singular">
+                <primary>コンポーネント</primary>
+
+                <secondary>ラジオ</secondary>
+              </indexterm>複数の項目から1つを選択します。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold"><link
+            linkend="combo2">リスト選択</link>：</emphasis> <indexterm
+                class="singular">
+                <primary>コンポーネント</primary>
+
+                <secondary>リスト選択</secondary>
+              </indexterm>クリックすると、ドロップダウンメニューが表示され、複数の項目のうち1つを選択します。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold"><link
+            linkend="toggle2">トグル</link>：</emphasis> <indexterm
+                class="singular">
+                <primary>コンポーネント</primary>
+
+                <secondary>トグル</secondary>
+              </indexterm>複数の値を入力すると、ボタンをクリックするたびに異なる値に切り替わります。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold"><link
+            linkend="date2">日付</link>：</emphasis> <indexterm class="singular">
+                <primary>コンポーネント</primary>
+
+                <secondary>日付</secondary>
+              </indexterm>特定の日付を入力します。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold"><link
+            linkend="numeric2">増減</link>：</emphasis> <indexterm
+                class="singular">
+                <primary>コンポーネント</primary>
+
+                <secondary>増減</secondary>
+              </indexterm>数字を入力します。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold"><link
+            linkend="camera2">写真</link>：</emphasis> <indexterm
+                class="singular">
+                <primary>コンポーネント</primary>
+
+                <secondary>写真</secondary>
+              </indexterm>カメラを搭載しているデバイス（スマートフォン、タブレットなど）では、カメラで写真を撮るか、アルバムから写真を選択します。カメラが搭載されていないデバイス（通常の
+            PC ）では、画像ファイルを選択します。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold"><link
+            linkend="record2">録音</link>：</emphasis> <indexterm
+                class="singular">
+                <primary>コンポーネント</primary>
+
+                <secondary>録音</secondary>
+              </indexterm>録音機能を搭載している端末でボタンをクリックして録音します。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold"><link
+            linkend="attach2">添付</link>：</emphasis> <indexterm
+                class="singular">
+                <primary>コンポーネント</primary>
+
+                <secondary>添付</secondary>
+              </indexterm>ファイル添付機能を追加します。</para>
+          </listitem>
+        </itemizedlist></para>
+
+      <para><emphasis role="bold">情報コンポーネント</emphasis></para>
+
       <itemizedlist>
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="text2">1行テキスト</link>：</emphasis> <indexterm
+          linkend="document2">文書ID</link>：</emphasis> <indexterm
               class="singular">
               <primary>コンポーネント</primary>
 
-              <secondary>1行テキスト</secondary>
-            </indexterm>1つまたは2つの短い単語を入力します。</para>
+              <secondary>文書ID</secondary>
+            </indexterm>文書内に文書 ID を入力します。</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="text2">複数行テキスト</link>：</emphasis><indexterm
+          linkend="document2">文書番号</link>：</emphasis> <indexterm
               class="singular">
               <primary>コンポーネント</primary>
 
-              <secondary>複数行テキスト</secondary>
-            </indexterm>複数行の長いテキストを入力します。</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="signature2">署名</link>：</emphasis> <indexterm
-              class="singular">
-              <primary>コンポーネント</primary>
-
-              <secondary>署名</secondary>
-            </indexterm>署名を入力します。</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="check2">チェック</link>：</emphasis><indexterm class="singular">
-              <primary>コンポーネント</primary>
-
-              <secondary>チェック</secondary>
-            </indexterm>チェックする項目がある場合に使用します。</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="select2">選択</link>：</emphasis><indexterm class="singular">
-              <primary>コンポーネント</primary>
-
-              <secondary>選択</secondary>
-            </indexterm>複数の項目から1つを選択します。複数選択も設定できます。</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="label2">ラベル</link>：</emphasis> <indexterm class="singular">
-              <primary>コンポーネント</primary>
-
-              <secondary>ラベル</secondary>
-            </indexterm>フォーム ID を設定します。</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="combo2">リスト選択</link>：</emphasis> <indexterm
-              class="singular">
-              <primary>コンポーネント</primary>
-
-              <secondary>リスト選択</secondary>
-            </indexterm>クリックすると、ドロップダウンメニューが表示され、複数の項目のうち1つを選択します。</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="date2">日付</link>：</emphasis> <indexterm class="singular">
-              <primary>コンポーネント</primary>
-
-              <secondary>日付</secondary>
-            </indexterm>特定の日付を入力します。</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="numeric2">数字</link>：</emphasis> <indexterm class="singular">
-              <primary>コンポーネント</primary>
-
-              <secondary>数字</secondary>
-            </indexterm>数字を入力します。</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="toggle2">トグル</link>：</emphasis> <indexterm class="singular">
-              <primary>コンポーネント</primary>
-
-              <secondary>トグル</secondary>
-            </indexterm>複数の値を入力すると、ボタンをクリックするたびに異なる値に切り替わります。</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="camera2">カメラ</link>：</emphasis> <indexterm class="singular">
-              <primary>コンポーネント</primary>
-
-              <secondary>カメラ</secondary>
-            </indexterm>カメラを搭載しているデバイス（スマートフォン、タブレットなど）では、カメラで写真を撮るか、アルバムから写真を選択します。カメラのないデバイス（通常の
-          PC ）では、画像ファイルを選択します。</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="record2">録音</link>：</emphasis> <indexterm class="singular">
-              <primary>コンポーネント</primary>
-
-              <secondary>録音</secondary>
-            </indexterm>録音機能を搭載している端末でボタンをクリックして録音します。</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="attach2">添付</link>：</emphasis> <indexterm class="singular">
-              <primary>コンポーネント</primary>
-
-              <secondary>添付</secondary>
-            </indexterm>ファイル添付機能を追加します。</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="document2">文書</link>：</emphasis> <indexterm
-              class="singular">
-              <primary>コンポーネント</primary>
-
-              <secondary>文書</secondary>
-            </indexterm>文書内の文書番号または文書 ID を入力します。</para>
+              <secondary>文書番号</secondary>
+            </indexterm>文書内に文書番号 を入力します。</para>
         </listitem>
       </itemizedlist>
 
@@ -271,9 +391,11 @@
   </section>
 
   <section>
-    <title>コンポーネント別の使用方法</title>
+    <title>各コンポーネントの使用方法</title>
 
-    <para>すべてのコンポーネントには、共通のプロパティと固有なプロパティがあります。コンポーネントのプロパティウィンドウで、各コンポーネントの共通のプロパティと固有なプロパティを表示できます。共通のプロパティには、「名前」と「ツールヒントのテキスト」があり、各プロパティの意味は次のとおりです。</para>
+    <para>すべてのコンポーネントには、共通のプロパティと固有なプロパティがあります。コンポーネントのプロパティ画面で、各コンポーネントの共通のプロパティと固有なプロパティを表示できます。共通のプロパティには、
+    <emphasis role="bold">名前</emphasis> と <emphasis
+    role="bold">ツールヒントの内容</emphasis> があり、各プロパティの意味は次のとおりです。</para>
 
     <itemizedlist>
       <listitem>
@@ -285,79 +407,31 @@
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">ツールヒントのテキスト：</emphasis><indexterm
+        <para><emphasis role="bold">プレースホルダー: </emphasis><indexterm
             class="singular">
             <primary>コンポーネント</primary>
 
-            <secondary>ツールヒントのテキスト</secondary>
+            <secondary>プレースホルダー</secondary>
+          </indexterm>入力欄に入力する前に表示されるメッセージです。</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">ツールヒントの内容：</emphasis><indexterm
+            class="singular">
+            <primary>コンポーネント</primary>
+
+            <secondary>ツールヒントの内容</secondary>
           </indexterm>文書が受信者に表示される Windows
-        環境では、コンポーネントにカーソルを合わせるとツールヒントのテキストが吹き出しの形で表示されます。モバイル環境では、コンポーネントがダイアログで起動されるときにツールヒントのテキストがダイアログのタイトルとして表示されます。</para>
+        環境では、コンポーネントにカーソルを合わせるとツールヒントのテキストが吹き出しの形で表示されます。モバイル環境では、コンポーネントがダイアログで起動されるときにツールヒントの内容がダイアログのタイトルとして表示されます。</para>
       </listitem>
     </itemizedlist>
 
     <note>
-      <para>情報タイプの文書には、「ツールヒントのテキスト」プロパティがありません。</para>
+      <para>文書に関する情報を提供するための情報コンポーネントには、<emphasis role="bold">ツールヒントの内容
+      </emphasis>プロパティがありません。</para>
     </note>
 
     <para>各コンポーネントの説明は次のとおりです。</para>
-
-    <section xml:id="text2">
-      <title>1行テキストと複数行テキスト</title>
-
-      <para><indexterm class="singular">
-          <primary>コンポーネント</primary>
-
-          <secondary>1行テキスト</secondary>
-        </indexterm><indexterm class="singular">
-          <primary>コンポーネント</primary>
-
-          <secondary>複数行テキスト</secondary>
-        </indexterm>1行テキストのコンポーネントと複数行テキストのコンポーネントの両方とも、テキストの入力欄を作成するときに使用します。1行テキストのコンポーネントは
-      1 ～ 2単語の短いテキストに適用し、複数行テキストのコンポーネントは1行以上の長いテキストに適用します。</para>
-
-      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
-
-      <figure>
-        <title>1行テキストと複数行テキストのプロパティの設定</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/text-component-properties_web.png"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para><emphasis role="bold">① 名前</emphasis></para>
-
-      <para>1行テキストもしくは複数行テキストのコンポーネント項目の「名前」を入力します。たとえば、木村、鈴木などが入力されるコンポーネントの名前は「氏名」です。</para>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/text-component-properties_web_name.png"/>
-        </imageobject>
-      </mediaobject>
-
-      <note>
-        <para>「名前」も自動的に付与されますが、コンポーネントを追加した後、受信者の入力を依頼するかどうかを決定する際に、その「名前」が表示されるので、認識しやすい名前を設定することを推奨します。</para>
-      </note>
-
-      <para><emphasis role="bold">② 入力可能な最大文字数</emphasis></para>
-
-      <para>入力可能な最大文字数（空白を含む）を設定できます。デフォルトは「0」が設定されており、文字数に制限はありません。</para>
-
-      <para><emphasis role="bold">③ キーボードタイプ</emphasis></para>
-
-      <para>コンポーネントに入力時に実行するキーボードのタイプを選択します。キーボードタイプは、スマートフォンやタブレットなどのモバイル環境でのみ動作します。</para>
-
-      <para><emphasis role="bold">④ パスワード文字で表示</emphasis></para>
-
-      <para>テキストのコンポーネントでのみ設定可能なプロパティです。テキスト入力時に入力した内容がパスワード文字（●）で入力され、入力内容を隠すことができます。入力された内容は
-      PDF ではパスワード文字で表示されます。ただし、CSV データをダウンロードしたときには入力内容が表示されます。</para>
-
-      <para><emphasis role="bold">④ ツールヒントのテキスト</emphasis></para>
-
-      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
-    </section>
 
     <section xml:id="signature2">
       <title>署名</title>
@@ -390,7 +464,9 @@
 
       <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>署名コンポーネントの「名前」を入力します。たとえば、契約者の署名である場合、コンポーネントの名前は「契約者の署名」にします。</para>
+      <para><emphasis role="bold">署名</emphasis> コンポーネントの <emphasis
+      role="bold">名前</emphasis> を入力します。たとえば、契約者の署名である場合、コンポーネントの <emphasis
+      role="bold">名前</emphasis> は「契約者の署名」にします。</para>
 
       <para><emphasis role="bold">② 署名タイプ</emphasis></para>
 
@@ -403,24 +479,33 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">登録の署名：</emphasis>
-          文書の作成者が「マイ署名」を事前に登録している場合は、署名欄をクリックすると、登録済みの署名が自動的に入力されます。</para>
+          <para><emphasis role="bold">登録の署名：</emphasis> 文書の作成者が <emphasis
+          role="bold">マイ署名</emphasis>
+          を事前に登録している場合は、署名欄をクリックすると、登録済みの署名が自動的に入力されます。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">登録のイニシャル：</emphasis>
-          登録の署名と同様に、「マイ署名」にイニシャルが登録されている場合、署名欄をクリックすると登録済みのイニシャルが自動的に入力されます。</para>
+          <para><emphasis role="bold">登録のイニシャル：</emphasis> 登録の署名と同様に、
+          <emphasis role="bold">マイ署名</emphasis>
+          にイニシャルが登録されている場合、署名欄をクリックすると登録済みのイニシャルが自動的に入力されます。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">登録の印鑑・スタンプ</emphasis>： 登録の署名と同様に、
+          <emphasis role="bold">マイ署名</emphasis>
+          に印鑑・スタンプが登録されている場合、署名欄をクリックすると登録済みの印鑑・スタンプが自動的に入力されます。</para>
         </listitem>
       </itemizedlist>
 
       <para><note>
-          <para>署名とイニシャルが登録されている場合、署名は自動的に署名欄に入力されますが、署名とイニシャルが登録されていない場合は、直接署名と同じ署名ポップアップが表示されます。</para>
+          <para>署名とイニシャル、印鑑・スタンプが登録されている場合、署名は自動的に署名欄に入力されますが、署名とイニシャル、印鑑・スタンプが登録されていない場合は、直接署名と同じ署名ポップアップが表示されます。</para>
         </note></para>
 
       <note>
         <para>署名ではなく印鑑やスタンプを使用する必要がある場合もあります。eformsign
         では、印鑑やスタンプの画像を使用して文書の署名欄に印鑑・スタンプを入れることもできます。印鑑・スタンプの画像を使用するには、署名ポップアップで
-        <emphasis role="bold">印鑑・スタンプ</emphasis> タブをクリックして、印鑑・スタンプの画像を選択した後、OK
+        <emphasis role="bold">印鑑・スタンプ</emphasis>
+        タブをクリックして、印鑑・スタンプの画像を選択した後、<emphasis role="bold">OK</emphasis>
         ボタンをクリックします。</para>
       </note>
 
@@ -432,147 +517,142 @@
 
       <para>署名を手書きで描画するときに表示される線の色を設定します。</para>
 
-      <para><emphasis role="bold">⑤ ツールヒントのテキスト</emphasis></para>
+      <para><emphasis role="bold">⑤ プレースホルダー</emphasis></para>
 
-      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
+      <para>署名する署名する前にコンポーネントに表示されるテキストを設定できます。</para>
 
-      <note>
-        <para>電子契約書や電子同意書など、署名の入る文書に署名日付が自動的に入力されるように設定できます。</para>
+      <para><emphasis role="bold">⑥ ツールヒントの内容</emphasis></para>
 
-        <para>1.電子書式に変換する文書ファイル（Word、Excel、PowerPoint）を開くか、新しい文書を作成します。</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。eformsign
+      アプリではキーパッドの上部中央に表示されます。</para>
 
-        <para>2.署名が必要な箇所に署名コンポーネントを追加します。</para>
+      <tip>
+        <para><emphasis role="bold">署名日</emphasis> および <emphasis
+        role="bold">署名者</emphasis> の自動入力を設定する</para>
 
-        <para>3.追加した署名コンポーネントのプロパティタブにコンポーネントの 名前 を入力します。例）署名</para>
+        <para><emphasis role="bold">署名</emphasis>
+        コンポーネントをクリックして表示されるアイコンをクリックすると、<emphasis role="bold"> 署名日</emphasis>
+        および <emphasis role="bold">署名者 </emphasis>を追加することができます。</para>
 
-        <para>4.署名日付を入力したい箇所に使用日コンポーネントを追加します。</para>
+        <figure>
+          <title>署名日および署名者</title>
 
-        <para>5.使用日コンポーネントの「プロパティ」タブを開きます。</para>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/Signature-component-properties_web_icon.png"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
 
-        <para>6.使用日の書式設定を「入力値の変更日」とします。</para>
+        <para><emphasis role="bold">① 署名日:
+        </emphasis>署名した日付が自動入力されます。署名日の領域をクリックして右側に表示されるコンポーネントプロパティで日付の表示形式を設定できます。</para>
 
-        <para>7.下部に表示されるコンポーネントの「名前」の入力欄に、署名コンポーネントの 名前の「署名」を入力します。</para>
+        <figure>
+          <title>署名者</title>
 
-        <para>* 使用日コンポーネントの「書式設定」を設定することで、日付の表示形式を任意に変更できます。</para>
-      </note>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/Signature-component-properties_web_date.png"
+                         width="750"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para><emphasis role="bold">② 署名者:
+        </emphasis>署名者の情報が自動入力されます。<emphasis role="bold">署名
+        </emphasis>コンポーネントをクリックして右側に表示されるアイコンをクリックすると、ID、名前、部門役職、携帯電話、固定電話のうち、署名人の情報として表示される情報を指定できます。</para>
+
+        <figure>
+          <title>署名者</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/Signature-component-properties_web_signer.png"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <note>
+          <para>一つの署名と紐づけられた署名日および署名者コンポーネントを複数追加することができます。契約書などの文書の中で繰り返し署名日を入力したり、署名者の情報を詳しく入力したりすることができます。</para>
+        </note>
+      </tip>
     </section>
 
-    <section xml:id="check2">
-      <title>チェック</title>
+    <section xml:id="text2">
+      <title>1行テキストと複数行テキスト</title>
 
       <para><indexterm class="singular">
           <primary>コンポーネント</primary>
 
-          <secondary>チェック</secondary>
-        </indexterm>チェックコンポーネントは、各項目にチェックが入っているかどうかを確認する場合に使用します。同様のコンポーネントには、「選択」コンポーネントがあります。両方の違いは、チェックコンポーネントは項目へのチェック有無を確認するときに使用し、選択コンポーネントは何を選択したのかを確認する必要があるときに使用することにあります。</para>
-
-      <para>チェックコンポーネントの入力値は、データをダウンロードすれば、次のように表示されます。</para>
-
-      <itemizedlist>
-        <listitem>
-          <para>項目にチェックが入っている場合：true</para>
-        </listitem>
-
-        <listitem>
-          <para>項目にチェックが入っていない場合：false</para>
-        </listitem>
-      </itemizedlist>
-
-      <para>Word、PowerPoint
-      では、チェックコンポーネントが長方形の図形のように表示されます。コンポーネントの内容は、コンポーネントの図形の中に入力する必要があります。</para>
-
-      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
-
-      <para><figure>
-          <title>チェックコンポーネントのプロパティの設定</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/check-component-properties-1_web.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure></para>
-
-      <para><emphasis role="bold">① 名前</emphasis></para>
-
-      <para>チェックコンポーネントは、各コンポーネントごとに異なる 名前 を指定する必要があります。複数のチェックコンポーネントに同じ 名前
-      が与えられている場合は、最後のコンポーネントの入力値のみが表示されます。</para>
-
-      <para><emphasis role="bold">② チェックスタイル</emphasis></para>
-
-      <para>選択コンポーネントは、プロパティでスタイルを設定できます。チェックを入れると、プロパティでチェックボックスがデフォルト設定されることになります。チェックボックス以外に、ラジオボタン、赤い丸囲みの円の形を選択することもできます。</para>
-
-      <para>次の例では、左からチェック/ラジオ/丸囲みを選択すると、各チェックボックスがどのように表示されるかが確認できます。</para>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/check-component-style-settings.png"
-                     width="700"/>
-        </imageobject>
-      </mediaobject>
-    </section>
-
-    <section xml:id="select2">
-      <title>選択</title>
-
-      <para><indexterm class="singular">
+          <secondary>1行テキスト</secondary>
+        </indexterm><indexterm class="singular">
           <primary>コンポーネント</primary>
 
-          <secondary>選択</secondary>
-        </indexterm>選択コンポーネントは、複数の項目のうち、どの項目が選択されているかを確認する必要がある場合に使用します。選択コンポーネントの選択値は、データがダウンロードされると、選択した項目の名前で表示されます。</para>
-
-      <para>Word、PowerPoint
-      では、選択コンポーネントが長方形の図形のように表示されます。コンポーネントの内容は、コンポーネントの図形の中に入力する必要があります。</para>
+          <secondary>複数行テキスト</secondary>
+        </indexterm><emphasis role="bold">1行テキスト </emphasis>のコンポーネントと<emphasis
+      role="bold"> 複数行テキスト
+      </emphasis>のコンポーネントの両方とも、テキストの入力欄を作成するときに使用します。<emphasis
+      role="bold">1行テキスト </emphasis>のコンポーネントは 1 ～ 2単語の短いテキストに、<emphasis
+      role="bold"> 複数行テキスト</emphasis> のコンポーネントは1行以上の長いテキストに適用します。</para>
 
       <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
-
-      <para><figure>
-          <title>選択コンポーネントのプロパティの設定</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/Radio-component-properties_web.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure></para>
-
-      <para><emphasis role="bold">① 名前</emphasis></para>
-
-      <para>選択コンポーネント内の選択項目には、各選択グループに対して同じ 名前 を指定する必要があります。</para>
-
-      <para>たとえば、問題 1 に対して 1、2、3、4、5 の選択肢がある場合、1、2、3、4、5の項目に同じ 名前の
-      「問題1」を指定します。問題 2 の選択肢の1、2、3、4、5 に対しては 名前 を 「問題2」にします。次の例では、すべての選択項目の 名前
-      を 「年齢の選択」とします。</para>
 
       <figure>
-        <title>選択コンポーネントの設定の例</title>
+        <title>1行テキストと複数行テキストのプロパティの設定</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/radio-items-should-have-same-ID.png"
-                       width="700"/>
+            <imagedata fileref="resources/text-component-properties_web.png"/>
           </imageobject>
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">② 選択スタイル</emphasis></para>
+      <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>選択コンポーネントは、プロパティでスタイルを設定できます。赤い丸囲みの「円」がデフォルトで設定されており、それ以外にチェックボックスとラジオボタン表示を選択することもできます。</para>
+      <para><emphasis role="bold">1行テキスト </emphasis>もしくは <emphasis
+      role="bold">複数行テキスト </emphasis>のコンポーネント項目の <emphasis
+      role="bold">名前</emphasis>
+      を入力します。たとえば、木村、鈴木などが入力されるコンポーネントの名前は「氏名」です。</para>
 
-      <para><emphasis role="bold">③ マルチ選択の可能</emphasis></para>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/text-component-properties_web_name.png"/>
+        </imageobject>
+      </mediaobject>
 
-      <para><emphasis role="bold">マルチ選択の可能</emphasis>
-      にチェックを入れれば、複数の項目を選択できます。複数の項目が選択されている場合、データを保存するときに、選択した複数の項目がコンマ（ ,
-      ）で区切られて保存されます。</para>
+      <note>
+        <para><emphasis role="bold">名前</emphasis>
+        は自動的に付与されますが、コンポーネントを追加した後、受信者に入力を依頼するかどうかを決める際に、その <emphasis
+        role="bold">名前</emphasis> が表示されるので、認識しやすい名前を設定することを推奨します。</para>
+      </note>
 
-      <para><emphasis role="bold">④ 未選択可能</emphasis></para>
+      <para><emphasis role="bold">② デフォルト値</emphasis></para>
 
-      <para><emphasis role="bold">未選択可能</emphasis>
-      にチェックを入れれば、選択した項目をもう一度クリックして選択解除できます。</para>
+      <para>基本表示されるテキストを設定できます。デフォルトは「0」が設定されており、文字数に制限はありません。</para>
 
-      <para><emphasis role="bold">⑤ ツールヒントのテキスト</emphasis></para>
+      <note>
+        <para>テキストのコンポーネントでのみ設定可能なプロパティです。テキスト入力時に入力した内容がアスタリスク（*）やパスワード文字（●）で入力され、入力内容を隠すことができます。入力された内容は
+        PDF ではパスワード文字で表示されます。ただし、CSV データをダウンロードしたときには入力内容が表示されます。</para>
+      </note>
 
-      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
+      <para><emphasis role="bold">③入力可能な最大文字数</emphasis></para>
+
+      <para>入力可能な最大文字数（空白を含む）を設定できます。<emphasis role="bold">1行テキスト</emphasis>
+      の場合は 100 文字、 <emphasis role="bold">複数行テキスト</emphasis> の場合は 400
+      文字が基本設定です。</para>
+
+      <para><emphasis role="bold">④ モバイル入力時のキーパッドタイプ</emphasis></para>
+
+      <para>スマートフォン、タブレットのようなモバイル環境で文書を作成するとき表示するキーパッドのタイプを設定します。</para>
+
+      <para><emphasis role="bold">⑤ プレースホルダー</emphasis></para>
+
+      <para>署名する署名する前にコンポーネントに表示されるテキストを設定できます。</para>
+
+      <para><emphasis role="bold">⑥ ツールヒントの内容</emphasis></para>
+
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。eformsign
+      アプリではキーパッドの上部中央に表示されます。</para>
     </section>
 
     <section xml:id="label2">
@@ -582,7 +662,8 @@
           <primary>コンポーネント</primary>
 
           <secondary>ラベル</secondary>
-        </indexterm>文書のフォーム ID を設定できます。</para>
+        </indexterm><emphasis role="bold">ラベル</emphasis>
+      コンポーネントは、別途設定した値を文書に表示する場合に使用します。</para>
 
       <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
 
@@ -598,9 +679,186 @@
 
       <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>文書のフォーム ID は自動で生成され、変更もできます。</para>
+      <para><emphasis role="bold">ラベル</emphasis> コンポーネントの <emphasis
+      role="bold">名前</emphasis> を設定します。</para>
 
-      <para>ここで定義したフォーム ID は、文書を編集時に適用できます。</para>
+      <para><emphasis role="bold">②テキスト</emphasis></para>
+
+      <para>文書に表示するテキストをここで入力します。</para>
+    </section>
+
+    <section xml:id="check2">
+      <title>チェック</title>
+
+      <para><indexterm class="singular">
+          <primary>コンポーネント</primary>
+
+          <secondary>チェック</secondary>
+        </indexterm><emphasis role="bold">チェック
+      </emphasis>コンポーネントは、各項目にチェックが入っているかどうかを確認する場合に使用します。同様のコンポーネントには、
+      <emphasis role="bold">ラジオ</emphasis>
+      コンポーネントがあります。両方の違いは、チェックコンポーネントは項目へのチェック有無を確認するときに使用し、<emphasis
+      role="bold"> ラジオ
+      </emphasis>コンポーネントは何を選択したのかを確認する必要があるときに使用することにあります。</para>
+
+      <tip>
+        <para><emphasis role="bold">チェック</emphasis><emphasis role="bold">
+        コンポーネントと </emphasis><emphasis role="bold">ラジオ</emphasis> <emphasis
+        role="bold">コンポーネントの違い</emphasis></para>
+
+        <para><emphasis role="bold"><emphasis
+        role="bold">チェック</emphasis></emphasis> コンポーネントは複数選択が可能ですが、 <emphasis
+        role="bold">ラジオ</emphasis> コンポーネントは複数選択ができません。</para>
+      </tip>
+
+      <para><emphasis role="bold">チェック
+      </emphasis>コンポーネントの入力値は、データをダウンロードすれば、次のように表示されます。</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>項目にチェックが入っている場合：true</para>
+        </listitem>
+
+        <listitem>
+          <para>項目にチェックが入っていない場合：false</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>Word、PowerPoint では、<emphasis role="bold">チェック
+      </emphasis>コンポーネントが長方形の図形のように表示されます。コンポーネントの内容は、コンポーネントの図形の中に入力する必要があります。</para>
+
+      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
+
+      <para><figure>
+          <title>チェックコンポーネントのプロパティの設定</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/check-component-properties-1_web.png"/>
+            </imageobject>
+          </mediaobject>
+        </figure></para>
+
+      <para><emphasis role="bold">① 名前</emphasis></para>
+
+      <para><emphasis role="bold">チェック</emphasis>
+      コンポーネントは、各コンポーネントごとに異なる<emphasis role="bold"> 名前</emphasis>
+      を指定する必要があります。複数の<emphasis role="bold">チェック </emphasis>コンポーネントに同じ
+      <emphasis role="bold">名前</emphasis>
+      が与えられている場合は、最後のコンポーネントの入力値のみが表示されます。</para>
+
+      <para><emphasis role="bold">② アイテムリスト</emphasis></para>
+
+      <para>各コンポーネントに表示されるテキストを入力できます。複数の <emphasis
+      role="bold">チェック</emphasis> コンポーネントを追加して複数選択ができるよう設定することもできます。</para>
+
+      <para><emphasis role="bold">② チェックスタイル</emphasis></para>
+
+      <para><emphasis role="bold">チェック</emphasis>
+      コンポーネントは、プロパティでスタイルを設定できます。チェックを入れると、プロパティでチェックボックスがデフォルト設定されることになります。チェックボックス以外に、ラジオボタン、赤い丸囲みの円の形を選択することもできます。</para>
+
+      <para>次の例では、左からチェック/ラジオ/丸囲みを選択すると、各チェックボックスがどのように表示されるかが確認できます。</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/check-component-style-settings.png"
+                     width="700"/>
+        </imageobject>
+      </mediaobject>
+
+      <tip>
+        <para>右上のアイコンをクリックすると、各スタイルの色を指定することができます。活性化されたアイコンは、アイコンの下部に現在表示される色の線が表示されます。たとえば、チェックボックスの場合、チェックボックスの背景色、チェックボックスの輪郭線、チェックの色をそれぞれ指定できます。また、ラジオボタンの場合、外側の円と中央の丸の色をそれぞれ指定でき、丸囲みの円の形の場合、円の色を指定できます。</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/check-component-properties-web-style.png"/>
+          </imageobject>
+        </mediaobject>
+      </tip>
+
+      <para><emphasis role="bold">④ 非選択スタイル</emphasis></para>
+
+      <para>選択されていないコンポーネントに表示されるスタイルを指定できます。チェックボックスの場合は四角形、ラジオボタンの場合は円形、丸囲みの円の形の場合は何も表示されません。</para>
+
+      <para><emphasis role="bold">⑤ ツールヒントの内容</emphasis></para>
+
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。eformsign
+      アプリではキーパッドの上部中央に表示されます。</para>
+    </section>
+
+    <section xml:id="select2">
+      <title>ラジオ</title>
+
+      <para><indexterm class="singular">
+          <primary>コンポーネント</primary>
+
+          <secondary>ラジオ</secondary>
+        </indexterm><emphasis role="bold">ラジオ</emphasis>
+      コンポーネントは、複数の項目のうち、どの項目が選択されているかを確認する必要がある場合に使用します。<emphasis
+      role="bold">ラジオ</emphasis>
+      コンポーネントの選択値は、データがダウンロードされると、選択した項目の名前で表示されます。</para>
+
+      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
+
+      <para><figure>
+          <title>選択コンポーネントのプロパティの設定</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/Radio-component-properties_web.png"/>
+            </imageobject>
+          </mediaobject>
+        </figure></para>
+
+      <para><emphasis role="bold">① 名前</emphasis></para>
+
+      <para><emphasis role="bold">ラジオ</emphasis> コンポーネント内の選択項目には、各選択グループに対して同じ
+      <emphasis role="bold">名前</emphasis> を指定する必要があります。</para>
+
+      <para>たとえば、問題 1 に対して 1、2、3、4、5 の選択肢がある場合、1、2、3、4、5の項目に同じ 名前の
+      「問題1」を指定します。問題 2 の選択肢の1、2、3、4、5 に対しては 名前 を 「問題2」にします。次の例では、すべての選択項目の
+      <emphasis role="bold">名前</emphasis> を 「年齢の選択」とします。</para>
+
+      <figure>
+        <title>選択コンポーネントの設定の例</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/radio-items-should-have-same-ID.png"
+                       width="700"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">② アイテムリスト</emphasis></para>
+
+      <para>同じ名前を設定したコンポーネントは、プロパティの <emphasis role="bold">アイテムリスト</emphasis>
+      に一括表示され、 <emphasis role="bold">アイテムリスト</emphasis>
+      で便利にテキストを修正できます。</para>
+
+      <para><emphasis role="bold">③ 選択スタイル</emphasis></para>
+
+      <para><emphasis role="bold">ラジオ</emphasis>
+      コンポーネントは、プロパティでスタイルを設定できます。黒い丸囲みの円がデフォルトで設定されており、ドロップボックスメニューでスタイルを変更できます。</para>
+
+      <tip>
+        <para>右上のアイコンをクリックすると、各スタイルの色を指定することができます。活性化されたアイコンは、アイコンの下部に現在表示される色の線が表示され、外側の円と中央の丸の色をそれぞれ指定できます。</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/Radio-component-properties_web-style.png"/>
+          </imageobject>
+        </mediaobject>
+      </tip>
+
+      <para><emphasis role="bold">④ 非選択スタイル</emphasis></para>
+
+      <para>選択されていないコンポーネントに表示されるスタイルを指定できます。</para>
+
+      <para><emphasis role="bold">⑤ ツールヒントの内容</emphasis></para>
+
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。eformsign
+      アプリではキーパッドの上部中央に表示されます。</para>
     </section>
 
     <section xml:id="combo2">
@@ -610,7 +868,8 @@
           <primary>コンポーネント</primary>
 
           <secondary>リスト選択</secondary>
-        </indexterm>複数の項目から 1 つの項目を選択する必要がある場合は、リスト選択コンポーネントを使用します。</para>
+        </indexterm>複数の項目から 1 つの項目を選択する必要がある場合は、<emphasis
+      role="bold">リスト選択</emphasis> コンポーネントを使用します。</para>
 
       <para>チェックボックスをクリックすると、項目のリストが表示されます。</para>
 
@@ -634,139 +893,33 @@
 
       <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>リスト選択コンポーネントの「名前」を入力します。たとえば、お気に入りの色を選択するコンポーネントの名前は「お気に入りの色」とします。</para>
+      <para>リスト選択コンポーネントの <emphasis role="bold">名前</emphasis>
+      を入力します。たとえば、お気に入りの色を選択するコンポーネントの <emphasis role="bold">名前</emphasis>
+      は「お気に入りの色」とします。</para>
 
-      <para><emphasis role="bold">② リスト表示項目</emphasis></para>
+      <para><emphasis role="bold">② アイテム数</emphasis></para>
 
       <para>選択肢の項目を入力します。複数の項目を Enter キーで区切ります。</para>
 
+      <para><emphasis role="bold">③ 基本表示アイテム</emphasis></para>
+
+      <para>基本表示するアイテムを設定します。</para>
+
+      <para><emphasis role="bold">④ プレースホルダー</emphasis></para>
+
+      <para>署名する署名する前にコンポーネントに表示されるテキストを設定できます。</para>
+
       <note>
-        <para>リスト選択コンポーネントの最上部に「選択してください」を表示するには、リスト表示項目の第一項目として「選択してください」と入力します。その後、文書を送信する前のプレビュー時に、そのコンポーネント内で「選択してください」を選択してから送信してください。</para>
+        <para><emphasis role="bold">リスト選択</emphasis>
+        コンポーネントの最上部に「選択してください」を表示するには、<emphasis role="bold">プレースホルダー
+        </emphasis>に「選択してください」を入力して、<emphasis role="bold">基本表示アイテム
+        </emphasis>を「選択してください」に設定します。</para>
       </note>
 
-      <para><emphasis role="bold">③ 入力データを初期化可能</emphasis></para>
+      <para><emphasis role="bold">⑤ ツールヒントの内容</emphasis></para>
 
-      <para>「入力データを初期化可能」にチェックを入れると、選択した項目を選択解除できます。入力データの初期化は、次のように実行します。</para>
-
-      <itemizedlist>
-        <listitem>
-          <para>PC
-          環境：コンポーネントを右クリックして表示されるポップアップメニューから「入力データを初期化可能」を選択します。</para>
-        </listitem>
-
-        <listitem>
-          <para>モバイル環境：ごみ箱 アイコンをクリックします。</para>
-        </listitem>
-      </itemizedlist>
-
-      <para><emphasis role="bold">④ ツールヒントのテキスト</emphasis></para>
-
-      <para>選択欄にカーソルを合わせると、入力した説明がツールヒントのテキストに表示されます。</para>
-    </section>
-
-    <section xml:id="date2">
-      <title>日付</title>
-
-      <para><indexterm class="singular">
-          <primary>コンポーネント</primary>
-
-          <secondary>日付</secondary>
-        </indexterm>日付を入力する必要がある場合に使用します。入力欄をクリックすると、日付ピッカーが表示され、目的の日付を選択できます。</para>
-
-      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
-
-      <figure>
-        <title>日付コンポーネントのプロパティの設定</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/datetime-component-properties_02_web.png"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para><emphasis role="bold">① 名前</emphasis></para>
-
-      <para>日付コンポーネントの「名前」を入力します。たとえば、休暇の開始日を選択するコンポーネントの名前 は 「休暇の開始日」
-      にします。</para>
-
-      <para><emphasis role="bold">② 書式設定</emphasis></para>
-
-      <para>日付を表示する書式を指定します。デフォルト設定は、date_yyyy-MM-dd です。</para>
-
-      <itemizedlist>
-        <listitem>
-          <para><emphasis role="bold">yyyy：</emphasis>
-          「年度」を表示します。（yyyy年＝2020年）</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">MM：</emphasis>
-          「月」を表示します。月の表現は大文字にする必要があります。（MM月＝8月）</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">dd：</emphasis> 「日」を表示します。（dd日 =
-          10日）</para>
-        </listitem>
-      </itemizedlist>
-
-      <para>「2020年 2月 5日」のように表示するには、書式設定に「yyyy年 MM月 dd日」と入力します。</para>
-
-      <para><emphasis role="bold">③ 入力可能な最小/最大日付</emphasis></para>
-
-      <para>日付の選択時に選択可能な最小日付と最大日付を指定して、入力可能な日付の範囲を設定します。</para>
-
-      <para><emphasis role="bold">④ 空の値の場合、今日の日付を表示</emphasis></para>
-
-      <para>文書を開いたときに今日の日付が自動で入力されるように設定します。日付コンポーネントを追加すると、デフォルトでチェックが入っています。別の日付を選択するには、今日の日付が入力されている入力欄をもう一度クリックしてください。</para>
-
-      <para><emphasis role="bold">⑥ ツールヒントのテキスト</emphasis></para>
-
-      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
-    </section>
-
-    <section xml:id="numeric2">
-      <title>数字</title>
-
-      <para><indexterm class="singular">
-          <primary>コンポーネント</primary>
-
-          <secondary>数字</secondary>
-        </indexterm>数字を入力する必要がある場合に使用します。入力欄をクリックすると、2つの矢印が表示されます。「上へ」もしくは「下へ」の矢印ボタンを押して、数字を増減できます。PC
-      のキーボード環境では、入力欄に任意の数字を直接入力できます。スマートフォンやタブレット環境では、入力範囲の数字リストをスクロールして目的の数字を選択できます。</para>
-
-      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
-
-      <figure>
-        <title>数字コンポーネントのプロパティの設定</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/number-component-properties_web.png"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para><emphasis role="bold">① 名前</emphasis></para>
-
-      <para>数字コンポーネントの 名前 を入力します。たとえば、予約人員の数を入力するコンポーネントの 名前
-      は、「予約人員」にします。</para>
-
-      <para><emphasis role="bold">② 変化の増分</emphasis></para>
-
-      <para>入力欄の増加/減少のアイコンをクリックするたびに、現在入力されている値から増減する値を入力します。たとえば、増分の単位を 100
-      に設定して文書を作成する場合、入力欄の右側にある上への矢印（▲）をクリックすると、入力値から 200、300、...
-      に増加します。</para>
-
-      <para><emphasis role="bold">③ 入力可能な最小値/最大値</emphasis></para>
-
-      <para>入力可能な最小値と最大値を指定して、入力可能な数字の範囲を設定します。たとえば、生年月日の場合は、通常、最小値を1900、最大値を現在の年度、増分の単位を1で指定します。最小値または最大値が指定されている状態で範囲外の数字を入力すると、最小値または最大値が自動で入力されます。つまり、最大値が
-      100 の場合、入力欄に 101 を入力すると、数字が自動的に最大値の 100 に変更されます。</para>
-
-      <para><emphasis role="bold">④ ツールヒントのテキスト</emphasis></para>
-
-      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。eformsign
+      アプリではキーパッドの上部中央に表示されます。</para>
     </section>
 
     <section xml:id="toggle2">
@@ -810,6 +963,114 @@
       キーで区切ります。</para>
 
       <para><emphasis role="bold">③ ツールヒントのテキスト</emphasis></para>
+
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
+    </section>
+
+    <section xml:id="date2">
+      <title>日付</title>
+
+      <para><indexterm class="singular">
+          <primary>コンポーネント</primary>
+
+          <secondary>日付</secondary>
+        </indexterm>日付を入力する必要がある場合に使用します。入力欄をクリックすると、日付ピッカーが表示され、目的の日付を選択できます。</para>
+
+      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
+
+      <figure>
+        <title>日付コンポーネントのプロパティの設定</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/datetime-component-properties_02_web.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">① 名前</emphasis></para>
+
+      <para>日付コンポーネントの「名前」を入力します。たとえば、休暇の開始日を選択するコンポーネントの名前 は 「休暇の開始日」
+      にします。</para>
+
+      <para><emphasis role="bold">② 書式設定</emphasis></para>
+
+      <para>日付を表示する書式を指定します。デフォルト設定は、date_yyyy-MM-dd です。</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">yyyy：</emphasis><emphasis
+          role="bold">年度</emphasis> を表示します。（yyyy年＝2020年）</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">MM：</emphasis><emphasis
+          role="bold">月</emphasis> を表示します。月の表現は大文字にする必要があります。（MM月＝8月）</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">dd：</emphasis><emphasis
+          role="bold">日</emphasis> を表示します。（dd日 = 10日） </para>
+        </listitem>
+      </itemizedlist>
+
+      <para>「2020年 2月 5日」のように表示するには、書式設定に<emphasis
+      role="bold">「</emphasis>yyyy年 MM月 dd日」と入力します。</para>
+
+      <para><emphasis role="bold">③ 入力可能な最小/最大日付</emphasis></para>
+
+      <para>日付の選択時に選択可能な最小日付と最大日付を指定して、入力可能な日付の範囲を設定します。</para>
+
+      <para><emphasis role="bold">④ 空の値の場合、今日の日付を表示</emphasis></para>
+
+      <para>文書を開いたときに今日の日付が自動で入力されるように設定します。日付コンポーネントを追加すると、デフォルトでチェックが入っています。別の日付を選択するには、今日の日付が入力されている入力欄をもう一度クリックしてください。</para>
+
+      <para><emphasis role="bold">⑥ ツールヒントのテキスト</emphasis></para>
+
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
+    </section>
+
+    <section xml:id="numeric2">
+      <title>数字</title>
+
+      <para><indexterm class="singular">
+          <primary>コンポーネント</primary>
+
+          <secondary>数字</secondary>
+        </indexterm>数字を入力する必要がある場合に使用します。入力欄をクリックすると、2つの矢印が表示されます。<emphasis
+      role="bold"> 上へ</emphasis> もしくは <emphasis role="bold">下へ</emphasis>
+      の矢印ボタンを押して、数字を増減できます。PC
+      のキーボード環境では、入力欄に任意の数字を直接入力できます。スマートフォンやタブレット環境では、入力範囲の数字リストをスクロールして目的の数字を選択できます。</para>
+
+      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
+
+      <figure>
+        <title>数字コンポーネントのプロパティの設定</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/number-component-properties_web.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">① 名前</emphasis></para>
+
+      <para>数字コンポーネントの 名前 を入力します。たとえば、予約人員の数を入力するコンポーネントの 名前
+      は、「予約人員」にします。</para>
+
+      <para><emphasis role="bold">② 変化の増分</emphasis></para>
+
+      <para>入力欄の増加/減少のアイコンをクリックするたびに、現在入力されている値から増減する値を入力します。たとえば、増分の単位を 100
+      に設定して文書を作成する場合、入力欄の右側にある上への矢印（▲）をクリックすると、入力値から 200、300、...
+      に増加します。</para>
+
+      <para><emphasis role="bold">③ 入力可能な最小値/最大値</emphasis></para>
+
+      <para>入力可能な最小値と最大値を指定して、入力可能な数字の範囲を設定します。たとえば、生年月日の場合は、通常、最小値を1900、最大値を現在の年度、増分の単位を1で指定します。最小値または最大値が指定されている状態で範囲外の数字を入力すると、最小値または最大値が自動で入力されます。つまり、最大値が
+      100 の場合、入力欄に 101 を入力すると、数字が自動的に最大値の 100 に変更されます。</para>
+
+      <para><emphasis role="bold">④ ツールヒントのテキスト</emphasis></para>
 
       <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
     </section>

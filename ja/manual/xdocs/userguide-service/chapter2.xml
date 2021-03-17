@@ -553,7 +553,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">eformsignを脱退</emphasis></term>
+          <term><emphasis role="bold">eformsignを脱退する</emphasis></term>
 
           <listitem>
             <para>eformsign から会員脱退をしようとする場合は、画面の下部の <emphasis
@@ -1419,7 +1419,7 @@
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">印鑑・スタンプ</emphasis> の下部にある<emphasis
+        <para><emphasis role="bold">印鑑・スタンプ</emphasis> タブの<emphasis
         role="bold"> 登録 </emphasis>ボタンをクリックします。</para>
 
         <figure>
