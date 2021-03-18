@@ -519,7 +519,7 @@
 
       <para><emphasis role="bold">⑤ プレースホルダー</emphasis></para>
 
-      <para>署名する署名する前にコンポーネントに表示されるテキストを設定できます。</para>
+      <para>署名する前にコンポーネントに表示されるテキストを設定できます。</para>
 
       <para><emphasis role="bold">⑥ ツールヒントの内容</emphasis></para>
 
@@ -647,7 +647,7 @@
 
       <para><emphasis role="bold">⑤ プレースホルダー</emphasis></para>
 
-      <para>署名する署名する前にコンポーネントに表示されるテキストを設定できます。</para>
+      <para>何も入力されていない場合にコンポーネントに表示されるテキストを設定できます。</para>
 
       <para><emphasis role="bold">⑥ ツールヒントの内容</emphasis></para>
 
@@ -907,7 +907,7 @@
 
       <para><emphasis role="bold">④ プレースホルダー</emphasis></para>
 
-      <para>署名する署名する前にコンポーネントに表示されるテキストを設定できます。</para>
+      <para>何も入力されていない場合にコンポーネントに表示されるテキストを設定できます。</para>
 
       <note>
         <para><emphasis role="bold">リスト選択</emphasis>
@@ -929,8 +929,8 @@
           <primary>コンポーネント</primary>
 
           <secondary>トグル</secondary>
-        </indexterm>ON や OFF
-      など、特定の状態を示すために使用します。トグルコンポーネントを使用すれば、コンポーネントをクリックするたびに、予め設定しておいた項目順で入力値が切り替わります。</para>
+        </indexterm>ON や OFF など、特定の状態を示すために使用します。<emphasis role="bold">トグル
+      </emphasis>コンポーネントを使用すれば、コンポーネントをクリックするたびに、予め設定しておいた項目順で入力値が切り替わります。</para>
 
       <para>次のようにコンポーネントをクリックして、「良好」または「不良」に変更できます。</para>
 
@@ -954,17 +954,23 @@
 
       <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>トグルコンポーネントの 名前 を入力します。たとえば、最初の点検項目に対するコンポーネントであれば、「点検項目
+      <para><emphasis role="bold">トグル</emphasis> コンポーネントの<emphasis
+      role="bold"> 名前</emphasis> を入力します。たとえば、最初の点検項目に対するコンポーネントであれば、「点検項目
       1」にします。</para>
 
-      <para><emphasis role="bold">② リスト表示項目</emphasis></para>
+      <para><emphasis role="bold">② アイテム数</emphasis></para>
 
-      <para>トグルコンポーネントをクリックするたびに、切り替わる項目のリストを入力します。複数の項目を Enter
-      キーで区切ります。</para>
+      <para><emphasis role="bold">トグル</emphasis>
+      コンポーネントをクリックするたびに、切り替わる項目のリストを入力します。複数の項目を Enter キーで区切ります。</para>
 
-      <para><emphasis role="bold">③ ツールヒントのテキスト</emphasis></para>
+      <para><emphasis role="bold">③ 基本表示アイテム</emphasis></para>
 
-      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
+      <para>基本表示するアイテムを設定します。</para>
+
+      <para><emphasis role="bold">④ ツールヒントの内容</emphasis></para>
+
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。eformsign
+      アプリではキーパッドの上部中央に表示されます。</para>
     </section>
 
     <section xml:id="date2">
@@ -993,50 +999,56 @@
       <para>日付コンポーネントの「名前」を入力します。たとえば、休暇の開始日を選択するコンポーネントの名前 は 「休暇の開始日」
       にします。</para>
 
-      <para><emphasis role="bold">② 書式設定</emphasis></para>
+      <para><emphasis role="bold">② デフォルト値</emphasis></para>
+
+      <para>基本表示される日付を設定できます。<emphasis role="bold">今日の日付で設定</emphasis>
+      にチェックを入れると、文書を開いたときに今日の日付が自動で入力されます。</para>
+
+      <para><emphasis role="bold">③ 書式設定</emphasis></para>
 
       <para>日付を表示する書式を指定します。デフォルト設定は、date_yyyy-MM-dd です。</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">yyyy：</emphasis><emphasis
-          role="bold">年度</emphasis> を表示します。（yyyy年＝2020年）</para>
+          <para><emphasis
+          role="bold">yyyy：</emphasis>年度を表示します。（yyyy年＝2020年）</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">MM：</emphasis><emphasis
-          role="bold">月</emphasis> を表示します。月の表現は大文字にする必要があります。（MM月＝8月）</para>
+          <para><emphasis
+          role="bold">MM：</emphasis>月を表示します。月の表現は大文字にする必要があります。（MM月＝8月）</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">dd：</emphasis><emphasis
-          role="bold">日</emphasis> を表示します。（dd日 = 10日） </para>
+          <para><emphasis role="bold">dd：</emphasis>日を表示します。（dd日 = 10日）
+          </para>
         </listitem>
       </itemizedlist>
 
       <para>「2020年 2月 5日」のように表示するには、書式設定に<emphasis
       role="bold">「</emphasis>yyyy年 MM月 dd日」と入力します。</para>
 
-      <para><emphasis role="bold">③ 入力可能な最小/最大日付</emphasis></para>
+      <para><emphasis role="bold">④ 入力可能な最小/最大日付</emphasis></para>
 
       <para>日付の選択時に選択可能な最小日付と最大日付を指定して、入力可能な日付の範囲を設定します。</para>
 
-      <para><emphasis role="bold">④ 空の値の場合、今日の日付を表示</emphasis></para>
+      <para><emphasis role="bold">⑤ プレースホルダー</emphasis></para>
 
-      <para>文書を開いたときに今日の日付が自動で入力されるように設定します。日付コンポーネントを追加すると、デフォルトでチェックが入っています。別の日付を選択するには、今日の日付が入力されている入力欄をもう一度クリックしてください。</para>
+      <para>何も入力されていない場合にコンポーネントに表示されるテキストを設定できます。</para>
 
-      <para><emphasis role="bold">⑥ ツールヒントのテキスト</emphasis></para>
+      <para><emphasis role="bold">⑥ ツールヒントの内容</emphasis></para>
 
-      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。eformsign
+      アプリではキーパッドの上部中央に表示されます。</para>
     </section>
 
     <section xml:id="numeric2">
-      <title>数字</title>
+      <title>増減</title>
 
       <para><indexterm class="singular">
           <primary>コンポーネント</primary>
 
-          <secondary>数字</secondary>
+          <secondary>増減</secondary>
         </indexterm>数字を入力する必要がある場合に使用します。入力欄をクリックすると、2つの矢印が表示されます。<emphasis
       role="bold"> 上へ</emphasis> もしくは <emphasis role="bold">下へ</emphasis>
       の矢印ボタンを押して、数字を増減できます。PC
@@ -1056,23 +1068,33 @@
 
       <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>数字コンポーネントの 名前 を入力します。たとえば、予約人員の数を入力するコンポーネントの 名前
+      <para><emphasis role="bold">数字</emphasis> コンポーネントの <emphasis
+      role="bold">名前</emphasis> を入力します。たとえば、予約人員の数を入力するコンポーネントの 名前
       は、「予約人員」にします。</para>
 
-      <para><emphasis role="bold">② 変化の増分</emphasis></para>
+      <para><emphasis role="bold">② デフォルト値</emphasis></para>
+
+      <para>基本表示される数字を設定できます。</para>
+
+      <para><emphasis role="bold">③ 変化の増分</emphasis></para>
 
       <para>入力欄の増加/減少のアイコンをクリックするたびに、現在入力されている値から増減する値を入力します。たとえば、増分の単位を 100
       に設定して文書を作成する場合、入力欄の右側にある上への矢印（▲）をクリックすると、入力値から 200、300、...
       に増加します。</para>
 
-      <para><emphasis role="bold">③ 入力可能な最小値/最大値</emphasis></para>
+      <para><emphasis role="bold">④ 入力可能な最小値/最大値</emphasis></para>
 
       <para>入力可能な最小値と最大値を指定して、入力可能な数字の範囲を設定します。たとえば、生年月日の場合は、通常、最小値を1900、最大値を現在の年度、増分の単位を1で指定します。最小値または最大値が指定されている状態で範囲外の数字を入力すると、最小値または最大値が自動で入力されます。つまり、最大値が
       100 の場合、入力欄に 101 を入力すると、数字が自動的に最大値の 100 に変更されます。</para>
 
-      <para><emphasis role="bold">④ ツールヒントのテキスト</emphasis></para>
+      <para><emphasis role="bold">⑤ プレースホルダー</emphasis></para>
 
-      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
+      <para>何も入力されていない場合にコンポーネントに表示されるテキストを設定できます。</para>
+
+      <para><emphasis role="bold">⑥ ツールヒントの内容</emphasis></para>
+
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。eformsign
+      アプリではキーパッドの上部中央に表示されます。</para>
     </section>
 
     <section xml:id="camera2">
@@ -1088,7 +1110,14 @@
       <para>選択した画像のサイズが入力欄のサイズより大きい場合、入力欄内に入るサイズに縮小してアップロードされます。</para>
 
       <note>
-        <para>写真コンポーネントの場合、カメラを利用できる環境ではカメラ機能が実行され、カメラの利用できない環境では画像ファイルの選択ウィンドウが実行されます。</para>
+        <para><emphasis role="bold">写真</emphasis>
+        コンポーネントの場合、カメラを利用できる環境ではカメラ機能が実行され、カメラの利用できない環境では画像ファイルの選択ウィンドウが実行されます。</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/camera1.png"/>
+          </imageobject>
+        </mediaobject>
       </note>
 
       <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
@@ -1105,12 +1134,18 @@
 
       <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>カメラコンポーネントの 名前
+      <para><emphasis role="bold">写真</emphasis> コンポーネントの <emphasis
+      role="bold">名前</emphasis>
       を入力します。たとえば、IDカードの写真を撮影するコンポーネントの名前は「身分証明のための写真」です。</para>
 
-      <para><emphasis role="bold">② ツールヒントのテキスト</emphasis></para>
+      <para><emphasis role="bold">⑤ プレースホルダー</emphasis></para>
 
-      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
+      <para>撮影前にコンポーネントに表示されるテキストを設定できます。</para>
+
+      <para><emphasis role="bold">⑥ ツールヒントの内容</emphasis></para>
+
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。eformsign
+      アプリではキーパッドの上部中央に表示されます。</para>
     </section>
 
     <section xml:id="record2">
@@ -1120,10 +1155,9 @@
           <primary>コンポーネント</primary>
 
           <secondary>録音</secondary>
-        </indexterm>ユーザーの録音データを文書に保存する必要がある場合に使用します。最大録音時間を設定することも、すでに録音された内容を聴けるように設定することもできます。</para>
-
-      <para>OZ in Office
-      に録音コンポーネントを追加すると、ビューアーで録音したコンテンツを再生したり、新しい録音を行ったりすることができます。</para>
+        </indexterm>ユーザーの録音データを文書に保存する必要がある場合に使用します。<emphasis
+      role="bold">録音</emphasis>
+      コンポーネントを追加すると、ビューアーで録音したコンテンツを再生したり、新しい録音を行ったりすることができます。</para>
 
       <mediaobject>
         <imageobject>
@@ -1132,11 +1166,7 @@
       </mediaobject>
 
       <note>
-        <para>録音のタイムアウトが1以上に設定されている場合、設定した時間（単位：秒）の分だけ録音したら、自動で録音が完了します。</para>
-
-        <para>ActiveX ビューアーでは、Windows 8 以降から、録音の再生 UI をサポートしています。</para>
-
-        <para>録音コンポーネントを PC 環境で実行する場合、ボイスレコーダーを利用できるときだけ機能します。</para>
+        <para>録音機能はeformsignアプリ意外では動作しません。</para>
       </note>
 
       <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
@@ -1153,11 +1183,18 @@
 
       <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>録音コンポーネントの「名前」を入力します。たとえば、録音を再生するコンポーネントの 名前 を「録音」に設定します。</para>
+      <para><emphasis role="bold">録音</emphasis> コンポーネントの <emphasis
+      role="bold">名前</emphasis> を入力します。たとえば、録音を再生するコンポーネントの 名前
+      を「録音」に設定します。</para>
 
-      <para><emphasis role="bold">② ツールヒントのテキスト</emphasis></para>
+      <para><emphasis role="bold">⑤ プレースホルダー</emphasis></para>
 
-      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
+      <para>録音前にコンポーネントに表示されるテキストを設定できます。</para>
+
+      <para><emphasis role="bold">⑥ ツールヒントの内容</emphasis></para>
+
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。eformsign
+      アプリではキーパッドの上部中央に表示されます。</para>
     </section>
 
     <section xml:id="attach2">
@@ -1167,7 +1204,9 @@
           <primary>コンポーネント</primary>
 
           <secondary>添付</secondary>
-        </indexterm>文書に添付が必要な他の文書がある場合に使用します。添付コンポーネントを使用して文書を添付すると、添付した文書は元来の文書の最後に新しいページとして追加されます。</para>
+        </indexterm>文書に添付が必要な他の文書がある場合に使用します。<emphasis
+      role="bold">添付</emphasis>
+      コンポーネントを使用して文書を添付すると、添付した文書は元来の文書の最後に新しいページとして追加されます。</para>
 
       <para>添付可能なファイルのタイプとサイズは次のとおりです。</para>
 
@@ -1195,27 +1234,61 @@
 
       <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>添付コンポーネントの 名前 を入力します。たとえば、在職証明書を添付するコンポーネントの 名前
-      は「在職証明書」とします。</para>
+      <para><emphasis role="bold">添付</emphasis> コンポーネントの 名前
+      を入力します。たとえば、在職証明書を添付するコンポーネントの 名前 は「在職証明書」とします。</para>
 
-      <para><emphasis role="bold">② ツールヒントのテキスト</emphasis></para>
+      <para><emphasis role="bold">② プレースホルダー</emphasis></para>
 
-      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
+      <para>添付前にコンポーネントに表示されるテキストを設定できます。</para>
+
+      <para><emphasis role="bold">③ ツールヒントの内容</emphasis></para>
+
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。eformsign
+      アプリではキーパッドの上部中央に表示されます。</para>
+
+      <tip>
+        <para><emphasis role="bold">添付アイコンの表示</emphasis>
+        にチェックを入れると、添付領域にクリップアイコンが表示されます。</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/Attachment-component-properties_web_icon.png"/>
+          </imageobject>
+        </mediaobject>
+      </tip>
     </section>
 
     <section xml:id="document2">
-      <title>文書</title>
+      <title>文書ID/文書番号</title>
 
       <para><indexterm class="singular">
           <primary>コンポーネント</primary>
 
-          <secondary>文書</secondary>
-        </indexterm>文書コンポーネントは、文書内に文書関連の情報を入力する必要がある場合に使用します。文書 ID
-      と文書番号のいずれかを選択した後、必要な情報を入力します。</para>
+          <secondary>文書ID/文書番号</secondary>
+        </indexterm>情報コンポーネントは、文書内に文書関連の情報を入力する必要がある場合に使用します。文書 ID
+      と文書番号を入力します。</para>
 
       <para>文書 ID は、システムが付与する文書固有の ID
       であるため、設定を必要としません。文書番号に関する設定は、テンプレートをアップロードした後、 <emphasis
       role="bold">テンプレートの設定 &gt; 全般</emphasis> で行えます。</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">文書 ID：</emphasis>システムがすべての文書に付与する文書固有の
+          ID で、32 桁の英数字の組み合わせで表示されます。例）0077af27a98846c8872f5333920679b7</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">文書番号：</emphasis> <emphasis
+          role="bold">テンプレートの設定 &gt;
+          全般</emphasis>で設定した文書番号です。文書番号の設定については、<xref
+          linkend="docnumber_wd"/>をご参照ください。</para>
+
+          <note>
+            <para>文書 IDはシステムで付与される文書の固有IDのため、別途設定する必要はありません。</para>
+          </note>
+        </listitem>
+      </itemizedlist>
 
       <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
 
@@ -1231,26 +1304,9 @@
 
       <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>文書コンポーネントの 名前 を入力します。たとえば、文書番号を入力すると、コンポーネントの 名前
+      <para><emphasis role="bold">情報</emphasis> コンポーネントの <emphasis
+      role="bold">名前</emphasis> を入力します。たとえば、文書番号を入力すると、コンポーネントの 名前
       は「文書番号」になります。</para>
-
-      <para><emphasis role="bold">② 文書情報のタイプ</emphasis></para>
-
-      <para>使用したい文書情報を選択します。</para>
-
-      <itemizedlist>
-        <listitem>
-          <para><emphasis role="bold">文書 ID：</emphasis>システムがすべての文書に付与する文書固有の
-          ID で、32 桁の英数字の組み合わせで表示されます。例）0077af27a98846c8872f5333920679b7</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">文書番号：</emphasis> <emphasis
-          role="bold">テンプレートの設定 &gt;
-          全般</emphasis>で設定した文書番号です。文書番号の設定については、<xref
-          linkend="docnumber_wd"/>をご参照ください。</para>
-        </listitem>
-      </itemizedlist>
     </section>
   </section>
 
@@ -1259,8 +1315,9 @@
 
     <para>背景書式の上にコンポーネントを追加したら、テンプレートで作成した文書について、テンプレートのタイトル、文書番号、ワークフローなどの追加設定を行うことができます。</para>
 
-    <para>「デザインする」の画面で、 <emphasis role="bold">次へ</emphasis> ボタンをクリックして設定する
-    に移動します。「設定する」画面では、次の5つの設定を行い、テンプレートを設定することができます。</para>
+    <para><emphasis role="bold">デザインする</emphasis> の画面で、 <emphasis
+    role="bold">設定する</emphasis> ボタンをクリックして設定する に移動します。<emphasis
+    role="bold">設定する</emphasis> 画面では、次の5つの設定を行い、テンプレートを設定することができます。</para>
 
     <itemizedlist>
       <listitem>
@@ -1299,8 +1356,13 @@
         </mediaobject>
       </figure></para>
 
-    <para>4 すべての設定が完了したら、 <emphasis role="bold">保存</emphasis>
-    ボタンをクリックして設定を保存します。</para>
+    <important>
+      <para>作成したテンプレートを使って文書を作成できるようにするためには、テンプレートを保存した後、<emphasis
+      role="bold">配布</emphasis>する必要があります。</para>
+
+      <para>テンプレートを配布せず保存した場合、保存したテンプレートはテンプレートの使用権限を持つメンバーの<emphasis
+      role="bold"> テンプレートで作成する</emphasis> 画面に表示されません。</para>
+    </important>
 
     <note>
       <para>テンプレートの詳細な説明については、<xref linkend="template_wd"/>をご参照ください。</para>
