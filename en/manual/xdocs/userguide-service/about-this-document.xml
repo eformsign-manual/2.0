@@ -6,97 +6,112 @@
          xmlns:mml="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title xml:lang="ko-KR">안내서에 대하여</title>
+  <title xml:lang="ko-KR">About this Document</title>
 
-  <bridgehead>안내서의 대상</bridgehead>
+  <bridgehead>Intended Audience</bridgehead>
 
-  <para>본 안내서는 eformsign<superscript>®</superscript>(이하 eformsign)을 사용하고자 하는
-  모든 사용자를 대상으로 기술하고 있습니다.</para>
+  <para>This document is intended for users who want to use eformsign®
+  (hereafter eformsign).</para>
 
   <para/>
 
-  <bridgehead>안내서의 전제 조건</bridgehead>
+  <bridgehead>Required Knowledge</bridgehead>
 
-  <para>본 안내서를 원활하게 이해하기 위해서는 다음과 같은 사항을 미리 알고 있어야 합니다.</para>
+  <para>To understand this guide, users must have an understanding of the
+  following:</para>
 
   <itemizedlist>
     <listitem>
-      <para>전자문서 시스템에 대한 기본적인 이해</para>
+      <para>Basic knowledge of electronic document systems</para>
     </listitem>
   </itemizedlist>
 
   <para/>
 
-  <bridgehead>안내서의 제한 조건</bridgehead>
+  <bridgehead>Document Scope</bridgehead>
 
-  <para>본 안내서는 eformsign을 사용하는데 필요한 필수 사항만을 기술하고 있습니다.</para>
+  <para>This guide only contains information needed for using
+  eformsign.</para>
 
   <para/>
 
   <?dbfo-need height="10in" ?>
 
-  <bridgehead>안내서 구성</bridgehead>
+  <bridgehead>Document Overview</bridgehead>
 
-  <para>eformsign 사용자 안내서는 총 9개의 장으로 구성되어 있습니다.</para>
+  <para>The eformsign user guide consists of a total of 10 chapters.</para>
 
-  <para>각 장의 주요 내용은 다음과 같습니다.</para>
+  <para>Descriptions of each are as follows:</para>
 
   <itemizedlist>
     <listitem>
-      <para>제1장: 개요</para>
+      <para>Chapter 1: Introduction to eformsign</para>
 
-      <para>eformsign 제품 개요와 기본 용어, 사용 사례에 대해서 기술합니다.</para>
+      <para>Provides basic information about eformsign including product
+      overview, basic terms, and use cases.</para>
     </listitem>
 
     <listitem>
-      <para>제2장: 기본 정보</para>
+      <para>Chapter 2: Basic Info</para>
 
-      <para>eformsign의 메뉴 구성과 기본 정보를 확인하는 방법, 회사의 그룹과 멤버를 관리하는 방법에 대해서
-      설명합니다.</para>
+      <para>Provides an overview of the eformsign dashboard and menus and
+      describes how to manage your account.</para>
     </listitem>
 
     <listitem>
-      <para>제3장: 웹폼 디자이너와 컴포넌트</para>
+      <para>Chapter 3: Creating documents</para>
 
-      <para>eformsign의 웹폼 디자이너 소개 및 사용법과 각각의 컴포넌트의 사용 방법에 대해서 설명합니다.</para>
+      <para>Describes how to create documents in eformsign.</para>
     </listitem>
 
     <listitem>
-      <para>제4장: 폼 빌더와 컴포넌트</para>
+      <para>Chapter 4: Web Form Designer and components</para>
 
-      <para>eformsign의 폼 빌더 소개 및 사용법과 각각의 컴포넌트의 사용 방법에 대해서 설명합니다.</para>
+      <para>Provides an overview of eformsign Web Form Designer and describes
+      how to use its features and components.</para>
     </listitem>
 
     <listitem>
-      <para>제5장: 템플릿-웹폼 디자이너</para>
+      <para>Chapter 5: Form Builder and components</para>
 
-      <para>웹폼 디자이너를 통해 생성한 템플릿의 설정 방법 및 사용 방법에 대해서 설명합니다.</para>
+      <para>Provides and overview of eformsign Form Builder and describes how
+      to use its features and components.</para>
     </listitem>
 
     <listitem>
-      <para>제6장: 템플릿-폼 빌더</para>
+      <para>Chapter 6: Creating templates using Web Form Designer</para>
 
-      <para>폼 빌더를 통해 생성한 템플릿의 설정 방법 및 사용 방법에 대해서 설명합니다.</para>
+      <para>Describes how to configure and manage templates created using Web
+      Form Designer.</para>
     </listitem>
 
     <listitem>
-      <para>제7장: 문서</para>
+      <para>Chapter 7: Creating templates using Web Form Builder</para>
 
-      <para>eformsign이 제공하는 문서함과 문서함의 사용 방법, 문서 검색 방법에 대해서 설명합니다.</para>
+      <para>Describes how to configure and manage templates created using Form
+      Builder.</para>
     </listitem>
 
     <listitem>
-      <para>제8장: 커스터마이즈</para>
+      <para>Chapter 8: Documents Menus</para>
 
-      <para>eformsign에서 사용자 정의 필드를 생성 및 사용하는 방법과 알림 템플릿을 관리하는 방법에 대해서
-      설명합니다.</para>
+      <para>Describes the eformsign documents menus and how to use them and
+      search for documents.</para>
     </listitem>
 
     <listitem>
-      <para>제9장: 외부 서비스 연동 방법</para>
+      <para>Chapter 9: Customization</para>
 
-      <para>완료된 문서를 외부의 클라우드 스토리지 서비스에 저장하는 방법과 입력된 데이터를 Google 스프레드 시트와
-      Office 365의 엑셀 문서에 저장하는 방법에 대해서 설명합니다.</para>
+      <para>Describes how to create and use custom fields in eformsign as well
+      as describing how to manage notification templates.</para>
+    </listitem>
+
+    <listitem>
+      <para>Chapter 10: Connecting with External Services</para>
+
+      <para>Describes how to store completed documents in cloud storage
+      services as well as storing data in Google Sheets and Office 365's Excel
+      spreadsheets.</para>
     </listitem>
   </itemizedlist>
 
@@ -104,7 +119,7 @@
 
   <?dbfo-need height="10in" ?>
 
-  <bridgehead>안내서 규약</bridgehead>
+  <bridgehead>Conventions</bridgehead>
 
   <para><informaltable colsep="1" frame="topbot" rowsep="1">
       <tgroup cols="2">
@@ -112,9 +127,9 @@
 
         <thead>
           <row>
-            <entry>표기</entry>
+            <entry>Convention</entry>
 
-            <entry>의미</entry>
+            <entry>Meaning</entry>
           </row>
         </thead>
 
@@ -122,49 +137,52 @@
           <row>
             <entry>&lt;AaBbCc123&gt;</entry>
 
-            <entry>프로그램 소스 코드의 파일명</entry>
+            <entry>Filename of a program source code</entry>
           </row>
 
           <row>
             <entry>&lt;Ctrl&gt;+C</entry>
 
-            <entry>Ctrl과 C를 동시에 누름</entry>
+            <entry>Hold the Control key and press C</entry>
           </row>
 
           <row>
-            <entry><guimenuitem> 진하게</guimenuitem></entry>
+            <entry><guimenuitem> Boldface</guimenuitem></entry>
 
-            <entry>GUI의 버튼 또는 메뉴 이름, 화면 UI에서 입력 항목에 대한 설명, 강조</entry>
+            <entry>Emphasis of buttons, menu names, and input fields in
+            UI</entry>
           </row>
 
           <row>
-            <entry>" "(따옴표)</entry>
+            <entry>" "(Double quotation marks)</entry>
 
-            <entry>다른 관련 안내서 또는 안내서 내의 다른 장 및 절 언급</entry>
+            <entry>Reference to chapters or sections in the guide, or to other
+            related documentation</entry>
           </row>
 
           <row>
-            <entry><email> 하이퍼링크</email></entry>
+            <entry><email>Hyperlink</email></entry>
 
-            <entry>메일계정, 웹 사이트</entry>
+            <entry>Email account or website to other chapters or sectionsv
+            </entry>
           </row>
 
           <row>
             <entry>&gt;</entry>
 
-            <entry>메뉴의 진행 순서</entry>
+            <entry>Progress order of menus</entry>
           </row>
 
           <row>
             <entry>+----</entry>
 
-            <entry>하위 디렉터리 또는 파일 있음</entry>
+            <entry>Files or directories exist below</entry>
           </row>
 
           <row>
             <entry>|----</entry>
 
-            <entry>하위 디렉터리 또는 파일 없음</entry>
+            <entry>Files or directories do not exist below</entry>
           </row>
 
           <row>
@@ -172,37 +190,37 @@
                 <para/>
               </note></entry>
 
-            <entry>참고 또는 주의사항</entry>
+            <entry>Reference or note</entry>
           </row>
 
           <row>
-            <entry><guimenuitem>[그림 1.1]</guimenuitem></entry>
+            <entry><guimenuitem>[Figure 1.1]</guimenuitem></entry>
 
-            <entry>그림 이름</entry>
+            <entry>Figure name</entry>
           </row>
 
           <row>
-            <entry><guimenuitem>[표 1.1]</guimenuitem></entry>
+            <entry><guimenuitem>[Table 1.1]</guimenuitem></entry>
 
-            <entry>표 이름</entry>
+            <entry>Table name</entry>
           </row>
 
           <row>
             <entry><programlisting language=""> AaBbCc123</programlisting></entry>
 
-            <entry>명령어, 명령어 수행 후 화면에 출력된 결과물, 예제코드</entry>
+            <entry>Command, execution result, or example code</entry>
           </row>
 
           <row>
             <entry>[ ]</entry>
 
-            <entry>옵션 인수 값</entry>
+            <entry>Optional argument</entry>
           </row>
 
           <row>
             <entry>|</entry>
 
-            <entry>선택 인수 값</entry>
+            <entry>Selective argument About</entry>
           </row>
         </tbody>
       </tgroup>
@@ -210,7 +228,7 @@
 
   <?dbfo-need height="10in" ?>
 
-  <para><bridgehead>관련 안내서</bridgehead></para>
+  <para><bridgehead>Related Guides</bridgehead></para>
 
   <informaltable colsep="1" frame="topbot" rowsep="1">
     <tgroup cols="2">
@@ -218,19 +236,19 @@
 
       <thead>
         <row>
-          <entry>안내서</entry>
+          <entry>Guide</entry>
 
-          <entry>설명</entry>
+          <entry>Description</entry>
         </row>
       </thead>
 
       <tbody>
         <row>
           <entry><para><olink targetdoc="installation"
-          targetptr="book">eformsign 설치 안내서</olink></para></entry>
+          targetptr="book">eformsign Installation Guide</olink></para></entry>
 
-          <entry>설치형 패키지 제품인 eformsign on-premise 제품을 설치하는 방법에 대해 기술한
-          안내서입니다.</entry>
+          <entry>Describes how to install eformsign on-premise, which is an
+          installable version of eformsign.</entry>
         </row>
       </tbody>
     </tgroup>
@@ -244,7 +262,7 @@
 
   <?dbfo-need height="10in" ?>
 
-  <bridgehead>연락처</bridgehead>
+  <bridgehead>Contact Information</bridgehead>
 
   <para><bridgehead>Korea</bridgehead><address>FORCS Co. Ltd (HQ)
 <otheraddr>646, Nonhyeon-ro, Gangnam-gu, Seoul,
