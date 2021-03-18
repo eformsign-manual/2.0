@@ -240,7 +240,7 @@
 
       <variablelist>
         <varlistentry>
-          <term>템플릿 기본정보 설정</term>
+          <term>기본 설정</term>
 
           <listitem>
             <para>템플릿 이름, 카테고리, 유효기간 등 템플릿에 대한 기본 정보를 설정합니다.</para>
