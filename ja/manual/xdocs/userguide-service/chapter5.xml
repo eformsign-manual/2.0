@@ -7,7 +7,7 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>テンプレート：Web フォームデザイナー</title>
+  <title>テンプレート：Web フォームデザイナーで作成</title>
 
   <section>
     <title>テンプレートの紹介</title>
@@ -18,10 +18,10 @@
         <secondary>テンプレート</secondary>
       </indexterm>eformsign で使用する <emphasis role="bold">電子文書の書式</emphasis>
     です。契約書、申込書、同意書などのように従来は紙で書かれていたものを電子書式の形に変換したものをテンプレートと言います。テンプレートは、
-    eformsign サービスで直接テンプレートを作成可能な Web フォームデザイナーを使用するか、Microsoft Office に
-    Add-in
-    されるフォームビルダーを使用して作成およびアップロードすることができます。フォームビルダーを使用したテンプレートの設定および管理する方法については、
-    <xref linkend="template_fb"/>をご参照ください。</para>
+    eformsign サービスの <emphasis role="bold">Web フォームデザイナー</emphasis> 、または
+    Microsoft Office に Add-in される<emphasis role="bold"> フォームビルダー</emphasis>
+    を使用して作成およびアップロードすることができます。フォームビルダーを使用したテンプレートの設定および管理する方法については、 <xref
+    linkend="template_fb"/>をご参照ください。</para>
 
     <section>
       <title>テンプレートの概要</title>
@@ -34,6 +34,8 @@
 
       <para>文書をオンラインで直接アップロードしてテンプレートを作成します。</para>
 
+      <para/>
+
       <note>
         <para>テンプレートの詳細な説明については、 <xref linkend="webform"/>をご参照ください。</para>
       </note>
@@ -43,7 +45,7 @@
 
       <orderedlist>
         <listitem>
-          <para>作成したい PDF ファイルをテンプレートとして直接ドラッグするか、<emphasis
+          <para>作成したい PDF ファイルをテンプレート作成カードに直接ドラッグするか、<emphasis
           role="bold">PCからファイルを選択</emphasis> をクリックしてファイルを選択し、アップロードします。</para>
 
           <figure>
@@ -89,7 +91,8 @@
         </listitem>
 
         <listitem>
-          <para>コンポーネントの「プロパティ」で詳細設定を行います。</para>
+          <para>コンポーネントの <emphasis role="bold">プロパティ</emphasis>
+          で詳細設定を行います。</para>
         </listitem>
 
         <listitem>
@@ -99,7 +102,7 @@
 
         <listitem>
           <para>フォームのデザインを終えた後、 <emphasis role="bold">次へ</emphasis>
-          をクリックしてテンプレート設定に移動します。</para>
+          をクリックして<emphasis role="bold"> テンプレートの設定 </emphasis>に移動します。</para>
         </listitem>
       </orderedlist>
 
@@ -113,7 +116,7 @@
         <listitem>
           <para><emphasis role="bold">全般</emphasis></para>
 
-          <para>テンプレート名、略称、文書タイトル、文書番号などを設定します。</para>
+          <para>テンプレート名、略称、文書のタイトル、文書番号などを設定します。</para>
         </listitem>
 
         <listitem>
@@ -131,7 +134,7 @@
         <listitem>
           <para><emphasis role="bold">フィールドの設定</emphasis></para>
 
-          <para>フィールドの基本値、自動入力値などのデフォルト値を設定します。</para>
+          <para>フィールドの表示有無、順番、基本値、自動入力値などのデフォルト値を設定します。</para>
         </listitem>
 
         <listitem>
@@ -154,7 +157,7 @@
       role="bold">ワークフローの設定</emphasis> で行えます。</para>
 
       <para>ワークフローは <emphasis role="bold">開始 - 終了</emphasis>
-      がデフォルトのステップであり、次のように<emphasis role="bold"> 決裁者、</emphasis>、<emphasis
+      がデフォルトのステップであり、次のように<emphasis role="bold"> 決裁者、</emphasis><emphasis
       role="bold">内部受信者</emphasis>、<emphasis role="bold">外部受信者</emphasis>
       の3つのタイプのいずれかを追加し、ワークフローを作成することができます。</para>
 
@@ -194,7 +197,7 @@
 
             <para>つまり、内部受信者ステップの後に、外部受信者、内部受信者、または決裁者を指定できます。</para>
 
-            <para>たとえば、他部署の決裁手順を指定せずに、その文書への協力を別の部署に依頼する場合は、その他部署の担当者を内部受信者ステップとして指定します。他部署の担当者は、その部署の決裁手順を別途設定して文書を処理できます。</para>
+            <para>たとえば、他部署の決裁手順を指定せず、その文書への協力を別の部署に依頼する場合は、その他部署の担当者を内部受信者のステップに指定します。他部署の担当者は、その部署の決裁手順を別途設定して文書を処理できます。</para>
           </important>
         </listitem>
       </itemizedlist>
@@ -228,7 +231,7 @@
 
       <variablelist>
         <varlistentry>
-          <term>テンプレートの基本情報の設定</term>
+          <term>基本設定</term>
 
           <listitem>
             <para>テンプレート名、カテゴリー、有効期限など、テンプレートに関する基本情報を設定します。</para>
@@ -239,11 +242,11 @@
           <term>① テンプレート名</term>
 
           <listitem>
-            <para><emphasis role="bold">テンプレート管理</emphasis>,<emphasis
+            <para><emphasis role="bold">テンプレート管理</emphasis>、<emphasis
             role="bold">文書の新規作成</emphasis> メニュー画面に表示されるテンプレートの名前です。</para>
 
             <para><emphasis role="bold">テンプレート名</emphasis>
-            は、スペースを含めて約11文字を推奨しています。11文字を超える場合は、名前の上にマウスを置くと、テンプレートの完全な名前を確認することができます。</para>
+            は、スペースを含めて11文字以下を推奨しています。11文字を超える場合は、名前の上にマウスを置くと、テンプレートの完全な名前を確認することができます。</para>
           </listitem>
         </varlistentry>
 
@@ -314,7 +317,7 @@
           <term>⑤ テンプレート有効期限</term>
 
           <listitem>
-            <para>テンプレートで文書が作成できる期限を設定します。開始日はテンプレートがアップロードされた日付がデフォルトで設定されますが、変更も可能です。</para>
+            <para>テンプレートで文書を作成できる期限を設定します。開始日はテンプレートがアップロードされた日付がデフォルトで設定されますが、変更も可能です。</para>
 
             <para><emphasis role="bold">期間の制限無し
             </emphasis>にチェックを入れると、有効期限無しで文書を作成できます。<emphasis
@@ -394,7 +397,7 @@
           <secondary>文書タイトルの自動生成ルール</secondary>
         </indexterm></para>
 
-      <para>文書に関する情報を自動的に文書タイトルに自動で入力されるように設定することができます。文書タイトルの自動生成ルールを設定すると、文書の作成時の情報に基づいて文書タイトルが生成されます。この文書タイトルは、すべての文書トレイ（進行中、要処理、完了文書）と
+      <para>文書に関する情報が文書タイトルに自動で入力されるよう設定することができます。文書タイトルの自動生成ルールを設定すると、文書の作成時の情報に基づいて文書タイトルが生成されます。この文書タイトルは、すべての文書トレイ（要処理、進行中、完了文書）と
       文書管理メニューの文書リストで確認できます。</para>
 
       <note>
@@ -523,7 +526,7 @@
                   <row>
                     <entry>現在日付時刻</entry>
 
-                    <entry>文書を作成した時点の日付と時刻（例：2020年2月20日午後02：59）</entry>
+                    <entry>文書を作成した時点の日付と時刻（例：2020年2月20日午後02:59）</entry>
                   </row>
 
                   <row>
@@ -620,10 +623,12 @@
     </section>
 
     <section xml:id="docnumber_wd">
-      <title>テンプレートの設定 &gt; 全般 &gt; 文書番号の自動付与</title>
+      <title>全般 &gt; 文書番号の自動生成</title>
 
       <para>eformsign
-      で生成される文書に連続する文書番号を付与することができます。テンプレートごとに文書番号を自動的に生成するかどうかを設定できます。文書番号を自動的に生成するためには、4つの文書番号の形式のいずれかを選択する必要があります。文書番号は、文書コンポーネントを使用して文書内に入力できます。また、文書リストに別のカラムがあり、文書番号で文書を検索することもできます。</para>
+      で生成される文書に連続する文書番号を付与することができます。テンプレートごとに文書番号を自動的に生成するかどうかを設定できます。文書番号を自動的に生成するためには、4つの文書番号の形式のいずれかを選択する必要があります。文書番号は、<emphasis
+      role="bold">文書</emphasis>
+      コンポーネントを使用して文書内に入力できます。また、文書リストに別のカラムがあり、文書番号で文書を検索することもできます。</para>
 
       <para><emphasis role="bold">文書番号を生成する方法<indexterm class="singular">
           <primary>テンプレート</primary>
@@ -670,7 +675,7 @@
 
           <para><itemizedlist>
               <listitem>
-                <para><emphasis role="bold">文書番号の生成ルールの選択</emphasis></para>
+                <para><emphasis role="bold">文書番号の自動付与ルールの選択</emphasis></para>
               </listitem>
             </itemizedlist><figure>
               <title>文書番号の生成ルールの選択</title>
@@ -753,13 +758,15 @@
 
       <para><emphasis role="bold">文書番号を確認する方法</emphasis></para>
 
-      <para>生成された文書番号は、文書コンポーネントを使用して文書内に入力することができるほか、文書リストでも確認できます。</para>
+      <para>生成された文書番号は、<emphasis role="bold">文書</emphasis>
+      コンポーネントを使用して文書内に入力することができ、文書リストでも確認できます。</para>
 
       <itemizedlist>
         <listitem>
           <para><emphasis role="bold">文書内に文書番号を表示する</emphasis></para>
 
-          <para>文書番号は、文書コンポーネントを使用して文書内に入力できます。</para>
+          <para>文書番号は、<emphasis role="bold">文書</emphasis>
+          コンポーネントを使用して文書内に入力できます。</para>
 
           <orderedlist>
             <listitem>
@@ -767,7 +774,8 @@
             </listitem>
 
             <listitem>
-              <para>文書番号を入れたい箇所に文書コンポーネントを追加します。</para>
+              <para>文書番号を入れたい箇所に <emphasis role="bold">文書</emphasis>
+              コンポーネントを追加します。</para>
 
               <mediaobject>
                 <imageobject>
@@ -789,7 +797,7 @@
             </listitem>
 
             <listitem>
-              <para>文書番号の生成ルールを選択します。</para>
+              <para>文書番号の自動付与ルールを選択します。</para>
             </listitem>
 
             <listitem>
@@ -824,7 +832,7 @@
             </mediaobject>
           </figure>
 
-          <para>文書番号は、文書リストを表示する文書トレイ（進行中文書、要処理文書、完了文書）と 文書管理
+          <para>文書番号は、文書リストを表示する文書トレイ（要処理文書、進行中文書、完了文書）と 文書管理
           メニュー（文書の管理権限が必要）で確認できます。</para>
 
           <orderedlist>
@@ -900,7 +908,9 @@
     <section>
       <title>権限の設定</title>
 
-      <para>権限の設定 画面では、テンプレートの使用権限と文書の管理権限を設定できます。</para>
+      <para><emphasis role="bold">権限の設定</emphasis> 画面では、<emphasis
+      role="bold">テンプレートの使用権限 </emphasis>と <emphasis
+      role="bold">文書の管理権限</emphasis> を設定できます。</para>
 
       <figure>
         <title>テンプレート設定 &gt; 権限の設定</title>
@@ -934,12 +944,12 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">完了文書の無効化を承認する (選択時)：</emphasis>
-          文書作成者が完了文書の無効化を依頼した場合に、文書の管理権限で付与された権限があれば、文書の無効化を承認できます。</para>
+          <para><emphasis role="bold">完了文書の無効化を承認する (選択した時)：</emphasis>
+          文書作成者が完了文書の無効化を依頼した場合、文書の管理権限で付与された権限があれば、文書の無効化を承認できます。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">文書を永久削除する (選択時)：</emphasis>
+          <para><emphasis role="bold">文書を永久削除する (選択した時)：</emphasis>
           システムから文書を永久に削除する権限で、文書の管理権限で付与された権限があれば、永久に削除できます。</para>
         </listitem>
       </itemizedlist>
@@ -983,7 +993,9 @@
         </listitem>
 
         <listitem>
-          <para>開始と完了の間にあるステップの追加 (<inlinemediaobject>
+          <para><emphasis role="bold">開始 </emphasis>と<emphasis role="bold">
+          完了</emphasis> の間にあるステップの<emphasis role="bold"> 追加
+          </emphasis>(<inlinemediaobject>
               <imageobject>
                 <imagedata contentwidth="30"
                            fileref="resources/workflow-addstep-plus-button.png"/>
@@ -1024,7 +1036,7 @@
 
       <para><emphasis role="bold">ワークフローのステップ別の詳細設定</emphasis></para>
 
-      <para>ステップをクリックすると、ワークフローのステップ別の属性、項目の管理、通知などの詳細を設定できます。</para>
+      <para>ステップをクリックすると、ワークフローの各ステップの属性、項目の管理、通知などの詳細を設定できます。</para>
 
       <itemizedlist>
         <listitem>
@@ -1034,9 +1046,9 @@
 
         <listitem>
           <para><emphasis role="bold">項目の管理</emphasis>
-          では、ワークフローの各ステップで受信者が編集できるように許可する <emphasis
-          role="bold">編集許可</emphasis> 項目と必須で入力が必要な <emphasis
-          role="bold">必須入力項目</emphasis> 項目を設定できます。</para>
+          では、ワークフローの各ステップで受信者が編集できるよう許可する <emphasis
+          role="bold">編集許可</emphasis> 項目と、必須で入力が必要な <emphasis
+          role="bold">必須入力</emphasis> 項目を設定できます。</para>
 
           <mediaobject>
             <imageobject>
@@ -1257,8 +1269,8 @@
           <primary>テンプレート</primary>
 
           <secondary>フィールドの設定</secondary>
-        </indexterm>フィールドの設定</emphasis>
-      では、テンプレート内のコンポーネントフィールドのデフォルト値または自動入力値を設定し、フィールドの順序を並べ替えることができます。</para>
+        </indexterm>フィールドの設定</emphasis> では、文書のリストと CSV
+      形式でデータをダウンロードするときに表示されるコンポーネントフィールドの表示有無および表示順を設定できます。また、テンプレート内のコンポーネントフィールドのデフォルト値または自動入力値を設定し、フィールドの順序を並べ替えることができます。</para>
 
       <figure>
         <title>テンプレートの設定 &gt; フィールドの設定</title>
@@ -1273,43 +1285,45 @@
 
       <para>カスタムフィールド管理に保存されている会社/グループ/メンバー情報を入力するフィールドのデフォルト値を設定したり、最近の入力値を選択したり、自分で入力したりすることができます。</para>
 
+      <tip>
+        <para><emphasis role="bold">自動入力の設定方法</emphasis></para>
+
+        <para>文書に頻繁に入力する情報を事前に保存し、自動的に入力されるように設定することができます。</para>
+
+        <para>たとえば、名前、連絡先などの作成者の情報、部署名、責任者、会社の代表番号などの会社またはグループに関する情報を事前に保存して自動で入力されるように設定することができます。関連フィールドのコンポーネントの追加しおよびデフォルト値の設定は
+        <emphasis role="bold">会社管理 &gt; カスタムフィールド管理</emphasis> で行えます。</para>
+
+        <orderedlist>
+          <listitem>
+            <para><emphasis role="bold">カスタムフィールド管理</emphasis>
+            画面でフィールドを追加します。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">テンプレート管理</emphasis> メニューに移動します。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">テンプレートの設定</emphasis>
+            アイコンをクリックします。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">フィールドの設定</emphasis> メニューに移動します。</para>
+          </listitem>
+
+          <listitem>
+            <para>自動で入力されるように設定するフィールドのデフォルト値を入力します。</para>
+          </listitem>
+
+          <listitem>
+            <para>すべての設定が完了したら、<emphasis role="bold">保存</emphasis>
+            ボタンをクリックします。</para>
+          </listitem>
+        </orderedlist>
+      </tip>
+
       <para/>
-
-      <para><emphasis role="bold">自動入力の設定方法</emphasis></para>
-
-      <para>文書に頻繁に入力する情報を事前に保存し、自動的に入力されるように設定することができます。</para>
-
-      <para>たとえば、名前、連絡先などの作成者の情報、部署名、責任者、会社の代表番号などの会社またはグループに関する情報を事前に保存して自動で入力されるように設定することができます。関連フィールドのコンポーネントの追加しおよびデフォルト値の設定は
-      <emphasis role="bold">会社管理 &gt; カスタムフィールド管理</emphasis> で行えます。</para>
-
-      <orderedlist>
-        <listitem>
-          <para><emphasis role="bold">カスタムフィールド管理</emphasis>
-          画面でフィールドを追加します。</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">テンプレート管理</emphasis> メニューに移動します。</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">テンプレートの設定</emphasis>
-          アイコンをクリックします。</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">フィールドの設定</emphasis> メニューに移動します。</para>
-        </listitem>
-
-        <listitem>
-          <para>自動で入力されるように設定するフィールドのデフォルト値を入力します。</para>
-        </listitem>
-
-        <listitem>
-          <para>すべての設定が完了したら、<emphasis role="bold">保存</emphasis>
-          ボタンをクリックします。</para>
-        </listitem>
-      </orderedlist>
     </section>
 
     <section>

@@ -411,7 +411,8 @@
           <term><emphasis role="bold">⑨下書きとして保存</emphasis></term>
 
           <listitem>
-            <para>下書きとして保存トレイに保存された文書の数と、最新の3つの文書のリストを表示します。リスト内の文書名をクリックすると、その文書に直接移動します。そして、<emphasis
+            <para><emphasis role="bold">下書きとして保存
+            </emphasis>に保存された文書の数と、最新の3つの文書のリストを表示します。リスト内の文書名をクリックすると、その文書に直接移動します。そして、<emphasis
             role="bold">More</emphasis> をクリックすると、<emphasis role="bold">
             </emphasis><emphasis role="bold">下書きとして保存</emphasis>
             に移動します。</para>

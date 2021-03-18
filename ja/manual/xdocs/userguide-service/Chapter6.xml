@@ -7,7 +7,7 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>テンプレート：フォームビルダー</title>
+  <title>テンプレート：フォームビルダーで作成</title>
 
   <section>
     <title>テンプレートの紹介</title>
@@ -80,7 +80,7 @@
         <listitem>
           <para><emphasis role="bold">全般</emphasis></para>
 
-          <para>テンプレート名、略称、文書タイトル、文書番号などを設定します。</para>
+          <para>テンプレート名、略称、文書のタイトル、文書番号などを設定します。</para>
         </listitem>
 
         <listitem>

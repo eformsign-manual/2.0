@@ -503,10 +503,10 @@
 
       <note>
         <para>署名ではなく印鑑やスタンプを使用する必要がある場合もあります。eformsign
-        では、印鑑やスタンプの画像を使用して文書の署名欄に印鑑・スタンプを入れることもできます。印鑑・スタンプの画像を使用するには、署名ポップアップで
-        <emphasis role="bold">印鑑・スタンプ</emphasis>
-        タブをクリックして、印鑑・スタンプの画像を選択した後、<emphasis role="bold">OK</emphasis>
-        ボタンをクリックします。</para>
+        では、印鑑やスタンプの画像を使用して文書の署名欄に印鑑・スタンプを入れることもできます。印鑑・スタンプの画像を使用するには、<emphasis
+        role="bold">署名</emphasis> ポップアップで <emphasis
+        role="bold">印鑑・スタンプ</emphasis> タブをクリックして、印鑑・スタンプの画像を選択した後、<emphasis
+        role="bold">OK</emphasis> ボタンをクリックします。</para>
       </note>
 
       <para><emphasis role="bold">③ 署名ペンの太さ</emphasis></para>
@@ -1010,18 +1010,18 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis
-          role="bold">yyyy：</emphasis>年度を表示します。（yyyy年＝2020年）</para>
+          <para><emphasis role="bold">yyyy：</emphasis><emphasis
+          role="bold">年度</emphasis>を表示します。（yyyy年＝2020年）</para>
         </listitem>
 
         <listitem>
-          <para><emphasis
-          role="bold">MM：</emphasis>月を表示します。月の表現は大文字にする必要があります。（MM月＝8月）</para>
+          <para><emphasis role="bold">MM：</emphasis><emphasis
+          role="bold">月</emphasis>を表示します。月の表現は大文字にする必要があります。（MM月＝8月）</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">dd：</emphasis>日を表示します。（dd日 = 10日）
-          </para>
+          <para><emphasis role="bold">dd：</emphasis><emphasis
+          role="bold">日</emphasis>を表示します。（dd日 = 10日）</para>
         </listitem>
       </itemizedlist>
 
@@ -1327,7 +1327,7 @@
 
       <listitem>
         <para><emphasis
-        role="bold">権限の設定：</emphasis>このテンプレートで作成した文書を管理するメンバーまたはグループを指定します。</para>
+        role="bold">権限の設定：</emphasis>テンプレートを使って文書を作成するメンバーまたはグループと、作成した文書を管理するメンバーまたはグループを指定します。</para>
       </listitem>
 
       <listitem>
@@ -1337,7 +1337,7 @@
 
       <listitem>
         <para><emphasis
-        role="bold">フィールドの設定：</emphasis>フィールドの基本値、自動入力値などのデフォルト値を設定します。</para>
+        role="bold">フィールドの設定：</emphasis>フィールドの表示有無、順番、基本値、自動入力値などのデフォルト値を設定します。</para>
       </listitem>
 
       <listitem>
