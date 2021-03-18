@@ -1231,9 +1231,7 @@
           방법은 <xref linkend="docnumber_wd"/>를 참고하세요.</para>
 
           <note>
-            <para>문서 ID는 시스템에서 부여하는 문서 고유의 ID이기 때문에 별도의 설정이 필요하지 않습니다. 문서 번호와
-            관련된 설정은 템플릿을 업로드한 뒤 <emphasis role="bold">템플릿 설정 &gt; 일반
-            설정</emphasis>에서 할 수 있습니다.</para>
+            <para>문서 ID는 시스템에서 부여하는 문서 고유의 ID이기 때문에 별도의 설정이 필요하지 않습니다. </para>
           </note>
         </listitem>
       </itemizedlist>
@@ -1252,7 +1250,7 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>문서 컴포넌트의 ID를 입력합니다. 예를 들어, 문서 번호를 입력하는 경우 컴포넌트 ID는 ‘문서 번호’로
+      <para>정보 컴포넌트의 ID를 입력합니다. 예를 들어, 문서 번호를 입력하는 경우 컴포넌트 ID는 ‘문서 번호’로
       합니다.</para>
     </section>
   </section>
