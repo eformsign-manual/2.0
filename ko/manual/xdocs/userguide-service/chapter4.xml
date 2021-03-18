@@ -619,7 +619,7 @@
       <para><emphasis role="bold">컴포넌트 속성</emphasis></para>
 
       <para><figure>
-          <title>선택 컴포넌트 속성 설정하기</title>
+          <title>체크 컴포넌트 속성 설정하기</title>
 
           <mediaobject>
             <imageobject>
@@ -631,12 +631,12 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>선택 컴포넌트는 각 항목별로 다른 ID를 부여해야 합니다. 여러 개의 선택 컴포넌트에 같은 ID가 부여될 경우 해당
+      <para>체크 컴포넌트는 각 항목별로 다른 ID를 부여해야 합니다. 여러 개의 체크 컴포넌트에 같은 ID가 부여될 경우 해당
       컴포넌트 중 마지막 컴포넌트의 입력값만 표시됩니다.</para>
 
       <para><emphasis role="bold">② 체크 스타일</emphasis></para>
 
-      <para>선택 컴포넌트는 속성에서 스타일을 지정할 수 있습니다. 체크를 선택하면 속성에서 체크박스가 기본으로 설정되어 있으며,
+      <para>체크 컴포넌트는 속성에서 스타일을 지정할 수 있습니다. 체크를 선택하면 속성에서 체크박스가 기본으로 설정되어 있으며,
       이외에 라디오 버튼, 빨간 원 표시를 선택할 수 있습니다.</para>
 
       <para>다음의 예시를 보면, 왼쪽부터 체크 / 라디오 / 원 선택 시 각각 체크박스가 어떻게 표시되는지를 알 수
