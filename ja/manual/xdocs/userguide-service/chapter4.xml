@@ -10,23 +10,27 @@
   <title>フォームビルダーの紹介</title>
 
   <section>
-    <title>フォームビルダーの概要</title>
+    <title>概要</title>
 
     <para><indexterm class="singular">
         <primary>フォームビルダー</primary>
-      </indexterm>フォームビルダーは、OZ in Office とも言います。OZ in Officeとは、Microsoft
-    Office で作成した文書を入力機能を備えた電子文書に変換するフォームエディターです。OZ in Office を使用すると、既存の
-    Excel、Word、PowerPoint の文書フォーム (契約書、申込書、同意書、稟議書など) を電子文書に簡単に変換できます。</para>
+      </indexterm>フォームビルダーは、<emphasis role="bold">OZ in Office</emphasis>
+    とも言います。<emphasis role="bold">OZ in Office </emphasis>とは、Microsoft Office
+    で作成した文書を入力機能を備えた電子文書に変換するフォームエディターです。<emphasis role="bold">OZ in
+    Office</emphasis> を使用すると、既存の Excel、Word、PowerPoint の文書フォーム
+    (契約書、申込書、同意書、稟議書など) を電子文書に簡単に変換できます。</para>
 
     <para>従来は、会社で Excel、Word、PowerPoint
-    文書を電子文書として開発するには、プログラミング開発が必要で、開発者向けのプログラミング開発ツールが必要でした。ただし、OZ in Office
-    を使用すると、Office 製品を使用できるユーザーであれば、誰もが電子文書を簡単に作成できます。</para>
+    文書を電子文書として開発するには、プログラミング開発が必要で、開発者向けのプログラミング開発ツールが必要でした。一方、<emphasis
+    role="bold">OZ in Office</emphasis> を使用すると、Office
+    製品を使用できるユーザーであれば、誰もが電子文書を簡単に作成できます。</para>
 
-    <para>OZ in Office は MS Office の Add-in
+    <para><emphasis role="bold">OZ in Office</emphasis> は MS Office の Add-in
     として搭載され、リボンメニューに表示されます。電子署名、チェック、テキスト、カメラ、録音など、OZ
     製品の多様な入力機能を提供しています。</para>
 
-    <para>OZ in Office の入力機能を利用して電子文書を作成するプロセスは次のとおりです。</para>
+    <para><emphasis role="bold">OZ in Office
+    </emphasis>の入力機能を利用して電子文書を作成するプロセスは次のとおりです。</para>
 
     <figure>
       <title>OZ in Office の使用フロセス</title>
@@ -39,106 +43,83 @@
     </figure>
 
     <section>
-      <title>フォームビルダーのダウンロード</title>
-
-      <para><indexterm class="singular">
+      <title>フォームビルダーのダウンロードおよびインストール<indexterm class="singular">
           <primary>フォームビルダーのダウンロード</primary>
-        </indexterm>1. eformsign にログインした後、ダッシュボード画面の左上にあるメニューアイコン
-      (<inlinemediaobject>
-          <imageobject>
-            <imagedata fileref="resources/menu_icon.png"/>
-          </imageobject>
-        </inlinemediaobject>) をクリックしたら、サイドバーメニューが表示されます。そのサイドバーメニューの一番下にある
-      <emphasis role="bold">フォームビルダーをダウンロード</emphasis> ボタンをクリックします。</para>
+        </indexterm></title>
 
-      <figure>
-        <title>フォームビルダーのダウンロードボタンの位置</title>
+      <orderedlist>
+        <listitem>
+          <para>eformsign にログインした後、ダッシュボード画面の左上にあるメニューアイコン (<inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="resources/menu_icon.png"/>
+              </imageobject>
+            </inlinemediaobject>) をクリックしたら、サイドバーメニューが表示されます。そのサイドバーメニューの一番下にある
+          <emphasis role="bold">フォームビルダーをダウンロード</emphasis> ボタンをクリックします。</para>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/formbuilder_download.png"
-                       width="750"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/formbuilder_download.png"/>
+            </imageobject>
+          </mediaobject>
+        </listitem>
 
-      <para>2. eformsign フォームビルダーのダウンロードページが次のように表示されます。ページの一番下に <emphasis
-      role="bold">フォームビルダーのダウンロード</emphasis> ボタンをクリックします。</para>
+        <listitem>
+          <para>eformsign フォームビルダーのダウンロードページが次のように表示されます。ページの一番下に <emphasis
+          role="bold">フォームビルダーのダウンロード</emphasis> ボタンをクリックします。</para>
 
-      <figure>
-        <title>フォームビルダーのダウンロードページ</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/formbuilder_download_2.png"/>
+            </imageobject>
+          </mediaobject>
+        </listitem>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/formbuilder_download_2.png"
-                       width="750"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
+        <listitem>
+          <para>フォームビルダーの実行可能ファイルをクリックして実行すると、次のウィザード画面が表示されます。オプションのうち
+          <emphasis role="bold">すべて（C)</emphasis> を選択し、 <emphasis
+          role="bold">次へ &gt;</emphasis> ボタンをクリックします。</para>
 
-      <para>3.フォームビルダーの実行可能ファイルの保存先を指定してダウンロードします。</para>
-    </section>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/formbuilder_wizard_1.png"/>
+            </imageobject>
+          </mediaobject>
+        </listitem>
 
-    <section>
-      <title>フォームビルダーのインストール</title>
+        <listitem>
+          <para>インストールを続行すると、次の画面が表示されます。</para>
 
-      <para>1. フォームビルダーの実行可能ファイルをクリックして実行します。</para>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/formbuilder_wizard_2.png"/>
+            </imageobject>
+          </mediaobject>
+        </listitem>
 
-      <para>2. 次のウィザード画面が表示されれば、オプションのうち <emphasis
-      role="bold">すべて（C)</emphasis> を選択し、 <emphasis role="bold">次へ
-      &gt;</emphasis> ボタンをクリックします。</para>
+        <listitem>
+          <para>インストールが完了したら、<emphasis role="bold">完了</emphasis>
+          ボタンをクリックして、インストール画面を閉じます。</para>
 
-      <figure>
-        <title>フォームビルダーのインストール画面 (1)</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/formbuilder_wizard_3.png"/>
+            </imageobject>
+          </mediaobject>
+        </listitem>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/formbuilder_wizard_1.png"
-                       width="500"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
+        <listitem>
+          <para>MS Office (Word、Excel、PowerPoint)
+          を実行して、フォームビルダーが正しくインストールされていることを確認します。次のように <emphasis role="bold">OZ
+          in Word/Excel/PowerPoint</emphasis>
+          が表示されれば、正常にインストールされていることです。</para>
 
-      <para>3. インストールを続行すると、次の画面が表示されます。</para>
-
-      <figure>
-        <title>フォームビルダーのインストール画面 (2)</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/formbuilder_wizard_2.png"
-                       width="500"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para>4. インストールが完了しました。<emphasis role="bold">完了</emphasis>
-      ボタンをクリックして、インストール画面を閉じます。</para>
-
-      <figure>
-        <title>フォームビルダーのインストール画面 (3)</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/formbuilder_wizard_3.png"
-                       width="500"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para>5. MS Office (Word、Excel、PowerPoint)
-      を実行して、フォームビルダーが正しくインストールされていることを確認します。次のとおり <emphasis role="bold">OZ in
-      Word/Excel/PowerPoint</emphasis> が表示されれば、正常にインストールされていることです。</para>
-
-      <figure>
-        <title>OZ in Word のリボンメニュー</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/formbuilder_word_4.png" width="750"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/formbuilder-ozinword-menu1.png"/>
+            </imageobject>
+          </mediaobject>
+        </listitem>
+      </orderedlist>
     </section>
 
     <section>
@@ -153,7 +134,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/ozinoffice.png" width="750"/>
+            <imagedata fileref="resources/formbuilder-ozinword-menu.png"
+                       width="750"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -168,8 +150,9 @@
         </listitem>
 
         <listitem>
-          <para><emphasis
-          role="bold">プロパティ：</emphasis>コンポーネントのプロパティを設定します。</para>
+          <para><emphasis role="bold">プロパティ：</emphasis>コンポーネントの <emphasis
+          role="bold">名前 </emphasis>、 <emphasis role="bold">アイテム</emphasis>
+          などのプロパティを設定します。</para>
         </listitem>
 
         <listitem>
@@ -189,13 +172,13 @@
         </listitem>
 
         <listitem>
-          <para><emphasis
-          role="bold">削除：</emphasis>コンポーネントを選択した後、「削除」ボタンをクリックすると、コンポーネントがを削除されます。</para>
+          <para><emphasis role="bold">削除：</emphasis>コンポーネントを選択した後、 <emphasis
+          role="bold">削除</emphasis> ボタンをクリックすると、コンポーネントがを削除されます。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis
-          role="bold">ウィンドウ：</emphasis>コンポーネントの「プロパティ」タブを開くか、コンポーネントを選択します。</para>
+          <para><emphasis role="bold">ウィンドウ：</emphasis>コンポーネントの <emphasis
+          role="bold">プロパティ </emphasis>タブを開くか、コンポーネントを選択します。</para>
         </listitem>
 
         <listitem>
@@ -213,7 +196,8 @@
 
     <para><indexterm class="singular">
         <primary>コンポーネント</primary>
-      </indexterm>コンポーネントは、ユーザーが電子文書にコンテンツを入力するための入力欄として機能します。署名、チェック、日付、テキストなど多様な種類のコンポーネントがあり、各コンポーネントは、「プロパティ」タブを介して詳細に設定することができます。</para>
+      </indexterm>コンポーネントは、ユーザーが電子文書にコンテンツを入力するための入力欄として機能します。署名、チェック、日付、テキストなど多様な種類のコンポーネントがあり、各コンポーネントは、<emphasis
+    role="bold"> プロパティ</emphasis> タブを介して詳細に設定することができます。</para>
 
     <section>
       <title>コンポーネントのタイプ</title>
@@ -386,8 +370,9 @@
     <section>
       <title>コンポーネントのプロパティを確認する方法：</title>
 
-      <para>すべてのコンポーネントには、設定を行う「プロパティ」タブがあります。プロパティを表示するには、プロパティ表示
-      アイコン、または「プロパティ」メニューをクリックします。</para>
+      <para>すべてのコンポーネントには、設定を行う <emphasis role="bold">プロパティ</emphasis>
+      タブがあります。プロパティを表示するには、プロパティ表示 アイコン、または <emphasis
+      role="bold">プロパティ</emphasis> メニューをクリックします。</para>
 
       <para/>
 
@@ -403,7 +388,9 @@
       </figure>
 
       <note>
-        <para>すべてのコンポーネントには「名前」が必要です。名前の場合、コンポーネントを追加すれば自動的に生成されますが、コンポーネントへの入力内容を示す明確な意味を持つ単語に変更することを推奨します。たとえば、木村と佐々木などの名前を入力するコンポーネントの名前は「氏名」に設定します。</para>
+        <para>すべてのコンポーネントには <emphasis role="bold">名前</emphasis> が必要です。
+        <emphasis role="bold">名前
+        </emphasis>の場合、コンポーネントを追加すれば自動的に生成されますが、コンポーネントへの入力内容を示す明確な意味を持つ単語に変更することを推奨します。たとえば、木村と佐々木などの名前を入力するコンポーネントの名前は「氏名」に設定します。</para>
       </note>
     </section>
 
@@ -416,44 +403,44 @@
       <section>
         <title>Excel でコンポーネントを追加する</title>
 
-        <para>1.Excel を開いて、 <emphasis role="bold">OZ in Excel</emphasis>
-        リボンメニューに移動します。</para>
+        <orderedlist>
+          <listitem>
+            <para>Excel を開いて、 <emphasis role="bold">OZ in Excel</emphasis>
+            リボンメニューに移動します。</para>
 
-        <figure>
-          <title>Excel でコンポーネントを追加する方法 (1)</title>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/ozinexcel_1.png"/>
+              </imageobject>
+            </mediaobject>
+          </listitem>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinexcel_1.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
+          <listitem>
+            <para>コンポーネントを追加したいセルを選択します。</para>
 
-        <para>2.コンポーネントを追加したいセルを選択します。</para>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/ozinexcel_2.png"/>
+              </imageobject>
+            </mediaobject>
+          </listitem>
 
-        <figure>
-          <title>Excel でコンポーネントを追加する方法 (2)</title>
+          <listitem>
+            <para>目的のコンポーネントをクリックします。</para>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinexcel_2.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/ozinexcel_3.png"/>
+              </imageobject>
+            </mediaobject>
+          </listitem>
 
-        <para>3.目的のコンポーネントをクリックします。</para>
+          <listitem>
+            <para>コンポーネントのプロパティで、詳細項目を設定します。</para>
+          </listitem>
+        </orderedlist>
 
-        <figure>
-          <title>Excel でコンポーネントを追加する方法 (3)</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinexcel_3.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <para>4.コンポーネントのプロパティで、コンポーネントが追加されていることを確認します。</para>
+        <para/>
       </section>
 
       <section>
@@ -461,73 +448,70 @@
 
         <para><emphasis role="bold">方法 1：コンポーネントをクリックして追加する</emphasis></para>
 
-        <para>1.Word または PowerPoint を開き、文書でコンポーネントを追加したい箇所を選択します。</para>
+        <orderedlist>
+          <listitem>
+            <para>Word または PowerPoint を開き、文書でコンポーネントを追加したい箇所を選択します。</para>
 
-        <figure>
-          <title>方法 1：Word または PowerPoint でコンポーネントをクリックして追加する (1)</title>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/ozinword_1.png"/>
+              </imageobject>
+            </mediaobject>
+          </listitem>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinword_1.png" width="700"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
+          <listitem>
+            <para><emphasis role="bold">OZ in Word</emphasis> または <emphasis
+            role="bold">OZ in PowerPoint</emphasis>
+            のリボンメニューで、追加したいコンポーネントをクリックします。</para>
 
-        <para>2.<emphasis role="bold">OZ in Word</emphasis> または <emphasis
-        role="bold">OZ in PowerPoint</emphasis>
-        リボンメニューで、追加したいコンポーネントをクリックします。</para>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/ozinword_2.png"/>
+              </imageobject>
+            </mediaobject>
+          </listitem>
 
-        <figure>
-          <title>方法 1：Word または PowerPoint でコンポーネントをクリックして追加する (2)</title>
+          <listitem>
+            <para>追加したコンポーネントのサイズを調整します。</para>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinword_2.png" width="700"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <para>3.追加したコンポーネントのサイズを調整します。</para>
-
-        <figure>
-          <title>方法 1：Word または PowerPoint でコンポーネントをクリックして追加する (3)</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinword_3.png" width="700"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/ozinword_3.png"/>
+              </imageobject>
+            </mediaobject>
+          </listitem>
+        </orderedlist>
 
         <para><emphasis role="bold">方法 2：コンポーネントを描画して配置する</emphasis></para>
 
-        <para>1.Word または PowerPoint を開いて、 <emphasis role="bold">OZ in
-        Word</emphasis> または <emphasis role="bold">OZ in PowerPoint</emphasis>
-        リボンメニューに移動します。</para>
+        <orderedlist>
+          <listitem>
+            <para>Word または PowerPoint を開いて、 <emphasis role="bold">OZ in
+            Word</emphasis> または <emphasis role="bold">OZ in
+            PowerPoint</emphasis> のリボンメニューに移動します。</para>
+          </listitem>
 
-        <para>2.コンポーネントの配置アイコンをクリックして、表示されるドロップダウンリストから追加したいコンポーネントを選択します。</para>
+          <listitem>
+            <para><emphasis role="bold"> 入力項目</emphasis>
+            アイコンをクリックして、表示されるドロップダウンリストから追加したいコンポーネントを選択します。</para>
 
-        <figure>
-          <title>方法 2：Word または PowerPoint でコンポーネントを描いて追加する (1)</title>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/ozinword_2_1.png"/>
+              </imageobject>
+            </mediaobject>
+          </listitem>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinword_2_1.png" width="700"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
+          <listitem>
+            <para>目的の箇所とサイズでコンポーネントを追加します。</para>
 
-        <para>3.目的の箇所とサイズでコンポーネントを追加します。</para>
-
-        <figure>
-          <title>方法 2：Word または PowerPoint でコンポーネントを描いて追加する (2)</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinword_2_2.png" width="700"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/ozinword_2_2.png"/>
+              </imageobject>
+            </mediaobject>
+          </listitem>
+        </orderedlist>
       </section>
     </section>
 
@@ -544,14 +528,16 @@
   </section>
 
   <section>
-    <title>コンポーネントー別の使用方法</title>
+    <title>各コンポーネントの使用方法</title>
 
     <para>eformsign は Microsoft Office の <emphasis role="bold">OZ in
     Office</emphasis>
     リボンメニューでは、チェック、リスト選択、テキスト、署名などのさまざまなコンポーネントをサポートしています。</para>
 
     <para><emphasis role="bold">OZ in Office
-    </emphasis>のすべてのコンポーネントには、共通のプロパティと固有なプロパティがあります。コンポーネントのプロパティウィンドウで、各コンポーネントの共通のプロパティと固有なプロパティを表示できます。共通のプロパティには、「名前」と「ツールヒントのテキスト」があり、各プロパティの意味は次のとおりです。</para>
+    </emphasis>のすべてのコンポーネントには、共通のプロパティと固有なプロパティがあります。コンポーネントのプロパティウィンドウで、各コンポーネントの共通のプロパティと固有なプロパティを表示できます。共通のプロパティには、
+    <emphasis role="bold">名前</emphasis> と <emphasis
+    role="bold">ツールヒントのテキスト</emphasis> があり、各プロパティの意味は次のとおりです。</para>
 
     <itemizedlist>
       <listitem>
@@ -559,7 +545,9 @@
             <primary>コンポーネント</primary>
 
             <secondary>名前</secondary>
-          </indexterm>外部プログラムがコンポーネントの値を抽出するときに使用する固有なキーです。</para>
+          </indexterm>各コンポーネントを識別できる固有な値です。ワークフローまたはフィールドの設定ステップで必須入力または修正制限がかかっている場合、コンポネントの名前で確認して指定でき、CSV
+        形式で入力データを抽出して確認する場合もコンポーネントの<emphasis role="bold"> 名前</emphasis>
+        で区別できます。</para>
       </listitem>
 
       <listitem>
@@ -574,8 +562,10 @@
     </itemizedlist>
 
     <note>
-      <para>コンポーネントの「プロパティ」ウィンドウはコンポーネントが適用された箇所を選択した後、OZ in Office メニューの
-      <emphasis role="bold">プロパティ</emphasis> アイコン（<inlinemediaobject>
+      <para>コンポーネントの <emphasis role="bold">プロパティ</emphasis>
+      ウィンドウは、コンポーネントが適用された箇所を選択した後、<emphasis role="bold">OZ in Office
+      </emphasis>メニューの <emphasis role="bold">プロパティ</emphasis>
+      アイコン（<inlinemediaobject>
           <imageobject>
             <imagedata fileref="resources/property-icon.png"/>
           </imageobject>
@@ -583,7 +573,8 @@
     </note>
 
     <note>
-      <para>情報タイプのユーザー、使用日、文書、ラベルには「ツールヒントのテキスト」プロパティがありません。</para>
+      <para>情報タイプのユーザー、使用日、文書、ラベルには <emphasis
+      role="bold">ツールヒントのテキスト</emphasis> プロパティがありません。</para>
     </note>
 
     <para>各コンポーネントの説明は次のとおりです。</para>
@@ -595,7 +586,11 @@
           <primary>コンポーネント</primary>
 
           <secondary>チェック</secondary>
-        </indexterm>チェックコンポーネントは、各項目にチェックが入っているかどうかを確認する場合に使用します。同様のコンポーネントには、「選択」コンポーネントがあります。両方の違いは、チェックコンポーネントは項目へのチェック有無を確認するときに使用し、選択コンポーネントは何を選択したのかを確認する必要があるときに使用することにあります。</para>
+        </indexterm>チェックコンポーネントは、各項目にチェックが入っているかどうかを確認する場合に使用します。同様のコンポーネントには、
+      <emphasis role="bold">選択</emphasis>
+      コンポーネントがあります。両方の違いは、チェックコンポーネントは項目へのチェック有無を確認するときに使用し、<emphasis
+      role="bold">選択</emphasis>
+      コンポーネントは何を選択したのかを確認する必要があるときに使用することにあります。</para>
 
       <mediaobject>
         <imageobject>
