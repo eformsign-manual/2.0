@@ -52,7 +52,7 @@
       </listitem>
     </itemizedlist>
 
-    <para>이 외에도 문서 관리 페이지가 별도로 존재합니다.</para>
+    <para>이 외에도 문서 관리 권한이 있는 멤버가 문서를 확인할 수 있는 문서 관리 메뉴가 있습니다.</para>
 
     <itemizedlist>
       <listitem>
@@ -65,7 +65,7 @@
     </itemizedlist>
 
     <note>
-      <para>대표관리자는 모든 문서를 조회하고 관리할 수 있습니다.</para>
+      <para>대표 관리자는 모든 문서를 조회하고 관리할 수 있습니다.</para>
     </note>
 
     <para/>
@@ -217,7 +217,7 @@
       문서를 확인할 수 있습니다.</para>
 
       <para>카테고리 검색 콤보박스의 <emphasis role="bold">X </emphasis>아이콘를 누르면 아래와 같이
-      템플릿에서 설정한 카테고리에 맞춰서 생성된 매뉴얼이 분류되어 나타납니다.</para>
+      템플릿에서 설정한 카테고리에 맞춰 분류되어 나타납니다.</para>
 
       <figure>
         <title>카테고리 검색 콤보박스</title>
@@ -565,8 +565,8 @@
               2019/01/01~2019/06/30</para>
 
               <para>설정한 시작 값과 종료 값 사이에 있는 값이 검색됩니다. 범위 값 중 시작 값만 입력한 경우에는 시작 값
-              이상을 검색하며, 범위 값 중 종료 값만 입력한 경우에는 종료 값 이하를 검색합니다. 예) 예) 연봉 : 1000~
-              / 연봉 : ~5000</para>
+              이상을 검색하며, 범위 값 중 종료 값만 입력한 경우에는 종료 값 이하를 검색합니다. 예) 연봉 : 1000~ /
+              연봉 : ~5000</para>
             </listitem>
           </itemizedlist>
 
@@ -678,7 +678,7 @@
       <para><emphasis role="bold">문서 상태</emphasis>에서는 워크플로우 단계별로 문서가 언제, 누구에
       의해 작성/처리되었는지 확인할 수 있습니다.</para>
 
-      <para><emphasis role="bold">이력</emphasis>에서는 작성자 및 수신자 관점에서 시간순으로 누가 어떤
+      <para><emphasis role="bold">이력</emphasis>에서는 작성자 및 수신자 관점에서 시간 순으로 누가 어떤
       작업을 수행했는지를 보여줍니다.</para>
 
       <para><figure>
@@ -797,9 +797,10 @@
     <title>임시 보관함</title>
 
     <para><emphasis role="bold">임시 보관함</emphasis>에는 <emphasis role="bold">내
-    파일로 문서 작성</emphasis> 과정에서 <emphasis role="bold">문서를 전송하기 </emphasis>이전에 임시
-    저장을 클릭하여 저장한 문서들이 보관됩니다. <emphasis role="bold">임시 보관함</emphasis>에 저장된 파일은
-    언제든지 다시 열어 이후 단계를 계속 진행하거나 문서를 삭제할 수 있습니다.</para>
+    파일로 문서 작성</emphasis> 과정에서 <emphasis role="bold">문서를 전송하기 </emphasis>이전에
+    <emphasis role="bold">임시 보관함에 저장</emphasis>을 클릭하여 저장한 문서들이 보관됩니다.
+    <emphasis role="bold">임시 보관함</emphasis>에 저장된 파일은 언제든지 다시 열어 이후 단계를 계속
+    진행하거나 문서를 삭제할 수 있습니다.</para>
 
     <orderedlist>
       <listitem>

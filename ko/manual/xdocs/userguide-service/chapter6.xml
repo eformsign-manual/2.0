@@ -104,7 +104,7 @@
           <para><emphasis role="bold"><link linkend="field_fb">필드
           설정</link></emphasis></para>
 
-          <para>필드의 기본값, 자동 입력 값 등을 설정합니다.</para>
+          <para>필드의 표시 여부, 순서, 기본값, 자동 입력 값 등을 설정합니다.</para>
         </listitem>
 
         <listitem>
