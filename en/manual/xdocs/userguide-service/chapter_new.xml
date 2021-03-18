@@ -7,50 +7,67 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>문서 작성하기</title>
+  <title>Creating documents</title>
 
   <section>
-    <title>개요</title>
+    <title>Overview</title>
 
-    <para>eformsign을 사용하면 누구나 쉽게 기존의 문서를 전자 문서로 변환해 문서를 작성, 요청 또는 처리 등을 할 수
-    있습니다. eformsign에서 전자 문서를 작성 및 전송하는 방법은 크게 두 가지가 있습니다. 내 PC에 저장된 파일을 직접
-    업로드해서 전자 문서를 만드는 방법과 eformsign에 저장된 기존에 만들어 놓은 템플릿을 사용하는 방법입니다.</para>
+    <para>Anyone can use eformsign to easily convert existing documents into
+    electronic documents and then send them for signature.</para>
+
+    <para>In eformsign, there are two ways to create and send
+    documents.</para>
+
+    <para>You can upload a file from your PC to eformsign, or use a existing
+    template saved in eformsign.</para>
 
     <itemizedlist>
       <listitem>
-        <para><emphasis role="bold">내 파일로 문서 작성</emphasis>: 내가 가지고 있는 문서
-        파일(PDF)을 사용해 바로 전자 서식으로 만들어 참여자에게 전송할 수 있습니다.</para>
+        <para><emphasis role="bold">New from my file</emphasis>: You can
+        upload your PDF file to create an electronic document and then send it
+        to participants.</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">템플릿으로 문서 작성</emphasis>: 이미 만들어진 템플릿을 사용하여
-        문서를 작성합니다. 해당 메뉴를 클릭 시 대표 관리자 또는 템플릿 관리 권한이 있는 멤버가 이미 만들어 놓은 템플릿이 화면에
-        나타납니다.</para>
+        <para><emphasis role="bold">New from template</emphasis>: You can use
+        a template uploaded to eformsign to create documents. When you click
+        this menu, templates created by the company administrator or members
+        with template management permissions are displayed on the
+        screen.</para>
       </listitem>
     </itemizedlist>
 
     <note>
-      <para>템플릿은 대표 관리자 또는 템플릿 관리 권한이 있는 멤버만 만들 수 있으며, 화면에 나타나는 템플릿은 해당 템플릿의
-      권한 설정에서 사용권한을 부여한 멤버에게만 보여집니다. 템플릿 생성하는 방법은 웹폼 디자이너와 폼 빌더를 사용하여 만들 수
-      있으며, 자세한 내용은 <xref linkend="template_wd"/>와 <xref
-      linkend="template_fb"/>를 참고해 주세요.</para>
+      <para>Templates can be created only by the company administrator or
+      members with template management permission, and the templates on the
+      screen are shown only to members who are given template usage permission
+      for a given template.</para>
+
+      <para>You can create a template using Web From Designer or Form Builder.
+      For more information, refer to <xref linkend="template_wd"/>와 <xref
+      linkend="template_fb"/>.</para>
     </note>
 
     <important>
-      <para><emphasis role="bold">내 파일로 문서를 작성</emphasis>하는 경우, 템플릿으로 변경하거나
-      저장할 수 없습니다. 자주 사용하는 문서의 경우 템플릿으로 등록해 사용하면 편리합니다.</para>
+      <para>When creating a document with <emphasis role="bold">New from my
+      file</emphasis>, you cannot save it as a template. For documents you
+      plan on frequently, it is recommended to register it as a
+      template.</para>
     </important>
   </section>
 
   <section>
-    <title>내 파일로 문서 작성하기</title>
+    <title>New from my file</title>
 
-    <para>사용하고자 하는 PDF 파일을 바로 업로드해서 문서의 원하는 위치에 입력 항목(컴포넌트)을 참여자 별로 지정하고 바로 문서
-    참여자 및/또는 검토자 정보를 입력 후 전송할 수 있습니다.</para>
+    <para>You can upload a PDF file you want and then add fields (components)
+    onto the document. Then, you can specify the participants that will fill
+    in each component and enter the information of the document participants
+    and reviewers and then send the document.</para>
 
     <orderedlist>
       <listitem>
-        <para><emphasis role="bold">내 파일로 문서 작성</emphasis> 메뉴로 이동합니다.</para>
+        <para>Go to the <emphasis role="bold">New from my file</emphasis>
+        menu.</para>
 
         <mediaobject>
           <imageobject>
@@ -60,7 +77,7 @@
       </listitem>
 
       <listitem>
-        <para>원하는 문서 파일(PDF)을 업로드합니다.</para>
+        <para>Upload the PDF document file you want.</para>
 
         <mediaobject>
           <imageobject>
@@ -70,14 +87,15 @@
         </mediaobject>
 
         <note>
-          <para>현재는 PDF 파일만 지원합니다. 향후 다양한 형태의 파일을 직접 업로드할 수 있도록 지원할
-          예정입니다.</para>
+          <para>Only PDF files can be uploaded so far. Other file formats are
+          planned to be supported in the future.</para>
         </note>
       </listitem>
 
       <listitem>
-        <para>문서 작성에 참여하는 <emphasis role="bold">문서 참여자</emphasis>를 추가하고 역할을
-        설정합니다.</para>
+        <para>Add the <emphasis role="bold">document participants</emphasis>
+        that will be participating in document creation and select their
+        roles.</para>
 
         <mediaobject>
           <imageobject>
@@ -87,16 +105,17 @@
         </mediaobject>
 
         <note>
-          <para>문서 참여자는 화면 좌측 상단의 <emphasis role="bold">참여자 추가</emphasis> 버튼을
-          눌러 추가할 수도 있으며 최대 30명까지 설정할 수 있습니다.</para>
-
-          <para>폼 디자인 후 <emphasis role="bold">수신자 지정하기</emphasis> 단계에서도 설정한
-          참여자 정보를 변경 및 추가, 삭제할 수 있습니다.</para>
+          <para>You can add participants by clicking <emphasis role="bold">Add
+          new participant</emphasis> and up to 30 can be added. Note that you
+          can change, add, or delete participant information in the <emphasis
+          role="bold">Add recipient</emphasis> step after the<emphasis
+          role="bold"> Design form</emphasis> step.</para>
         </note>
       </listitem>
 
       <listitem>
-        <para>각 참여자들이 작성할 컴포넌트를 배치하고 각 컴포넌트의 상세 설정을 오른쪽 설정 탭에서 지정합니다.</para>
+        <para>Add the components each participants will fill in and then set
+        component properties on the right.</para>
 
         <mediaobject>
           <imageobject>
@@ -109,8 +128,9 @@
       </listitem>
 
       <listitem>
-        <para>컴포넌트 배치 후 수신자 지정하기 단계에서 이메일, 휴대폰 번호 등 연락처 정보를 입력하고 <emphasis
-        role="bold">수신자 별 상세 옵션</emphasis>을 설정합니다.</para>
+        <para>In the Add recipients step, you can add contact information such
+        as email and phone number and set <emphasis role="bold">Recipient
+        options</emphasis> for each participant.</para>
 
         <mediaobject>
           <imageobject>
@@ -120,19 +140,25 @@
         </mediaobject>
 
         <note>
-          <para>문서 수신자는 참여자와 검토자로 구분됩니다. 문서 작성 시에 추가한 참여자가 수신자 지정하기 단계에서 나타나며
-          각 수신자의 이메일 등의 연락처 정보를 입력하면 됩니다. 이 수신자 설정 화면에서 참여자/검토자를 삭제/추가할 수 있고 각
-          수신자 별 상세 옵션을 설정합니다.</para>
+          <para>There are two recipient types: reviewer and participant. The
+          participants added in the Design form step are shown in the Add
+          recipients step. You can enter the contact information of each
+          recipient such as email. In the Add recipient screen, you can
+          delete/delete participants and reviewers and set detailed options
+          for each recipient.</para>
         </note>
 
         <tip>
-          <para><emphasis role="bold">참여자와 검토자의 차이</emphasis></para>
+          <para><emphasis role="bold">The difference between participants and
+          reviewers</emphasis></para>
 
-          <para>참여자는 실제 문서에 서명, 작성 등 컴포넌트에 입력할 수 있으며, 검토자는 문서에 입력을 할 수 없고 문서
-          검토 후 승인 여부만 결정합니다.</para>
+          <para>Participants can fill in components such as signature and text
+          on each document, but reviewers cannot fill in components and can
+          only approve documents after reviewing them.</para>
 
-          <para>단, 컴포넌트 별 작성 권한을 <emphasis role="bold">누구나</emphasis>로 설정할 경우
-          검토자도 컴포넌트에 입력할 수 있습니다.</para>
+          <para>However, if you set a component's <emphasis role="bold">Who
+          can fill this out</emphasis> option to 'anyone', even reviewers can
+          fill out the component.</para>
 
           <mediaobject>
             <imageobject>
@@ -144,8 +170,9 @@
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">옵션</emphasis>을 클릭해 문서 제목, 문서 완료 시 타임스탬프 적용
-        여부 등을 설정합니다.</para>
+        <para>Click the <emphasis role="bold">Options</emphasis> step to
+        change the document title and select whether to timestamp the document
+        when completed.</para>
 
         <mediaobject>
           <imageobject>
@@ -155,16 +182,18 @@
         </mediaobject>
 
         <note>
-          <para>이 단계까지가 문서 서식에 대한 설정 단계입니다. <emphasis role="bold">문서 작성
-          시작하기</emphasis>를 클릭하기 이전에 임시 저장 후 문서 작성을 중단할 경우 <emphasis
-          role="bold"><link linkend="drafts">임시 보관함</link></emphasis>에 보관되며,
-          저장된 파일을 다시 열어 이후의 단계를 진행할 수 있습니다. 문서의 임시 저장은 오른쪽 상단의
-          (<inlinemediaobject>
+          <para>The above three steps are the steps you need to go through
+          before creating a document. If you save the document as a draft
+          before clicking the <emphasis role="bold">Start now</emphasis>
+          button, the document is saved in <emphasis role="bold"><link
+          linkend="drafts">Drafts</link></emphasis>, and the saved file can be
+          opened again so that you can begin creating a document. To save a
+          document as a draft, click the (<inlinemediaobject>
               <imageobject>
                 <imagedata fileref="resources/menu_icon_3.png" width="30"/>
               </imageobject>
-            </inlinemediaobject>) 메뉴 아이콘을 클릭하여 <emphasis role="bold">임시 보관함에
-          저장</emphasis>을 클릭합니다.</para>
+            </inlinemediaobject>) icon at the top right corner and then click
+          <emphasis role="bold">Save as a draft</emphasis>.</para>
 
           <mediaobject>
             <imageobject>
@@ -176,8 +205,8 @@
       </listitem>
 
       <listitem>
-        <para>모든 설정을 완료한 후 <emphasis role="bold">문서 작성 시작하기</emphasis>를
-        클릭합니다.</para>
+        <para>When you are done with all the settings, click <emphasis
+        role="bold">Start now</emphasis>.</para>
 
         <mediaobject>
           <imageobject>
@@ -187,14 +216,16 @@
         </mediaobject>
 
         <caution>
-          <para><emphasis role="bold">문서 작성 시작하기</emphasis>를 클릭한 시점부터 과금 대상
-          문서수에 카운트됩니다.</para>
+          <para>A document is created once you click <emphasis
+          role="bold">Start now</emphasis>, and it counts as a created
+          document.</para>
         </caution>
       </listitem>
 
       <listitem>
-        <para>문서를 확인 후 <emphasis role="bold">전송</emphasis> 버튼을 클릭하면 수신자에게 문서가
-        전송됩니다.</para>
+        <para>If you click the <emphasis role="bold">Send</emphasis> button
+        after reviewing/filling in the document, then the document is sent to
+        recipients.</para>
 
         <mediaobject>
           <imageobject>
@@ -205,24 +236,36 @@
       </listitem>
     </orderedlist>
 
-    <para><emphasis role="bold">수신자 지정하기 &gt; 수신자 옵션 설정</emphasis></para>
+    <para><emphasis role="bold">Add recipients &gt; Recipient
+    options</emphasis></para>
 
-    <para><emphasis role="bold">폼 디자인하기</emphasis> 단계 또는 <emphasis
-    role="bold">수신자 지정하기</emphasis> 단계에서 문서에 참여할 참여자, 즉 문서의 수신자를 추가할 수
-    있습니다.</para>
+    <para>In <emphasis role="bold">Design form</emphasis> step or the
+    <emphasis role="bold">Add recipients</emphasis> step, you can add
+    participants who will receive the document.</para>
 
-    <para><emphasis role="bold">수신자 지정하기</emphasis> 단계에서는 참여자에 대한 상세 설정인 수신자
-    옵션을 설정하는 것은 물론, 참여자를 추가 또는 삭제하거나 문서를 검토할 검토자를 추가할 수 있습니다.</para>
+    <para><emphasis role="bold">Add recipients</emphasis> step, you can set
+    detailed settings of each participant. Additionally, you can add or remove
+    participants as well as adding reviewers who will review the
+    document.</para>
 
-    <para>참여자 또는 검토자 별로 이름과 문서를 전송할 이메일 또는 아이디를 입력해야 하며, 참여자가 멤버일 경우 목록에서 선택하여
-    기존에 저장된 멤버 정보를 불러올 수 있습니다. 수신자 옵션은 참여자 또는 검토자가 멤버일 경우와 멤버가 아닌 외부 수신자일 경우
-    각각 다르게 나타납니다.</para>
+    <para>You have to add the name of each participant and reviewer, and their
+    email/ID. If a participant is a member of your company, you can select the
+    member in the drop-down menu and import their member information stored in
+    eformsign.</para>
+
+    <para>The detail settings in <emphasis role="bold">Recipient
+    options</emphasis> is displayed differently depending whether the
+    participant or reviewer is a member of your company or is an external
+    recipient.</para>
 
     <itemizedlist>
       <listitem>
-        <para><emphasis role="bold">수신자가 멤버일 경우</emphasis></para>
+        <para><emphasis role="bold">When the recipient is a
+        member</emphasis></para>
 
-        <para>기본으로 저장된 이메일 주소와 휴대폰 번호가 자동으로 뜨며 문서가 발송될 수단을 선택할 수 있습니다.</para>
+        <para>The email address and mobile number are automatically filled-in.
+        You can select whether to send the document via email or
+        mobile.</para>
 
         <caution>
           <para>휴대폰을 선택할 경우, SMS 또는 카카오 알림톡으로 발송되며 건당 추가요금이 발생됩니다.</para>
@@ -237,7 +280,8 @@
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">멤버가 아닌 외부 수신자일 경우</emphasis></para>
+        <para><emphasis role="bold">When the recipient is an external
+        recipient</emphasis></para>
 
         <para>입력한 정보가 멤버의 정보와 일치하지 않을 경우 외부 수신자로 인식되어 다음의 항목에 대해 상세 옵션을 설정해야
         합니다.</para>
