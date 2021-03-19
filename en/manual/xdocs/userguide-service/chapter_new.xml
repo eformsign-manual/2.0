@@ -268,7 +268,8 @@
         mobile.</para>
 
         <caution>
-          <para>휴대폰을 선택할 경우, SMS 또는 카카오 알림톡으로 발송되며 건당 추가요금이 발생됩니다.</para>
+          <para>When the mobile number option is selected, then the document
+          will be sent via SMS and additional charges will occur.</para>
         </caution>
 
         <mediaobject>
@@ -283,39 +284,48 @@
         <para><emphasis role="bold">When the recipient is an external
         recipient</emphasis></para>
 
-        <para>입력한 정보가 멤버의 정보와 일치하지 않을 경우 외부 수신자로 인식되어 다음의 항목에 대해 상세 옵션을 설정해야
-        합니다.</para>
+        <para>If the information you enter is not the same as the member
+        information, then the recipient is recognized as an external
+        recipient. This requires the below information to be filled in.</para>
 
         <itemizedlist>
           <listitem>
-            <para><emphasis role="bold">문서 발송 수단 선택:</emphasis> 이메일과 휴대폰 중 둘중
-            하나 또는 모두를 선택할 수 있으며, 휴대폰을 선택하면 발송할 휴대폰 번호를 입력해야 합니다.</para>
+            <para><emphasis role="bold">Email/Mobile:</emphasis> You can
+            select one of email and mobile, or both. If you select mobile,
+            then you must enter the mobile number of the recipient.</para>
 
             <caution>
-              <para>휴대폰을 선택할 경우, SMS 또는 카카오 알림톡으로 발송되며 건당 추가 요금이 발생합니다.</para>
+              <para>If you select mobile, then the document is sent via SMS
+              and additional charges will apply per SMS.</para>
             </caution>
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">문서 전송 기한 설정: </emphasis>외부 수신자가 문서를
-            열람하고 제출할 수 있는 기한을 정할 수 있으며, 설정된 기간이 지나면 문서를 작성할 수 없게 됩니다.</para>
+            <para><emphasis role="bold">Document expiration: </emphasis>You
+            can set the expiration period in which the external recipient can
+            open and submit the document.</para>
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">문서 열람 전 비밀번호 설정: </emphasis>해당 항목에
-            체크하면 외부 수신자가 문서를 열람하기 위해서는 설정한 비밀번호를 입력해야 합니다. 비밀번호 힌트는 설정한 비밀번호에
-            대하여 수신자가 알아볼 수 있는 힌트를 설정하여 제공할 수 있습니다.</para>
+            <para><emphasis role="bold">Set password: </emphasis>If you tick
+            the Set password tick box, you can set the password required for
+            the external password to open the document. For the password hint,
+            you can set it to something the recipient will be able
+            tell.</para>
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">문서 검토 전 휴대폰 본인확인: </emphasis>외부 수신자가
-            문서를 열람/작성하기 위해서 휴대폰 본인확인을 진행하도록 설정합니다. 본 기능은 추가 요금이 발생합니다.</para>
+            <para><emphasis role="bold">Require mobile verification to review
+            documents: </emphasis>You can require mobile verification in order
+            for the external recipient to open and fill-in the document. Extra
+            charges apply.</para>
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">완료 문서 열람 전 휴대폰 본인확인: </emphasis>완료된
-            문서를 외부 수신자가 열람하기 위해서 휴대폰 본인확인을 진행하도록 설정합니다. 본 기능은 추가 요금이
-            발생합니다.</para>
+            <para><emphasis role="bold">Require mobile verification to view
+            completed documents: </emphasis>You can require mobile
+            verification in order for the external recipient to open the
+            completed document. Extra charges apply.</para>
           </listitem>
         </itemizedlist>
 
@@ -330,26 +340,33 @@
   </section>
 
   <section>
-    <title>템플릿으로 문서 작성하기</title>
+    <title>New from template</title>
 
-    <para>자주 사용하는 서식을 템플릿으로 만들고 문서 처리 과정인 워크플로우 등 상세 내용을 템플릿 별로 저장해 필요할 때 마다
-    문서를 작성 및 전송할 수 있습니다. 템플릿은 <emphasis role="bold">웹폼 디자이너</emphasis> 또는
-    <emphasis role="bold">폼 빌더</emphasis>를 사용해 만들 수 있으며, 자세한 내용은 <emphasis
-    role="bold"><link linkend="template_wd">웹폼 디자이너</link></emphasis>와
-    <emphasis role="bold"><link linkend="template_fb">폼 빌더</link></emphasis>를
-    참고해 주세요.</para>
+    <para>You can create and send documents whenever necessary by uploading
+    frequently used forms and saving them as templates by adding workflows and
+    other details.</para>
+
+    <para>Templates can be created by using Web Form Designer or Form Builder.
+    For more information, refer to <emphasis role="bold"><link
+    linkend="template_wd">Web Form Designer </link></emphasis>and <emphasis
+    role="bold"><link linkend="template_fb">Form
+    Builder</link></emphasis>.</para>
 
     <note>
-      <para>문서 작성은 템플릿 관리 권한이 있는 멤버가 <emphasis role="bold">템플릿 설정 &gt; 권한
-      설정</emphasis>에서 <emphasis role="bold">템플릿 사용 권한</emphasis>(=문서 작성 권한)을
-      부여한 그룹 또는 멤버만 할 수 있습니다. 템플릿 사용 권한을 부여받는 그룹 또는 멤버의 템플릿 목록에만 해당 템플릿이 나타나
-      작성할 수 있습니다.</para>
+      <para>A document can only be created by members or groups that have been
+      granted template usage permission (allows to create documents from the
+      template) for a template by a member with template management permission
+      for that template.</para>
+
+      <para> A template is shown in the <emphasis role="bold">Manage
+      templates</emphasis> page only to member/groups that have been granted
+      template usage permission for that template.</para>
     </note>
 
     <orderedlist>
       <listitem>
-        <para>대시보드 또는 사이드 메뉴에서 <emphasis role="bold">템플릿으로 문서 작성</emphasis>을
-        클릭해 이동합니다.</para>
+        <para>Click and go to <emphasis role="bold">New from
+        template</emphasis> in the dashboard or the sidebar menu.</para>
 
         <mediaobject>
           <imageobject>
@@ -360,11 +377,12 @@
       </listitem>
 
       <listitem>
-        <para>작성하고자 하는 템플릿의 작성 아이콘(<inlinemediaobject>
+        <para>Click the create icon(<inlinemediaobject>
             <imageobject>
               <imagedata contentwidth="30" fileref="resources/create-icon.PNG"/>
             </imageobject>
-          </inlinemediaobject>)을 클릭합니다.</para>
+          </inlinemediaobject>) of the template you want to create a document
+        from.</para>
 
         <mediaobject>
           <imageobject>
@@ -375,25 +393,28 @@
       </listitem>
 
       <listitem>
-        <para>문서를 작성하고 우측 상단의 <emphasis role="bold">완료</emphasis> 혹은 <emphasis
-        role="bold">요청</emphasis> 버튼을 클릭하면 문서의 워크플로우 따라 다음 단계로 전송됩니다. 도중에 작성을
-        중단하고 저장할 경우에는 <emphasis role="bold">임시 저장</emphasis> 버튼을 눌러
-        저장합니다.</para>
+        <para>If you create a document and then click the <emphasis
+        role="bold">Complete</emphasis> or <emphasis role="bold">Request
+        </emphasis>button on the top right corner, the document will proceed
+        to the next step in the workflow. If you want to temporarily save the
+        document as a draft before proceeding to the next step, click the
+        <emphasis role="bold">Save as draft </emphasis>button to save.</para>
 
         <note>
-          <para>템플릿에 설정되어 있는 워크플로우에 따라 <emphasis role="bold">완료</emphasis>,
-          <emphasis role="bold">제출</emphasis> 혹은 <emphasis
-          role="bold">요청</emphasis> 버튼으로 다르게 나타납니다.</para>
+          <para>The button may be displayed as<emphasis role="bold">
+          Complete</emphasis> or <emphasis role="bold">Request</emphasis>,
+          depending on the workflow set for the template.</para>
         </note>
 
         <important>
-          <para>템플릿으로 문서 작성 도중에 <emphasis role="bold">임시 저장 </emphasis>버튼을 클릭해
-          저장된 문서는 <emphasis role="bold">임시 보관함</emphasis>이 아닌 <emphasis
-          role="bold">처리할 문서함</emphasis>에서 확인할 수 있습니다.</para>
+          <para>Documents saved when clicking the <emphasis role="bold">Save
+          as draft</emphasis> when creating documents from templates can be
+          found in the <emphasis role="bold">Action required</emphasis> page,
+          not the <emphasis role="bold">Drafts</emphasis> page.</para>
 
-          <para>임시 저장한 문서를 계속 작성하려면<emphasis role="bold"> 처리할 문서함</emphasis>
-          목록에서 해당 문서의<emphasis role="bold"> 편집 </emphasis>버튼을 클릭해 계속 진행할 수
-          있습니다.</para>
+          <para>To continue to create a document saved as a draft, click the
+          <emphasis role="bold">Edit</emphasis> button in the <emphasis
+          role="bold">Action required</emphasis> page.</para>
         </important>
       </listitem>
     </orderedlist>
@@ -401,23 +422,27 @@
     <para/>
 
     <section>
-      <title>일괄 작성</title>
+      <title>Send in bulk</title>
 
-      <para>템플릿으로 문서을 작성할 경우 일괄 작성 기능을 사용하면 한 번에 여러 명에게 문서를 전송할 수 있습니다.</para>
+      <para>When creating a document from a template, you can use the
+      <emphasis role="bold">Send in bulk</emphasis> feature to send a document
+      to multiple recipients at once</para>
 
       <note>
-        <para>이 작업은 대표관리자 또는 템플릿 사용 권한 필요합니다.</para>
+        <para>This feature requires either the company administrator or
+        template usage permission.</para>
       </note>
 
-      <para><emphasis role="bold">일괄 작성하기</emphasis></para>
+      <para><emphasis role="bold">Send in bulk</emphasis></para>
 
-      <para>1. <emphasis role="bold">새 문서 작성</emphasis><emphasis role="bold">
-      &gt; 템플릿으로 문서 작성</emphasis> 메뉴로 이동합니다.</para>
+      <para>1. Go to <emphasis role="bold">New document &gt; New from
+      templat</emphasis><emphasis role="bold">e</emphasis>.</para>
 
-      <para>2. 작성할 템플릿의 일괄 작성 아이콘을 클릭합니다.</para>
+      <para>2. Click the Send in bulk icon of the template you want to create
+      a document from.</para>
 
       <figure>
-        <title>일괄 작성 아이콘</title>
+        <title>Send in bulk icon</title>
 
         <mediaobject>
           <imageobject>
@@ -426,10 +451,11 @@
         </mediaobject>
       </figure>
 
-      <para>3. 화면에 나타나는 각 입력항목에 내용을 입력합니다.</para>
+      <para>3. Enter the values in the columns displayed on the screen.
+      </para>
 
       <figure>
-        <title>일괄 작성 화면</title>
+        <title>Send in bulk screen</title>
 
         <mediaobject>
           <imageobject>
@@ -441,21 +467,29 @@
       <para/>
 
       <note>
-        <para>문서의 입력항목이 각각의 열로 표시된 표입니다. 템플릿의 입력항목인 컴포넌트의 ID가 각 열의 제목으로 나타납니다.
-        첫번째 열인 번호 열 가장 하단 행의 숫자가 작성될 문서의 수입니다.</para>
-
-        <para>표는 엑셀과 비슷한 방법으로 입력합니다. 각 셀을 더블클릭하여 내용을 입력하고 마우스 오른쪽을 클릭하여 행을
-        추가하거나 삭제할 수 있습니다. 셀에 입력된 값을 복사 – 붙여넣기, 끌어서 입력하기를 할 수 있습니다.</para>
+        <para>Each column of the table contains all the fields of a document.
+        The IDs of components (which are fields in a template) are shown as
+        the name of each column. The last row of the first column (No.)
+        indicates the number of documents to be created. Tables are filled in
+        a similar way as in Excel.You can double-click on each cell to enter
+        value and right-click on the mouse to add or delete columns. The value
+        entered in a cell can be copied and pasted, and dragged to another
+        cell. </para>
       </note>
 
-      <para>4. 오른쪽 상단 <emphasis role="bold">미리보기</emphasis> 버튼을 클릭하여 작성된 문서를
-      확인하고 <emphasis role="bold">작성</emphasis> 버튼을 클릭하여 문서 작성을 완료합니다.</para>
+      <para>4. Click the <emphasis role="bold">Preview</emphasis> button on
+      the top right corner of the screen to view the documents you created and
+      then click the <emphasis role="bold">Create</emphasis> button to send
+      the documents. </para>
 
       <para/>
 
       <note>
-        <para>일괄 작성 표에 나타나는 파란색 영역은 요청을 보낼 문서 수신자의 이름, 이메일 등을 입력하는 곳입니다.
-        워크플로우의 외부 수신자 처리 단계 설정에 따라 휴대폰 번호, 인증 비밀번호 등을 입력할 수 있습니다.</para>
+        <para>If there is an external process step in a template, then the
+        left area of the table is highlighted in blue. This area is for
+        entering the external recipients’ names, emails, etc. Depending on the
+        external process settings, there can be phone numbers, verification
+        passwords, etc. </para>
 
         <mediaobject>
           <imageobject>
@@ -468,15 +502,18 @@
       <para/>
 
       <tip>
-        <para>템플릿의 입력항목 중 일부가 <emphasis role="bold">일괄 작성</emphasis> 화면에 나타나지
-        않는 경우에는 아래 두가지 경우를 확인해야 합니다.</para>
+        <para>If there is a component that is not shown in the <emphasis
+        role="bold">Send in bulk</emphasis> screen, then the following must be
+        checked. </para>
 
-        <para>1. 일괄 작성에서 입력할 수 없는 컴포넌트: 카메라, 녹음, 그룹으로 묶인 선택 컴포넌트는 일괄 작성으로 작성할
-        수 없는 컴포넌트입니다.</para>
+        <para>1. The components that cannot be entered in <emphasis
+        role="bold">Send in bulk</emphasis>: camera, voice, and grouped radio
+        components cannot be used in Send in bulk. </para>
 
-        <para>2. 작성 단계에서 접근 허용된 컴포넌트 확인:<emphasis role="bold"> 템플릿 관리 &gt; 템플릿
-        설정(⚙) &gt; 워크플로우 설정 &gt; </emphasis>해당<emphasis role="bold">
-        </emphasis>워크플로우 단계에 접근 허용된 컴포넌트만 나타납니다.</para>
+        <para>2. Check whether the components are allowed access in Template
+        settings. Only the components that are checked to be allowed access in
+        <emphasis role="bold">Manage templates &gt; Template settings (⚙) &gt;
+        Workflow settings</emphasis> are shown.</para>
       </tip>
 
       <para/>
