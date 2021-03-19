@@ -571,29 +571,39 @@
 
       <para><emphasis role="bold">検索キーワードの表示方法とその変更/削除方法</emphasis></para>
 
-      <para>1.検索キーワードは <emphasis role="bold">フィールド名：価値
-      </emphasis>の形で次のように追加されます。</para>
-
-      <itemizedlist>
+      <orderedlist>
         <listitem>
-          <para>キーワード：「勤務形態：正規社員、契約社員」</para>
+          <para>検索キーワードは <emphasis
+          role="bold">フィールド名：価値</emphasis>の形で次のように追加されます。</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>キーワード：「勤務形態：正規社員、契約社員」</para>
+            </listitem>
+
+            <listitem>
+              <para>範囲：「勤続年数：5~10」</para>
+            </listitem>
+
+            <listitem>
+              <para>期間：「労働契約期間_年日：2018-01-01~2018-12-31」</para>
+            </listitem>
+          </itemizedlist>
         </listitem>
 
         <listitem>
-          <para>範囲：「勤続年数：5~10」</para>
+          <para>追加した検索キーワードを選択して、カスタムフィルターを修正します。修正時には、詳細検索フィルターの項目が <emphasis
+          role="bold">カスタムフィルター</emphasis> に変わり、選択した<emphasis
+          role="bold">フィルターのフィールド名、フィールドタイプ、検索値</emphasis>が表示されます。</para>
         </listitem>
 
         <listitem>
-          <para>期間：「労働契約期間_年日：2018-01-01~2018-12-31」</para>
+          <para>追加した検索キーワードを削除するには、右側の <emphasis role="bold">X</emphasis>
+          アイコンをクリックします。</para>
+
+          <para/>
         </listitem>
-      </itemizedlist>
-
-      <para>7.追加した検索キーワードを選択して、カスタムフィルターを修正します。修正時には、詳細検索フィルターの項目が <emphasis
-      role="bold">カスタムフィルター</emphasis> に変わり、選択した<emphasis
-      role="bold">フィルターのフィールド名、フィールドタイプ、検索値</emphasis>が表示されます。</para>
-
-      <para>3.追加した検索キーワードを削除するには、右側の <emphasis role="bold">X</emphasis>
-      アイコンをクリックします。</para>
+      </orderedlist>
     </section>
 
     <section xml:id="additional_work">
@@ -625,6 +635,8 @@
 
           <para>プレビュー、無効化、完了文書の送信、永久削除、ダウンロードの他、文書の削除を行うことができます。文書は、<emphasis
           role="bold">文書管理</emphasis>でのみ削除できます。</para>
+
+          <para/>
         </listitem>
       </itemizedlist>
     </section>
