@@ -174,22 +174,22 @@
 
         <tbody>
           <row>
-            <entry>文書の処理依頼</entry>
+            <entry>依頼メッセージ</entry>
 
-            <entry>決裁の依頼、文書の検討および作成の依頼（内部/外部）、文書の返戻による修正の依頼/文書の無効化の依頼の受信/文書の無効化の依頼の拒否</entry>
+            <entry>決裁依頼時/内部者に処理を依頼時/部外者の処理依頼時/決裁返戻時/文書無効化の依頼/文書無効化の依頼の拒否</entry>
           </row>
 
           <row>
-            <entry>文書の処理状態</entry>
+            <entry>文書状態の通知メッセージ</entry>
 
-            <entry>文書の承認/文書の削除/文書の返戻/文書の検討および作成の完了、文書の最終完了（内部/外部）/文書の移管の完了/文書の修正/文書の最終完了（PDF
-            送信）、文書の無効化</entry>
+            <entry>決裁依頼時/内部者が承認時/返戻依頼の承認/外部者の文書の最終完了時/文書の最終完了時/文書の修正/文書の無効化/文書移管完了/文書の最終完了（PDF
+            として送信）</entry>
           </row>
 
           <row>
-            <entry>メンバーの招待</entry>
+            <entry>メンバー</entry>
 
-            <entry>メンバー招待/メンバー招待の承諾/メンバー招待の拒否/メンバー会社の脱退</entry>
+            <entry>メンバー招待/メンバー招待承諾/メンバー招待拒否/メンバー会社脱退</entry>
           </row>
 
           <row>
@@ -222,7 +222,8 @@
       <listitem>
         <para>目的の <emphasis role="bold">タイプ</emphasis> を選択し、 <emphasis
         role="bold">状態</emphasis> を選択します。<emphasis
-        role="bold">（テーブルテンプレートのタイプと状態を参照</emphasis>）</para>
+        role="bold">（テーブルテンプレートのタイプと状態を参照</emphasis><emphasis
+        role="bold">）</emphasis></para>
 
         <mediaobject>
           <imageobject>
