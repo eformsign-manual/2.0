@@ -44,7 +44,7 @@
     </figure>
 
     <section>
-      <title>Download Form Builder</title>
+      <title>Downloading Installing Form Builder</title>
 
       <para><indexterm class="singular">
           <primary>Download Form Builder</primary>
@@ -84,16 +84,8 @@
         </mediaobject>
       </figure>
 
-      <para>3. Select a location to save the Form builder executable file and
-      download it.</para>
-    </section>
-
-    <section>
-      <title>Install Form Builder</title>
-
-      <para>1. Click the Form builder executable file to run it.</para>
-
-      <para>2. When the Wizard screen shown below is displayed, select the
+      <para>3. After clicking the form builder executable file you downloaded,
+      the following installation screen will be displayed. Select the
       <emphasis role="bold">Complete </emphasis>option and then click
       the<emphasis role="bold"> Next</emphasis> button.</para>
 
@@ -108,7 +100,7 @@
         </mediaobject>
       </figure>
 
-      <para>3. When the installation proceeds, the following screen is
+      <para>4. When the installation proceeds, the following screen is
       displayed.</para>
 
       <figure>
@@ -122,7 +114,7 @@
         </mediaobject>
       </figure>
 
-      <para>4. When the installation is completed, the following screen is
+      <para>5. When the installation is completed, the following screen is
       displayed. Click the <emphasis role="bold">Finish</emphasis> button to
       close the installation screen.</para>
 
@@ -587,7 +579,7 @@
       <para>Select the component you want to delete and then click the
       <emphasis role="bold">Delete</emphasis> icon (<inlinemediaobject>
           <imageobject>
-            <imagedata fileref="resources/delete-icon.png"/>
+            <imagedata fileref="resources/delete_icon1.png"/>
           </imageobject>
         </inlinemediaobject>) in the<emphasis role="bold"> OZ in
       Office</emphasis> menu. You can also select and delete multiple
@@ -614,8 +606,10 @@
             <primary>Components</primary>
 
             <secondary>ID</secondary>
-          </indexterm>Unique key for using an entered value in
-        eformsign.</para>
+          </indexterm>Unique ID that identifies each component. You can use
+        the component ID to set a field to be required or inaccessible when
+        setting fields in the workflow and to download data in CSV
+        format.</para>
       </listitem>
 
       <listitem>
@@ -1657,69 +1651,6 @@
       </note>
     </section>
 
-    <section xml:id="document">
-      <title>Document</title>
-
-      <para><indexterm class="singular">
-          <primary>Components</primary>
-
-          <secondary>Document</secondary>
-        </indexterm>This component is used for entering document-related
-      information in the document itself. You can select either one of the
-      document ID or document number.</para>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/document-component-in-list.png"
-                     width="730"/>
-        </imageobject>
-      </mediaobject>
-
-      <para>The document ID is a unique document ID assigned in the system, so
-      it does not require separate settings. For settings related to document
-      number, upload a template and then go to <emphasis role="bold">Template
-      settings &gt; General</emphasis>.</para>
-
-      <para><emphasis role="bold">Component Properties</emphasis></para>
-
-      <figure>
-        <title>Setting Document Component Properties</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/document-domponent-properties.png"
-                       width="400"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para><emphasis role="bold">① ID</emphasis></para>
-
-      <para>Enters the ID of the document component. For example, the
-      component ID can be ‘docNum’ for document number.</para>
-
-      <para><emphasis role="bold">② Document info type</emphasis></para>
-
-      <para>Selects the type of information that will be used.</para>
-
-      <itemizedlist>
-        <listitem>
-          <para><emphasis role="bold">Document ID: </emphasis>A unique ID
-          containing 32 digits of alphanumeric characters assigned to all
-          documents in the system. E.g.
-          0077af27a98846c8872f5333920679b7.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">Document no.:</emphasis><emphasis
-          role="bold"> </emphasis>The document number set in <emphasis
-          role="bold">Template settings &gt; General.</emphasis> For
-          information on how to set a document number, go to <xref
-          linkend="docnumber_wd"/>.</para>
-        </listitem>
-      </itemizedlist>
-    </section>
-
     <section xml:id="usedate">
       <title>Date</title>
 
@@ -1832,6 +1763,69 @@
         </note></para>
     </section>
 
+    <section xml:id="document">
+      <title>Document</title>
+
+      <para><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>Document</secondary>
+        </indexterm>This component is used for entering document-related
+      information in the document itself. You can select either one of the
+      document ID or document number.</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/document-component-in-list.png"
+                     width="730"/>
+        </imageobject>
+      </mediaobject>
+
+      <para>The document ID is a unique document ID assigned in the system, so
+      it does not require separate settings. For settings related to document
+      number, upload a template and then go to <emphasis role="bold">Template
+      settings &gt; General</emphasis>.</para>
+
+      <para><emphasis role="bold">Component Properties</emphasis></para>
+
+      <figure>
+        <title>Setting Document Component Properties</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/document-domponent-properties.png"
+                       width="400"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">① ID</emphasis></para>
+
+      <para>Enters the ID of the document component. For example, the
+      component ID can be ‘docNum’ for document number.</para>
+
+      <para><emphasis role="bold">② Document info type</emphasis></para>
+
+      <para>Selects the type of information that will be used.</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">Document ID: </emphasis>A unique ID
+          containing 32 digits of alphanumeric characters assigned to all
+          documents in the system. E.g.
+          0077af27a98846c8872f5333920679b7.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Document no.:</emphasis><emphasis
+          role="bold"> </emphasis>The document number set in <emphasis
+          role="bold">Template settings &gt; General.</emphasis> For
+          information on how to set a document number, go to <xref
+          linkend="docnumber_wd"/>.</para>
+        </listitem>
+      </itemizedlist>
+    </section>
+
     <section xml:id="label">
       <title>Label</title>
 
@@ -1922,9 +1916,8 @@
     </figure>
 
     <para>4. Click the <emphasis role="bold">Create template</emphasis> card.
-    The screen for configuring the template settings will be displayed. To
-    create a template, click the <emphasis role="bold">Save </emphasis>button
-    on the top right corner.</para>
+    The screen for configuring the template settings will be displayed. 좌측 설정
+    탭을 클릭해 해당 템플릿에 대한 추가 설정을 완료한 후 우측 상단의 저장 버튼을 클릭해 템플릿을 저장 및 생성합니다.</para>
 
     <figure>
       <title>Create Template Screen</title>
