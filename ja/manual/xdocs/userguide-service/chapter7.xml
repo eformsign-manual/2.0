@@ -21,21 +21,21 @@
 
     <itemizedlist>
       <listitem>
-        <para><emphasis role="bold">進行中の文書：</emphasis> <indexterm
-            class="singular">
-            <primary sortas="ぶんしょとれい">文書トレイ</primary>
-
-            <secondary>進行中の文書</secondary>
-          </indexterm>作成または処理済みで、完了していない文書のリストを確認できます。</para>
-      </listitem>
-
-      <listitem>
         <para><emphasis role="bold">要処理文書：</emphasis> <indexterm
             class="singular">
             <primary sortas="ぶんしょとれい">文書トレイ</primary>
 
             <secondary>要処理文書</secondary>
           </indexterm>下書きとして保存した文書、処理が必要な文書（他のメンバーから作成または決裁の依頼のあった文書）、または外部受信者に送信した文書のうち処理を待機中の文書のリストを確認できます。</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">進行中の文書：</emphasis> <indexterm
+            class="singular">
+            <primary sortas="ぶんしょとれい">文書トレイ</primary>
+
+            <secondary>進行中の文書</secondary>
+          </indexterm>作成または処理済みで、完了していない文書のリストを確認できます。</para>
       </listitem>
 
       <listitem>
