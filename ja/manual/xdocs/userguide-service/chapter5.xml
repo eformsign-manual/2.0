@@ -7,7 +7,7 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>テンプレート：Web フォームデザイナーで作成</title>
+  <title>テンプレートの作成：Web フォームデザイナー</title>
 
   <section>
     <title>テンプレートの紹介</title>
@@ -215,6 +215,29 @@
       <para>この作業は、PC、モバイル、およびアプリケーションで実行できます。</para>
     </note>
 
+    <para><emphasis role="bold">テンプレート設定の画面に移動する方法 </emphasis></para>
+
+    <orderedlist>
+      <listitem>
+        <para>サイドバーのメニューで <emphasis role="bold">テンプレート管理</emphasis>
+        に移動します。</para>
+      </listitem>
+
+      <listitem>
+        <para>目的のテンプレートの名前または設定アイコン（<inlinemediaobject>
+            <imageobject>
+              <imagedata contentwidth="28" fileref="resources/config-icon.PNG"/>
+            </imageobject>
+          </inlinemediaobject>）をクリックします。</para>
+
+        <para><inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="resources/template-settings.png" width="700"/>
+            </imageobject>
+          </inlinemediaobject></para>
+      </listitem>
+    </orderedlist>
+
     <section>
       <title>全般</title>
 
@@ -297,8 +320,8 @@
             role="bold">文書トレイ</emphasis>、<emphasis role="bold">文書管理</emphasis>
             メニューで文書をフィルタリングできます。既存のカテゴリーから選択することも、新しい名前を入力して新しいカテゴリーを作成することもできます。</para>
 
-            <para>区切り文字（ <emphasis role="bold">/
-            </emphasis>）を使用すれば、サブカテゴリーを含むマルチレベルのカテゴリーを設定できます。たとえば、カテゴリーを
+            <para>区切り文字（<emphasis
+            role="bold">/</emphasis>）を使用すれば、サブカテゴリーを含むマルチレベルのカテゴリーを設定できます。たとえば、カテゴリーを
             <emphasis role="bold">人事チーム/休暇</emphasis> で設定すれば、最上位レベルのカテゴリーである
             <emphasis role="bold">人事チーム</emphasis> 内に第2レベルのサブカテゴリーである
             <emphasis role="bold">休暇</emphasis> カテゴリーが生成されます。</para>
@@ -832,8 +855,9 @@
             </mediaobject>
           </figure>
 
-          <para>文書番号は、文書リストを表示する文書トレイ（要処理文書、進行中文書、完了文書）と 文書管理
-          メニュー（文書の管理権限が必要）で確認できます。</para>
+          <para>文書番号は、文書リストを表示する <emphasis
+          role="bold">文書トレイ</emphasis>（要処理文書、進行中文書、完了文書）と <emphasis
+          role="bold">文書管理</emphasis> メニュー（文書の管理権限が必要）で確認できます。</para>
 
           <orderedlist>
             <listitem>
@@ -944,12 +968,12 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">完了文書の無効化を承認する (選択した時)：</emphasis>
+          <para><emphasis role="bold">完了文書の無効化を承認する (選択した場合)：</emphasis>
           文書作成者が完了文書の無効化を依頼した場合、文書の管理権限で付与された権限があれば、文書の無効化を承認できます。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">文書を永久削除する (選択した時)：</emphasis>
+          <para><emphasis role="bold">文書を永久削除する (選択した場合)：</emphasis>
           システムから文書を永久に削除する権限で、文書の管理権限で付与された権限があれば、永久に削除できます。</para>
         </listitem>
       </itemizedlist>
@@ -1034,9 +1058,10 @@
         </mediaobject>
       </tip>
 
-      <para><emphasis role="bold">ワークフローのステップ別の詳細設定</emphasis></para>
+      <para><emphasis role="bold">各ステップの詳細設定</emphasis></para>
 
-      <para>ステップをクリックすると、ワークフローの各ステップの属性、項目の管理、通知などの詳細を設定できます。</para>
+      <para><emphasis role="bold">ステップ</emphasis>
+      をクリックすると、ワークフローの各ステップの属性、項目の管理、通知などの詳細を設定できます。</para>
 
       <itemizedlist>
         <listitem>
@@ -1333,7 +1358,7 @@
           <primary>テンプレート</primary>
 
           <secondary>通知の設定</secondary>
-        </indexterm>テンプレートで生成された文書の状態の通知や依頼を受信するチャンネルの選択、受信者への依頼メッセージの編集ができます。</para>
+        </indexterm>テンプレートで作成された文書の状態の通知や依頼を受信するチャンネルの選択、受信者への依頼メッセージの編集ができます。</para>
 
       <para><emphasis role="bold">通知チャンネルの設定</emphasis></para>
 
@@ -1376,10 +1401,7 @@
 
       <para><emphasis role="bold">依頼メッセージの編集</emphasis></para>
 
-      <para>このテンプレートで生成された文書を受信者に依頼するときに、受信者に送信される通知メッセージを確認および編集できます。各通知テンプレートのメッセージは
-      <emphasis role="bold">会社管理 &gt; 通知テンプレート管理</emphasis>
-      ページで設定した内容がデフォルトで適用されています。<emphasis role="bold">編集
-      </emphasis>ボタンをクリックして、メッセージを直接編集できます。</para>
+      <para>このテンプレートで作成された文書を受信者に依頼するときに、受信者に送信される通知メッセージを確認および編集できます。</para>
 
       <note>
         <para>SMS テンプレートは、有料プランを購読中の会社のみ編集できます。</para>
@@ -1387,7 +1409,8 @@
 
       <para>各通知テンプレートのメッセージは <emphasis role="bold">会社管理 &gt;
       通知テンプレート管理</emphasis> ページで設定した内容がデフォルトで適用されています。<emphasis
-      role="bold">編集</emphasis> ボタンをクリックして、メッセージを直接編集できます。</para>
+      role="bold">編集</emphasis>
+      ボタンをクリックして、メッセージを直接編集でき、その依頼を受けた受信者に通知を送信するかどうかを設定できます。</para>
 
       <mediaobject>
         <imageobject>
@@ -1430,12 +1453,12 @@
 
       <para><emphasis role="bold">文書状態についての通知</emphasis></para>
 
-      <para>テンプレートで生成された文書の進行状態の通知を受信する受信者を設定し、通知メッセージのプレビュー（文書の承認、検討、作成/返戻/無効化/修正の通知）と編集（文書の最終完了の通知）ができます。</para>
+      <para>テンプレートで生成された文書の進行状態の通知を受信する受信者を設定し、通知メッセージのプレビュー（承認/検討および作成/返戻/無効化/修正の通知）と編集（完了の通知）ができます。</para>
 
       <note>
-        <para>文書返戻の通知、文書の無効化の通知、文書の修正の通知は、メールテンプレートのみ提供され、SMS は送信されません。</para>
+        <para>返戻の通知、無効化の通知、修正の通知は、メールテンプレートのみ提供され、SMS は送信されません。</para>
 
-        <para>文書の完了の通知（内部/外部）のSMS テンプレートは有料プランを購読中の会社のみが編集できます。</para>
+        <para>完了の通知（内部/外部）のSMS テンプレートは有料プランを購読中の会社のみが編集できます。</para>
       </note>
 
       <mediaobject>
@@ -1462,7 +1485,7 @@
 
         <para><emphasis role="bold">文書の作成者</emphasis>、<emphasis
         role="bold">各ステップの処理者</emphasis>
-        オプションを両方ともチェックを外すと、そのステップの文書状態の通知は送信されません。</para>
+        オプションに両方ともチェックを外すと、そのステップの文書状態の通知は送信されません。</para>
       </note>
 
       <para/>
@@ -1506,7 +1529,7 @@
             <para><emphasis role="bold">文書の完了 &gt; 外部</emphasis>の<emphasis
             role="bold">文書の作成者</emphasis> オプションにチェックが入っていると、メンバーではない外部のユーザーが
             URL
-            経由で文書を作成して送信するときに、文書完了の通知を受信するための受信先の情報を提供する必要があり、入力した受信先に状態の通知が送信されます。</para>
+            経由で文書を作成して送信するときに、完了の通知を受信するための受信先の情報を提供する必要があり、入力した受信先に状態の通知が送信されます。</para>
           </note>
         </listitem>
       </itemizedlist>
@@ -1522,7 +1545,7 @@
           <imagedata contentwidth="14"
                      fileref="resources/template-hamburgericon.png"/>
         </imageobject>
-      </inlinemediaobject>) をクリックすると、テンプレート別に設定できるメニューが表示されます。</para>
+      </inlinemediaobject>) をクリックすると、各テンプレートを設定できるメニューが表示されます。</para>
 
     <mediaobject>
       <imageobject>
@@ -1541,12 +1564,6 @@
       <listitem>
         <para><emphasis
         role="bold">削除</emphasis>：テンプレートを削除します。テンプレートを削除すると、そのテンプレートでは文書を作成できなくなります。</para>
-      </listitem>
-
-      <listitem>
-        <para><emphasis
-        role="bold">ファイルをダウンロード</emphasis>：ファイルをダウンロードをクリックすると、アップロードしたファイルの形式でダウンロードされます。（例：Word、Excel
-        ファイルなど）</para>
       </listitem>
 
       <listitem>
@@ -1588,7 +1605,7 @@
     <title>テンプレートの検索</title>
 
     <para><emphasis role="bold">テンプレート管理</emphasis>
-    画面では、テンプレートをカテゴリー別に照会、検索ができます。</para>
+    画面では、テンプレートをカテゴリーで照会、検索できます。</para>
 
     <mediaobject>
       <imageobject>
@@ -1601,7 +1618,8 @@
         <term>① <emphasis role="bold">テンプレートの照会</emphasis></term>
 
         <listitem>
-          <para>をクリックすると、テンプレートの状態やカテゴリー別にテンプレートを照会できます。<emphasis
+          <para><emphasis role="bold">テンプレートの照会</emphasis>
+          をクリックすると、テンプレートの状態やカテゴリーでテンプレートを照会できます。<emphasis
           role="bold">X</emphasis> をクリックして、カテゴリーリストに戻ります。</para>
 
           <para>テンプレートは、Sample カテゴリーに基本テンプレートが保存されます。カテゴリーの作成は <emphasis
@@ -1621,7 +1639,7 @@
         <term>③ <emphasis role="bold">ソート</emphasis></term>
 
         <listitem>
-          <para>テンプレートの並べ替え順序を、テンプレート名またはカテゴリー別に昇順および降順に設定します。</para>
+          <para>テンプレートの並び順を、テンプレート名またはカテゴリーを基準に昇順および降順に設定します。</para>
         </listitem>
       </varlistentry>
     </variablelist>

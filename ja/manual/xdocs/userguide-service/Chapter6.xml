@@ -7,7 +7,7 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>テンプレート：フォームビルダーで作成</title>
+  <title>テンプレートの作成：フォームビルダー</title>
 
   <section>
     <title>テンプレートの紹介</title>
@@ -218,7 +218,7 @@
 
       <variablelist>
         <varlistentry>
-          <term><emphasis role="bold">テンプレートの基本情報の設定</emphasis></term>
+          <term><emphasis role="bold">基本設定</emphasis></term>
 
           <listitem>
             <para>テンプレート名、カテゴリー、有効期限など、テンプレートに関する基本情報を設定します。</para>
@@ -244,8 +244,8 @@
             <para><emphasis role="bold">テンプレート管理</emphasis>、<emphasis
             role="bold">文書の新規作成</emphasis> メニュー画面に表示されるテンプレートの名前です。</para>
 
-            <para><emphasis role="bold">テンプレート名
-            </emphasis>は、スペースを含めて約11文字を推奨しています。11文字を超える場合は、名前の上にマウスを置くと、テンプレートの完全な名前を確認することができます。</para>
+            <para><emphasis role="bold">テンプレート名</emphasis>
+            は、スペースを含めて11文字以下を推奨しています。11文字を超える場合は、名前の上にマウスを置くと、テンプレートの完全な名前を確認することができます。</para>
           </listitem>
         </varlistentry>
 
@@ -291,13 +291,13 @@
           <term>④ カテゴリ</term>
 
           <listitem>
-            <para>テンプレートをタイプごとに区分するために使用します。カテゴリー名で <emphasis
-            role="bold">テンプレート管理 </emphasis>画面のテンプレート、または <emphasis
-            role="bold">文書トレイ</emphasis>,<emphasis role="bold">文書管理</emphasis>
+            <para>テンプレートをタイプごとに区分するために使用します。カテゴリー名で<emphasis
+            role="bold">テンプレート管理</emphasis>画面のテンプレート、または <emphasis
+            role="bold">文書トレイ</emphasis>、<emphasis role="bold">文書管理</emphasis>
             メニューで文書をフィルタリングできます。既存のカテゴリーから選択することも、新しい名前を入力して新しいカテゴリーを作成することもできます。</para>
 
-            <para>区切り文字（ <emphasis
-            role="bold">/</emphasis>）では、サブカテゴリーを含むマルチレベルのカテゴリーを設定できます。たとえば、カテゴリーを
+            <para>区切り文字（<emphasis
+            role="bold">/</emphasis>）を使用すれば、サブカテゴリーを含むマルチレベルのカテゴリーを設定できます。たとえば、カテゴリーを
             <emphasis role="bold">人事チーム/休暇</emphasis> で設定すれば、最上位レベルのカテゴリーである
             <emphasis role="bold">人事チーム</emphasis> 内に第2レベルのサブカテゴリーである
             <emphasis role="bold">休暇</emphasis> カテゴリーが生成されます。</para>
@@ -316,12 +316,12 @@
           <term>⑥ テンプレート有効期限</term>
 
           <listitem>
-            <para>テンプレートで文書が作成できる期限を設定します。開始日はテンプレートがアップロードされた日付がデフォルトで設定されますが、変更も可能です。</para>
+            <para>テンプレートで文書を作成できる期限を設定します。開始日はテンプレートがアップロードされた日付がデフォルトで設定されますが、変更も可能です。</para>
 
-            <para><emphasis role="bold">期間の制限無し</emphasis>
-            にチェックを入れると、有効期限無しで文書を作成できます。<emphasis
+            <para><emphasis
+            role="bold">期間の制限無し</emphasis>にチェックを入れると、有効期限無しで文書を作成できます。<emphasis
             role="bold">期間の制限無し</emphasis>
-            のチェックをオフにした後、日付を設定すると、文書は設定した日付までしか作成できません。</para>
+            のチェックを外した後、日付を設定すると、文書は設定した日付までしか作成できません。</para>
           </listitem>
         </varlistentry>
 
@@ -348,7 +348,7 @@
           <term>⑧ 文書タイトルの変更を許可する</term>
 
           <listitem>
-            <para><emphasis role="bold">文書のタイトルの変更を許可する </emphasis>にチェックを入れれば、
+            <para><emphasis role="bold">文書のタイトルの変更を許可する</emphasis> にチェックを入れれば、
             <emphasis role="bold">作成</emphasis>
             ステップの文書の作成者が文書のタイトルを変更できます。</para>
           </listitem>
@@ -376,9 +376,10 @@
           <term>⑩ 文書の送信時に表示されるポップアップ画面を省略する</term>
 
           <listitem>
-            <para>文書の作成と送信を迅速に行うことの多いケースに使用します。この設定にチェックを入れないと、文書の送信時に<emphasis
-            role="bold"> 確認メッセージを入力する</emphasis> ポップアップウィンドウが表示されます。<emphasis
-            role="bold">文書の送信時に表示されるポップアップ画面を省略する </emphasis>にチェックを入れれば、
+            <para>文書の作成と送信を迅速に行うことの多いケースに使用します。この設定にチェックを入れないと、文書の送信時に
+            <emphasis role="bold">確認メッセージを入力する</emphasis>
+            ポップアップウィンドウが表示されます。<emphasis
+            role="bold">文書の送信時に表示されるポップアップ画面を省略する</emphasis> にチェックを入れれば、
             <emphasis role="bold">メッセージを入力する</emphasis>
             ポップアップウィンドウが表示されずに、次のステップに進みます。</para>
           </listitem>
@@ -396,7 +397,7 @@
           <secondary>文書タイトルの自動生成ルール</secondary>
         </indexterm></para>
 
-      <para>文書に関する情報を自動的に文書タイトルに自動で入力されるように設定することができます。文書タイトルの自動生成ルールを設定すると、文書の作成時の情報に基づいて文書タイトルが生成されます。この文書タイトルは、すべての文書トレイ（進行中、要処理、完了文書）と
+      <para>文書に関する情報が文書タイトルに自動で入力されるよう設定することができます。文書タイトルの自動生成ルールを設定すると、文書の作成時の情報に基づいて文書タイトルが生成されます。この文書タイトルは、すべての文書トレイ（要処理、進行中、完了文書）と
       文書管理メニューの文書リストで確認できます。</para>
 
       <note>
@@ -436,7 +437,7 @@
         </listitem>
 
         <listitem>
-          <para>テンプレートの <emphasis role="bold">設定 </emphasis>アイコン
+          <para>テンプレートの <emphasis role="bold">設定</emphasis> アイコン
           (<inlinemediaobject>
               <imageobject>
                 <imagedata contentwidth="33"
@@ -447,7 +448,7 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">全般： </emphasis>画面上の <emphasis
+          <para><emphasis role="bold">全般 </emphasis>画面上の <emphasis
           role="bold">文書タイトルの自動生成ルール</emphasis> の入力欄に、目的のタイトルルールを入力します。</para>
         </listitem>
 
@@ -495,7 +496,7 @@
 
             <para><emphasis role="bold">文書タイトルの自動生成ルール</emphasis> の入力欄に
             <emphasis
-            role="bold">$$</emphasis>を入力すると、ドロップダウンメニューが表示され、それ以下の情報から目的の情報を選択できます。</para>
+            role="bold">$$</emphasis>を入力すると、ドロップダウンメニューが表示され、以下の情報から目的の情報を選択できます。</para>
 
             <informaltable>
               <tgroup cols="2">
@@ -527,7 +528,7 @@
                   <row>
                     <entry>現在日付時刻</entry>
 
-                    <entry>文書を作成した時点の日付と時刻（例：2020年2月20日午後02：59）</entry>
+                    <entry>文書を作成した時点の日付と時刻（例：2020年2月20日午後02:59）</entry>
                   </row>
 
                   <row>
@@ -606,10 +607,9 @@
         <para><emphasis role="bold">文書のタイトルの変更を許可する</emphasis>
         にチェックが入っているかどうかを確認してください！</para>
 
-        <para>文書タイトルの自動生成ルールを設定しておいても、 <emphasis
-        role="bold">文書のタイトルの変更を許可する</emphasis>
-        にチェックが入っていると、文書の作成者は任意で文書のタイトルを変更できます。文書タイトルの変更を希望しない場合は、 <emphasis
-        role="bold">文書のタイトルの変更を許可する</emphasis> でチェックを外してください。</para>
+        <para>文書タイトルの自動生成ルールを設定しておいても、 <emphasis role="bold">文書のタイトルの変更を許可する
+        </emphasis>にチェックが入っていると、文書の作成者は任意で文書のタイトルを変更できます。文書タイトルの変更を希望しない場合は、
+        <emphasis role="bold">文書のタイトルの変更を許可する</emphasis> でチェックを外してください。</para>
       </tip>
 
       <figure>
@@ -625,10 +625,12 @@
     </section>
 
     <section xml:id="docnumber_fb">
-      <title>テンプレートの設定 &gt; 全般 &gt; 文書番号の自動付与</title>
+      <title>全般 &gt; 文書番号の自動付与</title>
 
       <para>eformsign
-      で生成される文書に連続する文書番号を付与することができます。テンプレートごとに文書番号を自動的に生成するかどうかを設定できます。文書番号を自動的に生成するためには、4つの文書番号の形式のいずれかを選択する必要があります。文書番号は、文書コンポーネントを使用して文書内に入力できます。また、文書リストに別のカラムがあり、文書番号で文書を検索することもできます。</para>
+      で生成される文書に連続する文書番号を付与することができます。テンプレートごとに文書番号を自動的に生成するかどうかを設定できます。文書番号を自動的に生成するためには、4つの文書番号の形式のいずれかを選択する必要があります。文書番号は、<emphasis
+      role="bold">文書</emphasis>
+      コンポーネントを使用して文書内に入力できます。また、文書リストに別のカラムがあり、文書番号で文書を検索することもできます。</para>
 
       <para><emphasis role="bold">文書番号を生成する方法<indexterm class="singular">
           <primary>テンプレート</primary>
@@ -659,23 +661,23 @@
         </listitem>
 
         <listitem>
-          <para>テンプレートの <emphasis role="bold">設定</emphasis> アイコン
-          (<inlinemediaobject>
+          <para>テンプレートの <emphasis role="bold">設定
+          </emphasis>アイコン（<inlinemediaobject>
               <imageobject>
                 <imagedata contentwidth="33"
                            fileref="resources/config-icon.PNG"/>
               </imageobject>
-            </inlinemediaobject>) をクリックして <emphasis
+            </inlinemediaobject>）をクリックして <emphasis
           role="bold">テンプレートの設定</emphasis> メニューに移動します。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">全般：</emphasis> 画面上の <emphasis
-          role="bold">文書番号の自動付与 </emphasis>にチェックを入れます。</para>
+          <para><emphasis role="bold">全般</emphasis> 画面上の <emphasis
+          role="bold">文書番号の自動付与</emphasis> にチェックを入れます。</para>
 
           <para><itemizedlist>
               <listitem>
-                <para><emphasis role="bold">文書番号の生成ルールの選択</emphasis></para>
+                <para><emphasis role="bold">文書番号の自動付与ルールの選択</emphasis></para>
               </listitem>
             </itemizedlist><figure>
               <title>文書番号の生成ルールの選択</title>
@@ -758,14 +760,15 @@
 
       <para><emphasis role="bold">文書番号を確認する方法</emphasis></para>
 
-      <para>生成された文書番号は、文書コンポーネントを使用して文書内に入力することができるほか、文書リストでも確認できます。</para>
+      <para>生成された文書番号は、<emphasis role="bold">文書</emphasis>
+      コンポーネントを使用して文書内に入力することができ、文書リストでも確認できます。</para>
 
       <itemizedlist>
         <listitem>
           <para><emphasis role="bold">文書内に文書番号を表示する</emphasis></para>
 
-          <para>文書番号は <emphasis role="bold">フォームビルダー
-          </emphasis>の文書コンポーネントを使用して、文書内に入力できます。</para>
+          <para>文書番号は <emphasis role="bold">フォームビルダー </emphasis>の <emphasis
+          role="bold">文書</emphasis> コンポーネントを使用して、文書内に入力できます。</para>
 
           <orderedlist>
             <listitem>
@@ -773,7 +776,8 @@
             </listitem>
 
             <listitem>
-              <para>文書番号を入れたい箇所に文書コンポーネントを追加します。</para>
+              <para>文書番号を入れたい箇所に <emphasis role="bold">文書</emphasis>
+              コンポーネントを追加します。</para>
             </listitem>
 
             <listitem>
@@ -782,13 +786,12 @@
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">テンプレート設定 &gt;
-              全般</emphasis>で<emphasis role="bold">文書番号の自動付与</emphasis>
-              にチェックを入れます。</para>
+              <para><emphasis role="bold">テンプレート設定 &gt; 全般</emphasis>
+              で<emphasis role="bold"> 文書番号の自動付与</emphasis> にチェックを入れます。</para>
             </listitem>
 
             <listitem>
-              <para>文書番号の生成ルールを選択します。</para>
+              <para>文書番号の自動付与ルールを選択します。</para>
             </listitem>
 
             <listitem>
@@ -823,7 +826,8 @@
             </mediaobject>
           </figure>
 
-          <para>文書番号は、文書リストを表示する文書トレイ (進行中文書、要処理文書、完了文書) と 文書管理 メニュー
+          <para>文書番号は、文書リストを表示する <emphasis role="bold">文書トレイ</emphasis>
+          (要処理文書、進行中文書、完了文書) と <emphasis role="bold">文書管理</emphasis> メニュー
           (文書の管理権限が必要) で確認できます。</para>
 
           <orderedlist>
@@ -900,7 +904,9 @@
     <section>
       <title>権限の設定</title>
 
-      <para>権限の設定 画面では、テンプレートの使用権限と文書の管理権限を設定できます。</para>
+      <para><emphasis role="bold">権限の設定</emphasis> 画面では、<emphasis
+      role="bold">テンプレートの使用権限</emphasis>と <emphasis
+      role="bold">文書の管理権限</emphasis> を設定できます。</para>
 
       <figure>
         <title>テンプレート設定 &gt; 全般</title>
@@ -924,8 +930,8 @@
       <para><emphasis role="bold">文書の管理権限</emphasis></para>
 
       <para><indexterm class="singular">
-          <primary>文書の管理権限</primary>
-        </indexterm>グループまたはメンバーを選択して、テンプレートを使用して作成された文書を閲覧したり、完了文書の無効化の依頼を承認したり、文書を永久削除する権限をすべて、または各々を設定できます。</para>
+          <primary sortas="ぶんしょのかんりけんげん">文書の管理権限</primary>
+        </indexterm>グループまたはメンバーを選択して、テンプレートを使用して作成された文書を閲覧したり、完了文書の無効化の依頼を承認したりでき、文書を永久削除する権限をすべて、または各々を設定できます。</para>
 
       <itemizedlist>
         <listitem>
@@ -934,12 +940,12 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">完了文書の無効化を承認する (選択時)：</emphasis>
-          文書作成者が完了文書の無効化を依頼した場合に、文書の管理権限で付与された権限があれば、文書の無効化を承認できます。</para>
+          <para><emphasis role="bold">完了文書の無効化を承認する (選択した場合)：</emphasis>
+          文書作成者が完了文書の無効化を依頼した場合、文書の管理権限で付与された権限があれば、文書の無効化を承認できます。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">文書を永久削除する (選択時)：</emphasis>
+          <para><emphasis role="bold">文書を永久削除する (選択した場合)：</emphasis>
           システムから文書を永久に削除する権限で、文書の管理権限で付与された権限があれば、永久に削除できます。</para>
         </listitem>
       </itemizedlist>
@@ -983,16 +989,18 @@
         </listitem>
 
         <listitem>
-          <para>開始と完了の間にあるステップの追加 (<inlinemediaobject>
+          <para><emphasis role="bold">開始 </emphasis>と<emphasis role="bold">
+          完了</emphasis> の間にあるステップの<emphasis role="bold"> 追加
+          </emphasis>(<inlinemediaobject>
               <imageobject>
                 <imagedata contentwidth="30"
                            fileref="resources/workflow-addstep-plus-button.png"/>
               </imageobject>
-            </inlinemediaobject>ボタンをクリックします。</para>
+            </inlinemediaobject>）ボタンをクリックします。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">受信者タイプの選択 </emphasis>で<emphasis
+          <para><emphasis role="bold">受信者タイプの選択</emphasis> で<emphasis
           role="bold"> </emphasis>追加したい <emphasis
           role="bold">受信者のタイプ</emphasis> を選択します。</para>
 
@@ -1005,27 +1013,27 @@
         </listitem>
 
         <listitem>
-          <para>選択すると、ステップがワークフローに追加されます</para>
-
-          <tip>
-            <para>ワークフローのステップは個数に関係なくいくつでも追加できます。ワークフローのステップの横にある矢印をクリックすると、ステップの順序を変更できます。</para>
-
-            <para>ステップを削除するには、ステップの右側に位置する<emphasis role="bold"> X
-            </emphasis>をクリックすれば、削除されます。</para>
-          </tip>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/workflow-step-added.png"
-                         width="700"/>
-            </imageobject>
-          </mediaobject>
+          <para>選択すると、ステップがワークフローに追加されます。</para>
         </listitem>
       </orderedlist>
 
-      <para><emphasis role="bold">ワークフローのステップ別の詳細設定</emphasis></para>
+      <tip>
+        <para>ワークフローのステップは個数に関係なく、いくつでも追加できます。ワークフローのステップの横にある矢印をクリックすると、ステップの順序を変更できます。</para>
 
-      <para>ステップをクリックすると、ワークフローのステップ別の属性、項目の管理、通知などの詳細を設定できます。</para>
+        <para>ステップを削除するには、ステップの右側に位置する<emphasis role="bold"> X</emphasis>
+        をクリックすれば、削除されます。</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/workflow-step-added.png" width="700"/>
+          </imageobject>
+        </mediaobject>
+      </tip>
+
+      <para><emphasis role="bold">各ステップの詳細設定</emphasis></para>
+
+      <para><emphasis role="bold">ステップ</emphasis>
+      をクリックすると、ワークフローの各ステップの属性、項目の管理、通知などの詳細を設定できます。</para>
 
       <itemizedlist>
         <listitem>
@@ -1035,9 +1043,9 @@
 
         <listitem>
           <para><emphasis role="bold">項目の管理</emphasis>
-          では、ワークフローの各段階で受信者が編集できるように許可する <emphasis role="bold">編集許可
-          </emphasis>項目と必須で入力が必要な <emphasis role="bold">必須入力項目</emphasis>
-          項目を設定できます。</para>
+          では、ワークフローの各ステップで受信者が編集できるよう許可する <emphasis
+          role="bold">編集許可</emphasis> 項目と、必須で入力が必要な <emphasis
+          role="bold">必須入力</emphasis> 項目を設定できます。</para>
 
           <mediaobject>
             <imageobject>
@@ -1130,7 +1138,7 @@
               <primary>ワークフロー</primary>
 
               <secondary>内部受信者 (メンバー)</secondary>
-            </indexterm> </emphasis></term>
+            </indexterm></emphasis></term>
 
           <listitem>
             <mediaobject>
@@ -1258,8 +1266,8 @@
           <primary>テンプレート</primary>
 
           <secondary>フィールドの設定</secondary>
-        </indexterm>フィールドの設定</emphasis>
-      では、テンプレート内のコンポーネントフィールドのデフォルト値または自動入力値を設定し、フィールドの順序を並べ替えることができます。</para>
+        </indexterm>フィールドの設定</emphasis> では、文書のリストと CSV
+      形式でデータをダウンロードするときに表示されるコンポーネントフィールドの表示有無および表示順を設定できます。また、テンプレート内のコンポーネントフィールドのデフォルト値または自動入力値を設定し、フィールドの順序を並べ替えることができます。</para>
 
       <figure>
         <title>テンプレートの設定 &gt; 全般</title>
@@ -1283,34 +1291,43 @@
       <para>たとえば、名前、連絡先などの作成者の情報、部署名、責任者、会社の代表番号などの会社またはグループに関する情報を事前に保存して自動で入力されるように設定することができます。関連フィールドのコンポーネントの追加しおよびデフォルト値の設定は
       <emphasis role="bold">会社管理 &gt; カスタムフィールド管理</emphasis> で行えます。</para>
 
-      <orderedlist>
-        <listitem>
-          <para><emphasis role="bold">カスタムフィールド管理</emphasis>
-          画面でフィールドを追加します。</para>
-        </listitem>
+      <tip>
+        <para><emphasis role="bold">自動入力の設定方法</emphasis></para>
 
-        <listitem>
-          <para><emphasis role="bold">テンプレート管理</emphasis> メニューに移動します。</para>
-        </listitem>
+        <para>文書に頻繁に入力する情報を事前に保存し、自動的に入力されるように設定することができます。</para>
 
-        <listitem>
-          <para><emphasis role="bold">テンプレートの設定</emphasis>
-          アイコンをクリックします。</para>
-        </listitem>
+        <para>たとえば、名前、連絡先などの作成者の情報、部署名、責任者、会社の代表番号などの会社またはグループに関する情報を事前に保存して自動で入力されるように設定することができます。関連フィールドのコンポーネントの追加しおよびデフォルト値の設定は
+        <emphasis role="bold">会社管理 &gt; カスタムフィールド管理</emphasis> で行えます。</para>
 
-        <listitem>
-          <para><emphasis role="bold">フィールドの設定</emphasis> メニューに移動します。</para>
-        </listitem>
+        <orderedlist>
+          <listitem>
+            <para><emphasis role="bold">カスタムフィールド管理</emphasis>
+            画面でフィールドを追加します。</para>
+          </listitem>
 
-        <listitem>
-          <para>自動で入力されるように設定するフィールドのデフォルト値を入力します。</para>
-        </listitem>
+          <listitem>
+            <para><emphasis role="bold">テンプレート管理</emphasis> メニューに移動します。</para>
+          </listitem>
 
-        <listitem>
-          <para>すべての設定が完了したら、 <emphasis role="bold">保存</emphasis>
-          ボタンをクリックします。</para>
-        </listitem>
-      </orderedlist>
+          <listitem>
+            <para><emphasis role="bold">テンプレートの設定</emphasis>
+            アイコンをクリックします。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">フィールドの設定</emphasis> メニューに移動します。</para>
+          </listitem>
+
+          <listitem>
+            <para>自動で入力されるように設定するフィールドのデフォルト値を入力します。</para>
+          </listitem>
+
+          <listitem>
+            <para>すべての設定が完了したら、<emphasis role="bold">保存</emphasis>
+            ボタンをクリックします。</para>
+          </listitem>
+        </orderedlist>
+      </tip>
     </section>
 
     <section>
@@ -1320,7 +1337,7 @@
           <primary>テンプレート</primary>
 
           <secondary>通知の設定</secondary>
-        </indexterm>テンプレートで生成された文書の状態の通知や依頼を受信するチャンネルの選択、受信者への依頼メッセージの編集ができます。</para>
+        </indexterm>テンプレートで作成された文書の状態の通知や依頼を受信するチャンネルの選択、受信者への依頼メッセージの編集ができます。</para>
 
       <para><emphasis role="bold">通知チャンネルの設定</emphasis></para>
 
@@ -1361,12 +1378,7 @@
 
       <para><emphasis role="bold">依頼メッセージの編集</emphasis></para>
 
-      <para>このテンプレートで生成された文書を受信者に依頼するときに、受信者に送信される通知メッセージを確認および編集できます。各通知テンプレートのメッセージは
-      <emphasis role="bold">会社管理 &gt; 通知テンプレート管理</emphasis>
-      ページで設定した内容がデフォルトで適用されています。<emphasis role="bold">編集
-      </emphasis>ボタンをクリックして、メッセージを直接編集できます。</para>
-
-      <para/>
+      <para>このテンプレートで作成された文書を受信者に依頼するときに、受信者に送信される通知メッセージを確認および編集できます。</para>
 
       <note>
         <para>SMS テンプレートは、有料プランを購読中の会社のみ編集できます。</para>
@@ -1374,7 +1386,8 @@
 
       <para>各通知テンプレートのメッセージは <emphasis role="bold">会社管理 &gt;
       通知テンプレート管理</emphasis> ページで設定した内容がデフォルトで適用されています。<emphasis
-      role="bold">編集</emphasis> ボタンをクリックして、メッセージを直接編集できます。</para>
+      role="bold">編集</emphasis>
+      ボタンをクリックして、メッセージを直接編集でき、その依頼を受けた受信者に通知を送信するかどうかを設定できます。</para>
 
       <mediaobject>
         <imageobject>
@@ -1417,12 +1430,12 @@
 
       <para><emphasis role="bold">文書状態についての通知</emphasis></para>
 
-      <para>テンプレートで生成された文書の進行状態の通知を受信する受信者を設定し、通知メッセージのプレビュー（文書の承認、検討、作成/返戻/無効化/修正の通知）と編集（文書の最終完了の通知）ができます。</para>
+      <para>テンプレートで生成された文書の進行状態の通知を受信する受信者を設定し、通知メッセージのプレビュー（承認/検討および作成/返戻/無効化/修正の通知）と編集（完了の通知）ができます。</para>
 
       <note>
-        <para>文書返戻の通知、文書の無効化の通知、文書の修正の通知は、メールテンプレートのみ提供され、SMS は送信されません。</para>
+        <para>返戻の通知、無効化の通知、修正の通知は、メールテンプレートのみ提供され、SMS は送信されません。</para>
 
-        <para>文書の完了の通知（内部/外部）のSMS テンプレートは有料プランを購読中の会社のみが編集できます。</para>
+        <para>完了の通知（内部/外部）のSMS テンプレートは有料プランを購読中の会社のみが編集できます。</para>
       </note>
 
       <mediaobject>
@@ -1449,7 +1462,7 @@
 
         <para><emphasis role="bold">文書の作成者</emphasis>、<emphasis
         role="bold">各ステップの処理者</emphasis>
-        オプションを両方ともチェックを外すと、そのステップの文書状態の通知は送信されません。</para>
+        オプションに両方ともチェックを外すと、そのステップの文書状態の通知は送信されません。</para>
       </note>
 
       <itemizedlist>
@@ -1491,7 +1504,7 @@
             <para><emphasis role="bold">文書の完了 &gt; 外部</emphasis>の<emphasis
             role="bold">文書の作成者</emphasis> オプションにチェックが入っていると、メンバーではない外部のユーザーが
             URL
-            経由で文書を作成して送信するときに、文書完了の通知を受信するための受信先の情報を提供する必要があり、入力した受信先に状態の通知が送信されます。</para>
+            経由で文書を作成して送信するときに、完了の通知を受信するための受信先の情報を提供する必要があり、入力した受信先に状態の通知が送信されます。</para>
           </note>
         </listitem>
       </itemizedlist>
@@ -1573,7 +1586,7 @@
     <title>テンプレートの検索</title>
 
     <para><emphasis role="bold">テンプレート管理</emphasis>
-    画面では、テンプレートをカテゴリー別に照会、検索ができます。</para>
+    画面では、テンプレートをカテゴリーで照会、検索ができます。</para>
 
     <mediaobject>
       <imageobject>
@@ -1586,7 +1599,8 @@
         <term>① <emphasis role="bold">テンプレートの照会</emphasis></term>
 
         <listitem>
-          <para>をクリックすると、テンプレートの状態やカテゴリー別にテンプレートを照会できます。<emphasis
+          <para><emphasis role="bold">テンプレートの照会</emphasis>
+          をクリックすると、テンプレートの状態やカテゴリーでテンプレートを照会できます。<emphasis
           role="bold">X</emphasis> をクリックして、カテゴリーリストに戻ります。</para>
 
           <para>テンプレートは、Sample カテゴリーに基本テンプレートが保存されます。カテゴリーの作成は <emphasis
@@ -1606,7 +1620,7 @@
         <term>③ <emphasis role="bold">ソート</emphasis></term>
 
         <listitem>
-          <para>テンプレートの並べ替え順序を、テンプレート名またはカテゴリー別に昇順および降順に設定します。</para>
+          <para>テンプレートの並び順を、テンプレート名またはカテゴリーを基準に昇順および降順に設定します。</para>
         </listitem>
       </varlistentry>
     </variablelist>
