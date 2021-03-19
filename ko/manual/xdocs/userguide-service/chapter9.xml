@@ -6,7 +6,7 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>외부 서비스 연동 방법</title>
+  <title>외부 서비스 연동</title>
 
   <section>
     <title>외부 파일 저장소 연동 방법</title>

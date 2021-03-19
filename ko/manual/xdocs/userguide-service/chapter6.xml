@@ -1133,7 +1133,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">내부 수신자(멤버): 회사 내부 멤버에게 문서 처리를 요청하는
+          <term><emphasis role="bold">내부 수신자: 회사 내부 멤버에게 문서 처리를 요청하는
           단계입니다.<indexterm class="singular">
               <primary>워크플로우</primary>
 
@@ -1563,7 +1563,7 @@
 
       <listitem>
         <para><emphasis role="bold">파일 다운로드</emphasis>: 파일 다운로드를 클릭하면 업로드한 파일
-        양식으로 다운로드 됩니다.(예, 워드, 엑셀 파일 등)</para>
+        양식으로 다운로드됩니다.(예. 워드, 엑셀 파일 등)</para>
       </listitem>
 
       <listitem>
