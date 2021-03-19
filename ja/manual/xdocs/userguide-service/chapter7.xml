@@ -26,7 +26,7 @@
             <primary sortas="ぶんしょとれい">文書トレイ</primary>
 
             <secondary>要処理文書</secondary>
-          </indexterm>下書きとして保存した文書、処理が必要な文書（他のメンバーから作成または決裁の依頼のあった文書）、または外部受信者に送信した文書のうち処理を待機中の文書のリストを確認できます。</para>
+          </indexterm>テンプレートで作成する途中に下書き保存した文書、処理が必要な文書（他のメンバーから作成または決裁の依頼のあった文書）、または外部受信者に送信した文書のうち処理を待機中の文書のリストを確認できます。</para>
       </listitem>
 
       <listitem>
@@ -48,7 +48,7 @@
       </listitem>
     </itemizedlist>
 
-    <para>この他、文書管理ページも別途存在します。</para>
+    <para>この他、<emphasis role="bold">文書管理 </emphasis>ページも別途存在します。</para>
 
     <itemizedlist>
       <listitem>
@@ -657,110 +657,44 @@
     </section>
   </section>
 
-  <section>
-    <title>文書の新規作成</title>
+  <section xml:id="drafts">
+    <title>下書きとして保存</title>
 
-    <para>アップロードしたテンプレートを使用して、文書を新規作成できます。</para>
+    <para><emphasis role="bold">下書きとして保存</emphasis> には <emphasis
+    role="bold">マイファイルで作成する</emphasis> で <emphasis
+    role="bold">文書作成をスタート</emphasis><emphasis role="bold">
+    </emphasis>をクリックする前に <emphasis role="bold">下書きとして保存</emphasis>
+    をクリックして下書き保存した文書が保存されます。<emphasis role="bold">下書きとして保存
+    </emphasis>に保存されたファイルはいつでも作成を続行したり文書を削除したりすることもできます。</para>
 
-    <note>
-      <para>文書、テンプレート管理者が文書の作成権限を与えたグループおよびメンバーのみが作成できます。</para>
-    </note>
+    <orderedlist>
+      <listitem>
+        <para>サイドバーのメニューで <emphasis role="bold">下書きとして保存
+        </emphasis>をクリックして移動します。</para>
 
-    <para><emphasis role="bold">文書の新規作成</emphasis></para>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/draftbox-menu.png" width="700"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
 
-    <para>1.「文書の新規作成」メニューに移動します。</para>
+      <listitem>
+        <para>下書き保存された文書のリストから目的の文書の <emphasis role="bold">継続する</emphasis>
+        ボタンをクリックします。</para>
 
-    <para>2.作成したいテンプレートの 作成 アイコンをクリックします。</para>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/draftbox-documentlist.png"
+                       width="700"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
 
-    <figure>
-      <title>文書の新規作成のリスト画面</title>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/create_newdocument1.png" width="700"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
-
-    <para>3.文書を作成して、右上の「完了」、「送信」または「依頼」ボタンをクリックします。</para>
-
-    <note>
-      <para>テンプレートに設定されているワークフローによって、異なるボタンが表示されます。</para>
-    </note>
-  </section>
-
-  <section>
-    <title>一括生成</title>
-
-    <para><indexterm class="singular">
-        <primary sortas="ぶんしょとれい">文書トレイ</primary>
-
-        <secondary>一括生成</secondary>
-      </indexterm>一括生成の機能を使用すると、一度に複数の文書を作成できます。作成を完了する前に、作成する文書をプレビューできます。</para>
-
-    <note>
-      <para>この作業を行うには、代表管理者の権限またはテンプレートの管理権限が必要です。</para>
-    </note>
-
-    <para><emphasis role="bold">一括生成</emphasis></para>
-
-    <para>1「新規文書の作成」メニューに移動します。</para>
-
-    <para>2.作成したいテンプレートの一括生成アイコンをクリックします。</para>
-
-    <figure>
-      <title>一括生成アイコン</title>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/bulk-creation-icon.png"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
-
-    <para>3.画面に表示される各コンポーネントに説明を入力します。</para>
-
-    <figure>
-      <title>一括生成画面</title>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/bulk_create.png" width="700"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
-
-    <note>
-      <para>文書内のコンポーネントが各カラムとして表示されているテーブルです。テンプレートのコンポーネントの ID
-      は、各カラムのタイトルとして表示されます。「番号」カラムの一番下の行の番号が作成される文書の数です。</para>
-
-      <para>テーブルは、Excel
-      と同様の方法で入力します。各セルをダブルクリックして内容を入力し、マウスを右クリックして行を追加または削除できます。セルに入力した値をコピーと貼り付け、ドラッグして入力することができます。</para>
-    </note>
-
-    <para>4.右上のプレビューボタンをクリックして作成した文書を表示して内容を確認し、「生成」ボタンをクリックして文書の作成を完了します。</para>
-
-    <note>
-      <para>一括生成テーブルに表示される青い領域には、依頼を送信する外部受信者の名前、電子メールなどを入力します。外部受信者の処理ステップの設定によって、携帯電話番号、認証パスワードなどを入力できます。</para>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/bulk-creation-table-blue-section.png"
-                     width="700"/>
-        </imageobject>
-      </mediaobject>
-    </note>
-
-    <para/>
-
-    <tip>
-      <para>テンプレートのコンポーネントの一部が一括生成画面に表示されない場合は、次の2つのケースを確認してください。</para>
-
-      <para>1.一括生成で入力できないコンポーネント：カメラ、録音、およびグループ化されている選択コンポーネントは、一括生成では作成できないコンポーネントです。</para>
-
-      <para>2.作成ステップでアクセスが許可されているコンポーネント：<emphasis role="bold">テンプレート管理 &gt;
-      テンプレートの設定 &gt; ワークフローの設定</emphasis>
-      でアクセスが許可されているコンポーネントのみが表示されます。</para>
-    </tip>
+      <listitem>
+        <para><emphasis role="bold">マイファイルで作成する</emphasis>
+        画面が表示されます。文書を修正した後、送信します。</para>
+      </listitem>
+    </orderedlist>
   </section>
 </chapter>

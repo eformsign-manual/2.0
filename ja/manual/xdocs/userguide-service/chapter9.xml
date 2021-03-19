@@ -6,7 +6,7 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>外部サービスを連動する方法</title>
+  <title>外部サービスの連動</title>
 
   <section>
     <title>クラウドストレージの連動方法</title>

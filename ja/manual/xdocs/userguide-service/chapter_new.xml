@@ -7,50 +7,55 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>문서 작성하기</title>
+  <title>文書の新規作成</title>
 
   <section>
-    <title>개요</title>
+    <title>概要</title>
 
-    <para>eformsign을 사용하면 누구나 쉽게 기존의 문서를 전자 문서로 변환해 문서를 작성, 요청 또는 처리 등을 할 수
-    있습니다. eformsign에서 전자 문서를 작성 및 전송하는 방법은 크게 두 가지가 있습니다. 내 PC에 저장된 파일을 직접
-    업로드해서 전자 문서를 만드는 방법과 eformsign에 저장된 기존에 만들어 놓은 템플릿을 사용하는 방법입니다.</para>
+    <para>eformsign を使用すると、誰もが簡単にお手持ちのファイルを電子文書化し、文書を作成、依頼、および処理できます。
+    eformsign
+    で電子文書を作成および送信する方法は、大きく2種類に分けられます。PCに保存されているファイルを直接アップロードして電子文書を作成する方法と、
+    eformsign に保存されている既存のテンプレートを利用する方法です。</para>
 
     <itemizedlist>
       <listitem>
-        <para><emphasis role="bold">내 파일로 문서 작성</emphasis>: 내가 가지고 있는 문서
-        파일(PDF)을 사용해 바로 전자 서식으로 만들어 참여자에게 전송할 수 있습니다.</para>
+        <para><emphasis
+        role="bold">マイファイルで作成する</emphasis>：お手持ちのドキュメントファイル(PDF形式)を使って電子フォームを作成し、参加者に送信できます。</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">템플릿으로 문서 작성</emphasis>: 이미 만들어진 템플릿을 사용하여
-        문서를 작성합니다. 해당 메뉴를 클릭 시 대표 관리자 또는 템플릿 관리 권한이 있는 멤버가 이미 만들어 놓은 템플릿이 화면에
-        나타납니다.</para>
+        <para><emphasis
+        role="bold">テンプレートで作成する</emphasis>：既存のテンプレートを使用して文書を作成します。<emphasis
+        role="bold">テンプレートで作成する</emphasis> メニューをクリックすると、代表管理者または
+        テンプレートの管理権限を持つメンバーが作成しておいたテンプレートが画面に表示されます。</para>
       </listitem>
     </itemizedlist>
 
     <note>
-      <para>템플릿은 대표 관리자 또는 템플릿 관리 권한이 있는 멤버만 만들 수 있으며, 화면에 나타나는 템플릿은 해당 템플릿의
-      권한 설정에서 사용권한을 부여한 멤버에게만 보여집니다. 템플릿 생성하는 방법은 웹폼 디자이너와 폼 빌더를 사용하여 만들 수
-      있으며, 자세한 내용은 <xref linkend="template_wd"/>와 <xref
-      linkend="template_fb"/>를 참고해 주세요.</para>
+      <para>テンプレートの作成は、代表管理者またはテンプレー管理の権限を持つメンバーのみが可能です。また、<emphasis
+      role="bold">テンプレートで作成する </emphasis>メニューで表示されるテンプレートは、各テンプレートの <emphasis
+      role="bold">権限の設定</emphasis> で<emphasis role="bold"> テンプレートの使用権限
+      </emphasis>を付与したメンバーのみに表示されます。テンプレートは、<emphasis
+      role="bold">Webフォームデザイナー</emphasis> と <emphasis
+      role="bold">フォームビルダー</emphasis> で作成できます。詳しくは <xref
+      linkend="template_wd"/>와 <xref linkend="template_fb"/> をご参照ください</para>
     </note>
 
     <important>
-      <para><emphasis role="bold">내 파일로 문서를 작성</emphasis>하는 경우, 템플릿으로 변경하거나
-      저장할 수 없습니다. 자주 사용하는 문서의 경우 템플릿으로 등록해 사용하면 편리합니다.</para>
+      <para><emphasis role="bold">マイファイルで作成する</emphasis>
+      で文書を作成する場合、作成した文書をテンプレートに変更したり保存したりすることはできません。よく使う文書の場合、テンプレートとして作成して保存しておくと便利です。</para>
     </important>
   </section>
 
   <section>
-    <title>내 파일로 문서 작성하기</title>
+    <title>マイファイルで作成する</title>
 
-    <para>사용하고자 하는 PDF 파일을 바로 업로드해서 문서의 원하는 위치에 입력 항목(컴포넌트)을 참여자 별로 지정하고 바로 문서
-    참여자 및/또는 검토자 정보를 입력 후 전송할 수 있습니다.</para>
+    <para>目的のPDFファイルを直接アップロードして、文書上にコンポーネントを自由に配置し、各コンポーネントを
+    参加者毎に指定した後、参加者および/または検討者の情報を入力し、送信できます。</para>
 
     <orderedlist>
       <listitem>
-        <para><emphasis role="bold">내 파일로 문서 작성</emphasis> 메뉴로 이동합니다.</para>
+        <para><emphasis role="bold">マイファイルで作成する</emphasis> メニューに移動します。</para>
 
         <mediaobject>
           <imageobject>
@@ -60,7 +65,7 @@
       </listitem>
 
       <listitem>
-        <para>원하는 문서 파일(PDF)을 업로드합니다.</para>
+        <para>目的のドキュメントファイル（PDF形式）をアップロードします。</para>
 
         <mediaobject>
           <imageobject>
@@ -70,14 +75,13 @@
         </mediaobject>
 
         <note>
-          <para>현재는 PDF 파일만 지원합니다. 향후 다양한 형태의 파일을 직접 업로드할 수 있도록 지원할
-          예정입니다.</para>
+          <para>現在は PDF ファイルのみをサポートしていますが、今後様々なファイル形式にも対応していく予定です。</para>
         </note>
       </listitem>
 
       <listitem>
-        <para>문서 작성에 참여하는 <emphasis role="bold">문서 참여자</emphasis>를 추가하고 역할을
-        설정합니다.</para>
+        <para>文書の作成に参加する <emphasis role="bold">参加者</emphasis>
+        を追加し、タイプを設定します。</para>
 
         <mediaobject>
           <imageobject>
@@ -87,16 +91,16 @@
         </mediaobject>
 
         <note>
-          <para>문서 참여자는 화면 좌측 상단의 <emphasis role="bold">참여자 추가</emphasis> 버튼을
-          눌러 추가할 수도 있으며 최대 30명까지 설정할 수 있습니다.</para>
+          <para>参加者は画面の左上の <emphasis role="bold">参加者を追加する</emphasis>
+          ボタンをクリックして追加することもでき、最大30人まで設定できます。</para>
 
-          <para>폼 디자인 후 <emphasis role="bold">수신자 지정하기</emphasis> 단계에서도 설정한
-          참여자 정보를 변경 및 추가, 삭제할 수 있습니다.</para>
+          <para>フォームのデザインをした後、<emphasis role="bold">受信先を指定する</emphasis>
+          ステップでも設定した参加者の情報を変更および追加、削除できます。</para>
         </note>
       </listitem>
 
       <listitem>
-        <para>각 참여자들이 작성할 컴포넌트를 배치하고 각 컴포넌트의 상세 설정을 오른쪽 설정 탭에서 지정합니다.</para>
+        <para>各参加者が入力するコンポーネントを追加し、各コンポーネントの詳細設定を右側のプロパティタブで指定します。</para>
 
         <mediaobject>
           <imageobject>
@@ -109,8 +113,9 @@
       </listitem>
 
       <listitem>
-        <para>컴포넌트 배치 후 수신자 지정하기 단계에서 이메일, 휴대폰 번호 등 연락처 정보를 입력하고 <emphasis
-        role="bold">수신자 별 상세 옵션</emphasis>을 설정합니다.</para>
+        <para>コンポーネントを追加した後、<emphasis role="bold">受信先を指定する</emphasis>
+        ステップでメールアドレス、携帯番号などの連絡先といった情報を入力し、<emphasis
+        role="bold">各受信者の詳細オプション</emphasis> を設定します。</para>
 
         <mediaobject>
           <imageobject>
@@ -120,19 +125,20 @@
         </mediaobject>
 
         <note>
-          <para>문서 수신자는 참여자와 검토자로 구분됩니다. 문서 작성 시에 추가한 참여자가 수신자 지정하기 단계에서 나타나며
-          각 수신자의 이메일 등의 연락처 정보를 입력하면 됩니다. 이 수신자 설정 화면에서 참여자/검토자를 삭제/추가할 수 있고 각
-          수신자 별 상세 옵션을 설정합니다.</para>
+          <para>受信者は、参加者と検討者に区別されます。文書を作成するときに追加した参加者が <emphasis
+          role="bold">受信先を指定する</emphasis>
+          ステップで表示され、各受信者のメールアドレスなどの連絡先情報を入力します。 この<emphasis
+          role="bold">受信先を指定する</emphasis>
+          画面で参加者/検討者を削除/追加でき、各受信者の詳細オプションを設定します。</para>
         </note>
 
         <tip>
-          <para><emphasis role="bold">참여자와 검토자의 차이</emphasis></para>
+          <para><emphasis role="bold">参加者と検討者の違い</emphasis></para>
 
-          <para>참여자는 실제 문서에 서명, 작성 등 컴포넌트에 입력할 수 있으며, 검토자는 문서에 입력을 할 수 없고 문서
-          검토 후 승인 여부만 결정합니다.</para>
+          <para>参加者は文書の署名、作成などのコンポーネントに入力することができます。一方、検討者は文書に入力することができず、文書を検討し、承認するかどうかのみ決定します。</para>
 
-          <para>단, 컴포넌트 별 작성 권한을 <emphasis role="bold">누구나</emphasis>로 설정할 경우
-          검토자도 컴포넌트에 입력할 수 있습니다.</para>
+          <para>ただし、コンポーネントの作成権限を <emphasis role="bold">누구나</emphasis>
+          に設定した場合、検討者もコンポーネントに入力することができます。</para>
 
           <mediaobject>
             <imageobject>
@@ -143,8 +149,8 @@
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">옵션</emphasis>을 클릭해 문서 제목, 문서 완료 시 타임스탬프 적용
-        여부 등을 설정합니다.</para>
+        <para><emphasis role="bold">オプション</emphasis> をクリックし、文書のタイトル、文書 完了 시
+        タイムスタンプ 적용 여부 등을 설정합니다.</para>
 
         <mediaobject>
           <imageobject>
@@ -154,16 +160,16 @@
         </mediaobject>
 
         <note>
-          <para>이 단계까지가 문서 서식에 대한 설정 단계입니다. <emphasis role="bold">문서 작성
-          시작하기</emphasis>를 클릭하기 이전에 임시 저장 후 문서 작성을 중단할 경우 <emphasis
-          role="bold"><link linkend="drafts">임시 보관함</link></emphasis>에 보관되며,
-          저장된 파일을 다시 열어 이후의 단계를 진행할 수 있습니다. 문서의 임시 저장은 오른쪽 상단의
-          (<inlinemediaobject>
+          <para>このステップまでが文書フォームの設定ステップです。<emphasis
+          role="bold">文書作成をスタート</emphasis>를 클릭하기 이전에 下書き保存 후 文書 作成을 중단할 경우
+          <emphasis role="bold"><link
+          linkend="drafts">下書きとして保存</link></emphasis>에 보관되며, 저장된 파일을 다시 열어 이후의
+          ステップ를 진행할 수 있습니다. 文書의 下書き保存은 右上の의 (<inlinemediaobject>
               <imageobject>
                 <imagedata fileref="resources/menu_icon_3.png"/>
               </imageobject>
-            </inlinemediaobject>) 메뉴 아이콘을 클릭하여 <emphasis role="bold">임시 보관함에
-          저장</emphasis>을 클릭합니다.</para>
+            </inlinemediaobject>) メニュー アイコンをクリックして <emphasis
+          role="bold">下書きとして保存 </emphasis>をクリックします。</para>
 
           <mediaobject>
             <imageobject>
@@ -174,7 +180,7 @@
       </listitem>
 
       <listitem>
-        <para>모든 설정을 완료한 후 <emphasis role="bold">문서 작성 시작하기</emphasis>를
+        <para>すべての設定を完了した後、<emphasis role="bold">文書作成をスタート</emphasis>를
         클릭합니다.</para>
 
         <mediaobject>
@@ -185,14 +191,14 @@
         </mediaobject>
 
         <caution>
-          <para><emphasis role="bold">문서 작성 시작하기</emphasis>를 클릭한 시점부터 과금 대상
-          문서수에 카운트됩니다.</para>
+          <para><emphasis role="bold">文書作成をスタート</emphasis>
+          をクリックした時点から課金対象として集計されます。</para>
         </caution>
       </listitem>
 
       <listitem>
-        <para>문서를 확인 후 <emphasis role="bold">전송</emphasis> 버튼을 클릭하면 수신자에게 문서가
-        전송됩니다.</para>
+        <para>文書를 확인 후 <emphasis role="bold">送信</emphasis> ボタンをクリックすると、受信者에게
+        文書가 送信됩니다.</para>
 
         <mediaobject>
           <imageobject>
@@ -203,27 +209,28 @@
       </listitem>
     </orderedlist>
 
-    <para><emphasis role="bold">수신자 지정하기 &gt; 수신자 옵션 설정</emphasis></para>
+    <para><emphasis role="bold">受信先を指定する &gt; 受信先のオプション</emphasis></para>
 
-    <para><emphasis role="bold">폼 디자인하기</emphasis> 단계 또는 <emphasis
-    role="bold">수신자 지정하기</emphasis> 단계에서 문서에 참여할 참여자, 즉 문서의 수신자를 추가할 수
-    있습니다.</para>
+    <para><emphasis role="bold">デザインする</emphasis> ステップまたは <emphasis
+    role="bold">受信先を指定する</emphasis> ステップで文書の参加者、つまり文書の受信者を追加することができます。</para>
 
-    <para><emphasis role="bold">수신자 지정하기</emphasis> 단계에서는 참여자에 대한 상세 설정인 수신자
-    옵션을 설정하는 것은 물론, 참여자를 추가 또는 삭제하거나 문서를 검토할 검토자를 추가할 수 있습니다.</para>
+    <para><emphasis role="bold">受信先を指定する</emphasis> ステップでは参加者についての詳細設定である
+    <emphasis role="bold">受信先のオプション</emphasis>을 설정하는 것은 물론, 参加者를 追加または 削除하거나
+    文書를 검토할 検討者를 追加할 수 있습니다.</para>
 
-    <para>참여자 또는 검토자 별로 이름과 문서를 전송할 이메일 또는 아이디를 입력해야 하며, 참여자가 멤버일 경우 목록에서 선택하여
-    기존에 저장된 멤버 정보를 불러올 수 있습니다. 수신자 옵션은 참여자 또는 검토자가 멤버일 경우와 멤버가 아닌 외부 수신자일 경우
-    각각 다르게 나타납니다.</para>
+    <para>参加者または 検討者 별로 이름과 文書를 送信할 이메일または 아이디를 入力해야 하며, 参加者がメンバーである場合、목록에서
+    선택하여 기존에 저장된 メンバー 정보를 불러올 수 있습니다. <emphasis role="bold">受信先のオプション
+    </emphasis>は、参加者または 検討者がメンバーである場合と、メンバーではない外部の
+    受信者である場合にそれぞれ異なって表示されます。</para>
 
     <itemizedlist>
       <listitem>
-        <para><emphasis role="bold">수신자가 멤버일 경우</emphasis></para>
+        <para><emphasis role="bold">受信者가 メンバー일 경우</emphasis></para>
 
-        <para>기본으로 저장된 이메일 주소와 휴대폰 번호가 자동으로 뜨며 문서가 발송될 수단을 선택할 수 있습니다. </para>
+        <para>기본으로 저장된 이메일 주소와 휴대폰 번호가 자동으로 뜨며 文書가 발송될 수단을 선택할 수 있습니다.</para>
 
         <caution>
-          <para>휴대폰을 선택할 경우, SMS 또는 카카오 알림톡으로 발송되며 건당 추가요금이 발생됩니다.</para>
+          <para>휴대폰을 선택할 경우, SMSまたは 카카오 알림톡으로 발송되며 건당 追加요금이 발생됩니다.</para>
         </caution>
 
         <mediaobject>
@@ -235,40 +242,40 @@
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">멤버가 아닌 외부 수신자일 경우</emphasis></para>
+        <para><emphasis role="bold">メンバー가 아닌 외부 受信者일 경우</emphasis></para>
 
-        <para>입력한 정보가 멤버의 정보와 일치하지 않을 경우 외부 수신자로 인식되어 다음의 항목에 대해 상세 옵션을 설정해야
-        합니다. </para>
+        <para>入力한 정보가 メンバー의 정보와 일치하지 않을 경우 외부 受信者로 인식되어 다음의 항목에 대해 詳細オプション을
+        설정해야 합니다.</para>
 
         <itemizedlist>
           <listitem>
-            <para><emphasis role="bold">문서 발송 수단 선택:</emphasis> 이메일과 휴대폰 중 둘중
-            하나 또는 모두를 선택할 수 있으며, 휴대폰을 선택하면 발송할 휴대폰 번호를 입력해야 합니다. </para>
+            <para><emphasis role="bold">文書 발송 수단 선택:</emphasis> 이메일과 휴대폰 중 둘중
+            하나または 모두를 선택할 수 있으며, 휴대폰을 선택하면 발송할 휴대폰 번호를 入力해야 합니다.</para>
 
             <caution>
-              <para>휴대폰을 선택할 경우, SMS 또는 카카오 알림톡으로 발송되며 건당 추가 요금이 발생합니다.</para>
+              <para>휴대폰을 선택할 경우, SMSまたは 카카오 알림톡으로 발송되며 건당 追加 요금이 발생합니다.</para>
             </caution>
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">문서 전송 기한 설정: </emphasis>외부 수신자가 문서를
-            열람하고 제출할 수 있는 기한을 정할 수 있으며, 설정된 기간이 지나면 문서를 작성할 수 없게 됩니다.</para>
+            <para><emphasis role="bold">文書 送信 기한 설정: </emphasis>외부 受信者가 文書를
+            열람하고 제출할 수 있는 기한을 정할 수 있으며, 설정된 기간이 지나면 文書를 作成할 수 없게 됩니다.</para>
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">문서 열람 전 비밀번호 설정: </emphasis>해당 항목에
-            체크하면 외부 수신자가 문서를 열람하기 위해서는 설정한 비밀번호를 입력해야 합니다. 비밀번호 힌트는 설정한 비밀번호에
-            대하여 수신자가 알아볼 수 있는 힌트를 설정하여 제공할 수 있습니다. </para>
+            <para><emphasis role="bold">文書 열람 전 비밀번호 설정: </emphasis>해당 항목에
+            체크하면 외부 受信者가 文書를 열람하기 위해서는 설정한 비밀번호를 入力해야 します。비밀번호 힌트는 설정한 비밀번호에
+            대하여 受信者가 알아볼 수 있는 힌트를 설정하여 제공할 수 있습니다.</para>
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">문서 검토 전 휴대폰 본인확인: </emphasis>외부 수신자가
-            문서를 열람/작성하기 위해서 휴대폰 본인확인을 진행하도록 설정합니다. 본 기능은 추가 요금이 발생합니다.</para>
+            <para><emphasis role="bold">文書 검토 전 휴대폰 본인확인: </emphasis>외부 受信者가
+            文書를 열람/作成하기 위해서 휴대폰 본인확인을 진행하도록 설정します。본 機能은 追加 요금이 발생합니다.</para>
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">완료 문서 열람 전 휴대폰 본인확인: </emphasis>완료된
-            문서를 외부 수신자가 열람하기 위해서 휴대폰 본인확인을 진행하도록 설정합니다. 본 기능은 추가 요금이
+            <para><emphasis role="bold">完了 文書 열람 전 휴대폰 본인확인: </emphasis>完了된
+            文書를 외부 受信者가 열람하기 위해서 휴대폰 본인확인을 진행하도록 설정します。본 機能은 追加 요금이
             발생합니다.</para>
           </listitem>
         </itemizedlist>
@@ -284,26 +291,27 @@
   </section>
 
   <section>
-    <title>템플릿으로 문서 작성하기</title>
+    <title>テンプレートで作成する</title>
 
-    <para>자주 사용하는 서식을 템플릿으로 만들고 문서 처리 과정인 워크플로우 등 상세 내용을 템플릿 별로 저장해 필요할 때 마다
-    문서를 작성 및 전송할 수 있습니다. 템플릿은 <emphasis role="bold">웹폼 디자이너</emphasis> 또는
-    <emphasis role="bold">폼 빌더</emphasis>를 사용해 만들 수 있으며, 자세한 내용은 <emphasis
-    role="bold"><link linkend="template_wd">웹폼 디자이너</link></emphasis>와
-    <emphasis role="bold"><link linkend="template_fb">폼 빌더</link></emphasis>를
-    참고해 주세요.</para>
+    <para>자주 사용하는 서식을 テンプレート으로 만들고 文書 처리 과정인 ワークフロー 등 詳細内容을 テンプレート 별로 저장해 필요할
+    때 마다 文書를 作成 및 送信할 수 있습니다. テンプレート은 <emphasis
+    role="bold">Webフォームデザイナー</emphasis>または <emphasis
+    role="bold">フォームビルダー</emphasis>를 사용해 만들 수 있으며, 자세한 内容은 <emphasis
+    role="bold"><link linkend="template_wd">Webフォームデザイナー</link></emphasis>와
+    <emphasis role="bold"><link
+    linkend="template_fb">フォームビルダー</link></emphasis>를 참고해 주세요.</para>
 
     <note>
-      <para>문서 작성은 템플릿 관리 권한이 있는 멤버가 <emphasis role="bold">템플릿 설정 &gt; 권한
-      설정</emphasis>에서 <emphasis role="bold">템플릿 사용 권한</emphasis>(=문서 작성 권한)을
-      부여한 그룹 또는 멤버만 할 수 있습니다. 템플릿 사용 권한을 부여받는 그룹 또는 멤버의 템플릿 목록에만 해당 템플릿이 나타나
-      작성할 수 있습니다.</para>
+      <para>文書の作成은 テンプレート管理 권한이 있는 メンバー가 <emphasis role="bold">テンプレートの設定 &gt;
+      권한 설정</emphasis>에서 <emphasis role="bold">テンプレート 사용 권한</emphasis>(=文書 作成
+      권한)을 부여한 グループまたは メンバー만 할 수 있습니다. テンプレート 사용 권한을 부여받는 グループまたは メンバー의 テンプレート
+      목록에만 해당 テンプレート이 나타나 作成할 수 있습니다.</para>
     </note>
 
     <orderedlist>
       <listitem>
-        <para>대시보드 또는 사이드 메뉴에서 <emphasis role="bold">템플릿으로 문서 작성</emphasis>을
-        클릭해 이동합니다.</para>
+        <para>ダッシュボードまたはサイドバーのメニューで <emphasis
+        role="bold">テンプレートで作成する</emphasis>をクリックします。</para>
 
         <mediaobject>
           <imageobject>
@@ -314,11 +322,12 @@
       </listitem>
 
       <listitem>
-        <para>작성하고자 하는 템플릿의 작성 아이콘(<inlinemediaobject>
+        <para>作成したいテンプレートの <emphasis role="bold">作成</emphasis>
+        アイコン(<inlinemediaobject>
             <imageobject>
               <imagedata contentwidth="30" fileref="resources/create-icon.PNG"/>
             </imageobject>
-          </inlinemediaobject>)을 클릭합니다.</para>
+          </inlinemediaobject>) をクリックします。</para>
 
         <mediaobject>
           <imageobject>
@@ -329,49 +338,51 @@
       </listitem>
 
       <listitem>
-        <para>문서를 작성하고 우측 상단의 <emphasis role="bold">완료</emphasis> 혹은 <emphasis
-        role="bold">요청</emphasis> 버튼을 클릭하면 문서의 워크플로우 따라 다음 단계로 전송됩니다. 도중에 작성을
-        중단하고 저장할 경우에는 <emphasis role="bold">임시 저장</emphasis> 버튼을 눌러
-        저장합니다.</para>
+        <para>文書を作成して、画面右上の<emphasis role="bold"> 完了</emphasis> もしくは <emphasis
+        role="bold">依頼</emphasis> ボタンをクリックすると、文書のワークフローに沿って次のステップに 送信됩니다.
+        途中で作成をやめて保存する場合は、<emphasis role="bold">下書き保存</emphasis>
+        ボタンをクリックして保存します。</para>
 
         <note>
-          <para>템플릿에 설정되어 있는 워크플로우에 따라 <emphasis role="bold">완료</emphasis>,
-          <emphasis role="bold">제출</emphasis> 혹은 <emphasis
-          role="bold">요청</emphasis> 버튼으로 다르게 나타납니다.</para>
+          <para>テンプレート에 설정되어 있는 ワークフロー에 따라 <emphasis
+          role="bold">完了</emphasis><emphasis role="bold">、제출</emphasis> もしくは
+          <emphasis role="bold">依頼</emphasis> ボタン으로 다르게 나타납니다.</para>
         </note>
 
         <important>
-          <para>템플릿으로 문서 작성 도중에 <emphasis role="bold">임시 저장 </emphasis>버튼을 클릭해
-          저장된 문서는 <emphasis role="bold">임시 보관함</emphasis>이 아닌 <emphasis
-          role="bold">처리할 문서함</emphasis>에서 확인할 수 있습니다.</para>
+          <para>テンプレートで作成する 도중에 <emphasis role="bold">下書き保存 </emphasis>ボタン을
+          클릭해 저장된 文書는 <emphasis role="bold">下書きとして保存</emphasis>이 아닌 <emphasis
+          role="bold">要処理文書</emphasis>에서 확인할 수 있습니다.</para>
 
-          <para>임시 저장한 문서를 계속 작성하려면<emphasis role="bold"> 처리할 문서함</emphasis>
-          목록에서 해당 문서의<emphasis role="bold"> 편집 </emphasis>버튼을 클릭해 계속 진행할 수
+          <para>下書き保存した文書を 계속 作成하려면<emphasis role="bold"> 要処理文書</emphasis>
+          목록에서 해당 文書의<emphasis role="bold"> 편집 </emphasis>ボタン을 클릭해 계속 진행할 수
           있습니다.</para>
         </important>
       </listitem>
     </orderedlist>
 
-    <para/>
-
     <section>
-      <title>일괄 작성</title>
+      <title>一括生成</title>
 
-      <para>템플릿으로 문서을 작성할 경우 일괄 작성 기능을 사용하면 한 번에 여러 명에게 문서를 전송할 수 있습니다.</para>
+      <para><indexterm class="singular">
+          <primary sortas="ぶんしょとれい">文書トレイ</primary>
+
+          <secondary>一括生成</secondary>
+        </indexterm>一括生成の機能を使用すると、一度に複数の文書を作成できます。作成を完了する前に、作成する文書をプレビューできます。</para>
 
       <note>
-        <para>이 작업은 대표관리자 또는 템플릿 사용 권한 필요합니다.</para>
+        <para>この作業を行うには、代表管理者の権限またはテンプレートの管理権限が必要です。</para>
       </note>
 
-      <para><emphasis role="bold">일괄 작성하기</emphasis></para>
+      <para><emphasis role="bold">一括生成</emphasis></para>
 
-      <para>1. <emphasis role="bold">새 문서 작성</emphasis><emphasis role="bold">
-      &gt; 템플릿으로 문서 작성</emphasis> 메뉴로 이동합니다.</para>
+      <para>1 <emphasis role="bold">文書の新規作成</emphasis> メニューに移動します。</para>
 
-      <para>2. 작성할 템플릿의 일괄 작성 아이콘을 클릭합니다.</para>
+      <para>2.作成したいテンプレートの <emphasis role="bold">一括生成</emphasis>
+      アイコンをクリックします。</para>
 
       <figure>
-        <title>일괄 작성 아이콘</title>
+        <title>一括生成アイコン</title>
 
         <mediaobject>
           <imageobject>
@@ -380,10 +391,10 @@
         </mediaobject>
       </figure>
 
-      <para>3. 화면에 나타나는 각 입력항목에 내용을 입력합니다.</para>
+      <para>3.画面に表示される各コンポーネントに説明を入力します。</para>
 
       <figure>
-        <title>일괄 작성 화면</title>
+        <title>一括生成画面</title>
 
         <mediaobject>
           <imageobject>
@@ -392,24 +403,20 @@
         </mediaobject>
       </figure>
 
-      <para/>
-
       <note>
-        <para>문서의 입력항목이 각각의 열로 표시된 표입니다. 템플릿의 입력항목인 컴포넌트의 ID가 각 열의 제목으로 나타납니다.
-        첫번째 열인 번호 열 가장 하단 행의 숫자가 작성될 문서의 수입니다.</para>
+        <para>文書内のコンポーネントが各カラムとして表示されているテーブルです。テンプレートのコンポーネントの ID
+        は、各カラムのタイトルとして表示されます。<emphasis role="bold">番号
+        </emphasis>カラムの一番下の行の番号が作成される文書の数です。</para>
 
-        <para>표는 엑셀과 비슷한 방법으로 입력합니다. 각 셀을 더블클릭하여 내용을 입력하고 마우스 오른쪽을 클릭하여 행을
-        추가하거나 삭제할 수 있습니다. 셀에 입력된 값을 복사 – 붙여넣기, 끌어서 입력하기를 할 수 있습니다.</para>
+        <para>テーブルは、Excel
+        と同様の方法で入力します。各セルをダブルクリックして内容を入力し、マウスを右クリックして行を追加または削除できます。セルに入力した値をコピーと貼り付け、ドラッグして入力することができます。</para>
       </note>
 
-      <para>4. 오른쪽 상단 <emphasis role="bold">미리보기</emphasis> 버튼을 클릭하여 작성된 문서를
-      확인하고 <emphasis role="bold">작성</emphasis> 버튼을 클릭하여 문서 작성을 완료합니다.</para>
-
-      <para/>
+      <para>4.右上のプレビューボタンをクリックして作成した文書を表示して内容を確認し、<emphasis
+      role="bold">生成</emphasis> ボタンをクリックして文書の作成を完了します。</para>
 
       <note>
-        <para>일괄 작성 표에 나타나는 파란색 영역은 요청을 보낼 문서 수신자의 이름, 이메일 등을 입력하는 곳입니다.
-        워크플로우의 외부 수신자 처리 단계 설정에 따라 휴대폰 번호, 인증 비밀번호 등을 입력할 수 있습니다.</para>
+        <para>一括生成テーブルに表示される青い領域には、依頼を送信する外部受信者の名前、電子メールなどを入力します。外部受信者の処理ステップの設定によって、携帯電話番号、認証パスワードなどを入力できます。</para>
 
         <mediaobject>
           <imageobject>
@@ -422,18 +429,97 @@
       <para/>
 
       <tip>
-        <para>템플릿의 입력항목 중 일부가 <emphasis role="bold">일괄 작성</emphasis> 화면에 나타나지
-        않는 경우에는 아래 두가지 경우를 확인해야 합니다.</para>
+        <para>テンプレートのコンポーネントの一部が一括生成画面に表示されない場合は、次の2つのケースを確認してください。</para>
 
-        <para>1. 일괄 작성에서 입력할 수 없는 컴포넌트: 카메라, 녹음, 그룹으로 묶인 선택 컴포넌트는 일괄 작성으로 작성할
-        수 없는 컴포넌트입니다.</para>
+        <para>1.一括生成で入力できないコンポーネント：写真、録音、およびグループ化されている選択コンポーネントは、一括生成では作成できないコンポーネントです。</para>
 
-        <para>2. 작성 단계에서 접근 허용된 컴포넌트 확인:<emphasis role="bold"> 템플릿 관리 &gt; 템플릿
-        설정(⚙) &gt; 워크플로우 설정 &gt; </emphasis>해당<emphasis role="bold">
-        </emphasis>워크플로우 단계에 접근 허용된 컴포넌트만 나타납니다.</para>
+        <para>2.作成ステップでアクセスが許可されているコンポーネント：<emphasis role="bold">テンプレート管理 &gt;
+        テンプレートの設定 &gt; ワークフローの設定</emphasis>
+        でアクセスが許可されているコンポーネントのみが表示されます。</para>
       </tip>
+    </section>
+
+    <section>
+      <title>一括生成</title>
+
+      <para>テンプレート으로 文書을 作成할 경우<emphasis role="bold"> 一括生成</emphasis> 機能을 사용하면
+      한 번에 여러 명에게 文書を送信할 수 있습니다.</para>
+
+      <note>
+        <para>この作業を行うには、代表管理者の権限またはテンプレートの管理権限が必要です。</para>
+      </note>
+
+      <para><emphasis role="bold">一括生成</emphasis></para>
+
+      <para>1. <emphasis role="bold">文書の新規作成</emphasis><emphasis role="bold">
+      &gt; テンプレートで作成する</emphasis> メニューに移動します。</para>
+
+      <para>2. 目的のテンプレートの <emphasis role="bold">一括生成</emphasis>
+      アイコンをクリックします。</para>
+
+      <figure>
+        <title>一括生成アイコン</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/bulk-creation-icon.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>3. 화면에 나타나는 각 入力항목에 内容을 入力합니다.</para>
+
+      <figure>
+        <title>一括生成 画面</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/bulk_create.png" width="700"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
 
       <para/>
+
+      <note>
+        <para>文書의 入力항목이 각각의 열로 표시된 표です。 テンプレート의 入力항목인 コンポーネント의 ID가 각 열의 제목으로
+        나타납니다. 첫번째 열인 번호 열 가장 하단 행의 숫자가 作成될 文書의 수です。</para>
+
+        <para>표는 엑셀과 비슷한 방법으로 入力します。各セルを ダブルクリックしてから内容を入力し、右クリックしてカラムを追加したり
+        削除したりできます。셀에 入力된 값을 복사 – 붙여넣기, 끌어서 入力하기를 할 수 있습니다.</para>
+      </note>
+
+      <para>4. 右上の <emphasis role="bold">プレビュー</emphasis>
+      ボタンをクリックして作成した文書を確認し、<emphasis role="bold">作成</emphasis>
+      ボタンをクリックして文書の作成을 完了합니다.</para>
+
+      <para/>
+
+      <note>
+        <para>一括生成 표에 나타나는 파란색 영역은 依頼을 보낼 文書 受信者의 이름, 이메일 등을 入力하는 곳です。 ワークフロー의
+        외부 受信者 처리 ステップ 설정에 따라 휴대폰 번호, 인증 비밀번호 등을 入力할 수 있습니다.</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/bulk-creation-table-blue-section.png"
+                       width="700"/>
+          </imageobject>
+        </mediaobject>
+      </note>
+
+      <para/>
+
+      <tip>
+        <para>テンプレート의 入力항목 중 일부가 <emphasis role="bold">一括生成</emphasis> 画面에
+        나타나지 않는 경우에는 아래 두가지 경우를 확인해야 합니다.</para>
+
+        <para>1. 一括生成에서 入力할 수 없는 コンポーネント: 카메라, 녹음, グループ으로 묶인 선택 コンポーネント는
+        一括生成으로 作成할 수 없는 コンポーネントです。</para>
+
+        <para>2. 作成 ステップ에서 접근 허용된 コンポーネント 확인:<emphasis role="bold"> テンプレート管理
+        &gt; テンプレートの設定(⚙) &gt; ワークフローの設定 &gt; </emphasis>해당<emphasis
+        role="bold"> </emphasis>ワークフロー ステップ에 접근 허용된 コンポーネントのみが表示されます。</para>
+      </tip>
     </section>
   </section>
 </chapter>
