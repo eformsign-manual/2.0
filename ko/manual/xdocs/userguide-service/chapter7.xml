@@ -139,8 +139,8 @@
             </inlinemediaobject>) 아이콘을 클릭하면 나타나는 <link
           linkend="document_column">컬럼 체크박스</link>를 통해 조정할 수 있습니다.</para>
 
-          <para>문서 리스트에서 수행할 수 있는 추가 작업에는 미리보기, 삭제 요청, 반려 요청 승인하기, 재요청, 완료 문서
-          전송 등이 있습니다.</para>
+          <para>문서 리스트에서 수행할 수 있는 추가 작업에는 미리보기, 검토하기, 수정, 취소, 완료 문서 전송 등이
+          있습니다.</para>
         </listitem>
       </varlistentry>
 
@@ -148,11 +148,14 @@
         <term>④ <link linkend="history">문서 상태 및 이력 보기</link></term>
 
         <listitem>
-          <para>문서 상태와 이력을 확인할 수 있습니다.</para>
+          <para><emphasis role="bold">문서 상태 </emphasis>와 <emphasis
+          role="bold">이력 </emphasis>을 확인할 수 있습니다.</para>
 
-          <para>문서 상태에서는 문서의 관점에서 언제 문서가 만들어지고 처리되고 완료되었는지를 확인할 수 있습니다.</para>
+          <para><emphasis role="bold">문서 상태 </emphasis>에서는 문서의 관점에서 언제 문서가
+          만들어지고 처리되고 완료되었는지를 확인할 수 있습니다.</para>
 
-          <para>이력보기를 통해서는 작성자 및 수신자 입장에서 누가 어떤 작업을 수행했는지를 확인할 수 있습니다.</para>
+          <para><emphasis role="bold">이력</emphasis> 에서는 작성자 및 수신자 입장에서 누가 어떤
+          작업을 수행했는지를 확인할 수 있습니다.</para>
         </listitem>
       </varlistentry>
 
@@ -305,9 +308,9 @@
         <tgroup cols="4">
           <thead>
             <row>
-              <entry align="center">진행 중 문서함</entry>
-
               <entry align="center">처리할 문서함</entry>
+
+              <entry align="center">진행 중 문서함</entry>
 
               <entry align="center">완료 문서함</entry>
 
@@ -351,9 +354,9 @@
 
               <entry>문서 ID</entry>
 
-              <entry>문서 번호</entry>
+              <entry>문서 ID</entry>
 
-              <entry>문서 번호</entry>
+              <entry>문서 ID</entry>
             </row>
 
             <row>
@@ -361,19 +364,9 @@
 
               <entry>문서 번호</entry>
 
-              <entry>상태</entry>
+              <entry>문서 번호</entry>
 
-              <entry>단계</entry>
-            </row>
-
-            <row>
-              <entry>상태</entry>
-
-              <entry>상태</entry>
-
-              <entry>단계</entry>
-
-              <entry>작성자</entry>
+              <entry>문서 번호</entry>
             </row>
 
             <row>
@@ -381,79 +374,59 @@
 
               <entry>템플릿 이름</entry>
 
-              <entry>작성자</entry>
-
-              <entry>작성일</entry>
-            </row>
-
-            <row>
               <entry>단계</entry>
 
               <entry>단계</entry>
-
-              <entry>작성일</entry>
-
-              <entry>처리자</entry>
             </row>
 
             <row>
               <entry>작성자</entry>
 
+              <entry>단계</entry>
+
               <entry>작성자</entry>
 
-              <entry>처리자</entry>
-
-              <entry>처리일</entry>
+              <entry>작성자</entry>
             </row>
 
             <row>
               <entry>작성일</entry>
 
+              <entry>작성자</entry>
+
               <entry>작성일</entry>
 
-              <entry>처리일</entry>
-
-              <entry>사용자 지정 필터</entry>
+              <entry>작성일</entry>
             </row>
 
             <row>
-              <entry>처리자</entry>
-
               <entry>요청자</entry>
 
-              <entry>단계의 상태</entry>
+              <entry>작성일</entry>
 
-              <entry/>
+              <entry>처리자</entry>
+
+              <entry>처리자</entry>
             </row>
 
             <row>
+              <entry>요청일</entry>
+
+              <entry>처리자</entry>
+
               <entry>처리일</entry>
 
-              <entry>요청일</entry>
+              <entry>처리일</entry>
+            </row>
+
+            <row>
+              <entry>문서 처리 경과일수</entry>
+
+              <entry>처리일</entry>
 
               <entry>사용자 지정 필터</entry>
 
-              <entry/>
-            </row>
-
-            <row>
-              <entry>단계의 상태</entry>
-
-              <entry>단계의 상태</entry>
-
-              <entry/>
-
-              <entry/>
-            </row>
-
-            <row>
-              <entry/>
-
-              <entry>문서 처리 경과일수</entry>
-
-              <entry/>
-
-              <entry/>
+              <entry>사용자 지정 필터</entry>
             </row>
           </tbody>
         </tgroup>
@@ -469,8 +442,8 @@
 
       <orderedlist>
         <listitem>
-          <para>상세 콤보박스에서 <emphasis role="bold">사용자 지정 필터</emphasis>를
-          선택합니다.</para>
+          <para><emphasis role="bold">상세</emphasis> 콤보박스에서 <emphasis
+          role="bold">사용자 지정 필터</emphasis>를 선택합니다.</para>
 
           <mediaobject>
             <imageobject>
@@ -639,20 +612,20 @@
     <section xml:id="additional_work">
       <title>문서함별 작업 항목</title>
 
-      <para>각 문서함의 문서 리스트에서 수행할 수 있는 추가 작업에는 미리보기, 삭제 요청, 반려 요청 승인하기, 재요청, 완료
-      문서 전송 등이 있습니다.</para>
+      <para>각 문서함의 문서 리스트에서 수행할 수 있는 추가 작업에는 미리보기, 검토하기, 수정, 취소, 완료 문서 전송 등이
+      있습니다.</para>
 
       <itemizedlist>
         <listitem>
           <para><emphasis role="bold">처리할 문서함</emphasis></para>
 
-          <para>미리보리, 수정, 취소, 재요청, 완료 문서 전송, 다운로드를 할 수 있습니다.</para>
+          <para>미리보리, 수정, 취소, 완료 문서 전송, 다운로드를 할 수 있습니다.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">진행 중 문서함</emphasis></para>
 
-          <para>미리보기, 수정, 취소, 완료 문서 전송, 다운로드를 할 수 있습니다.</para>
+          <para>미리보기, 검토하기, 수정, 취소, 재요청, 완료 문서 전송, 다운로드를 할 수 있습니다.</para>
         </listitem>
 
         <listitem>

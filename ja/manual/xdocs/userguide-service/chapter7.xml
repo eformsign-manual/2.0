@@ -48,14 +48,15 @@
       </listitem>
     </itemizedlist>
 
-    <para>この他、<emphasis role="bold">文書管理 </emphasis>ページも別途存在します。</para>
+    <para>この他、文書の管理権限を持つメンバーだけ文書を確認できる<emphasis role="bold"> 文書管理
+    </emphasis>メニューも別途存在します。</para>
 
     <itemizedlist>
       <listitem>
         <para><emphasis role="bold">文書管理：</emphasis> <indexterm
             class="singular">
             <primary sortas="ぶんしょかんり">文書管理</primary>
-          </indexterm>このメニューには、文書の管理権限を持つ場合だけアクセスできます。文書管理者は、権限を持つテンプレートで作成されたすべての文書を照会できます。</para>
+          </indexterm>このメニューには、文書管理者だけがアクセスできます。文書管理者は、権限を持つテンプレートで作成されたすべての文書を照会できます。</para>
       </listitem>
     </itemizedlist>
 
@@ -75,10 +76,8 @@
       </mediaobject>
     </figure>
 
-    <para>3つの文書トレイと文書管理は、それぞれほぼ同じ形をしています。</para>
-
     <para><note>
-        <para>文書トレイの形自体はほぼ同じですが、表示される文書は、文書の状態または保有中の権限によって異なります。</para>
+        <para>各文書トレイの形と管理画面の構成はほぼ同じですが、表示される文書は、文書の状態または保有中の権限によって異なります。</para>
       </note></para>
 
     <figure>
@@ -93,87 +92,103 @@
 
     <para>文書トレイは、次の 5 つの主要項目で構成されています。</para>
 
-    <orderedlist>
-      <listitem>
-        <para><emphasis role="bold">メニューおよびホームアイコン、文書トレイの名前</emphasis></para>
+    <variablelist>
+      <varlistentry>
+        <term>① メニューおよびホームアイコン、文書トレイの名前</term>
 
-        <para>メニュー（<inlinemediaobject>
-            <imageobject>
-              <imagedata fileref="resources/menu_icon_2.png" width="25"/>
-            </imageobject>
-          </inlinemediaobject>）とホーム（<inlinemediaobject>
-            <imageobject>
-              <imagedata fileref="resources/home_icon_2.png" width="25"/>
-            </imageobject>
-          </inlinemediaobject>）アイコンをクリックして、別のメニューまたはダッシュボードに移動できます。現在表示されている文書トレイの名前を確認できます。</para>
-      </listitem>
+        <listitem>
+          <para><emphasis role="bold">メニュー</emphasis>（<inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="resources/menu_icon_2.png" width="25"/>
+              </imageobject>
+            </inlinemediaobject>）と<emphasis
+          role="bold">ホーム</emphasis>（<inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="resources/home_icon_2.png" width="25"/>
+              </imageobject>
+            </inlinemediaobject>）アイコンをクリックして、別のメニューまたはダッシュボードに移動できます。現在表示されている文書トレイの名前を確認できます。</para>
+        </listitem>
+      </varlistentry>
 
-      <listitem>
-        <para><emphasis role="bold"><link
-        linkend="category">カテゴリー表示、フィルター（文書/状態）のコンボボックス、検索ボックス</link></emphasis></para>
+      <varlistentry>
+        <term>②<link linkend="category">
+        カテゴリー表示、フィルター（文書/状態）のコンボボックス、検索ボックス</link></term>
 
-        <para>テンプレート管理メニューで設定したカテゴリー別に文書を表示したり、必要な文書だけがリストに表示されるようにフィルターを適用したりできます。</para>
+        <listitem>
+          <para><emphasis role="bold">テンプレート管理</emphasis>
+          メニューで設定したカテゴリー別に文書を表示したり、必要な文書だけがリストに表示されるようにフィルターを適用したりできます。</para>
 
-        <para>キーワード検索に加えて、詳細検索でタイトルと内容の組み合わせで検索、数字や日付の範囲を指定して検索、カスタムフィルターによる検索など、さまざまな検索方法が用意されています。</para>
-      </listitem>
+          <para>キーワード検索に加えて、詳細検索でタイトルと内容の組み合わせで検索、数字や日付の範囲を指定して検索、カスタムフィルターによる検索など、さまざまな検索方法が用意されています。</para>
+        </listitem>
+      </varlistentry>
 
-      <listitem>
-        <para><emphasis role="bold">文書リストおよび <link
-        linkend="additional_work">作業項目</link> </emphasis></para>
+      <varlistentry>
+        <term>③ 文書リストおよび <link linkend="additional_work">作業項目</link> </term>
 
-        <para>文書は、1 ページあたり最大 20 のリストを表示し、20を超える文書についてはページ区分で表示します。</para>
+        <listitem>
+          <para>文書は、1 ページあたり最大 20 のリストを表示し、20を超える文書についてはページ区分で表示します。</para>
 
-        <para>文書の状態、タイトル、ステップ、作成者、作成日、処理者、文書
-        ID、文書番号などのカラムをベースに文書リストの内容を表示します。表示するカラムのタイプは文書トレイの右上のアイコンのうち、カラム（<inlinemediaobject>
-            <imageobject>
-              <imagedata fileref="resources/column_icon.png" width="35"/>
-            </imageobject>
-          </inlinemediaobject>）アイコンをクリックしたら表示される <link
-        linkend="document_column">カラムのチェックボックス</link> で調整できます。</para>
+          <para>文書の<emphasis role="bold">状態、タイトル、ステップ、作成者、作成日、処理者、文書
+          ID、文書番号</emphasis>などのカラムをベースに文書リストの内容を表示します。表示するカラムのタイプは文書トレイの右上のアイコンのうち、<emphasis
+          role="bold">カラム</emphasis>（<inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="resources/column_icon.png" width="35"/>
+              </imageobject>
+            </inlinemediaobject>）アイコンをクリックしたら表示される <link
+          linkend="document_column">カラムのチェックボックス</link> で調整できます。</para>
 
-        <para>文書リストで実行できる追加アクションには、プレビュー、削除の依頼、返戻依頼の承認、再依頼、完了文書の送信などがあります。</para>
-      </listitem>
+          <para>文書リストで実行できる追加アクションには、<emphasis
+          role="bold">プレビュー、検討する、修正、無効化、　　削除の依頼、返戻依頼の承認、再依頼、完了文書の送信</emphasis>などがあります。</para>
+        </listitem>
+      </varlistentry>
 
-      <listitem>
-        <para><emphasis role="bold"><link
-        linkend="history">文書の状態と履歴の表示</link></emphasis></para>
+      <varlistentry>
+        <term>④ <link linkend="history">文書の状態と履歴の表示</link></term>
 
-        <para>文書の状態と履歴を確認できます。</para>
+        <listitem>
+          <para><emphasis role="bold">文書の状態 </emphasis>と <emphasis
+          role="bold">履歴</emphasis> を確認できます。</para>
 
-        <para>文書の状態では、文書がいつ作成、処理、完了したかを文書の観点から確認できます。</para>
+          <para><emphasis role="bold">文書の状態
+          </emphasis>では、文書がいつ作成、処理、完了したかを文書の観点から確認できます。</para>
 
-        <para>履歴の表示では、作成者と受信者の観点から誰がどのような作業を実行したかを確認できます。</para>
-      </listitem>
+          <para><emphasis role="bold">履歴
+          </emphasis>では、作成者と受信者の観点から誰がどのような作業を実行したかを確認できます。</para>
+        </listitem>
+      </varlistentry>
 
-      <listitem>
-        <para><emphasis role="bold"><link
-        linkend="document_column">文書トレイのフィールドの調整</link>,<link
+      <varlistentry>
+        <term>⑤ <link linkend="document_column">文書トレイのフィールドの調整</link>,<link
         linkend="document_download">文書のダウンロード</link> および <link
-        linkend="document_delete">削除</link> アイコン</emphasis></para>
+        linkend="document_delete">削除</link> アイコン</term>
 
-        <para>文書トレイのカラム（<inlinemediaobject>
-            <imageobject>
-              <imagedata fileref="resources/column_icon.png" width="35"/>
-            </imageobject>
-          </inlinemediaobject>）アイコンをクリックすると、カラムのタイプが表示されます。また、カラムのチェックボックスでリストに表示するカラムを選択できます。</para>
+        <listitem>
+          <para>文書トレイの<emphasis role="bold">カラム</emphasis>（<inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="resources/column_icon.png" width="35"/>
+              </imageobject>
+            </inlinemediaobject>）アイコンをクリックすると、カラムのタイプが表示されます。また、<emphasis
+          role="bold">カラム</emphasis>のチェックボックスでリストに表示するカラムを選択できます。</para>
 
-        <para>文書のダウンロードをクリックして、リストからダウンロードしたい文書を選択し（マルチ選択可能）、PDF
-        文書、監査証跡証明、および選択フィールドの CSV データをダウンロードできます。</para>
+          <para><emphasis role="bold">文書のダウンロード</emphasis>
+          をクリックして、リストからダウンロードしたい文書を選択し（マルチ選択可能）、PDF 文書、監査証跡証明、および選択フィールドの CSV
+          データをダウンロードできます。</para>
 
-        <para>文書トレイでは、文書の削除アイコンは無効になっています。</para>
+          <para>文書トレイでは、文書の <emphasis role="bold">削除</emphasis>
+          アイコンは無効になっています。</para>
 
-        <note>
-          <para>文書の削除は <emphasis role="bold">文書管理</emphasis>
-          メニューでのみ可能です。つまり、文書を削除するには文書の管理権限が必要です。文書の管理権限は、代表管理者またはテンプレート管理者が、
-          <emphasis role="bold">テンプレート管理 &gt; テンプレートの設定 &gt; 文書の管理権限の設定 &gt;
-          テンプレート</emphasis><emphasis
-          role="bold">で作成された文書を管理できるグループとメンバーを設定する画面</emphasis>
-          で権限を付与することができます。文書の管理権限はテンプレート別に指定でき、指定すれば、<emphasis
-          role="bold">文書管理</emphasis>
-          メニューで、テンプレートで作成された文書を閲覧、削除、およびダウンロード（PDF、CSV）する権限が与えられます。</para>
-        </note>
-      </listitem>
-    </orderedlist>
+          <note>
+            <para>文書の削除は <emphasis role="bold">文書管理</emphasis>
+            メニューでのみ可能です。つまり、文書を削除するには文書の管理権限が必要です。文書の管理権限は、代表管理者またはテンプレート管理者が、
+            <emphasis role="bold">テンプレート管理 &gt; テンプレートの設定 &gt; 権限の設定
+            &gt;</emphasis><emphasis role="bold">文書の管理権限</emphasis>
+            で権限を付与することができます。文書の管理権限はテンプレート毎に指定でき、指定すれば、<emphasis
+            role="bold">文書管理</emphasis>
+            メニューで、テンプレートで作成された文書を閲覧、削除、およびダウンロード（PDF、CSV）する権限が与えられます。</para>
+          </note>
+        </listitem>
+      </varlistentry>
+    </variablelist>
 
     <section xml:id="category">
       <title>カテゴリー、キーワードおよびフィルター検索</title>
@@ -182,7 +197,7 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">進行中文書/要処理文書/完了文書</emphasis></para>
+          <para><emphasis role="bold">要処理文書/進行中文書/完了文書</emphasis></para>
 
           <para>文書トレイの左上には、カテゴリー別の検索バー、文書別のフィルター、キーワードの検索バーが表示されます。</para>
         </listitem>
@@ -200,9 +215,12 @@
           <secondary>カテゴリー検索</secondary>
         </indexterm></emphasis></para>
 
-      <para>カテゴリー検索のコンボボックスでは、テンプレート管理メニューで設定したカテゴリー別に文書を表示できます。このうち、必要なカテゴリーまたは文書を選択できます。</para>
+      <para><emphasis role="bold">カテゴリー検索 </emphasis>のコンボボックスでは、<emphasis
+      role="bold">テンプレート管理
+      </emphasis>メニューで設定したカテゴリー別に文書を表示できます。このうち、必要なカテゴリーまたは文書を選択できます。</para>
 
-      <para>カテゴリー検索のコンボボックスの X
+      <para><emphasis role="bold">カテゴリー検索</emphasis> のコンボボックスの <emphasis
+      role="bold">X</emphasis>
       アイコンをクリックすると、テンプレートで設定したカテゴリーに合わせて作成された文書が表示されます。</para>
 
       <figure>
@@ -215,15 +233,68 @@
         </mediaobject>
       </figure>
 
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">要処理文書</emphasis></para>
+        </listitem>
+      </itemizedlist>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/actionrequiredbox-status-search.png"
+                     width="700"/>
+        </imageobject>
+      </mediaobject>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">進行中の文書</emphasis></para>
+        </listitem>
+      </itemizedlist>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/inprocessbox-status-search.png"
+                     width="700"/>
+        </imageobject>
+      </mediaobject>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">完了文書</emphasis></para>
+        </listitem>
+      </itemizedlist>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/completedbox-status-search.png"
+                     width="700"/>
+        </imageobject>
+      </mediaobject>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">文書管理</emphasis></para>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/documentmanage_status_search.png"
+                         width="700"/>
+            </imageobject>
+          </mediaobject>
+        </listitem>
+      </itemizedlist>
+
       <para><emphasis role="bold">キーワードおよびフィルターの検索<indexterm class="singular">
           <primary sortas="ぶんしょとれい">文書トレイ</primary>
 
           <secondary>キーワードおよびフィルターの検索</secondary>
         </indexterm></emphasis></para>
 
-      <para>キーワード検索に加えて、詳細検索でタイトルと内容の組み合わせで検索、数字や日付の範囲を指定して検索、カスタムフィルターによる検索など、さまざまな検索方法が用意されています。また、カスタムフィルターを設定して、文書のフィールドの入力値を詳細検索することができます。また、カスタムフィルターを使用して、数字の範囲と日付の期間を設定して検索することもできます。</para>
+      <para>キーワード検索に加えて、詳細検索でタイトルと内容の組み合わせで検索、数字や日付の範囲を指定して検索、カスタムフィルターによる検索など、さまざまな検索方法が用意されています。また、カスタムフィルターを設定して、文書のフィールドの入力値を詳細検索することができます。また、カスタムフィルターを使用して、数字の範囲や日付の期間を設定して検索することもできます。</para>
 
-      <para>検索可能なフィルターの種類は次の通りです。一方、カスタムフィルターは、すべての文書と文書管理でのみ使用できます。</para>
+      <para>検索可能なフィルターの種類は次の通りです。一方、カスタムフィルターは、<emphasis role="bold">完了文書
+      </emphasis>と <emphasis role="bold">文書管理</emphasis> でのみ使用できます。</para>
 
       <table>
         <title>フィルターの種類</title>
@@ -231,11 +302,11 @@
         <tgroup cols="4">
           <thead>
             <row>
-              <entry align="center">進行中の文書</entry>
-
               <entry align="center">要処理文書</entry>
 
-              <entry align="center">すべての文書</entry>
+              <entry align="center">進行中の文書</entry>
+
+              <entry align="center">完了文書</entry>
 
               <entry align="center">文書管理</entry>
             </row>
@@ -277,9 +348,9 @@
 
               <entry>文書 ID</entry>
 
-              <entry>文書番号</entry>
+              <entry>文書 ID</entry>
 
-              <entry>文書番号</entry>
+              <entry>文書 ID</entry>
             </row>
 
             <row>
@@ -287,19 +358,9 @@
 
               <entry>文書番号</entry>
 
-              <entry>状態</entry>
+              <entry>文書番号</entry>
 
-              <entry>ステップ</entry>
-            </row>
-
-            <row>
-              <entry>状態</entry>
-
-              <entry>状態</entry>
-
-              <entry>ステップ</entry>
-
-              <entry>作成者</entry>
+              <entry>文書番号</entry>
             </row>
 
             <row>
@@ -307,79 +368,59 @@
 
               <entry>テンプレート名</entry>
 
-              <entry>作成者</entry>
-
-              <entry>作成日</entry>
-            </row>
-
-            <row>
               <entry>ステップ</entry>
 
               <entry>ステップ</entry>
-
-              <entry>作成日</entry>
-
-              <entry>処理者</entry>
             </row>
 
             <row>
               <entry>作成者</entry>
 
+              <entry>ステップ</entry>
+
               <entry>作成者</entry>
 
-              <entry>処理者</entry>
-
-              <entry>処理日</entry>
+              <entry>作成者</entry>
             </row>
 
             <row>
               <entry>作成日</entry>
 
+              <entry>作成者</entry>
+
               <entry>作成日</entry>
 
-              <entry>処理日</entry>
-
-              <entry>カスタムフィルター</entry>
+              <entry>作成日</entry>
             </row>
 
             <row>
-              <entry>処理者</entry>
-
               <entry>依頼者</entry>
 
-              <entry>ステップの状態</entry>
+              <entry>作成日</entry>
 
-              <entry/>
+              <entry>処理者</entry>
+
+              <entry>処理者</entry>
             </row>
 
             <row>
+              <entry>依頼日</entry>
+
+              <entry>処理者</entry>
+
               <entry>処理日</entry>
 
-              <entry>依頼日</entry>
+              <entry>処理日</entry>
+            </row>
+
+            <row>
+              <entry>部外者処理の経過日数</entry>
+
+              <entry>処理日</entry>
 
               <entry>カスタムフィルター</entry>
 
-              <entry/>
-            </row>
-
-            <row>
-              <entry>ステップの状態</entry>
-
-              <entry>ステップの状態</entry>
-
-              <entry/>
-
-              <entry/>
-            </row>
-
-            <row>
-              <entry/>
-
-              <entry>部外者処理の経過日数</entry>
-
-              <entry/>
-
-              <entry/>
+              <entry>カスタムフィルター</entry>
             </row>
           </tbody>
         </tgroup>
@@ -393,126 +434,140 @@
           <secondary>カスタムフィルター</secondary>
         </indexterm></emphasis></para>
 
-      <para>1.詳細のコンボボックスで、カスタムフィルターを選択します。</para>
+      <orderedlist>
+        <listitem>
+          <para><emphasis role="bold">詳細</emphasis>のコンボボックスで、<emphasis
+          role="bold">カスタムフィルター</emphasis> を選択します。</para>
 
-      <figure>
-        <title>カスタムフィルター</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/userdefined_search1.png"/>
+            </imageobject>
+          </mediaobject>
+        </listitem>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/userdefined_search1.png"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
+        <listitem>
+          <para><emphasis role="bold">フィールド名</emphasis>、<emphasis
+          role="bold">フィールドタイプ</emphasis>、および <emphasis role="bold">検索値
+          </emphasis>を設定します。</para>
 
-      <para>2.フィールド名、フィールドタイプ、および検索値を設定します。</para>
+          <para><emphasis role="bold">フィールド名</emphasis>
+          はフォルト値が空です。検索したい文書入力フィールドの表示名（テンプレートのフィールド設定の表示名）を直接入力する必要があります。</para>
 
-      <para>フィールド名はフォルト値が空です。検索したい文書入力フィールドの表示名（テンプレートのフィールド設定の表示名）を直接入力する必要があります。</para>
+          <note>
+            <para>1.存在しない文書入力フィールドの表示名を設定して検索した場合、文書は照会されません。</para>
 
-      <note>
-        <para>1.存在しない文書入力フィールドの表示名を設定して検索した場合、文書は照会されません。</para>
+            <para>2.<emphasis role="bold">フィールド名
+            </emphasis>に特殊文字（「、'、;、&lt;、&gt;、\ ）を入力することはできません。</para>
 
-        <para>2.フィールド名に特殊文字（「、'、;、&lt;、&gt;、\ ）を入力することはできません。</para>
+            <para>3.<emphasis role="bold">フィールド名
+            </emphasis>の先頭と末尾のスペースは削除されて追加されます。例：「 休暇　申込書 」&gt;「休暇　申込書」</para>
 
-        <para>3.フィールド名の先頭と末尾のスペースは削除されて追加されます。例：「 休暇　申込書 」&gt;「休暇　申込書」</para>
+            <para>4.追加または変更時に、既存のカスタムフィルターと同じフィールド名を入力すると、フィールドタイプとフィールドの検索値が以前に設定した情報で表示されます。例）既存のカスタムフィルター「勤続年数」：5
+            ～ 10 を追加した状態でカスタムフィルターを再度追加する場合、フィールド名に同じ名前の「勤続年数」
+            を入力すると、フィールドタイプは「範囲」、検索値1は「5」、値2は「10」と既存の設定が表示されます。</para>
+          </note>
 
-        <para>4.追加または変更時に、既存のカスタムフィルターと同じフィールド名を入力すると、フィールドタイプとフィールドの検索値が以前に設定した情報で表示されます。例）既存のカスタムフィルター「勤続年数」：5
-        ～ 10 を追加した状態でカスタムフィルターを再度追加する場合、フィールド名に同じ名前の「勤続年数」
-        を入力すると、フィールドタイプは「範囲」、検索値1は「5」、値2は「10」と既存の設定が表示されます。</para>
-      </note>
+          <para><emphasis role="bold">フィールドタイプ</emphasis>
+          として、キーワード、範囲、期間のうち1つを選択します。デフォルト値はキーワードです。</para>
 
-      <para>フィールドタイプとして、キーワード、範囲、または期間タイプのうち1つを選択します。デフォルト値はキーワードです。</para>
+          <para><emphasis role="bold">フィールドタイプ
+          </emphasis>の選択によって、検索値として表示される入力ボックスが異なります。</para>
 
-      <para>フィールドタイプの選択によって、検索値として表示される入力ボックスが異なります。</para>
+          <informaltable>
+            <tgroup cols="3">
+              <thead>
+                <row>
+                  <entry align="center">フィールドタイプ</entry>
 
-      <informaltable>
-        <tgroup cols="3">
-          <thead>
-            <row>
-              <entry align="center">フィールドタイプ</entry>
+                  <entry align="center">入力ボックス 1</entry>
 
-              <entry align="center">入力ボックス 1</entry>
+                  <entry align="center">入力ボックス 2</entry>
+                </row>
+              </thead>
 
-              <entry align="center">入力ボックス 2</entry>
-            </row>
-          </thead>
+              <tbody>
+                <row>
+                  <entry>キーワード</entry>
 
-          <tbody>
-            <row>
-              <entry>キーワード</entry>
+                  <entry>1行テキスト</entry>
 
-              <entry>1行テキスト</entry>
+                  <entry/>
+                </row>
 
-              <entry/>
-            </row>
+                <row>
+                  <entry>範囲</entry>
 
-            <row>
-              <entry>範囲</entry>
+                  <entry>開始値</entry>
 
-              <entry>開始値</entry>
+                  <entry>終了値</entry>
+                </row>
 
-              <entry>終了値</entry>
-            </row>
+                <row>
+                  <entry>期間</entry>
 
-            <row>
-              <entry>期間</entry>
+                  <entry>開始日</entry>
 
-              <entry>開始日</entry>
+                  <entry>終了日</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
 
-              <entry>終了日</entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </informaltable>
+          <para/>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">キーワード</emphasis></para>
+
+              <para>複数の値をコンマ（ , ）で区切って設定できます。デフォルト値は空の値です。</para>
+
+              <para>設定したテキストを含む値が検索されます。これは、複数のキーワードのうち1つ以上を含む文書を検索します。</para>
+
+              <para>例) フィールド名：果物/フィールドタイプ：キーワード/値
+              1:イチゴ、リンゴなどの果物の中で「イチゴ」と「リンゴ」のうち少なくとも1つ以上を含む文書を検索</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">範囲</emphasis></para>
+
+              <para>数字または日付の間の値を検索するときに使用します。例）番号：100-200/期間：2019/01/01~2019/06/30</para>
+
+              <para>設定した開始値と終了値の間の値が検索されます。範囲の値のうち、開始値のみを入力した場合は、少なくとも開始値以上の値が検索されます。範囲の値の終了値のみを入力した場合は、終了値以下の値が検索されます。例）年給：1000~/
+              年給：~5000</para>
+            </listitem>
+          </itemizedlist>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">期間</emphasis></para>
+
+              <para>表示されるカレンダーで日付の期間を設定します。デフォルト値は1週の差があります。</para>
+
+              <para>設定した開始日と終了日の間の日付を検索します。</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">検索の追加</emphasis> (<inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="resources/searchplus.png"/>
+              </imageobject>
+            </inlinemediaobject>) ボタンをクリックすると、<emphasis role="bold">検索キーワード
+          </emphasis>が追加され、設定した条件に合わせて文書が検索されます。</para>
+
+          <note>
+            <para>1.複数のカスタムフィルターを追加したり、カスタムフィルターを変更または削除したりできます。</para>
+
+            <para>2.重複するフィールド名を持つ複数のカスタムフィルターを追加することはできません。</para>
+
+            <para>3.既に指定したカスタムフィルターを変更すると、フィールドタイプと検索値は最新の入力値に変更されます。</para>
+          </note>
+        </listitem>
+      </orderedlist>
 
       <para/>
-
-      <itemizedlist>
-        <listitem>
-          <para><emphasis role="bold">キーワード</emphasis></para>
-
-          <para>複数の値をコンマ（ , ）で区切って設定できます。デフォルト値は空の値です。</para>
-
-          <para>設定したテキストを含む値が検索されます。これは、複数の文書のうち1つ以上を含む文書を検索します。</para>
-
-          <para>例) フィールド名：果物/フィールドタイプ：キーワード/値
-          1:イチゴ、リンゴなどの果物の中で「イチゴ」と「リンゴ」のうち少なくとも1つ以上を含む文書を検索</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">範囲</emphasis></para>
-
-          <para>数字または日付の間の値を検索するときに使用します。例）番号：100-200/期間：2019/01/01~2019/06/30</para>
-
-          <para>設定した開始値と終了値の間の値が検索されます。範囲の値のうち、開始値のみを入力した場合は、少なくとも開始値以上の値が検索されます。範囲の値の終了値のみを入力した場合は、終了値以下の値が検索されます。例）年給：1000~/
-          年給：~5000</para>
-        </listitem>
-      </itemizedlist>
-
-      <itemizedlist>
-        <listitem>
-          <para><emphasis role="bold">期間</emphasis></para>
-
-          <para>表示されるカレンダーで日付の期間を設定します。デフォルト値は1週の差があります。</para>
-
-          <para>設定した開始日と終了日の間の日付を検索します。</para>
-        </listitem>
-      </itemizedlist>
-
-      <para>3.検索の追加 (<inlinemediaobject>
-          <imageobject>
-            <imagedata fileref="resources/searchplus.png"/>
-          </imageobject>
-        </inlinemediaobject>)
-      ボタンをクリックすると、検索キーワードが追加され、設定した条件に合わせて文書が検索されます。</para>
-
-      <note>
-        <para>1.複数のカスタムフィルターを追加したり、カスタムフィルターを変更または削除したりできます。</para>
-
-        <para>2.重複するフィールド名を持つ複数のカスタムフィルターを追加することはできません。</para>
-
-        <para>3.既に指定したカスタムフィルターを変更すると、フィールドタイプと検索値は最新の入力値に変更されます。</para>
-      </note>
 
       <para><emphasis role="bold">検索キーワードの表示方法とその変更/削除方法</emphasis></para>
 
@@ -533,31 +588,45 @@
         </listitem>
       </itemizedlist>
 
-      <para>7.追加した検索キーワードを選択して、カスタムフィルターを修正します。修正時には、詳細検索フィルターの項目が「カスタムフィルター」に変わり、選択したフィルターのフィールド名、フィールドタイプ、検索値が表示されます。</para>
+      <para>7.追加した検索キーワードを選択して、カスタムフィルターを修正します。修正時には、詳細検索フィルターの項目が <emphasis
+      role="bold">カスタムフィルター</emphasis> に変わり、選択した<emphasis
+      role="bold">フィルターのフィールド名、フィールドタイプ、検索値</emphasis>が表示されます。</para>
 
-      <para>3.追加した検索キーワードを削除するには、右側の X アイコンをクリックします。</para>
+      <para>3.追加した検索キーワードを削除するには、右側の <emphasis role="bold">X</emphasis>
+      アイコンをクリックします。</para>
     </section>
 
     <section xml:id="additional_work">
-      <title>文書トレイ別の作業項目</title>
+      <title>各文書トレイの作業項目</title>
 
-      <para>文書リストで実行できる追加アクションには、プレビュー、削除の依頼、返戻依頼の承認、再依頼、完了文書の送信などがあります。</para>
+      <para>文書リストで実行できる追加アクションには、プレビュー、検討する、修正、無効化、完了文書の送信などがあります。</para>
 
-      <para><emphasis role="bold">進行中の文書</emphasis></para>
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">要処理文書</emphasis></para>
 
-      <para>プレビュー、返戻の依頼、削除の依頼、依頼の無効化、または再依頼を行うことができます。</para>
+          <para>プレビュー、修正、無効化、完了文書の送信、ダウンロードを行うことができます。</para>
+        </listitem>
 
-      <para><emphasis role="bold">要処理文書</emphasis></para>
+        <listitem>
+          <para><emphasis role="bold">進行中の文書</emphasis></para>
 
-      <para>承認する、再依頼の他、プレビュー、削除の依頼を行うことができます。</para>
+          <para>プレビュー、検討する、修正、無効化、完了文書の送信、ダウンロードを行うことができます。</para>
+        </listitem>
 
-      <para><emphasis role="bold">完了文書</emphasis></para>
+        <listitem>
+          <para><emphasis role="bold">完了文書</emphasis></para>
 
-      <para>プレビュー、返戻の依頼、削除の依頼、依頼の無効化、再依頼の他、完了文書の PDF での送信を行うことができます。</para>
+          <para>プレビュー、無効化、完了文書の送信、ダウンロードを行うことができます。</para>
+        </listitem>
 
-      <para><emphasis role="bold">文書管理</emphasis></para>
+        <listitem>
+          <para><emphasis role="bold">文書管理</emphasis></para>
 
-      <para>プレビュー、完了文書の PDF での送信の他、文書の削除を行うことができます。文書は、文書管理でのみ削除できます。</para>
+          <para>プレビュー、無効化、完了文書の送信、永久削除、ダウンロードの他、文書の削除を行うことができます。文書は、<emphasis
+          role="bold">文書管理</emphasis>でのみ削除できます。</para>
+        </listitem>
+      </itemizedlist>
     </section>
 
     <section xml:id="history">
@@ -565,7 +634,9 @@
 
       <para>文書トレイのリストから文書を1つ選択すると、その文書の状態と履歴が画面の右側に表示されます。</para>
 
-      <para>文書の状態では、文書がいつ作成、処理、完了したかを文書の観点から確認できます。また、履歴では、作成者と受信者の観点から誰がどのような作業を実行したかを確認できます。</para>
+      <para><emphasis role="bold">文書の状態</emphasis>
+      では、文書がいつ作成、処理、完了したかを文書の観点から確認できます。また、<emphasis role="bold">履歴
+      </emphasis>では、作成者と受信者の観点から誰がどのような作業を実行したかを確認できます。</para>
 
       <para><figure>
           <title>文書状態タブ</title>
@@ -596,13 +667,21 @@
       <para>eformsign
       で作成されたほとんどの文書は、長期間安全に保管する必要がある文書です。すべての文書は長期アーカイブファイル形式（PDF/A）で保存され、指定された管理者のみが文書およびデータを閲覧または削除できます。</para>
 
-      <para>1.文書トレイのリストの右側にあるダウンロード (<inlinemediaobject>
-          <imageobject>
-            <imagedata fileref="resources/download_icon.png"/>
-          </imageobject>
-        </inlinemediaobject>) アイコンをクリックします。</para>
+      <orderedlist>
+        <listitem>
+          <para>文書トレイのリストの右側にある <emphasis role="bold">ダウンロード</emphasis>
+          (<inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="resources/download_icon.png"/>
+              </imageobject>
+            </inlinemediaobject>) アイコンをクリックします。</para>
+        </listitem>
 
-      <para>2.ダウンロードしたい文書を選択し、ダウンロード ボタンをクリックします。</para>
+        <listitem>
+          <para>ダウンロードしたい文書を選択し、<emphasis role="bold">ダウンロード</emphasis>
+          ボタンをクリックします。</para>
+        </listitem>
+      </orderedlist>
 
       <figure>
         <title>文書のダウンロードのポップアップ</title>
@@ -615,8 +694,10 @@
       </figure>
 
       <note>
-        <para>CSV ファイルは、PDF 文書をダウンロードした場所からダウンロードできます。ダウンロードのポップアップウィンドウで CSV
-        を選択し、ダウンロードしたいフィールドを確認した後、ダウンロードボタンをクリックしてください。</para>
+        <para>CSV ファイルは、PDF 文書をダウンロードした場所からダウンロードできます。<emphasis
+        role="bold">ダウンロード </emphasis>のポップアップウィンドウで CSV
+        を選択し、ダウンロードしたいフィールドを確認した後、<emphasis role="bold">ダウンロード
+        </emphasis>ボタンをクリックしてください。</para>
       </note>
 
       <para/>
@@ -627,19 +708,33 @@
 
       <para>eformsign では、指定された管理者のみが文書を削除できます。</para>
 
-      <para>1.文書トレイのリストの右側にある削除（<inlinemediaobject>
-          <imageobject>
-            <imagedata fileref="resources/delete_icon1.png"/>
-          </imageobject>
-        </inlinemediaobject>）アイコンをクリックします。</para>
+      <orderedlist>
+        <listitem>
+          <para>文書トレイのリストの右側にある <emphasis
+          role="bold">削除</emphasis>（<inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="resources/delete_icon1.png"/>
+              </imageobject>
+            </inlinemediaobject>）アイコンをクリックします。</para>
+        </listitem>
 
-      <para>2.削除したい文書を選択し、削除ボタンをクリックします。</para>
+        <listitem>
+          <para>削除したい文書を選択し、<emphasis role="bold">削除</emphasis>
+          ボタンをクリックします。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">削除 </emphasis>のポップアップウィンドウで <emphasis
+          role="bold">はい </emphasis>をクリックすると、文書が削除されます。</para>
+        </listitem>
+      </orderedlist>
     </section>
 
     <section xml:id="document_column">
       <title>文書トレイのカラムの設定</title>
 
-      <para>文書トレイの右上にあるアイコンのうち、カラム（<inlinemediaobject>
+      <para>文書トレイの右上にあるアイコンのうち、<emphasis
+      role="bold">カラム</emphasis>（<inlinemediaobject>
           <imageobject>
             <imagedata fileref="resources/column_icon.png" width="35"/>
           </imageobject>
