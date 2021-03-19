@@ -9,8 +9,8 @@
   <title>カスタマイズ</title>
 
   <section>
-    <title>カスタムフィールド管理<indexterm class="singular">
-        <primary>カスタムフィールド管理</primary>
+    <title>カスタムフィールドの管理<indexterm class="singular">
+        <primary>カスタムフィールドの管理</primary>
       </indexterm></title>
 
     <para><emphasis role="bold">会社管理 </emphasis><emphasis role="bold">&gt;
@@ -61,8 +61,8 @@
           <term>④ フィールドの追加</term>
 
           <listitem>
-            <para>新しいフィールドを追加します。フィールドの追加
-            ボタンをクリックすると、ポップアップウィンドウが表示され、カスタムフィールドを追加できます。<emphasis
+            <para>新しいフィールドを追加します。<emphasis role="bold">フィールドの追加
+            </emphasis>ボタンをクリックすると、ポップアップウィンドウが表示され、カスタムフィールドを追加できます。<emphasis
             role="bold">フィールド名 </emphasis>と <emphasis
             role="bold">フィールドタイプ</emphasis>（テキスト/イメージ）、<emphasis
             role="bold">フィールド値</emphasis> をクリックして、OK
