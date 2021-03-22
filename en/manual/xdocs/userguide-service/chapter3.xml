@@ -1916,8 +1916,10 @@
     </figure>
 
     <para>4. Click the <emphasis role="bold">Create template</emphasis> card.
-    The screen for configuring the template settings will be displayed. 좌측 설정
-    탭을 클릭해 해당 템플릿에 대한 추가 설정을 완료한 후 우측 상단의 저장 버튼을 클릭해 템플릿을 저장 및 생성합니다.</para>
+    The screen for configuring the template settings will be displayed. Click
+    the settings tabs on the left to configure the settings for the template
+    and then click the Save button on the top right corner to save and create
+    a template.</para>
 
     <figure>
       <title>Create Template Screen</title>
@@ -1980,6 +1982,14 @@
 
     <para>4. After configuring all settings, click the<emphasis role="bold">
     Save</emphasis> button to save the settings.</para>
+
+    <important>
+      <para>In order to create documents from a template, you need to first
+      save and deploy the template first. If you save the template but don't
+      deploy it, then the template will not be shown in the <emphasis
+      role="bold">New from template</emphasis> page of the members with
+      template usage permission.</para>
+    </important>
 
     <note>
       <para>For a detailed explanation of templates, please refer to <xref
