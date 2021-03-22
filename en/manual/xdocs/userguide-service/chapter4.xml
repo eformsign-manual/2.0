@@ -13,12 +13,15 @@
 
     <para><indexterm class="singular">
         <primary>Web Form Designer</primary>
-      </indexterm>You can easily create a template using Web form designer by
-    uploading a PDF file to eformsign in the <emphasis role="bold">Manage
-    templates</emphasis> page. After uploading a file, simply click and locate
-    the basic components available in the left tree menu of Web form designer
-    and set the properties of each component. This is all you need to do to
-    create a template.</para>
+      </indexterm> Web Form Designer is a web form editor that allows you to
+    create electronic documents by uploading document files to eformsign and
+    adding component. You can upload PDF files in the <emphasis
+    role="bold">New from template</emphasis> or the <emphasis role="bold">New
+    from my file</emphasis> menus to create documents using Web Form Designer.
+    After uploading a file, simply click and add the components available in
+    the left tree menu of Web form designer and set the properties of each
+    component. This is all you need to do to create documents with an
+    ease.</para>
 
     <note>
       <para>Currently, only PDF files are supported, but other various file
@@ -35,37 +38,96 @@
       linkend="formbuilder"/>.</para>
     </note>
 
-    <para>1. To create a template, go to the<emphasis role="bold"> Manage
-    templates</emphasis> page by clicking the <emphasis role="bold">Manage
-    templates</emphasis> menu in the sidebar.</para>
+    <itemizedlist>
+      <listitem>
+        <para>Uploading a PD file in the <emphasis role="bold">New from my
+        file</emphasis> menu.</para>
+      </listitem>
+    </itemizedlist>
 
-    <figure>
-      <title>Web Form Designer Screen</title>
+    <orderedlist>
+      <listitem>
+        <para>Click the <emphasis role="bold">New from my file</emphasis>
+        menu</para>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/web-form_1.png" width="730"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
+        <mediaobject>
+          <imageobject>
+            <imagedata contentwidth="700"
+                       fileref="resources/myfile_create_document.png"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
 
-    <para>2. To upload a file, simply drag the file onto the <emphasis
-    role="bold">Manage templates</emphasis> page or click the <emphasis
-    role="bold">Select a file</emphasis> button and then upload the
-    file.</para>
+      <listitem>
+        <para>Drag and drop the file onto the screen or click the <emphasis
+        role="bold">Select a file</emphasis> button and select a file from
+        your computer to upload.</para>
 
-    <figure>
-      <title>Web Form Designer Screen</title>
+        <mediaobject>
+          <imageobject>
+            <imagedata contentwidth="500"
+                       fileref="resources/myfile_create_document2.png"
+                       width="500"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/web-form_2.png" width="730"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
+      <listitem>
+        <para>Once the file is uploaded, the Web Form Designer screen will be
+        displayed. You can add components to the document here.</para>
 
-    <para>3. When a file is uploaded, the <emphasis role="bold">Create
-    template</emphasis> page will be displayed as follows:</para>
+        <mediaobject>
+          <imageobject>
+            <imagedata contentwidth="864"
+                       fileref="resources/myfile_create_document3.png"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
+    </orderedlist>
+
+    <para>Uploading a PDF file in the <emphasis role="bold">Manage
+    templates</emphasis> menu.</para>
+
+    <orderedlist>
+      <listitem>
+        <para>Go to the <emphasis role="bold">Manage templates</emphasis>
+        menu.</para>
+
+        <figure>
+          <title>Web Form Designer Screen</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/web-form_1.png" width="730"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </listitem>
+
+      <listitem>
+        <para>To upload a file, simply drag the file onto the <emphasis
+        role="bold">Manage templates</emphasis> page or click the <emphasis
+        role="bold">Select a file</emphasis> button and then upload the
+        file.</para>
+
+        <figure>
+          <title>Web Form Designer Screen</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/web-form_2.png" width="730"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </listitem>
+
+      <listitem>
+        <para>When a file is uploaded, the <emphasis role="bold">Create
+        template</emphasis> page will be displayed as follows:</para>
+      </listitem>
+    </orderedlist>
+
+    <para/>
 
     <figure>
       <title>Web Form Designer Screen</title>
@@ -77,6 +139,14 @@
       </mediaobject>
     </figure>
 
+    <para>2. To upload a file, simply drag the file onto the <emphasis
+    role="bold">Manage templates</emphasis> page or click the <emphasis
+    role="bold">Select a file</emphasis> button and then upload the
+    file.</para>
+
+    <para>3. When a file is uploaded, the <emphasis role="bold">Create
+    template</emphasis> page will be displayed as follows.</para>
+
     <section>
       <title>Web Form Designer Menu Layout</title>
 
@@ -84,7 +154,17 @@
       left and right panels, and the top bar.</para>
 
       <figure>
-        <title>Web Form Designer Menu Layout</title>
+        <title>Web Form Designer Menu Layout - Create from template</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/web-form_4.png" width="730"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <figure>
+        <title>Web Form Designer Menu Layout - Create from my file</title>
 
         <mediaobject>
           <imageobject>
@@ -100,20 +180,32 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Top bar: </emphasis>Displays the
-          <emphasis role="bold">Design form </emphasis>step and the <emphasis
-          role="bold">Configure</emphasis> step, and allows you to preview the
-          template with components added. It also allows you to go back to the
-          <emphasis role="bold">Manage templates</emphasis> page where you can
-          see the list of templates.</para>
+          <para><emphasis role="bold">Top bar: </emphasis>In <emphasis
+          role="bold">Create from template</emphasis>, there are two steps:
+          <emphasis role="bold">Design form</emphasis> and <emphasis
+          role="bold">Configure</emphasis>. You can also go back to the
+          <emphasis role="bold">Manage templates</emphasis> page and preview
+          the template with components added. In <emphasis role="bold">Create
+          from my file</emphasis>, there are three steps: <emphasis
+          role="bold">Design form</emphasis>, <emphasis role="bold">Add
+          recipients</emphasis>, and <emphasis role="bold">Options</emphasis>.
+          After designing a form, you can create a document or save the form
+          as a draft.</para>
+
+          <note>
+            <para>Click each step shown on the top bar displays the screen for
+            each step. You can set the workflow, permission, etc. Make sure to
+            configure the settings before you finish creating a
+            document.</para>
+          </note>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Basic components list:
-          </emphasis>Provides 14 basic components including Text, Multiline,
-          Signature, Check, and Radio components. Also, new components
-          including custom and shape components are planned to be
-          added.</para>
+          <para><emphasis role="bold">Component list: </emphasis>There are 13
+          basic components including text, multiline, signature, check, and
+          radio. There are also two data components which are document ID and
+          document number. More components including custom and shape
+          components are planned to be added in the future.</para>
         </listitem>
 
         <listitem>
@@ -155,7 +247,18 @@
       <itemizedlist>
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="text2">Text</link>:</emphasis> <indexterm class="singular">
+          linkend="text2">Signature</link>:</emphasis> <indexterm
+              class="singular">
+              <primary>Components</primary>
+
+              <secondary>Signature</secondary>
+            </indexterm>Enters a signature.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="signature2">Text</link>:</emphasis> <indexterm
+              class="singular">
               <primary>Components</primary>
 
               <secondary>Text</secondary>
@@ -174,12 +277,12 @@
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="signature2">Signature</link>:</emphasis> <indexterm
+          linkend="label2">Label</link>:</emphasis> <indexterm
               class="singular">
               <primary>Components</primary>
 
-              <secondary>Signature</secondary>
-            </indexterm>Enters a signature.</para>
+              <secondary>Label</secondary>
+            </indexterm>Sets the form ID.</para>
         </listitem>
 
         <listitem>
@@ -204,16 +307,6 @@
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="label2">Label</link>:</emphasis> <indexterm
-              class="singular">
-              <primary>Components</primary>
-
-              <secondary>Label</secondary>
-            </indexterm>Sets the form ID.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
           linkend="combo2">Combo</link>:</emphasis> <indexterm
               class="singular">
               <primary>Components</primary>
@@ -221,6 +314,17 @@
               <secondary>Combo</secondary>
             </indexterm>Displays a drop-down menu that allows you to select an
           item.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="toggle2">Toggle</link>:</emphasis> <indexterm
+              class="singular">
+              <primary>Components</primary>
+
+              <secondary>Toggle</secondary>
+            </indexterm>Switches to another value if two or more values are
+          entered.</para>
         </listitem>
 
         <listitem>
@@ -234,24 +338,12 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold"><link
-          linkend="numeric2">Numeric</link>:</emphasis> <indexterm
-              class="singular">
+          <para><emphasis role="bold"><link linkend="numeric2">Numeric
+          stepper</link>:</emphasis> <indexterm class="singular">
               <primary>Components</primary>
 
-              <secondary>number</secondary>
+              <secondary>Numeric stepper</secondary>
             </indexterm>Enters a number.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="toggle2">Toggle</link>:</emphasis> <indexterm
-              class="singular">
-              <primary>Components</primary>
-
-              <secondary>Toggle</secondary>
-            </indexterm>Switches to another value if two or more values are
-          entered.</para>
         </listitem>
 
         <listitem>
@@ -286,17 +378,28 @@
 
               <secondary>Attachment</secondary>
             </indexterm>Attaches a file.</para>
-        </listitem>
 
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="document2">Document</link>:</emphasis> <indexterm
-              class="singular">
-              <primary>Components</primary>
+          <para><emphasis role="bold">Data components</emphasis></para>
 
-              <secondary>Document</secondary>
-            </indexterm>Enters the document number or ID in the document
-          itself.</para>
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold"><link linkend="document2">Document
+              ID</link>:</emphasis> <indexterm class="singular">
+                  <primary>Component</primary>
+
+                  <secondary>Document ID</secondary>
+                </indexterm>Enter the document ID in a document.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold"><link linkend="document2">Document
+              number</link>:</emphasis> <indexterm class="singular">
+                  <primary>Component</primary>
+
+                  <secondary>Document number</secondary>
+                </indexterm>Enters the document number in a document.</para>
+            </listitem>
+          </itemizedlist>
         </listitem>
       </itemizedlist>
     </section>
@@ -318,8 +421,20 @@
             <primary>Components</primary>
 
             <secondary>ID</secondary>
-          </indexterm>Unique key for using an entered value in
-        eformsign.</para>
+          </indexterm>Unique ID that identifies each component. When assigning
+        who can fill out a component, you can use the component ID to do so.
+        You can also use the component ID to extract data in CSV
+        format.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Placeholder:</emphasis><indexterm
+            class="singular">
+            <primary>Components</primary>
+
+            <secondary>Placeholder:</secondary>
+          </indexterm>Text displayed as a help message before entering
+        information.</para>
       </listitem>
 
       <listitem>
@@ -341,76 +456,6 @@
     </note>
 
     <para>The description of each component is as follows.</para>
-
-    <section xml:id="text2">
-      <title>Text and Multiline</title>
-
-      <para><indexterm class="singular">
-          <primary>Components</primary>
-
-          <secondary>Text</secondary>
-        </indexterm><indexterm class="singular">
-          <primary>Components</primary>
-
-          <secondary>Multiline</secondary>
-        </indexterm>Both Text and Multiline components are used to create text
-      fields. The Text component is suitable for short text with 1 to 2 words,
-      and the Multiline component is suitable for long text with more than 1
-      line.</para>
-
-      <para><emphasis role="bold">Component Properties</emphasis></para>
-
-      <figure>
-        <title>Setting Text and Multiline Component Properties</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/wfd-text-component-properties.png"
-                       width="250"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para><emphasis role="bold">① ID</emphasis></para>
-
-      <para>Enters the ID of the Text/Multiline component. For example, the ID
-      of the component in which John Doe, Jane Doe, etc. are entered can be
-      named ‘personName’</para>
-
-      <note>
-        <para>All components must have an ID. An ID is automatically generated
-        when you create a component, but it is recommended to rename it to
-        something you can easily recognize. For example, you can rename the ID
-        of a component for entering John Doe, Jane Doe, etc. as 'name'. By
-        doing so, it is easier to identify components when deciding whether to
-        display a field to a specific user when you are configuring the Field
-        settings of a template.</para>
-      </note>
-
-      <para><emphasis role="bold">② Max Length</emphasis></para>
-
-      <para>Sets the maximum length of characters (including space) that can
-      be entered. The default value is set to ‘0’, and in this case, there is
-      no limit for the number of characters.</para>
-
-      <para><emphasis role="bold">③ Keyboard Type</emphasis></para>
-
-      <para>Selects the keyboard type to be used when entering text in the
-      component. Keyboard Type can only be used in mobile devices such as
-      smartphones and tablets.</para>
-
-      <para><emphasis role="bold">④ Show Password Characters</emphasis></para>
-
-      <para>This option can be set only in the Text component. By checking
-      this option, the password is hidden with the password symbol (●) when
-      entering text. The password is also hidden with the password symbol in
-      PDFs, and can only be seen when downloaded in the CSV format.</para>
-
-      <para><emphasis role="bold">④ Tooltip Text</emphasis></para>
-
-      <para>Displays the description in Tooltip Text when you hover the mouse
-      over a component.</para>
-    </section>
 
     <section xml:id="signature2">
       <title>Signature</title>
@@ -475,9 +520,16 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Registered Initials:</emphasis> If the
+          <para><emphasis role="bold">Registered Initial:</emphasis> If the
           user has already registered an initial on eformsign, then clicking
           the signature area inserts the registered initial into the
+          document.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Registered Stamp:</emphasis> If the user
+          has already registered a stamp on eformsign, then clicking the
+          signature area inserts the registered stamp into the
           document.</para>
         </listitem>
       </itemizedlist>
@@ -490,16 +542,6 @@
           will be displayed when a signature area is clicked.</para>
         </note></para>
 
-      <note>
-        <para>In some cases, you may need to use a seal or stamp on a document
-        rather than your own signature. With eformsign, you can also use a
-        stamp image to stamp the signature on a document. To use a stamp image
-        when submitting a document, click the <emphasis
-        role="bold">Stamp</emphasis> tab in the <emphasis
-        role="bold">Signature</emphasis> pop-up, and then select a stamp image
-        and click <emphasis role="bold">OK</emphasis>.</para>
-      </note>
-
       <para><emphasis role="bold">③ Signature Pen Thick</emphasis></para>
 
       <para>Sets the signature pen thickness.</para>
@@ -508,10 +550,185 @@
 
       <para>Sets the signature pen color.</para>
 
-      <para><emphasis role="bold">⑤ Tooltip Text</emphasis></para>
+      <para><emphasis role="bold">⑤ Placeholder</emphasis></para>
+
+      <para>Sets the help message displayed before signing.</para>
+
+      <para><emphasis role="bold">⑥ Tooltip Text</emphasis></para>
+
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component. On the eformsign app, it is displayed at the top
+      center of the keypad.</para>
+
+      <tip>
+        <para>Automatically entering signer and signature date</para>
+
+        <para>Click the signature component and then click the icons shown to
+        add the signature date and signer.</para>
+
+        <figure>
+          <title>Signature date and signer</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/Signature-component-properties_web_icon.png"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para><emphasis role="bold">① Signature date: </emphasis>Automatically
+        enters the date signed. By clicking the Add date signed icon, you can
+        set the date format in the date signed component properties on the
+        right.</para>
+
+        <figure>
+          <title>Date signed</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/Signature-component-properties_web_date.png"
+                         width="750"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para><emphasis role="bold">② Add signer: </emphasis>Automatically
+        enters the signer information. By clicking the Add signer icon, you
+        can specify the signer information by ID, name, department,
+        title/position, mobile, or phone.</para>
+
+        <figure>
+          <title>Add signer</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/Signature-component-properties_web_signer.png"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <note>
+          <para>You can add multiple signed dates and signers for a given
+          signature. You can use this when you need to enter the date signed
+          repeatedly in a given document such as a contract or enter detailed
+          information of a signer.</para>
+        </note>
+      </tip>
+    </section>
+
+    <section xml:id="text2">
+      <title>Text and Multiline</title>
+
+      <para><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>Text</secondary>
+        </indexterm><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>Multiline</secondary>
+        </indexterm>Both Text and Multiline components are used to create text
+      fields. The Text component is suitable for short text with 1 to 2 words,
+      and the Multiline component is suitable for long text with more than 1
+      line.</para>
+
+      <para><emphasis role="bold">Component Properties</emphasis></para>
+
+      <figure>
+        <title>Setting Text and Multiline Component Properties</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/wfd-text-component-properties.png"
+                       width="400"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">① ID</emphasis></para>
+
+      <para>Enters the ID of the Text/Multiline component. For example, the ID
+      of the component in which John Doe, Jane Doe, etc. are entered can be
+      named ‘personName’</para>
+
+      <note>
+        <para>All components must have an ID. An ID is automatically generated
+        when you create a component, but it is recommended to rename it to
+        something you can easily recognize. For example, you can rename the ID
+        of a component for entering John Doe, Jane Doe, etc. as 'name'. By
+        doing so, it is easier to identify components when deciding whether to
+        display a field to a specific user when you are configuring the Field
+        settings of a template.</para>
+      </note>
+
+      <para><emphasis role="bold">②Default value</emphasis></para>
+
+      <para>Sets the default text.</para>
+
+      <para><note>
+          <para>This option can be set only in the Text component. By checking
+          this option, the password is hidden with the password symbol (●) or
+          asterisk (*) when entering text. The password is also hidden with
+          the password symbol in PDFs, and can only be seen when downloaded in
+          the CSV format.</para>
+        </note></para>
+
+      <para><emphasis role="bold">③ Max length</emphasis></para>
+
+      <para>Sets the maximum length of characters (including space) that can
+      be entered. By default, it is set to ‘0’, and in this case, there is no
+      limit for the number of characters</para>
+
+      <para><emphasis role="bold">④ Keyboard type</emphasis></para>
+
+      <para>Selects the keyboard type to be used when entering text in the
+      component. Keyboard Type can only be used in mobile devices such as
+      smartphones and tablets.</para>
+
+      <para><emphasis role="bold">④ Tooltip text</emphasis></para>
 
       <para>Displays the description in Tooltip Text when you hover the mouse
       over a component.</para>
+
+      <para><emphasis role="bold">⑤ Placeholder</emphasis></para>
+
+      <para>Displays a help message when no value is entered.</para>
+
+      <para><emphasis role="bold">⑥ Tooltip Text</emphasis></para>
+
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
+    </section>
+
+    <section xml:id="label2">
+      <title>Label</title>
+
+      <para><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>Label</secondary>
+        </indexterm>This component is used for setting the form ID of a
+      document.</para>
+
+      <para><emphasis role="bold">Component Properties</emphasis></para>
+
+      <figure>
+        <title>Setting Label Component Properties</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/label_property_web.png" width="250"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">① ID</emphasis></para>
+
+      <para>The form ID of the document is automatically generated and
+      displayed. It can also be changed.</para>
+
+      <para>The form ID defined here can be applied when editing the
+      document.</para>
     </section>
 
     <section xml:id="check2">
@@ -526,6 +743,14 @@
       the Check component is used for checking the status of an item (whether
       it is checked or not) while the Radio component is used for checking
       which item among multiple items is checked.</para>
+
+      <tip>
+        <para><emphasis role="bold">Difference between check and radio
+        components</emphasis></para>
+
+        <para>You can select multiple items for check components, but not for
+        radio components.</para>
+      </tip>
 
       <para>When data is downloaded in the CSV format, the<emphasis
       role="bold"> </emphasis>Check<emphasis role="bold">
@@ -564,7 +789,13 @@
       check components are given the same ID, then only the value of the last
       component is displayed.</para>
 
-      <para><emphasis role="bold">② Check Style</emphasis></para>
+      <para><emphasis role="bold">② Items</emphasis></para>
+
+      <para>You can enter the text to be displayed in the item. You can also
+      add multiple check components so that multiple items can be
+      selected.</para>
+
+      <para><emphasis role="bold">③ Checked Style</emphasis></para>
 
       <para>You can specify the style of each component in <emphasis
       role="bold">Component Properties</emphasis>. The check box is set as the
@@ -576,10 +807,36 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/check-component-style-settings.png"
-                     width="550"/>
+          <imagedata contentwidth="692"
+                     fileref="resources/check-component-style-settings.png"/>
         </imageobject>
       </mediaobject>
+
+      <tip>
+        <para>You can select the color of each style by clicking the drop-down
+        icon. Once enabled, the checkmark will show the color and style you
+        selected.</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/check-component-properties-web-style.png"/>
+          </imageobject>
+        </mediaobject>
+      </tip>
+
+      <para><emphasis role="bold">④ Unchecked style</emphasis></para>
+
+      <para>You can select the style of each component that is not selected.
+      Checkboxes display square boxes, and radio buttons display
+      circles.</para>
+
+      <para><emphasis role="bold">⑤ Tooltip text</emphasis></para>
+
+      <para>If you hover mouse over a component, the description you entered
+      in the tooltip text will be displayed. In the eformsign app, this will
+      be displayed at the top center of the keypad.</para>
+
+      <para/>
     </section>
 
     <section xml:id="select2">
@@ -592,10 +849,6 @@
         </indexterm>The Radio component is used for checking which item is
       selected among multiple items. When data is downloaded in the CSV
       format, the selected item will be displayed.</para>
-
-      <para>In Word and PowerPoint, the Radio component is shown as a
-      rectangular shape. Make sure to enter data inside the rectangular
-      shape.</para>
 
       <para><emphasis role="bold">Component Properties</emphasis></para>
 
@@ -632,6 +885,43 @@
         </mediaobject>
       </figure>
 
+      <para><emphasis role="bold">② Items</emphasis></para>
+
+      <para>Items with the same ID are shown in the item list of the component
+      properties window and you can edit text easily.</para>
+
+      <para><emphasis role="bold">③ Selected style</emphasis></para>
+
+      <para>라디오 컴포넌트는 속성에서 스타일을 지정할 수 있습니다. 검정색 이중 원 형태가 기본으로 설정되어 있으며 드롭박스
+      메뉴에서 스타일을 변경할 수 있습니다.</para>
+
+      <tip>
+        <para>오른쪽 위 아이콘을 클릭해 상세 스타일을 변경할 수도 있습니다. 활성화된 아이콘은 아이콘 하단에 현재 표시되는
+        색상의 선이 나타나며, 윤곽선과 중심원의 색상을 별도로 설정할 수 있습니다.</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/Radio-component-properties_web-style.png"/>
+          </imageobject>
+        </mediaobject>
+      </tip>
+
+      <para><emphasis role="bold">④ Unselected style</emphasis></para>
+
+      <para>선택되지 않은 항목에 표시될 스타일을 지정할 수 있습니다.</para>
+
+      <para/>
+
+      <para><emphasis role="bold">② Selected style</emphasis></para>
+
+      <para>라디오 컴포넌트는 속성에서 스타일을 지정할 수 있습니다. 검정색 이중 원 형태가 기본으로 설정되어 있으며 드롭박스
+      메뉴에서 스타일을 변경할 수 있습니다.</para>
+
+      <tip>
+        <para>오른쪽 위 아이콘을 클릭해 상세 스타일을 변경할 수도 있습니다. 활성화된 아이콘은 아이콘 하단에 현재 표시되는
+        색상의 선이 나타나며, 윤곽선과 중심원의 색상을 별도로 설정할 수 있습니다.</para>
+      </tip>
+
       <para><emphasis role="bold">② Check Style</emphasis></para>
 
       <para>You can choose the style of the Radio component in<emphasis
@@ -655,37 +945,6 @@
 
       <para>Displays the description in Tooltip Text when you hover the mouse
       over a component.</para>
-    </section>
-
-    <section xml:id="label2">
-      <title>Label</title>
-
-      <para><indexterm class="singular">
-          <primary>Components</primary>
-
-          <secondary>Label</secondary>
-        </indexterm>This component is used for setting the form ID of a
-      document.</para>
-
-      <para><emphasis role="bold">Component Properties</emphasis></para>
-
-      <figure>
-        <title>Setting Label Component Properties</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/label_property_web.png" width="250"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para><emphasis role="bold">① ID</emphasis></para>
-
-      <para>The form ID of the document is automatically generated and
-      displayed. It can also be changed.</para>
-
-      <para>The form ID defined here can be applied when editing the
-      document.</para>
     </section>
 
     <section xml:id="combo2">
@@ -737,6 +996,58 @@
         message at the top of the list of items in the combo box and select it
         before sending the document.</para>
       </note>
+
+      <para><emphasis role="bold">③ Tooltip Text</emphasis></para>
+
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
+    </section>
+
+    <section xml:id="toggle2">
+      <title>Toggle</title>
+
+      <para><indexterm class="singular">
+          <primary>Components</primary>
+
+          <secondary>Toggle</secondary>
+        </indexterm>This component is used for indicating a specific status
+      such as ON/OFF. If you use this component, then the input value is
+      switched according to a defined order whenever the component is
+      clicked.</para>
+
+      <para>You can change the status to Good or Bad by clicking the
+      components as follows:</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/toggle.png" width="450"/>
+        </imageobject>
+      </mediaobject>
+
+      <para><emphasis role="bold">Component Properties</emphasis></para>
+
+      <figure>
+        <title>Toggle Component Properties</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/toggle-component-properties_web.png"
+                       width="250"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">① ID</emphasis></para>
+
+      <para>Enters the ID of the Toggle component. For example, the ID of the
+      component for the first inspection item can be named ‘APT inspection
+      1’.</para>
+
+      <para><emphasis role="bold">② Items</emphasis></para>
+
+      <para>Enters the list of items that will be toggled whenever the Toggle
+      component is clicked. You can separate the items by pressing
+      Enter.</para>
 
       <para><emphasis role="bold">③ Tooltip Text</emphasis></para>
 
@@ -820,7 +1131,7 @@
     </section>
 
     <section xml:id="numeric2">
-      <title>Numeric</title>
+      <title>Numeric stepper</title>
 
       <para><indexterm class="singular">
           <primary>Components</primary>
@@ -875,58 +1186,6 @@
 
       <para>Displays the description in the Tooltip Text when you hover the
       mouse over a component.</para>
-    </section>
-
-    <section xml:id="toggle2">
-      <title>Toggle</title>
-
-      <para><indexterm class="singular">
-          <primary>Components</primary>
-
-          <secondary>Toggle</secondary>
-        </indexterm>This component is used for indicating a specific status
-      such as ON/OFF. If you use this component, then the input value is
-      switched according to a defined order whenever the component is
-      clicked.</para>
-
-      <para>You can change the status to Good or Bad by clicking the
-      components as follows:</para>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/toggle.png" width="450"/>
-        </imageobject>
-      </mediaobject>
-
-      <para><emphasis role="bold">Component Properties</emphasis></para>
-
-      <figure>
-        <title>Toggle Component Properties</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/toggle-component-properties_web.png"
-                       width="250"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para><emphasis role="bold">① ID</emphasis></para>
-
-      <para>Enters the ID of the Toggle component. For example, the ID of the
-      component for the first inspection item can be named ‘APT inspection
-      1’.</para>
-
-      <para><emphasis role="bold">② Items</emphasis></para>
-
-      <para>Enters the list of items that will be toggled whenever the Toggle
-      component is clicked. You can separate the items by pressing
-      Enter.</para>
-
-      <para><emphasis role="bold">③ Tooltip Text</emphasis></para>
-
-      <para>Displays the description in Tooltip Text when you hover the mouse
-      over a component.</para>
     </section>
 
     <section xml:id="camera2">
