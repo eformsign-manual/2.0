@@ -19,8 +19,8 @@
 
     <itemizedlist>
       <listitem>
-        <para><emphasis role="bold">マイファイルで作成する</emphasis>：お手持ちのドキュメントファイル
-        (PDF形式) を使って電子フォームを作成し、参加者に送信できます。</para>
+        <para><emphasis role="bold">マイファイルで作成する</emphasis>：お手持ちの文書ファイル (PDF形式)
+        を使って電子フォームを作成し、参加者に送信できます。</para>
       </listitem>
 
       <listitem>
@@ -43,14 +43,14 @@
 
     <important>
       <para><emphasis role="bold">マイファイルで作成する</emphasis>
-      で文書を作成する場合、作成した文書をテンプレートに変更したり保存したりすることはできません。よく使う文書の場合、テンプレートとして作成して保存しておくと便利です。</para>
+      で文書を作成する場合、作成した文書をテンプレートに変更したり保存したりすることはできません。よく使う文書の場合、テンプレートとして作成して登録しておくと便利です。</para>
     </important>
   </section>
 
   <section>
     <title>マイファイルで作成する</title>
 
-    <para>目的のPDFファイルを直接アップロードして、文書上にコンポーネントを自由に配置し、各コンポーネントを
+    <para>PDF形式の ファイルを直接アップロードして、文書の上にコンポーネントを自由に配置します。各コンポーネントを
     参加者毎に指定した後、参加者および/または検討者の情報を入力し、送信できます。</para>
 
     <orderedlist>
@@ -65,7 +65,7 @@
       </listitem>
 
       <listitem>
-        <para>目的のドキュメントファイル (PDF形式) をアップロードします。</para>
+        <para>目的の文書ファイル (PDF形式) をアップロードします。</para>
 
         <mediaobject>
           <imageobject>
@@ -75,7 +75,7 @@
         </mediaobject>
 
         <note>
-          <para>現在は PDF ファイルのみをサポートしていますが、今後様々なファイル形式にも対応していく予定です。</para>
+          <para>現在は PDF 形式のみをサポートしていますが、今後様々なファイル形式にも対応していく予定です。</para>
         </note>
       </listitem>
 
@@ -91,7 +91,7 @@
         </mediaobject>
 
         <note>
-          <para>参加者は画面の左上の <emphasis role="bold">参加者を追加する</emphasis>
+          <para>参加者は画面左上の <emphasis role="bold">参加者を追加する</emphasis>
           ボタンをクリックして追加することもでき、最大30人まで設定できます。</para>
 
           <para>フォームのデザインをした後、<emphasis role="bold">受信先を指定する</emphasis>
@@ -100,7 +100,8 @@
       </listitem>
 
       <listitem>
-        <para>各参加者が入力するコンポーネントを追加し、各コンポーネントの詳細設定を右側のプロパティタブで指定します。</para>
+        <para>各参加者が入力するコンポーネントを追加し、各コンポーネントの詳細設定を右側の<emphasis role="bold">
+        プロパティ </emphasis>タブで指定します。</para>
 
         <mediaobject>
           <imageobject>
@@ -112,7 +113,7 @@
 
       <listitem>
         <para>コンポーネントを追加した後、<emphasis role="bold">受信先を指定する</emphasis>
-        ステップでメールアドレス、携帯電話番号などの連絡先といった情報を入力し、各受信者の詳細オプションを設定します。</para>
+        ステップでメールアドレス、携帯電話番号など連絡先の情報を入力し、各受信者の詳細オプションを設定します。</para>
 
         <mediaobject>
           <imageobject>
@@ -122,7 +123,8 @@
         </mediaobject>
 
         <note>
-          <para>受信者は、参加者と検討者に区別されます。文書を作成するときに追加した参加者が <emphasis
+          <para>受信者は、<emphasis role="bold">参加者 </emphasis>と <emphasis
+          role="bold">検討者</emphasis> に区別されます。文書を作成するときに追加した参加者が <emphasis
           role="bold">受信先を指定する</emphasis>
           ステップに表示され、各受信者のメールアドレスなど連絡先の情報を入力します。 <emphasis
           role="bold">受信先を指定する</emphasis>
@@ -132,7 +134,7 @@
         <tip>
           <para><emphasis role="bold">参加者と検討者の違い</emphasis></para>
 
-          <para>参加者は文書の署名、作成などのコンポーネントに入力することができます。一方、検討者は文書に入力することができず、文書を検討し、承認するかどうかのみ決定します。</para>
+          <para>参加者は署名、記入など文書のコンポーネントに入力することができます。一方、検討者は文書に入力することができず、文書を検討し、承認するか否かのみを決定します。</para>
 
           <para>ただし、コンポーネントの作成権限を <emphasis role="bold">誰でも作成可能</emphasis>
           に設定した場合、検討者もコンポーネントに入力することができます。</para>
@@ -147,7 +149,7 @@
 
       <listitem>
         <para><emphasis role="bold">オプション</emphasis>
-        をクリックし、文書のタイトル、完了文書にタイムスタンプを付与するなどを設定します。</para>
+        をクリックし、文書のタイトル、完了文書にタイムスタンプを付与するかどうかなどを設定します。</para>
 
         <mediaobject>
           <imageobject>
@@ -157,11 +159,10 @@
         </mediaobject>
 
         <note>
-          <para>このステップまでが文書フォームの設定ステップです。<emphasis
-          role="bold">文書作成をスタート</emphasis> をクリックする前に<emphasis
-          role="bold">下書きとして保存</emphasis>して文書の作成を終了する場合、<emphasis
+          <para>このステップまでがフォームを設定するステップです。<emphasis
+          role="bold">文書作成をスタート</emphasis> をクリックする前に下書き保存して作成を終了する場合、<emphasis
           role="bold"><link linkend="drafts">下書きとして保存</link></emphasis>
-          トレイに保存され、保存されたファイルを開けば、作成を再開できます。文書の下書き保存は右上のメニュー
+          トレイに保存されます。保存されたファイルを開けば、作成を再開できます。文書の下書き保存は右上のメニュー
           (<inlinemediaobject>
               <imageobject>
                 <imagedata fileref="resources/menu_icon_3.png"/>
@@ -178,7 +179,7 @@
       </listitem>
 
       <listitem>
-        <para>すべての設定を完了した後、<emphasis role="bold">文書作成をスタート</emphasis>를
+        <para>すべての設定を完了した後、<emphasis role="bold">文書作成をスタート</emphasis>
         をクリックします。</para>
 
         <mediaobject>
@@ -210,14 +211,14 @@
     <para><emphasis role="bold">受信先を指定する &gt; 受信先のオプション</emphasis></para>
 
     <para><emphasis role="bold">デザインする</emphasis> ステップまたは <emphasis
-    role="bold">受信先を指定する</emphasis> ステップで文書の参加者、つまり文書の受信者を追加することができます。</para>
+    role="bold">受信先を指定する</emphasis> ステップで文書の参加者、つまり文書の受信先を追加することができます。</para>
 
-    <para><emphasis role="bold">受信先を指定する</emphasis> ステップでは参加者についての詳細設定である
+    <para><emphasis role="bold">受信先を指定する</emphasis> ステップでは、参加者について詳細設定を行う
     <emphasis role="bold">受信先のオプション</emphasis>
     の設定はもちろん、参加者を追加または削除したり、文書を検討する検討者を追加したりできます。</para>
 
-    <para>各参加者または検討者に対し、名前と文書を送信するメールアドレスまたは ID
-    を入力する必要があります。参加者がメンバーの場合、リストから選択すると、すでに保存されているメンバー情報が入力されます。<emphasis
+    <para>各参加者または検討者に対し、名前と送信先のメールアドレスまたは ID
+    を入力する必要があります。参加者がメンバーである場合、リストから選択すると、登録されたメンバー情報が入力されます。<emphasis
     role="bold">受信先のオプション </emphasis>は、参加者または 検討者がメンバーである場合と、メンバーではない外部の
     受信者である場合でそれぞれ異なって表示されます。</para>
 
@@ -225,7 +226,7 @@
       <listitem>
         <para><emphasis role="bold">受信者がメンバーである場合</emphasis></para>
 
-        <para>保存されているメールアドレスと携帯電話番号が自動で表示され、文書を送信する手段を選択できます。</para>
+        <para>登録されたメールアドレスと携帯電話番号が自動で表示され、文書を送信する手段を選択できます。</para>
 
         <caution>
           <para><emphasis role="bold">モバイル
@@ -249,7 +250,7 @@
           <listitem>
             <para><emphasis role="bold">送信手段の選択：</emphasis><emphasis
             role="bold">メール </emphasis>と <emphasis role="bold">モバイル
-            </emphasis>のうち一つまた両方を選択でき、<emphasis role="bold">モバイル</emphasis>
+            </emphasis>のうち一つまたは両方を選択でき、<emphasis role="bold">モバイル</emphasis>
             を選択した場合は携帯電話番号を入力する必要があります。</para>
 
             <caution>
@@ -265,7 +266,7 @@
 
           <listitem>
             <para><emphasis
-            role="bold">パスワードの設定：</emphasis>チェックを入れると、外部受信者が文書を閲覧するためには設定しておいたパスワードを入力する必要があります。<emphasis
+            role="bold">パスワードの設定：</emphasis>チェックを入れると、外部受信者が文書を閲覧する前に、設定しておいたパスワードを入力する必要があります。<emphasis
             role="bold">パスワードのヒント</emphasis>
             で、受信者がパスワードを推測できるようなヒントを設定し、表示することができます。</para>
           </listitem>
@@ -294,7 +295,7 @@
   <section>
     <title>テンプレートで作成する</title>
 
-    <para>よく使うフォームをテンプレート化し、文書の処理過程であるワークフローなどの詳細内容をテンプレート毎に保存し、必要に応じて文書を作成および送信できます。テンプレートは
+    <para>よく使うフォームをテンプレート化しておくと、文書の処理過程であるワークフローなどの詳細設定をテンプレート毎に保存し、必要に応じて文書を作成および送信できます。テンプレートは
     <emphasis role="bold">Webフォームデザイナー</emphasis> または <emphasis
     role="bold">フォームビルダー</emphasis> を使って作成できます。詳しくは <emphasis
     role="bold"><link linkend="template_wd">Webフォームデザイナー</link></emphasis> と
@@ -322,7 +323,7 @@
       </listitem>
 
       <listitem>
-        <para>作成したいテンプレートの <emphasis role="bold">作成</emphasis>
+        <para>文書を作成したいテンプレートの <emphasis role="bold">作成</emphasis>
         アイコン(<inlinemediaobject>
             <imageobject>
               <imagedata contentwidth="30" fileref="resources/create-icon.PNG"/>
@@ -338,14 +339,14 @@
       </listitem>
 
       <listitem>
-        <para>文書を作成し、画面右上の<emphasis role="bold"> 完了</emphasis> もしくは <emphasis
-        role="bold">依頼</emphasis> ボタンをクリックすると、文書のワークフローに沿って次のステップに送信됩니다.
-        途中で作成をやめて保存する場合は、<emphasis role="bold">下書き保存</emphasis>
-        ボタンをクリックして保存します。</para>
+        <para>文書を作成し、画面右上の<emphasis role="bold"> 作成完了</emphasis> もしくは
+        <emphasis role="bold">依頼</emphasis>
+        ボタンをクリックすると、文書のワークフローに沿って次のステップに送信されます。途中で作成をやめて保存する場合は、<emphasis
+        role="bold">下書き保存</emphasis> ボタンをクリックして保存します。</para>
 
         <note>
           <para>テンプレートに設定されたワークフローによっては <emphasis
-          role="bold">完了</emphasis><emphasis role="bold">、提出</emphasis> もしくは
+          role="bold">作成完了</emphasis><emphasis role="bold">、提出</emphasis> もしくは
           <emphasis role="bold">依頼</emphasis> ボタンに異なって表示されます。</para>
         </note>
 
@@ -355,9 +356,8 @@
           role="bold">下書きとして保存</emphasis> トレイではなく、<emphasis
           role="bold">要処理文書</emphasis> トレイで確認できます。</para>
 
-          <para><emphasis role="bold">要処理文書</emphasis> のリストから目的の文書の <emphasis
-          role="bold">編集</emphasis>
-          ボタンをクリックすると、下書き保存した文書の作成を続行することができます。</para>
+          <para><emphasis role="bold">要処理文書</emphasis> のリストから下書き保存した文書の
+          <emphasis role="bold">編集</emphasis> ボタンをクリックすると、作成を続行できます。</para>
         </important>
       </listitem>
     </orderedlist>
@@ -383,7 +383,7 @@
         </listitem>
 
         <listitem>
-          <para>作成したいテンプレートの <emphasis role="bold">一括生成</emphasis>
+          <para>文書を作成したいテンプレートの <emphasis role="bold">一括生成</emphasis>
           アイコンをクリックします。</para>
 
           <figure>
@@ -411,8 +411,8 @@
           </figure>
 
           <note>
-            <para>文書内のコンポーネントが各カラムとして表示されているテーブルです。テンプレートのコンポーネントの ID
-            は、各カラムのタイトルとして表示されます。<emphasis role="bold">番号
+            <para>文書内のコンポーネントが各カラムとして表示されているテーブルです。コンポーネントの ID
+            が、各カラムのタイトルとして表示されます。<emphasis role="bold">番号
             </emphasis>カラムの一番下の行の番号が作成される文書の数です。</para>
 
             <para>テーブルは、Excel
@@ -422,11 +422,12 @@
 
         <listitem>
           <para>右上の <emphasis role="bold">プレビュー</emphasis>
-          ボタンをクリックして作成した文書を表示して内容を確認し、<emphasis role="bold">生成</emphasis>
+          ボタンをクリックして、作成した文書の内容を確認した後、<emphasis role="bold">生成</emphasis>
           ボタンをクリックして文書の作成を完了します。</para>
 
           <note>
-            <para>一括生成テーブルに表示される青い領域には、依頼を送信する外部受信者の名前、電子メールなどを入力します。外部受信者の処理ステップの設定によって、携帯電話番号、認証パスワードなどを入力できます。</para>
+            <para><emphasis role="bold">一括生成
+            </emphasis>のテーブルに表示される青い領域には、依頼を送信する外部受信者の名前、メールアドレスなどを入力します。外部受信者の処理ステップの設定に応じて、携帯電話番号、認証パスワードなどを入力できます。</para>
 
             <mediaobject>
               <imageobject>
@@ -443,7 +444,7 @@
             <para>1.<emphasis role="bold">一括生成</emphasis>
             で入力できないコンポーネント：<emphasis role="bold">写真</emphasis>、<emphasis
             role="bold">録音</emphasis>、およびグループ化されている <emphasis
-            role="bold">選択</emphasis> コンポーネントは、<emphasis
+            role="bold">ラジオ</emphasis> コンポーネントは、<emphasis
             role="bold">一括生成</emphasis> では作成できないコンポーネントです。</para>
 
             <para>2.<emphasis role="bold">作成</emphasis>
