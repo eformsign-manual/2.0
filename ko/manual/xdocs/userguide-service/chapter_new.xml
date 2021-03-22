@@ -220,7 +220,7 @@
       <listitem>
         <para><emphasis role="bold">수신자가 멤버일 경우</emphasis></para>
 
-        <para>기본으로 저장된 이메일 주소와 휴대폰 번호가 자동으로 뜨며 문서가 발송될 수단을 선택할 수 있습니다. </para>
+        <para>기본으로 저장된 이메일 주소와 휴대폰 번호가 자동으로 뜨며 문서가 발송될 수단을 선택할 수 있습니다.</para>
 
         <caution>
           <para>휴대폰을 선택할 경우, SMS 또는 카카오 알림톡으로 발송되며 건당 추가요금이 발생됩니다.</para>
@@ -238,12 +238,12 @@
         <para><emphasis role="bold">멤버가 아닌 외부 수신자일 경우</emphasis></para>
 
         <para>입력한 정보가 멤버의 정보와 일치하지 않을 경우 외부 수신자로 인식되어 다음의 항목에 대해 상세 옵션을 설정해야
-        합니다. </para>
+        합니다.</para>
 
         <itemizedlist>
           <listitem>
             <para><emphasis role="bold">문서 발송 수단 선택:</emphasis> 이메일과 휴대폰 중 둘중
-            하나 또는 모두를 선택할 수 있으며, 휴대폰을 선택하면 발송할 휴대폰 번호를 입력해야 합니다. </para>
+            하나 또는 모두를 선택할 수 있으며, 휴대폰을 선택하면 발송할 휴대폰 번호를 입력해야 합니다.</para>
 
             <caution>
               <para>휴대폰을 선택할 경우, SMS 또는 카카오 알림톡으로 발송되며 건당 추가 요금이 발생합니다.</para>
@@ -258,7 +258,7 @@
           <listitem>
             <para><emphasis role="bold">문서 열람 전 비밀번호 설정: </emphasis>해당 항목에
             체크하면 외부 수신자가 문서를 열람하기 위해서는 설정한 비밀번호를 입력해야 합니다. 비밀번호 힌트는 설정한 비밀번호에
-            대하여 수신자가 알아볼 수 있는 힌트를 설정하여 제공할 수 있습니다. </para>
+            대하여 수신자가 알아볼 수 있는 힌트를 설정하여 제공할 수 있습니다.</para>
           </listitem>
 
           <listitem>
@@ -365,75 +365,78 @@
 
       <para><emphasis role="bold">일괄 작성하기</emphasis></para>
 
-      <para>1. <emphasis role="bold">새 문서 작성</emphasis><emphasis role="bold">
-      &gt; 템플릿으로 문서 작성</emphasis> 메뉴로 이동합니다.</para>
+      <orderedlist>
+        <listitem>
+          <para><emphasis role="bold">새 문서 작성</emphasis><emphasis
+          role="bold">&gt; 템플릿으로 문서 작성</emphasis> 메뉴로 이동합니다.</para>
+        </listitem>
 
-      <para>2. 작성할 템플릿의 일괄 작성 아이콘을 클릭합니다.</para>
+        <listitem>
+          <para>작성할 템플릿의 일괄 작성 아이콘을 클릭합니다.</para>
 
-      <figure>
-        <title>일괄 작성 아이콘</title>
+          <figure>
+            <title>일괄 작성 아이콘</title>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/bulk-creation-icon.png"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/bulk-creation-icon.png"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
 
-      <para>3. 화면에 나타나는 각 입력항목에 내용을 입력합니다.</para>
+        <listitem>
+          <para>화면에 나타나는 각 입력항목에 내용을 입력합니다.</para>
 
-      <figure>
-        <title>일괄 작성 화면</title>
+          <figure>
+            <title>일괄 작성 화면</title>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/bulk_create.png" width="700"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/bulk_create.png" width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
 
-      <para/>
+          <note>
+            <para>문서의 입력항목이 각각의 열로 표시된 표입니다. 템플릿의 입력항목인 컴포넌트의 ID가 각 열의 제목으로
+            나타납니다. 첫번째 열인 번호 열 가장 하단 행의 숫자가 작성될 문서의 수입니다.</para>
 
-      <note>
-        <para>문서의 입력항목이 각각의 열로 표시된 표입니다. 템플릿의 입력항목인 컴포넌트의 ID가 각 열의 제목으로 나타납니다.
-        첫번째 열인 번호 열 가장 하단 행의 숫자가 작성될 문서의 수입니다.</para>
+            <para>표는 엑셀과 비슷한 방법으로 입력합니다. 각 셀을 더블클릭하여 내용을 입력하고 마우스 오른쪽을 클릭하여 행을
+            추가하거나 삭제할 수 있습니다. 셀에 입력된 값을 복사 – 붙여넣기, 끌어서 입력하기를 할 수 있습니다.</para>
+          </note>
+        </listitem>
 
-        <para>표는 엑셀과 비슷한 방법으로 입력합니다. 각 셀을 더블클릭하여 내용을 입력하고 마우스 오른쪽을 클릭하여 행을
-        추가하거나 삭제할 수 있습니다. 셀에 입력된 값을 복사 – 붙여넣기, 끌어서 입력하기를 할 수 있습니다.</para>
-      </note>
+        <listitem>
+          <para>오른쪽 상단 <emphasis role="bold">미리보기</emphasis> 버튼을 클릭하여 작성된 문서를
+          확인하고 <emphasis role="bold">작성</emphasis> 버튼을 클릭하여 문서 작성을
+          완료합니다.</para>
 
-      <para>4. 오른쪽 상단 <emphasis role="bold">미리보기</emphasis> 버튼을 클릭하여 작성된 문서를
-      확인하고 <emphasis role="bold">작성</emphasis> 버튼을 클릭하여 문서 작성을 완료합니다.</para>
+          <note>
+            <para>일괄 작성 표에 나타나는 파란색 영역은 요청을 보낼 문서 수신자의 이름, 이메일 등을 입력하는 곳입니다.
+            워크플로우의 외부 수신자 처리 단계 설정에 따라 휴대폰 번호, 인증 비밀번호 등을 입력할 수 있습니다.</para>
 
-      <para/>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/bulk-creation-table-blue-section.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </note>
 
-      <note>
-        <para>일괄 작성 표에 나타나는 파란색 영역은 요청을 보낼 문서 수신자의 이름, 이메일 등을 입력하는 곳입니다.
-        워크플로우의 외부 수신자 처리 단계 설정에 따라 휴대폰 번호, 인증 비밀번호 등을 입력할 수 있습니다.</para>
+          <tip>
+            <para>템플릿의 입력항목 중 일부가 <emphasis role="bold">일괄 작성</emphasis> 화면에
+            나타나지 않는 경우에는 아래 두가지 경우를 확인해야 합니다.</para>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/bulk-creation-table-blue-section.png"
-                       width="700"/>
-          </imageobject>
-        </mediaobject>
-      </note>
+            <para>1. 일괄 작성에서 입력할 수 없는 컴포넌트: 카메라, 녹음, 그룹으로 묶인 선택 컴포넌트는 일괄 작성으로
+            작성할 수 없는 컴포넌트입니다.</para>
 
-      <para/>
-
-      <tip>
-        <para>템플릿의 입력항목 중 일부가 <emphasis role="bold">일괄 작성</emphasis> 화면에 나타나지
-        않는 경우에는 아래 두가지 경우를 확인해야 합니다.</para>
-
-        <para>1. 일괄 작성에서 입력할 수 없는 컴포넌트: 카메라, 녹음, 그룹으로 묶인 선택 컴포넌트는 일괄 작성으로 작성할
-        수 없는 컴포넌트입니다.</para>
-
-        <para>2. 작성 단계에서 접근 허용된 컴포넌트 확인:<emphasis role="bold"> 템플릿 관리 &gt; 템플릿
-        설정(⚙) &gt; 워크플로우 설정 &gt; </emphasis>해당<emphasis role="bold">
-        </emphasis>워크플로우 단계에 접근 허용된 컴포넌트만 나타납니다.</para>
-      </tip>
-
-      <para/>
+            <para>2. 작성 단계에서 접근 허용된 컴포넌트 확인:<emphasis role="bold"> 템플릿 관리 &gt;
+            템플릿 설정(⚙) &gt; 워크플로우 설정 &gt; </emphasis>해당<emphasis role="bold">
+            </emphasis>워크플로우 단계에 접근 허용된 컴포넌트만 나타납니다.</para>
+          </tip>
+        </listitem>
+      </orderedlist>
     </section>
   </section>
 </chapter>

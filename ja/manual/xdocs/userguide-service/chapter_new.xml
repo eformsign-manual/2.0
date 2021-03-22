@@ -368,158 +368,84 @@
           <primary sortas="ぶんしょとれい">文書トレイ</primary>
 
           <secondary>一括生成</secondary>
-        </indexterm>一括生成の機能を使用すると、一度に複数の文書を作成できます。作成を完了する前に、作成する文書をプレビューできます。</para>
+        </indexterm><emphasis role="bold">一括生成
+      </emphasis>の機能を使用すると、一度に複数の文書を作成できます。作成を完了する前に、作成する文書をプレビューできます。</para>
 
       <note>
         <para>この作業を行うには、代表管理者の権限またはテンプレートの管理権限が必要です。</para>
       </note>
 
-      <para><emphasis role="bold">一括生成</emphasis></para>
+      <orderedlist>
+        <listitem>
+          <para><emphasis role="bold">文書の新規作成</emphasis><emphasis
+          role="bold">&gt; テンプレートで作成する</emphasis> メニューに移動します。</para>
+        </listitem>
 
-      <para>1 <emphasis role="bold">文書の新規作成</emphasis> メニューに移動します。</para>
+        <listitem>
+          <para>作成したいテンプレートの <emphasis role="bold">一括生成</emphasis>
+          アイコンをクリックします。</para>
 
-      <para>2.作成したいテンプレートの <emphasis role="bold">一括生成</emphasis>
-      アイコンをクリックします。</para>
+          <figure>
+            <title>一括生成アイコン</title>
 
-      <figure>
-        <title>一括生成アイコン</title>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/bulk-creation-icon.png"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/bulk-creation-icon.png"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
+        <listitem>
+          <para>画面に表示される各コンポーネントに説明を入力します。</para>
 
-      <para>3.画面に表示される各コンポーネントに説明を入力します。</para>
+          <figure>
+            <title>一括生成画面</title>
 
-      <figure>
-        <title>一括生成画面</title>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/bulk_create.png" width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/bulk_create.png" width="700"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
+          <note>
+            <para>文書内のコンポーネントが各カラムとして表示されているテーブルです。テンプレートのコンポーネントの ID
+            は、各カラムのタイトルとして表示されます。<emphasis role="bold">番号
+            </emphasis>カラムの一番下の行の番号が作成される文書の数です。</para>
 
-      <note>
-        <para>文書内のコンポーネントが各カラムとして表示されているテーブルです。テンプレートのコンポーネントの ID
-        は、各カラムのタイトルとして表示されます。<emphasis role="bold">番号
-        </emphasis>カラムの一番下の行の番号が作成される文書の数です。</para>
+            <para>テーブルは、Excel
+            と同様の方法で入力します。各セルをダブルクリックして内容を入力し、マウスを右クリックして行を追加または削除できます。セルに入力した値をコピーと貼り付け、ドラッグして入力することができます。</para>
+          </note>
+        </listitem>
 
-        <para>テーブルは、Excel
-        と同様の方法で入力します。各セルをダブルクリックして内容を入力し、マウスを右クリックして行を追加または削除できます。セルに入力した値をコピーと貼り付け、ドラッグして入力することができます。</para>
-      </note>
+        <listitem>
+          <para>右上の <emphasis role="bold">プレビュー</emphasis>
+          ボタンをクリックして作成した文書を表示して内容を確認し、<emphasis role="bold">生成</emphasis>
+          ボタンをクリックして文書の作成を完了します。</para>
 
-      <para>4.右上のプレビューボタンをクリックして作成した文書を表示して内容を確認し、<emphasis
-      role="bold">生成</emphasis> ボタンをクリックして文書の作成を完了します。</para>
+          <note>
+            <para>一括生成テーブルに表示される青い領域には、依頼を送信する外部受信者の名前、電子メールなどを入力します。外部受信者の処理ステップの設定によって、携帯電話番号、認証パスワードなどを入力できます。</para>
 
-      <note>
-        <para>一括生成テーブルに表示される青い領域には、依頼を送信する外部受信者の名前、電子メールなどを入力します。外部受信者の処理ステップの設定によって、携帯電話番号、認証パスワードなどを入力できます。</para>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/bulk-creation-table-blue-section.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </note>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/bulk-creation-table-blue-section.png"
-                       width="700"/>
-          </imageobject>
-        </mediaobject>
-      </note>
+          <tip>
+            <para>テンプレートのコンポーネントの一部が一括生成画面に表示されない場合は、次の2つのケースを確認してください。</para>
 
-      <para/>
+            <para>1.一括生成で入力できないコンポーネント：写真、録音、およびグループ化されている選択コンポーネントは、一括生成では作成できないコンポーネントです。</para>
 
-      <tip>
-        <para>テンプレートのコンポーネントの一部が一括生成画面に表示されない場合は、次の2つのケースを確認してください。</para>
-
-        <para>1.一括生成で入力できないコンポーネント：写真、録音、およびグループ化されている選択コンポーネントは、一括生成では作成できないコンポーネントです。</para>
-
-        <para>2.作成ステップでアクセスが許可されているコンポーネント：<emphasis role="bold">テンプレート管理 &gt;
-        テンプレートの設定 &gt; ワークフローの設定</emphasis>
-        でアクセスが許可されているコンポーネントのみが表示されます。</para>
-      </tip>
-    </section>
-
-    <section>
-      <title>一括生成</title>
-
-      <para>テンプレート으로 文書을 作成할 경우<emphasis role="bold"> 一括生成</emphasis> 機能을 사용하면
-      한 번에 여러 명에게 文書を送信할 수 있습니다.</para>
-
-      <note>
-        <para>この作業を行うには、代表管理者の権限またはテンプレートの管理権限が必要です。</para>
-      </note>
-
-      <para><emphasis role="bold">一括生成</emphasis></para>
-
-      <para>1. <emphasis role="bold">文書の新規作成</emphasis><emphasis role="bold">
-      &gt; テンプレートで作成する</emphasis> メニューに移動します。</para>
-
-      <para>2. 目的のテンプレートの <emphasis role="bold">一括生成</emphasis>
-      アイコンをクリックします。</para>
-
-      <figure>
-        <title>一括生成アイコン</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/bulk-creation-icon.png"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para>3. 화면에 나타나는 각 入力항목에 内容을 入力합니다.</para>
-
-      <figure>
-        <title>一括生成 画面</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/bulk_create.png" width="700"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para/>
-
-      <note>
-        <para>文書의 入力항목이 각각의 열로 표시된 표です。 テンプレート의 入力항목인 コンポーネント의 ID가 각 열의 제목으로
-        나타납니다. 첫번째 열인 번호 열 가장 하단 행의 숫자가 作成될 文書의 수です。</para>
-
-        <para>표는 엑셀과 비슷한 방법으로 入力します。各セルを ダブルクリックしてから内容を入力し、右クリックしてカラムを追加したり
-        削除したりできます。셀에 入力된 값을 복사 – 붙여넣기, 끌어서 入力하기를 할 수 있습니다.</para>
-      </note>
-
-      <para>4. 右上の <emphasis role="bold">プレビュー</emphasis>
-      ボタンをクリックして作成した文書を確認し、<emphasis role="bold">作成</emphasis>
-      ボタンをクリックして文書の作成을 完了합니다.</para>
-
-      <para/>
-
-      <note>
-        <para>一括生成 표에 나타나는 파란색 영역은 依頼을 보낼 文書 受信者의 이름, 이메일 등을 入力하는 곳です。 ワークフロー의
-        외부 受信者 처리 ステップ 설정에 따라 휴대폰 번호, 인증 비밀번호 등을 入力할 수 있습니다.</para>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/bulk-creation-table-blue-section.png"
-                       width="700"/>
-          </imageobject>
-        </mediaobject>
-      </note>
-
-      <para/>
-
-      <tip>
-        <para>テンプレート의 入力항목 중 일부가 <emphasis role="bold">一括生成</emphasis> 画面에
-        나타나지 않는 경우에는 아래 두가지 경우를 확인해야 합니다.</para>
-
-        <para>1. 一括生成에서 入力할 수 없는 コンポーネント: 카메라, 녹음, グループ으로 묶인 선택 コンポーネント는
-        一括生成으로 作成할 수 없는 コンポーネントです。</para>
-
-        <para>2. 作成 ステップ에서 접근 허용된 コンポーネント 확인:<emphasis role="bold"> テンプレート管理
-        &gt; テンプレートの設定(⚙) &gt; ワークフローの設定 &gt; </emphasis>해당<emphasis
-        role="bold"> </emphasis>ワークフロー ステップ에 접근 허용된 コンポーネントのみが表示されます。</para>
-      </tip>
+            <para>2.作成ステップでアクセスが許可されているコンポーネント：<emphasis role="bold">テンプレート管理
+            &gt; テンプレートの設定 &gt; ワークフローの設定</emphasis>
+            でアクセスが許可されているコンポーネントのみが表示されます。</para>
+          </tip>
+        </listitem>
+      </orderedlist>
     </section>
   </section>
 </chapter>

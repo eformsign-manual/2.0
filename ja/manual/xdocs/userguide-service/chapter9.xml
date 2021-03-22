@@ -6,7 +6,7 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>外部サービスの連動</title>
+  <title>外部サービスとの連動</title>
 
   <section>
     <title>クラウドストレージの連動方法</title>
@@ -14,90 +14,92 @@
     <para><indexterm class="singular">
         <primary>クラウドストレージ</primary>
       </indexterm>eformsign
-    は、完了文書を外部のクラウドストレージサービスに自動で保存するように設定できます。現在、Dropbox、Google
+    は、完了文書を外部のクラウドストレージサービスに自動で保存するよう設定できます。現在、Dropbox、Google
     Drive、OneDrive、box に対応しています。</para>
 
     <note>
       <para>外部のクラウドストレージへの連動は代表管理者のみ設定できます。</para>
     </note>
 
-    <para>1.メニューの<emphasis role="bold"> コネクト &gt; クラウドストレージ
-    </emphasis>に移動します。</para>
+    <orderedlist>
+      <listitem>
+        <para>メニューの<emphasis role="bold">コネクト &gt;
+        クラウドストレージ</emphasis>に移動します。</para>
 
-    <para/>
+        <figure>
+          <title>クラウドストレージの画面</title>
 
-    <figure>
-      <title>クラウドストレージの画面</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/connect_1.png" width="750"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </listitem>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/connect_1.png" width="750"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
+      <listitem>
+        <para>完了文書を保存するクラウドストレージを選択した後、<emphasis
+        role="bold">アカウント接続</emphasis> ボタンをクリックしてログインします。</para>
+      </listitem>
 
-    <para>2.完了文書を保存するクラウドストレージを選択した後、<emphasis role="bold"> アカウント接続</emphasis>
-    ボタンをクリックしてログインします。</para>
+      <listitem>
+        <para>ログインすると、 <emphasis role="bold">接続解除</emphasis>と<emphasis
+        role="bold">保存パスの設定</emphasis> ボタンが表示されます。必要に応じて <emphasis
+        role="bold">保存パスの設定</emphasis> ボタンをクリックして、保存パスを設定します。</para>
 
-    <para>3.ログインすると、 <emphasis role="bold">接続解除</emphasis>と<emphasis
-    role="bold"> 保存パスの設定</emphasis> ボタンが表示されます。必要に応じて <emphasis
-    role="bold">保存パスの設定</emphasis> ボタンをクリックして、保存パスを設定します。</para>
+        <figure>
+          <title>クラウドストレージのアカウント接続と接続解除</title>
 
-    <para><figure>
-        <title>クラウドストレージのアカウント接続と接続解除</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/connect_2.png" width="750"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </listitem>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/connect_2.png" width="750"/>
-          </imageobject>
-        </mediaobject>
-      </figure></para>
+      <listitem>
+        <para><emphasis role="bold">テンプレート管理 </emphasis>メニューに移動します。</para>
+      </listitem>
 
-    <note>
-      <para>保存パスの設定ポップアップは、次の通りです。</para>
+      <listitem>
+        <para>クラウドストレージに保存したい文書のテンプレートをクリックし、 <emphasis
+        role="bold">テンプレートの設定</emphasis> メニューに移動します。</para>
+      </listitem>
 
-      <para>デフォルトのパスは、eformsign のサブフォルダーとして会社名が入ります。<emphasis
-      role="bold">新しいフォルダー</emphasis>
-      ボタンをクリックして、新しいフォルダーを作成し、保存パスを変更することもできます。</para>
+      <listitem>
+        <para><emphasis role="bold"><emphasis role="bold">ワークフローの設定</emphasis>
+        </emphasis>メニューに移動します。</para>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/connect_3.png" width="450"/>
-        </imageobject>
-      </mediaobject>
-    </note>
+        <figure>
+          <title>ワークフロー設定時の完了ステップの設定</title>
 
-    <para>4.テンプレート管理メニューに移動します。</para>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/connect_4.png" width="750"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </listitem>
 
-    <para>5.クラウドストレージに保存したい文書のテンプレートをクリックし、 <emphasis
-    role="bold">テンプレートの設定</emphasis> メニューに移動します。</para>
+      <listitem>
+        <para><emphasis role="bold"><emphasis role="bold">完了</emphasis>
+        </emphasis>ステップの<emphasis role="bold">属性</emphasis>タブで<emphasis
+        role="bold"> <emphasis role="bold">別のクラウドストレージに完了文書を保存する</emphasis>
+        </emphasis>にチェックを入れます。上記のクラウドストレージメニューで設定したクラウドストレージが接続されていることが確認でき、文書が完了すれば、eformsign
+        に加えて連動中の外部のクラウドストレージにも自動的に保存されます。</para>
 
-    <para>6.<emphasis role="bold">ワークフローの設定</emphasis> メニューに移動します。</para>
+        <figure>
+          <title>別のクラウドストレージに完了文書を保存するのチェックボックス</title>
 
-    <para><figure>
-        <title>ワークフロー設定時の完了ステップの設定</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/connect_4.png" width="750"/>
-          </imageobject>
-        </mediaobject>
-      </figure></para>
-
-    <para>7.<emphasis role="bold">完了</emphasis> ステップの属性タブで <emphasis
-    role="bold">別のクラウドストレージに完了文書を保存する</emphasis>
-    にチェックを入れます。上記のクラウドストレージメニューで設定したクラウドストレージが接続されていることが確認でき、文書が完了すれば、eformsign
-    に加えて連動中の外部のクラウドストレージにも自動的に保存されます。</para>
-
-    <para><figure>
-        <title>別のクラウドストレージに完了文書を保存するのチェックボックス</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/connect_5.png" width="750"/>
-          </imageobject>
-        </mediaobject>
-      </figure></para>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/connect_5.png" width="750"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </listitem>
+    </orderedlist>
   </section>
 
   <section>
@@ -124,99 +126,113 @@
       </mediaobject>
     </figure>
 
-    <para>1.メニューの <emphasis role="bold">コネクト &gt; 分析およびレポート</emphasis>
-    に移動します。</para>
+    <orderedlist>
+      <listitem>
+        <para>メニューの <emphasis role="bold">コネクト &gt; 分析およびレポート</emphasis>
+        に移動します。</para>
+      </listitem>
 
-    <para>2.Google スプレッドシートまたは Office 365 のうち、連動したいサービスを選択し、 <emphasis
-    role="bold">アカウント接続</emphasis> ボタンをクリックしてログインします。</para>
+      <listitem>
+        <para>Google スプレッドシートまたは Office 365 のうち、連動したいサービスを選択し、 <emphasis
+        role="bold">アカウント接続</emphasis> ボタンをクリックしてログインします。</para>
 
-    <para><figure>
-        <title>分析およびレポートの画面</title>
+        <figure>
+          <title>分析およびレポートの画面</title>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/analytic_2.png" width="750"/>
-          </imageobject>
-        </mediaobject>
-      </figure></para>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/analytic_2.png" width="750"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </listitem>
 
-    <para>3.<emphasis role="bold">データの連動管理</emphasis> ボタンをクリックします。</para>
+      <listitem>
+        <para><emphasis role="bold">データの連動管理</emphasis> ボタンをクリックします。</para>
 
-    <para><figure>
-        <title>データの連動管理の画面</title>
+        <figure>
+          <title>データの連動管理の画面</title>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/analytic_3.png" width="750"/>
-          </imageobject>
-        </mediaobject>
-      </figure></para>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/analytic_3.png" width="750"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </listitem>
 
-    <para>4.中央または右上にある <emphasis role="bold">データ連動の追加</emphasis>
-    ボタンをクリックします。</para>
+      <listitem>
+        <para>中央または右上にある <emphasis role="bold">データ連動の追加</emphasis>
+        ボタンをクリックします。</para>
 
-    <figure>
-      <title>データの連動管理の画面</title>
+        <figure>
+          <title>データの連動管理の画面</title>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/analytic_4.png" width="750"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/analytic_4.png" width="750"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </listitem>
 
-    <para>5.接続名、データ連動シート、データ送信時点、テンプレートを設定し <emphasis
-    role="bold">保存</emphasis> ボタンをクリックします。</para>
+      <listitem>
+        <para>接続名、データ連動シート、データ送信時点、テンプレートを設定し <emphasis
+        role="bold">保存</emphasis> ボタンをクリックします。</para>
 
-    <para><figure>
-        <title>データの連動管理の画面</title>
+        <para><figure>
+            <title>データの連動管理の画面</title>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/analytic_5.png" width="600"/>
-          </imageobject>
-        </mediaobject>
-      </figure></para>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/analytic_5.png" width="600"/>
+              </imageobject>
+            </mediaobject>
+          </figure></para>
 
-    <para><figure>
-        <title>データの連動管理の画面</title>
+        <para><figure>
+            <title>データの連動管理の画面</title>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/analytic_6.png" width="750"/>
-          </imageobject>
-        </mediaobject>
-      </figure></para>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/analytic_6.png" width="750"/>
+              </imageobject>
+            </mediaobject>
+          </figure></para>
 
-    <note>
-      <para>データ連動シートについては、Google シートにたとえば、そのシートの URL を意味します。</para>
-    </note>
+        <note>
+          <para>データ連動シートについては、Google シートにたとえば、そのシートの URL を意味します。</para>
+        </note>
+      </listitem>
 
-    <para>6.<emphasis role="bold">データの連動管理</emphasis>
-    画面に、データが連動されるシートが表示されます。</para>
+      <listitem>
+        <para><emphasis role="bold">データの連動管理</emphasis>
+        画面に、データが連動されるシートが表示されます。</para>
 
-    <para><figure>
-        <title>データの連動管理の画面</title>
+        <para><figure>
+            <title>データの連動管理の画面</title>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/analytic_7.png" width="750"/>
-          </imageobject>
-        </mediaobject>
-      </figure></para>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/analytic_7.png" width="750"/>
+              </imageobject>
+            </mediaobject>
+          </figure></para>
+      </listitem>
 
-    <para>7.連動されたシートに移動すると、データをインポートするカラム（フィールド）が表示されていることが確認できます。</para>
+      <listitem>
+        <para>連動されたシートに移動すると、データをインポートするカラム（フィールド）が表示されていることが確認できます。</para>
 
-    <para><figure>
-        <title>データの連動管理の画面</title>
+        <para><figure>
+            <title>データの連動管理の画面</title>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/analytic_8.png" width="750"/>
-          </imageobject>
-        </mediaobject>
-      </figure></para>
-
-    <para/>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/analytic_8.png" width="750"/>
+              </imageobject>
+            </mediaobject>
+          </figure></para>
+      </listitem>
+    </orderedlist>
   </section>
 </chapter>
