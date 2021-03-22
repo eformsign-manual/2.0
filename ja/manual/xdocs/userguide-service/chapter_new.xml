@@ -341,7 +341,7 @@
       <listitem>
         <para>文書を作成し、画面右上の<emphasis role="bold"> 作成完了</emphasis> もしくは
         <emphasis role="bold">依頼</emphasis>
-        ボタンをクリックすると、文書のワークフローに沿って次のステップに送信されます。途中で作成をやめて保存する場合は、<emphasis
+        ボタンをクリックすると、文書のワークフローに指定された次のステップに送信されます。途中で作成をやめて保存する場合は、<emphasis
         role="bold">下書き保存</emphasis> ボタンをクリックして保存します。</para>
 
         <note>
