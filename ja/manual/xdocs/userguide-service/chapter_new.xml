@@ -19,8 +19,8 @@
 
     <itemizedlist>
       <listitem>
-        <para><emphasis role="bold">マイファイルで作成する</emphasis>：お手持ちの文書ファイル (PDF形式)
-        を使って電子フォームを作成し、参加者に送信できます。</para>
+        <para><emphasis role="bold">マイファイルで作成する</emphasis>：PCに保存された文書ファイル
+        (PDF形式) を使って電子フォームを作成し、参加者に送信できます。</para>
       </listitem>
 
       <listitem>
@@ -43,7 +43,7 @@
 
     <important>
       <para><emphasis role="bold">マイファイルで作成する</emphasis>
-      で文書を作成する場合、作成した文書をテンプレートに変更したり保存したりすることはできません。よく使う文書の場合、テンプレートとして作成して登録しておくと便利です。</para>
+      で文書を作成する場合、作成した文書をテンプレートに変更したり保存したりすることはできません。よく使う文書の場合、テンプレートに登録しておくと便利です。</para>
     </important>
   </section>
 
@@ -91,10 +91,10 @@
         </mediaobject>
 
         <note>
-          <para>参加者は画面左上の <emphasis role="bold">参加者を追加する</emphasis>
-          ボタンをクリックして追加することもでき、最大30人まで設定できます。</para>
+          <para>画面左上の <emphasis role="bold">参加者を追加する</emphasis>
+          ボタンをクリックして参加者を追加することもでき、最大30人まで設定できます。</para>
 
-          <para>フォームのデザインをした後、<emphasis role="bold">受信先を指定する</emphasis>
+          <para><emphasis role="bold">受信先を指定する</emphasis>
           ステップでも設定した参加者の情報を変更および追加、削除できます。</para>
         </note>
       </listitem>
@@ -113,7 +113,8 @@
 
       <listitem>
         <para>コンポーネントを追加した後、<emphasis role="bold">受信先を指定する</emphasis>
-        ステップでメールアドレス、携帯電話番号など連絡先の情報を入力し、各受信者の詳細オプションを設定します。</para>
+        ステップでメールアドレス、携帯電話番号など連絡先の情報を入力し、<emphasis
+        role="bold">各受信者の詳細オプション</emphasis>を設定します。</para>
 
         <mediaobject>
           <imageobject>
@@ -134,7 +135,7 @@
         <tip>
           <para><emphasis role="bold">参加者と検討者の違い</emphasis></para>
 
-          <para>参加者は署名、記入など文書のコンポーネントに入力することができます。一方、検討者は文書に入力することができず、文書を検討し、承認するか否かのみを決定します。</para>
+          <para>参加者は署名、記入など文書のコンポーネントに入力することができます。一方、検討者は文書に入力することができず、文書を検討し、承認するかどうかのみを決定します。</para>
 
           <para>ただし、コンポーネントの作成権限を <emphasis role="bold">誰でも作成可能</emphasis>
           に設定した場合、検討者もコンポーネントに入力することができます。</para>
@@ -149,7 +150,7 @@
 
       <listitem>
         <para><emphasis role="bold">オプション</emphasis>
-        をクリックし、文書のタイトル、完了文書にタイムスタンプを付与するかどうかなどを設定します。</para>
+        をクリックし、文書のタイトル、完了文書に対するタイムスタンプの付与などを設定します。</para>
 
         <mediaobject>
           <imageobject>
@@ -191,7 +192,7 @@
 
         <caution>
           <para><emphasis role="bold">文書作成をスタート</emphasis>
-          をクリックした時点から課金対象として集計されます。</para>
+          をクリックした時点から課金の対象として集計されます。</para>
         </caution>
       </listitem>
 
@@ -210,15 +211,15 @@
 
     <para><emphasis role="bold">受信先を指定する &gt; 受信先のオプション</emphasis></para>
 
-    <para><emphasis role="bold">デザインする</emphasis> ステップまたは <emphasis
+    <para><emphasis role="bold">デザインする</emphasis> または <emphasis
     role="bold">受信先を指定する</emphasis> ステップで文書の参加者、つまり文書の受信先を追加することができます。</para>
 
-    <para><emphasis role="bold">受信先を指定する</emphasis> ステップでは、参加者について詳細設定を行う
+    <para><emphasis role="bold">受信先を指定する</emphasis> ステップでは、参加者に対する詳細設定を行う
     <emphasis role="bold">受信先のオプション</emphasis>
     の設定はもちろん、参加者を追加または削除したり、文書を検討する検討者を追加したりできます。</para>
 
     <para>各参加者または検討者に対し、名前と送信先のメールアドレスまたは ID
-    を入力する必要があります。参加者がメンバーである場合、リストから選択すると、登録されたメンバー情報が入力されます。<emphasis
+    を入力する必要があります。参加者がメンバーである場合、リストから選択すると、登録されたメンバー情報が自動で入力されます。<emphasis
     role="bold">受信先のオプション </emphasis>は、参加者または 検討者がメンバーである場合と、メンバーではない外部の
     受信者である場合でそれぞれ異なって表示されます。</para>
 
@@ -354,7 +355,7 @@
           <para>テンプレートで作成する途中に <emphasis role="bold">下書き保存
           </emphasis>ボタンをクリックして下書き保存した文書は、<emphasis
           role="bold">下書きとして保存</emphasis> トレイではなく、<emphasis
-          role="bold">要処理文書</emphasis> トレイで確認できます。</para>
+          role="bold">要処理文書</emphasis> トレイに保存されます。</para>
 
           <para><emphasis role="bold">要処理文書</emphasis> のリストから下書き保存した文書の
           <emphasis role="bold">編集</emphasis> ボタンをクリックすると、作成を続行できます。</para>
@@ -369,8 +370,8 @@
           <primary sortas="ぶんしょとれい">文書トレイ</primary>
 
           <secondary>一括生成</secondary>
-        </indexterm><emphasis role="bold">一括生成
-      </emphasis>の機能を使用すると、一度に複数の文書を作成できます。作成を完了する前に、作成する文書をプレビューできます。</para>
+        </indexterm>テンプレートで作成する場合、<emphasis role="bold">一括生成
+      </emphasis>の機能を使用すると、一度に複数の文書を作成できます。</para>
 
       <note>
         <para>この作業を行うには、代表管理者の権限またはテンプレートの管理権限が必要です。</para>
