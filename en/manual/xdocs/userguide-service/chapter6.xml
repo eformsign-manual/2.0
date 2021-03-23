@@ -85,35 +85,40 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">General</emphasis></para>
+          <para><emphasis role="bold"><link
+          linkend="general_fb">General</link></emphasis></para>
 
           <para>Set the template name, abbreviation, document name, document
           number, etc.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Set permissions</emphasis></para>
+          <para><emphasis role="bold"><link linkend="auth_fb">Set
+          permissions</link></emphasis></para>
 
           <para>Grant members or groups the permission to use the template and
           to create documents from it and manage them.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Workflow</emphasis></para>
+          <para><emphasis role="bold"><link
+          linkend="workflow_fb">Workflow</link></emphasis></para>
 
           <para>Sets the workflow for the document from its creation to
           completion.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Field</emphasis></para>
+          <para><emphasis role="bold"><link
+          linkend="field_fb">Field</link></emphasis></para>
 
           <para>Sets the default values and auto-filled values for
           fields.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Notification settings </emphasis></para>
+          <para><emphasis role="bold"><link linkend="noti_fb">Notification
+          settings</link></emphasis></para>
 
           <para>Sets the notification channels, recipients, and the content of
           the notification messages for notifying requests or changes in the
@@ -1345,6 +1350,13 @@
                 <para><emphasis role="bold">Password hint</emphasis>: Set the
                 help message that will be displayed when an external recipient
                 enters a password to view the document.</para>
+
+                <mediaobject>
+                  <imageobject>
+                    <imagedata fileref="resources/workflow-step-external-recipient-property-pw.png"
+                               width="400"/>
+                  </imageobject>
+                </mediaobject>
               </listitem>
 
               <listitem>
@@ -1358,6 +1370,36 @@
                   to review documents</emphasis> feature is available in Korea
                   only.</para>
                 </note>
+              </listitem>
+
+              <listitem>
+                <para><emphasis role="bold">Hide sheets or
+                sections:</emphasis> You can choose which sheets/sections of
+                the documents are shown to external recipients in the case of
+                Excel documents with two or more sheets and Word documents
+                with two or more sections.</para>
+
+                <tip>
+                  <para>Hiding sheets or sections of a document with multiple
+                  sheets or sections</para>
+
+                  <para>When there are multiple sheets or sections in an
+                  uploaded document, the <emphasis role="bold">Hide sheets or
+                  sections</emphasis> option can be shown in the external
+                  recipient step of the workflow. You can choose which
+                  sheets/sections can be seen by or hidden to the external
+                  recipient. You can also choose the person in charge of the
+                  step before the external step to choose which
+                  sheets/sections can be shown to the external
+                  recipient.</para>
+
+                  <mediaobject>
+                    <imageobject>
+                      <imagedata fileref="resources/template-fb-setting-workflow-outsider-1.png"
+                                 width="700"/>
+                    </imageobject>
+                  </mediaobject>
+                </tip>
               </listitem>
             </itemizedlist>
           </listitem>
@@ -1720,6 +1762,13 @@
         <para><emphasis role="bold">Delete</emphasis>: Deletes the template.
         Once a template is deleted, you can no longer create documents from
         that template.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Download file</emphasis>: Click <emphasis
+        role="bold">Download fil</emphasis><emphasis role="bold">e</emphasis>
+        to download a form in the format is was uploaded (e.g. Word, Excel,
+        etc.).</para>
       </listitem>
 
       <listitem>
