@@ -112,11 +112,7 @@
         </listitem>
       </orderedlist>
 
-      <note>
-        <para>If you open an existing template, the Save button and Template
-        settings page will be displayed instead of the Next button and the
-        Create template page, respectively.</para>
-      </note>
+      <para/>
 
       <para><emphasis role="bold">Template settings</emphasis></para>
 
@@ -124,35 +120,40 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">General</emphasis></para>
+          <para><emphasis role="bold"><link
+          linkend="general_wd">General</link></emphasis></para>
 
           <para>Set the template name, abbreviation, document name, document
           number, etc.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Set permissions</emphasis></para>
+          <para><emphasis role="bold"><link linkend="auth_wd">Set
+          permissions</link></emphasis></para>
 
           <para>Grant members or groups the permission to use the template and
           to create documents from it and manage them.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Workflow</emphasis></para>
+          <para><emphasis role="bold"><link
+          linkend="workflow_wd">Workflow</link></emphasis></para>
 
           <para>Sets the workflow for the document from its creation to
           completion.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Field</emphasis></para>
+          <para><emphasis role="bold"><link
+          linkend="field_wd">Field</link></emphasis></para>
 
           <para>Sets the default values and auto-filled values for
           fields.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Notification settings </emphasis></para>
+          <para><emphasis role="bold"><link linkend="noti_wd">Notification
+          settings</link></emphasis></para>
 
           <para>Sets the notification channels, recipients, and the content of
           the notification messages for notifying requests or changes in the
@@ -251,6 +252,27 @@
       <para>This action can be performed in web browsers of computers and
       mobile devices, and also in mobile apps.</para>
     </note>
+
+    <orderedlist>
+      <listitem>
+        <para>Go to <emphasis role="bold">Manage templates</emphasis> in the
+        sidebar menu.</para>
+      </listitem>
+
+      <listitem>
+        <para>Click the name or settings icon (<inlinemediaobject>
+            <imageobject>
+              <imagedata contentwidth="28" fileref="resources/config-icon.PNG"/>
+            </imageobject>
+          </inlinemediaobject>) of the template you want.</para>
+
+        <para><inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="resources/template-settings.png" width="700"/>
+            </imageobject>
+          </inlinemediaobject></para>
+      </listitem>
+    </orderedlist>
 
     <section>
       <title>General</title>
@@ -1355,6 +1377,13 @@
                 <para><emphasis role="bold">Password hint</emphasis>: Set the
                 help message that will be displayed when an external recipient
                 enters a password to view the document.</para>
+
+                <mediaobject>
+                  <imageobject>
+                    <imagedata fileref="resources/workflow-step-external-recipient-property-pw.png"
+                               width="400"/>
+                  </imageobject>
+                </mediaobject>
               </listitem>
 
               <listitem>
@@ -1765,6 +1794,25 @@
           <imageobject>
             <imagedata contentwidth="400"
                        fileref="resources/en-manage-template-menu-icon-document-manager.png"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Reset document numbering rule</emphasis>:
+        You can reset the starting serial number of the document number. The
+        new starting serial number will be applied to all documents created
+        afterwards.</para>
+
+        <caution>
+          <para>Take caution in that two documents with the same document
+          number can be created.</para>
+        </caution>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/template-manage-menu-wfd-numbersetting.png"
+                       width="400"/>
           </imageobject>
         </mediaobject>
       </listitem>
