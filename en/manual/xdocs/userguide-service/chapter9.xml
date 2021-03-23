@@ -54,22 +54,6 @@
         </mediaobject>
       </figure></para>
 
-    <note>
-      <para>The <emphasis role="bold">Storage path settings</emphasis> pop-up
-      window is displayed as follows:</para>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/connect_3.png" width="450"/>
-        </imageobject>
-      </mediaobject>
-
-      <para>The default path is the subfolder named after your company name,
-      which is located under the eformsign folder. You can also click the
-      <emphasis role="bold">New folder</emphasis> button to create a new
-      folder and change the storage path.</para>
-    </note>
-
     <para>4. Go to the <emphasis role="bold">Manage templates</emphasis>
     menu.</para>
 
@@ -126,7 +110,7 @@
       </note></para>
 
     <figure>
-      <title>Analytics and Reporting Menu Screen (1)</title>
+      <title>Analytics and Reporting Menu Screen</title>
 
       <mediaobject>
         <imageobject>
@@ -143,7 +127,7 @@
     in.</para>
 
     <para><figure>
-        <title>Analytics and Reporting Menu Screen (2)</title>
+        <title>Analytics and Reporting Menu Screen</title>
 
         <mediaobject>
           <imageobject>
@@ -156,7 +140,7 @@
     connections</emphasis> button.</para>
 
     <para><figure>
-        <title>Manage Data Connections Screen (1)</title>
+        <title>Manage Data Connections Screen</title>
 
         <mediaobject>
           <imageobject>
@@ -170,7 +154,7 @@
     the top right corner of the screen.</para>
 
     <figure>
-      <title>Manage Data Connections Screen (2)</title>
+      <title>Manage Data Connections Screen</title>
 
       <mediaobject>
         <imageobject>
@@ -184,7 +168,7 @@
     role="bold">Save</emphasis> button.</para>
 
     <para><figure>
-        <title>Manage data connections Screen (3)</title>
+        <title>Manage data connections Screen</title>
 
         <mediaobject>
           <imageobject>
@@ -194,7 +178,7 @@
       </figure></para>
 
     <para><figure>
-        <title>Manage Data Connections Screen (4)</title>
+        <title>Manage Data Connections Screen</title>
 
         <mediaobject>
           <imageobject>
@@ -212,7 +196,7 @@
     role="bold">Manage data connections</emphasis> screen.</para>
 
     <para><figure>
-        <title>Manage Data Connections Screen (5)</title>
+        <title>Manage Data Connections Screen</title>
 
         <mediaobject>
           <imageobject>
@@ -225,7 +209,7 @@
     field data will be automatically imported from eformsign.</para>
 
     <para><figure>
-        <title>Manage Data Connections Screen (6)</title>
+        <title>Manage Data Connections Screen</title>
 
         <mediaobject>
           <imageobject>
