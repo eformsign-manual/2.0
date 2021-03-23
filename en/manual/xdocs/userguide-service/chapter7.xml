@@ -157,7 +157,7 @@
             </imageobject>
           </inlinemediaobject>) displayed at the top right corner of the page,
         and then check the columns you want to display in the <link
-        linkend="document_column">column check box</link>. </para>
+        linkend="document_column">column check box</link>.</para>
 
         <para>You can also perform actions on a document such as reviewing,
         previewing, correcting, voiding, resending, and deleting a
@@ -283,6 +283,64 @@
         </mediaobject>
       </figure>
 
+      <para><emphasis role="bold">Searching by document
+      status</emphasis></para>
+
+      <para>You can search for documents by document status in each document
+      menu.</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">Action required</emphasis></para>
+        </listitem>
+      </itemizedlist>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/actionrequiredbox-status-search.png"
+                     width="700"/>
+        </imageobject>
+      </mediaobject>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">In progress</emphasis></para>
+        </listitem>
+      </itemizedlist>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/inprocessbox-status-search.png"
+                     width="700"/>
+        </imageobject>
+      </mediaobject>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">Completed</emphasis></para>
+        </listitem>
+      </itemizedlist>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/completedbox-status-search.png"
+                     width="700"/>
+        </imageobject>
+      </mediaobject>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">Manage documents</emphasis></para>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/documentmanage_status_search.png"
+                         width="700"/>
+            </imageobject>
+          </mediaobject>
+        </listitem>
+      </itemizedlist>
+
       <para><emphasis role="bold">Document status filter combo box<indexterm
           class="singular">
           <primary>Documents</primary>
@@ -309,7 +367,7 @@
         <tgroup cols="4">
           <thead>
             <row>
-              <entry align="center">In progress</entry>
+              <entry align="center">Action required</entry>
 
               <entry align="center">Action required</entry>
 
@@ -321,13 +379,13 @@
 
           <tbody>
             <row>
-              <entry>Name + content</entry>
+              <entry>Name + contents</entry>
 
-              <entry>Name + content</entry>
+              <entry>Name + contents</entry>
 
-              <entry>Name + content</entry>
+              <entry>Name + contents</entry>
 
-              <entry>Name + content</entry>
+              <entry>Name + contents</entry>
             </row>
 
             <row>
@@ -355,9 +413,9 @@
 
               <entry>Document ID</entry>
 
-              <entry>Document number</entry>
+              <entry>Document ID</entry>
 
-              <entry>Document number</entry>
+              <entry>Document ID</entry>
             </row>
 
             <row>
@@ -365,19 +423,9 @@
 
               <entry>Document number</entry>
 
-              <entry>Status</entry>
+              <entry>Document number</entry>
 
-              <entry>Step</entry>
-            </row>
-
-            <row>
-              <entry>Status</entry>
-
-              <entry>Status</entry>
-
-              <entry>Step</entry>
-
-              <entry>Created by</entry>
+              <entry>Document number</entry>
             </row>
 
             <row>
@@ -385,9 +433,9 @@
 
               <entry>Template name</entry>
 
-              <entry>Created by</entry>
+              <entry>Step</entry>
 
-              <entry>Created on</entry>
+              <entry>Step</entry>
             </row>
 
             <row>
@@ -395,9 +443,9 @@
 
               <entry>Step</entry>
 
-              <entry>Created on</entry>
+              <entry>Created by</entry>
 
-              <entry>Processed by</entry>
+              <entry>Created by</entry>
             </row>
 
             <row>
@@ -405,9 +453,9 @@
 
               <entry>Created by</entry>
 
-              <entry>Processed by</entry>
+              <entry>Created on</entry>
 
-              <entry>Processed on</entry>
+              <entry>Created on</entry>
             </row>
 
             <row>
@@ -415,47 +463,37 @@
 
               <entry>Created on</entry>
 
-              <entry>Processed on</entry>
+              <entry>Processed by</entry>
 
-              <entry>Custom filter</entry>
+              <entry>Processed by</entry>
             </row>
 
             <row>
-              <entry>Processed by</entry>
-
               <entry>Requested by</entry>
 
-              <entry>Step status</entry>
+              <entry>Processed by</entry>
 
-              <entry/>
-            </row>
-
-            <row>
               <entry>Processed on</entry>
 
+              <entry>Processed on</entry>
+            </row>
+
+            <row>
               <entry>Requested on</entry>
 
+              <entry>Processed on</entry>
+
+              <entry>Step status</entry>
+
               <entry>Custom filter</entry>
-
-              <entry/>
             </row>
 
             <row>
-              <entry>Step status</entry>
-
-              <entry>Step status</entry>
-
-              <entry/>
-
-              <entry/>
-            </row>
-
-            <row>
-              <entry/>
-
               <entry>Days passed</entry>
 
               <entry/>
+
+              <entry>Custom filter</entry>
 
               <entry/>
             </row>
@@ -793,140 +831,42 @@
   </section>
 
   <section>
-    <title>Creating New Documents</title>
+    <title>Drafts</title>
 
-    <para>You can create new documents by using uploaded templates.</para>
+    <para>The Drafts menu stores the documents in the <emphasis
+    role="bold">New from my file</emphasis> step that have been saved by
+    clicking <emphasis role="bold">Save as a draft</emphasis> before sending
+    the document. You can open the files stored in the <emphasis
+    role="bold">Drafts</emphasis> menu anytime and proceed or delete.</para>
 
-    <note>
-      <para>Members and groups can only create documents from templates in
-      which they are given template usage permission.</para>
-    </note>
+    <orderedlist>
+      <listitem>
+        <para>Click <emphasis role="bold">Drafts</emphasis> in the sidebar
+        menu to go to the Drafts page.</para>
 
-    <para><emphasis role="bold">Creating a new document</emphasis></para>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/draftbox-menu.png" width="700"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
 
-    <para>1. Go to the<emphasis role="bold"> New document
-    </emphasis>menu.</para>
+      <listitem>
+        <para>Select a document you want and click the <emphasis
+        role="bold">Continue</emphasis> button next to it.</para>
 
-    <para>2. Click the create icon(<inlinemediaobject>
-        <imageobject>
-          <imagedata contentwidth="27" fileref="resources/create-icon.PNG"/>
-        </imageobject>
-      </inlinemediaobject>) of the template you want to create a document
-    from.</para>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/draftbox-documentlist.png"
+                       width="700"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
 
-    <figure>
-      <title>New document list</title>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/create_newdocument1.png" width="700"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
-
-    <para>3. Create a document, and then click the <emphasis
-    role="bold">Complete</emphasis> or <emphasis
-    role="bold">Request</emphasis> button at the top right corner of the
-    screen.</para>
-
-    <note>
-      <para>Different buttons are displayed at the top right corner of the
-      screen according to the workflow set in the template.</para>
-    </note>
-  </section>
-
-  <section>
-    <title>Send in Bulk</title>
-
-    <para><indexterm class="singular">
-        <primary>Documents</primary>
-
-        <secondary>Send in bulk</secondary>
-      </indexterm>You can send multiple documents at once by using the
-    <emphasis role="bold">Send in bulk</emphasis> feature. Also, you can
-    preview the documents before sending them to recipients.</para>
-
-    <note>
-      <para>This action requires either one of document management or company
-      administrator permission.</para>
-    </note>
-
-    <para><emphasis role="bold">Send in bulk</emphasis></para>
-
-    <para>1. Go to the <emphasis role="bold">New document</emphasis>
-    menu.</para>
-
-    <para>2. Click the send in bulk icon of the template you want to create
-    documents from.</para>
-
-    <figure>
-      <title>Send in bulk icon</title>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/bulk-creation-icon.png" width="300"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
-
-    <para>3. Enter the values in the columns displayed on the screen.</para>
-
-    <figure>
-      <title>Send in bulk screen</title>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/bulk_create.png" width="700"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
-
-    <note>
-      <para>Each column of the table contains all the fields of a document.
-      The IDs of components (which are fields in a template) are shown as the
-      name of each column. The last row of the first column (No.) indicates
-      the number of documents to be created.</para>
-
-      <para>Tables are filled in a similar way as in Excel. You can
-      double-click on each cell to enter value and right-click on the mouse to
-      add or delete columns. The value entered in a cell can be copied and
-      pasted, and dragged to another cell.</para>
-    </note>
-
-    <para>4. Click the <emphasis role="bold">Preview</emphasis> button on the
-    top right corner of the screen to view the documents you created and then
-    click the <emphasis role="bold">Create</emphasis> button to send the
-    documents.</para>
-
-    <note>
-      <para>If there is an external process step in a template, then the left
-      area of the table is highlighted in blue. This area is for entering the
-      external recipients’ names, emails, etc. Depending on the external
-      process settings, there can be phone numbers, verification passwords,
-      etc.</para>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/bulk-creation-table-blue-section.png"
-                     width="700"/>
-        </imageobject>
-      </mediaobject>
-    </note>
-
-    <tip>
-      <para>If there is a component that is not shown in the <emphasis
-      role="bold">Send in bulk </emphasis>screen, then the following must be
-      checked.</para>
-
-      <para>1. The components that cannot be entered in <emphasis
-      role="bold">Send in bulk</emphasis>: camera, voice, and grouped radio
-      components cannot be used in Send in bulk.</para>
-
-      <para>2. Check whether the components are allowed access in Template
-      settings: Only the components that are checked to be allowed access in
-      the <emphasis role="bold">Manage items</emphasis> tab of <emphasis
-      role="bold">Template settings(⚙) &gt; Workflow</emphasis> are
-      shown.</para>
-    </tip>
+      <listitem>
+        <para>Edit the document in the <emphasis role="bold">Create from my
+        file</emphasis> screen and send it.</para>
+      </listitem>
+    </orderedlist>
   </section>
 </chapter>
