@@ -129,7 +129,7 @@
         </mediaobject>
       </figure>
 
-      <para>5. Check whether Form builder was installed properly by running MS
+      <para>6. Check whether Form builder was installed properly by running MS
       Office (Word, Excel, PowerPoint). If <emphasis role="bold">OZ in
       Word/Excel/PowerPoint</emphasis> is displayed as below, then it was
       installed properly.</para>
@@ -1298,6 +1298,13 @@
           the signature area inserts the registered initial into the
           document.</para>
         </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Registered stamp:</emphasis> If the user
+          has already registered an stamp on eformsign, then clicking the
+          signature area inserts the registered stamp into the
+          document.</para>
+        </listitem>
       </itemizedlist>
 
       <para><note>
@@ -1658,13 +1665,11 @@
           <primary>Components</primary>
 
           <secondary>Date</secondary>
-        </indexterm>This component is used for automatically entering the date
-      in which a document is created, accessed, or modified into the document.
-      You can automatically enter one of the following dates according to the
-      date type selected: the date in which the document is created (Date
-      created), the date in which the document is last accessed (Date
-      accessed), or the date in which a specific component is filled in (Last
-      modified date of the content).</para>
+        </indexterm>This component is used to automatically enter the date in
+      which a document is created or modified. The date in which the document
+      is created, the date in which the document is accessed, or the date in
+      which the content of a component is last modified is automatically
+      entered, according to the date type selected.</para>
 
       <mediaobject>
         <imageobject>
@@ -1850,11 +1855,7 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>The form ID of the document is automatically generated and
-      displayed. It can also be changed.</para>
-
-      <para>The form ID defined here can be applied when editing the
-      document.</para>
+      <para>Sets the label component ID.</para>
     </section>
   </section>
 

@@ -1099,6 +1099,13 @@
         <listitem>
           <para><emphasis role="bold">Remove documents</emphasis> (optional):
           Permission to permanently remove documents from the system.</para>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/template-setting-auth-doc-new.PNG"
+                         width="700"/>
+            </imageobject>
+          </mediaobject>
         </listitem>
       </itemizedlist>
     </section>

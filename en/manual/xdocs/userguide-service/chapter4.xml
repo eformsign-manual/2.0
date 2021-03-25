@@ -139,14 +139,6 @@
       </mediaobject>
     </figure>
 
-    <para>2. To upload a file, simply drag the file onto the <emphasis
-    role="bold">Manage templates</emphasis> page or click the <emphasis
-    role="bold">Select a file</emphasis> button and then upload the
-    file.</para>
-
-    <para>3. When a file is uploaded, the <emphasis role="bold">Create
-    template</emphasis> page will be displayed as follows.</para>
-
     <section>
       <title>Web Form Designer Menu Layout</title>
 
@@ -158,7 +150,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/web-form_4.png" width="730"/>
+            <imagedata fileref="resources/web-form_4a.png" width="730"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -168,7 +160,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/web-form_4.png" width="730"/>
+            <imagedata fileref="resources/web-form_4b.png" width="730"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -540,6 +532,14 @@
           clicked. However, if there is no registered signature or initial,
           then a regular <emphasis role="bold">Signature</emphasis> pop-up
           will be displayed when a signature area is clicked.</para>
+        </note><note>
+          <para>In some cases, you may need to use a seal or stamp on a
+          document rather than your own signature. With eformsign, you can
+          also use a stamp image to stamp the signature on a document. To use
+          a stamp image when submitting a document, click the <emphasis
+          role="bold">Stamp</emphasis> tab in the <emphasis
+          role="bold">Signature</emphasis> pop-up, and then select a stamp
+          image and click <emphasis role="bold">OK</emphasis>.</para>
         </note></para>
 
       <para><emphasis role="bold">③ Signature Pen Thick</emphasis></para>
@@ -602,7 +602,8 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/Signature-component-properties_web_signer.png"/>
+              <imagedata fileref="resources/Signature-component-properties_web_signer.png"
+                         width="200"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -729,6 +730,10 @@
 
       <para>The form ID defined here can be applied when editing the
       document.</para>
+
+      <para><emphasis role="bold">②Text</emphasis></para>
+
+      <para>Text entered in the text box is displayed on the document.</para>
     </section>
 
     <section xml:id="check2">
@@ -1067,7 +1072,13 @@
       the component for selecting the vacation start date can be named
       ‘Vacation start date’.</para>
 
-      <para><emphasis role="bold">② Format</emphasis></para>
+      <para><emphasis role="bold">② Default value</emphasis></para>
+
+      <para>Sets the date to be displayed as default. If you check <emphasis
+      role="bold">Set today's date as default date</emphasis>, then today's
+      date is automatically entered when a document is opened.</para>
+
+      <para><emphasis role="bold">③ Format</emphasis></para>
 
       <para>Sets the format in which date will be displayed. The default
       setting is date_yyyy-MM-dd.</para>
@@ -1092,19 +1103,11 @@
       ‘15-02-2020’, then enter <emphasis role="bold">dd-MM-yyyy </emphasis>in
       the Format field.</para>
 
-      <para><emphasis role="bold">③ Minimum Date/Maximum
+      <para><emphasis role="bold">④ Minimum Date/Maximum
       Date</emphasis></para>
 
       <para>Sets the range of dates that can be selected in the component by
       specifying the minimum and maximum dates.</para>
-
-      <para><emphasis role="bold">④ Display Today for Empty
-      Value</emphasis></para>
-
-      <para>Checking this option automatically enters the date (the date in
-      which the document is opened) when the document is opened. This option
-      is checked by default when you add a Datetime component. You can change
-      the date by clicking the component.</para>
 
       <para><emphasis role="bold">⑤ Placeholder</emphasis></para>
 
@@ -1113,8 +1116,9 @@
 
       <para><emphasis role="bold">⑥ Tooltip Text</emphasis></para>
 
-      <para>Displays the description in Tooltip Text when you hover the mouse
-      over a component.</para>
+      <para>If you hover mouse over a component, the description you entered
+      in the tooltip text will be displayed. In the eformsign app, this will
+      be displayed at the top center of the keypad.</para>
     </section>
 
     <section xml:id="numeric2">
@@ -1150,17 +1154,17 @@
       component for entering the number of people in a reservation can be
       named ‘peopleCount’.</para>
 
-      <para><emphasis role="bold">② Unit of Change</emphasis></para>
+      <para><emphasis role="bold">② Default value</emphasis></para>
+
+      <para>Enters the default number to be displayed.</para>
+
+      <para><emphasis role="bold">③ Unit of Change</emphasis></para>
 
       <para>Enters the unit of number that will increase/decrease the number
       whenever the up/down arrow icon is clicked. For example, if the
       <emphasis role="bold">Unit of Change</emphasis> is set to 100, then when
       you click the up arrow icon (▲), the number is increased by 100 such as
       200, 300, 400, and so on.</para>
-
-      <para><emphasis role="bold">② Default value</emphasis></para>
-
-      <para>Enters the default number to be displayed.</para>
 
       <para><emphasis role="bold">④ Minimum/Maximum Value</emphasis></para>
 
@@ -1180,8 +1184,9 @@
 
       <para><emphasis role="bold">⑥ Tooltip Text</emphasis></para>
 
-      <para>Displays the description in Tooltip Text when you hover the mouse
-      over a component.</para>
+      <para>If you hover mouse over a component, the description you entered
+      in the tooltip text will be displayed. In the eformsign app, this will
+      be displayed at the top center of the keypad.</para>
     </section>
 
     <section xml:id="camera2">
@@ -1407,7 +1412,7 @@
 
           <note>
             <para>The document ID is a unique document ID assigned in the
-            system, so it does not require separate settings. </para>
+            system, so it does not require separate settings.</para>
           </note>
         </listitem>
       </itemizedlist>
@@ -1420,7 +1425,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/document-domponent-properties_web.png"
-                       width="250"/>
+                       width="400"/>
           </imageobject>
         </mediaobject>
       </figure>

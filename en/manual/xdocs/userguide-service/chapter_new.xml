@@ -13,13 +13,9 @@
     <title>Overview</title>
 
     <para>Anyone can use eformsign to easily convert existing documents into
-    electronic documents and then send them for signature.</para>
-
-    <para>In eformsign, there are two ways to create and send
-    documents.</para>
-
-    <para>You can upload a file from your PC to eformsign, or use a existing
-    template saved in eformsign.</para>
+    electronic documents and then send them for signature. In eformsign, there
+    are two ways to create and send documents. You can upload a file from your
+    PC to eformsign, or use a existing template saved in eformsign.</para>
 
     <itemizedlist>
       <listitem>
@@ -44,14 +40,14 @@
       for a given template.</para>
 
       <para>You can create a template using Web From Designer or Form Builder.
-      For more information, refer to <xref linkend="template_wd"/>와 <xref
+      For more information, refer to <xref linkend="template_wd"/> and <xref
       linkend="template_fb"/>.</para>
     </note>
 
     <important>
       <para>When creating a document with <emphasis role="bold">New from my
       file</emphasis>, you cannot save it as a template. For documents you
-      plan on frequently, it is recommended to register it as a
+      plan on using frequently, it is recommended to register it as a
       template.</para>
     </important>
   </section>
@@ -62,7 +58,7 @@
     <para>You can upload a PDF file you want and then add fields (components)
     onto the document. Then, you can specify the participants that will fill
     in each component and enter the information of the document participants
-    and reviewers and then send the document.</para>
+    and reviewers, and then send the document.</para>
 
     <orderedlist>
       <listitem>
@@ -144,8 +140,8 @@
           participants added in the Design form step are shown in the Add
           recipients step. You can enter the contact information of each
           recipient such as email. In the Add recipient screen, you can
-          delete/delete participants and reviewers and set detailed options
-          for each recipient.</para>
+          delete/add participants and reviewers and set detailed options for
+          each recipient.</para>
         </note>
 
         <tip>
@@ -239,13 +235,13 @@
     <para><emphasis role="bold">Add recipients &gt; Recipient
     options</emphasis></para>
 
-    <para>In <emphasis role="bold">Design form</emphasis> step or the
+    <para>In the <emphasis role="bold">Design form</emphasis> step or the
     <emphasis role="bold">Add recipients</emphasis> step, you can add
     participants who will receive the document.</para>
 
-    <para><emphasis role="bold">Add recipients</emphasis> step, you can set
-    detailed settings of each participant. Additionally, you can add or remove
-    participants as well as adding reviewers who will review the
+    <para>In the<emphasis role="bold"> Add recipients</emphasis> step, you can
+    set detailed settings for each participant. Additionally, you can add or
+    remove participants as well as adding reviewers who will review the
     document.</para>
 
     <para>You have to add the name of each participant and reviewer, and their
@@ -254,7 +250,7 @@
     eformsign.</para>
 
     <para>The detail settings in <emphasis role="bold">Recipient
-    options</emphasis> is displayed differently depending whether the
+    options</emphasis> is displayed differently depending on whether the
     participant or reviewer is a member of your company or is an external
     recipient.</para>
 
@@ -358,7 +354,7 @@
       template) for a template by a member with template management permission
       for that template.</para>
 
-      <para> A template is shown in the <emphasis role="bold">Manage
+      <para>A template is shown in the <emphasis role="bold">Manage
       templates</emphasis> page only to member/groups that have been granted
       template usage permission for that template.</para>
     </note>
@@ -451,8 +447,7 @@
         </mediaobject>
       </figure>
 
-      <para>3. Enter the values in the columns displayed on the screen.
-      </para>
+      <para>3. Enter the values in the columns displayed on the screen.</para>
 
       <figure>
         <title>Send in bulk screen</title>
@@ -470,17 +465,18 @@
         <para>Each column of the table contains all the fields of a document.
         The IDs of components (which are fields in a template) are shown as
         the name of each column. The last row of the first column (No.)
-        indicates the number of documents to be created. Tables are filled in
-        a similar way as in Excel.You can double-click on each cell to enter
-        value and right-click on the mouse to add or delete columns. The value
-        entered in a cell can be copied and pasted, and dragged to another
-        cell. </para>
+        indicates the number of documents to be created.</para>
+
+        <para>Tables are filled in a similar way as in Excel.You can
+        double-click on each cell to enter a value and right-click on the
+        mouse to add or delete columns. The value entered in a cell can be
+        copied and pasted, and dragged to another cell.</para>
       </note>
 
       <para>4. Click the <emphasis role="bold">Preview</emphasis> button on
       the top right corner of the screen to view the documents you created and
       then click the <emphasis role="bold">Create</emphasis> button to send
-      the documents. </para>
+      the documents.</para>
 
       <para/>
 
@@ -489,7 +485,7 @@
         left area of the table is highlighted in blue. This area is for
         entering the external recipients’ names, emails, etc. Depending on the
         external process settings, there can be phone numbers, verification
-        passwords, etc. </para>
+        passwords, etc.</para>
 
         <mediaobject>
           <imageobject>
@@ -504,11 +500,11 @@
       <tip>
         <para>If there is a component that is not shown in the <emphasis
         role="bold">Send in bulk</emphasis> screen, then the following must be
-        checked. </para>
+        checked.</para>
 
         <para>1. The components that cannot be entered in <emphasis
         role="bold">Send in bulk</emphasis>: camera, voice, and grouped radio
-        components cannot be used in Send in bulk. </para>
+        components cannot be used in Send in bulk.</para>
 
         <para>2. Check whether the components are allowed access in Template
         settings. Only the components that are checked to be allowed access in

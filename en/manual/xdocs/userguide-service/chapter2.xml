@@ -511,6 +511,14 @@
       </mediaobject>
     </figure>
 
+    <para>If you click the (<inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="17"
+                     fileref="resources/menu-hamberger-icon.png"/>
+        </imageobject>
+      </inlinemediaobject>) icon in the sidebar, the following menu is
+    displayed.</para>
+
     <figure>
       <title>View and Edit My Profile</title>
 
@@ -917,16 +925,6 @@
           </indexterm> Document managers can be selected for each separate
         template.</para>
       </listitem>
-
-      <listitem>
-        <para><emphasis role="bold">Document creation</emphasis></para>
-
-        <para><indexterm class="singular">
-            <primary>Template usage</primary>
-          </indexterm>Template usage (document creation) permission can be
-        granted to members for each template. Only members with the template
-        usage permission can create documents from that template.</para>
-      </listitem>
     </itemizedlist>
 
     <section>
@@ -1037,12 +1035,9 @@
           <primary>Company manager</primary>
         </indexterm>Company managers can access the <emphasis
       role="bold">Manage company</emphasis> menu and can view, edit, and
-      delete information regarding the company and groups/members.</para>
-
-      <note>
-        <para>The company administrator or company managers can grant the
-        company manager permission to members.</para>
-      </note>
+      delete information regarding the company and groups/members. The company
+      administrator or company managers can grant the company manager
+      permission to members.</para>
 
       <para><emphasis role="bold">Granting the Company Manager
       Permission</emphasis></para>
@@ -1061,7 +1056,7 @@
 
         <listitem>
           <para>Select the member in the member list you want to grant the
-          permission.</para>
+          company manager permission.</para>
         </listitem>
 
         <listitem>
@@ -1098,11 +1093,9 @@
       deploy, and delete templates.</para>
 
       <para>The template manager who created a template is the template owner
-      of that template by default.</para>
-
-      <para>However, if multiple template managers exist in a company, a
-      template manager may not necessarily be the template owner of a
-      template.</para>
+      of that template by default. However, if multiple template managers
+      exist in a company, a template manager may not necessarily be the
+      template owner of a template.</para>
 
       <para>If the template manager is not the template owner, the template
       manager can only view the template settings and duplicate the

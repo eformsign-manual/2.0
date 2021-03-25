@@ -32,7 +32,7 @@
 
     <para>eformsign also provides a bulk send feature, by which users can
     create and send multiple documents at once and can minimize repetitive
-    input with auto-fill feature. Also, by adding and configuring custom
+    input with the auto-fill feature. Also, by adding and configuring custom
     fields, fields in documents such as company information, group and member
     information, recent input value, and date can be automatically filled in.
     Furthermore, eformsign allows users to easily manage companies' members
@@ -61,11 +61,10 @@
     used to verify identity.</para>
 
     <para>Digital signatures have become legally binding in phases in the vast
-    majority of countries around the world.</para>
-
-    <para>eformsign’s e-signatures are legally binding for
-    individual-individual and corporation-individual matters. As well, it
-    provides various additional features for non-repudiation.</para>
+    majority of countries around the world. eformsign’s e-signatures are
+    legally binding for individual-individual and corporation-individual
+    matters. As well, it provides various additional features for
+    non-repudiation.</para>
 
     <note>
       <para>The following describes the legal effect of digital signatures of
@@ -303,6 +302,13 @@
             <primary>Company Administrator</primary>
           </indexterm>The representative of a company and has full permission
         to use eformsign.</para>
+
+        <para><emphasis role="bold">Company Management
+        Permission</emphasis></para>
+
+        <para>Members with company management permission can access company
+        management menus, and can manage the company, groups, and
+        members.</para>
       </listitem>
 
       <listitem>
@@ -337,7 +343,7 @@
     Word, Excel, or PowerPoint and then upload it to eformsign.</para>
 
     <note>
-      <para>Currently, the method of upload files and creating forms online
+      <para>Currently, the method of uploading files and creating forms online
       only supports PDF files. Microsoft Office files, and image files such as
       JPG and PNG are planned to be supported in the near future.</para>
     </note>
@@ -386,17 +392,14 @@
               <primary>Web Form Designer</primary>
             </indexterm>You can create a template by uploading a document file
           (in the PDF format) on eformsign and then adding the components you
-          want such as text, signature, and date onto the document. After
-          adding components in the uploaded document, configure the template
-          settings and deploy the template.You can configure the detailed
-          template settings by going to the Manage templates menu &gt;
-          selecting the template you want &gt; setting the General, Set
-          permissions, Workflow, Field, and Notification settings tabs &gt;
-          deploying the template.You can then go to the New document menu to
-          create a document from a template you deployed and send it to
-          recipients</para>
+          want such as text, signature, and date onto the document.</para>
 
-          <para>.</para>
+          <para>After adding components in the uploaded document, configure
+          the template settings, workflow, notification settings and deploy
+          the template.</para>
+
+          <para>You can then go to the New document menu to create a document
+          from a template you deployed and send it to recipients</para>
 
           <figure>
             <title>[Figure 1.5] Usage Flow of eformsign Using Web Form
@@ -420,14 +423,14 @@
           then using the ribbon menu (named OZ in Office) to add the
           components you want such as text, signature, and date onto the
           document.Then, you can upload the template you created onto
-          eformsign by clicking the Upload button in the ribbon menu. After
-          uploading the template, set the template settings and deploy the
-          template.You can set the template settings by logging into the
-          eformsign website, going to the Manage templates menu &gt; selecting
-          the template you want &gt; setting the General, Set permissions,
-          Workflow, Field, and Notification settings tabs &gt; deploying the
-          template.You can then go to the New document menu to create a
-          document from a deployed template and send it to recipients</para>
+          eformsign by clicking the Upload button in the ribbon menu.</para>
+
+          <para>After uploading the template, set the template settings,
+          workflow, notification settings, etc. and deploy the
+          template.</para>
+
+          <para>You can then go to the New document menu to create a document
+          from a deployed template and send it to recipients</para>
         </listitem>
       </orderedlist>
 
@@ -560,11 +563,11 @@
       <para>Electronic documents can be used to sign various types of
       applications including application forms for registrations, quotations,
       medical treatments, and purchases. eformsign's workflow feature allows
-      you to easily send application forms even when an application needs
-      going through multiple departments in an organization as well as
-      forwarding the document to the correct department. You can also send the
-      copy of a completed document to the parties involved immediately after
-      the document is completed.</para>
+      you to easily send application forms even when an application needs to
+      go through multiple departments in an organization as well as forwarding
+      the document to the correct department. You can also send the copy of a
+      completed document to the parties involved immediately after the
+      document is completed.</para>
 
       <figure>
         <title>Example Workflow of an Application Form</title>
