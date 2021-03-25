@@ -29,7 +29,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/dashboard_menu_expand.png"
-                       width="730"/>
+                       width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -254,7 +254,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/dashboard_main.png" width="730"/>
+            <imagedata fileref="resources/dashboard_main.png" width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -335,7 +335,7 @@
                   <para><inlinemediaobject>
                       <imageobject>
                         <imagedata fileref="resources/favorites-add-popup2.PNG"
-                                   width="700"/>
+                                   width="400"/>
                       </imageobject>
                     </inlinemediaobject></para>
                 </listitem>
@@ -639,7 +639,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/managecompany-companyinfo-menu.png"
-                       width="730"/>
+                       width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -653,7 +653,8 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/managecompany-companyinfo.png"/>
+              <imagedata fileref="resources/managecompany-companyinfo.png"
+                         width="700"/>
             </imageobject>
           </mediaobject>
         </listitem>
@@ -675,7 +676,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/managecompany-companyinfo-edit_1.png"
-                       width="730"/>
+                       width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -705,7 +706,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/managecompany-brand.png" width="730"/>
+            <imagedata fileref="resources/managecompany-brand.png" width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -758,7 +759,7 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/logo-change.png" width="730"/>
+                <imagedata fileref="resources/logo-change.png" width="700"/>
               </imageobject>
             </mediaobject>
           </figure>

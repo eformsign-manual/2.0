@@ -47,7 +47,8 @@
         <mediaobject>
           <imageobject>
             <imagedata contentwidth="700"
-                       fileref="resources/myfile_create_document.png"/>
+                       fileref="resources/myfile_create_document.png"
+                       width="700"/>
           </imageobject>
         </mediaobject>
       </listitem>
@@ -72,8 +73,9 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata contentwidth="864"
-                       fileref="resources/myfile_create_document3.png"/>
+            <imagedata contentwidth="700"
+                       fileref="resources/myfile_create_document3.png"
+                       width="700"/>
           </imageobject>
         </mediaobject>
       </listitem>
@@ -93,8 +95,8 @@
 
               <mediaobject>
                 <imageobject>
-                  <imagedata contentwidth="854"
-                             fileref="resources/web-form_1.png"/>
+                  <imagedata contentwidth="700"
+                             fileref="resources/web-form_1.png" width="700"/>
                 </imageobject>
               </mediaobject>
             </figure>
@@ -110,8 +112,8 @@
 
               <mediaobject>
                 <imageobject>
-                  <imagedata contentwidth="833"
-                             fileref="resources/web-form_2.png"/>
+                  <imagedata contentwidth="700"
+                             fileref="resources/web-form_2.png" width="700"/>
                 </imageobject>
               </mediaobject>
             </figure>
@@ -125,8 +127,8 @@
 
               <mediaobject>
                 <imageobject>
-                  <imagedata contentwidth="839"
-                             fileref="resources/web-form_3.png"/>
+                  <imagedata contentwidth="700"
+                             fileref="resources/web-form_3.png" width="700"/>
                 </imageobject>
               </mediaobject>
             </figure>
@@ -146,7 +148,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/web-form_4.png" width="750"/>
+            <imagedata contentwidth="700" fileref="resources/web-form_4.png"
+                       width="750"/>
           </imageobject>
         </mediaobject>
 
@@ -155,8 +158,9 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata contentwidth="754"
-                         fileref="resources/myfile_create_document4.png"/>
+              <imagedata contentwidth="700"
+                         fileref="resources/myfile_create_document4.png"
+                         width="700"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -220,7 +224,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/component_web_1.png" width="750"/>
+            <imagedata fileref="resources/component_web_1.png" width="700"/>
           </imageobject>
         </mediaobject>
       </figure></para>
@@ -442,7 +446,9 @@
           <secondary>署名</secondary>
         </indexterm>文書への署名依頼をする必要がある場合は、署名コンポーネントを使用します。</para>
 
-      <para>署名コンポーネントを入力すると、署名が必要な文書に次のように署名ポップアップが表示されます。署名を直接手書きで描画するか、テキストを入力して署名を生成できます。既存の署名がある場合は、その署名を使用することもできます。</para>
+      <para><emphasis role="bold">署名 </emphasis>コンポーネントを入力すると、署名が必要な文書に次のように
+      <emphasis role="bold">署名</emphasis>
+      ポップアップが表示されます。署名を直接手書きで描画するか、テキストを入力して署名を生成できます。既存の署名がある場合は、その署名を使用することもできます。</para>
 
       <mediaobject>
         <imageobject>
@@ -553,7 +559,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/Signature-component-properties_web_date.png"
-                         width="750"/>
+                         width="700"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -613,12 +619,6 @@
       role="bold">複数行テキスト </emphasis>のコンポーネント項目の <emphasis
       role="bold">名前</emphasis>
       を入力します。たとえば、木村、鈴木などが入力されるコンポーネントの名前は「氏名」です。</para>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/text-component-properties_web_name.png"/>
-        </imageobject>
-      </mediaobject>
 
       <note>
         <para><emphasis role="bold">名前</emphasis>
@@ -801,7 +801,7 @@
       <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
 
       <para><figure>
-          <title>選択コンポーネントのプロパティの設定</title>
+          <title>ラジオコンポーネントのプロパティの設定</title>
 
           <mediaobject>
             <imageobject>
@@ -825,7 +825,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/radio-items-should-have-same-ID.png"
-                       width="700"/>
+                       width="600"/>
           </imageobject>
         </mediaobject>
       </figure>

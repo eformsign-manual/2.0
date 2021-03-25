@@ -71,7 +71,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/inbox_ex1.png" width="500"/>
+          <imagedata fileref="resources/inbox_ex1.png" width="700"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -85,7 +85,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/inbox_layout.png" width="750"/>
+          <imagedata fileref="resources/inbox_layout.png" width="700"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -123,7 +123,7 @@
       </varlistentry>
 
       <varlistentry>
-        <term>③ 文書リストおよび <link linkend="additional_work">作業項目</link> </term>
+        <term>③ 文書リストおよび <link linkend="additional_work">作業項目</link></term>
 
         <listitem>
           <para>文書は、1 ページあたり最大 20 のリストを表示し、20を超える文書についてはページ区分で表示します。</para>

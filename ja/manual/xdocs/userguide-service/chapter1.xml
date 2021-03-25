@@ -116,7 +116,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/dashboard.png" width="750"/>
+              <imagedata fileref="resources/dashboard.png" width="700"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -440,7 +440,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/contract_ex1.png" width="730"/>
+            <imagedata fileref="resources/contract_ex1.png" width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -459,7 +459,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/usecase-process.PNG" width="730"/>
+              <imagedata fileref="resources/usecase-process.PNG" width="700"/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -487,7 +487,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/application_ex1.png" width="730"/>
+            <imagedata fileref="resources/application_ex1.png" width="700"/>
           </imageobject>
         </mediaobject>
       </figure>

@@ -37,7 +37,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/ozinoffice-flow_1.png" width="750"/>
+          <imagedata fileref="resources/ozinoffice-flow_1.png" width="700"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -58,7 +58,9 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/formbuilder_download.png"/>
+              <imagedata contentwidth="700"
+                         fileref="resources/formbuilder_download.png"
+                         width="700"/>
             </imageobject>
           </mediaobject>
         </listitem>
@@ -69,7 +71,9 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/formbuilder_download_2.png"/>
+              <imagedata contentwidth="700"
+                         fileref="resources/formbuilder_download_2.png"
+                         width="700"/>
             </imageobject>
           </mediaobject>
         </listitem>
@@ -209,7 +213,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/components-in-word.png" width="730"/>
+            <imagedata fileref="resources/components-in-word.png" width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -382,7 +386,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/checking-components-properties.png"
-                       width="730"/>
+                       width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -410,7 +414,8 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/ozinexcel_1.png"/>
+                <imagedata contentwidth="700"
+                           fileref="resources/ozinexcel_1.png"/>
               </imageobject>
             </mediaobject>
           </listitem>
@@ -420,7 +425,8 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/ozinexcel_2.png"/>
+                <imagedata contentwidth="700"
+                           fileref="resources/ozinexcel_2.png"/>
               </imageobject>
             </mediaobject>
           </listitem>
@@ -430,7 +436,8 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/ozinexcel_3.png"/>
+                <imagedata contentwidth="700"
+                           fileref="resources/ozinexcel_3.png"/>
               </imageobject>
             </mediaobject>
           </listitem>
@@ -454,7 +461,8 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/ozinword_1.png"/>
+                <imagedata contentwidth="700"
+                           fileref="resources/ozinword_1.png"/>
               </imageobject>
             </mediaobject>
           </listitem>
@@ -466,7 +474,8 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/ozinword_2.png"/>
+                <imagedata contentwidth="700"
+                           fileref="resources/ozinword_2.png"/>
               </imageobject>
             </mediaobject>
           </listitem>
@@ -476,7 +485,8 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/ozinword_3.png"/>
+                <imagedata contentwidth="700"
+                           fileref="resources/ozinword_3.png"/>
               </imageobject>
             </mediaobject>
           </listitem>
@@ -497,7 +507,8 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/ozinword_2_1.png"/>
+                <imagedata contentwidth="700"
+                           fileref="resources/ozinword_2_1.png"/>
               </imageobject>
             </mediaobject>
           </listitem>
@@ -507,7 +518,8 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/ozinword_2_2.png"/>
+                <imagedata contentwidth="700"
+                           fileref="resources/ozinword_2_2.png"/>
               </imageobject>
             </mediaobject>
           </listitem>
@@ -601,7 +613,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_check.png"
-                     width="730"/>
+                     width="700"/>
         </imageobject>
       </mediaobject>
 
@@ -670,7 +682,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components.png"
-                     width="730"/>
+                     width="700"/>
         </imageobject>
       </mediaobject>
 
@@ -705,7 +717,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/radio-items-should-have-same-ID.png"
-                       width="730"/>
+                       width="600"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -744,7 +756,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_Combo.png"
-                     width="730"/>
+                     width="700"/>
         </imageobject>
       </mediaobject>
 
@@ -825,7 +837,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/text-and-muliline-components.png"
-                     width="730"/>
+                     width="700"/>
         </imageobject>
       </mediaobject>
 
@@ -847,18 +859,6 @@
       role="bold">複数行テキスト </emphasis>のコンポーネント項目の <emphasis
       role="bold">名前</emphasis> を入力します。たとえば、木村、鈴木などが入力されるコンポーネントの <emphasis
       role="bold">名前</emphasis> は「氏名」です。</para>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/text-component-properties_web_name.png"/>
-        </imageobject>
-      </mediaobject>
-
-      <note>
-        <para> <emphasis role="bold">名前</emphasis>
-        は自動的に付与されますが、コンポーネントを追加した後、受信者に入力を依頼するかどうかを決める際に、その <emphasis
-        role="bold">名前</emphasis> が表示されるので、認識しやすい名前を設定することを推奨します。</para>
-      </note>
 
       <para><emphasis role="bold">② 入力可能な最大文字数</emphasis></para>
 
@@ -890,7 +890,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_datetime.png"
-                     width="730"/>
+                     width="700"/>
         </imageobject>
       </mediaobject>
 
@@ -986,7 +986,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_numeric.png"
-                     width="730"/>
+                     width="700"/>
         </imageobject>
       </mediaobject>
 
@@ -1060,7 +1060,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_toggle.png"
-                     width="730"/>
+                     width="700"/>
         </imageobject>
       </mediaobject>
 
@@ -1131,7 +1131,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_signature.png"
-                     width="730"/>
+                     width="700"/>
         </imageobject>
       </mediaobject>
 
@@ -1257,14 +1257,14 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_camera.png"
-                     width="730"/>
+                     width="700"/>
         </imageobject>
       </mediaobject>
 
       <para>選択した画像のサイズが入力欄のサイズより大きい場合、入力欄内に入るサイズに縮小してアップロードされます。</para>
 
       <note>
-        <para> <emphasis role="bold">写真</emphasis>
+        <para><emphasis role="bold">写真</emphasis>
         コンポーネントの場合、カメラを利用できる環境ではカメラ機能が実行され、カメラの利用できない環境では画像ファイルの選択ウィンドウが実行されます。</para>
 
         <mediaobject>
@@ -1361,7 +1361,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_attachment.png"
-                     width="730"/>
+                     width="700"/>
         </imageobject>
       </mediaobject>
 
@@ -1413,7 +1413,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_user.png"
-                     width="730"/>
+                     width="700"/>
         </imageobject>
       </mediaobject>
 
@@ -1510,7 +1510,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_date.png"
-                     width="730"/>
+                     width="700"/>
         </imageobject>
       </mediaobject>
 
@@ -1612,7 +1612,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/document-component-in-list.png"
-                     width="730"/>
+                     width="700"/>
         </imageobject>
       </mediaobject>
 
