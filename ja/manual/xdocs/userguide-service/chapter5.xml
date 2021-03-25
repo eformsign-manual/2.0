@@ -504,8 +504,10 @@
             <para>文書に入力した内容を文書タイトルに追加したい場合には、</para>
 
             <para><emphasis role="bold">文書タイトルの自動生成ルール </emphasis>の入力欄に
-            <emphasis role="bold">{{</emphasis> を入力すると、テンプレートのコンポーネント ID
-            のリストが表示され、目的の ID を選択すると、そのコンポーネントに入力される内容が文書タイトルに追加されます。</para>
+            <emphasis role="bold">{{</emphasis>
+            を入力すると、テンプレートに追加されているコンポーネントの<emphasis role="bold"> 名前
+            </emphasis>のリストが表示され、目的の <emphasis role="bold">名前</emphasis>
+            を選択すると、そのコンポーネントに入力される内容が文書タイトルに追加されます。</para>
           </listitem>
         </varlistentry>
 
@@ -814,9 +816,8 @@
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">テンプレート設定 &gt;
-              全般</emphasis>で<emphasis role="bold">文書番号の自動付与</emphasis>
-              にチェックを入れます。</para>
+              <para><emphasis role="bold">テンプレート設定 &gt; 全般</emphasis> で
+              <emphasis role="bold">文書番号の自動付与</emphasis> にチェックを入れます。</para>
             </listitem>
 
             <listitem>
@@ -1549,7 +1550,8 @@
 
     <mediaobject>
       <imageobject>
-        <imagedata fileref="resources/template-manage-menu.png" width="700"/>
+        <imagedata fileref="resources/template-manage-menu-wfd.png"
+                   width="700"/>
       </imageobject>
     </mediaobject>
 

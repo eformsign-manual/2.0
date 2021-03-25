@@ -1146,6 +1146,17 @@
 
       <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。eformsign
       アプリではキーパッドの上部中央に表示されます。</para>
+
+      <tip>
+        <para><emphasis role="bold">写真アイコンの表示
+        </emphasis>にチェックを入れると、写真領域にアイコンが表示されます。</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/Camera-component-properties_web_icon.png"/>
+          </imageobject>
+        </mediaobject>
+      </tip>
     </section>
 
     <section xml:id="record2">
@@ -1195,6 +1206,17 @@
 
       <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。eformsign
       アプリではキーパッドの上部中央に表示されます。</para>
+
+      <tip>
+        <para><emphasis
+        role="bold">録音アイコンの表示</emphasis>にチェックを入れると、録音領域にアイコンが表示されます。</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/record_component_web_icon.png"/>
+          </imageobject>
+        </mediaobject>
+      </tip>
     </section>
 
     <section xml:id="attach2">
@@ -1248,7 +1270,7 @@
 
       <tip>
         <para><emphasis role="bold">添付アイコンの表示</emphasis>
-        にチェックを入れると、添付領域にクリップアイコンが表示されます。</para>
+        にチェックを入れると、添付領域にアイコンが表示されます。</para>
 
         <mediaobject>
           <imageobject>
