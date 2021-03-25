@@ -1220,6 +1220,26 @@
                 <para><emphasis
                 role="bold">文書の検討前に携帯番号で本人確認する：</emphasis>外部受信者が文書を閲覧する前に携帯電話で本人確認を行うように設定します。この機能には追加料金が発生します。</para>
               </listitem>
+
+              <listitem>
+                <para><emphasis role="bold">文書の一部を非表示にする：</emphasis>
+                2つ以上のシートで構成された Excel ファイルまたは2つ以上のセクションで区切られた Word
+                ファイルの場合、設定できます。<tip>
+                    <para>文書に複数のシートまたはセクションが含まれている場合、外部受信者に表示される文書の一部を非表示にすることができます。</para>
+
+                    <para>アップロードした文書に複数のシートまたはセクションが含まれている場合、ワークフローの外部受信者ステップのプロパティに
+                    <emphasis role="bold">文書の一部を非表示にする</emphasis>
+                    設定が表示されます。文書に含まれたシートまたはセクションの名前が一覧表示され、シートまたはセクション毎に表示、非表示、または以前のステップの依頼者が表示有無を選択できるよう、設定することができます。</para>
+
+                    <mediaobject>
+                      <imageobject>
+                        <imagedata fileref="resources/template-fb-setting-workflow-outsider-1.png"
+                                   width="700"/>
+                      </imageobject>
+                    </mediaobject>
+                  </tip> 2개 이상의 시트로 만들어진 엑셀 문서 또는 2개 이상의 구역으로 나누어진 워드 파일일 경우
+                설정할 수 있습니다.</para>
+              </listitem>
             </itemizedlist>
           </listitem>
         </varlistentry>
