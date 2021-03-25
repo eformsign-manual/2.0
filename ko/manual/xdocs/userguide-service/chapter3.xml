@@ -1231,7 +1231,7 @@
           방법은 <xref linkend="docnumber_wd"/>를 참고하세요.</para>
 
           <note>
-            <para>문서 ID는 시스템에서 부여하는 문서 고유의 ID이기 때문에 별도의 설정이 필요하지 않습니다. </para>
+            <para>문서 ID는 시스템에서 부여하는 문서 고유의 ID이기 때문에 별도의 설정이 필요하지 않습니다.</para>
           </note>
         </listitem>
       </itemizedlist>
@@ -1304,7 +1304,7 @@
     <important>
       <para>해당 템플릿으로 문서를 작성할 수 있도록 하기 위해서는 템플릿을 저장한 후 반드시 배포해야 합니다.</para>
 
-      <para>템플릿을 배포하지 않고 저장만 할 경우 템플릿 사용 권한이 있는 있는 멤버들의 <emphasis
+      <para>템플릿을 배포하지 않고 저장만 할 경우 템플릿 사용 권한이 있는 멤버들의 <emphasis
       role="bold">템플릿으로 문서 작성</emphasis> 화면에 나타나지 않습니다.</para>
     </important>
 
