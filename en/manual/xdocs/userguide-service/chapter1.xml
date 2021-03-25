@@ -45,7 +45,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/main_feature.png" width="800"/>
+          <imagedata fileref="resources/main_feature.png" width="700"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -162,7 +162,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/dashboard.png" width="800"/>
+              <imagedata fileref="resources/dashboard.png" width="700"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -369,7 +369,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/use_flow_web.png" width="800"/>
+            <imagedata fileref="resources/use_flow_web.png" width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -402,12 +402,12 @@
           from a template you deployed and send it to recipients</para>
 
           <figure>
-            <title>[Figure 1.5] Usage Flow of eformsign Using Web Form
-            Designer</title>
+            <title>Usage Flow of eformsign Using Web Form Designer</title>
 
             <mediaobject>
               <imageobject>
-                <imagedata contentwidth="699" fileref="resources/use_flow.png"/>
+                <imagedata contentwidth="699" fileref="resources/use_flow.png"
+                           width="700"/>
               </imageobject>
             </mediaobject>
           </figure>
@@ -435,7 +435,7 @@
       </orderedlist>
 
       <figure>
-        <title>[Figure 1.6] Usage Flow of eformsign Using Form Builder</title>
+        <title>Usage Flow of eformsign Using Form Builder</title>
 
         <mediaobject>
           <imageobject>
@@ -528,7 +528,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/contract_ex1.png" width="730"/>
+            <imagedata fileref="resources/contract_ex1.png" width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -551,7 +551,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/usecase-process.PNG" width="800"/>
+              <imagedata fileref="resources/usecase-process.PNG" width="700"/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -586,7 +586,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/application_ex1.png" width="730"/>
+            <imagedata fileref="resources/application_ex1.png" width="700"/>
           </imageobject>
         </mediaobject>
       </figure>

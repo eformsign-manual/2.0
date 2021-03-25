@@ -36,7 +36,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-dashboard-side-menu.png"
-                       width="800"/>
+                       width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -506,7 +506,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/en-dashboard-side-menu-icon.png"
-                     width="700"/>
+                     width="600"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -525,7 +525,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/en-dashboard-side-menu-icon-drop-down.png"
-                     width="700"/>
+                     width="600"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -568,7 +568,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-myprofile-personal.png"
-                       width="730"/>
+                       width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -621,7 +621,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-myprofile-company.png"
-                       width="730"/>
+                       width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -724,7 +724,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-manage-company-profile-edit.png"
-                           width="750"/>
+                           width="700"/>
               </imageobject>
             </mediaobject>
           </figure>
@@ -783,7 +783,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-manage-company-brand.png"
-                       width="750"/>
+                       width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -852,7 +852,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-manage-company-brand-logo-changed.png"
-                           width="750"/>
+                           width="700"/>
               </imageobject>
             </mediaobject>
           </figure>
