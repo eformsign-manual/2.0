@@ -43,8 +43,6 @@
           <para>템플릿으로 만들 PDF 파일을 직접 드래그하거나 <emphasis role="bold">내 컴퓨터에서 파일
           선택</emphasis>을 클릭하여 해당 파일 선택 후 업로드 합니다.</para>
 
-          <para/>
-
           <figure>
             <title>템플릿 관리&gt;파일 업로드(1)</title>
 
@@ -70,8 +68,6 @@
 
         <listitem>
           <para>업로드된 파일에 입력항목 종류를 선택하여 드래그합니다.</para>
-
-          <para/>
 
           <figure>
             <title>입력항목 드래그 방법</title>
@@ -193,8 +189,6 @@
           <para><emphasis role="bold">외부 수신자</emphasis></para>
 
           <para>회사 소속 멤버가 아닌 외부 사용자에게 문서의 처리를 요청하는 단계입니다.</para>
-
-          <para/>
 
           <important>
             <para><emphasis role="bold">결재와 내부 수신자의 차이!</emphasis></para>
@@ -1428,8 +1422,6 @@
                      width="700"/>
         </imageobject>
       </mediaobject>
-
-      <para/>
 
       <itemizedlist>
         <listitem>
