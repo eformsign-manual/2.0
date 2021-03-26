@@ -18,7 +18,7 @@
     role="bold">マイファイルで作成する</emphasis> または <emphasis
     role="bold">テンプレート管理</emphasis> メニューで、電子文書の背景書式になる PDF ファイルをアップロードすると、Web
     フォームデザイナーが表示されます。eformsign
-    が提供する様々なコンポーネントから目的のコンポーネントを選択して、文書の上にドラッグアンドドロップし、各コンポーネントのプロパティを詳細設定することで、テンプレートを簡単に作成できます。</para>
+    が提供する様々なコンポーネントから目的のコンポーネントを選択して、文書の上にドラッグアンドドロップし、各コンポーネントのプロパティを設定することで、テンプレートを簡単に作成できます。</para>
 
     <note>
       <para>現在は PDF ファイルのみをサポートしていますが、今後 Microsoft OfficeやJPG、PNG
@@ -26,10 +26,10 @@
     </note>
 
     <note>
-      <para>Microsoft Office アドイン（Add-in）機能（OZ in
-      Office：フォームビルダー）も用意されており、Microsoft Office
-      から直接電子文書を生成することもできます。フォームビルダーについては、 <xref linkend="formbuilder"/>
-      を参考に、Microsoft Office にフォームビルダーをインストールしてから使用してください。</para>
+      <para>Microsoft Office アドイン（Add-in）機能（OZ in Office
+      フォームビルダー）も用意されており、Microsoft Office から電子文書を直接生成することもできます。フォームビルダーについては、
+      <xref linkend="formbuilder"/> を参考に、Microsoft Office
+      にフォームビルダーをインストールしてから使用してください。</para>
     </note>
 
     <itemizedlist>
@@ -104,7 +104,7 @@
 
           <listitem>
             <para><emphasis role="bold">テンプレート管理</emphasis>
-            画面に直接ファイルをドラッグするか、<emphasis role="bold">PCからファイルを選択</emphasis>
+            画面にファイルを直接ドラッグするか、<emphasis role="bold">PCからファイルを選択</emphasis>
             をクリックして、ローカルコンピューターからアップロードしたいファイルを選択します。</para>
 
             <figure>
@@ -141,7 +141,7 @@
       <title>Web フォームデザイナーのメニューの構成</title>
 
       <para><emphasis role="bold">Web フォームデザイナー
-      </emphasis>は、大きく、文書を全面表示する文書表示ペイン、トップバー、そして左側と右側のペインの４つの領域で構成されています。</para>
+      </emphasis>は、大きく、文書を全面表示する文書表示ペイン、トップバー、そして左右ペインの４つの領域で構成されています。</para>
 
       <figure>
         <title>Web フォームデザイナーのメニューの構成：テンプレートの作成</title>
@@ -178,12 +178,12 @@
           </emphasis></emphasis>の場合、<emphasis role="bold"><emphasis
           role="bold">デザインする</emphasis> </emphasis>と<emphasis role="bold">
           <emphasis role="bold">設定する</emphasis>
-          </emphasis>の2ステップが表示され、テンプレート管理のリスト画面に戻ったり、コンポーネントを追加したテンプレートをプレビューしたりすることができます。
-          <emphasis role="bold">マイファイルで作成する</emphasis> の場合、 <emphasis
+          </emphasis>の2ステップが表示され、テンプレート管理のリスト画面に戻ったり、コンポーネントを追加したテンプレートをプレビューしたりできます。
+          <emphasis role="bold">マイファイルで作成する</emphasis> の場合、<emphasis
           role="bold"><emphasis role="bold">デザインする</emphasis></emphasis>
-          、<emphasis role="bold"><emphasis role="bold">
-          受信先を指定する</emphasis></emphasis> 、<emphasis role="bold"><emphasis
-          role="bold"> オプション
+          、<emphasis role="bold"><emphasis
+          role="bold">受信先を指定する</emphasis></emphasis> 、<emphasis
+          role="bold"><emphasis role="bold">オプション
           </emphasis></emphasis>の3ステップが表示され、デザインを完了して<emphasis role="bold">
           文書作成をスタート </emphasis>したり、 <emphasis role="bold">下書き保存</emphasis>
           して作成を終了することができます。</para>
@@ -191,7 +191,7 @@
           <note>
             <para>トップバーに表示される各ステップをクリックすると、そのステップの画面が表示されます。各画面でワークフローや権限などを設定できます。<emphasis
             role="bold">テンプレートの作成 </emphasis>または <emphasis
-            role="bold">マイファイルで作成する </emphasis>を終了する前に設定を行う必要があります。</para>
+            role="bold">マイファイルで作成する </emphasis>を終了する前に設定を完了する必要があります。</para>
           </note>
         </listitem>
 
@@ -395,7 +395,7 @@
   </section>
 
   <section>
-    <title>各コンポーネントの使用方法</title>
+    <title>各コンポーネントのプロパティの設定</title>
 
     <para>すべてのコンポーネントには、共通のプロパティと固有なプロパティがあります。コンポーネントのプロパティ画面で、各コンポーネントの共通のプロパティと固有なプロパティを表示できます。共通のプロパティには、
     <emphasis role="bold">名前</emphasis> と <emphasis
@@ -452,7 +452,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/signature.png"/>
+          <imagedata contentwidth="380" fileref="resources/signature.png"
+                     width="380"/>
         </imageobject>
       </mediaobject>
 
@@ -481,7 +482,7 @@
       <itemizedlist>
         <listitem>
           <para><emphasis role="bold">直接署名：</emphasis>
-          署名欄をクリックすると、署名ポップアップが表示され、手書き、テキスト、モバイル、印鑑・スタンプ、または登録済み署名タブのうち、入力したい方式で署名を入力します。</para>
+          署名欄をクリックすると、署名のポップアップウィンドウが表示され、手書き、テキスト、モバイル、印鑑・スタンプ、または登録済み署名タブのうち、入力したい方式で署名を入力します。</para>
         </listitem>
 
         <listitem>
@@ -757,7 +758,7 @@
       <para><emphasis role="bold">チェック</emphasis>
       コンポーネントは、プロパティでスタイルを設定できます。チェックを入れると、プロパティでチェックボックスがデフォルト設定されることになります。チェックボックス以外に、ラジオボタン、赤い丸囲みの円の形を選択することもできます。</para>
 
-      <para>次の例では、左からチェック/ラジオ/丸囲みを選択すると、各チェックボックスがどのように表示されるかが確認できます。</para>
+      <para>次の例では、左からチェック/ラジオ/丸囲みを選択すると、各チェックボックスがどのように表示されるか確認できます。</para>
 
       <mediaobject>
         <imageobject>
@@ -824,7 +825,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/radio-items-should-have-same-ID.png"
+            <imagedata fileref="resources/radio-items-should-have-same-ID_web.png"
                        width="600"/>
           </imageobject>
         </mediaobject>
@@ -842,7 +843,7 @@
       コンポーネントは、プロパティでスタイルを設定できます。黒い丸囲みの円がデフォルトで設定されており、ドロップボックスメニューでスタイルを変更できます。</para>
 
       <tip>
-        <para>右上のアイコンをクリックすると、各スタイルの色を指定することができます。活性化されたアイコンは、アイコンの下部に現在表示される色の線が表示され、外側の円と中央の丸の色をそれぞれ指定できます。</para>
+        <para>右上のアイコンをクリックすると、各スタイルの色を指定することができます。活性化されたアイコンは、アイコンの下部に現在表示されている色の線が表示され、外側の円と中央の丸の色をそれぞれ指定できます。</para>
 
         <mediaobject>
           <imageobject>
@@ -912,7 +913,7 @@
       <note>
         <para><emphasis role="bold">リスト選択</emphasis>
         コンポーネントの最上部に「選択してください」を表示するには、<emphasis role="bold">プレースホルダー
-        </emphasis>に「選択してください」を入力して、<emphasis role="bold">基本表示アイテム
+        </emphasis>に「選択してください」を入力し、<emphasis role="bold">基本表示アイテム
         </emphasis>を「選択してください」に設定します。</para>
       </note>
 
@@ -996,8 +997,8 @@
 
       <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>日付コンポーネントの「名前」を入力します。たとえば、休暇の開始日を選択するコンポーネントの名前 は 「休暇の開始日」
-      にします。</para>
+      <para>日付コンポーネントの <emphasis role="bold">名前</emphasis>
+      を入力します。たとえば、休暇の開始日を選択するコンポーネントの名前 は 「休暇の開始日」 にします。</para>
 
       <para><emphasis role="bold">② デフォルト値</emphasis></para>
 
@@ -1070,7 +1071,7 @@
 
       <para><emphasis role="bold">数字</emphasis> コンポーネントの <emphasis
       role="bold">名前</emphasis> を入力します。たとえば、予約人員の数を入力するコンポーネントの 名前
-      は、「予約人員」にします。</para>
+      は、「予約人数」にします。</para>
 
       <para><emphasis role="bold">② デフォルト値</emphasis></para>
 
@@ -1256,8 +1257,9 @@
 
       <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para><emphasis role="bold">添付</emphasis> コンポーネントの 名前
-      を入力します。たとえば、在職証明書を添付するコンポーネントの 名前 は「在職証明書」とします。</para>
+      <para><emphasis role="bold">添付</emphasis> コンポーネントの <emphasis
+      role="bold">名前</emphasis> を入力します。たとえば、在職証明書を添付するコンポーネントの 名前
+      は「在職証明書」とします。</para>
 
       <para><emphasis role="bold">② プレースホルダー</emphasis></para>
 
@@ -1287,12 +1289,9 @@
           <primary>コンポーネント</primary>
 
           <secondary>文書ID/文書番号</secondary>
-        </indexterm>情報コンポーネントは、文書内に文書関連の情報を入力する必要がある場合に使用します。文書 ID
-      と文書番号を入力します。</para>
-
-      <para>文書 ID は、システムが付与する文書固有の ID
-      であるため、設定を必要としません。文書番号に関する設定は、テンプレートをアップロードした後、 <emphasis
-      role="bold">テンプレートの設定 &gt; 全般</emphasis> で行えます。</para>
+        </indexterm><emphasis role="bold">情報</emphasis>
+      コンポーネントは、文書内に文書関連の情報を入力する必要がある場合に使用します。<emphasis role="bold">文書 ID
+      </emphasis> と <emphasis role="bold">文書番号</emphasis> を入力します。</para>
 
       <itemizedlist>
         <listitem>
@@ -1307,7 +1306,8 @@
           linkend="docnumber_wd"/>をご参照ください。</para>
 
           <note>
-            <para>文書 IDはシステムで付与される文書の固有IDのため、別途設定する必要はありません。</para>
+            <para><emphasis role="bold">文書 ID
+            </emphasis>はシステムで付与される文書の固有IDのため、別途設定する必要はありません。</para>
           </note>
         </listitem>
       </itemizedlist>
@@ -1380,7 +1380,7 @@
 
     <important>
       <para>作成したテンプレートを使って文書を作成できるようにするためには、テンプレートを保存した後、<emphasis
-      role="bold">配布</emphasis>する必要があります。</para>
+      role="bold">配布 </emphasis>する必要があります。</para>
 
       <para>テンプレートを配布せず保存した場合、保存したテンプレートはテンプレートの使用権限を持つメンバーの<emphasis
       role="bold"> テンプレートで作成する</emphasis> 画面に表示されません。</para>

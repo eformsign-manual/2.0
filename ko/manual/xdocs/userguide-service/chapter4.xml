@@ -1223,7 +1223,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/camera1.png"/>
+          <imagedata contentwidth="400" fileref="resources/camera1.png"
+                     width="400"/>
         </imageobject>
       </mediaobject>
 

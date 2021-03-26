@@ -26,8 +26,8 @@
     製品を使用できるユーザーであれば、誰もが電子文書を簡単に作成できます。</para>
 
     <para><emphasis role="bold">OZ in Office</emphasis> は MS Office の Add-in
-    として搭載され、リボンメニューに表示されます。電子署名、チェック、テキスト、カメラ、録音など、OZ
-    製品の多様な入力機能を提供しています。</para>
+    として搭載され、リボンメニューに表示されます。<emphasis role="bold">電子署名、チェック、テキスト、カメラ、録音
+    </emphasis>など、OZ 製品の多様な入力機能を提供しています。</para>
 
     <para><emphasis role="bold">OZ in Office
     </emphasis>の入力機能を利用して電子文書を作成するプロセスは次のとおりです。</para>
@@ -80,8 +80,8 @@
 
         <listitem>
           <para>フォームビルダーの実行可能ファイルをクリックして実行すると、次のウィザード画面が表示されます。オプションのうち
-          <emphasis role="bold">すべて（C)</emphasis> を選択し、 <emphasis
-          role="bold">次へ &gt;</emphasis> ボタンをクリックします。</para>
+          <emphasis role="bold">すべて（C）</emphasis>を選択し、 <emphasis
+          role="bold">次へ（N） &gt;</emphasis> ボタンをクリックします。</para>
 
           <mediaobject>
             <imageobject>
@@ -119,7 +119,9 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/formbuilder-ozinword-menu1.png"/>
+              <imagedata contentwidth="700"
+                         fileref="resources/formbuilder-ozinword-menu1.png"
+                         width="700"/>
             </imageobject>
           </mediaobject>
         </listitem>
@@ -138,8 +140,9 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/formbuilder-ozinword-menu.png"
-                       width="750"/>
+            <imagedata contentwidth="700"
+                       fileref="resources/formbuilder-ozinword-menu.png"
+                       width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -372,11 +375,11 @@
     </section>
 
     <section>
-      <title>コンポーネントのプロパティを確認する方法：</title>
+      <title>コンポーネントのプロパティを確認する方法</title>
 
       <para>すべてのコンポーネントには、設定を行う <emphasis role="bold">プロパティ</emphasis>
-      タブがあります。プロパティを表示するには、プロパティ表示 アイコン、または <emphasis
-      role="bold">プロパティ</emphasis> メニューをクリックします。</para>
+      タブがあります。プロパティを表示するには、<emphasis role="bold">プロパティ表示 </emphasis> アイコン、または
+      <emphasis role="bold">プロパティ</emphasis> メニューをクリックします。</para>
 
       <para/>
 
@@ -394,7 +397,7 @@
       <note>
         <para>すべてのコンポーネントには <emphasis role="bold">名前</emphasis> が必要です。
         <emphasis role="bold">名前
-        </emphasis>の場合、コンポーネントを追加すれば自動的に生成されますが、コンポーネントへの入力内容を示す明確な意味を持つ単語に変更することを推奨します。たとえば、木村と佐々木などの名前を入力するコンポーネントの名前は「氏名」に設定します。</para>
+        </emphasis>の場合、コンポーネントを追加すれば自動的に生成されますが、コンポーネントへの入力内容を示す明確な意味を持つ単語に変更することを推奨します。たとえば、木村、佐々木などの名前を入力するコンポーネントの名前は「氏名」に設定します。</para>
       </note>
     </section>
 
@@ -552,7 +555,7 @@
     <para><emphasis role="bold">OZ in Office
     </emphasis>のすべてのコンポーネントには、共通のプロパティと固有なプロパティがあります。コンポーネントのプロパティウィンドウで、各コンポーネントの共通のプロパティと固有なプロパティを表示できます。共通のプロパティには、
     <emphasis role="bold">名前</emphasis> と <emphasis
-    role="bold">ツールヒントのテキスト</emphasis> があり、各プロパティの意味は次のとおりです。</para>
+    role="bold">ツールヒントの内容</emphasis> があり、各プロパティの意味は次のとおりです。</para>
 
     <itemizedlist>
       <listitem>
@@ -566,13 +569,13 @@
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">ツールヒントのテキスト：</emphasis><indexterm
+        <para><emphasis role="bold">ツールヒントの内容：</emphasis><indexterm
             class="singular">
             <primary>コンポーネント</primary>
 
-            <secondary>ツールヒントのテキスト</secondary>
+            <secondary>ツールヒントの内容</secondary>
           </indexterm>文書が受信者に表示される Windows
-        環境では、コンポーネントにカーソルを合わせるとツールヒントのテキストが吹き出しの形で表示されます。モバイル環境では、コンポーネントがダイアログで起動されるときにツールヒントのテキストがダイアログのタイトルとして表示されます。</para>
+        環境では、コンポーネントにカーソルを合わせるとツールヒントの内容が吹き出しの形で表示されます。モバイル環境では、コンポーネントがダイアログで起動されるときにツールヒントの内容がダイアログのタイトルとして表示されます。</para>
       </listitem>
     </itemizedlist>
 
@@ -591,7 +594,7 @@
       <para>情報タイプの<emphasis role="bold"> 使用者 </emphasis>、 <emphasis
       role="bold">使用日 </emphasis>、<emphasis role="bold"> 文書 </emphasis>、
       <emphasis role="bold">ラベル </emphasis>には <emphasis
-      role="bold">ツールヒントのテキスト</emphasis> プロパティがありません。</para>
+      role="bold">ツールヒントの内容</emphasis> プロパティがありません。</para>
     </note>
 
     <para>各コンポーネントの説明は次のとおりです。</para>
@@ -738,9 +741,9 @@
       <para><emphasis role="bold">未選択可能</emphasis>
       にチェックを入れれば、選択した項目をもう一度クリックして選択解除できます。</para>
 
-      <para><emphasis role="bold">⑤ ツールヒントのテキスト</emphasis></para>
+      <para><emphasis role="bold">⑤ ツールヒントの内容</emphasis></para>
 
-      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントの内容として表示されます。</para>
     </section>
 
     <section xml:id="combo">
@@ -812,9 +815,9 @@
         </listitem>
       </itemizedlist>
 
-      <para><emphasis role="bold">④ ツールヒントのテキスト</emphasis></para>
+      <para><emphasis role="bold">④ ツールヒントの内容</emphasis></para>
 
-      <para>選択欄にカーソルを合わせると、入力した説明がツールヒントのテキストに表示されます。</para>
+      <para>選択欄にカーソルを合わせると、入力した説明がツールヒントの内容に表示されます。</para>
     </section>
 
     <section xml:id="text">
@@ -873,9 +876,9 @@
       <para>テキストのコンポーネントでのみ設定可能なプロパティです。テキスト入力時に入力した内容がパスワード文字（●）で入力され、入力内容を隠すことができます。入力された内容は
       PDF ではパスワード文字で表示されます。ただし、CSV データをダウンロードしたときには入力内容が表示されます。</para>
 
-      <para><emphasis role="bold">④ ツールヒントのテキスト</emphasis></para>
+      <para><emphasis role="bold">④ ツールヒントの内容</emphasis></para>
 
-      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントの内容として表示されます。</para>
     </section>
 
     <section xml:id="date">
@@ -967,9 +970,9 @@
         </listitem>
       </itemizedlist>
 
-      <para><emphasis role="bold">⑥ ツールヒントのテキスト</emphasis></para>
+      <para><emphasis role="bold">⑥ ツールヒントの内容</emphasis></para>
 
-      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントの内容として表示されます。</para>
     </section>
 
     <section xml:id="numeric">
@@ -1041,9 +1044,9 @@
           </listitem>
         </itemizedlist></para>
 
-      <para><emphasis role="bold">⑤ ツールヒントのテキスト</emphasis></para>
+      <para><emphasis role="bold">⑤ ツールヒントの内容</emphasis></para>
 
-      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントの内容として表示されます。</para>
     </section>
 
     <section xml:id="toggle">
@@ -1113,9 +1116,9 @@
         </listitem>
       </itemizedlist>
 
-      <para><emphasis role="bold">④ ツールヒントのテキスト</emphasis></para>
+      <para><emphasis role="bold">④ ツールヒントの内容</emphasis></para>
 
-      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントの内容として表示されます。</para>
     </section>
 
     <section xml:id="signature">
@@ -1152,7 +1155,9 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/Signature-component-properties.png"/>
+            <imagedata contentwidth="600"
+                       fileref="resources/Signature-component-properties.png"
+                       width="600"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1212,9 +1217,9 @@
 
       <para>署名を手書きで描画するときに表示される線の色を設定します。</para>
 
-      <para><emphasis role="bold">⑤ ツールヒントのテキスト</emphasis></para>
+      <para><emphasis role="bold">⑤ ツールヒントの内容</emphasis></para>
 
-      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントの内容として表示されます。</para>
 
       <note>
         <para>電子契約書や電子同意書など、署名の入る文書に署名日付が自動的に入力されるように設定できます。</para>
@@ -1237,7 +1242,7 @@
         とします。</para>
 
         <para>7.下部に表示されるコンポーネントの 名前の入力欄に、<emphasis role="bold">署名</emphasis>
-        コンポーネントの 名前の <emphasis role="bold">署名</emphasis> を入力します。</para>
+        コンポーネントの 名前の「署名<emphasis role="bold">」</emphasis> を入力します。</para>
 
         <para>* 使用日コンポーネントの <emphasis role="bold">書式設定</emphasis>
         を設定することで、日付の表示形式を任意に変更できます。</para>
@@ -1293,9 +1298,9 @@
       role="bold">名前</emphasis> を入力します。たとえば、IDカードの写真を撮影するコンポーネントの <emphasis
       role="bold">名前</emphasis> は「身分証明のための写真」です。</para>
 
-      <para><emphasis role="bold">② ツールヒントのテキスト</emphasis></para>
+      <para><emphasis role="bold">② ツールヒントの内容</emphasis></para>
 
-      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントの内容として表示されます。</para>
     </section>
 
     <section xml:id="record">
@@ -1343,9 +1348,9 @@
       role="bold">名前</emphasis> を入力します。たとえば、録音を再生するコンポーネントの <emphasis
       role="bold">名前</emphasis> を「録音」に設定します。</para>
 
-      <para><emphasis role="bold">② ツールヒントのテキスト</emphasis></para>
+      <para><emphasis role="bold">② ツールヒントの内容</emphasis></para>
 
-      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントの内容として表示されます。</para>
     </section>
 
     <section xml:id="attach">
@@ -1396,9 +1401,9 @@
       role="bold">名前</emphasis> を入力します。たとえば、在職証明書を添付するコンポーネントの <emphasis
       role="bold">名前</emphasis> は「在職証明書」とします。</para>
 
-      <para><emphasis role="bold">② ツールヒントのテキスト</emphasis></para>
+      <para><emphasis role="bold">② ツールヒントの内容</emphasis></para>
 
-      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントの内容として表示されます。</para>
     </section>
 
     <section xml:id="user">
@@ -1456,7 +1461,8 @@
       </itemizedlist>
 
       <para><emphasis role="bold">入力値の修正者</emphasis>
-      を選択すると、コンポーネントの名前の入力欄が次のように表示されます。リンクしたいコンポーネントの 名前 をここに入力します。</para>
+      を選択すると、コンポーネントの名前の入力欄が次のように表示されます。リンクしたいコンポーネントの <emphasis
+      role="bold">名前</emphasis> をここに入力します。</para>
 
       <mediaobject>
         <imageobject>
@@ -1737,9 +1743,9 @@
       </listitem>
 
       <listitem>
-        <para><emphasis
-        role="bold">テンプレートの新規追加</emphasis>カードをクリックすると、作成したフォームがアップロードされた状態で、テンプレートを設定する画面が表示されます。右上の
-        <emphasis role="bold">保存 </emphasis>ボタンをクリックして、テンプレートを作成します。</para>
+        <para><emphasis role="bold">テンプレートの新規追加</emphasis>
+        カードをクリックすると、作成したフォームがアップロードされた状態で、テンプレートを設定する画面が表示されます。右上の <emphasis
+        role="bold">保存 </emphasis>ボタンをクリックして、テンプレートを作成します。</para>
 
         <mediaobject>
           <imageobject>

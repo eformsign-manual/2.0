@@ -163,12 +163,12 @@
         linkend="document_delete">削除</link> アイコン</term>
 
         <listitem>
-          <para>文書トレイの<emphasis role="bold">カラム</emphasis>（<inlinemediaobject>
+          <para>文書トレイの<emphasis role="bold"> カラム</emphasis>（<inlinemediaobject>
               <imageobject>
                 <imagedata fileref="resources/column_icon.png" width="35"/>
               </imageobject>
             </inlinemediaobject>）アイコンをクリックすると、カラムのタイプが表示されます。また、<emphasis
-          role="bold">カラム</emphasis>のチェックボックスでリストに表示するカラムを選択できます。</para>
+          role="bold">カラム</emphasis> のチェックボックスでリストに表示するカラムを選択できます。</para>
 
           <para><emphasis role="bold">文書のダウンロード</emphasis>
           をクリックして、リストからダウンロードしたい文書を選択し（マルチ選択可能）、PDF 文書、監査証跡証明、および選択フィールドの CSV

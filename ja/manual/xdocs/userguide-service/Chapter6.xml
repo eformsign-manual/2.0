@@ -649,7 +649,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/template-setting-general-doc-numering1.png"
-                       width="600"/>
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1302,15 +1302,6 @@
 
       <para>カスタムフィールド管理に保存されている会社/グループ/メンバー情報を入力するフィールドのデフォルト値を設定したり、最近の入力値を選択したり、自分で入力したりすることができます。</para>
 
-      <para/>
-
-      <para><emphasis role="bold">自動入力の設定方法</emphasis></para>
-
-      <para>文書に頻繁に入力する情報を事前に保存し、自動的に入力されるように設定することができます。</para>
-
-      <para>たとえば、名前、連絡先などの作成者の情報、部署名、責任者、会社の代表番号などの会社またはグループに関する情報を事前に保存して自動で入力されるように設定することができます。関連フィールドのコンポーネントの追加しおよびデフォルト値の設定は
-      <emphasis role="bold">会社管理 &gt; カスタムフィールド管理</emphasis> で行えます。</para>
-
       <tip>
         <para><emphasis role="bold">自動入力の設定方法</emphasis></para>
 
@@ -1411,7 +1402,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/template-setting-notification-edit.png"/>
+          <imagedata fileref="resources/template-setting-notification-edit.png"
+                     width="450"/>
         </imageobject>
       </mediaobject>
 
@@ -1420,7 +1412,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/template-setting-notification-edit-email.png"
-                     width="600"/>
+                     width="500"/>
         </imageobject>
       </mediaobject>
 

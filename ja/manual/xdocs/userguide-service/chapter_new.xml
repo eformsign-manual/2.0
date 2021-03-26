@@ -14,8 +14,8 @@
 
     <para>eformsign を使用すると、誰もが簡単にお手持ちのファイルを電子文書化し、文書を作成、依頼、および処理できます。
     eformsign
-    で電子文書を作成および送信する方法は、大きく2種類に分けられます。PCに保存されているファイルを直接アップロードして電子文書を作成する方法と、
-    eformsign に保存されている既存のテンプレートを利用する方法です。</para>
+    で電子文書を作成および送信する方法は、大きく2種類に分けられます。PCに保存されているファイルを直接アップロードして電子文書を作成する方法と、eformsign
+    に保存されている既存のテンプレートを利用する方法です。</para>
 
     <itemizedlist>
       <listitem>
@@ -38,7 +38,7 @@
       </emphasis>を付与したメンバーのみに表示されます。テンプレートは、<emphasis
       role="bold">Webフォームデザイナー</emphasis> と <emphasis
       role="bold">フォームビルダー</emphasis> で作成できます。詳しくは <xref
-      linkend="template_wd"/> と <xref linkend="template_fb"/> をご参照ください</para>
+      linkend="template_wd"/> と <xref linkend="template_fb"/> をご参照ください。</para>
     </note>
 
     <important>
@@ -51,7 +51,7 @@
     <title>マイファイルで作成する</title>
 
     <para>PDF形式の ファイルを直接アップロードして、文書の上にコンポーネントを自由に配置します。各コンポーネントを
-    参加者毎に指定した後、参加者および/または検討者の情報を入力し、送信できます。</para>
+    参加者毎に指定した後、参加者および/または検討者の情報を入力し、送信することができます。</para>
 
     <orderedlist>
       <listitem>
@@ -304,7 +304,7 @@
     linkend="template_fb">フォームビルダー</link></emphasis> をご参照ください。</para>
 
     <note>
-      <para>文書の作成は、テンプレート管理の権限を持つメンバーのみが <emphasis role="bold">テンプレートの設定 &gt;
+      <para>文書の作成は、テンプレート管理の権限を持つメンバーが <emphasis role="bold">テンプレートの設定 &gt;
       権限の設定 </emphasis>で <emphasis role="bold">テンプレートの使用権限
       </emphasis>(=文書の作成権限) を付与したグループまたはメンバーのみが可能です。テンプレートの使用権限を付与されたグループまたは
       メンバーのテンプレートリストのみにそのテンプレートが表示され、作成できます。</para>
@@ -324,7 +324,7 @@
       </listitem>
 
       <listitem>
-        <para>文書を作成したいテンプレートの <emphasis role="bold">作成</emphasis>
+        <para>目的のテンプレートの <emphasis role="bold">作成</emphasis>
         アイコン(<inlinemediaobject>
             <imageobject>
               <imagedata contentwidth="30" fileref="resources/create-icon.PNG"/>
@@ -384,7 +384,7 @@
         </listitem>
 
         <listitem>
-          <para>文書を作成したいテンプレートの <emphasis role="bold">一括生成</emphasis>
+          <para>目的のテンプレートの <emphasis role="bold">一括生成</emphasis>
           アイコンをクリックします。</para>
 
           <figure>
@@ -450,7 +450,7 @@
 
             <para>2.<emphasis role="bold">作成</emphasis>
             ステップでアクセスが許可されているコンポーネント：<emphasis role="bold">テンプレート管理 &gt;
-            テンプレートの設定 &gt; ワークフローの設定</emphasis>
+            テンプレートの設定(⚙) &gt; ワークフローの設定</emphasis>
             でアクセスが許可されているコンポーネントのみが表示されます。</para>
           </tip>
         </listitem>
