@@ -364,7 +364,7 @@
               <primary>コンポーネント</primary>
 
               <secondary>ラベル</secondary>
-            </indexterm>フォーム ID を設定します。</para>
+            </indexterm>別途設定した値を文書に表示する場合に使用します。</para>
         </listitem>
       </itemizedlist>
 
@@ -1269,7 +1269,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/camera1.png"/>
+            <imagedata contentwidth="300" fileref="resources/camera1.png"
+                       width="300"/>
           </imageobject>
         </mediaobject>
       </note>

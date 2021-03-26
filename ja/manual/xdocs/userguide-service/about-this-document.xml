@@ -55,44 +55,50 @@
     </listitem>
 
     <listitem>
-      <para>第 3 章：Web フォームデザイナーの紹介</para>
+      <para>第 3 章：文書の新規作成</para>
+
+      <para>eformsign で文書を作成する方法について説明します。</para>
+    </listitem>
+
+    <listitem>
+      <para>第 4 章：Web フォームデザイナーの紹介</para>
 
       <para>eformsign の Web
       フォームデザイナーの概要と使用方法、および各コンポーネントの使用方法について説明します。</para>
     </listitem>
 
     <listitem>
-      <para>第 4 章：フォームビルダーの紹介</para>
+      <para>第 5 章：フォームビルダーの紹介</para>
 
       <para>eformsign のフォームビルダーの概要と使用方法、および各コンポーネントの使用方法について説明します。</para>
     </listitem>
 
     <listitem>
-      <para>第 5 章：テンプレート：Web フォームデザイナー</para>
+      <para>第 6 章：テンプレートの作成：Web フォームデザイナー</para>
 
       <para>Web フォームデザイナーで作成したテンプレートの設定方法と使用方法について説明します。</para>
     </listitem>
 
     <listitem>
-      <para>第 6 章：テンプレート：フォームビルダー</para>
+      <para>第 7 章：テンプレートの作成：フォームビルダー</para>
 
       <para>フォームビルダーで作成したテンプレートの設定方法と使用方法について説明します。</para>
     </listitem>
 
     <listitem>
-      <para>第 7 章：文書</para>
+      <para>第 8 章：文書トレイ</para>
 
       <para>eformsign が提供する文書トレイの使用方法および文書の検索方法について説明します。</para>
     </listitem>
 
     <listitem>
-      <para>第 8 章：カスタマイズ</para>
+      <para>第 9 章：カスタマイズ</para>
 
       <para>eformsign でカスタムフィールドを作成および使用する方法と、通知テンプレートを管理する方法について説明します。</para>
     </listitem>
 
     <listitem>
-      <para>第 9 章：外部サービスを連動する方法</para>
+      <para>第 10 章：外部サービスとの連動</para>
 
       <para>完了文書を外部のクラウドストレージサービスに保存する方法と、入力したデータを Google スプレッドシートと Office 365
       の Excel 文書に保存する方法について説明します。</para>
