@@ -60,9 +60,9 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata contentwidth="500"
+            <imagedata contentwidth="700"
                        fileref="resources/myfile_create_document2.png"
-                       width="500"/>
+                       width="700"/>
           </imageobject>
         </mediaobject>
       </listitem>
@@ -1115,7 +1115,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/camera1.png"/>
+            <imagedata contentwidth="300" fileref="resources/camera1.png"/>
           </imageobject>
         </mediaobject>
       </note>
