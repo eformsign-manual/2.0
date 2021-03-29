@@ -98,7 +98,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/web-form_1.png" width="730"/>
+              <imagedata fileref="resources/web-form_1.png" width="700"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -115,7 +115,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/web-form_2.png" width="730"/>
+              <imagedata fileref="resources/web-form_2.png" width="700"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -134,7 +134,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/web-form_3.png" width="730"/>
+          <imagedata fileref="resources/web-form_3.png" width="700"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -150,7 +150,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/web-form_4a.png" width="730"/>
+            <imagedata fileref="resources/web-form_4a.png" width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -160,7 +160,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/web-form_4b.png" width="730"/>
+            <imagedata fileref="resources/web-form_4b.png" width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -226,7 +226,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/component_web_1.png" width="730"/>
+            <imagedata fileref="resources/component_web_1.png" width="700"/>
           </imageobject>
         </mediaobject>
       </figure></para>
@@ -587,7 +587,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/Signature-component-properties_web_date.png"
-                         width="750"/>
+                         width="700"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -885,7 +885,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/radio-items-should-have-same-ID_web.png"
-                       width="730"/>
+                       width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
