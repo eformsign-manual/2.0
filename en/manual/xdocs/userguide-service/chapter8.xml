@@ -28,16 +28,13 @@
       documents.</para>
     </tip>
 
-    <figure>
-      <title>Manage company &gt; Manage custom fields</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="resources/Customfield.png" width="700"/>
+      </imageobject>
+    </mediaobject>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/Customfield.png" width="700"/>
-        </imageobject>
-      </mediaobject>
-
-      <variablelist>
+    <para><variablelist>
         <varlistentry>
           <term>① Manage custom fields &gt; Company</term>
 
@@ -79,16 +76,12 @@
             field list.<emphasis role="bold"> </emphasis></para>
           </listitem>
         </varlistentry>
-      </variablelist>
-
-      <mediaobject>
+      </variablelist><mediaobject>
         <imageobject>
           <imagedata contentwidth="300"
                      fileref="resources/customfield-addfield.PNG"/>
         </imageobject>
-      </mediaobject>
-
-      <variablelist>
+      </mediaobject><variablelist>
         <varlistentry>
           <term>⑤ Field list</term>
 
@@ -142,8 +135,7 @@
             role="bold"> </emphasis></para>
           </listitem>
         </varlistentry>
-      </variablelist>
-    </figure>
+      </variablelist></para>
   </section>
 
   <section>
