@@ -141,7 +141,8 @@
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">Document list</emphasis></para>
+        <para><emphasis role="bold">Document list and <link
+        linkend="additional_work">actions</link></emphasis></para>
 
         <para>Up to 20 documents are listed per page and you can view the
         documents in other pages by clicking the page numbers at the
@@ -830,7 +831,7 @@
     </section>
   </section>
 
-  <section>
+  <section xml:id="drafts">
     <title>Drafts</title>
 
     <para>The Drafts menu stores the documents in the <emphasis

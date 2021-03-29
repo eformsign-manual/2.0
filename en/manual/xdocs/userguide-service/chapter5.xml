@@ -274,7 +274,7 @@
       </listitem>
     </orderedlist>
 
-    <section>
+    <section xml:id="general_wd">
       <title>General</title>
 
       <figure>
@@ -1045,7 +1045,7 @@
       </itemizedlist>
     </section>
 
-    <section>
+    <section xml:id="auth_wd">
       <title>Set Permissions</title>
 
       <para>You can set the permissions for template usage and document
@@ -1110,7 +1110,7 @@
       </itemizedlist>
     </section>
 
-    <section>
+    <section xml:id="workflow_wd">
       <title>Workflow Settings</title>
 
       <para>You can create or modify the workflow of the template by clicking
@@ -1448,7 +1448,7 @@
       </variablelist>
     </section>
 
-    <section>
+    <section xml:id="field_wd">
       <title>Field</title>
 
       <para><emphasis role="bold"><indexterm class="singular">
@@ -1520,7 +1520,7 @@
       </orderedlist>
     </section>
 
-    <section>
+    <section xml:id="noti_wd">
       <title>Notification Settings</title>
 
       <para><indexterm class="singular">

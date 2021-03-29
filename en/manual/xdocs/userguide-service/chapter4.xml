@@ -239,7 +239,7 @@
       <itemizedlist>
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="text2">Signature</link>:</emphasis> <indexterm
+          linkend="signature2">Signature</link>:</emphasis> <indexterm
               class="singular">
               <primary>Components</primary>
 
@@ -249,8 +249,7 @@
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="signature2">Text</link>:</emphasis> <indexterm
-              class="singular">
+          linkend="text2">Text</link>:</emphasis> <indexterm class="singular">
               <primary>Components</primary>
 
               <secondary>Text</secondary>

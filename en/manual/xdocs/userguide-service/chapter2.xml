@@ -752,7 +752,7 @@
       </mediaobject>
     </section>
 
-    <section>
+    <section xml:id="brand">
       <title>Company Brand</title>
 
       <para><indexterm class="singular">

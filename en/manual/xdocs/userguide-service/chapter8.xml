@@ -222,8 +222,9 @@
     <tip>
       <para>The header is set with the eformsign logo by default.<emphasis
       role="bold"> </emphasis>If you upload your company's logo in the
-      <emphasis role="bold">Manage company &gt; Company profile &gt; Company
-      brand</emphasis> tab menu, the logo is applied to the email
+      <emphasis role="bold">Manage company &gt; Company profile &gt;
+      </emphasis><link linkend="brand"><emphasis role="bold">Company
+      brand</emphasis></link> tab menu, the logo is applied to the email
       templates.</para>
     </tip>
 
