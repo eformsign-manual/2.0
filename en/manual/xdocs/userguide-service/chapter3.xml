@@ -139,7 +139,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/formbuilder_word_4.png" width="750"/>
+            <imagedata fileref="resources/components-in-word.png" width="750"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1087,7 +1087,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/number-component-properties.png"
-                       width="400"/>
+                       width="300"/>
           </imageobject>
         </mediaobject>
       </figure>

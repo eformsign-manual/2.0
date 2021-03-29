@@ -37,7 +37,7 @@
 
   <bridgehead>本書の構成</bridgehead>
 
-  <para>eformsign ユーザー ガイドは、計9つの章で構成されています。</para>
+  <para>eformsign ユーザー ガイドは、計10つの章で構成されています。</para>
 
   <para>各章の主な内容は次のとおりです。</para>
 
@@ -55,44 +55,50 @@
     </listitem>
 
     <listitem>
-      <para>第 3 章：Web フォームデザイナーの紹介</para>
+      <para>第 3 章：文書の新規作成</para>
+
+      <para>eformsign で文書を作成する方法について説明します。</para>
+    </listitem>
+
+    <listitem>
+      <para>第 4 章：Web フォームデザイナーの紹介</para>
 
       <para>eformsign の Web
       フォームデザイナーの概要と使用方法、および各コンポーネントの使用方法について説明します。</para>
     </listitem>
 
     <listitem>
-      <para>第 4 章：フォームビルダーの紹介</para>
+      <para>第 5 章：フォームビルダーの紹介</para>
 
       <para>eformsign のフォームビルダーの概要と使用方法、および各コンポーネントの使用方法について説明します。</para>
     </listitem>
 
     <listitem>
-      <para>第 5 章：テンプレート：Web フォームデザイナー</para>
+      <para>第 6 章：テンプレートの作成：Web フォームデザイナー</para>
 
       <para>Web フォームデザイナーで作成したテンプレートの設定方法と使用方法について説明します。</para>
     </listitem>
 
     <listitem>
-      <para>第 6 章：テンプレート：フォームビルダー</para>
+      <para>第 7 章：テンプレートの作成：フォームビルダー</para>
 
       <para>フォームビルダーで作成したテンプレートの設定方法と使用方法について説明します。</para>
     </listitem>
 
     <listitem>
-      <para>第 7 章：文書</para>
+      <para>第 8 章：文書トレイ</para>
 
       <para>eformsign が提供する文書トレイの使用方法および文書の検索方法について説明します。</para>
     </listitem>
 
     <listitem>
-      <para>第 8 章：カスタマイズ</para>
+      <para>第 9 章：カスタマイズ</para>
 
       <para>eformsign でカスタムフィールドを作成および使用する方法と、通知テンプレートを管理する方法について説明します。</para>
     </listitem>
 
     <listitem>
-      <para>第 9 章：外部サービスを連動する方法</para>
+      <para>第 10 章：外部サービスとの連動</para>
 
       <para>完了文書を外部のクラウドストレージサービスに保存する方法と、入力したデータを Google スプレッドシートと Office 365
       の Excel 文書に保存する方法について説明します。</para>
@@ -249,24 +255,25 @@
 <otheraddr>646, Nonhyeon-ro, Gangnam-gu, Seoul, Republic of Korea 06106</otheraddr>
 Tel: +82 2 6188 8200 
 Email:<email>eformsign@forcs.com</email>
-Web (Korean):<otheraddr><link xlink:href="chapter1.xml">https://www.eformsign.com/kr</link></otheraddr>
+Web (Korean):<link xlink:href="https://www.eformsign.com/kr/index.html">https://www.eformsign.com/kr/index.html</link> 
 </address></para>
 
   <para><bridgehead>Singapore</bridgehead><address><otheraddr>FORCS Singapore Pte Ltd</otheraddr>
 8 Shenton Way, #04-01 AXA Tower, Singapore 068811 
 Tel: +65 6100 2007 
 Email:<email>singapore@forcs.com</email>
-Web (English):<otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/en/</link></otheraddr></address></para>
+Web (English):<link xlink:href="https://www.eformsign.com/global/index.html">https://www.eformsign.com/global/index.html</link></address></para>
 
   <para><bridgehead>Japan</bridgehead><address>FORCS Japan 
 Tokyo-to, Shibuya-ku, Sendagaya, 4 Chome-11-9, #402, 151-0051, Japan 
-Email:<email>global@forcs.com</email>
-Web (Japanese):<otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/jp/</link></otheraddr></address></para>
+Email:<email>eformsign@forcs.com</email>
+Web (Japanese):<otheraddr><link xlink:href="chapter1.xml"> https://www.eformsign.com/jp/index.html</link></otheraddr></address></para>
 
   <?dbfo-need height="10in" ?>
 
   <para><bridgehead>Europe</bridgehead><address>FORCS Europe<otheraddr>
 </otheraddr>Cours Saint-Michel 30B, Sint-Michielswarande, 1040 Etterbeek, Belgium 
 Email:<email>singapore@forcs.com</email>
-Web (English):<otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/en/</link></otheraddr></address></para>
+Web (English):<otheraddr><link xlink:href="chapter1.xml"><link
+            xlink:href="https://www.eformsign.com/global/index.html">https://www.eformsign.com/global/index.html</link></link></otheraddr></address></para>
 </preface>

@@ -34,8 +34,6 @@
 
       <para>文書をオンラインで直接アップロードしてテンプレートを作成します。</para>
 
-      <para/>
-
       <note>
         <para>テンプレートの詳細な説明については、 <xref linkend="webform"/>をご参照ください。</para>
       </note>
@@ -49,7 +47,7 @@
           role="bold">PCからファイルを選択</emphasis> をクリックしてファイルを選択し、アップロードします。</para>
 
           <figure>
-            <title>[テンプレート管理] &gt; [ファイルのアップロード] (1)</title>
+            <title>テンプレート管理 &gt; ファイルのアップロード (1)</title>
 
             <mediaobject>
               <imageobject>
@@ -60,7 +58,7 @@
           </figure>
 
           <figure>
-            <title>[テンプレート管理] &gt; [ファイルのアップロード] (2)</title>
+            <title>テンプレート管理 &gt; ファイルのアップロード (2)</title>
 
             <mediaobject>
               <imageobject>
@@ -152,11 +150,11 @@
           <primary>ワークフロー</primary>
         </indexterm>ワークフローとは、文書の作成から完了までの依頼と処理のフローを言います。</para>
 
-      <para>ワークフローの設定は、テンプレート管理者がテンプレート別に <emphasis
+      <para>ワークフローの設定は、テンプレート管理者がテンプレート毎に <emphasis
       role="bold">テンプレートの設定</emphasis> &gt; <emphasis
       role="bold">ワークフローの設定</emphasis> で行えます。</para>
 
-      <para>ワークフローは <emphasis role="bold">開始 - 終了</emphasis>
+      <para>ワークフローは <emphasis role="bold">開始 ― 終了</emphasis>
       がデフォルトのステップであり、次のように<emphasis role="bold"> 決裁者、</emphasis><emphasis
       role="bold">内部受信者</emphasis>、<emphasis role="bold">外部受信者</emphasis>
       の3つのタイプのいずれかを追加し、ワークフローを作成することができます。</para>
@@ -224,7 +222,8 @@
       </listitem>
 
       <listitem>
-        <para>目的のテンプレートの名前または設定アイコン（<inlinemediaobject>
+        <para>目的のテンプレートの <emphasis role="bold">名前</emphasis> または <emphasis
+        role="bold">設定</emphasis> アイコン（<inlinemediaobject>
             <imageobject>
               <imagedata contentwidth="28" fileref="resources/config-icon.PNG"/>
             </imageobject>
@@ -518,8 +517,8 @@
             <para>文書に関連する情報をタイトルに追加したい場合には、</para>
 
             <para><emphasis role="bold">文書タイトルの自動生成ルール</emphasis> の入力欄に
-            <emphasis
-            role="bold">$$</emphasis>を入力すると、ドロップダウンメニューが表示され、以下の情報から目的の情報を選択できます。</para>
+            <emphasis role="bold">$$</emphasis>
+            を入力すると、ドロップダウンメニューが表示され、以下の情報から目的の情報を選択できます。</para>
 
             <informaltable>
               <tgroup cols="2">
@@ -805,7 +804,7 @@
               <mediaobject>
                 <imageobject>
                   <imagedata fileref="resources/web-form-designer-document-component.png"
-                             width="730"/>
+                             width="700"/>
                 </imageobject>
               </mediaobject>
             </listitem>
@@ -1042,7 +1041,7 @@
         </listitem>
 
         <listitem>
-          <para>選択すると、ステップがワークフローに追加されます。</para>
+          <para>選択すると、ワークフローにステップが追加されます。</para>
         </listitem>
       </orderedlist>
 
@@ -1067,7 +1066,7 @@
       <itemizedlist>
         <listitem>
           <para><emphasis role="bold">属性</emphasis>
-          では、ステップ名と状態の設定、およびステップ別の設定を細部設定できます。</para>
+          では、ステップ名と状態の設定、および各ステップの設定を細部設定できます。</para>
         </listitem>
 
         <listitem>
@@ -1395,7 +1394,9 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/template-setting-notification-channel.png"/>
+            <imagedata contentwidth="450"
+                       fileref="resources/template-setting-notification-channel.png"
+                       width="450"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1424,7 +1425,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/template-setting-notification-edit-email.png"
-                     width="600"/>
+                     width="500"/>
         </imageobject>
       </mediaobject>
 
@@ -1595,6 +1596,23 @@
           <imageobject>
             <imagedata contentwidth="400"
                        fileref="resources/document-manager-setting.PNG"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">文書番号の設定を変更：</emphasis><emphasis
+        role="bold">テンプレート設定
+        </emphasis>で設定した文書番号の設定を変更できる機能です。文書番号の採番が設定されているテンプレートの開始番号を再設定できます。</para>
+
+        <caution>
+          <para>ただし、重複した文書番号が生成される可能性がありますので、確認が必要です。</para>
+        </caution>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/template-manage-menu-wfd-numbersetting.png"
+                       width="400"/>
           </imageobject>
         </mediaobject>
       </listitem>

@@ -743,7 +743,7 @@
       <para><emphasis role="bold">컴포넌트 속성</emphasis></para>
 
       <para><figure>
-          <title>선택 컴포넌트 속성 설정하기</title>
+          <title>라디오 컴포넌트 속성 설정하기</title>
 
           <mediaobject>
             <imageobject>
@@ -1051,7 +1051,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/camera1.png"/>
+          <imagedata contentwidth="300" fileref="resources/camera1.png"
+                     width="300"/>
         </imageobject>
       </mediaobject>
 

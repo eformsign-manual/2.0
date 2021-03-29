@@ -159,7 +159,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/newfrommyfile-recipients-type.png"
-                         width="500"/>
+                         width="400"/>
             </imageobject>
           </mediaobject>
         </tip>
@@ -186,7 +186,7 @@
           opened again so that you can begin creating a document. To save a
           document as a draft, click the (<inlinemediaobject>
               <imageobject>
-                <imagedata fileref="resources/menu_icon_3.png" width="30"/>
+                <imagedata fileref="resources/menu_icon_3.png" width="20"/>
               </imageobject>
             </inlinemediaobject>) icon at the top right corner and then click
           <emphasis role="bold">Save as a draft</emphasis>.</para>
@@ -194,7 +194,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/newfrommyfile-saveasdrafts.png"
-                         width="300"/>
+                         width="200"/>
             </imageobject>
           </mediaobject>
         </note>
@@ -454,12 +454,10 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/bulk_create.png" width="700"/>
+            <imagedata fileref="resources/bulk_create.png" width="800"/>
           </imageobject>
         </mediaobject>
       </figure>
-
-      <para/>
 
       <note>
         <para>Each column of the table contains all the fields of a document.
@@ -477,8 +475,6 @@
       the top right corner of the screen to view the documents you created and
       then click the <emphasis role="bold">Create</emphasis> button to send
       the documents.</para>
-
-      <para/>
 
       <note>
         <para>If there is an external process step in a template, then the
