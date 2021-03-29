@@ -161,8 +161,9 @@
 
         <note>
           <para>このステップまでがフォームを設定するステップです。<emphasis
-          role="bold">文書作成をスタート</emphasis> をクリックする前に下書き保存して作成を終了する場合、<emphasis
-          role="bold"><link linkend="drafts">下書きとして保存</link></emphasis>
+          role="bold">文書作成をスタート</emphasis> をクリックする前に下書き保存して作成を終了する場合、<link
+          linkend="drafts"><emphasis role="bold"><link
+          linkend="drafts">下書きとして保存</link></emphasis></link>
           トレイに保存されます。保存されたファイルを開けば、作成を再開できます。文書の下書き保存は右上のメニュー
           (<inlinemediaobject>
               <imageobject>

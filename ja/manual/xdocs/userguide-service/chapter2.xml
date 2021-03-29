@@ -684,8 +684,8 @@
       </figure>
     </section>
 
-    <section>
-      <title>ブランド</title>
+    <section xml:id="brand">
+      <title xml:id="brand">ブランド</title>
 
       <para><indexterm class="singular">
           <primary>ブランド</primary>

@@ -201,7 +201,8 @@
 
     <tip>
       <para>デフォルトのヘッダーは eformsign のロゴです。<emphasis role="bold">会社管理 &gt; 会社情報
-      &gt; ブランド</emphasis> で会社のロゴを登録すれば、メールテンプレートに会社のロゴが適用されます。</para>
+      &gt; <link linkend="brand">ブランド</link></emphasis>
+      で会社のロゴを登録すれば、メールテンプレートに会社のロゴが適用されます。</para>
     </tip>
 
     <para><emphasis role="bold">新しい通知テンプレートを追加する方法</emphasis></para>
