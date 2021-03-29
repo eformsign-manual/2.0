@@ -78,31 +78,36 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">全般</emphasis></para>
+          <para><emphasis role="bold"><link
+          linkend="general_fb">全般</link></emphasis></para>
 
           <para>テンプレート名、略称、文書のタイトル、文書番号などを設定します。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">権限の設定</emphasis></para>
+          <para><emphasis role="bold"><link
+          linkend="auth_fb">権限の設定</link></emphasis></para>
 
           <para>テンプレートを使って文書を作成できるテンプレートの使用権限、および作成された文書を管理するメンバーまたはグループを指定します。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">ワークフローの設定</emphasis></para>
+          <para><emphasis role="bold"><link
+          linkend="workflow_fb">ワークフローの設定</link></emphasis></para>
 
           <para>文書の作成から完了までのステップをを設定します。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">フィールドの設定</emphasis></para>
+          <para><emphasis role="bold"><link
+          linkend="field_fb">フィールドの設定</link></emphasis></para>
 
           <para>フィールドの基本値、自動入力値などのデフォルト値を設定します。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">通知の設定 </emphasis></para>
+          <para><emphasis role="bold"><link linkend="noti_fb">通知の設定
+          </link></emphasis></para>
 
           <para>テンプレートによって作成される文書を依頼する場合、または、状態の変更がある場合、どのチャンネルで、誰（受信者）に、どうした内容の通知メッセージを送信するかを設定します。</para>
         </listitem>
@@ -202,7 +207,7 @@
       </listitem>
     </orderedlist>
 
-    <section>
+    <section xml:id="general_fb">
       <title>全般</title>
 
       <figure>
@@ -901,7 +906,7 @@
       </itemizedlist>
     </section>
 
-    <section>
+    <section xml:id="auth_wd">
       <title>権限の設定</title>
 
       <para><emphasis role="bold">権限の設定</emphasis> 画面では、<emphasis
@@ -958,7 +963,7 @@
       </mediaobject>
     </section>
 
-    <section>
+    <section xml:id="workflow_wd">
       <title>ワークフローの設定</title>
 
       <para><emphasis role="bold">テンプレートの設定</emphasis> 画面で <emphasis
@@ -1279,7 +1284,7 @@
       </variablelist>
     </section>
 
-    <section>
+    <section xml:id="field_wd">
       <title>フィールドの設定</title>
 
       <para><emphasis role="bold"><indexterm class="singular">
@@ -1341,7 +1346,7 @@
       </tip>
     </section>
 
-    <section>
+    <section xml:id="noti_wd">
       <title>通知の設定</title>
 
       <para><indexterm class="singular">
