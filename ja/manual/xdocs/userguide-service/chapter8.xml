@@ -13,8 +13,7 @@
         <primary>カスタムフィールドの管理</primary>
       </indexterm></title>
 
-    <para><emphasis role="bold">会社管理 </emphasis><emphasis role="bold">&gt;
-    </emphasis><emphasis role="bold">カスタムフィールド管理</emphasis>
+    <para><emphasis role="bold">会社管理 &gt; カスタムフィールド管理</emphasis>
     では、会社、グループ、およびメンバーのフィールドを追加および編集できます。</para>
 
     <tip>
@@ -65,8 +64,8 @@
             </emphasis>ボタンをクリックすると、ポップアップウィンドウが表示され、カスタムフィールドを追加できます。<emphasis
             role="bold">フィールド名 </emphasis>と <emphasis
             role="bold">フィールドタイプ</emphasis>（テキスト/イメージ）、<emphasis
-            role="bold">フィールド値</emphasis> をクリックして、OK
-            ボタンをクリックすると、フィールドがリストに追加されます。</para>
+            role="bold">フィールド値</emphasis> をクリックして、<emphasis
+            role="bold">OK</emphasis> ボタンをクリックすると、フィールドがリストに追加されます。</para>
           </listitem>
         </varlistentry>
       </variablelist>

@@ -136,7 +136,7 @@
       タブが追加されていることが確認できます。</para>
 
       <figure>
-        <title>Microsoft Office のOZ in Office リボンメニュー</title>
+        <title>Microsoft Office の OZ in Office リボンメニュー</title>
 
         <mediaobject>
           <imageobject>
@@ -1205,8 +1205,8 @@
         <para>署名ではなく印鑑やスタンプを使用する必要がある場合もあります。eformsign
         では、印鑑やスタンプの画像を使用して文書の署名欄に印鑑・スタンプを入れることもできます。印鑑・スタンプの画像を使用するには、<emphasis
         role="bold">署名 </emphasis>ポップアップで <emphasis
-        role="bold">印鑑・スタンプ</emphasis> タブをクリックして、印鑑・スタンプの画像を選択した後、OK
-        ボタンをクリックします。</para>
+        role="bold">印鑑・スタンプ</emphasis> タブをクリックして、印鑑・スタンプの画像を選択した後、<emphasis
+        role="bold">OK</emphasis> ボタンをクリックします。</para>
       </note>
 
       <para><emphasis role="bold">③ 署名ペンの太さ</emphasis></para>

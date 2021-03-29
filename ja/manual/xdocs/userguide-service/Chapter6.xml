@@ -193,7 +193,8 @@
       </listitem>
 
       <listitem>
-        <para>目的のテンプレートの名前または設定アイコン（<inlinemediaobject>
+        <para>目的のテンプレートの名前または <emphasis role="bold">設定</emphasis>
+        アイコン（<inlinemediaobject>
             <imageobject>
               <imagedata contentwidth="28" fileref="resources/config-icon.PNG"/>
             </imageobject>
@@ -1242,8 +1243,7 @@
                                    width="700"/>
                       </imageobject>
                     </mediaobject>
-                  </tip> 2개 이상의 시트로 만들어진 엑셀 문서 또는 2개 이상의 구역으로 나누어진 워드 파일일 경우
-                설정할 수 있습니다.</para>
+                  </tip></para>
               </listitem>
             </itemizedlist>
           </listitem>
