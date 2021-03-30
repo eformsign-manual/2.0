@@ -65,17 +65,17 @@
     </listitem>
 
     <listitem>
-      <para>Chapter 4: Introduction to Form Builder</para>
-
-      <para>Provides and overview of eformsign Form Builder and describes how
-      to use its features and components.</para>
-    </listitem>
-
-    <listitem>
-      <para>Chapter 5: Introduction to Web Form Designer</para>
+      <para>Chapter 4: Introduction to Web Form Designer</para>
 
       <para>Provides an overview of eformsign Web Form Designer and describes
       how to use its features and components.</para>
+    </listitem>
+
+    <listitem>
+      <para>Chapter 5: Introduction to Form Builder</para>
+
+      <para>Provides and overview of eformsign Form Builder and describes how
+      to use its features and components.</para>
     </listitem>
 
     <listitem>
@@ -93,7 +93,7 @@
     </listitem>
 
     <listitem>
-      <para>Chapter 8: Documents Menus</para>
+      <para>Chapter 8: Document menus</para>
 
       <para>Describes the eformsign documents menus and how to use them and
       search for documents.</para>
@@ -107,7 +107,7 @@
     </listitem>
 
     <listitem>
-      <para>Chapter 10: Connecting with External Services</para>
+      <para>Chapter 10: Connecting with external services</para>
 
       <para>Describes how to store completed documents in cloud storage
       services as well as storing data in Google Sheets and Office 365's Excel

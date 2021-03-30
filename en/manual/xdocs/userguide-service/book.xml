@@ -23,9 +23,9 @@
 
   <xi:include href="chapter_new.xml"/>
 
-  <xi:include href="chapter3.xml"/>
+  <xi:include href="chapter4.xml"/>
 
-  <xi:include href="Chapter4.xml"/>
+  <xi:include href="Chapter3.xml"/>
 
   <xi:include href="Chapter5.xml"/>
 
