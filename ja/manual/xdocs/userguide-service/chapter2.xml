@@ -309,7 +309,7 @@
               <para><emphasis
               role="bold">使用頻度の高いテンプレートをお気に入りに登録する方法！</emphasis></para>
 
-              <para>頻繁に使用するテンプレートをお気に入りとして追加して文書を作成できます。テンプレートの <emphasis
+              <para>よく使うテンプレートをお気に入りとして追加して文書を作成できます。テンプレートの <emphasis
               role="bold">お気に入り</emphasis> への登録は、ダッシュボードで行います。</para>
 
               <orderedlist>
@@ -685,7 +685,7 @@
     </section>
 
     <section xml:id="brand">
-      <title xml:id="brand">ブランド</title>
+      <title>ブランド</title>
 
       <para><indexterm class="singular">
           <primary>ブランド</primary>
@@ -794,7 +794,7 @@
         <para><emphasis role="bold">代表管理者</emphasis></para>
 
         <para><indexterm class="singular">
-            <primary sortas="だいひょうかんりしゃのけんげｎ">代表者管理者の権限</primary>
+            <primary sortas="だいひょうかんりしゃのけんげｎ">代表管理者の権限</primary>
           </indexterm>会社の代表者は、eformsign の使用を完全に制御できる権限を持ちます。</para>
       </listitem>
 
@@ -1242,7 +1242,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>⑩ メンバーの削除</term>
+            <term><emphasis role="bold">⑩ メンバーの削除</emphasis></term>
 
             <listitem>
               <para><indexterm class="singular">
@@ -1274,7 +1274,7 @@
 
       <variablelist>
         <varlistentry>
-          <term>① グループ情報</term>
+          <term><emphasis role="bold">① グループ情報</emphasis></term>
 
           <listitem>
             <para>グループリストから情報を表示したいグループをクリックしたら、右側の <emphasis
@@ -1283,7 +1283,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>② メンバーリスト</term>
+          <term><emphasis role="bold">② メンバーリスト</emphasis></term>
 
           <listitem>
             <para>グループに属するメンバーのリストが表示され、メンバーを追加または削除できます。</para>
@@ -1291,7 +1291,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>③ フィールド値の設定</term>
+          <term><emphasis role="bold">③ フィールド値の設定</emphasis></term>
 
           <listitem>
             <para>グループに関連付けられたフィールドの値を設定できます。</para>
@@ -1299,17 +1299,17 @@
         </varlistentry>
 
         <varlistentry>
-          <term>④ グループの追加</term>
+          <term><emphasis role="bold">④ グループの追加</emphasis></term>
 
           <listitem>
             <para><emphasis role="bold">グループの追加</emphasis> をクリックすると、<emphasis
-            role="bold"> グループの追加</emphasis>
+            role="bold">グループの追加</emphasis>
             ポップアップウィンドウが表示されます。グループ名とグループの詳細を入力し、メンバーを検索して追加すれば、グループが作成されます。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>⑤ グループの削除</term>
+          <term><emphasis role="bold">⑤ グループの削除</emphasis></term>
 
           <listitem>
             <para><emphasis role="bold">ごみ箱</emphasis>
@@ -1458,7 +1458,7 @@
       </listitem>
 
       <listitem>
-        <para>印鑑・スタンプのイメージ領域をクリックすると、ローカル PC
+        <para><emphasis role="bold">印鑑・スタンプ </emphasis>のイメージ領域をクリックすると、ローカル PC
         に保存されている画像をアップロードできるポップアップウィンドウが表示されます。登録したい印鑑・スタンプ画像を選択します。</para>
 
         <figure>

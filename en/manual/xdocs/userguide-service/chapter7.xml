@@ -6,10 +6,10 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>Documents</title>
+  <title>Document Menus</title>
 
   <section>
-    <title>Documents</title>
+    <title>Document Menus</title>
 
     <para><indexterm class="singular">
         <primary>Documents</primary>
@@ -101,7 +101,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/inbox_layout.png" width="750"/>
+          <imagedata fileref="resources/inbox_layout.png" width="600"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -279,7 +279,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/category_search.png"/>
+            <imagedata fileref="resources/category_search.png" width="550"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -299,7 +299,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/actionrequiredbox-status-search.png"
-                     width="700"/>
+                     width="550"/>
         </imageobject>
       </mediaobject>
 
@@ -312,7 +312,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/inprocessbox-status-search.png"
-                     width="700"/>
+                     width="550"/>
         </imageobject>
       </mediaobject>
 
@@ -325,7 +325,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/completedbox-status-search.png"
-                     width="700"/>
+                     width="550"/>
         </imageobject>
       </mediaobject>
 
@@ -336,7 +336,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/documentmanage_status_search.png"
-                         width="700"/>
+                         width="550"/>
             </imageobject>
           </mediaobject>
         </listitem>
@@ -734,7 +734,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/document_status.png" width="400"/>
+              <imagedata fileref="resources/document_status.png" width="350"/>
             </imageobject>
           </mediaobject>
         </figure><figure>
@@ -742,7 +742,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/document_history.png" width="400"/>
+              <imagedata fileref="resources/document_history.png" width="350"/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -776,7 +776,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/download_popup.png" width="400"/>
+            <imagedata fileref="resources/download_popup.png" width="350"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -824,7 +824,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/column_type.png"/>
+            <imagedata fileref="resources/column_type.png" width="350"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -847,7 +847,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/draftbox-menu.png" width="700"/>
+            <imagedata fileref="resources/draftbox-menu.png" width="600"/>
           </imageobject>
         </mediaobject>
       </listitem>
@@ -859,7 +859,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/draftbox-documentlist.png"
-                       width="700"/>
+                       width="600"/>
           </imageobject>
         </mediaobject>
       </listitem>

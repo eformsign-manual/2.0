@@ -7,7 +7,7 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>Template - Form Builder</title>
+  <title>Creating templates using Web Form Builder</title>
 
   <section>
     <title>About Templates</title>
@@ -237,7 +237,7 @@
         <para><inlinemediaobject>
             <imageobject>
               <imagedata fileref="resources/en-manage-template-settings-.png"
-                         width="700"/>
+                         width="600"/>
             </imageobject>
           </inlinemediaobject></para>
       </listitem>
@@ -252,7 +252,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-manage-template-settings-fb.png"
-                       width="700"/>
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -305,7 +305,7 @@
               <mediaobject>
                 <imageobject>
                   <imagedata fileref="resources/en-template-name.png"
-                             width="250"/>
+                             width="150"/>
                 </imageobject>
               </mediaobject>
             </figure>
@@ -428,7 +428,8 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/en-generate-document-no.png"/>
+                <imagedata fileref="resources/en-generate-document-no.png"
+                           width="450"/>
               </imageobject>
             </mediaobject>
           </listitem>
@@ -480,7 +481,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-manage-documents-document-list.png"
-                       width="700"/>
+                       width="600"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -745,7 +746,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-generate-document-number.png"
-                       width="600"/>
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1028,7 +1029,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-template-settings-permissions-fb.png"
-                       width="700"/>
+                       width="600"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1090,7 +1091,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-template-settings-workflow-fb.png"
-                       width="700"/>
+                       width="600"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1124,7 +1125,7 @@
           <para><mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-template-settings-workflow-add-step-fb.png"
-                           width="700"/>
+                           width="600"/>
               </imageobject>
             </mediaobject></para>
         </listitem>
@@ -1144,7 +1145,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/en-template-settings-workflow-order-fb.png"
-                         width="500"/>
+                         width="400"/>
             </imageobject>
           </mediaobject>
         </listitem>
@@ -1172,7 +1173,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/en-template-settings-workflow-item-fb.png"
-                         width="700"/>
+                         width="600"/>
             </imageobject>
           </mediaobject>
         </listitem>
@@ -1191,7 +1192,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-template-settings-workflow-start-fb.png"
-                           width="700"/>
+                           width="600"/>
               </imageobject>
             </mediaobject>
 
@@ -1238,7 +1239,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-template-settings-workflow-approver-fb.png"
-                           width="700"/>
+                           width="600"/>
               </imageobject>
             </mediaobject>
 
@@ -1273,7 +1274,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-template-settings-workflow-internal-fb.png"
-                           width="700"/>
+                           width="600"/>
               </imageobject>
             </mediaobject>
 
@@ -1318,7 +1319,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-template-settings-workflow-external-fb.png"
-                           width="700"/>
+                           width="600"/>
               </imageobject>
             </mediaobject>
 
@@ -1396,7 +1397,7 @@
                   <mediaobject>
                     <imageobject>
                       <imagedata fileref="resources/template-fb-setting-workflow-outsider-1.png"
-                                 width="700"/>
+                                 width="600"/>
                     </imageobject>
                   </mediaobject>
                 </tip>
@@ -1419,7 +1420,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-template-settings-workflow-complete-fb.png"
-                           width="700"/>
+                           width="600"/>
               </imageobject>
             </mediaobject>
 
@@ -1461,7 +1462,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-template-settings-field-fb.png"
-                       width="700"/>
+                       width="600"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1591,7 +1592,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/en-template-settings-edit-notification-messages-popup-fb.png"
-                     width="700"/>
+                     width="600"/>
         </imageobject>
       </mediaobject>
 
@@ -1644,7 +1645,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/en-template-settings-notification-status.png"
-                     width="500"/>
+                     width="400"/>
         </imageobject>
       </mediaobject>
 
@@ -1746,7 +1747,7 @@
     <mediaobject>
       <imageobject>
         <imagedata fileref="resources/en-manage-template-menu-icon.png"
-                   width="700"/>
+                   width="600"/>
       </imageobject>
     </mediaobject>
 
@@ -1818,7 +1819,7 @@
     <mediaobject>
       <imageobject>
         <imagedata fileref="resources/en-manage-template-search.png"
-                   width="700"/>
+                   width="600"/>
       </imageobject>
     </mediaobject>
 

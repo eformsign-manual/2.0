@@ -492,14 +492,14 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">登録のイニシャル：</emphasis> 登録の署名と同様に、
-          <emphasis role="bold">マイ署名</emphasis>
+          <para><emphasis role="bold">登録のイニシャル：</emphasis> 登録の署名と同様に、<emphasis
+          role="bold">マイ署名</emphasis>
           にイニシャルが登録されている場合、署名欄をクリックすると登録済みのイニシャルが自動的に入力されます。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">登録の印鑑・スタンプ</emphasis>： 登録の署名と同様に、
-          <emphasis role="bold">マイ署名</emphasis>
+          <para><emphasis role="bold">登録の印鑑・スタンプ</emphasis>：
+          登録の署名と同様に、<emphasis role="bold">マイ署名</emphasis>
           に印鑑・スタンプが登録されている場合、署名欄をクリックすると登録済みの印鑑・スタンプが自動的に入力されます。</para>
         </listitem>
       </itemizedlist>
@@ -816,9 +816,9 @@
       <para><emphasis role="bold">ラジオ</emphasis> コンポーネント内の選択項目には、各選択グループに対して同じ
       <emphasis role="bold">名前</emphasis> を指定する必要があります。</para>
 
-      <para>たとえば、問題 1 に対して 1、2、3、4、5 の選択肢がある場合、1、2、3、4、5の項目に同じ 名前の
-      「問題1」を指定します。問題 2 の選択肢の1、2、3、4、5 に対しては 名前 を 「問題2」にします。次の例では、すべての選択項目の
-      <emphasis role="bold">名前</emphasis> を 「年齢の選択」とします。</para>
+      <para>たとえば、問題 1 に対して 1、2、3、4、5
+      の選択肢がある場合、1、2、3、4、5の項目に同じ名前の「問題1」を指定します。問題 2 の選択肢の 1、2、3、4、5
+      に対しては名前を「問題2」にします。次の例では、すべての選択項目の名前を「年齢の選択」とします。</para>
 
       <figure>
         <title>選択コンポーネントの設定の例</title>
@@ -895,8 +895,7 @@
       <para><emphasis role="bold">① 名前</emphasis></para>
 
       <para>リスト選択コンポーネントの <emphasis role="bold">名前</emphasis>
-      を入力します。たとえば、お気に入りの色を選択するコンポーネントの <emphasis role="bold">名前</emphasis>
-      は「お気に入りの色」とします。</para>
+      を入力します。たとえば、お気に入りの色を選択するコンポーネントの名前は「お気に入りの色」とします。</para>
 
       <para><emphasis role="bold">② アイテム数</emphasis></para>
 
@@ -998,7 +997,7 @@
       <para><emphasis role="bold">① 名前</emphasis></para>
 
       <para>日付コンポーネントの <emphasis role="bold">名前</emphasis>
-      を入力します。たとえば、休暇の開始日を選択するコンポーネントの名前 は 「休暇の開始日」 にします。</para>
+      を入力します。たとえば、休暇の開始日を選択するコンポーネントの名前は「休暇の開始日」にします。</para>
 
       <para><emphasis role="bold">② デフォルト値</emphasis></para>
 
@@ -1070,8 +1069,8 @@
       <para><emphasis role="bold">① 名前</emphasis></para>
 
       <para><emphasis role="bold">数字</emphasis> コンポーネントの <emphasis
-      role="bold">名前</emphasis> を入力します。たとえば、予約人員の数を入力するコンポーネントの 名前
-      は、「予約人数」にします。</para>
+      role="bold">名前</emphasis>
+      を入力します。たとえば、予約人員の数を入力するコンポーネントの名前は、「予約人数」にします。</para>
 
       <para><emphasis role="bold">② デフォルト値</emphasis></para>
 
@@ -1178,7 +1177,7 @@
       </mediaobject>
 
       <note>
-        <para>録音機能はeformsignアプリ意外では動作しません。</para>
+        <para>録音機能は eformsign アプリ意外では動作しません。</para>
       </note>
 
       <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
@@ -1196,8 +1195,8 @@
       <para><emphasis role="bold">① 名前</emphasis></para>
 
       <para><emphasis role="bold">録音</emphasis> コンポーネントの <emphasis
-      role="bold">名前</emphasis> を入力します。たとえば、録音を再生するコンポーネントの 名前
-      を「録音」に設定します。</para>
+      role="bold">名前</emphasis>
+      を入力します。たとえば、録音を再生するコンポーネントの名前を「録音」に設定します。</para>
 
       <para><emphasis role="bold">⑤ プレースホルダー</emphasis></para>
 
@@ -1258,8 +1257,8 @@
       <para><emphasis role="bold">① 名前</emphasis></para>
 
       <para><emphasis role="bold">添付</emphasis> コンポーネントの <emphasis
-      role="bold">名前</emphasis> を入力します。たとえば、在職証明書を添付するコンポーネントの 名前
-      は「在職証明書」とします。</para>
+      role="bold">名前</emphasis>
+      を入力します。たとえば、在職証明書を添付するコンポーネントの名前は「在職証明書」とします。</para>
 
       <para><emphasis role="bold">② プレースホルダー</emphasis></para>
 
@@ -1327,8 +1326,8 @@
       <para><emphasis role="bold">① 名前</emphasis></para>
 
       <para><emphasis role="bold">情報</emphasis> コンポーネントの <emphasis
-      role="bold">名前</emphasis> を入力します。たとえば、文書番号を入力すると、コンポーネントの 名前
-      は「文書番号」になります。</para>
+      role="bold">名前</emphasis>
+      を入力します。たとえば、文書番号を入力すると、コンポーネントの名前は「文書番号」になります。</para>
     </section>
   </section>
 

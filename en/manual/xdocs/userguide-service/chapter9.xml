@@ -30,7 +30,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/connect_1.png" width="750"/>
+          <imagedata fileref="resources/connect_1.png" width="650"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -49,7 +49,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/connect_2.png" width="750"/>
+            <imagedata fileref="resources/connect_2.png" width="650"/>
           </imageobject>
         </mediaobject>
       </figure></para>
@@ -68,7 +68,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/connect_4.png" width="750"/>
+            <imagedata fileref="resources/connect_4.png" width="650"/>
           </imageobject>
         </mediaobject>
       </figure></para>
@@ -87,7 +87,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/connect_5.png" width="750"/>
+            <imagedata fileref="resources/connect_5.png" width="650"/>
           </imageobject>
         </mediaobject>
       </figure></para>
@@ -114,7 +114,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/analytic_1.png" width="750"/>
+          <imagedata fileref="resources/analytic_1.png" width="650"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -131,7 +131,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/analytic_2.png" width="750"/>
+            <imagedata fileref="resources/analytic_2.png" width="650"/>
           </imageobject>
         </mediaobject>
       </figure></para>
@@ -144,7 +144,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/analytic_3.png" width="750"/>
+            <imagedata fileref="resources/analytic_3.png" width="600"/>
           </imageobject>
         </mediaobject>
       </figure></para>
@@ -158,7 +158,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/analytic_4.png" width="750"/>
+          <imagedata fileref="resources/analytic_4.png" width="600"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -172,7 +172,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/analytic_5.png" width="600"/>
+            <imagedata fileref="resources/analytic_5.png" width="550"/>
           </imageobject>
         </mediaobject>
       </figure></para>
@@ -182,7 +182,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/analytic_6.png" width="750"/>
+            <imagedata fileref="resources/analytic_6.png" width="600"/>
           </imageobject>
         </mediaobject>
       </figure></para>
@@ -200,7 +200,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/analytic_7.png" width="750"/>
+            <imagedata fileref="resources/analytic_7.png" width="600"/>
           </imageobject>
         </mediaobject>
       </figure></para>
@@ -213,7 +213,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/analytic_8.png" width="750"/>
+            <imagedata fileref="resources/analytic_8.png" width="600"/>
           </imageobject>
         </mediaobject>
       </figure></para>

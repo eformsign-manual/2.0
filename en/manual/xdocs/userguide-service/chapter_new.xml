@@ -271,7 +271,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/newformmyfile-recipientoption-member.png"
-                       width="400"/>
+                       width="600"/>
           </imageobject>
         </mediaobject>
       </listitem>
@@ -442,7 +442,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/bulk-creation-icon.png" width="300"/>
+            <imagedata fileref="resources/bulk-creation-icon.png" width="200"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -486,7 +486,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/bulk-creation-table-blue-section.png"
-                       width="700"/>
+                       width="600"/>
           </imageobject>
         </mediaobject>
       </note>

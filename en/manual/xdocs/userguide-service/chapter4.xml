@@ -52,7 +52,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata contentwidth="700"
+            <imagedata contentwidth="500"
                        fileref="resources/myfile_create_document.png"/>
           </imageobject>
         </mediaobject>
@@ -78,7 +78,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata contentwidth="864"
+            <imagedata contentwidth="500"
                        fileref="resources/myfile_create_document3.png"/>
           </imageobject>
         </mediaobject>
@@ -98,7 +98,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/web-form_1.png" width="700"/>
+              <imagedata fileref="resources/web-form_1.png" width="500"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -115,7 +115,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/web-form_2.png" width="700"/>
+              <imagedata fileref="resources/web-form_2.png" width="500"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -134,7 +134,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/web-form_3.png" width="700"/>
+          <imagedata fileref="resources/web-form_3.png" width="600"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -150,7 +150,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/web-form_4a.png" width="700"/>
+            <imagedata fileref="resources/web-form_4a.png" width="600"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -160,7 +160,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/web-form_4b.png" width="700"/>
+            <imagedata fileref="resources/web-form_4b.png" width="600"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -226,7 +226,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/component_web_1.png" width="700"/>
+            <imagedata fileref="resources/component_web_1.png" width="600"/>
           </imageobject>
         </mediaobject>
       </figure></para>
@@ -465,7 +465,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/signature.png" width="450"/>
+          <imagedata fileref="resources/signature.png" width="350"/>
         </imageobject>
       </mediaobject>
 
@@ -477,7 +477,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/Signature-component-properties_web.png"
-                       width="250"/>
+                       width="150"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -570,7 +570,8 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/Signature-component-properties_web_icon.png"/>
+              <imagedata fileref="resources/Signature-component-properties_web_icon.png"
+                         width="200"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -586,7 +587,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/Signature-component-properties_web_date.png"
-                         width="700"/>
+                         width="600"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -602,7 +603,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/Signature-component-properties_web_signer.png"
-                         width="200"/>
+                         width="150"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -640,7 +641,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/wfd-text-component-properties.png"
-                       width="400"/>
+                       width="300"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -782,7 +783,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/check-component-properties-1_web.png"
-                         width="250"/>
+                         width="150"/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -811,7 +812,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata contentwidth="692"
+          <imagedata contentwidth="500"
                      fileref="resources/check-component-style-settings.png"/>
         </imageobject>
       </mediaobject>
@@ -823,7 +824,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/check-component-properties-web-style.png"/>
+            <imagedata fileref="resources/check-component-properties-web-style.png"
+                       width="300"/>
           </imageobject>
         </mediaobject>
       </tip>
@@ -862,7 +864,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/Radio-component-properties_web.png"
-                         width="250"/>
+                         width="150"/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -884,7 +886,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/radio-items-should-have-same-ID_web.png"
-                       width="700"/>
+                       width="600"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -909,7 +911,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/Radio-component-properties_web-style.png"
-                       width="400"/>
+                       width="200"/>
           </imageobject>
         </mediaobject>
       </tip>
@@ -953,7 +955,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/combo-component-properties_web.png"
-                       width="250"/>
+                       width="150"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1002,7 +1004,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/toggle.png" width="450"/>
+          <imagedata fileref="resources/toggle.png" width="300"/>
         </imageobject>
       </mediaobject>
 
@@ -1014,7 +1016,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/toggle-component-properties_web.png"
-                       width="250"/>
+                       width="150"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1060,7 +1062,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/datetime-component-properties_02_web.png"
-                       width="250"/>
+                       width="150"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1142,7 +1144,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/number-component-properties_web.png"
-                       width="250"/>
+                       width="150"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1211,7 +1213,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/camera1.png" width="400"/>
+          <imagedata fileref="resources/camera1.png" width="200"/>
         </imageobject>
       </mediaobject>
 
@@ -1223,7 +1225,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/Camera-component-properties_web.png"
-                       width="250"/>
+                       width="150"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1272,7 +1274,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/record1.png" width="350"/>
+          <imagedata fileref="resources/record1.png" width="200"/>
         </imageobject>
       </mediaobject>
 
@@ -1288,7 +1290,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/record_component_web.png"
-                         width="250"/>
+                         width="150"/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -1353,7 +1355,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/Attachment-component-properties_web.png"
-                       width="250"/>
+                       width="150"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1485,7 +1487,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/component_web_2.png" width="730"/>
+            <imagedata fileref="resources/component_web_2.png" width="600"/>
           </imageobject>
         </mediaobject>
       </figure></para>

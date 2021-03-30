@@ -567,7 +567,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-myprofile-personal.png"
-                       width="700"/>
+                       width="400"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -620,7 +620,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-myprofile-company.png"
-                       width="700"/>
+                       width="400"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -723,7 +723,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-manage-company-profile-edit.png"
-                           width="700"/>
+                           width="500"/>
               </imageobject>
             </mediaobject>
           </figure>
@@ -746,7 +746,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/en-manage-company-profile-edit2.png"
-                     width="700"/>
+                     width="500"/>
         </imageobject>
       </mediaobject>
     </section>
@@ -782,7 +782,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-manage-company-brand.png"
-                       width="700"/>
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -830,7 +830,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-manage-company-brand-logo-popup.png"
-                           width="650"/>
+                           width="500"/>
               </imageobject>
             </mediaobject>
           </figure>
@@ -851,7 +851,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-manage-company-brand-logo-changed.png"
-                           width="700"/>
+                           width="500"/>
               </imageobject>
             </mediaobject>
           </figure>
@@ -993,7 +993,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-manage-company-delegate-admin-role.png"
-                           width="700"/>
+                           width="600"/>
               </imageobject>
             </mediaobject>
           </figure>
@@ -1193,7 +1193,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-manage-template-settings-icon.png"
-                           width="700"/>
+                           width="600"/>
               </imageobject>
             </mediaobject>
           </figure>
@@ -1209,7 +1209,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-template-setting-set-permissions.png"
-                           width="700"/>
+                           width="600"/>
               </imageobject>
             </mediaobject>
           </figure>
@@ -1244,7 +1244,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/en-side-menu-manage-group-members.png"
-                     width="700"/>
+                     width="600"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -1264,7 +1264,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-manage-members-page.png"
-                       width="700"/>
+                       width="600"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1391,7 +1391,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-manag-groups-page.png"
-                       width="700"/>
+                       width="600"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1481,14 +1481,14 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/en-side-menu-my-signature.png"
-                         width="700"/>
+                         width="450"/>
             </imageobject>
           </mediaobject>
 
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/en-my-signature-main.png"
-                         width="700"/>
+                         width="450"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -1504,7 +1504,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/en-my-signature-register.png"
-                         width="500"/>
+                         width="400"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -1595,7 +1595,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/en-my-signature-register-stamp.png"
-                         width="700"/>
+                         width="600"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -1612,7 +1612,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/en-my-signature-register-stamp-popup.png"
-                         width="700"/>
+                         width="600"/>
             </imageobject>
           </mediaobject>
         </figure>
