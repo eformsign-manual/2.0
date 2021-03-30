@@ -1482,14 +1482,14 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/en-side-menu-my-signature.png"
-                         width="600"/>
+                         width="450"/>
             </imageobject>
           </mediaobject>
 
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/en-my-signature-main.png"
-                         width="600"/>
+                         width="450"/>
             </imageobject>
           </mediaobject>
         </figure>

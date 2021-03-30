@@ -369,7 +369,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/use_flow_web.png" width="700"/>
+            <imagedata contentwidth="600" fileref="resources/use_flow_web.png"
+                       width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -406,7 +407,7 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata contentwidth="699" fileref="resources/use_flow.png"
+                <imagedata contentwidth="600" fileref="resources/use_flow.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
@@ -439,7 +440,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/use_flow2.png" width="700"/>
+            <imagedata contentwidth="600" fileref="resources/use_flow2.png"
+                       width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
