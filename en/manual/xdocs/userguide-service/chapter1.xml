@@ -6,7 +6,7 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>Overview</title>
+  <title>Introduction to eformsign</title>
 
   <section>
     <title>Introduction to eformsign</title>
@@ -358,8 +358,9 @@
       date. You can easily and freely send a document by uploading a file,
       without the need to create a template. Just simply add components to the
       uploaded document, set the workflow in the <emphasis role="bold">Add
-      recipients</emphasis> step, and then press the S<emphasis
-      role="bold">tart Now button</emphasis> to send.</para>
+      recipients</emphasis> step, and then press the <emphasis
+      role="bold">S</emphasis><emphasis role="bold">tart Now button</emphasis>
+      to send.</para>
 
       <para>Also, before sending a document to recipients, you can temporarily
       save it as a draft and then send it later.</para>

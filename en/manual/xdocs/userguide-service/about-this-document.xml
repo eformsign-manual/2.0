@@ -65,17 +65,17 @@
     </listitem>
 
     <listitem>
-      <para>Chapter 4: Introduction to Web Form Designer</para>
-
-      <para>Provides an overview of eformsign Web Form Designer and describes
-      how to use its features and components.</para>
-    </listitem>
-
-    <listitem>
-      <para>Chapter 5: Introduction to Form Builder</para>
+      <para>Chapter 4: Introduction to Form Builder</para>
 
       <para>Provides and overview of eformsign Form Builder and describes how
       to use its features and components.</para>
+    </listitem>
+
+    <listitem>
+      <para>Chapter 5: Introduction to Web Form Designer</para>
+
+      <para>Provides an overview of eformsign Web Form Designer and describes
+      how to use its features and components.</para>
     </listitem>
 
     <listitem>
@@ -86,7 +86,7 @@
     </listitem>
 
     <listitem>
-      <para>Chapter 7: Creating templates using Web Form Builder</para>
+      <para>Chapter 7: Creating templates using Form Builder</para>
 
       <para>Describes how to configure and manage templates created using Form
       Builder.</para>

@@ -7,20 +7,20 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>Templates - Web Form Designer</title>
+  <title>Creating templates using Web Form Designer</title>
 
   <section>
     <title>About Templates</title>
 
     <para><indexterm class="singular">
-        <primary>Web form designer</primary>
+        <primary>Web Form Designer</primary>
 
         <secondary>Templates</secondary>
       </indexterm>Templates are <emphasis role="bold">electronic documents
     </emphasis>used for the eformsign service. They are e-documents converted
     from existing paper forms such as applications, contracts, and agreements.
     You can create and upload templates in the eformsign service with its Web
-    form designer or Form builder. For more information about Form builder,
+    Form Designer or Form Builder. For more information about Form Builder,
     refer to <xref linkend="template_fb"/>.</para>
 
     <section>
@@ -37,12 +37,12 @@
       online.</para>
 
       <note>
-        <para>For more information about Web form designer, please refer to
+        <para>For more information about Web Form Designer, please refer to
         <xref linkend="webform"/>.</para>
       </note>
 
       <para>Convert the file you want into a PDF file and upload it to
-      eformsign Web form designer.</para>
+      eformsign Web Form Designer.</para>
 
       <orderedlist>
         <listitem>
