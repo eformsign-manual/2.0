@@ -649,7 +649,7 @@
 
       <para>Enters the ID of the Text/Multiline component. For example, the ID
       of the component in which John Doe, Jane Doe, etc. are entered can be
-      named ‘personName’</para>
+      named ‘personName’.</para>
 
       <note>
         <para>All components must have an ID. An ID is automatically generated
