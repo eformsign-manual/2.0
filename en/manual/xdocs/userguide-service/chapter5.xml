@@ -57,7 +57,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/managetemplate-upload-en.png"
-                           width="700"/>
+                           width="600"/>
               </imageobject>
             </mediaobject>
           </figure>
@@ -68,7 +68,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-managetemplate-upload-popup.png"
-                           width="700"/>
+                           width="600"/>
               </imageobject>
             </mediaobject>
           </figure>
@@ -84,7 +84,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-template-settings-wfdesign.png"
-                           width="700"/>
+                           width="600"/>
               </imageobject>
             </mediaobject>
           </figure>
@@ -186,8 +186,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata contentwidth="276"
-                       fileref="resources/en-workflow-steps.png"/>
+            <imagedata contentwidth="200"
+                       fileref="resources/en-workflow-steps.png" width="600"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -268,7 +268,7 @@
 
         <para><inlinemediaobject>
             <imageobject>
-              <imagedata fileref="resources/template-settings.png" width="700"/>
+              <imagedata fileref="resources/template-settings.png" width="600"/>
             </imageobject>
           </inlinemediaobject></para>
       </listitem>
@@ -282,7 +282,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/en-create-template.png" width="600"/>
+            <imagedata fileref="resources/en-create-template.png" width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -322,7 +322,7 @@
               <mediaobject>
                 <imageobject>
                   <imagedata fileref="resources/en-template-name.png"
-                             width="250"/>
+                             width="150"/>
                 </imageobject>
               </mediaobject>
             </figure>
@@ -345,7 +345,8 @@
 
               <mediaobject>
                 <imageobject>
-                  <imagedata fileref="resources/en-template-name-abb.png"/>
+                  <imagedata fileref="resources/en-template-name-abb.png"
+                             width="150"/>
                 </imageobject>
               </mediaobject>
             </figure>
@@ -445,7 +446,8 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/en-generate-document-no.png"/>
+                <imagedata fileref="resources/en-generate-document-no.png"
+                           width="400"/>
               </imageobject>
             </mediaobject>
           </listitem>
@@ -499,7 +501,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-manage-documents-document-list.png"
-                       width="700"/>
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -513,7 +515,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-document-naming-rule.png"
-                       width="600"/>
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -728,8 +730,9 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata contentwidth="427"
-                       fileref="resources/en-allow-document-name-change.png"/>
+            <imagedata contentwidth="350"
+                       fileref="resources/en-allow-document-name-change.png"
+                       width="450"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -765,7 +768,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-generate-document-number.png"
-                       width="600"/>
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -912,7 +915,7 @@
               <mediaobject>
                 <imageobject>
                   <imagedata fileref="resources/en-document-number-component.png"
-                             width="750"/>
+                             width="600"/>
                 </imageobject>
               </mediaobject>
             </listitem>
@@ -951,7 +954,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-completed-document-box-docno.png"
-                           width="700"/>
+                           width="600"/>
               </imageobject>
             </mediaobject>
           </figure>
@@ -962,7 +965,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-completed-document-list-docno-column.png"
-                           width="700"/>
+                           width="600"/>
               </imageobject>
             </mediaobject>
           </figure>
@@ -1009,7 +1012,7 @@
           <para><inlinemediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-manage-template-search-advanced.png"
-                           width="700"/>
+                           width="600"/>
               </imageobject>
             </inlinemediaobject></para>
 
@@ -1057,7 +1060,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-template-settings-permissions.png"
-                       width="700"/>
+                       width="600"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1103,7 +1106,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/template-setting-auth-doc-new.PNG"
-                         width="700"/>
+                         width="600"/>
             </imageobject>
           </mediaobject>
         </listitem>
@@ -1126,7 +1129,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-template-settings-workflow.png"
-                       width="500"/>
+                       width="400"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1159,7 +1162,7 @@
           <para><mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-template-settings-workflow-add-step.png"
-                           width="700"/>
+                           width="600"/>
               </imageobject>
             </mediaobject></para>
         </listitem>
@@ -1179,7 +1182,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-template-settings-workflow-order.png"
-                       width="500"/>
+                       width="400"/>
           </imageobject>
         </mediaobject>
       </tip>
@@ -1206,7 +1209,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/en-template-settings-workflow-item.png"
-                         width="700"/>
+                         width="500"/>
             </imageobject>
           </mediaobject>
         </listitem>
@@ -1225,7 +1228,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-template-settings-workflow-start.png"
-                           width="700"/>
+                           width="500"/>
               </imageobject>
             </mediaobject>
 
@@ -1272,7 +1275,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-template-settings-workflow-approver.png"
-                           width="700"/>
+                           width="500"/>
               </imageobject>
             </mediaobject>
 
@@ -1307,7 +1310,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-template-settings-workflow-internal.png"
-                           width="700"/>
+                           width="500"/>
               </imageobject>
             </mediaobject>
 
@@ -1352,7 +1355,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-template-settings-workflow-external.png"
-                           width="700"/>
+                           width="500"/>
               </imageobject>
             </mediaobject>
 
@@ -1423,7 +1426,7 @@
             <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/en-template-settings-workflow-complete.png"
-                           width="700"/>
+                           width="500"/>
               </imageobject>
             </mediaobject>
 
@@ -1465,7 +1468,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-template-settings-field.png"
-                       width="700"/>
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1596,7 +1599,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/en-template-settings-edit-notification-messages-popup.png"
-                     width="700"/>
+                     width="500"/>
         </imageobject>
       </mediaobject>
 
@@ -1751,7 +1754,7 @@
     <mediaobject>
       <imageobject>
         <imagedata fileref="resources/en-manage-template-menu-icon-wd.png"
-                   width="700"/>
+                   width="500"/>
       </imageobject>
     </mediaobject>
 
@@ -1836,7 +1839,7 @@
       <imageobject>
         <imagedata depth="resources/en-manage-template-search.png"
                    fileref="resources/en-manage-template-search.png"
-                   width="700"/>
+                   width="500"/>
       </imageobject>
     </mediaobject>
 

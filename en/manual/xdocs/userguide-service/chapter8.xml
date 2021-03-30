@@ -6,7 +6,7 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>Customizing eformsign</title>
+  <title>Customization</title>
 
   <section>
     <title>Manage Custom Fields<indexterm class="singular">
@@ -30,7 +30,7 @@
 
     <mediaobject>
       <imageobject>
-        <imagedata fileref="resources/Customfield.png" width="700"/>
+        <imagedata fileref="resources/Customfield.png" width="600"/>
       </imageobject>
     </mediaobject>
 
@@ -120,7 +120,7 @@
               <imageobject>
                 <imagedata contentwidth="500"
                            fileref="resources/customfield-edit.PNG"
-                           width="700"/>
+                           width="600"/>
               </imageobject>
             </mediaobject>
           </listitem>
@@ -158,7 +158,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/notification-template-manage.png"
-                     width="700"/>
+                     width="600"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -254,7 +254,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/notification-template-new.PNG"
-                       width="700"/>
+                       width="600"/>
           </imageobject>
         </mediaobject>
       </listitem>
