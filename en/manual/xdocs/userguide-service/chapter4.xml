@@ -48,7 +48,7 @@
     <orderedlist>
       <listitem>
         <para>Click the <emphasis role="bold">New from my file</emphasis>
-        menu</para>
+        menu.</para>
 
         <mediaobject>
           <imageobject>
@@ -379,7 +379,7 @@
                   <primary>Component</primary>
 
                   <secondary>Document ID</secondary>
-                </indexterm>Enter the document ID in a document.</para>
+                </indexterm>Enters the document ID in a document.</para>
             </listitem>
 
             <listitem>
@@ -402,7 +402,7 @@
     <para>All components have common and unique properties. When you click the
     component added, the <emphasis role="bold">Properties</emphasis> tab where
     you can set and see detailed properties of each component will be
-    displayed on the right side of the Web form designer screen. Common
+    displayed on the right side of the Web Form Designer screen. Common
     properties include ID and Tooltip Text, and the meaning of each property
     is as follows:</para>
 

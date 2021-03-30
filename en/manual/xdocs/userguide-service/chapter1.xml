@@ -358,8 +358,9 @@
       date. You can easily and freely send a document by uploading a file,
       without the need to create a template. Just simply add components to the
       uploaded document, set the workflow in the <emphasis role="bold">Add
-      recipients</emphasis> step, and then press the S<emphasis
-      role="bold">tart Now button</emphasis> to send.</para>
+      recipients</emphasis> step, and then press the <emphasis
+      role="bold">S</emphasis><emphasis role="bold">tart Now button</emphasis>
+      to send.</para>
 
       <para>Also, before sending a document to recipients, you can temporarily
       save it as a draft and then send it later.</para>
@@ -381,7 +382,7 @@
 
       <para>There are two ways to create a document from a template: uploading
       a file on eformsign and creating a template using Web Form Designer, and
-      creating a tempalte using Microsoft Office using Form Builder and
+      creating a template using Microsoft Office using Form Builder and
       uploading it on eformsign.</para>
 
       <orderedlist>
