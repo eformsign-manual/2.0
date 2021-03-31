@@ -40,7 +40,7 @@
 
     <itemizedlist>
       <listitem>
-        <para>Uploading a PD file in the <emphasis role="bold">New from my
+        <para>Uploading a PDF file in the <emphasis role="bold">New from my
         file</emphasis> menu.</para>
       </listitem>
     </itemizedlist>
@@ -833,7 +833,7 @@
       <para><emphasis role="bold">④ Unchecked style</emphasis></para>
 
       <para>You can select the style of each component that is not selected.
-      For unchecked style, shecks display square boxes, radio buttons display
+      For unchecked style, checks display square boxes, radio buttons display
       circles, and circles display nothing.</para>
 
       <para><emphasis role="bold">⑤ Tooltip text</emphasis></para>

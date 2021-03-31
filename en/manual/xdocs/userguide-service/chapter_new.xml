@@ -39,7 +39,7 @@
       screen are shown only to members who are given template usage permission
       for a given template.</para>
 
-      <para>You can create a template using Web From Designer or Form Builder.
+      <para>You can create a template using Web Form Designer or Form Builder.
       For more information, refer to <xref linkend="template_wd"/> and <xref
       linkend="template_fb"/>.</para>
     </note>
