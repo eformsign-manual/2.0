@@ -316,7 +316,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>③ カテゴリ</term>
+          <term>③ カテゴリー</term>
 
           <listitem>
             <para>テンプレートをタイプごとに区分するために使用します。カテゴリー名で<emphasis
@@ -423,6 +423,8 @@
 
           <secondary>文書タイトルの自動生成ルール</secondary>
         </indexterm></para>
+
+      <para><emphasis role="bold">文書タイトルの自動生成ルール</emphasis></para>
 
       <para>文書に関する情報が文書タイトルに自動で入力されるよう設定することができます。文書タイトルの自動生成ルールを設定すると、文書の作成時の情報に基づいて文書タイトルが生成されます。この文書タイトルは、すべての文書トレイ（要処理、進行中、完了文書）と
       文書管理メニューの文書リストで確認できます。</para>
