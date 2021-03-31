@@ -56,6 +56,21 @@
             </imageobject>
           </mediaobject>
         </figure>
+
+        <note>
+          <para>保存パスの設定ポップアップは、次の通りです。</para>
+
+          <para>デフォルトのパスは、eformsign のサブフォルダーとして会社名が入ります。<emphasis
+          role="bold">新しいフォルダー</emphasis>
+          ボタンをクリックして、新しいフォルダーを作成し、保存パスを変更することもできます。</para>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="400" fileref="resources/connect_3.png"
+                         width="400"/>
+            </imageobject>
+          </mediaobject>
+        </note>
       </listitem>
 
       <listitem>
