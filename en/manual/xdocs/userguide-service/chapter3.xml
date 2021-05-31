@@ -44,7 +44,7 @@
     </figure>
 
     <section>
-      <title>Downloading Installing Form Builder</title>
+      <title>Downloading and Installing Form Builder</title>
 
       <para><indexterm class="singular">
           <primary>Download Form Builder</primary>
@@ -509,8 +509,8 @@
           </mediaobject>
         </figure>
 
-        <para>2.Click the component type you want to add in the ribbon menu of
-        <emphasis role="bold">OZ in Word</emphasis> or <emphasis
+        <para>2. Click the component type you want to add in the ribbon menu
+        of <emphasis role="bold">OZ in Word</emphasis> or <emphasis
         role="bold">OZ in PowerPoint</emphasis>.</para>
 
         <figure>
