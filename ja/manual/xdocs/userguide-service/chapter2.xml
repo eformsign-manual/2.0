@@ -76,7 +76,8 @@
               <para><emphasis role="bold">要処理文書：</emphasis><indexterm
                   class="singular">
                   <primary sortas="ようしょりぶんしょ">要処理文書</primary>
-                </indexterm>自分が作成または処理済みの文書で、決裁依頼や作成依頼など、自分が処理する必要のある文書のリストを表示します。</para>
+                </indexterm>自分が処理する必要のある文書（他のメンバーから依頼された文書）、またはメンバーではない受信者に送信した文書のうち処理されていない文書のリストを表示します。
+              </para>
             </listitem>
 
             <listitem>
